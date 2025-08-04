@@ -46,6 +46,11 @@ def get_weapon_damage(weapon):
         contributions[d["element_id"]] = d[field]
     return contributions
 
+def get_item_set(item, item_sets):
+    if not item["hasParentSet"]:
+        return None
+    return item_sets[item["parentSet"]["id"]]
+
 class Character(object):
     def __init__(self, level):
         self.stats = {}
@@ -63,10 +68,137 @@ class Character(object):
         pass
 
 class Chromosome(object):
-    def __init__(self, items, item_sets, chromosome):
+    def __init__(self, character, items, item_sets, chromosome):
         self.chromosome = chromosome
-        self.items = [items[i] for i in chromosome]
+        self.character = character
         
+        self.items = [items[i] for i in self.chromosome]
+        self.item_sets = [get_item_set(i, item_sets) \
+                          for i in self.items]
+        self.item_sets = [i for i in self.item_sets if i]
+
+        # Get the item contributions
+        self.item_contributions = self.get_item_contributions()
+        # Get the set contributions
+        self.set_contributions = self.get_set_contributions()
+
+        self.weapon = self.get_weapon()
+        self.totals = self.get_totals()
+
+        # Interpreters
+        # Interpreters/Mappers to characteristics per element
+        self.damage_mapper = {
+            # Damage
+                189 : 36, # Air,
+                214 : 22, # Water
+                198 : 13, # Fire
+                194 : 45, # Earth
+                195 : 45, # Neutral (by earth)
+            # Steal
+                224 : 36, # Air,
+                203 : 22, # Water
+                193 : 13, # Fire
+                221 : 45, # Earth
+                223 : 45, # Neutral
+            }
+
+        self.bonus_damage_mapper = {
+            # Damage
+                189 : 47, # Air,
+                214 : 27, # Water
+                198 : 61, # Fire
+                194 : 48, # Earth
+                195 : 49, # Neutral
+            # Steal
+                224 : 47, # Air,
+                203 : 27, # Water
+                193 : 61, # Fire
+                221 : 48, # Earth
+                223 : 49, # Neutral
+        }
+
+        self.damage = self.get_damage()
+
+    def get_weapon(self):
+        return next(i for i in self.items if i["type"]["superTypeId"] == 2)
+    
+    def get_item_contributions(self):
+        # Item contributions
+        lst = [get_item_contribution(item) for item in self.items]
+        return pd.DataFrame(lst).sum(axis=0).to_dict()
+    
+    def get_set_contributions(self):
+        # Set effects contributions
+        lst = []
+        seen_sets = set()
+        for item_set in self.item_sets:
+            if item_set["ankama_id"] in seen_sets:
+                continue
+            seen_sets.add(item_set["ankama_id"])
+            overlap = len(set([i["ankama_id"] for i in self.items]) & set(item_set["items"]))
+            lst.append(get_set_contribution(item_set, overlap))
+        return pd.DataFrame(lst).sum(axis=0).to_dict()
+    
+    def get_totals(self):
+        # Get the character stats
+        character_contributions = self.character.stats.copy()
+        return pd.DataFrame(
+            [character_contributions,
+              self.item_contributions,
+                self.set_contributions]).sum(axis=0).to_dict()
+    
+    def get_damage(self):
+        # totals = self.get_totals(chromosome)
+        # Character stats
+        power = self.totals.get("32",0)
+        base_crit_chance = self.totals.get("29",0)
+        base_crit_added_damage = self.totals.get("38",0)
+
+        # Critical hit logic
+        crit_bonus = self.weapon["criticalHitBonus"] \
+            if not pd.isna(self.weapon["criticalHitBonus"]) else 0
+        weapon_crit_chance = self.weapon["criticalHitProbability"] \
+            if not pd.isna(self.weapon["criticalHitProbability"]) else 0
+        crit_chance = max(min(weapon_crit_chance + base_crit_chance,100), 0)  # Ensure crit_chance is between 0 and 100
+        expected_crit_bonus = max(crit_bonus * crit_chance/100, 0) # Expected value of distributionß
+        expected_crit_added_damage = max(base_crit_added_damage * crit_chance/100, 0) # Expected value of distribution
+        # max_crit_bonus = crit_bonus # Use this for maximum possible
+
+        weapon_damage = get_weapon_damage(self.weapon)
+
+        # Calculate total damage
+        damage = 0
+        for element_id,weapon_base_damage in weapon_damage.items():
+            # Get the stat and base damage
+            if element_id not in self.damage_mapper:
+                continue
+            stat = self.damage_mapper[element_id]
+            stat_base = self.totals.get(stat,0)
+
+            # Get the added bonus damage from the stat
+            bonus_damage_id = self.bonus_damage_mapper[element_id]
+            added_bonus = self.totals.get(bonus_damage_id, 0)
+            damage += (weapon_base_damage + expected_crit_bonus) * (1+(stat_base+power)/100) + expected_crit_added_damage + added_bonus
+        return damage
+    
+    def are_item_conditions_met(self):
+        # TODO: Code this
+        return True
+    
+    @property
+    def fitness(self):
+        # Penalizations
+        if len(set(self.chromosome[-6:])) < len(self.chromosome[-6:]):
+            # Some dofus or trophies are duplicated
+            return 0
+        if len(set(self.chromosome[2:4])) < 2:
+            # Some rings are duplicated
+            return 0
+
+        for item in self.items:
+            if not self.are_item_conditions_met():
+                return 0
+        return self.damage
 
 class Optimizer(object):
     def __init__(self, character, items, item_sets):
@@ -108,43 +240,12 @@ class Optimizer(object):
         self.pools = []
         for t,count in self.pool_types:
             for _ in range(count):
-                self.pools.append([id for id in items if items[id]["type"]["superTypeId"] == t])
+                self.pools.append([id \
+                                    for id in items if items[id]["type"]["superTypeId"] == t])
         self.NUM_TYPES = len(self.pools)
         print(f"Total pools: {len(self.pools)} with sizes {[len(pool) for pool in self.pools]}")
 
         self.population = [self.random_chromosome() for _ in range(self.POPULATION_SIZE)]
-
-        # Interpreters
-        # Interpreters/Mappers to characteristics per element
-        self.damage_mapper = {
-            # Damage
-                189 : 36, # Air,
-                214 : 22, # Water
-                198 : 13, # Fire
-                194 : 45, # Earth
-                195 : 45, # Neutral (by earth)
-            # Steal
-                224 : 36, # Air,
-                203 : 22, # Water
-                193 : 13, # Fire
-                221 : 45, # Earth
-                223 : 45, # Neutral
-            }
-
-        self.bonus_damage_mapper = {
-            # Damage
-                189 : 47, # Air,
-                214 : 27, # Water
-                198 : 61, # Fire
-                194 : 48, # Earth
-                195 : 49, # Neutral
-            # Steal
-                224 : 47, # Air,
-                203 : 27, # Water
-                193 : 61, # Fire
-                221 : 48, # Earth
-                223 : 49, # Neutral
-        }
 
     @property
     def item_descriptions(self):
@@ -156,134 +257,47 @@ class Optimizer(object):
                 item_descriptions[effect["element_id"]] = effect["type"][self.LANGUAGE]
         return item_descriptions
 
-    def get_item_set(self, item):
-        if not item["hasParentSet"]:
-            return None
-        return self.item_sets[item["parentSet"]["id"]]
-
     # Genetic Algorithm Functions
     def random_chromosome(self):
         # Create a random chromosome sampling from each pool
-        return [random.choice(slot_pool) for slot_pool in self.pools]
+        chromosome_ids = [random.choice(slot_pool) for slot_pool in self.pools]
+        return Chromosome(self.character,
+                          self.items,
+                          self.item_sets,
+                          chromosome_ids)
         # return [random.randint(0, len(slot_pool)-1) for slot_pool in self.pools]
 
     # Mutation
     def mutate(self,chromosome):
         # Create a new chromosome by mutating some slots
-        new_chromosome = chromosome[:]
+        new_chromosome = chromosome.chromosome[:]
         for i, slot_items in enumerate(self.pools):
             if random.random() < self.MUTATION_RATE:
                 new_chromosome[i] = random.choice(slot_items)
-        return new_chromosome
+        return Chromosome(self.character,
+                          self.items,
+                          self.item_sets,
+                          new_chromosome)
 
     # Crossover
     def crossover(self, parent1, parent2):
         # Perform single-point crossover
         point = random.randint(1, self.NUM_TYPES-2)
-        return parent1[:point] + parent2[point:]
+        return Chromosome(self.character,
+                          self.items,
+                          self.item_sets,
+                          parent1.chromosome[:point] + parent2.chromosome[point:])
 
-    def get_chromosome_weapon(self, chromosome):
-        return next(self.items[i] \
-                    for i in chromosome if self.items[i]["type"]["superTypeId"] == 2)
-
-    def get_chromosome_item_contributions(self, chromosome):
-        # Item contributions
-        chromosome_items = [self.items[i] for i in chromosome]
-        lst = [get_item_contribution(item) for item in chromosome_items]
-        return pd.DataFrame(lst).sum(axis=0).to_dict()
-
-    def get_chromosome_set_contributions(self, chromosome):
-        chromosome_items = [self.items[i] for i in chromosome]
-        # Set effects contributions
-        lst = []
-        seen_sets = set()
-        for item in chromosome_items:
-            item_set = self.get_item_set(item)
-            if item_set is None:
-                continue
-            if item_set["ankama_id"] in seen_sets:
-                continue
-            seen_sets.add(item_set["ankama_id"])
-            overlap = len(set([i["ankama_id"] for i in chromosome_items]) & set(item_set["items"]))
-            lst.append(get_set_contribution(item_set, overlap))
-        return pd.DataFrame(lst).sum(axis=0).to_dict()
-
-    def get_totals(self, chromosome):
-        # Get the character stats
-        character_contributions = self.character.stats.copy()
-
-        # Get the item contributions
-        item_contributions = self.get_chromosome_item_contributions(chromosome)
-
-        # Get the set contributions
-        set_contributions = self.get_chromosome_set_contributions(chromosome)
-
-        return pd.DataFrame(
-            [character_contributions,
-              item_contributions,
-                set_contributions]).sum(axis=0).to_dict()
-
-    def get_damage(self, weapon, totals):
-        # totals = self.get_totals(chromosome)
-
-        # Character stats
-        power = totals.get("32",0)
-        base_crit_chance = totals.get("29",0)
-        base_crit_added_damage = totals.get("38",0)
-
-        # Critical hit logic
-        crit_bonus = weapon["criticalHitBonus"] if not pd.isna(weapon["criticalHitBonus"]) else 0
-        weapon_crit_chance = weapon["criticalHitProbability"] if not pd.isna(weapon["criticalHitProbability"]) else 0
-        crit_chance = max(min(weapon_crit_chance + base_crit_chance,100), 0)  # Ensure crit_chance is between 0 and 100
-        expected_crit_bonus = max(crit_bonus * crit_chance/100, 0) # Expected value of distributionß
-        expected_crit_added_damage = max(base_crit_added_damage * crit_chance/100, 0) # Expected value of distribution
-        # max_crit_bonus = crit_bonus # Use this for maximum possible
-
-        weapon_damage = get_weapon_damage(weapon)
-        # Calculate total damage
-        damage = 0
-        for element_id,weapon_base_damage in weapon_damage.items():
-            # Get the stat and base damage
-            if element_id not in self.damage_mapper:
-                continue
-            stat = self.damage_mapper[element_id]
-            stat_base = totals.get(stat,0)
-
-            # Get the added bonus damage from the stat
-            bonus_damage_id = self.bonus_damage_mapper[element_id]
-            added_bonus = totals.get(bonus_damage_id, 0)
-            damage += (weapon_base_damage + expected_crit_bonus) * (1+(stat_base+power)/100) + expected_crit_added_damage + added_bonus
-        return damage
+    def fitness(chromosome):
+        return chromosome.fitness
     
-    def are_item_conditions_met(self, item, totals):
-        # TODO: Code this
-        return True
-
-    def fitness(self, chromosome):
-        # Penalizations
-        if len(set(chromosome[-self.pool_types[-1][1]:])) < self.pool_types[-1][1]:
-            # Some dofus or trophies are duplicated
-            return 0
-        if len(set(chromosome[2:4])) < 2:
-            # Some rings are duplicated
-            return 0
-        chromosome_items = [self.items[i] for i in chromosome]
-        totals = self.get_totals(chromosome)
-        weapon = self.get_chromosome_weapon(chromosome)
-        damage = self.get_damage(weapon,totals)
-
-        for item in chromosome_items:
-            if not self.are_item_conditions_met(item, totals):
-                return 0
-        return damage
-
     def select(self, population, k=10):
         # Select top k chromosomes
         scored = sorted(population, key=self.fitness, reverse=True)
         return scored[:k]
 
     def optimize(self):
-        for gen in tqdm(range(self.NUM_GENERATIONS), desc="Generations"):
+        for _ in tqdm(range(self.NUM_GENERATIONS), desc="Generations"):
             # Select best individuals
             selected = self.select(self.population, k=10)
             # Generate new population

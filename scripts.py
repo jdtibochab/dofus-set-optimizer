@@ -13,6 +13,35 @@ elements = [
     10, # Wisdom
 ]
 
+damage_mapper = {
+        # Damage
+            189 : 36, # Air,
+            214 : 22, # Water
+            198 : 13, # Fire
+            194 : 45, # Earth
+            195 : 45, # Neutral (by earth)
+        # Steal
+            224 : 36, # Air,
+            203 : 22, # Water
+            193 : 13, # Fire
+            221 : 45, # Earth
+            223 : 45, # Neutral
+        }
+bonus_damage_mapper = {
+        # Damage
+            189 : 47, # Air,
+            214 : 27, # Water
+            198 : 61, # Fire
+            194 : 48, # Earth
+            195 : 49, # Neutral
+        # Steal
+            224 : 47, # Air,
+            203 : 27, # Water
+            193 : 61, # Fire
+            221 : 48, # Earth
+            223 : 49, # Neutral
+    }
+
 # Filters
 def get_item_contribution(item):
     # Get the effects of the item
@@ -24,7 +53,6 @@ def get_item_contribution(item):
         field = "max" if d["min_max_irrelevant"] == 0 else "min"
         contributions[d["element_id"]] = d[field]
     return contributions
-
 
 def get_set_contribution(item_set,overlap):
     set_effects = item_set["effects"][str(overlap)]
@@ -84,40 +112,8 @@ class Chromosome(object):
 
         self.weapon = self.get_weapon()
         self.totals = self.get_totals()
-
-        # Interpreters
-        # Interpreters/Mappers to characteristics per element
-        self.damage_mapper = {
-            # Damage
-                189 : 36, # Air,
-                214 : 22, # Water
-                198 : 13, # Fire
-                194 : 45, # Earth
-                195 : 45, # Neutral (by earth)
-            # Steal
-                224 : 36, # Air,
-                203 : 22, # Water
-                193 : 13, # Fire
-                221 : 45, # Earth
-                223 : 45, # Neutral
-            }
-
-        self.bonus_damage_mapper = {
-            # Damage
-                189 : 47, # Air,
-                214 : 27, # Water
-                198 : 61, # Fire
-                194 : 48, # Earth
-                195 : 49, # Neutral
-            # Steal
-                224 : 47, # Air,
-                203 : 27, # Water
-                193 : 61, # Fire
-                221 : 48, # Earth
-                223 : 49, # Neutral
-        }
-
         self.damage = self.get_damage()
+        self.fitness = self.get_fitness()
 
     def get_weapon(self):
         return next(i for i in self.items if i["type"]["superTypeId"] == 2)
@@ -150,10 +146,10 @@ class Chromosome(object):
     def get_damage(self):
         # totals = self.get_totals(chromosome)
         # Character stats
-        power = self.totals.get("32",0)
-        base_crit_chance = self.totals.get("29",0)
-        base_crit_added_damage = self.totals.get("38",0)
-
+        power = self.totals.get(32,0)
+        base_crit_chance = self.totals.get(29,0)
+        base_crit_added_damage = self.totals.get(38,0)
+        
         # Critical hit logic
         crit_bonus = self.weapon["criticalHitBonus"] \
             if not pd.isna(self.weapon["criticalHitBonus"]) else 0
@@ -170,13 +166,13 @@ class Chromosome(object):
         damage = 0
         for element_id,weapon_base_damage in weapon_damage.items():
             # Get the stat and base damage
-            if element_id not in self.damage_mapper:
+            if element_id not in damage_mapper:
                 continue
-            stat = self.damage_mapper[element_id]
+            stat = damage_mapper[element_id]
             stat_base = self.totals.get(stat,0)
 
             # Get the added bonus damage from the stat
-            bonus_damage_id = self.bonus_damage_mapper[element_id]
+            bonus_damage_id = bonus_damage_mapper[element_id]
             added_bonus = self.totals.get(bonus_damage_id, 0)
             damage += (weapon_base_damage + expected_crit_bonus) * (1+(stat_base+power)/100) + expected_crit_added_damage + added_bonus
         return damage
@@ -185,8 +181,7 @@ class Chromosome(object):
         # TODO: Code this
         return True
     
-    @property
-    def fitness(self):
+    def get_fitness(self):
         # Penalizations
         if len(set(self.chromosome[-6:])) < len(self.chromosome[-6:]):
             # Some dofus or trophies are duplicated

@@ -4,6 +4,7 @@ import json
 import random
 from tqdm import tqdm
 import pygad
+import numpy as np
 
 # https://chat.cborg.lbl.gov/c/14738910-0178-4da7-be92-69a815a9736c
 
@@ -85,10 +86,12 @@ def get_item_set(item, item_sets):
     return item_sets[item["parentSet"]["id"]]
 
 class Character(object):
-    def __init__(self, level):
+    def __init__(self, level, **config):
         self.stats = {}
         self.level = level
-        self.scrolled = True
+        self.scrolled = config.get("scrolled", False)
+        self.exo = config.get("exo", {})
+        
         self._update_stats()
 
     def _update_stats(self):
@@ -97,6 +100,10 @@ class Character(object):
 
         if self.scrolled:
             self.stats.update({i:100 for i in elements})
+        for k,v in self.exo.items():
+            if k not in self.stats:
+                self.stats[k] = 0
+            self.stats[k] += v
         # TODO: Update character stats based on level and other factors
         pass
 
@@ -127,7 +134,6 @@ class Chromosome(object):
 
         # Get the totals, damage and fitness
         self.totals = self.get_totals()
-        self.damage = self.get_damage()
         self.fitness = self.get_fitness()
 
     def get_weapon(self):
@@ -157,8 +163,8 @@ class Chromosome(object):
             [character_contributions,
               self.item_contributions,
                 self.set_contributions]).sum(axis=0).to_dict()
-    
-    def get_damage(self):
+
+    def get_final_weapon_damage(self):
         # totals = self.get_totals(chromosome)
         # Character stats
         power = self.totals.get(32,0)
@@ -171,10 +177,9 @@ class Chromosome(object):
         weapon_crit_chance = self.weapon["criticalHitProbability"] \
             if not pd.isna(self.weapon["criticalHitProbability"]) else 0
         crit_chance = max(min(weapon_crit_chance + base_crit_chance,100), 0)  # Ensure crit_chance is between 0 and 100
-        expected_crit_bonus = max(crit_bonus * crit_chance/100, 0) # Expected value of distributionß
+        expected_crit_bonus = max(crit_bonus * crit_chance/100, 0) # Expected value of distribution
         expected_crit_added_damage = max(base_crit_added_damage * crit_chance/100, 0) # Expected value of distribution
         # max_crit_bonus = crit_bonus # Use this for maximum possible
-
         weapon_damage = get_weapon_damage(self.weapon)
 
         # Calculate total damage
@@ -201,35 +206,48 @@ class Chromosome(object):
                 return False
         return True
     
-    def are_preferences_met(self):
-        for element,value in self.preferences.get("lower", {}).items():
-            if self.totals.get(element, 0) < value:
-                return False
-        for element,value in self.preferences.get("upper", {}).items():
-            if self.totals.get(element, 0) > value:
-                return False
-        return True
-
-    def get_fitness(self):
+    def penalize(self, fitness):
         # Penalizations
-        if len(set(self.chromosome[-6:])) < len(self.chromosome[-6:]):
-            # Some dofus or trophies are duplicated
-            return 0
+        # Duplicated dofus and trophies
+        duplicates = len(self.chromosome[-6:]) - len(set(self.chromosome[-6:]))
+        for _ in range(duplicates):
+            # Penalty per duplicated dofus or trophy
+            fitness *= 0.5
+
         if len(set(self.chromosome[2:4])) < 2:
-            # Some rings are duplicated
-            return 0
+            # Arbitrary penalty for duplicated rings
+            fitness *= 0.5
 
         if not self.are_conditions_met():
-            return 0
-        
-        if not self.are_preferences_met():
-            return 0
-        return self.damage
+            # Arbitrary penalty for not meeting item conditions
+            fitness *= 0.5
+
+        # Penalizations for preferences
+        for element,value in self.preferences.get("lower", {}).items():
+            offset = max(value - self.totals.get(element, 0), 0)/value
+            # Penalize and also continuously reduce the fitness
+            if offset:
+                fitness *= 0.75 - offset
+        for element,value in self.preferences.get("upper", {}).items():
+            offset = max(self.totals.get(element, 0) - value, 0)/value
+            if offset:
+                fitness *= 0.75 - offset
+        return fitness
+
+    def get_fitness(self,type="weapon"):
+        if type == "weapon":
+            fitness = self.get_final_weapon_damage()
+        elif type == "elements":
+            fitness = self.get_final_elemental_damage()
+        return self.penalize(fitness)
     
     def totals_summary(self,item_descriptions={}, language="en"):
         dct = {}
         for k,v in self.totals.items():
-            description = item_descriptions[k][language]
+            if k not in item_descriptions:
+                description = None
+            else:
+                description = item_descriptions[k][language]
             dct[k] = {
                 "description": description,
                 "value": v
@@ -244,6 +262,7 @@ class Chromosome(object):
                 "type_id": item["type"]["superTypeId"],
                 "type": item["type"]["name"][language],
                 "description": item["name"][language],
+                "level": item["level"],
                 "set": item_set["name"][language] if item_set else None,
             }
         return pd.DataFrame.from_dict(dct, orient='index').sort_index()
@@ -253,7 +272,7 @@ class Optimizer(object):
                   character,
                     items,
                       item_sets, 
-                      config):
+                      **config):
         self.character = character
         # Load data from CSV files        
         self.items = items
@@ -285,19 +304,18 @@ class Optimizer(object):
                                     for id in items if items[id]["type"]["superTypeId"] == t])
         self.NUM_TYPES = len(self.pools)
         print(f"Total pools: {len(self.pools)} with sizes {[len(pool) for pool in self.pools]}")
-
+        print(f"Total combinations: 10^{np.log10(float(reduce(lambda x,y: x*y, [len(pool) for pool in self.pools]))):.2f}")
         # Initialize the genetic algorithm instance
         self.initialize()
-        # self.population = [self.random_chromosome() for _ in range(self.POPULATION_SIZE)]
     
     def is_item_valid(self, item):
         if item["ankama_id"] in self.config["exclusions"]["items"]:
             return False
         if item["level"] > self.character.level:
             return False
-        if item["type"]["superTypeId"] not in [12]: # Pet
+        if item["type"]["superTypeId"] not in [12, 13]: # Pet, Dofus
             # Only pets can be low level
-            if item["level"] + 30 < self.character.level:
+            if item["level"] + self.config["level_offset"] < self.character.level:
                 # Item is too low level for the character
                 return False
         return True
@@ -313,13 +331,14 @@ class Optimizer(object):
     def initialize(self):
         self.ga_instance = pygad.GA(
             num_generations=self.config["num_generations"],
-            num_parents_mating=self.config["population_size"],
+            num_parents_mating=self.config["num_parents_mating"],
             sol_per_pop=self.config["population_size"],
             num_genes=len(self.pools),
             fitness_func=self.fitness,
             gene_type=int,
             gene_space=self.pools,
             parent_selection_type=self.config["parent_selection_type"],
+            K_tournament=self.config.get("tournament_size", 3),
             crossover_probability=self.config["crossover_rate"],
             mutation_probability=self.config["mutation_rate"],
             keep_elitism=1

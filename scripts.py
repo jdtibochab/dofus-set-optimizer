@@ -3,6 +3,9 @@ from functools import reduce
 import json
 import random
 from tqdm import tqdm
+import pygad
+
+# https://chat.cborg.lbl.gov/c/14738910-0178-4da7-be92-69a815a9736c
 
 elements = [
     36, # Agility,
@@ -41,6 +44,8 @@ bonus_damage_mapper = {
             221 : 48, # Earth
             223 : 49, # Neutral
     }
+
+conditions_mapper = {}
 
 # Filters
 def get_item_contribution(item):
@@ -96,10 +101,17 @@ class Character(object):
         pass
 
 class Chromosome(object):
-    def __init__(self, character, items, item_sets, chromosome):
+    def __init__(self, 
+                 character, 
+                 items, item_sets, 
+                 chromosome, 
+                 preferences={}):
+        # Initialize the chromosome with a character, items, item sets and a chromosome
         self.chromosome = chromosome
         self.character = character
-        
+        self.preferences = preferences
+
+        # Get the items and item sets of the chromosome
         self.items = [items[i] for i in self.chromosome]
         self.item_sets = [get_item_set(i, item_sets) \
                           for i in self.items]
@@ -110,7 +122,10 @@ class Chromosome(object):
         # Get the set contributions
         self.set_contributions = self.get_set_contributions()
 
+        # Get the weapon
         self.weapon = self.get_weapon()
+
+        # Get the totals, damage and fitness
         self.totals = self.get_totals()
         self.damage = self.get_damage()
         self.fitness = self.get_fitness()
@@ -149,7 +164,7 @@ class Chromosome(object):
         power = self.totals.get(32,0)
         base_crit_chance = self.totals.get(29,0)
         base_crit_added_damage = self.totals.get(38,0)
-        
+
         # Critical hit logic
         crit_bonus = self.weapon["criticalHitBonus"] \
             if not pd.isna(self.weapon["criticalHitBonus"]) else 0
@@ -177,10 +192,24 @@ class Chromosome(object):
             damage += (weapon_base_damage + expected_crit_bonus) * (1+(stat_base+power)/100) + expected_crit_added_damage + added_bonus
         return damage
     
-    def are_item_conditions_met(self):
-        # TODO: Code this
+    def are_item_conditions_met(self,item):
+        return True
+
+    def are_conditions_met(self):
+        for item in self.items:
+            if not self.are_item_conditions_met(item):
+                return False
         return True
     
+    def are_preferences_met(self):
+        for element,value in self.preferences.get("lower", {}).items():
+            if self.totals.get(element, 0) < value:
+                return False
+        for element,value in self.preferences.get("upper", {}).items():
+            if self.totals.get(element, 0) > value:
+                return False
+        return True
+
     def get_fitness(self):
         # Penalizations
         if len(set(self.chromosome[-6:])) < len(self.chromosome[-6:]):
@@ -190,33 +219,49 @@ class Chromosome(object):
             # Some rings are duplicated
             return 0
 
-        for item in self.items:
-            if not self.are_item_conditions_met():
-                return 0
+        if not self.are_conditions_met():
+            return 0
+        
+        if not self.are_preferences_met():
+            return 0
         return self.damage
+    
+    def totals_summary(self,item_descriptions={}, language="en"):
+        dct = {}
+        for k,v in self.totals.items():
+            description = item_descriptions[k][language]
+            dct[k] = {
+                "description": description,
+                "value": v
+            }
+        return pd.DataFrame.from_dict(dct, orient='index').sort_index()
+    
+    def set_summary(self, language="en"):
+        dct = {}
+        for item in self.items:
+            item_set = get_item_set(item, {k["ankama_id"]: k for k in self.item_sets})
+            dct[item["ankama_id"]] = {
+                "type_id": item["type"]["superTypeId"],
+                "type": item["type"]["name"][language],
+                "description": item["name"][language],
+                "set": item_set["name"][language] if item_set else None,
+            }
+        return pd.DataFrame.from_dict(dct, orient='index').sort_index()
 
 class Optimizer(object):
-    def __init__(self, character, items, item_sets):
+    def __init__(self,
+                  character,
+                    items,
+                      item_sets, 
+                      config):
         self.character = character
         # Load data from CSV files        
         self.items = items
         self.item_sets = item_sets
-
-        # Hyperparameters
-        self.LANGUAGE = "es"
-        self.POPULATION_SIZE = 150
-        self.NUM_GENERATIONS = 200
-        self.MUTATION_RATE = 0.05
-        self.EXCLUSIONS = {
-            "items" : [6894,6895,3080,9031]
-        }
-        self.LOWER_BOUNDS = {
-            # "level" : 190
-        }
-        self.UPPER_BOUNDS = {}
+        self.config = config
 
         # Filters
-        items = {k:v for k,v in items.items() if not k in self.EXCLUSIONS["items"]}
+        items = {k:v for k,v in items.items() if self.is_item_valid(v)}
 
         # Create pools of items by type
         # Pools of items by type
@@ -232,6 +277,7 @@ class Optimizer(object):
             (12, 1),
             (13, 6), # Dofus
         ]
+
         self.pools = []
         for t,count in self.pool_types:
             for _ in range(count):
@@ -240,70 +286,53 @@ class Optimizer(object):
         self.NUM_TYPES = len(self.pools)
         print(f"Total pools: {len(self.pools)} with sizes {[len(pool) for pool in self.pools]}")
 
-        self.population = [self.random_chromosome() for _ in range(self.POPULATION_SIZE)]
-
-    @property
-    def item_descriptions(self):
-        item_descriptions = {}
-        for _,item in self.items.items():
-            if not item["effects"]:
-                continue
-            for effect in item["effects"]:
-                item_descriptions[effect["element_id"]] = effect["type"][self.LANGUAGE]
-        return item_descriptions
-
-    # Genetic Algorithm Functions
-    def random_chromosome(self):
-        # Create a random chromosome sampling from each pool
-        chromosome_ids = [random.choice(slot_pool) for slot_pool in self.pools]
-        return Chromosome(self.character,
-                          self.items,
-                          self.item_sets,
-                          chromosome_ids)
-        # return [random.randint(0, len(slot_pool)-1) for slot_pool in self.pools]
-
-    # Mutation
-    def mutate(self,chromosome):
-        # Create a new chromosome by mutating some slots
-        new_chromosome = chromosome.chromosome[:]
-        for i, slot_items in enumerate(self.pools):
-            if random.random() < self.MUTATION_RATE:
-                new_chromosome[i] = random.choice(slot_items)
-        return Chromosome(self.character,
-                          self.items,
-                          self.item_sets,
-                          new_chromosome)
-
-    # Crossover
-    def crossover(self, parent1, parent2):
-        # Perform single-point crossover
-        point = random.randint(1, self.NUM_TYPES-2)
-        return Chromosome(self.character,
-                          self.items,
-                          self.item_sets,
-                          parent1.chromosome[:point] + parent2.chromosome[point:])
-
-    def fitness(chromosome):
-        return chromosome.fitness
+        # Initialize the genetic algorithm instance
+        self.initialize()
+        # self.population = [self.random_chromosome() for _ in range(self.POPULATION_SIZE)]
     
-    def select(self, population, k=10):
-        # Select top k chromosomes
-        scored = sorted(population, key=self.fitness, reverse=True)
-        return scored[:k]
+    def is_item_valid(self, item):
+        if item["ankama_id"] in self.config["exclusions"]["items"]:
+            return False
+        if item["level"] > self.character.level:
+            return False
+        if item["type"]["superTypeId"] not in [12]: # Pet
+            # Only pets can be low level
+            if item["level"] + 30 < self.character.level:
+                # Item is too low level for the character
+                return False
+        return True
+    
+    def fitness(self,ga_instance,chromosome,chromosome_idx):
+        return Chromosome(self.character,
+                        self.items,
+                        self.item_sets,
+                        chromosome,
+                        preferences=self.config["preferences"]
+                        ).fitness
+
+    def initialize(self):
+        self.ga_instance = pygad.GA(
+            num_generations=self.config["num_generations"],
+            num_parents_mating=self.config["population_size"],
+            sol_per_pop=self.config["population_size"],
+            num_genes=len(self.pools),
+            fitness_func=self.fitness,
+            gene_type=int,
+            gene_space=self.pools,
+            parent_selection_type=self.config["parent_selection_type"],
+            crossover_probability=self.config["crossover_rate"],
+            mutation_probability=self.config["mutation_rate"],
+            keep_elitism=1
+        )
 
     def optimize(self):
-        for _ in tqdm(range(self.NUM_GENERATIONS), desc="Generations"):
-            # Select best individuals
-            selected = self.select(self.population, k=10)
-            # Generate new population
-            new_population = selected[:]
-            while len(new_population) < self.POPULATION_SIZE:
-                parent1, parent2 = random.sample(selected, 2)
-                child = self.crossover(parent1, parent2)
-                child = self.mutate(child)
-                new_population.append(child)
-            self.population = new_population
-            # Print best fitness in this generation
-            self.best = max(self.population, key=self.fitness)
-
-            
+        # Run the GA
+        self.ga_instance.run()
+        
+        # Get the best solution
+        best_solution, best_solution_fitness, _ = self.ga_instance.best_solution()
+        self.solution = Chromosome(self.character,
+                          self.items,
+                          self.item_sets,
+                          best_solution,
+                          preferences=self.config["preferences"])

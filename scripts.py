@@ -4,6 +4,15 @@ import json
 import random
 from tqdm import tqdm
 
+elements = [
+    36, # Agility,
+    22, # Chance
+    13, # Intelligence
+    45, # Strength
+    9, # Vitality
+    10, # Wisdom
+]
+
 # Filters
 def get_item_contribution(item):
     # Get the effects of the item
@@ -37,8 +46,31 @@ def get_weapon_damage(weapon):
         contributions[d["element_id"]] = d[field]
     return contributions
 
+class Character(object):
+    def __init__(self, level):
+        self.stats = {}
+        self.level = level
+        self.scrolled = True
+        self._update_stats()
+
+    def _update_stats(self):
+        self.stats[12] = 7 if self.level > 99 else 6
+        self.stats[8] = 3
+
+        if self.scrolled:
+            self.stats.update({i:100 for i in elements})
+        # TODO: Update character stats based on level and other factors
+        pass
+
+class Chromosome(object):
+    def __init__(self, items, item_sets, chromosome):
+        self.chromosome = chromosome
+        self.items = [items[i] for i in chromosome]
+        
+
 class Optimizer(object):
-    def __init__(self,items, item_sets):
+    def __init__(self, character, items, item_sets):
+        self.character = character
         # Load data from CSV files        
         self.items = items
         self.item_sets = item_sets
@@ -177,15 +209,22 @@ class Optimizer(object):
         return pd.DataFrame(lst).sum(axis=0).to_dict()
 
     def get_totals(self, chromosome):
+        # Get the character stats
+        character_contributions = self.character.stats.copy()
+
         # Get the item contributions
         item_contributions = self.get_chromosome_item_contributions(chromosome)
 
         # Get the set contributions
         set_contributions = self.get_chromosome_set_contributions(chromosome)
-        return pd.DataFrame([item_contributions, set_contributions]).sum(axis=0).to_dict()
 
-    def get_damage(self, weapon, chromosome):
-        totals = self.get_totals(chromosome)
+        return pd.DataFrame(
+            [character_contributions,
+              item_contributions,
+                set_contributions]).sum(axis=0).to_dict()
+
+    def get_damage(self, weapon, totals):
+        # totals = self.get_totals(chromosome)
 
         # Character stats
         power = totals.get("32",0)
@@ -215,6 +254,10 @@ class Optimizer(object):
             added_bonus = totals.get(bonus_damage_id, 0)
             damage += (weapon_base_damage + expected_crit_bonus) * (1+(stat_base+power)/100) + expected_crit_added_damage + added_bonus
         return damage
+    
+    def are_item_conditions_met(self, item, totals):
+        # TODO: Code this
+        return True
 
     def fitness(self, chromosome):
         # Penalizations
@@ -224,8 +267,15 @@ class Optimizer(object):
         if len(set(chromosome[2:4])) < 2:
             # Some rings are duplicated
             return 0
+        chromosome_items = [self.items[i] for i in chromosome]
+        totals = self.get_totals(chromosome)
         weapon = self.get_chromosome_weapon(chromosome)
-        return self.get_damage(weapon,chromosome)
+        damage = self.get_damage(weapon,totals)
+
+        for item in chromosome_items:
+            if not self.are_item_conditions_met(item, totals):
+                return 0
+        return damage
 
     def select(self, population, k=10):
         # Select top k chromosomes

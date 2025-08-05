@@ -5,7 +5,7 @@ import random
 from tqdm import tqdm
 import pygad
 import numpy as np
-
+from copy import copy
 # https://chat.cborg.lbl.gov/c/14738910-0178-4da7-be92-69a815a9736c
 
 elements = [
@@ -18,7 +18,6 @@ elements = [
 ]
 
 # TODO: Implement damage in best element flag (248)
-
 damage_mapper = {
         # Damage
             189 : 36, # Air,
@@ -47,6 +46,15 @@ bonus_damage_mapper = {
             221 : 48, # Earth
             223 : 49, # Neutral
     }
+
+default_soft_caps = {
+    9: [0,None, 0, 0, 0, 0], # Vitality
+    10: [0, 0, 0, None, 0, 0], # Wisdom
+    45: [0, 100, 200, 300, None, 0], # Strength
+    13: [0, 100, 200, 300, None, 0], # Intelligence
+    22: [0, 100, 200, 300, None, 0], # Chance
+    36: [0, 100, 200, 300, None, 0]  # Agility
+}
 
 # Filters
 def get_item_contribution(item):
@@ -95,16 +103,49 @@ class Character(object):
         self.level = level
         self.scrolled = config.get("scrolled", False)
         self.exo = config.get("exo", {})
-        
+        self.elements = config.get("elements", elements[:4])
+        if config.get("distributed_points"):
+            self.stats.update(config["distributed_points"])
+        else:
+            self._auto_distribute_points()
         self._update_stats()
 
+    def _auto_distribute_points(self):
+        points_to_distribute = (self.level - 1) * 5
+        per_element = points_to_distribute // len(self.elements)
+        # Distribute points based on soft caps
+        for element_id in self.elements:
+            if element_id not in self.stats:
+                self.stats[element_id] = 0
+            per_element_residual = copy(per_element)
+            soft_cap = default_soft_caps.get(element_id, [None] * 5)
+            for i in range(len(soft_cap)):
+                if per_element_residual < 5:
+                    # Not enough points to distribute
+                    break
+                lower_bound, upper_bound = soft_cap[i],soft_cap[i+1]
+                if upper_bound is None:
+                    upper_bound = float('inf')
+                distribute = min((upper_bound - lower_bound), per_element_residual)
+                self.stats[element_id] += distribute // (i + 1)
+                per_element_residual -= distribute
+
     def _update_stats(self):
+        if 9 not in self.stats:
+            self.stats[9] = 0
+        self.stats[9] += 55 + (self.level - 1) * 5
         self.stats[12] = 7 if self.level > 99 else 6
         self.stats[8] = 3
         self.stats[252] = 1 # Subscribed
 
         if self.scrolled:
-            self.stats.update({i:100 for i in elements})
+            for i in elements:
+                if i not in self.stats:
+                    self.stats[i] = 100
+                else:
+                    self.stats[i] += 100
+            # self.stats.update({i:100 for i in elements})
+            
         for k,v in self.exo.items():
             if k not in self.stats:
                 self.stats[k] = 0
@@ -127,6 +168,7 @@ class Chromosome(object):
         self.preferences = preferences
         self.elements = elements
         self.objective = objective
+        self.viable = True
 
         # Get the items and item sets of the chromosome
         self.items = [items[i] for i in self.chromosome]
@@ -251,7 +293,6 @@ class Chromosome(object):
             # Get the added bonus damage from the stat
             bonus_damage_id = bonus_damage_mapper[element_id]
             added_bonus = self.totals.get(bonus_damage_id, 0)
-
             # TODO: Set a default damage value per class, spell average?
             damage += (spell_damage + expected_crit_bonus)*(1+(stat_base + power)/100) + expected_crit_added_damage + added_bonus
         return damage
@@ -297,27 +338,33 @@ class Chromosome(object):
         duplicates = len(self.chromosome[-6:]) - len(set(self.chromosome[-6:]))
         for _ in range(duplicates):
             # Penalty per duplicated dofus or trophy
-            fitness *= 0.5
+            fitness *= 0.1
+            # Mark as non-viable
+            self.viable = False
 
         if len(set(self.chromosome[2:4])) < 2:
             # Arbitrary penalty for duplicated rings
-            fitness *= 0.5
+            fitness *= 0.1
+            # Mark as non-viable
+            self.viable = False
 
         for item in self.items:
             if not self.are_item_conditions_met(item):
                 # Penalize for items that do not meet the conditions
-                fitness *= 0.5
-
+                fitness *= 0.1
+                # Mark as non-viable
+                self.viable = False
+                
         # Penalizations for preferences
         for element,value in self.preferences.get("lower", {}).items():
             offset = max(value - self.totals.get(element, 0), 0)/value
             # Penalize and also continuously reduce the fitness
             if offset:
-                fitness *= 0.75 - offset
+                fitness *= 0.5 * (1 - offset)
         for element,value in self.preferences.get("upper", {}).items():
             offset = max(self.totals.get(element, 0) - value, 0)/value
             if offset:
-                fitness *= 0.75 - offset
+                fitness *= 0.5 * (1 - offset)
         return fitness
 
     def get_fitness(self):
@@ -380,15 +427,18 @@ class Optimizer(object):
             (7, 1),
             (10,1),
             (11, 1),
-            (12, 1), # Pet
+            ([12,27], 1), # Pet/Mount
             (13, 6), # Dofus
         ]
 
         self.pools = []
         for t,count in self.pool_types:
+            if not isinstance(t, list):
+                t = [t]
             for _ in range(count):
-                self.pools.append([id \
-                                    for id in items if items[id]["type"]["superTypeId"] == t])
+                pool = [id for id in items if items[id]["type"]["superTypeId"] in t]
+                self.pools.append(pool)
+                
         self.NUM_TYPES = len(self.pools)
         print(f"Total pools: {len(self.pools)} with sizes {[len(pool) for pool in self.pools]}")
         print(f"Total combinations: 10^{np.log10(float(reduce(lambda x,y: x*y, [len(pool) for pool in self.pools]))):.2f}")
@@ -400,7 +450,7 @@ class Optimizer(object):
             return False
         if item["level"] > self.character.level:
             return False
-        if item["type"]["superTypeId"] not in [12, 13]: # Pet, Dofus
+        if item["type"]["superTypeId"] not in [12, 13, 27]: # Pet, Dofus, Mount
             # Only pets can be low level
             if item["level"] + self.config["level_offset"] < self.character.level:
                 # Item is too low level for the character

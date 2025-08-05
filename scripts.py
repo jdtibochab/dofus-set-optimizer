@@ -17,6 +17,8 @@ elements = [
     10, # Wisdom
 ]
 
+# TODO: Implement damage in best element flag (248)
+
 damage_mapper = {
         # Damage
             189 : 36, # Air,
@@ -46,8 +48,6 @@ bonus_damage_mapper = {
             223 : 49, # Neutral
     }
 
-conditions_mapper = {}
-
 # Filters
 def get_item_contribution(item):
     # Get the effects of the item
@@ -58,6 +58,8 @@ def get_item_contribution(item):
     for d in item_effects:
         field = "max" if d["min_max_irrelevant"] == 0 else "min"
         contributions[d["element_id"]] = d[field]
+    if item["type"]["superTypeId"] == 27: # Weapon
+        contributions[212] = 1
     return contributions
 
 def get_set_contribution(item_set,overlap):
@@ -66,6 +68,8 @@ def get_set_contribution(item_set,overlap):
     for d in set_effects:
         field = "max" if d["min_max_irrelevant"] == 0 else "min"
         contributions[d["element_id"]] = d[field]
+    # Add to set bonus
+    contributions[72] = overlap - 1
     return contributions
 
 def get_weapon_damage(weapon):
@@ -97,6 +101,7 @@ class Character(object):
     def _update_stats(self):
         self.stats[12] = 7 if self.level > 99 else 6
         self.stats[8] = 3
+        self.stats[252] = 1 # Subscribed
 
         if self.scrolled:
             self.stats.update({i:100 for i in elements})
@@ -112,11 +117,16 @@ class Chromosome(object):
                  character, 
                  items, item_sets, 
                  chromosome, 
-                 preferences={}):
+                 preferences={},
+                 elements=elements[:4],
+                 objective="weapon"):
+        
         # Initialize the chromosome with a character, items, item sets and a chromosome
         self.chromosome = chromosome
         self.character = character
         self.preferences = preferences
+        self.elements = elements
+        self.objective = objective
 
         # Get the items and item sets of the chromosome
         self.items = [items[i] for i in self.chromosome]
@@ -155,6 +165,54 @@ class Chromosome(object):
             overlap = len(set([i["ankama_id"] for i in self.items]) & set(item_set["items"]))
             lst.append(get_set_contribution(item_set, overlap))
         return pd.DataFrame(lst).sum(axis=0).to_dict()
+
+    def is_condition_met(self, condition):
+        """
+        Check if a condition is met based on the character's totals.
+        """
+        total_value = self.totals.get(condition["element_id"], 0)
+        condition_value = condition["value"]
+        operator = condition["operator"]
+        if operator == "<":
+            return total_value < condition_value
+        elif operator == ">":
+            return total_value > condition_value
+        elif operator == "=":
+            return total_value == condition_value
+        else:
+            # return NotImplementedError(f"Unknown operator: {operator}")
+            return True
+        
+    def are_nested_conditions_met(self, conditions):
+        """
+        Check if nested conditions are met based on the character's totals.
+        """
+        if conditions["children"] is None:
+            flag = self.is_condition_met(conditions["value"])
+            return flag
+        else:
+            flags = []
+            for condition in conditions["children"]:
+                flags.append(self.are_nested_conditions_met(condition))
+            if conditions["relation"] == "and":
+                return all(flags)
+            elif conditions["relation"] == "or":
+                return any(flags)
+            else:
+                raise NotImplementedError(f"Unknown relation: {conditions['relation']}")
+
+    def are_item_conditions_met(self, item):
+        """
+        Check if the item conditions are met based on the character's totals.
+        """
+        conditions = item["conditions"]
+        if not conditions:
+            return True  # No conditions, always met
+        if not conditions["children"]:
+            condition = conditions["value"]
+            return self.is_condition_met(condition)
+        else:
+            return self.are_nested_conditions_met(conditions)
     
     def get_totals(self):
         # Get the character stats
@@ -164,12 +222,47 @@ class Chromosome(object):
               self.item_contributions,
                 self.set_contributions]).sum(axis=0).to_dict()
 
+    def get_final_elemental_damage(self):
+        power = self.totals.get(32,0)
+        base_crit_chance = self.totals.get(29,0)
+        base_crit_added_damage = self.totals.get(38,0)
+        spell_damage = 10 # Default spell damage
+
+        # Critical hit logic
+        crit_bonus = 3 # Default crit bonus
+        spell_crit_chance = 25 # Default spell crit chance
+        crit_chance = max(min(spell_crit_chance + base_crit_chance,100), 0)  # Ensure crit_chance is between 0 and 100
+        expected_crit_bonus = max(crit_bonus * crit_chance/100, 0) # Expected value of distribution
+        expected_crit_added_damage = max(base_crit_added_damage * crit_chance/100, 0) # Expected value of distribution
+
+        # Calculate total damage
+        damage = 0
+        seen_stats = []
+        for element_id, stat in damage_mapper.items():
+            if stat in seen_stats:
+                # Skip stats that have already been processed
+                continue
+            seen_stats.append(stat)
+            if stat not in self.elements:
+                continue
+            # Get the stat and base damage
+            stat_base = self.totals.get(stat,0)
+
+            # Get the added bonus damage from the stat
+            bonus_damage_id = bonus_damage_mapper[element_id]
+            added_bonus = self.totals.get(bonus_damage_id, 0)
+
+            # TODO: Set a default damage value per class, spell average?
+            damage += (spell_damage + expected_crit_bonus)*(1+(stat_base + power)/100) + expected_crit_added_damage + added_bonus
+        return damage
+
     def get_final_weapon_damage(self):
         # totals = self.get_totals(chromosome)
         # Character stats
         power = self.totals.get(32,0)
         base_crit_chance = self.totals.get(29,0)
         base_crit_added_damage = self.totals.get(38,0)
+        weapon_damage = get_weapon_damage(self.weapon)
 
         # Critical hit logic
         crit_bonus = self.weapon["criticalHitBonus"] \
@@ -179,8 +272,6 @@ class Chromosome(object):
         crit_chance = max(min(weapon_crit_chance + base_crit_chance,100), 0)  # Ensure crit_chance is between 0 and 100
         expected_crit_bonus = max(crit_bonus * crit_chance/100, 0) # Expected value of distribution
         expected_crit_added_damage = max(base_crit_added_damage * crit_chance/100, 0) # Expected value of distribution
-        # max_crit_bonus = crit_bonus # Use this for maximum possible
-        weapon_damage = get_weapon_damage(self.weapon)
 
         # Calculate total damage
         damage = 0
@@ -189,6 +280,9 @@ class Chromosome(object):
             if element_id not in damage_mapper:
                 continue
             stat = damage_mapper[element_id]
+            if stat not in self.elements:
+                # Skip elements not in the selected elements
+                continue
             stat_base = self.totals.get(stat,0)
 
             # Get the added bonus damage from the stat
@@ -196,15 +290,6 @@ class Chromosome(object):
             added_bonus = self.totals.get(bonus_damage_id, 0)
             damage += (weapon_base_damage + expected_crit_bonus) * (1+(stat_base+power)/100) + expected_crit_added_damage + added_bonus
         return damage
-    
-    def are_item_conditions_met(self,item):
-        return True
-
-    def are_conditions_met(self):
-        for item in self.items:
-            if not self.are_item_conditions_met(item):
-                return False
-        return True
     
     def penalize(self, fitness):
         # Penalizations
@@ -218,9 +303,10 @@ class Chromosome(object):
             # Arbitrary penalty for duplicated rings
             fitness *= 0.5
 
-        if not self.are_conditions_met():
-            # Arbitrary penalty for not meeting item conditions
-            fitness *= 0.5
+        for item in self.items:
+            if not self.are_item_conditions_met(item):
+                # Penalize for items that do not meet the conditions
+                fitness *= 0.5
 
         # Penalizations for preferences
         for element,value in self.preferences.get("lower", {}).items():
@@ -234,7 +320,8 @@ class Chromosome(object):
                 fitness *= 0.75 - offset
         return fitness
 
-    def get_fitness(self,type="weapon"):
+    def get_fitness(self):
+        type = self.objective
         if type == "weapon":
             fitness = self.get_final_weapon_damage()
         elif type == "elements":
@@ -293,7 +380,7 @@ class Optimizer(object):
             (7, 1),
             (10,1),
             (11, 1),
-            (12, 1),
+            (12, 1), # Pet
             (13, 6), # Dofus
         ]
 
@@ -325,7 +412,9 @@ class Optimizer(object):
                         self.items,
                         self.item_sets,
                         chromosome,
-                        preferences=self.config["preferences"]
+                        preferences=self.config["preferences"],
+                        objective=self.config["objective"],
+                        elements=self.config["elements"]
                         ).fitness
 
     def initialize(self):
@@ -354,4 +443,6 @@ class Optimizer(object):
                           self.items,
                           self.item_sets,
                           best_solution,
-                          preferences=self.config["preferences"])
+                          preferences=self.config["preferences"],
+                          objective=self.config["objective"],
+                          elements=self.config["elements"])

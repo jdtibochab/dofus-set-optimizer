@@ -329,6 +329,7 @@ class Chromosome(object):
         The fitness is calculated based on the objective type, which
         can be either "weapon" or "elements".
         """
+        # TODO: Implement push damage
         type = self.objective
         if type == "weapon":
             fitness = self.get_final_weapon_damage()

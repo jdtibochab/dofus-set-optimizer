@@ -41,10 +41,9 @@ class Optimizer(object):
             ([12,27], 1), # Pet/Mount
             (13, 6), # Dofus
         ]
+        self.initial_population = None
         # Initialize pools of items by type
         self._initialize_pools()
-        # Initialize the population
-        self._initialize_population_from_sets()
         print(f"Total items: {len(self.items)}")
         print(f"Total item sets: {len(self.item_sets)}")
         print(f"Total pools:\n   {len(self.pools)} with sizes {[len(pool) for pool in self.pools]}")
@@ -118,7 +117,7 @@ class Optimizer(object):
         while len(initial_population) < self.config["population_size"]:
             chrom = [random.choice(self.pools[i]) for i in range(len(self.pools))]
             initial_population.append(chrom)
-        self.initial_population = initial_population
+        return initial_population
     
     def _is_item_valid(self, item):
         """
@@ -166,6 +165,8 @@ class Optimizer(object):
         and tournament size.
 
         The genetic algorithm instance is created using the pygad library."""
+        # Initialize the population
+        initial_population = self._initialize_population_from_sets()
         self.ga_instance = pygad.GA(
             num_generations=self.config["num_generations"],
             num_parents_mating=self.config["num_parents_mating"],
@@ -178,11 +179,12 @@ class Optimizer(object):
             K_tournament=self.config.get("tournament_size", 3),
             crossover_probability=self.config["crossover_rate"],
             mutation_probability=self.config["mutation_rate"],
-            keep_elitism=1,
-            initial_population=self.initial_population,
+            keep_elitism=2,
+            initial_population=initial_population,
         )
 
     def optimize(self):
+        # TODO: Implement island optimization
         """
         Run the genetic algorithm to optimize the item combinations.
 

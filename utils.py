@@ -7,7 +7,6 @@ elements = [
     10, # Wisdom
 ]
 
-# TODO: Implement damage in best element flag (248)
 damage_mapper = {
         # Damage
             189 : 36, # Air,
@@ -67,18 +66,6 @@ def get_set_contribution(item_set,overlap):
         contributions[d["element_id"]] = d[field]
     # Add to set bonus
     contributions[72] = overlap - 1
-    return contributions
-
-def get_weapon_damage(weapon):
-    if not weapon["effects"]:
-        return {}
-    damage_effects = [d for d in weapon["effects"] if d["active"]]
-    if not damage_effects:
-        return {}
-    contributions = {}
-    for d in damage_effects:
-        field = "max" if d["min_max_irrelevant"] == 0 else "min"
-        contributions[d["element_id"]] = d[field]
     return contributions
 
 def get_item_set(item, item_sets):

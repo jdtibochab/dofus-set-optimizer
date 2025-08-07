@@ -88,7 +88,8 @@ class Optimizer(object):
         If an item from the set is not available in the pools, a random item from the pool will be used.
         This ensures that the initial population is diverse and contains valid item combinations.
         """
-        #TODO: Make sure that the set chromosomes are valid
+        #TODO: Make sure that the set chromosomes are valid.
+        #NOTE: Creating a chromosome to check penalties is super slow, something quicker?
         initial_population = []
         for s in self.item_sets.values():
             chromosome = [None] * len(self.pools)
@@ -111,6 +112,7 @@ class Optimizer(object):
                 if not set_item:
                     set_item = random.choice(self.pools[slot])
                 chromosome[slot] = set_item
+                    
             initial_population.append(chromosome)
 
         while len(initial_population) < self.config["population_size"]:

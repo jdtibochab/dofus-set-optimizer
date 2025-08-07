@@ -1,5 +1,5 @@
-from utils import elements, default_soft_caps, damage_mapper, bonus_damage_mapper
-from utils import get_item_contribution, get_set_contribution, get_weapon_damage, get_item_set
+from utils import damage_mapper, bonus_damage_mapper
+from utils import get_item_contribution, get_set_contribution, get_item_set
 import pandas as pd
 
 class Chromosome(object):
@@ -25,7 +25,7 @@ class Chromosome(object):
         self.penalized = False
 
         # Get the items and item sets of the chromosome
-        self.items = [optimizer.items[i] for i in self.chromosome]
+        self.items = [optimizer.items[i] for i in self.chromosome if i is not None]
         self.item_sets = [v for k,v in optimizer.item_sets.items() \
                     if set(v["items"]) & set([i["ankama_id"] for i in self.items])] # Filter item sets to only include valid items
 
@@ -45,7 +45,8 @@ class Chromosome(object):
         """
         Get the weapon from the chromosome.
         """
-        return next(i for i in self.items if i["type"]["superTypeId"] == 2)
+        iterator = iter(i for i in self.items if i["type"]["superTypeId"] == 2)
+        return next(iterator,None)
     
     def get_item_contributions(self):
         """
@@ -187,6 +188,24 @@ class Chromosome(object):
             # TODO: Set a default damage value per class, spell average?
             damage += (spell_damage + expected_crit_bonus)*(1+(stat_base + power)/100) + expected_crit_added_damage + added_bonus
         return damage
+    
+    def get_weapon_damage(self, weapon):
+        if not weapon["effects"]:
+            return {}
+        damage_effects = [d for d in weapon["effects"] if d["active"]]
+        if not damage_effects:
+            return {}
+        contributions = {}
+        for d in damage_effects:
+            field = "max" if d["min_max_irrelevant"] == 0 else "min"
+            element_id = d["element_id"]
+            if element_id == 248: # Best element flag
+                stats = {i:v for i,v in self.totals.items() if i in damage_mapper.values()}
+                best_stat = sorted(stats,key=lambda x: stats[x])[-1]
+                # Get the element with highest stat
+                element_id = next(d for d,s in damage_mapper.items() if s == best_stat)
+            contributions[element_id] = d[field]
+        return contributions
 
     def get_final_weapon_damage(self):
         """
@@ -204,7 +223,11 @@ class Chromosome(object):
         power = self.totals.get(32,0)
         base_crit_chance = self.totals.get(29,0)
         base_crit_added_damage = self.totals.get(38,0)
-        weapon_damage = get_weapon_damage(self.weapon)
+
+        if self.weapon is None:
+            return 0
+
+        weapon_damage = self.get_weapon_damage(self.weapon)
 
         # Critical hit logic
         crit_bonus = self.weapon["criticalHitBonus"] \

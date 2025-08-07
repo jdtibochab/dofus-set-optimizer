@@ -98,6 +98,12 @@ def get_item_set(item, item_sets):
     return item_sets[item["parentSet"]["id"]]
 
 class Character(object):
+    """
+    Character class to represent a Dofus character with stats and level.
+    This class is used to initialize the character's stats based on the level and
+    distribute points across different elements.
+    It also allows for the distribution of points based on a configuration dictionary.
+    """
     def __init__(self, level, **config):
         self.stats = {}
         self.level = level
@@ -105,30 +111,38 @@ class Character(object):
         self.exo = config.get("exo", {})
         self.elements = config.get("elements", elements[:4])
         if config.get("distributed_points"):
-            self.stats.update(config["distributed_points"])
+            for k,v in config["distributed_points"].items():
+                self._distribute_points(k, v)
         else:
             self._auto_distribute_points()
         self._update_stats()
+
+    def _distribute_points(self, element_id, points):
+        if element_id not in self.stats:
+            self.stats[element_id] = 0
+        soft_cap = default_soft_caps.get(element_id, [None] * 5)
+        for i in range(len(soft_cap)):
+            if points < 1:
+                # Not enough points to distribute
+                break
+            lower_bound, upper_bound = soft_cap[i],soft_cap[i+1]
+            if upper_bound is None:
+                upper_bound = float('inf')
+            distribute = min((upper_bound - lower_bound), points)
+            add = distribute // (i + 1)
+            if add < 1:
+                # Not enough points to distribute
+                break
+            self.stats[element_id] += add
+            points -= distribute
 
     def _auto_distribute_points(self):
         points_to_distribute = (self.level - 1) * 5
         per_element = points_to_distribute // len(self.elements)
         # Distribute points based on soft caps
         for element_id in self.elements:
-            if element_id not in self.stats:
-                self.stats[element_id] = 0
             per_element_residual = copy(per_element)
-            soft_cap = default_soft_caps.get(element_id, [None] * 5)
-            for i in range(len(soft_cap)):
-                if per_element_residual < 5:
-                    # Not enough points to distribute
-                    break
-                lower_bound, upper_bound = soft_cap[i],soft_cap[i+1]
-                if upper_bound is None:
-                    upper_bound = float('inf')
-                distribute = min((upper_bound - lower_bound), per_element_residual)
-                self.stats[element_id] += distribute // (i + 1)
-                per_element_residual -= distribute
+            self._distribute_points(element_id, per_element_residual)
 
     def _update_stats(self):
         if 9 not in self.stats:
@@ -144,37 +158,39 @@ class Character(object):
                     self.stats[i] = 100
                 else:
                     self.stats[i] += 100
-            # self.stats.update({i:100 for i in elements})
             
         for k,v in self.exo.items():
             if k not in self.stats:
                 self.stats[k] = 0
             self.stats[k] += v
-        # TODO: Update character stats based on level and other factors
         pass
 
 class Chromosome(object):
-    def __init__(self, 
-                 character, 
-                 items, item_sets, 
+    """
+    Chromosome class to represent a set of items for a Dofus character.
+    This class is used to calculate the fitness of a chromosome based on
+    the character's stats, item contributions, and set contributions.
+    It also checks if the conditions for items and sets are met, and
+    calculates the totals, final elemental damage, and final weapon damage.
+    """
+    def __init__(self,
                  chromosome, 
-                 preferences={},
-                 elements=elements[:4],
-                 objective="weapon"):
+                 optimizer):
         
         # Initialize the chromosome with a character, items, item sets and a chromosome
         self.chromosome = chromosome
-        self.character = character
-        self.preferences = preferences
-        self.elements = elements
-        self.objective = objective
+        self.optimizer = optimizer
+        self.character = optimizer.character
+        self.preferences = optimizer.config["preferences"]
+        self.elements = optimizer.config["elements"]
+        self.objective = optimizer.config["objective"]
         self.viable = True
+        self.penalized = False
 
         # Get the items and item sets of the chromosome
-        self.items = [items[i] for i in self.chromosome]
-        self.item_sets = [get_item_set(i, item_sets) \
-                          for i in self.items]
-        self.item_sets = [i for i in self.item_sets if i]
+        self.items = [optimizer.items[i] for i in self.chromosome]
+        self.item_sets = [v for k,v in optimizer.item_sets.items() \
+                    if set(v["items"]) & set([i["ankama_id"] for i in self.items])] # Filter item sets to only include valid items
 
         # Get the item contributions
         self.item_contributions = self.get_item_contributions()
@@ -189,14 +205,34 @@ class Chromosome(object):
         self.fitness = self.get_fitness()
 
     def get_weapon(self):
+        """
+        Get the weapon from the chromosome.
+        """
         return next(i for i in self.items if i["type"]["superTypeId"] == 2)
     
     def get_item_contributions(self):
+        """
+        Get the contributions of the items in the chromosome.
+        
+        The contributions are calculated based on the effects of the items.
+        
+        Each item contributes to the totals based on its effects.
+        """
         # Item contributions
         lst = [get_item_contribution(item) for item in self.items]
         return pd.DataFrame(lst).sum(axis=0).to_dict()
     
     def get_set_contributions(self):
+        """
+        Get the contributions of the item sets in the chromosome.
+        
+        The contributions are calculated based on the overlap of items 
+        in the item sets.
+        
+        Each item set contributes to the totals based on the number of 
+        items it has in the chromosome.
+        
+        The contributions are returned as a dictionary."""
         # Set effects contributions
         lst = []
         seen_sets = set()
@@ -257,6 +293,12 @@ class Chromosome(object):
             return self.are_nested_conditions_met(conditions)
     
     def get_totals(self):
+        """
+        Get the totals of the chromosome based on the character's stats, item contributions, and set contributions.
+        
+        The totals are calculated by summing the character's stats, item contributions, and set contributions.
+        
+        The totals are returned as a dictionary."""
         # Get the character stats
         character_contributions = self.character.stats.copy()
         return pd.DataFrame(
@@ -265,15 +307,27 @@ class Chromosome(object):
                 self.set_contributions]).sum(axis=0).to_dict()
 
     def get_final_elemental_damage(self):
+        """
+        Calculate the final elemental damage based on the character's totals and item contributions.
+        
+        The damage is calculated based on the character's stats, item contributions,
+        and the expected critical hit bonus and probability.
+        
+        The damage is calculated for each element in the damage mapper.
+        """
         power = self.totals.get(32,0)
         base_crit_chance = self.totals.get(29,0)
         base_crit_added_damage = self.totals.get(38,0)
-        spell_damage = 10 # Default spell damage
-
-        # Critical hit logic
-        crit_bonus = 3 # Default crit bonus
+        spell_damage = 20 # Default spell damage
+        crit_bonus = 5 # Default crit bonus
         spell_crit_chance = 25 # Default spell crit chance
-        crit_chance = max(min(spell_crit_chance + base_crit_chance,100), 0)  # Ensure crit_chance is between 0 and 100
+        
+        # Critical hit logic
+        if 29 in self.optimizer.config.get("preferences",{"lower":{}}).get("lower"):
+            crit_chance = max(min(spell_crit_chance + base_crit_chance,100), 0)  # Ensure crit_chance is between 0 and 100
+        else:
+            # Do not use crit to prioritize items
+            crit_chance = 0
         expected_crit_bonus = max(crit_bonus * crit_chance/100, 0) # Expected value of distribution
         expected_crit_added_damage = max(base_crit_added_damage * crit_chance/100, 0) # Expected value of distribution
 
@@ -298,6 +352,16 @@ class Chromosome(object):
         return damage
 
     def get_final_weapon_damage(self):
+        """
+        Calculate the final weapon damage based on the character's totals and weapon stats.
+        
+        The damage is calculated based on the weapon's base damage, critical hit bonus,
+        critical hit probability, and the character's stats.
+        
+        The damage is calculated for each element in the weapon's damage effects.
+        
+        The final damage is the sum of the damage for each element.
+        """
         # totals = self.get_totals(chromosome)
         # Character stats
         power = self.totals.get(32,0)
@@ -332,8 +396,45 @@ class Chromosome(object):
             damage += (weapon_base_damage + expected_crit_bonus) * (1+(stat_base+power)/100) + expected_crit_added_damage + added_bonus
         return damage
     
+    def _get_offset(self, element, preference, bound_type):
+        """
+        Calculate the offset for a given element based on the preference and bound type.
+        """
+        target = preference["target"]
+        current = self.totals.get(element, 0)
+        if bound_type == "lower":
+            return max(target - current, 0)/target
+        else:
+            return max(current - target, 0)/target
+
+    def _get_preference_penalty(self, preferences):
+        """
+        Enforce the preferences on the fitness value.
+        """
+        penalty = 1
+        for bound_type, type_preferences in preferences.items():
+            for element, preference in type_preferences.items():
+                strength = preference["strength"]
+                offset = self._get_offset(element, preference, bound_type)
+                if offset:
+                    # Penalize and also continuously reduce the fitness
+                    penalty *= (1 - strength) * (1 - offset)
+                    self.penalized = True
+        return penalty
+        
     def penalize(self, fitness):
-        # Penalizations
+        """
+        Penalize the fitness value based on the chromosome's viability and preferences.
+        
+        The fitness is penalized if the chromosome is not viable or if the preferences are not met.
+        
+        The penalties are applied as follows:
+        - If the chromosome is not viable, the fitness is multiplied by 0.1.
+        - If there are duplicated dofus or trophies, the fitness is multiplied by 0.1.
+        - If there are duplicated rings, the fitness is multiplied by 0.1.
+        - If any item does not meet its conditions, the fitness is multiplied by 0.1.
+        - The preferences are applied as a penalty factor, which is multiplied to the fitness.
+        """
         # Duplicated dofus and trophies
         duplicates = len(self.chromosome[-6:]) - len(set(self.chromosome[-6:]))
         for _ in range(duplicates):
@@ -341,12 +442,14 @@ class Chromosome(object):
             fitness *= 0.1
             # Mark as non-viable
             self.viable = False
+            self.penalized = True
 
         if len(set(self.chromosome[2:4])) < 2:
             # Arbitrary penalty for duplicated rings
             fitness *= 0.1
             # Mark as non-viable
             self.viable = False
+            self.penalized = True
 
         for item in self.items:
             if not self.are_item_conditions_met(item):
@@ -354,20 +457,18 @@ class Chromosome(object):
                 fitness *= 0.1
                 # Mark as non-viable
                 self.viable = False
+                self.penalized = True
                 
         # Penalizations for preferences
-        for element,value in self.preferences.get("lower", {}).items():
-            offset = max(value - self.totals.get(element, 0), 0)/value
-            # Penalize and also continuously reduce the fitness
-            if offset:
-                fitness *= 0.5 * (1 - offset)
-        for element,value in self.preferences.get("upper", {}).items():
-            offset = max(self.totals.get(element, 0) - value, 0)/value
-            if offset:
-                fitness *= 0.5 * (1 - offset)
-        return fitness
+        penalty = self._get_preference_penalty(self.preferences)
+        return fitness * penalty
 
     def get_fitness(self):
+        """
+        Get the fitness of the chromosome based on the objective.
+        The fitness is calculated based on the objective type, which
+        can be either "weapon" or "elements".
+        """
         type = self.objective
         if type == "weapon":
             fitness = self.get_final_weapon_damage()
@@ -375,7 +476,13 @@ class Chromosome(object):
             fitness = self.get_final_elemental_damage()
         return self.penalize(fitness)
     
-    def totals_summary(self,item_descriptions={}, language="en"):
+    def totals_summary(self,item_descriptions={}):
+        """
+        Get a summary of the totals of the chromosome.
+
+        The summary includes the item type, description, and value.
+        """
+        language = self.optimizer.config.get("language", "en")
         dct = {}
         for k,v in self.totals.items():
             if k not in item_descriptions:
@@ -388,7 +495,18 @@ class Chromosome(object):
             }
         return pd.DataFrame.from_dict(dct, orient='index').sort_index()
     
-    def set_summary(self, language="en"):
+    def set_summary(self):
+        """
+        Get a summary of the items in the chromosome.
+        
+        The summary includes the item type, description, level, and set name.
+
+        The set name is only included if the item belongs to a set.
+
+        The summary is returned as a pandas DataFrame.
+        """
+
+        language = self.optimizer.config.get("language", "en")
         dct = {}
         for item in self.items:
             item_set = get_item_set(item, {k["ankama_id"]: k for k in self.item_sets})
@@ -402,19 +520,25 @@ class Chromosome(object):
         return pd.DataFrame.from_dict(dct, orient='index').sort_index()
 
 class Optimizer(object):
+    """
+    Optimizer class to manage the genetic algorithm for optimizing item 
+    combinations for a Dofus character.
+    This class initializes the character, items, item sets, and pools of 
+    items by type.
+    It also initializes the genetic algorithm instance and provides methods 
+    to optimize the item combinations.
+    """
     def __init__(self,
                   character,
                     items,
                       item_sets, 
                       **config):
+        self.config = config
         self.character = character
         # Load data from CSV files        
-        self.items = items
-        self.item_sets = item_sets
-        self.config = config
-
-        # Filters
-        items = {k:v for k,v in items.items() if self.is_item_valid(v)}
+        self.items = {k:v for k,v in items.items() if self._is_item_valid(v)}
+        self.item_sets = {k:v for k,v in item_sets.items() \
+                          if set(v["items"]) & set(self.items.keys())}  # Filter item sets to only include valid items
 
         # Create pools of items by type
         # Pools of items by type
@@ -430,44 +554,129 @@ class Optimizer(object):
             ([12,27], 1), # Pet/Mount
             (13, 6), # Dofus
         ]
+        # Initialize pools of items by type
+        self._initialize_pools()
+        # Initialize the population
+        self._initialize_population_from_sets()
+        print(f"Total items: {len(self.items)}")
+        print(f"Total item sets: {len(self.item_sets)}")
+        print(f"Total pools:\n   {len(self.pools)} with sizes {[len(pool) for pool in self.pools]}")
+        print(f"Total combinations: 10^{np.log10(float(reduce(lambda x,y: x*y, [len(pool) for pool in self.pools]))):.2f}")
+        # Initialize the genetic algorithm instance
+        self.initialize()
 
+    def _initialize_pools(self):
+        """
+        Initialize the mapping of slots to pool types.
+        """
+        self.slot_to_pool_type = {}
         self.pools = []
+        inclusions = self.config.get("inclusions", {}).get("items", [])[:]
+        slot = 0
+        self.forced_slots = {}
         for t,count in self.pool_types:
             if not isinstance(t, list):
                 t = [t]
             for _ in range(count):
-                pool = [id for id in items if items[id]["type"]["superTypeId"] in t]
+                pool = [id for id in self.items if self.items[id]["type"]["superTypeId"] in t]
+                pool_inclusions = set(pool) & set(inclusions)
+                if pool_inclusions:
+                    # If there are inclusions, add one
+                    inclusion = next(iter(pool_inclusions), None)
+                    assert inclusion is not None, "Inclusion cannot be None"
+                    pool = [inclusion]
+                    # Remove the inclusion from the list
+                    inclusions.remove(inclusion)
+                    self.forced_slots[slot] = inclusion
                 self.pools.append(pool)
-                
+                slot += 1
+                self.slot_to_pool_type[len(self.slot_to_pool_type)] = t
         self.NUM_TYPES = len(self.pools)
-        print(f"Total pools: {len(self.pools)} with sizes {[len(pool) for pool in self.pools]}")
-        print(f"Total combinations: 10^{np.log10(float(reduce(lambda x,y: x*y, [len(pool) for pool in self.pools]))):.2f}")
-        # Initialize the genetic algorithm instance
-        self.initialize()
+
+    def _initialize_population_from_sets(self):
+        """
+        Initialize the population from item sets.
+        Each item set will be represented by a chromosome that contains items from the set.
+        The chromosome will be filled with items from the pools based on the item set's items.
+        If an item from the set is not available in the pools, a random item from the pool will be used.
+        This ensures that the initial population is diverse and contains valid item combinations.
+        """
+        #TODO: Make sure that the set chromosomes are valid
+        initial_population = []
+        for s in self.item_sets.values():
+            chromosome = [None] * len(self.pools)
+            seen_items = set()
+            for slot, types in self.slot_to_pool_type.items():
+                if slot in self.forced_slots:
+                    # If the slot is forced, use the forced item
+                    set_item = self.forced_slots[slot]
+                else:
+                    # Otherwise, try to find an item from the set that matches the slot type
+                    if not isinstance(types, list):
+                        types = [types]
+                    # Filter items in the set that match the slot type
+                    iterator = iter(i for i in s["items"] \
+                                    if i in self.items \
+                                    and self.items[i]["type"]["superTypeId"] in types \
+                                    and i not in seen_items)
+                    set_item = next(iterator, None)
+                seen_items.add(set_item)
+                if not set_item:
+                    set_item = random.choice(self.pools[slot])
+                chromosome[slot] = set_item
+            initial_population.append(chromosome)
+
+        while len(initial_population) < self.config["population_size"]:
+            chrom = [random.choice(self.pools[i]) for i in range(len(self.pools))]
+            initial_population.append(chrom)
+        self.initial_population = initial_population
     
-    def is_item_valid(self, item):
+    def _is_item_valid(self, item):
+        """
+        Check if an item is valid based on the character's level and exclusions.
+
+        An item is valid if:
+        - It is not in the exclusions list.
+        - Its level is less than or equal to the character's level.
+        - If it is a pet, dofus, or mount, it can be low level
+        - If it is not a pet, dofus, or mount, its level plus the level 
+        offset is less than or equal to the character's level.
+        """
         if item["ankama_id"] in self.config["exclusions"]["items"]:
             return False
         if item["level"] > self.character.level:
             return False
-        if item["type"]["superTypeId"] not in [12, 13, 27]: # Pet, Dofus, Mount
+        if "type" in item and \
+            item["type"]["superTypeId"] in [12, 13, 27]: # Pet, Dofus, Mount
             # Only pets can be low level
-            if item["level"] + self.config["level_offset"] < self.character.level:
-                # Item is too low level for the character
-                return False
+            return True
+        if item["level"] + self.config["level_offset"] < self.character.level:
+            # Item is too low level for the character
+            return False
         return True
     
     def fitness(self,ga_instance,chromosome,chromosome_idx):
-        return Chromosome(self.character,
-                        self.items,
-                        self.item_sets,
-                        chromosome,
-                        preferences=self.config["preferences"],
-                        objective=self.config["objective"],
-                        elements=self.config["elements"]
-                        ).fitness
+        """
+        Fitness function for the genetic algorithm.
+
+        It calculates the fitness of a chromosome based on the character's totals and preferences.
+        The fitness is calculated by creating a Chromosome instance with the given chromosome,
+        and then calling its fitness method.
+
+        The fitness function returns the fitness value of the chromosome.
+        If the chromosome is not viable, it returns a very low fitness value to penalize it
+        """
+        return Chromosome(chromosome,
+                          self).fitness
 
     def initialize(self):
+        """
+        Initialize the genetic algorithm instance with the given configuration.
+        The configuration includes the number of generations, population size,
+        number of parents mating, parent selection type, crossover rate, mutation rate,
+        and tournament size.
+
+        The genetic algorithm instance is created using the pygad library."""
         self.ga_instance = pygad.GA(
             num_generations=self.config["num_generations"],
             num_parents_mating=self.config["num_parents_mating"],
@@ -480,19 +689,25 @@ class Optimizer(object):
             K_tournament=self.config.get("tournament_size", 3),
             crossover_probability=self.config["crossover_rate"],
             mutation_probability=self.config["mutation_rate"],
-            keep_elitism=1
+            keep_elitism=1,
+            initial_population=self.initial_population,
         )
 
     def optimize(self):
+        """
+        Run the genetic algorithm to optimize the item combinations.
+
+        The optimization process involves running the genetic algorithm instance,
+        which will evolve the population over the specified number of generations.
+        After the optimization, the best solution is extracted from the genetic algorithm instance,
+        and a Chromosome instance is created with the best solution.
+
+        The best solution contains the items and item sets that yield the highest fitness value."""
         # Run the GA
         self.ga_instance.run()
         
         # Get the best solution
         best_solution, best_solution_fitness, _ = self.ga_instance.best_solution()
-        self.solution = Chromosome(self.character,
-                          self.items,
-                          self.item_sets,
+        self.solution = Chromosome(
                           best_solution,
-                          preferences=self.config["preferences"],
-                          objective=self.config["objective"],
-                          elements=self.config["elements"])
+                          optimizer=self)

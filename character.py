@@ -9,6 +9,7 @@ class Character(object):
     It also allows for the distribution of points based on a configuration dictionary.
     """
     def __init__(self, level, **config):
+        self.config = config
         self.stats = {}
         self.level = level
         self.scrolled = config.get("scrolled", False)

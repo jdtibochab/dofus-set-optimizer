@@ -53,6 +53,7 @@ class Optimizer(object):
         """
         Initialize the mapping of slots to pool types.
         """
+        # TODO: Allow addition of one defined chromosome (e.g. current set)
         self.slot_to_pool_type = {}
         self.pools = []
         inclusions = self.config.get("inclusions", {}).get("items", [])[:]

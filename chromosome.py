@@ -19,7 +19,7 @@ class Chromosome(object):
         self.optimizer = optimizer
         self.character = optimizer.character
         self.preferences = optimizer.config["preferences"]
-        self.elements = optimizer.config["elements"]
+        self.elements = optimizer.character.config["elements"]
         self.objective = optimizer.config["objective"]
         self.viable = True
         self.penalized = False
@@ -228,6 +228,8 @@ class Chromosome(object):
             return 0
 
         weapon_damage = self.get_weapon_damage(self.weapon)
+        weapon_crit_chance = self.weapon["criticalHitProbability"] \
+            if not pd.isna(self.weapon["criticalHitProbability"]) else 0
 
         # Critical hit logic
         if 29 in self.optimizer.config.get("preferences",{"lower":{}}).get("lower"):
@@ -237,8 +239,7 @@ class Chromosome(object):
             crit_chance = 0
         crit_bonus = self.weapon["criticalHitBonus"] \
             if not pd.isna(self.weapon["criticalHitBonus"]) else 0
-        weapon_crit_chance = self.weapon["criticalHitProbability"] \
-            if not pd.isna(self.weapon["criticalHitProbability"]) else 0
+
         expected_crit_bonus = max(crit_bonus * crit_chance/100, 0) # Expected value of distribution
         expected_crit_added_damage = max(base_crit_added_damage * crit_chance/100, 0) # Expected value of distribution
 
@@ -257,7 +258,8 @@ class Chromosome(object):
             # Get the added bonus damage from the stat
             bonus_damage_id = bonus_damage_mapper[element_id]
             added_bonus = self.totals.get(bonus_damage_id, 0)
-            damage += (weapon_base_damage + expected_crit_bonus) * (1+(stat_base+power)/100) + expected_crit_added_damage + added_bonus
+            dmg = (weapon_base_damage + expected_crit_bonus) * (1+(stat_base+power)/100) + expected_crit_added_damage + added_bonus
+            damage += dmg
         return damage
     
     def _get_offset(self, element, preference, bound_type):

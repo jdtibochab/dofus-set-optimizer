@@ -48,8 +48,6 @@ class Optimizer(object):
         print(f"Total item sets: {len(self.item_sets)}")
         print(f"Total pools:\n   {len(self.pools)} with sizes {[len(pool) for pool in self.pools]}")
         print(f"Total combinations: 10^{np.log10(float(reduce(lambda x,y: x*y, [len(pool) for pool in self.pools]))):.2f}")
-        # Initialize the genetic algorithm instance
-        self.initialize()
 
     def _initialize_pools(self):
         """
@@ -183,7 +181,24 @@ class Optimizer(object):
             initial_population=initial_population,
         )
 
-    def optimize(self):
+    def run_ga(self, island=None):
+        # Initialize the genetic algorithm instance
+        self.initialize()
+        
+        # Run the GA
+        self.ga_instance.run()
+        
+        # Get the best solution
+        best_solution, best_solution_fitness, _ = self.ga_instance.best_solution()
+
+        solution = Chromosome(
+                          best_solution,
+                          optimizer=self)
+        solution.best_solutions_fitness = self.ga_instance.best_solutions_fitness
+        solution.best_solutions = self.ga_instance.best_solutions
+        return solution
+
+    def optimize(self, islands = None, max_workers = 1):
         # TODO: Implement island optimization
         """
         Run the genetic algorithm to optimize the item combinations.
@@ -194,11 +209,12 @@ class Optimizer(object):
         and a Chromosome instance is created with the best solution.
 
         The best solution contains the items and item sets that yield the highest fitness value."""
-        # Run the GA
-        self.ga_instance.run()
-        
-        # Get the best solution
-        best_solution, best_solution_fitness, _ = self.ga_instance.best_solution()
-        self.solution = Chromosome(
-                          best_solution,
-                          optimizer=self)
+
+        if islands:
+            # TODO: Implement island optimization
+            import concurrent.futures
+            with concurrent.futures.ProcessPoolExecutor(max_workers=max_workers) as executor:
+                results = list(executor.map(self.run_ga, range(islands)))
+                return results
+        return self.run_ga()
+

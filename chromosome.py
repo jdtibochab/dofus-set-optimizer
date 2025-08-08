@@ -230,11 +230,15 @@ class Chromosome(object):
         weapon_damage = self.get_weapon_damage(self.weapon)
 
         # Critical hit logic
+        if 29 in self.optimizer.config.get("preferences",{"lower":{}}).get("lower"):
+            crit_chance = max(min(weapon_crit_chance + base_crit_chance,100), 0)  # Ensure crit_chance is between 0 and 100
+        else:
+            # Do not use crit to prioritize items
+            crit_chance = 0
         crit_bonus = self.weapon["criticalHitBonus"] \
             if not pd.isna(self.weapon["criticalHitBonus"]) else 0
         weapon_crit_chance = self.weapon["criticalHitProbability"] \
             if not pd.isna(self.weapon["criticalHitProbability"]) else 0
-        crit_chance = max(min(weapon_crit_chance + base_crit_chance,100), 0)  # Ensure crit_chance is between 0 and 100
         expected_crit_bonus = max(crit_bonus * crit_chance/100, 0) # Expected value of distribution
         expected_crit_added_damage = max(base_crit_added_damage * crit_chance/100, 0) # Expected value of distribution
 

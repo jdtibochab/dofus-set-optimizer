@@ -31,7 +31,7 @@ class Optimizer(object):
         # Pools of items by type
         self.pool_types = [
             (1, 1),
-            (2, 1),
+            (2, 1), # Weapon
             (3, 2), # Ring
             (4, 1),
             (5, 1),

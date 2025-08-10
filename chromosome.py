@@ -2,6 +2,8 @@ from utils import damage_mapper, bonus_damage_mapper
 from utils import get_item_contribution, get_set_contribution, get_item_set
 import pandas as pd
 
+# TODO: Implement ranged/melee damage bonus
+
 class Chromosome(object):
     """
     Chromosome class to represent a set of items for a Dofus character.
@@ -143,51 +145,6 @@ class Chromosome(object):
             [character_contributions,
               self.item_contributions,
                 self.set_contributions]).sum(axis=0).to_dict()
-
-    def get_final_elemental_damage(self):
-        """
-        Calculate the final elemental damage based on the character's totals and item contributions.
-        
-        The damage is calculated based on the character's stats, item contributions,
-        and the expected critical hit bonus and probability.
-        
-        The damage is calculated for each element in the damage mapper.
-        """
-        power = self.totals.get(32,0)
-        base_crit_chance = self.totals.get(29,0)
-        base_crit_added_damage = self.totals.get(38,0)
-        spell_damage = 20 # Default spell damage
-        crit_bonus = 5 # Default crit bonus
-        spell_crit_chance = 25 # Default spell crit chance
-        
-        # Critical hit logic
-        if 29 in self.optimizer.config.get("preferences",{"lower":{}}).get("lower"):
-            crit_chance = max(min(spell_crit_chance + base_crit_chance,100), 0)  # Ensure crit_chance is between 0 and 100
-        else:
-            # Do not use crit to prioritize items
-            crit_chance = 0
-        expected_crit_bonus = max(crit_bonus * crit_chance/100, 0) # Expected value of distribution
-        expected_crit_added_damage = max(base_crit_added_damage * crit_chance/100, 0) # Expected value of distribution
-
-        # Calculate total damage
-        damage = 0
-        seen_stats = []
-        for element_id, stat in damage_mapper.items():
-            if stat in seen_stats:
-                # Skip stats that have already been processed
-                continue
-            seen_stats.append(stat)
-            if stat not in self.elements:
-                continue
-            # Get the stat and base damage
-            stat_base = self.totals.get(stat,0)
-
-            # Get the added bonus damage from the stat
-            bonus_damage_id = bonus_damage_mapper[element_id]
-            added_bonus = self.totals.get(bonus_damage_id, 0)
-            # TODO: Set a default damage value per class, spell average?
-            damage += (spell_damage + expected_crit_bonus)*(1+(stat_base + power)/100) + expected_crit_added_damage + added_bonus
-        return damage
     
     def get_weapon_damage(self, weapon):
         if not weapon["effects"]:
@@ -207,7 +164,7 @@ class Chromosome(object):
             contributions[element_id] = d[field]
         return contributions
 
-    def get_final_weapon_damage(self):
+    def get_final_damage(self, type):
         """
         Calculate the final weapon damage based on the character's totals and weapon stats.
         
@@ -218,34 +175,51 @@ class Chromosome(object):
         
         The final damage is the sum of the damage for each element.
         """
-        # totals = self.get_totals(chromosome)
         # Character stats
         power = self.totals.get(32,0)
         base_crit_chance = self.totals.get(29,0)
         base_crit_added_damage = self.totals.get(38,0)
 
-        if self.weapon is None:
-            return 0
+        if type == "weapon":
+            if self.weapon is None:
+                return 0
+            dct_damage = self.get_weapon_damage(self.weapon)
+            crit_bonus = self.weapon["criticalHitBonus"] \
+                if not pd.isna(self.weapon["criticalHitBonus"]) else 0
+            crit_chance = self.weapon["criticalHitProbability"] \
+                if not pd.isna(self.weapon["criticalHitProbability"]) else 0
+        elif type == "elements":
+            spell_damage = 20 # Default spell damage
+            crit_bonus = 5 # Default crit bonus
+            crit_chance = 5 # Default spell crit chance
 
-        weapon_damage = self.get_weapon_damage(self.weapon)
-        weapon_crit_chance = self.weapon["criticalHitProbability"] \
-            if not pd.isna(self.weapon["criticalHitProbability"]) else 0
+            dct_damage = {}
+            seen_stats = []
+            for element_id, stat in damage_mapper.items():
+                if stat in seen_stats:
+                    # Skip stats that have already been processed
+                    continue
+                seen_stats.append(stat)
+                if stat not in self.elements:
+                    continue
+                dct_damage[element_id] = spell_damage
+
+            return dct_damage
 
         # Critical hit logic
-        if 29 in self.optimizer.config.get("preferences",{"lower":{}}).get("lower"):
-            crit_chance = max(min(weapon_crit_chance + base_crit_chance,100), 0)  # Ensure crit_chance is between 0 and 100
+        if 29 in self.optimizer.config.get("preferences",{}).get("lower"):
+            final_crit_chance = max(min(crit_chance + base_crit_chance,100), 0)  # Ensure crit_chance is between 0 and 100
         else:
-            # Do not use crit to prioritize items
-            crit_chance = 0
-        crit_bonus = self.weapon["criticalHitBonus"] \
-            if not pd.isna(self.weapon["criticalHitBonus"]) else 0
+            # If user did not care about crit, do not use crit to prioritize items
+            final_crit_chance = 0
 
-        expected_crit_bonus = max(crit_bonus * crit_chance/100, 0) # Expected value of distribution
-        expected_crit_added_damage = max(base_crit_added_damage * crit_chance/100, 0) # Expected value of distribution
+        # Calculate expected critical hit damage bonus
+        expected_crit_bonus = max(crit_bonus * final_crit_chance/100, 0) # Expected value of distribution
+        expected_crit_added_damage = max(base_crit_added_damage * final_crit_chance/100, 0) # Expected value of distribution
 
         # Calculate total damage
         damage = 0
-        for element_id,weapon_base_damage in weapon_damage.items():
+        for element_id,weapon_base_damage in dct_damage.items():
             # Get the stat and base damage
             if element_id not in damage_mapper:
                 continue
@@ -336,11 +310,7 @@ class Chromosome(object):
         can be either "weapon" or "elements".
         """
         # TODO: Implement push damage
-        type = self.objective
-        if type == "weapon":
-            fitness = self.get_final_weapon_damage()
-        elif type == "elements":
-            fitness = self.get_final_elemental_damage()
+        fitness = self.get_final_damage(type=self.objective)
         return self.penalize(fitness)
     
     def totals_summary(self,item_descriptions={}):

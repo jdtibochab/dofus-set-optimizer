@@ -6,6 +6,8 @@ from chromosome import Chromosome
 
 # https://chat.cborg.lbl.gov/c/14738910-0178-4da7-be92-69a815a9736c
 
+#TODO: Add statistical analysis like PCA to find trends
+
 class Optimizer(object):
     """
     Optimizer class to manage the genetic algorithm for optimizing item 
@@ -129,17 +131,24 @@ class Optimizer(object):
         - If it is not a pet, dofus, or mount, its level plus the level 
         offset is less than or equal to the character's level.
         """
+
         if item["ankama_id"] in self.config["exclusions"]["items"]:
             return False
         if item["level"] > self.character.level:
             return False
-        if "type" in item and \
-            item["type"]["superTypeId"] in [12, 13, 27]: # Pet, Dofus, Mount
-            # Only pets can be low level
-            return True
         if item["level"] + self.config["level_offset"] < self.character.level:
-            # Item is too low level for the character
-            return False
+            if item["type"]["superTypeId"] not in [12, 13, 27]: # Pet, Dofus, Mount
+                # Only pets can be low level
+                return False
+
+        if item["type"]["superTypeId"] == 2: # Weapon
+            if item["range"] > 1 and not self.character.config.get("range",True):
+                # Skip ranged weapons
+                return False
+            if item["range"] <=1 and not self.character.config.get("melee",True):
+                # Skip melee weapons
+                return False
+
         return True
     
     def fitness(self,ga_instance,chromosome,chromosome_idx):

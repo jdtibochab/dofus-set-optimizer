@@ -204,8 +204,6 @@ class Chromosome(object):
                     continue
                 dct_damage[element_id] = spell_damage
 
-            return dct_damage
-
         # Critical hit logic
         if 29 in self.optimizer.config.get("preferences",{}).get("lower"):
             final_crit_chance = max(min(crit_chance + base_crit_chance,100), 0)  # Ensure crit_chance is between 0 and 100

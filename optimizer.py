@@ -226,4 +226,13 @@ class Optimizer(object):
                 results = list(executor.map(self.run_ga, range(islands)))
                 return results
         return self.run_ga()
-
+    
+    @property
+    def effect_descriptions(self):
+        effect_descriptions = {}
+        for _,item in self.items.items():
+            if not item["effects"]:
+                continue
+            for effect in item["effects"]:
+                effect_descriptions[effect["element_id"]] = effect["type"]
+        return effect_descriptions

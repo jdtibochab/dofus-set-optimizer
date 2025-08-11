@@ -311,19 +311,20 @@ class Chromosome(object):
         fitness = self.get_final_damage(type=self.objective)
         return self.penalize(fitness)
     
-    def totals_summary(self,item_descriptions={}):
+    def totals_summary(self):
         """
         Get a summary of the totals of the chromosome.
 
         The summary includes the item type, description, and value.
         """
         language = self.optimizer.config.get("language", "en")
+        effect_descriptions = self.optimizer.effect_descriptions
         dct = {}
         for k,v in self.totals.items():
-            if k not in item_descriptions:
+            if k not in effect_descriptions:
                 description = None
             else:
-                description = item_descriptions[k][language]
+                description = effect_descriptions[k][language]
             dct[k] = {
                 "description": description,
                 "value": v

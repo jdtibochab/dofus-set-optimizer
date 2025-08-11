@@ -89,7 +89,7 @@ class Optimizer(object):
         This ensures that the initial population is diverse and contains valid item combinations.
         """
         #TODO: Make sure that the set chromosomes are valid.
-        #NOTE: Creating a chromosome to check penalties is super slow, something quicker?
+            #NOTE: Creating a chromosome to check penalties is super slow, something quicker?
         initial_population = []
         for s in self.item_sets.values():
             chromosome = [None] * len(self.pools)
@@ -189,6 +189,7 @@ class Optimizer(object):
             mutation_probability=self.config["mutation_rate"],
             keep_elitism=2,
             initial_population=initial_population,
+            save_best_solutions=True,
         )
 
     def run_ga(self, island=None):
@@ -209,7 +210,6 @@ class Optimizer(object):
         return solution
 
     def optimize(self, islands = None, max_workers = 1):
-        # TODO: Implement island optimization
         """
         Run the genetic algorithm to optimize the item combinations.
 
@@ -220,8 +220,7 @@ class Optimizer(object):
 
         The best solution contains the items and item sets that yield the highest fitness value."""
 
-        if islands:
-            # TODO: Implement island optimization
+        if islands and islands > 1:
             import concurrent.futures
             with concurrent.futures.ProcessPoolExecutor(max_workers=max_workers) as executor:
                 results = list(executor.map(self.run_ga, range(islands)))

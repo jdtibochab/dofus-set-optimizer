@@ -42,6 +42,7 @@ class Character(object):
             points -= distribute
 
     def _auto_distribute_points(self):
+        #TODO: Allow the optimizer to distribute points unevenly
         points_to_distribute = (self.level - 1) * 5
         per_element = points_to_distribute // len(self.elements)
         # Distribute points based on soft caps

@@ -6,8 +6,6 @@ from chromosome import Chromosome
 
 # https://chat.cborg.lbl.gov/c/14738910-0178-4da7-be92-69a815a9736c
 
-#TODO: Add statistical analysis like PCA to find trends
-
 class Optimizer(object):
     """
     Optimizer class to manage the genetic algorithm for optimizing item 

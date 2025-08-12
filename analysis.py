@@ -92,7 +92,7 @@ class Analyzer(object):
         loadings = self.pca.components_[:2, :]  # shape (2, n_features)
         loading_magnitudes = np.linalg.norm(loadings, axis=0)  # shape (n_features,)
 
-        top_n = 20  # or 15, or whatever number you want
+        top_n = 10  # or 15, or whatever number you want
         top_indices = np.argsort(loading_magnitudes)[-top_n:]  # indices of top N features
 
         stat_names = self.df_totals_normalized.columns.tolist()  # Replace with your stat names if you have them

@@ -155,10 +155,14 @@ class Analyzer(object):
                 print(f"\t\t{df.loc[element]['description']}: {df.loc[element]['value']}")
 
             print("\tItems:")
-            print("\t\tType\tDescription\tLevel")
-            for item,row in solution.set_summary().sort_values("type").iterrows():
+            print("\t\tType\tDescription\tLevel\tID")
+            sorted_summary = solution.set_summary().sort_values("type")
+            for item,row in sorted_summary.iterrows():
                 # Prettify the output
-                print(f"\t\t{row['type']}\t{row['description']}\t{row['level']}")
+                print(f"\t\t{row['type']}\t{row['description']}\t{row['level']}\t{item}")
+
+            chromosome_strings = [f"\t\t\t{gene}, # {row['description']}\n" for gene,row in sorted_summary.iterrows()]
+            print("\tChromosome: ", "[\n", "".join(chromosome_strings), "\t\t\t]")
             print("\n")
 
     def report_extended_results(self):

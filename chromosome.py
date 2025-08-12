@@ -188,6 +188,7 @@ class Chromosome(object):
                 if not pd.isna(self.weapon["criticalHitBonus"]) else 0
             crit_chance = self.weapon["criticalHitProbability"] \
                 if not pd.isna(self.weapon["criticalHitProbability"]) else 0
+            
         elif type == "elements":
             spell_damage = 20 # Default spell damage
             crit_bonus = 5 # Default crit bonus
@@ -309,6 +310,10 @@ class Chromosome(object):
         """
         # TODO: Implement push damage
         fitness = self.get_final_damage(type=self.objective)
+        if self.objective == "weapon" and self.optimizer.config.get("normalize_by_apcost", True):
+            # Normalize by AP cost
+            ap_cost = self.weapon["apCost"]
+            fitness /= ap_cost
         return self.penalize(fitness)
     
     def totals_summary(self):

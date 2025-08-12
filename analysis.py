@@ -15,11 +15,14 @@ class Analyzer(object):
 
     def get_candidate_solutions(self):
         candidates = []
-        best_fitness = sorted(self.solutions, key=lambda x: x.fitness, reverse=True)[0].fitness
+        # If we use this best fitness, it biases the results towards one island
+        # best_fitness = sorted(self.solutions, key=lambda x: x.fitness, reverse=True)[0].fitness
         for sol in self.solutions:
             # Get list of solutions
             lst_solutions = sol.best_solutions
             lst_fitness = sol.best_solutions_fitness
+            # Base candidates off the best fitness of every island to get diversity
+            best_fitness = max(lst_fitness)
             df = pd.DataFrame(lst_solutions)
 
             # Remove duplicates
@@ -134,6 +137,9 @@ class Analyzer(object):
             print(f"Solution {idx}:")
             print("\tFitness:", solution.get_fitness())
             print("\tWeapon damage:", solution.get_final_damage(type="weapon"))
+            print(f"\t\tWeapon: {solution.weapon['name'][self.optimizer.config.get('language', 'en')]}")
+            print(f"\t\tAP Cost: {solution.weapon['apCost']}")
+            print(f"\t\tCasts per turn: {solution.weapon['maxCastPerTurn']}")
             print("\tSpell damage:", solution.get_final_damage(type="elements"))
             # print("\tIs the solution viable?", solution.viable)
             # print("\tWas the solution penalized?", solution.penalized)
@@ -153,6 +159,7 @@ class Analyzer(object):
             for item,row in solution.set_summary().sort_values("type").iterrows():
                 # Prettify the output
                 print(f"\t\t{row['type']}\t{row['description']}\t{row['level']}")
+            print("\n")
 
     def report_extended_results(self):
         self.report_results(self.candidates)

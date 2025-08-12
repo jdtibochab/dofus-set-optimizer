@@ -142,12 +142,22 @@ class Optimizer(object):
                 return False
 
         if item["type"]["superTypeId"] == 2: # Weapon
-            if item["range"] > 1 and not self.character.config.get("range",True):
+            if item["apCost"] == 0:
+                # Skip weapons with 0 AP cost
+                return False
+            ranged = self.character.config.get("ranged",True)
+            melee = self.character.config.get("melee",True)
+            if ranged and isinstance(ranged,int):
+                # User specified minimum range on weapon
+                if item["range"] < ranged:
+                    return False
+            if item["range"] > 1 and not ranged:
                 # Skip ranged weapons
                 return False
-            if item["range"] <=1 and not self.character.config.get("melee",True):
+            if item["range"] <=1 and not melee:
                 # Skip melee weapons
                 return False
+
 
         return True
     

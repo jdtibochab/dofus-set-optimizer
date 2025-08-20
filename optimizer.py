@@ -137,7 +137,7 @@ class Optimizer(object):
         if item["level"] > self.character.level:
             return False
         if item["level"] + self.config["level_offset"] < self.character.level:
-            if item["type"]["superTypeId"] not in [12, 13, 27]: # Pet, Dofus, Mount
+            if item["type"]["superTypeId"] not in [12, 13, 99]: # Pet, Dofus, Mount
                 # Only pets can be low level
                 return False
 

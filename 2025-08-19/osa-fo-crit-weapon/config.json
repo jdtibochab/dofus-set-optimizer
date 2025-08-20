@@ -36,6 +36,10 @@
                     "target": 6,
                     "strength": 0.9
                 },
+                "29": {
+                    "target": 70,
+                    "strength": 0.75
+                },
                 "9": {
                     "target": 4000,
                     "strength": 0.5
@@ -80,6 +84,8 @@
         "distributed_points": {},
         "elements": [
             45
-        ]
+        ],
+        "melee": true,
+        "ranged": false
     }
 }

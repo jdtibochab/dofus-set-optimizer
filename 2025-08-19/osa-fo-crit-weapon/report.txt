@@ -1,0 +1,1037 @@
+Solution 0:
+	Fitness: 290.74565
+	Weapon damage:1162.9826
+		Weapon: Bastón Ba
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:479.3195
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 74.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 15.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 37.0
+		% resistencia a la tierra : 34.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 340.0
+		inteligencia: 210.0
+		fuerza: 966.0
+		vitalidad: 4000.0
+		sabiduría: 435.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bastón	Bastón Ba	197	14166
+		Bota	Botarpilla	200	15748
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudámbar	200	18696
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Diadema de Wulán	200	24030
+		Trofeo	Hércules mayor	150	13759
+	Chromosome: [
+			15746, # Collarpilla
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14166, # Bastón Ba
+			15748, # Botarpilla
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18696, # Escudámbar
+			31885, # Microsmoglob
+			24030, # Diadema de Wulán
+			13759, # Hércules mayor
+			]
+Solution 1:
+	Fitness: 284.15
+	Weapon damage:1136.6
+		Weapon: Bastón Ba
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:476.3175
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 80.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 15.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 30.0
+		% resistencia a la tierra : 24.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 340.0
+		inteligencia: 210.0
+		fuerza: 966.0
+		vitalidad: 4000.0
+		sabiduría: 435.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bastón	Bastón Ba	197	14166
+		Bota	Botarpilla	200	15748
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de Anerice	200	19077
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Diadema de Wulán	200	24030
+		Trofeo	Hércules mayor	150	13759
+	Chromosome: [
+			15746, # Collarpilla
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14166, # Bastón Ba
+			15748, # Botarpilla
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			19077, # Escudo de Anerice
+			31885, # Microsmoglob
+			24030, # Diadema de Wulán
+			13759, # Hércules mayor
+			]
+Solution 2:
+	Fitness: 282.6037333333333
+	Weapon damage:847.8112
+		Weapon: Dagas de Ilyzaelle
+		AP Cost: 3
+		Casts per turn: 2
+	Spell damage:517.7280000000001
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 71.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 22.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 24.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 180.0
+		inteligencia: 290.0
+		fuerza: 1156.0
+		vitalidad: 4000.0
+		sabiduría: 350.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto volcánico	200	19590
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Daga	Dagas de Ilyzaelle	200	19268
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Sombrero de Lonyon	200	15431
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			19590, # Amuleto volcánico
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			19268, # Dagas de Ilyzaelle
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			31885, # Microsmoglob
+			15431, # Sombrero de Lonyon
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			]
+Solution 3:
+	Fitness: 280.45733333333334
+	Weapon damage:841.3720000000001
+		Weapon: Dagas de Ilyzaelle
+		AP Cost: 3
+		Casts per turn: 2
+	Spell damage:519.175
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 70.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 22.0
+		% resistencia al agua : 33.0
+		% resistencia a la tierra : 24.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 100.0
+		inteligencia: 290.0
+		fuerza: 1156.0
+		vitalidad: 4050.0
+		sabiduría: 350.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto volcánico	200	19590
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Daga	Dagas de Ilyzaelle	200	19268
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cocoscudo	200	21225
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Sombrero de Lonyon	200	15431
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			19590, # Amuleto volcánico
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			19268, # Dagas de Ilyzaelle
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			21225, # Cocoscudo
+			31885, # Microsmoglob
+			15431, # Sombrero de Lonyon
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			]
+Solution 4:
+	Fitness: 276.6037333333333
+	Weapon damage:829.8112
+		Weapon: Dagas de Ilyzaelle
+		AP Cost: 3
+		Casts per turn: 2
+	Spell damage:514.7280000000001
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 71.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 22.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 24.0
+	Characteristics:
+		agilidad: 150.0
+		suerte: 100.0
+		inteligencia: 220.0
+		fuerza: 1156.0
+		vitalidad: 4050.0
+		sabiduría: 385.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto volcánico	200	19590
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Daga	Dagas de Ilyzaelle	200	19268
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Anerice	200	19077
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Cuerno de Torkelonia	200	21235
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			19590, # Amuleto volcánico
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			19268, # Dagas de Ilyzaelle
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			19077, # Escudo de Anerice
+			31885, # Microsmoglob
+			21235, # Cuerno de Torkelonia
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			]
+Solution 5:
+	Fitness: 275.7237333333333
+	Weapon damage:827.1712
+		Weapon: Dagas de Ilyzaelle
+		AP Cost: 3
+		Casts per turn: 2
+	Spell damage:508.60800000000006
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 71.0
+		vitalidad : 4100.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 19.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 100.0
+		inteligencia: 220.0
+		fuerza: 1156.0
+		vitalidad: 4100.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto volcánico	200	19590
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Daga	Dagas de Ilyzaelle	200	19268
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Anerice	200	19077
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Pañoleta de Mami Ayuto	200	30860
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			19590, # Amuleto volcánico
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			19268, # Dagas de Ilyzaelle
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			19077, # Escudo de Anerice
+			31885, # Microsmoglob
+			30860, # Pañoleta de Mami Ayuto
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			]
+Solution 6:
+	Fitness: 274.5717333333333
+	Weapon damage:823.7152
+		Weapon: Dagas de Ilyzaelle
+		AP Cost: 3
+		Casts per turn: 2
+	Spell damage:501.56800000000004
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 71.0
+		vitalidad : 4100.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 19.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 100.0
+		inteligencia: 220.0
+		fuerza: 1156.0
+		vitalidad: 4100.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto volcánico	200	19590
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Daga	Dagas de Ilyzaelle	200	19268
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Anerice	200	19077
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Pañoleta de Mami Ayuto	200	30860
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Sanguinario mayor	150	16339
+	Chromosome: [
+			19590, # Amuleto volcánico
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			19268, # Dagas de Ilyzaelle
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			19077, # Escudo de Anerice
+			31885, # Microsmoglob
+			30860, # Pañoleta de Mami Ayuto
+			16196, # Rabioso mayor
+			16339, # Sanguinario mayor
+			]
+Solution 7:
+	Fitness: 273.7493333333333
+	Weapon damage:821.2479999999999
+		Weapon: Dagas de Ilyzaelle
+		AP Cost: 3
+		Casts per turn: 2
+	Spell damage:505.24
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 75.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 23.0
+		% resistencia al fuego : 23.0
+		% resistencia al aire : 35.0
+		% resistencia al agua : 21.0
+		% resistencia a la tierra : 17.0
+	Characteristics:
+		agilidad: 150.0
+		suerte: 150.0
+		inteligencia: 270.0
+		fuerza: 1136.0
+		vitalidad: 4050.0
+		sabiduría: 350.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto volcánico	200	19590
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Daga	Dagas de Ilyzaelle	200	19268
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Capitán Amakna	200	18670
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Pendiente de Kongoku	200	17107
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			19590, # Amuleto volcánico
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			19268, # Dagas de Ilyzaelle
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18670, # Escudo de Capitán Amakna
+			31885, # Microsmoglob
+			17107, # Pendiente de Kongoku
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			]
+Solution 8:
+	Fitness: 273.4277333333333
+	Weapon damage:820.2832
+		Weapon: Dagas de Ilyzaelle
+		AP Cost: 3
+		Casts per turn: 2
+	Spell damage:499.18800000000005
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 71.0
+		vitalidad : 4100.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 19.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 170.0
+		inteligencia: 290.0
+		fuerza: 1226.0
+		vitalidad: 4100.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto volcánico	200	19590
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Daga	Dagas de Ilyzaelle	200	19268
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de Anerice	200	19077
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Pañoleta de Mami Ayuto	200	30860
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Sanguinario mayor	150	16339
+	Chromosome: [
+			19590, # Amuleto volcánico
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			19268, # Dagas de Ilyzaelle
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			19077, # Escudo de Anerice
+			31885, # Microsmoglob
+			30860, # Pañoleta de Mami Ayuto
+			16196, # Rabioso mayor
+			16339, # Sanguinario mayor
+			]
+Solution 9:
+	Fitness: 272.58933333333334
+	Weapon damage:817.768
+		Weapon: Dagas de Ilyzaelle
+		AP Cost: 3
+		Casts per turn: 2
+	Spell damage:502.84000000000003
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 75.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 23.0
+		% resistencia al fuego : 23.0
+		% resistencia al aire : 35.0
+		% resistencia al agua : 21.0
+		% resistencia a la tierra : 17.0
+	Characteristics:
+		agilidad: 220.0
+		suerte: 220.0
+		inteligencia: 340.0
+		fuerza: 1206.0
+		vitalidad: 4050.0
+		sabiduría: 350.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto volcánico	200	19590
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Daga	Dagas de Ilyzaelle	200	19268
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de Capitán Amakna	200	18670
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Pendiente de Kongoku	200	17107
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			19590, # Amuleto volcánico
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			19268, # Dagas de Ilyzaelle
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18670, # Escudo de Capitán Amakna
+			31885, # Microsmoglob
+			17107, # Pendiente de Kongoku
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			]
+Solution 10:
+	Fitness: 272.58933333333334
+	Weapon damage:817.768
+		Weapon: Dagas de Ilyzaelle
+		AP Cost: 3
+		Casts per turn: 2
+	Spell damage:502.84000000000003
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 75.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 23.0
+		% resistencia al fuego : 23.0
+		% resistencia al aire : 35.0
+		% resistencia al agua : 21.0
+		% resistencia a la tierra : 17.0
+	Characteristics:
+		agilidad: 220.0
+		suerte: 220.0
+		inteligencia: 340.0
+		fuerza: 1206.0
+		vitalidad: 4050.0
+		sabiduría: 350.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto volcánico	200	19590
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Daga	Dagas de Ilyzaelle	200	19268
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de Capitán Amakna	200	18670
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Pendiente de Kongoku	200	17107
+		Trofeo	Rabioso mayor	150	16196
+	Chromosome: [
+			19590, # Amuleto volcánico
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			19268, # Dagas de Ilyzaelle
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18670, # Escudo de Capitán Amakna
+			31885, # Microsmoglob
+			17107, # Pendiente de Kongoku
+			16196, # Rabioso mayor
+			]
+Solution 11:
+	Fitness: 272.46933333333334
+	Weapon damage:817.408
+		Weapon: Dagas de Ilyzaelle
+		AP Cost: 3
+		Casts per turn: 2
+	Spell damage:498.04
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 75.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 23.0
+		% resistencia al fuego : 23.0
+		% resistencia al aire : 35.0
+		% resistencia al agua : 21.0
+		% resistencia a la tierra : 17.0
+	Characteristics:
+		agilidad: 150.0
+		suerte: 150.0
+		inteligencia: 270.0
+		fuerza: 1136.0
+		vitalidad: 4050.0
+		sabiduría: 350.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto volcánico	200	19590
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Daga	Dagas de Ilyzaelle	200	19268
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Capitán Amakna	200	18670
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Pendiente de Kongoku	200	17107
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Sanguinario mayor	150	16339
+	Chromosome: [
+			19590, # Amuleto volcánico
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			19268, # Dagas de Ilyzaelle
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18670, # Escudo de Capitán Amakna
+			31885, # Microsmoglob
+			17107, # Pendiente de Kongoku
+			16196, # Rabioso mayor
+			16339, # Sanguinario mayor
+			]
+Solution 12:
+	Fitness: 271.3093333333333
+	Weapon damage:813.9279999999999
+		Weapon: Dagas de Ilyzaelle
+		AP Cost: 3
+		Casts per turn: 2
+	Spell damage:495.64
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 75.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 23.0
+		% resistencia al fuego : 23.0
+		% resistencia al aire : 35.0
+		% resistencia al agua : 21.0
+		% resistencia a la tierra : 17.0
+	Characteristics:
+		agilidad: 220.0
+		suerte: 220.0
+		inteligencia: 340.0
+		fuerza: 1206.0
+		vitalidad: 4050.0
+		sabiduría: 350.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto volcánico	200	19590
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Daga	Dagas de Ilyzaelle	200	19268
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de Capitán Amakna	200	18670
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Pendiente de Kongoku	200	17107
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Sanguinario mayor	150	16339
+	Chromosome: [
+			19590, # Amuleto volcánico
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			19268, # Dagas de Ilyzaelle
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18670, # Escudo de Capitán Amakna
+			31885, # Microsmoglob
+			17107, # Pendiente de Kongoku
+			16196, # Rabioso mayor
+			16339, # Sanguinario mayor
+			]
+Solution 13:
+	Fitness: 269.1093333333333
+	Weapon damage:807.328
+		Weapon: Dagas de Ilyzaelle
+		AP Cost: 3
+		Casts per turn: 2
+	Spell damage:495.64
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 75.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 23.0
+		% resistencia al fuego : 23.0
+		% resistencia al aire : 35.0
+		% resistencia al agua : 21.0
+		% resistencia a la tierra : 17.0
+	Characteristics:
+		agilidad: 220.0
+		suerte: 220.0
+		inteligencia: 340.0
+		fuerza: 1256.0
+		vitalidad: 4050.0
+		sabiduría: 350.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto volcánico	200	19590
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Daga	Dagas de Ilyzaelle	200	19268
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de Capitán Amakna	200	18670
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Pendiente de Kongoku	200	17107
+		Trofeo	Rabioso	100	16195
+		Trofeo	Rabioso mayor	150	16196
+	Chromosome: [
+			19590, # Amuleto volcánico
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			19268, # Dagas de Ilyzaelle
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18670, # Escudo de Capitán Amakna
+			31885, # Microsmoglob
+			17107, # Pendiente de Kongoku
+			16195, # Rabioso
+			16196, # Rabioso mayor
+			]
+Solution 14:
+	Fitness: 263.92266666666666
+	Weapon damage:791.768
+		Weapon: Dagas de Ilyzaelle
+		AP Cost: 3
+		Casts per turn: 2
+	Spell damage:489.84000000000003
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 75.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 23.0
+		% resistencia al fuego : 23.0
+		% resistencia al aire : 35.0
+		% resistencia al agua : 21.0
+		% resistencia a la tierra : 17.0
+	Characteristics:
+		agilidad: 220.0
+		suerte: 220.0
+		inteligencia: 340.0
+		fuerza: 1206.0
+		vitalidad: 4050.0
+		sabiduría: 350.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto volcánico	200	19590
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Daga	Dagas de Ilyzaelle	200	19268
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de Capitán Amakna	200	18670
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Pendiente de Kongoku	200	17107
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Sanguinario mayor	150	16339
+	Chromosome: [
+			19590, # Amuleto volcánico
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			19268, # Dagas de Ilyzaelle
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18670, # Escudo de Capitán Amakna
+			31885, # Microsmoglob
+			17107, # Pendiente de Kongoku
+			16196, # Rabioso mayor
+			16339, # Sanguinario mayor
+			]
+Solution 15:
+	Fitness: 263.71325
+	Weapon damage:1054.853
+		Weapon: Bastón Ba
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:443.4875
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 70.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 23.0
+		% resistencia al aire : 38.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 29.0
+	Characteristics:
+		agilidad: 300.0
+		suerte: 170.0
+		inteligencia: 280.0
+		fuerza: 1146.0
+		vitalidad: 4050.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Hierrofante	200	19609
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bastón	Bastón Ba	197	14166
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa de Anerice	200	19076
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Casco de los idos	200	15742
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Rabioso mayor	150	16196
+	Chromosome: [
+			19609, # Hierrofante
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14166, # Bastón Ba
+			14171, # Botas Jotdog-o
+			19076, # Capa de Anerice
+			22209, # Zarcinturón de Corrupción
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18718, # Escudo de kukoloide
+			31885, # Microsmoglob
+			15742, # Casco de los idos
+			13759, # Hércules mayor
+			16196, # Rabioso mayor
+			]
+Solution 16:
+	Fitness: 261.7226666666666
+	Weapon damage:785.1679999999999
+		Weapon: Dagas de Ilyzaelle
+		AP Cost: 3
+		Casts per turn: 2
+	Spell damage:489.84000000000003
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 75.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 23.0
+		% resistencia al fuego : 23.0
+		% resistencia al aire : 35.0
+		% resistencia al agua : 21.0
+		% resistencia a la tierra : 17.0
+	Characteristics:
+		agilidad: 220.0
+		suerte: 220.0
+		inteligencia: 340.0
+		fuerza: 1256.0
+		vitalidad: 4050.0
+		sabiduría: 350.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto volcánico	200	19590
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Daga	Dagas de Ilyzaelle	200	19268
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de Capitán Amakna	200	18670
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Pendiente de Kongoku	200	17107
+		Trofeo	Rabioso	100	16195
+		Trofeo	Rabioso mayor	150	16196
+	Chromosome: [
+			19590, # Amuleto volcánico
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			19268, # Dagas de Ilyzaelle
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18670, # Escudo de Capitán Amakna
+			31885, # Microsmoglob
+			17107, # Pendiente de Kongoku
+			16195, # Rabioso
+			16196, # Rabioso mayor
+			]

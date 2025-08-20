@@ -1,793 +1,549 @@
 Solution 0:
-	Fitness: 267.29568
-	Weapon damage:1336.4784
+	Fitness: 283.62672000000003
+	Weapon damage:1418.1336000000001
 		Weapon: Arco de vueloceronte
 		AP Cost: 5
 		Casts per turn: 1
-	Spell damage:1578.304
+	Spell damage:1654.866
 	Preferences:
 		PA : 12.0
 		PM : 5.0
-		% crítico : 87.0
+		% crítico : 88.0
 		vitalidad : 4050.0
 		% resistencia neutral : 15.0
-		% resistencia al fuego : 25.0
-		% resistencia al aire : 17.0
-		% resistencia al agua : 25.0
-		% resistencia a la tierra : 27.0
-		alcance : 7.0
+		% resistencia al fuego : 23.0
+		% resistencia al aire : 21.0
+		% resistencia al agua : 33.0
+		% resistencia a la tierra : 28.0
+		alcance : 6.0
 	Characteristics:
-		agilidad: 496.0
-		suerte: 496.0
-		inteligencia: 496.0
-		fuerza: 496.0
+		agilidad: 466.0
+		suerte: 546.0
+		inteligencia: 616.0
+		fuerza: 416.0
 		vitalidad: 4050.0
-		sabiduría: 340.0
+		sabiduría: 380.0
 	Items:
 		Type	Description	Level	ID
-		Amuleto	Collar rhoarim	200	31761
-		Anillo	Brazalete de melenutrof	200	15190
-		Anillo	Lanza de Guerra	200	22192
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Sello del rey jugador	200	17574
+		Anillo	Anillo Rtografiko	200	24035
 		Arco	Arco de vueloceronte	200	19986
-		Bota	Botas de Miauvizor	200	17578
-		Capa	Capa de Miauvizor	200	17580
-		Cinturón	Cinturón inestable	196	14069
+		Bota	Botas del rey jugador	200	17572
+		Capa	Capa de los maligilantes	200	15439
+		Cinturón	Cintáceo	200	15699
 		Dofus	Dofus Púrpura	110	694
 		Dofus	Dofus Turquesa	160	739
 		Dofus	Dofus de los hielos	180	7043
 		Dofus	Dofus Ocre	160	7754
-		Escudo	Cocoscudo	200	21225
+		Escudo	Cuadrifolio	193	18700
 		Mascota	Lokulto	20	13673
-		Sombrero	Casco de Miauvizor	200	17579
+		Sombrero	Sombrero de los maligilantes	200	15438
 		Trofeo	Lozano mayor	150	16332
 		Trofeo	Espabilador	100	16333
 	Chromosome: [
-			31761, # Collar rhoarim
-			15190, # Brazalete de melenutrof
-			22192, # Lanza de Guerra
+			14094, # Amuleto de estrígido
+			17574, # Sello del rey jugador
+			24035, # Anillo Rtografiko
 			19986, # Arco de vueloceronte
-			17578, # Botas de Miauvizor
-			17580, # Capa de Miauvizor
-			14069, # Cinturón inestable
+			17572, # Botas del rey jugador
+			15439, # Capa de los maligilantes
+			15699, # Cintáceo
 			694, # Dofus Púrpura
 			739, # Dofus Turquesa
 			7043, # Dofus de los hielos
 			7754, # Dofus Ocre
-			21225, # Cocoscudo
+			18700, # Cuadrifolio
 			13673, # Lokulto
-			17579, # Casco de Miauvizor
+			15438, # Sombrero de los maligilantes
 			16332, # Lozano mayor
 			16333, # Espabilador
 			]
 Solution 1:
-	Fitness: 266.70592
-	Weapon damage:1333.5296
+	Fitness: 276.9808
+	Weapon damage:1384.904
 		Weapon: Arco de vueloceronte
 		AP Cost: 5
 		Casts per turn: 1
-	Spell damage:1587.856
-	Preferences:
-		PA : 12.0
-		PM : 5.0
-		% crítico : 88.0
-		vitalidad : 4000.0
-		% resistencia neutral : 15.0
-		% resistencia al fuego : 17.0
-		% resistencia al aire : 25.0
-		% resistencia al agua : 25.0
-		% resistencia a la tierra : 28.0
-		alcance : 7.0
-	Characteristics:
-		agilidad: 436.0
-		suerte: 466.0
-		inteligencia: 436.0
-		fuerza: 466.0
-		vitalidad: 4000.0
-		sabiduría: 335.0
-	Items:
-		Type	Description	Level	ID
-		Amuleto	Amuleto de estrígido	200	14094
-		Anillo	Pikanillo	195	14882
-		Anillo	Brazalete de melenutrof	200	15190
-		Arco	Arco de vueloceronte	200	19986
-		Bota	Botas de Miauvizor	200	17578
-		Capa	Capa de Miauvizor	200	17580
-		Cinturón	Cinturón inestable	196	14069
-		Dofus	Dofus Púrpura	110	694
-		Dofus	Dofus Turquesa	160	739
-		Dofus	Dofus de los hielos	180	7043
-		Dofus	Dofus Ocre	160	7754
-		Escudo	Cocoscudo	200	21225
-		Mascota	Lokulto	20	13673
-		Sombrero	Casco de Miauvizor	200	17579
-		Trofeo	Lozano mayor	150	16332
-		Trofeo	Espabilador	100	16333
-	Chromosome: [
-			14094, # Amuleto de estrígido
-			14882, # Pikanillo
-			15190, # Brazalete de melenutrof
-			19986, # Arco de vueloceronte
-			17578, # Botas de Miauvizor
-			17580, # Capa de Miauvizor
-			14069, # Cinturón inestable
-			694, # Dofus Púrpura
-			739, # Dofus Turquesa
-			7043, # Dofus de los hielos
-			7754, # Dofus Ocre
-			21225, # Cocoscudo
-			13673, # Lokulto
-			17579, # Casco de Miauvizor
-			16332, # Lozano mayor
-			16333, # Espabilador
-			]
-Solution 2:
-	Fitness: 260.96512
-	Weapon damage:1304.8256000000001
-		Weapon: Arco de vueloceronte
-		AP Cost: 5
-		Casts per turn: 1
-	Spell damage:1548.4160000000002
-	Preferences:
-		PA : 12.0
-		PM : 5.0
-		% crítico : 88.0
-		vitalidad : 4000.0
-		% resistencia neutral : 15.0
-		% resistencia al fuego : 17.0
-		% resistencia al aire : 25.0
-		% resistencia al agua : 25.0
-		% resistencia a la tierra : 28.0
-		alcance : 7.0
-	Characteristics:
-		agilidad: 436.0
-		suerte: 466.0
-		inteligencia: 436.0
-		fuerza: 466.0
-		vitalidad: 4000.0
-		sabiduría: 335.0
-	Items:
-		Type	Description	Level	ID
-		Amuleto	Amuleto de estrígido	200	14094
-		Anillo	Pikanillo	195	14882
-		Anillo	Brazalete de melenutrof	200	15190
-		Arco	Arco de vueloceronte	200	19986
-		Bota	Botas de Miauvizor	200	17578
-		Capa	Capa de Miauvizor	200	17580
-		Cinturón	Cinturón inestable	196	14069
-		Dofus	Dofus Turquesa	160	739
-		Dofus	Dofus de los hielos	180	7043
-		Dofus	Dofus Ocre	160	7754
-		Escudo	Cocoscudo	200	21225
-		Mascota	Lokulto	20	13673
-		Sombrero	Casco de Miauvizor	200	17579
-		Trofeo	Lozano	100	16331
-		Trofeo	Lozano mayor	150	16332
-		Trofeo	Espabilador	100	16333
-	Chromosome: [
-			14094, # Amuleto de estrígido
-			14882, # Pikanillo
-			15190, # Brazalete de melenutrof
-			19986, # Arco de vueloceronte
-			17578, # Botas de Miauvizor
-			17580, # Capa de Miauvizor
-			14069, # Cinturón inestable
-			739, # Dofus Turquesa
-			7043, # Dofus de los hielos
-			7754, # Dofus Ocre
-			21225, # Cocoscudo
-			13673, # Lokulto
-			17579, # Casco de Miauvizor
-			16331, # Lozano
-			16332, # Lozano mayor
-			16333, # Espabilador
-			]
-Solution 3:
-	Fitness: 260.96512
-	Weapon damage:1304.8256000000001
-		Weapon: Arco de vueloceronte
-		AP Cost: 5
-		Casts per turn: 1
-	Spell damage:1548.4160000000002
-	Preferences:
-		PA : 12.0
-		PM : 5.0
-		% crítico : 88.0
-		vitalidad : 4000.0
-		% resistencia neutral : 15.0
-		% resistencia al fuego : 17.0
-		% resistencia al aire : 25.0
-		% resistencia al agua : 25.0
-		% resistencia a la tierra : 28.0
-		alcance : 7.0
-	Characteristics:
-		agilidad: 436.0
-		suerte: 466.0
-		inteligencia: 436.0
-		fuerza: 466.0
-		vitalidad: 4000.0
-		sabiduría: 335.0
-	Items:
-		Type	Description	Level	ID
-		Amuleto	Amuleto de estrígido	200	14094
-		Anillo	Pikanillo	195	14882
-		Anillo	Brazalete de melenutrof	200	15190
-		Arco	Arco de vueloceronte	200	19986
-		Bota	Botas de Miauvizor	200	17578
-		Capa	Capa de Miauvizor	200	17580
-		Cinturón	Cinturón inestable	196	14069
-		Dofus	Dofus Turquesa	160	739
-		Dofus	Dofus de los hielos	180	7043
-		Dofus	Dofus Ocre	160	7754
-		Escudo	Cocoscudo	200	21225
-		Mascota	Lokulto	20	13673
-		Sombrero	Casco de Miauvizor	200	17579
-		Trofeo	Potente mayor	150	13825
-		Trofeo	Lozano mayor	150	16332
-		Trofeo	Espabilador	100	16333
-	Chromosome: [
-			14094, # Amuleto de estrígido
-			14882, # Pikanillo
-			15190, # Brazalete de melenutrof
-			19986, # Arco de vueloceronte
-			17578, # Botas de Miauvizor
-			17580, # Capa de Miauvizor
-			14069, # Cinturón inestable
-			739, # Dofus Turquesa
-			7043, # Dofus de los hielos
-			7754, # Dofus Ocre
-			21225, # Cocoscudo
-			13673, # Lokulto
-			17579, # Casco de Miauvizor
-			13825, # Potente mayor
-			16332, # Lozano mayor
-			16333, # Espabilador
-			]
-Solution 4:
-	Fitness: 259.22432
-	Weapon damage:1296.1216
-		Weapon: Arco de vueloceronte
-		AP Cost: 5
-		Casts per turn: 1
-	Spell damage:1528.976
-	Preferences:
-		PA : 12.0
-		PM : 5.0
-		% crítico : 88.0
-		vitalidad : 4000.0
-		% resistencia neutral : 15.0
-		% resistencia al fuego : 17.0
-		% resistencia al aire : 25.0
-		% resistencia al agua : 25.0
-		% resistencia a la tierra : 28.0
-		alcance : 7.0
-	Characteristics:
-		agilidad: 436.0
-		suerte: 466.0
-		inteligencia: 436.0
-		fuerza: 466.0
-		vitalidad: 4000.0
-		sabiduría: 335.0
-	Items:
-		Type	Description	Level	ID
-		Amuleto	Amuleto de estrígido	200	14094
-		Anillo	Pikanillo	195	14882
-		Anillo	Brazalete de melenutrof	200	15190
-		Arco	Arco de vueloceronte	200	19986
-		Bota	Botas de Miauvizor	200	17578
-		Capa	Capa de Miauvizor	200	17580
-		Cinturón	Cinturón inestable	196	14069
-		Dofus	Dofus Turquesa	160	739
-		Dofus	Dofus de los hielos	180	7043
-		Dofus	Dofus Ocre	160	7754
-		Escudo	Cocoscudo	200	21225
-		Mascota	Lokulto	20	13673
-		Sombrero	Casco de Miauvizor	200	17579
-		Trofeo	Asolador de fuego mayor	150	16260
-		Trofeo	Lozano mayor	150	16332
-		Trofeo	Espabilador	100	16333
-	Chromosome: [
-			14094, # Amuleto de estrígido
-			14882, # Pikanillo
-			15190, # Brazalete de melenutrof
-			19986, # Arco de vueloceronte
-			17578, # Botas de Miauvizor
-			17580, # Capa de Miauvizor
-			14069, # Cinturón inestable
-			739, # Dofus Turquesa
-			7043, # Dofus de los hielos
-			7754, # Dofus Ocre
-			21225, # Cocoscudo
-			13673, # Lokulto
-			17579, # Casco de Miauvizor
-			16260, # Asolador de fuego mayor
-			16332, # Lozano mayor
-			16333, # Espabilador
-			]
-Solution 5:
-	Fitness: 258.81232
-	Weapon damage:1294.0616
-		Weapon: Arco de vueloceronte
-		AP Cost: 5
-		Casts per turn: 1
-	Spell damage:1533.6259999999997
-	Preferences:
-		PA : 12.0
-		PM : 5.0
-		% crítico : 88.0
-		vitalidad : 4000.0
-		% resistencia neutral : 15.0
-		% resistencia al fuego : 17.0
-		% resistencia al aire : 25.0
-		% resistencia al agua : 25.0
-		% resistencia a la tierra : 28.0
-		alcance : 7.0
-	Characteristics:
-		agilidad: 436.0
-		suerte: 566.0
-		inteligencia: 436.0
-		fuerza: 466.0
-		vitalidad: 4000.0
-		sabiduría: 335.0
-	Items:
-		Type	Description	Level	ID
-		Amuleto	Amuleto de estrígido	200	14094
-		Anillo	Pikanillo	195	14882
-		Anillo	Brazalete de melenutrof	200	15190
-		Arco	Arco de vueloceronte	200	19986
-		Bota	Botas de Miauvizor	200	17578
-		Capa	Capa de Miauvizor	200	17580
-		Cinturón	Cinturón inestable	196	14069
-		Dofus	Dofus Turquesa	160	739
-		Dofus	Dofus de los hielos	180	7043
-		Dofus	Dofus Ocre	160	7754
-		Escudo	Cocoscudo	200	21225
-		Mascota	Lokulto	20	13673
-		Sombrero	Casco de Miauvizor	200	17579
-		Trofeo	Suertudo mayor	150	16248
-		Trofeo	Lozano mayor	150	16332
-		Trofeo	Espabilador	100	16333
-	Chromosome: [
-			14094, # Amuleto de estrígido
-			14882, # Pikanillo
-			15190, # Brazalete de melenutrof
-			19986, # Arco de vueloceronte
-			17578, # Botas de Miauvizor
-			17580, # Capa de Miauvizor
-			14069, # Cinturón inestable
-			739, # Dofus Turquesa
-			7043, # Dofus de los hielos
-			7754, # Dofus Ocre
-			21225, # Cocoscudo
-			13673, # Lokulto
-			17579, # Casco de Miauvizor
-			16248, # Suertudo mayor
-			16332, # Lozano mayor
-			16333, # Espabilador
-			]
-Solution 6:
-	Fitness: 253.35015999999996
-	Weapon damage:1266.7507999999998
-		Weapon: Arco de vueloceronte
-		AP Cost: 5
-		Casts per turn: 1
-	Spell damage:1506.868
-	Preferences:
-		PA : 12.0
-		PM : 5.0
-		% crítico : 89.0
-		vitalidad : 4100.0
-		% resistencia neutral : 25.0
-		% resistencia al fuego : 23.0
-		% resistencia al aire : 31.0
-		% resistencia al agua : 41.0
-		% resistencia a la tierra : 28.0
-		alcance : 6.0
-	Characteristics:
-		agilidad: 516.0
-		suerte: 456.0
-		inteligencia: 516.0
-		fuerza: 396.0
-		vitalidad: 4100.0
-		sabiduría: 390.0
-	Items:
-		Type	Description	Level	ID
-		Amuleto	Amuleto de estrígido	200	14094
-		Anillo	Anillo de Noai Aludem	197	13642
-		Anillo	Anillo Rtografiko	200	24035
-		Arco	Arco de vueloceronte	200	19986
-		Bota	Botas de Miauvizor	200	17578
-		Capa	Capa de Miauvizor	200	17580
-		Cinturón	Cintáceo	200	15699
-		Dofus	Dofus Púrpura	110	694
-		Dofus	Dofus Turquesa	160	739
-		Dofus	Dofus de los hielos	180	7043
-		Dofus	Dofus Ocre	160	7754
-		Escudo	Escudo de Anerice	200	19077
-		Mascota	Microsmoglob	20	31885
-		Sombrero	Máscara de Anerice	200	19075
-		Trofeo	Lozano mayor	150	16332
-		Trofeo	Sanguinario mayor	150	16339
-	Chromosome: [
-			14094, # Amuleto de estrígido
-			13642, # Anillo de Noai Aludem
-			24035, # Anillo Rtografiko
-			19986, # Arco de vueloceronte
-			17578, # Botas de Miauvizor
-			17580, # Capa de Miauvizor
-			15699, # Cintáceo
-			694, # Dofus Púrpura
-			739, # Dofus Turquesa
-			7043, # Dofus de los hielos
-			7754, # Dofus Ocre
-			19077, # Escudo de Anerice
-			31885, # Microsmoglob
-			19075, # Máscara de Anerice
-			16332, # Lozano mayor
-			16339, # Sanguinario mayor
-			]
-Solution 7:
-	Fitness: 248.41232
-	Weapon damage:1242.0616
-		Weapon: Arco de vueloceronte
-		AP Cost: 5
-		Casts per turn: 1
-	Spell damage:1481.6259999999997
-	Preferences:
-		PA : 12.0
-		PM : 5.0
-		% crítico : 88.0
-		vitalidad : 4000.0
-		% resistencia neutral : 15.0
-		% resistencia al fuego : 17.0
-		% resistencia al aire : 25.0
-		% resistencia al agua : 25.0
-		% resistencia a la tierra : 28.0
-		alcance : 7.0
-	Characteristics:
-		agilidad: 436.0
-		suerte: 566.0
-		inteligencia: 436.0
-		fuerza: 466.0
-		vitalidad: 4000.0
-		sabiduría: 335.0
-	Items:
-		Type	Description	Level	ID
-		Amuleto	Amuleto de estrígido	200	14094
-		Anillo	Pikanillo	195	14882
-		Anillo	Brazalete de melenutrof	200	15190
-		Arco	Arco de vueloceronte	200	19986
-		Bota	Botas de Miauvizor	200	17578
-		Capa	Capa de Miauvizor	200	17580
-		Cinturón	Cinturón inestable	196	14069
-		Dofus	Dofus Turquesa	160	739
-		Dofus	Dofus Ocre	160	7754
-		Escudo	Cocoscudo	200	21225
-		Mascota	Lokulto	20	13673
-		Sombrero	Casco de Miauvizor	200	17579
-		Trofeo	Suertudo mayor	150	16248
-		Trofeo	Lozano mayor	150	16332
-		Trofeo	Espabilador	100	16333
-		Trofeo	Sanguinario mayor	150	16339
-	Chromosome: [
-			14094, # Amuleto de estrígido
-			14882, # Pikanillo
-			15190, # Brazalete de melenutrof
-			19986, # Arco de vueloceronte
-			17578, # Botas de Miauvizor
-			17580, # Capa de Miauvizor
-			14069, # Cinturón inestable
-			739, # Dofus Turquesa
-			7754, # Dofus Ocre
-			21225, # Cocoscudo
-			13673, # Lokulto
-			17579, # Casco de Miauvizor
-			16248, # Suertudo mayor
-			16332, # Lozano mayor
-			16333, # Espabilador
-			16339, # Sanguinario mayor
-			]
-Solution 8:
-	Fitness: 247.59976
-	Weapon damage:1237.9988
-		Weapon: Arco de vueloceronte
-		AP Cost: 5
-		Casts per turn: 1
-	Spell damage:1467.348
-	Preferences:
-		PA : 12.0
-		PM : 5.0
-		% crítico : 89.0
-		vitalidad : 4100.0
-		% resistencia neutral : 25.0
-		% resistencia al fuego : 23.0
-		% resistencia al aire : 31.0
-		% resistencia al agua : 41.0
-		% resistencia a la tierra : 28.0
-		alcance : 6.0
-	Characteristics:
-		agilidad: 516.0
-		suerte: 456.0
-		inteligencia: 516.0
-		fuerza: 396.0
-		vitalidad: 4100.0
-		sabiduría: 390.0
-	Items:
-		Type	Description	Level	ID
-		Amuleto	Amuleto de estrígido	200	14094
-		Anillo	Anillo de Noai Aludem	197	13642
-		Anillo	Anillo Rtografiko	200	24035
-		Arco	Arco de vueloceronte	200	19986
-		Bota	Botas de Miauvizor	200	17578
-		Capa	Capa de Miauvizor	200	17580
-		Cinturón	Cintáceo	200	15699
-		Dofus	Dofus Púrpura	110	694
-		Dofus	Dofus Turquesa	160	739
-		Dofus	Dofus de los hielos	180	7043
-		Dofus	Dofus Ocre	160	7754
-		Escudo	Escudo de Anerice	200	19077
-		Mascota	Microsmoglob	20	31885
-		Sombrero	Máscara de Anerice	200	19075
-		Trofeo	Potente mayor	150	13825
-		Trofeo	Sanguinario mayor	150	16339
-	Chromosome: [
-			14094, # Amuleto de estrígido
-			13642, # Anillo de Noai Aludem
-			24035, # Anillo Rtografiko
-			19986, # Arco de vueloceronte
-			17578, # Botas de Miauvizor
-			17580, # Capa de Miauvizor
-			15699, # Cintáceo
-			694, # Dofus Púrpura
-			739, # Dofus Turquesa
-			7043, # Dofus de los hielos
-			7754, # Dofus Ocre
-			19077, # Escudo de Anerice
-			31885, # Microsmoglob
-			19075, # Máscara de Anerice
-			13825, # Potente mayor
-			16339, # Sanguinario mayor
-			]
-Solution 9:
-	Fitness: 246.64935999999997
-	Weapon damage:1233.2468
-		Weapon: Arco de vueloceronte
-		AP Cost: 5
-		Casts per turn: 1
-	Spell damage:1451.8280000000002
-	Preferences:
-		PA : 12.0
-		PM : 5.0
-		% crítico : 89.0
-		vitalidad : 4100.0
-		% resistencia neutral : 25.0
-		% resistencia al fuego : 23.0
-		% resistencia al aire : 31.0
-		% resistencia al agua : 41.0
-		% resistencia a la tierra : 28.0
-		alcance : 6.0
-	Characteristics:
-		agilidad: 516.0
-		suerte: 456.0
-		inteligencia: 516.0
-		fuerza: 396.0
-		vitalidad: 4100.0
-		sabiduría: 390.0
-	Items:
-		Type	Description	Level	ID
-		Amuleto	Amuleto de estrígido	200	14094
-		Anillo	Anillo de Noai Aludem	197	13642
-		Anillo	Anillo Rtografiko	200	24035
-		Arco	Arco de vueloceronte	200	19986
-		Bota	Botas de Miauvizor	200	17578
-		Capa	Capa de Miauvizor	200	17580
-		Cinturón	Cintáceo	200	15699
-		Dofus	Dofus Púrpura	110	694
-		Dofus	Dofus Turquesa	160	739
-		Dofus	Dofus de los hielos	180	7043
-		Dofus	Dofus Ocre	160	7754
-		Escudo	Escudo de Anerice	200	19077
-		Mascota	Microsmoglob	20	31885
-		Sombrero	Máscara de Anerice	200	19075
-		Trofeo	Sanguinario	100	16338
-		Trofeo	Sanguinario mayor	150	16339
-	Chromosome: [
-			14094, # Amuleto de estrígido
-			13642, # Anillo de Noai Aludem
-			24035, # Anillo Rtografiko
-			19986, # Arco de vueloceronte
-			17578, # Botas de Miauvizor
-			17580, # Capa de Miauvizor
-			15699, # Cintáceo
-			694, # Dofus Púrpura
-			739, # Dofus Turquesa
-			7043, # Dofus de los hielos
-			7754, # Dofus Ocre
-			19077, # Escudo de Anerice
-			31885, # Microsmoglob
-			19075, # Máscara de Anerice
-			16338, # Sanguinario
-			16339, # Sanguinario mayor
-			]
-Solution 10:
-	Fitness: 244.82432
-	Weapon damage:1224.1216
-		Weapon: Arco de vueloceronte
-		AP Cost: 5
-		Casts per turn: 1
-	Spell damage:1456.976
-	Preferences:
-		PA : 12.0
-		PM : 5.0
-		% crítico : 88.0
-		vitalidad : 4000.0
-		% resistencia neutral : 15.0
-		% resistencia al fuego : 17.0
-		% resistencia al aire : 25.0
-		% resistencia al agua : 25.0
-		% resistencia a la tierra : 28.0
-		alcance : 7.0
-	Characteristics:
-		agilidad: 436.0
-		suerte: 466.0
-		inteligencia: 436.0
-		fuerza: 466.0
-		vitalidad: 4000.0
-		sabiduría: 335.0
-	Items:
-		Type	Description	Level	ID
-		Amuleto	Amuleto de estrígido	200	14094
-		Anillo	Pikanillo	195	14882
-		Anillo	Brazalete de melenutrof	200	15190
-		Arco	Arco de vueloceronte	200	19986
-		Bota	Botas de Miauvizor	200	17578
-		Capa	Capa de Miauvizor	200	17580
-		Cinturón	Cinturón inestable	196	14069
-		Dofus	Dofus Turquesa	160	739
-		Dofus	Dofus Ocre	160	7754
-		Escudo	Cocoscudo	200	21225
-		Mascota	Lokulto	20	13673
-		Sombrero	Casco de Miauvizor	200	17579
-		Trofeo	Acorazado de fuego mediano	100	12678
-		Trofeo	Lozano mayor	150	16332
-		Trofeo	Espabilador	100	16333
-		Trofeo	Sanguinario mayor	150	16339
-	Chromosome: [
-			14094, # Amuleto de estrígido
-			14882, # Pikanillo
-			15190, # Brazalete de melenutrof
-			19986, # Arco de vueloceronte
-			17578, # Botas de Miauvizor
-			17580, # Capa de Miauvizor
-			14069, # Cinturón inestable
-			739, # Dofus Turquesa
-			7754, # Dofus Ocre
-			21225, # Cocoscudo
-			13673, # Lokulto
-			17579, # Casco de Miauvizor
-			12678, # Acorazado de fuego mediano
-			16332, # Lozano mayor
-			16333, # Espabilador
-			16339, # Sanguinario mayor
-			]
-Solution 11:
-	Fitness: 243.9348
-	Weapon damage:1219.674
-		Weapon: Arco de vueloceronte
-		AP Cost: 5
-		Casts per turn: 1
-	Spell damage:1399.38
+	Spell damage:1612.4800000000002
 	Preferences:
 		PA : 12.0
 		PM : 5.0
 		% crítico : 85.0
-		vitalidad : 4100.0
-		% resistencia neutral : 23.0
-		% resistencia al fuego : 18.0
-		% resistencia al aire : 25.0
-		% resistencia al agua : 26.0
-		% resistencia a la tierra : 15.0
-		alcance : 7.0
-	Characteristics:
-		agilidad: 596.0
-		suerte: 536.0
-		inteligencia: 476.0
-		fuerza: 356.0
-		vitalidad: 4100.0
-		sabiduría: 440.0
-	Items:
-		Type	Description	Level	ID
-		Amuleto	Amuleto de Dambeldoro	200	17103
-		Anillo	Anillo de Noai Aludem	197	13642
-		Anillo	Lanza de Guerra	200	22192
-		Arco	Arco de vueloceronte	200	19986
-		Bota	Botas de Dambeldoro	200	17105
-		Capa	Capa de los justicieros	200	14937
-		Cinturón	Cinturón inestable	196	14069
-		Dofus	Dofus Turquesa	160	739
-		Dofus	Dofus de los hielos	180	7043
-		Dofus	Dofus Ocre	160	7754
-		Dofus	Dofus silvestre	180	29136
-		Escudo	Escudo de Capitán Amakna	200	18670
-		Mascota	Lokulto	20	13673
-		Sombrero	Casco Tilleo	199	13194
-		Trofeo	Lozano mayor	150	16332
-		Trofeo	Sanguinario mayor	150	16339
-	Chromosome: [
-			17103, # Amuleto de Dambeldoro
-			13642, # Anillo de Noai Aludem
-			22192, # Lanza de Guerra
-			19986, # Arco de vueloceronte
-			17105, # Botas de Dambeldoro
-			14937, # Capa de los justicieros
-			14069, # Cinturón inestable
-			739, # Dofus Turquesa
-			7043, # Dofus de los hielos
-			7754, # Dofus Ocre
-			29136, # Dofus silvestre
-			18670, # Escudo de Capitán Amakna
-			13673, # Lokulto
-			13194, # Casco Tilleo
-			16332, # Lozano mayor
-			16339, # Sanguinario mayor
-			]
-Solution 12:
-	Fitness: 241.21232
-	Weapon damage:1206.0616
-		Weapon: Arco de vueloceronte
-		AP Cost: 5
-		Casts per turn: 1
-	Spell damage:1445.6259999999997
-	Preferences:
-		PA : 12.0
-		PM : 5.0
-		% crítico : 88.0
-		vitalidad : 4000.0
+		vitalidad : 4050.0
 		% resistencia neutral : 15.0
-		% resistencia al fuego : 17.0
-		% resistencia al aire : 25.0
-		% resistencia al agua : 25.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 18.0
+		% resistencia al agua : 30.0
 		% resistencia a la tierra : 28.0
-		alcance : 7.0
+		alcance : 6.0
 	Characteristics:
-		agilidad: 436.0
-		suerte: 566.0
-		inteligencia: 436.0
-		fuerza: 466.0
-		vitalidad: 4000.0
-		sabiduría: 335.0
+		agilidad: 406.0
+		suerte: 526.0
+		inteligencia: 596.0
+		fuerza: 416.0
+		vitalidad: 4050.0
+		sabiduría: 410.0
 	Items:
 		Type	Description	Level	ID
 		Amuleto	Amuleto de estrígido	200	14094
-		Anillo	Pikanillo	195	14882
-		Anillo	Brazalete de melenutrof	200	15190
+		Anillo	Anillo criocrono	200	14089
+		Anillo	Sello del rey jugador	200	17574
 		Arco	Arco de vueloceronte	200	19986
-		Bota	Botas de Miauvizor	200	17578
-		Capa	Capa de Miauvizor	200	17580
-		Cinturón	Cinturón inestable	196	14069
+		Bota	Botas del rey jugador	200	17572
+		Capa	Capa de los maligilantes	200	15439
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
 		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
 		Dofus	Dofus Ocre	160	7754
-		Escudo	Cocoscudo	200	21225
+		Escudo	Cuadrifolio	193	18700
 		Mascota	Lokulto	20	13673
-		Sombrero	Casco de Miauvizor	200	17579
-		Trofeo	Suertudo mayor	150	16248
+		Sombrero	Sombrero de los maligilantes	200	15438
 		Trofeo	Lozano mayor	150	16332
 		Trofeo	Espabilador	100	16333
-		Trofeo	Sanguinario menor	50	16337
 	Chromosome: [
 			14094, # Amuleto de estrígido
-			14882, # Pikanillo
-			15190, # Brazalete de melenutrof
+			14089, # Anillo criocrono
+			17574, # Sello del rey jugador
 			19986, # Arco de vueloceronte
-			17578, # Botas de Miauvizor
-			17580, # Capa de Miauvizor
-			14069, # Cinturón inestable
+			17572, # Botas del rey jugador
+			15439, # Capa de los maligilantes
+			15699, # Cintáceo
+			694, # Dofus Púrpura
 			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
 			7754, # Dofus Ocre
-			21225, # Cocoscudo
+			18700, # Cuadrifolio
 			13673, # Lokulto
-			17579, # Casco de Miauvizor
-			16248, # Suertudo mayor
+			15438, # Sombrero de los maligilantes
 			16332, # Lozano mayor
 			16333, # Espabilador
-			16337, # Sanguinario menor
+			]
+Solution 2:
+	Fitness: 276.89616
+	Weapon damage:1384.4808
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1625.128
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 89.0
+		vitalidad : 4050.0
+		% resistencia neutral : 25.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 18.0
+		% resistencia al agua : 30.0
+		% resistencia a la tierra : 28.0
+		alcance : 7.0
+	Characteristics:
+		agilidad: 406.0
+		suerte: 486.0
+		inteligencia: 556.0
+		fuerza: 416.0
+		vitalidad: 4050.0
+		sabiduría: 380.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Brazalete de melenutrof	200	15190
+		Anillo	Sello del rey jugador	200	17574
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas del rey jugador	200	17572
+		Capa	Capa de los maligilantes	200	15439
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Sombrero de los maligilantes	200	15438
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			15190, # Brazalete de melenutrof
+			17574, # Sello del rey jugador
+			19986, # Arco de vueloceronte
+			17572, # Botas del rey jugador
+			15439, # Capa de los maligilantes
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			15438, # Sombrero de los maligilantes
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 3:
+	Fitness: 275.89448000000004
+	Weapon damage:1379.4724
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1596.504
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 87.0
+		vitalidad : 4000.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 37.0
+		% resistencia a la tierra : 27.0
+		alcance : 6.0
+	Characteristics:
+		agilidad: 406.0
+		suerte: 546.0
+		inteligencia: 616.0
+		fuerza: 476.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Sello del rey jugador	200	17574
+		Anillo	Lanza de Guerra	200	22192
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas del rey jugador	200	17572
+		Capa	Capa de los maligilantes	200	15439
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Sombrero de los maligilantes	200	15438
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			17574, # Sello del rey jugador
+			22192, # Lanza de Guerra
+			19986, # Arco de vueloceronte
+			17572, # Botas del rey jugador
+			15439, # Capa de los maligilantes
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			15438, # Sombrero de los maligilantes
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 4:
+	Fitness: 268.43208000000004
+	Weapon damage:1342.1604000000002
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1537.784
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 87.0
+		vitalidad : 4000.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 37.0
+		% resistencia a la tierra : 19.0
+		alcance : 6.0
+	Characteristics:
+		agilidad: 406.0
+		suerte: 546.0
+		inteligencia: 616.0
+		fuerza: 476.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Sello del rey jugador	200	17574
+		Anillo	Lanza de Guerra	200	22192
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas del rey jugador	200	17572
+		Capa	Capa de los maligilantes	200	15439
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Sombrero de los maligilantes	200	15438
+		Trofeo	Torturador ígneo mayor	150	13780
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			17574, # Sello del rey jugador
+			22192, # Lanza de Guerra
+			19986, # Arco de vueloceronte
+			17572, # Botas del rey jugador
+			15439, # Capa de los maligilantes
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			15438, # Sombrero de los maligilantes
+			13780, # Torturador ígneo mayor
+			16333, # Espabilador
+			]
+Solution 5:
+	Fitness: 266.56968000000006
+	Weapon damage:1332.8484000000003
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1507.0639999999999
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 87.0
+		vitalidad : 4000.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 37.0
+		% resistencia a la tierra : 19.0
+		alcance : 6.0
+	Characteristics:
+		agilidad: 406.0
+		suerte: 546.0
+		inteligencia: 616.0
+		fuerza: 476.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Sello del rey jugador	200	17574
+		Anillo	Lanza de Guerra	200	22192
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas del rey jugador	200	17572
+		Capa	Capa de los maligilantes	200	15439
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Sombrero de los maligilantes	200	15438
+		Trofeo	Torturador ígneo mayor	150	13780
+		Trofeo	Espabilador	100	16333
+		Trofeo	Sanguinario mayor	150	16339
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			17574, # Sello del rey jugador
+			22192, # Lanza de Guerra
+			19986, # Arco de vueloceronte
+			17572, # Botas del rey jugador
+			15439, # Capa de los maligilantes
+			15699, # Cintáceo
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			15438, # Sombrero de los maligilantes
+			13780, # Torturador ígneo mayor
+			16333, # Espabilador
+			16339, # Sanguinario mayor
+			]
+Solution 6:
+	Fitness: 262.70088
+	Weapon damage:1313.5044
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1498.424
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 87.0
+		vitalidad : 4000.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 37.0
+		% resistencia a la tierra : 19.0
+		alcance : 6.0
+	Characteristics:
+		agilidad: 406.0
+		suerte: 546.0
+		inteligencia: 616.0
+		fuerza: 476.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Sello del rey jugador	200	17574
+		Anillo	Lanza de Guerra	200	22192
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas del rey jugador	200	17572
+		Capa	Capa de los maligilantes	200	15439
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Sombrero de los maligilantes	200	15438
+		Trofeo	Torturador ígneo mayor	150	13780
+		Trofeo	Lozano	100	16331
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			17574, # Sello del rey jugador
+			22192, # Lanza de Guerra
+			19986, # Arco de vueloceronte
+			17572, # Botas del rey jugador
+			15439, # Capa de los maligilantes
+			15699, # Cintáceo
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			15438, # Sombrero de los maligilantes
+			13780, # Torturador ígneo mayor
+			16331, # Lozano
+			16333, # Espabilador
+			]
+Solution 7:
+	Fitness: 262.70088
+	Weapon damage:1313.5044
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1498.424
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 87.0
+		vitalidad : 4000.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 37.0
+		% resistencia a la tierra : 27.0
+		alcance : 6.0
+	Characteristics:
+		agilidad: 406.0
+		suerte: 546.0
+		inteligencia: 616.0
+		fuerza: 476.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Sello del rey jugador	200	17574
+		Anillo	Lanza de Guerra	200	22192
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas del rey jugador	200	17572
+		Capa	Capa de los maligilantes	200	15439
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Sombrero de los maligilantes	200	15438
+		Trofeo	Asolador de agua mayor	150	16264
+		Trofeo	Lozano	100	16331
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			17574, # Sello del rey jugador
+			22192, # Lanza de Guerra
+			19986, # Arco de vueloceronte
+			17572, # Botas del rey jugador
+			15439, # Capa de los maligilantes
+			15699, # Cintáceo
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			15438, # Sombrero de los maligilantes
+			16264, # Asolador de agua mayor
+			16331, # Lozano
+			16333, # Espabilador
+			]
+Solution 8:
+	Fitness: 256.96968000000004
+	Weapon damage:1284.8484000000003
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1459.0639999999999
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 87.0
+		vitalidad : 4000.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 37.0
+		% resistencia a la tierra : 19.0
+		alcance : 6.0
+	Characteristics:
+		agilidad: 406.0
+		suerte: 546.0
+		inteligencia: 616.0
+		fuerza: 476.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Sello del rey jugador	200	17574
+		Anillo	Lanza de Guerra	200	22192
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas del rey jugador	200	17572
+		Capa	Capa de los maligilantes	200	15439
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Prismaradita	Pristeza	200	22005
+		Sombrero	Sombrero de los maligilantes	200	15438
+		Trofeo	Torturador ígneo mayor	150	13780
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			17574, # Sello del rey jugador
+			22192, # Lanza de Guerra
+			19986, # Arco de vueloceronte
+			17572, # Botas del rey jugador
+			15439, # Capa de los maligilantes
+			15699, # Cintáceo
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			22005, # Pristeza
+			15438, # Sombrero de los maligilantes
+			13780, # Torturador ígneo mayor
+			16333, # Espabilador
 			]

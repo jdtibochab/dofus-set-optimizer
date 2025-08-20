@@ -39,10 +39,11 @@ class Optimizer(object):
             (7, 1),
             (10,1),
             (11, 1),
-            ([12,27], 1), # Pet/Mount
+            ([12,99], 1), # Pet/Mount
             (13, 6), # Dofus
         ]
         self.initial_population = None
+        self.ga_instance = None
         # Initialize pools of items by type
         self._initialize_pools()
         print(f"Total items: {len(self.items)}")
@@ -202,8 +203,10 @@ class Optimizer(object):
         )
 
     def run_ga(self, island=None):
-        # Initialize the genetic algorithm instance
-        self.initialize()
+        # TODO: Allow resume optimization
+        if self.ga_instance is None:
+            # Initialize the genetic algorithm instance
+            self.initialize()
         
         # Run the GA
         self.ga_instance.run()

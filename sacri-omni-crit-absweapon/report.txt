@@ -1,0 +1,1800 @@
+Solution 0:
+	Fitness: 1901.34
+	Weapon damage:1901.34
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1444.3999999999999
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 81.0
+		vitalidad : 4560.0
+		% resistencia neutral : 25.0
+		% resistencia al fuego : 15.0
+		% resistencia al aire : 23.0
+		% resistencia al agua : 43.0
+		% resistencia a la tierra : 15.0
+	Characteristics:
+		agilidad: 310.0
+		suerte: 440.0
+		inteligencia: 350.0
+		fuerza: 420.0
+		vitalidad: 4560.0
+		sabiduría: 385.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Botas de Dambeldoro	200	17105
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Lokulto	20	13673
+		Sombrero	Cuerno de Torkelonia	200	21235
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14169, # Talismán Tira
+			13642, # Anillo de Noai Aludem
+			22205, # Anillo de Corrupción
+			17105, # Botas de Dambeldoro
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			8993, # Espada maldita del gran Desangrador Guerrero
+			13673, # Lokulto
+			21235, # Cuerno de Torkelonia
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 1:
+	Fitness: 1875.1000000000001
+	Weapon damage:1875.1000000000001
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1405.15
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 85.0
+		vitalidad : 4110.0
+		% resistencia neutral : 22.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 23.0
+		% resistencia al agua : 33.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 340.0
+		suerte: 210.0
+		inteligencia: 340.0
+		fuerza: 420.0
+		vitalidad: 4110.0
+		sabiduría: 410.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capilla	200	15747
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Lokulto	20	13673
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Potente mayor	150	13825
+	Chromosome: [
+			15746, # Collarpilla
+			13642, # Anillo de Noai Aludem
+			22205, # Anillo de Corrupción
+			13643, # Getas de Noai Aludem
+			15747, # Capilla
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			8993, # Espada maldita del gran Desangrador Guerrero
+			13673, # Lokulto
+			13641, # Gorro de Noai Aludem
+			13759, # Hércules mayor
+			13825, # Potente mayor
+			]
+Solution 2:
+	Fitness: 1864.8000000000002
+	Weapon damage:1864.8000000000002
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1443.6000000000001
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 85.0
+		vitalidad : 4260.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 31.0
+		% resistencia al agua : 23.0
+		% resistencia a la tierra : 21.0
+	Characteristics:
+		agilidad: 410.0
+		suerte: 210.0
+		inteligencia: 340.0
+		fuerza: 240.0
+		vitalidad: 4260.0
+		sabiduría: 410.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Caparazón de Torkelonia	200	21230
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Potente mayor	150	13825
+		Trofeo	Viajante	100	13830
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			13642, # Anillo de Noai Aludem
+			22205, # Anillo de Corrupción
+			13643, # Getas de Noai Aludem
+			21230, # Caparazón de Torkelonia
+			14095, # Cinturón de estrígido
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			8993, # Espada maldita del gran Desangrador Guerrero
+			31885, # Microsmoglob
+			13641, # Gorro de Noai Aludem
+			13825, # Potente mayor
+			13830, # Viajante
+			]
+Solution 3:
+	Fitness: 1864.8000000000002
+	Weapon damage:1864.8000000000002
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1428.9
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 85.0
+		vitalidad : 4060.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 31.0
+		% resistencia al agua : 23.0
+		% resistencia a la tierra : 21.0
+	Characteristics:
+		agilidad: 410.0
+		suerte: 210.0
+		inteligencia: 340.0
+		fuerza: 340.0
+		vitalidad: 4060.0
+		sabiduría: 410.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Caparazón de Torkelonia	200	21230
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Viajante	100	13830
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			13642, # Anillo de Noai Aludem
+			22205, # Anillo de Corrupción
+			13643, # Getas de Noai Aludem
+			21230, # Caparazón de Torkelonia
+			14095, # Cinturón de estrígido
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			8993, # Espada maldita del gran Desangrador Guerrero
+			31885, # Microsmoglob
+			13641, # Gorro de Noai Aludem
+			13759, # Hércules mayor
+			13830, # Viajante
+			]
+Solution 4:
+	Fitness: 1860.2
+	Weapon damage:1860.2
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1411.7199999999998
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 83.0
+		vitalidad : 4960.0
+		% resistencia neutral : 25.0
+		% resistencia al fuego : 25.0
+		% resistencia al aire : 43.0
+		% resistencia al agua : 55.0
+		% resistencia a la tierra : 15.0
+	Characteristics:
+		agilidad: 200.0
+		suerte: 360.0
+		inteligencia: 290.0
+		fuerza: 350.0
+		vitalidad: 4960.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Codicia de Miseria	200	22186
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Escarpes de Miseria	200	22187
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Anerice	200	19077
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Lokulto	20	13673
+		Sombrero	Máscara de Anerice	200	19075
+		Trofeo	Hiperactivo	100	13829
+		Trofeo	Viajante	100	13830
+	Chromosome: [
+			14169, # Talismán Tira
+			22186, # Codicia de Miseria
+			22205, # Anillo de Corrupción
+			22187, # Escarpes de Miseria
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			19077, # Escudo de Anerice
+			8993, # Espada maldita del gran Desangrador Guerrero
+			13673, # Lokulto
+			19075, # Máscara de Anerice
+			13829, # Hiperactivo
+			13830, # Viajante
+			]
+Solution 5:
+	Fitness: 1854.94
+	Weapon damage:1854.94
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1414.6399999999999
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 81.0
+		vitalidad : 4560.0
+		% resistencia neutral : 25.0
+		% resistencia al fuego : 15.0
+		% resistencia al aire : 23.0
+		% resistencia al agua : 43.0
+		% resistencia a la tierra : 15.0
+	Characteristics:
+		agilidad: 310.0
+		suerte: 440.0
+		inteligencia: 350.0
+		fuerza: 420.0
+		vitalidad: 4560.0
+		sabiduría: 385.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Botas de Dambeldoro	200	17105
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Lokulto	20	13673
+		Sombrero	Cuerno de Torkelonia	200	21235
+		Trofeo	Espabilador	100	16333
+		Trofeo	Sanguinario mayor	150	16339
+	Chromosome: [
+			14169, # Talismán Tira
+			13642, # Anillo de Noai Aludem
+			22205, # Anillo de Corrupción
+			17105, # Botas de Dambeldoro
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			8993, # Espada maldita del gran Desangrador Guerrero
+			13673, # Lokulto
+			21235, # Cuerno de Torkelonia
+			16333, # Espabilador
+			16339, # Sanguinario mayor
+			]
+Solution 6:
+	Fitness: 1853.5
+	Weapon damage:1853.5
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1395.35
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 85.0
+		vitalidad : 4310.0
+		% resistencia neutral : 22.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 23.0
+		% resistencia al agua : 33.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 340.0
+		suerte: 210.0
+		inteligencia: 340.0
+		fuerza: 380.0
+		vitalidad: 4310.0
+		sabiduría: 410.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capilla	200	15747
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Lokulto	20	13673
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Furibundo mayor	150	12724
+		Trofeo	Potente mayor	150	13825
+	Chromosome: [
+			15746, # Collarpilla
+			13642, # Anillo de Noai Aludem
+			22205, # Anillo de Corrupción
+			13643, # Getas de Noai Aludem
+			15747, # Capilla
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			8993, # Espada maldita del gran Desangrador Guerrero
+			13673, # Lokulto
+			13641, # Gorro de Noai Aludem
+			12724, # Furibundo mayor
+			13825, # Potente mayor
+			]
+Solution 7:
+	Fitness: 1848.1399999999999
+	Weapon damage:1848.1399999999999
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1390.94
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 81.0
+		vitalidad : 4360.0
+		% resistencia neutral : 25.0
+		% resistencia al fuego : 15.0
+		% resistencia al aire : 23.0
+		% resistencia al agua : 43.0
+		% resistencia a la tierra : 15.0
+	Characteristics:
+		agilidad: 310.0
+		suerte: 440.0
+		inteligencia: 350.0
+		fuerza: 520.0
+		vitalidad: 4360.0
+		sabiduría: 385.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Botas de Dambeldoro	200	17105
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Lokulto	20	13673
+		Sombrero	Cuerno de Torkelonia	200	21235
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14169, # Talismán Tira
+			13642, # Anillo de Noai Aludem
+			22205, # Anillo de Corrupción
+			17105, # Botas de Dambeldoro
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			8993, # Espada maldita del gran Desangrador Guerrero
+			13673, # Lokulto
+			21235, # Cuerno de Torkelonia
+			13759, # Hércules mayor
+			16333, # Espabilador
+			]
+Solution 8:
+	Fitness: 1843.1999999999998
+	Weapon damage:1843.1999999999998
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1419.1
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 85.0
+		vitalidad : 4260.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 31.0
+		% resistencia al agua : 23.0
+		% resistencia a la tierra : 21.0
+	Characteristics:
+		agilidad: 410.0
+		suerte: 210.0
+		inteligencia: 340.0
+		fuerza: 300.0
+		vitalidad: 4260.0
+		sabiduría: 410.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Caparazón de Torkelonia	200	21230
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Furibundo mayor	150	12724
+		Trofeo	Viajante	100	13830
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			13642, # Anillo de Noai Aludem
+			22205, # Anillo de Corrupción
+			13643, # Getas de Noai Aludem
+			21230, # Caparazón de Torkelonia
+			14095, # Cinturón de estrígido
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			8993, # Espada maldita del gran Desangrador Guerrero
+			31885, # Microsmoglob
+			13641, # Gorro de Noai Aludem
+			12724, # Furibundo mayor
+			13830, # Viajante
+			]
+Solution 9:
+	Fitness: 1812.0500000000002
+	Weapon damage:1812.0500000000002
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1316.6749999999997
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 80.0
+		vitalidad : 4560.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 21.0
+		% resistencia al aire : 37.0
+		% resistencia al agua : 33.0
+		% resistencia a la tierra : 28.0
+	Characteristics:
+		agilidad: 370.0
+		suerte: 130.0
+		inteligencia: 370.0
+		fuerza: 600.0
+		vitalidad: 4560.0
+		sabiduría: 410.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de kukoloide	200	14092
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Botas de kukoloide	200	14093
+		Capa	Capilla	200	15747
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de kukoloide	200	18718
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Lokulto	20	13673
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Potente mayor	150	13825
+	Chromosome: [
+			15746, # Collarpilla
+			14092, # Anillo de kukoloide
+			22205, # Anillo de Corrupción
+			14093, # Botas de kukoloide
+			15747, # Capilla
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18718, # Escudo de kukoloide
+			8993, # Espada maldita del gran Desangrador Guerrero
+			13673, # Lokulto
+			13641, # Gorro de Noai Aludem
+			13759, # Hércules mayor
+			13825, # Potente mayor
+			]
+Solution 10:
+	Fitness: 1810.8000000000002
+	Weapon damage:1810.8000000000002
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1404.4
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 85.0
+		vitalidad : 4260.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 31.0
+		% resistencia al agua : 23.0
+		% resistencia a la tierra : 21.0
+	Characteristics:
+		agilidad: 410.0
+		suerte: 210.0
+		inteligencia: 340.0
+		fuerza: 240.0
+		vitalidad: 4260.0
+		sabiduría: 410.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Caparazón de Torkelonia	200	21230
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Acorazado de agua mediano	100	12653
+		Trofeo	Viajante	100	13830
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			13642, # Anillo de Noai Aludem
+			22205, # Anillo de Corrupción
+			13643, # Getas de Noai Aludem
+			21230, # Caparazón de Torkelonia
+			14095, # Cinturón de estrígido
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			8993, # Espada maldita del gran Desangrador Guerrero
+			31885, # Microsmoglob
+			13641, # Gorro de Noai Aludem
+			12653, # Acorazado de agua mediano
+			13830, # Viajante
+			]
+Solution 11:
+	Fitness: 1801.2299999999998
+	Weapon damage:1801.2299999999998
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1367.16
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 89.0
+		vitalidad : 4660.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 28.0
+		% resistencia al agua : 30.0
+		% resistencia a la tierra : 28.0
+	Characteristics:
+		agilidad: 280.0
+		suerte: 210.0
+		inteligencia: 280.0
+		fuerza: 250.0
+		vitalidad: 4660.0
+		sabiduría: 380.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Botas de estrígido	200	14096
+		Capa	Capa de Anerice	200	19076
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Furibundo mayor	150	12724
+		Trofeo	Viajante	100	13830
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			13642, # Anillo de Noai Aludem
+			22205, # Anillo de Corrupción
+			14096, # Botas de estrígido
+			19076, # Capa de Anerice
+			14095, # Cinturón de estrígido
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			8993, # Espada maldita del gran Desangrador Guerrero
+			31885, # Microsmoglob
+			13641, # Gorro de Noai Aludem
+			12724, # Furibundo mayor
+			13830, # Viajante
+			]
+Solution 12:
+	Fitness: 1790.8500000000001
+	Weapon damage:1790.8500000000001
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1292.4250000000002
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 80.0
+		vitalidad : 4560.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 21.0
+		% resistencia al aire : 37.0
+		% resistencia al agua : 33.0
+		% resistencia a la tierra : 28.0
+	Characteristics:
+		agilidad: 370.0
+		suerte: 130.0
+		inteligencia: 370.0
+		fuerza: 660.0
+		vitalidad: 4560.0
+		sabiduría: 410.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de kukoloide	200	14092
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Botas de kukoloide	200	14093
+		Capa	Capilla	200	15747
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de kukoloide	200	18718
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Lokulto	20	13673
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Furibundo mayor	150	12724
+		Trofeo	Hércules mayor	150	13759
+	Chromosome: [
+			15746, # Collarpilla
+			14092, # Anillo de kukoloide
+			22205, # Anillo de Corrupción
+			14093, # Botas de kukoloide
+			15747, # Capilla
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18718, # Escudo de kukoloide
+			8993, # Espada maldita del gran Desangrador Guerrero
+			13673, # Lokulto
+			13641, # Gorro de Noai Aludem
+			12724, # Furibundo mayor
+			13759, # Hércules mayor
+			]
+Solution 13:
+	Fitness: 1790.85
+	Weapon damage:1790.85
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1306.975
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 80.0
+		vitalidad : 4760.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 21.0
+		% resistencia al aire : 37.0
+		% resistencia al agua : 33.0
+		% resistencia a la tierra : 28.0
+	Characteristics:
+		agilidad: 370.0
+		suerte: 130.0
+		inteligencia: 370.0
+		fuerza: 560.0
+		vitalidad: 4760.0
+		sabiduría: 410.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de kukoloide	200	14092
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Botas de kukoloide	200	14093
+		Capa	Capilla	200	15747
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de kukoloide	200	18718
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Lokulto	20	13673
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Furibundo mayor	150	12724
+		Trofeo	Potente mayor	150	13825
+	Chromosome: [
+			15746, # Collarpilla
+			14092, # Anillo de kukoloide
+			22205, # Anillo de Corrupción
+			14093, # Botas de kukoloide
+			15747, # Capilla
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18718, # Escudo de kukoloide
+			8993, # Espada maldita del gran Desangrador Guerrero
+			13673, # Lokulto
+			13641, # Gorro de Noai Aludem
+			12724, # Furibundo mayor
+			13825, # Potente mayor
+			]
+Solution 14:
+	Fitness: 1786.5
+	Weapon damage:1786.5
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1351.1
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 85.0
+		vitalidad : 4260.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 19.0
+		% resistencia al aire : 21.0
+		% resistencia al agua : 30.0
+		% resistencia a la tierra : 21.0
+	Characteristics:
+		agilidad: 340.0
+		suerte: 210.0
+		inteligencia: 340.0
+		fuerza: 330.0
+		vitalidad: 4260.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capa de Sylargh	198	14071
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Furibundo mayor	150	12724
+		Trofeo	Viajante	100	13830
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			13642, # Anillo de Noai Aludem
+			22205, # Anillo de Corrupción
+			13643, # Getas de Noai Aludem
+			14071, # Capa de Sylargh
+			14095, # Cinturón de estrígido
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			8993, # Espada maldita del gran Desangrador Guerrero
+			31885, # Microsmoglob
+			13641, # Gorro de Noai Aludem
+			12724, # Furibundo mayor
+			13830, # Viajante
+			]
+Solution 15:
+	Fitness: 1785.5500000000002
+	Weapon damage:1785.5500000000002
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1316.6749999999997
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 80.0
+		vitalidad : 4560.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 21.0
+		% resistencia al aire : 37.0
+		% resistencia al agua : 33.0
+		% resistencia a la tierra : 28.0
+	Characteristics:
+		agilidad: 470.0
+		suerte: 130.0
+		inteligencia: 370.0
+		fuerza: 500.0
+		vitalidad: 4560.0
+		sabiduría: 410.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de kukoloide	200	14092
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Botas de kukoloide	200	14093
+		Capa	Capilla	200	15747
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de kukoloide	200	18718
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Lokulto	20	13673
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Velocista mayor	150	13765
+		Trofeo	Potente mayor	150	13825
+	Chromosome: [
+			15746, # Collarpilla
+			14092, # Anillo de kukoloide
+			22205, # Anillo de Corrupción
+			14093, # Botas de kukoloide
+			15747, # Capilla
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18718, # Escudo de kukoloide
+			8993, # Espada maldita del gran Desangrador Guerrero
+			13673, # Lokulto
+			13641, # Gorro de Noai Aludem
+			13765, # Velocista mayor
+			13825, # Potente mayor
+			]
+Solution 16:
+	Fitness: 1781.1000000000001
+	Weapon damage:1781.1000000000001
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1360.9
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 85.0
+		vitalidad : 4060.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 19.0
+		% resistencia al aire : 21.0
+		% resistencia al agua : 30.0
+		% resistencia a la tierra : 21.0
+	Characteristics:
+		agilidad: 340.0
+		suerte: 210.0
+		inteligencia: 440.0
+		fuerza: 270.0
+		vitalidad: 4060.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capa de Sylargh	198	14071
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Viajante	100	13830
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			13642, # Anillo de Noai Aludem
+			22205, # Anillo de Corrupción
+			13643, # Getas de Noai Aludem
+			14071, # Capa de Sylargh
+			14095, # Cinturón de estrígido
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			8993, # Espada maldita del gran Desangrador Guerrero
+			31885, # Microsmoglob
+			13641, # Gorro de Noai Aludem
+			13762, # Astuto mayor
+			13830, # Viajante
+			]
+Solution 17:
+	Fitness: 1779.7599999999998
+	Weapon damage:1779.7599999999998
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1358.3000000000002
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 84.0
+		vitalidad : 4260.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 19.0
+		% resistencia al aire : 21.0
+		% resistencia al agua : 30.0
+		% resistencia a la tierra : 21.0
+	Characteristics:
+		agilidad: 390.0
+		suerte: 210.0
+		inteligencia: 340.0
+		fuerza: 300.0
+		vitalidad: 4260.0
+		sabiduría: 410.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capa del Corazón Valiente	200	19243
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Furibundo mayor	150	12724
+		Trofeo	Viajante	100	13830
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			13642, # Anillo de Noai Aludem
+			22205, # Anillo de Corrupción
+			13643, # Getas de Noai Aludem
+			19243, # Capa del Corazón Valiente
+			14095, # Cinturón de estrígido
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			8993, # Espada maldita del gran Desangrador Guerrero
+			31885, # Microsmoglob
+			13641, # Gorro de Noai Aludem
+			12724, # Furibundo mayor
+			13830, # Viajante
+			]
+Solution 18:
+	Fitness: 1774.6
+	Weapon damage:1774.6
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1314.85
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 85.0
+		vitalidad : 4960.0
+		% resistencia neutral : 25.0
+		% resistencia al fuego : 25.0
+		% resistencia al aire : 40.0
+		% resistencia al agua : 55.0
+		% resistencia a la tierra : 22.0
+	Characteristics:
+		agilidad: 130.0
+		suerte: 290.0
+		inteligencia: 290.0
+		fuerza: 460.0
+		vitalidad: 4960.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Escarpes de Miseria	200	22187
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Anerice	200	19077
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Lokulto	20	13673
+		Sombrero	Máscara de Anerice	200	19075
+		Trofeo	Hiperactivo	100	13829
+		Trofeo	Viajante	100	13830
+	Chromosome: [
+			14169, # Talismán Tira
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			22187, # Escarpes de Miseria
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			19077, # Escudo de Anerice
+			8993, # Espada maldita del gran Desangrador Guerrero
+			13673, # Lokulto
+			19075, # Máscara de Anerice
+			13829, # Hiperactivo
+			13830, # Viajante
+			]
+Solution 19:
+	Fitness: 1769.24
+	Weapon damage:1769.24
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1321.38
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 81.0
+		vitalidad : 4360.0
+		% resistencia neutral : 25.0
+		% resistencia al fuego : 15.0
+		% resistencia al aire : 23.0
+		% resistencia al agua : 43.0
+		% resistencia a la tierra : 15.0
+	Characteristics:
+		agilidad: 310.0
+		suerte: 440.0
+		inteligencia: 350.0
+		fuerza: 520.0
+		vitalidad: 4360.0
+		sabiduría: 385.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Botas de Dambeldoro	200	17105
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Jalatrool blanco	20	30957
+		Sombrero	Cuerno de Torkelonia	200	21235
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14169, # Talismán Tira
+			13642, # Anillo de Noai Aludem
+			22205, # Anillo de Corrupción
+			17105, # Botas de Dambeldoro
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			8993, # Espada maldita del gran Desangrador Guerrero
+			30957, # Jalatrool blanco
+			21235, # Cuerno de Torkelonia
+			13759, # Hércules mayor
+			16333, # Espabilador
+			]
+Solution 20:
+	Fitness: 1767.9999999999998
+	Weapon damage:1767.9999999999998
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1319.9499999999998
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 85.0
+		vitalidad : 4310.0
+		% resistencia neutral : 22.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 23.0
+		% resistencia al agua : 33.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 340.0
+		suerte: 210.0
+		inteligencia: 340.0
+		fuerza: 380.0
+		vitalidad: 4310.0
+		sabiduría: 410.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capilla	200	15747
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Jalatrool blanco	20	30957
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Furibundo mayor	150	12724
+		Trofeo	Potente mayor	150	13825
+	Chromosome: [
+			15746, # Collarpilla
+			13642, # Anillo de Noai Aludem
+			22205, # Anillo de Corrupción
+			13643, # Getas de Noai Aludem
+			15747, # Capilla
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			8993, # Espada maldita del gran Desangrador Guerrero
+			30957, # Jalatrool blanco
+			13641, # Gorro de Noai Aludem
+			12724, # Furibundo mayor
+			13825, # Potente mayor
+			]
+Solution 21:
+	Fitness: 1762.75
+	Weapon damage:1762.75
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1349.75
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 90.0
+		vitalidad : 4410.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 19.0
+		% resistencia al aire : 28.0
+		% resistencia al agua : 30.0
+		% resistencia a la tierra : 28.0
+	Characteristics:
+		agilidad: 340.0
+		suerte: 210.0
+		inteligencia: 340.0
+		fuerza: 250.0
+		vitalidad: 4410.0
+		sabiduría: 380.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capa de Anerice	200	19076
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Furibundo mayor	150	12724
+		Trofeo	Viajante	100	13830
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			13642, # Anillo de Noai Aludem
+			22205, # Anillo de Corrupción
+			13643, # Getas de Noai Aludem
+			19076, # Capa de Anerice
+			14095, # Cinturón de estrígido
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			8993, # Espada maldita del gran Desangrador Guerrero
+			31885, # Microsmoglob
+			13641, # Gorro de Noai Aludem
+			12724, # Furibundo mayor
+			13830, # Viajante
+			]
+Solution 22:
+	Fitness: 1762.6
+	Weapon damage:1762.6
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1324.85
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 85.0
+		vitalidad : 4310.0
+		% resistencia neutral : 22.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 23.0
+		% resistencia al agua : 33.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 340.0
+		suerte: 210.0
+		inteligencia: 340.0
+		fuerza: 320.0
+		vitalidad: 4310.0
+		sabiduría: 410.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capilla	200	15747
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Jalatrool blanco	20	30957
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Potente	100	13824
+		Trofeo	Potente mayor	150	13825
+	Chromosome: [
+			15746, # Collarpilla
+			13642, # Anillo de Noai Aludem
+			22205, # Anillo de Corrupción
+			13643, # Getas de Noai Aludem
+			15747, # Capilla
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			8993, # Espada maldita del gran Desangrador Guerrero
+			30957, # Jalatrool blanco
+			13641, # Gorro de Noai Aludem
+			13824, # Potente
+			13825, # Potente mayor
+			]
+Solution 23:
+	Fitness: 1739.98
+	Weapon damage:1739.98
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1282.5
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 81.0
+		vitalidad : 4360.0
+		% resistencia neutral : 25.0
+		% resistencia al fuego : 15.0
+		% resistencia al aire : 23.0
+		% resistencia al agua : 43.0
+		% resistencia a la tierra : 15.0
+	Characteristics:
+		agilidad: 310.0
+		suerte: 440.0
+		inteligencia: 350.0
+		fuerza: 640.0
+		vitalidad: 4360.0
+		sabiduría: 385.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Botas de Dambeldoro	200	17105
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascotura	Kolifante mamuk	60	29430
+		Sombrero	Cuerno de Torkelonia	200	21235
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14169, # Talismán Tira
+			13642, # Anillo de Noai Aludem
+			22205, # Anillo de Corrupción
+			17105, # Botas de Dambeldoro
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			8993, # Espada maldita del gran Desangrador Guerrero
+			29430, # Kolifante mamuk
+			21235, # Cuerno de Torkelonia
+			13759, # Hércules mayor
+			16333, # Espabilador
+			]
+Solution 24:
+	Fitness: 1737.54
+	Weapon damage:1737.54
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1280.425
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 88.0
+		vitalidad : 5110.0
+		% resistencia neutral : 25.0
+		% resistencia al fuego : 25.0
+		% resistencia al aire : 40.0
+		% resistencia al agua : 55.0
+		% resistencia a la tierra : 22.0
+	Characteristics:
+		agilidad: 130.0
+		suerte: 290.0
+		inteligencia: 290.0
+		fuerza: 460.0
+		vitalidad: 5110.0
+		sabiduría: 430.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas trithonas	200	18030
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Anerice	200	19077
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Lokulto	20	13673
+		Sombrero	Máscara de Anerice	200	19075
+		Trofeo	Hiperactivo	100	13829
+		Trofeo	Viajante	100	13830
+	Chromosome: [
+			14169, # Talismán Tira
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			18030, # Botas trithonas
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			19077, # Escudo de Anerice
+			8993, # Espada maldita del gran Desangrador Guerrero
+			13673, # Lokulto
+			19075, # Máscara de Anerice
+			13829, # Hiperactivo
+			13830, # Viajante
+			]
+Solution 25:
+	Fitness: 1735.6000000000001
+	Weapon damage:1735.6000000000001
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1310.15
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 85.0
+		vitalidad : 4110.0
+		% resistencia neutral : 22.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 23.0
+		% resistencia al agua : 33.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 340.0
+		suerte: 210.0
+		inteligencia: 440.0
+		fuerza: 320.0
+		vitalidad: 4110.0
+		sabiduría: 410.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capilla	200	15747
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Jalatrool blanco	20	30957
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Potente	100	13824
+	Chromosome: [
+			15746, # Collarpilla
+			13642, # Anillo de Noai Aludem
+			22205, # Anillo de Corrupción
+			13643, # Getas de Noai Aludem
+			15747, # Capilla
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			8993, # Espada maldita del gran Desangrador Guerrero
+			30957, # Jalatrool blanco
+			13641, # Gorro de Noai Aludem
+			13762, # Astuto mayor
+			13824, # Potente
+			]
+Solution 26:
+	Fitness: 1732.9
+	Weapon damage:1732.9
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1285.65
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 85.0
+		vitalidad : 4310.0
+		% resistencia neutral : 22.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 23.0
+		% resistencia al agua : 33.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 340.0
+		suerte: 210.0
+		inteligencia: 340.0
+		fuerza: 440.0
+		vitalidad: 4310.0
+		sabiduría: 410.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capilla	200	15747
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascotura	Kolifante mamuk	60	29430
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Potente	100	13824
+		Trofeo	Potente mayor	150	13825
+	Chromosome: [
+			15746, # Collarpilla
+			13642, # Anillo de Noai Aludem
+			22205, # Anillo de Corrupción
+			13643, # Getas de Noai Aludem
+			15747, # Capilla
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			8993, # Espada maldita del gran Desangrador Guerrero
+			29430, # Kolifante mamuk
+			13641, # Gorro de Noai Aludem
+			13824, # Potente
+			13825, # Potente mayor
+			]
+Solution 27:
+	Fitness: 1731.2099999999998
+	Weapon damage:1731.2099999999998
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1253.75
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 86.0
+		vitalidad : 4960.0
+		% resistencia neutral : 25.0
+		% resistencia al fuego : 25.0
+		% resistencia al aire : 47.0
+		% resistencia al agua : 52.0
+		% resistencia a la tierra : 22.0
+	Characteristics:
+		agilidad: 130.0
+		suerte: 290.0
+		inteligencia: 290.0
+		fuerza: 550.0
+		vitalidad: 4960.0
+		sabiduría: 430.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas del Corazón Sangriento	200	19245
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Anerice	200	19077
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Lokulto	20	13673
+		Sombrero	Máscara de Anerice	200	19075
+		Trofeo	Hiperactivo	100	13829
+		Trofeo	Viajante	100	13830
+	Chromosome: [
+			14169, # Talismán Tira
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			19245, # Botas del Corazón Sangriento
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			19077, # Escudo de Anerice
+			8993, # Espada maldita del gran Desangrador Guerrero
+			13673, # Lokulto
+			19075, # Máscara de Anerice
+			13829, # Hiperactivo
+			13830, # Viajante
+			]
+Solution 28:
+	Fitness: 1729.8
+	Weapon damage:1729.8
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1315.0
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 96.0
+		vitalidad : 4460.0
+		% resistencia neutral : 32.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 33.0
+		% resistencia al agua : 35.0
+		% resistencia a la tierra : 33.0
+	Characteristics:
+		agilidad: 340.0
+		suerte: 130.0
+		inteligencia: 340.0
+		fuerza: 250.0
+		vitalidad: 4460.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capa de Anerice	200	19076
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Anerice	200	19077
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Furibundo mayor	150	12724
+		Trofeo	Viajante	100	13830
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			13642, # Anillo de Noai Aludem
+			22205, # Anillo de Corrupción
+			13643, # Getas de Noai Aludem
+			19076, # Capa de Anerice
+			14095, # Cinturón de estrígido
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			19077, # Escudo de Anerice
+			8993, # Espada maldita del gran Desangrador Guerrero
+			31885, # Microsmoglob
+			13641, # Gorro de Noai Aludem
+			12724, # Furibundo mayor
+			13830, # Viajante
+			]
+Solution 29:
+	Fitness: 1723.7
+	Weapon damage:1723.7
+		Weapon: Espada maldita del gran Desangrador Guerrero
+		AP Cost: 7
+		Casts per turn: 1
+	Spell damage:1258.08
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 81.0
+		vitalidad : 4410.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 23.0
+		% resistencia al agua : 43.0
+		% resistencia a la tierra : 15.0
+	Characteristics:
+		agilidad: 260.0
+		suerte: 510.0
+		inteligencia: 350.0
+		fuerza: 640.0
+		vitalidad: 4410.0
+		sabiduría: 385.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Botas de Dambeldoro	200	17105
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Espada	Espada maldita del gran Desangrador Guerrero	200	8993
+		Mascotura	Kolifante mamuk	60	29430
+		Sombrero	Diadema de Wulán	200	24030
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14169, # Talismán Tira
+			13642, # Anillo de Noai Aludem
+			22205, # Anillo de Corrupción
+			17105, # Botas de Dambeldoro
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			8993, # Espada maldita del gran Desangrador Guerrero
+			29430, # Kolifante mamuk
+			24030, # Diadema de Wulán
+			13759, # Hércules mayor
+			16333, # Espabilador
+			]

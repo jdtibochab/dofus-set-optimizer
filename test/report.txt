@@ -1,0 +1,180 @@
+Solution 0:
+	Fitness: 262.91
+	Weapon damage:1577.46
+		Weapon: Hoz maldita del gran Desangrador Guerrero
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:1299.92
+	Preferences:
+		PA : 12.0
+		PM : 7.0
+		% crítico : 83.0
+		vitalidad : 4685.0
+		% resistencia neutral : 18.0
+		% resistencia al fuego : 18.0
+		% resistencia al aire : 25.0
+		% resistencia al agua : 40.0
+		% resistencia a la tierra : 49.0
+	Characteristics:
+		agilidad: 430.0
+		suerte: 430.0
+		inteligencia: 430.0
+		fuerza: 620.0
+		vitalidad: 4685.0
+		sabiduría: 350.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Anillo de Pol Guatson	200	15698
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de Capitán Amakna	200	18670
+		Guadaña	Hoz maldita del gran Desangrador Guerrero	200	8992
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Casco de Miauvizor	200	17579
+		Trofeo	Torturador neutral menor	50	13775
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			15698, # Anillo de Pol Guatson
+			22205, # Anillo de Corrupción
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18670, # Escudo de Capitán Amakna
+			8992, # Hoz maldita del gran Desangrador Guerrero
+			31885, # Microsmoglob
+			17579, # Casco de Miauvizor
+			13775, # Torturador neutral menor
+			]
+Solution 1:
+	Fitness: 254.12
+	Weapon damage:1524.72
+		Weapon: Hoz maldita del gran Desangrador Guerrero
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:1252.5900000000001
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 81.0
+		vitalidad : 4685.0
+		% resistencia neutral : 18.0
+		% resistencia al fuego : 33.0
+		% resistencia al aire : 25.0
+		% resistencia al agua : 26.0
+		% resistencia a la tierra : 42.0
+	Characteristics:
+		agilidad: 490.0
+		suerte: 490.0
+		inteligencia: 430.0
+		fuerza: 680.0
+		vitalidad: 4685.0
+		sabiduría: 350.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collar rhoarim	200	31761
+		Anillo	Anillo de Pol Guatson	200	15698
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de Capitán Amakna	200	18670
+		Guadaña	Hoz maldita del gran Desangrador Guerrero	200	8992
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Casco de Miauvizor	200	17579
+		Trofeo	Torturador neutral menor	50	13775
+	Chromosome: [
+			31761, # Collar rhoarim
+			15698, # Anillo de Pol Guatson
+			22205, # Anillo de Corrupción
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18670, # Escudo de Capitán Amakna
+			8992, # Hoz maldita del gran Desangrador Guerrero
+			31885, # Microsmoglob
+			17579, # Casco de Miauvizor
+			13775, # Torturador neutral menor
+			]
+Solution 2:
+	Fitness: 239.38666666666666
+	Weapon damage:1436.32
+		Weapon: Hoz maldita del gran Desangrador Guerrero
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:1174.83
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 81.0
+		vitalidad : 4685.0
+		% resistencia neutral : 18.0
+		% resistencia al fuego : 33.0
+		% resistencia al aire : 25.0
+		% resistencia al agua : 26.0
+		% resistencia a la tierra : 42.0
+	Characteristics:
+		agilidad: 490.0
+		suerte: 490.0
+		inteligencia: 430.0
+		fuerza: 680.0
+		vitalidad: 4685.0
+		sabiduría: 350.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collar rhoarim	200	31761
+		Anillo	Anillo de Pol Guatson	200	15698
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de Capitán Amakna	200	18670
+		Guadaña	Hoz maldita del gran Desangrador Guerrero	200	8992
+		Mascota	Microsmoglob	20	31885
+		Prismaradita	Prisencia	200	22015
+		Sombrero	Casco de Miauvizor	200	17579
+		Trofeo	Torturador neutral menor	50	13775
+	Chromosome: [
+			31761, # Collar rhoarim
+			15698, # Anillo de Pol Guatson
+			22205, # Anillo de Corrupción
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			22209, # Zarcinturón de Corrupción
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18670, # Escudo de Capitán Amakna
+			8992, # Hoz maldita del gran Desangrador Guerrero
+			31885, # Microsmoglob
+			22015, # Prisencia
+			17579, # Casco de Miauvizor
+			13775, # Torturador neutral menor
+			]

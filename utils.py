@@ -69,6 +69,6 @@ def get_set_contribution(item_set,overlap):
     return contributions
 
 def get_item_set(item, item_sets):
-    if not item["hasParentSet"]:
+    if not item.get("hasParentSet", False):
         return None
     return item_sets[item["parentSet"]["id"]]

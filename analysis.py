@@ -15,14 +15,15 @@ class Analyzer(object):
 
     def get_candidate_solutions(self):
         candidates = []
-        # If we use this best fitness, it biases the results towards one island
-        # best_fitness = sorted(self.solutions, key=lambda x: x.fitness, reverse=True)[0].fitness
+        # If we use this best fitness, it might bias the results towards one island
+        # If we dont, we include solutions that are way worse and skew the PCA
+        best_fitness = sorted(self.solutions, key=lambda x: x.fitness, reverse=True)[0].fitness
         for sol in self.solutions:
             # Get list of solutions
             lst_solutions = sol.best_solutions
             lst_fitness = sol.best_solutions_fitness
             # Base candidates off the best fitness of every island to get diversity
-            best_fitness = max(lst_fitness)
+            # best_fitness = max(lst_fitness)
             df = pd.DataFrame(lst_solutions)
 
             # Remove duplicates
@@ -55,7 +56,6 @@ class Analyzer(object):
         df_totals.columns = df_totals.columns.map(lambda x: self.optimizer.effect_descriptions.get(x, {}).get('es', x))
         self.df_totals = df_totals
         self.lst_fitness = lst_fitness
-
 
     def normalize_totals(self):
         # Normalize totals
@@ -128,42 +128,51 @@ class Analyzer(object):
             axi.set_ylabel('Best Fitness')
         fig.tight_layout()
 
-    def report_results(self, lst_solutions):
+    def report_results(self, lst_solutions, ignore_penalized = True):
         from utils import elements
-        for idx, solution in enumerate(sorted(lst_solutions,
-                                               key=lambda x: x.fitness, reverse=True)):
-            if solution.penalized:
-                continue
-            print(f"Solution {idx}:")
-            print("\tFitness:", solution.get_fitness())
-            print("\tWeapon damage:", solution.get_final_damage(type="weapon"))
-            print(f"\t\tWeapon: {solution.weapon['name'][self.optimizer.config.get('language', 'en')]}")
-            print(f"\t\tAP Cost: {solution.weapon['apCost']}")
-            print(f"\t\tCasts per turn: {solution.weapon['maxCastPerTurn']}")
-            print("\tSpell damage:", solution.get_final_damage(type="elements"))
-            # print("\tIs the solution viable?", solution.viable)
-            # print("\tWas the solution penalized?", solution.penalized)
+        path =self.optimizer.config["path"]
+        filename = f"{path}/report.txt"
+        with open(filename,"w") as file:
+            for idx, solution in enumerate(sorted(lst_solutions,
+                                                key=lambda x: x.fitness, reverse=True)):
+                if solution.penalized and ignore_penalized:
+                    continue
 
-            print("\tPreferences:")
-            df = solution.totals_summary()
-            for bound, preference in solution.preferences.items():
-                for element, details in preference.items():
-                    row = df.loc[element]
-                    print(f"\t\t{row['description']} : {row['value']}")
-            print("\tCharacteristics:")
-            for element in elements:
-                print(f"\t\t{df.loc[element]['description']}: {df.loc[element]['value']}")
+                file.write(f"Solution {idx}:\n")
+                file.write(f"\tFitness: {solution.get_fitness()}\n")
+                dmg = solution.get_final_damage(type="weapon")
+                file.write(f"\tWeapon damage:{dmg}\n")
+                wpn = solution.weapon['name'][self.optimizer.config.get('language', 'en')]
+                file.write(f"\t\tWeapon: {wpn}\n")
+                file.write(f"\t\tAP Cost: {solution.weapon['apCost']}\n")
+                file.write(f"\t\tCasts per turn: {solution.weapon['maxCastPerTurn']}\n")
+                dmg = solution.get_final_damage(type="elements")
+                file.write(f"\tSpell damage:{dmg}\n")
+                # file.write("\tIs the solution viable?", solution.viable)
+                # file.write("\tWas the solution penalized?", solution.penalized)
 
-            print("\tItems:")
-            print("\t\tType\tDescription\tLevel\tID")
-            sorted_summary = solution.set_summary().sort_values("type")
-            for item,row in sorted_summary.iterrows():
-                # Prettify the output
-                print(f"\t\t{row['type']}\t{row['description']}\t{row['level']}\t{item}")
+                file.write("\tPreferences:\n")
+                df = solution.totals_summary()
+                for bound, preference in solution.preferences.items():
+                    for element, details in preference.items():
+                        row = df.loc[element]
+                        file.write(f"\t\t{row['description']} : {row['value']}\n")
+                file.write("\tCharacteristics:\n")
+                for element in elements:
+                    file.write(f"\t\t{df.loc[element]['description']}: {df.loc[element]['value']}\n")
 
-            chromosome_strings = [f"\t\t\t{gene}, # {row['description']}\n" for gene,row in sorted_summary.iterrows()]
-            print("\tChromosome: ", "[\n", "".join(chromosome_strings), "\t\t\t]")
-            print("\n")
+                file.write("\tItems:\n")
+                file.write("\t\tType\tDescription\tLevel\tID\n")
+                sorted_summary = solution.set_summary().sort_values("type")
+                for item,row in sorted_summary.iterrows():
+                    # Prettify the output
+                    file.write(f"\t\t{row['type']}\t{row['description']}\t{row['level']}\t{item}\n")
+
+                chromosome_strings = [f"\t\t\t{gene}, # {row['description']}\n" for gene,row in sorted_summary.iterrows()]
+                phrase = "".join(chromosome_strings)
+                file.write(f"\tChromosome: [\n{phrase}\t\t\t]")
+                file.write("\n")
+            file.close()
 
     def report_extended_results(self):
         self.report_results(self.candidates)

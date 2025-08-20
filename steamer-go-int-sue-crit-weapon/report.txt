@@ -1,0 +1,2280 @@
+Solution 0:
+	Fitness: 266.025
+	Weapon damage:1064.1
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1242.925
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 80.0
+		vitalidad : 4000.0
+		% resistencia neutral : 22.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 35.0
+		% resistencia al agua : 25.0
+		% resistencia a la tierra : 19.0
+	Characteristics:
+		agilidad: 240.0
+		suerte: 740.0
+		inteligencia: 340.0
+		fuerza: 760.0
+		vitalidad: 4000.0
+		sabiduría: 350.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Brazalete de melenutrof	200	15190
+		Arco	Arco de Wulán	200	24031
+		Bota	Zapautonimias	200	19610
+		Capa	Capa Pología	198	14168
+		Cinturón	Cinturón de Ogivol	195	13132
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Casco de Ogivol	193	13130
+		Trofeo	Caparazón neutral mayor	150	16320
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			11738, # Anillo Chanicomo
+			15190, # Brazalete de melenutrof
+			24031, # Arco de Wulán
+			19610, # Zapautonimias
+			14168, # Capa Pología
+			13132, # Cinturón de Ogivol
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			13130, # Casco de Ogivol
+			16320, # Caparazón neutral mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 1:
+	Fitness: 265.1255
+	Weapon damage:1060.502
+		Weapon: Varita Liana
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1045.6399999999999
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 77.0
+		vitalidad : 4150.0
+		% resistencia neutral : 19.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 35.0
+		% resistencia al agua : 54.0
+		% resistencia a la tierra : 28.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 575.0
+		inteligencia: 335.0
+		fuerza: 410.0
+		vitalidad: 4150.0
+		sabiduría: 375.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Ballenotas	200	15692
+		Capa	Capa de Anerice	200	19076
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Máscara de Anerice	200	19075
+		Trofeo	Torturador acuoso mayor	150	13783
+		Trofeo	Viajante	100	13830
+		Trofeo	Lozano mayor	150	16332
+		Varita	Varita Liana	193	11759
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			11738, # Anillo Chanicomo
+			19985, # Anillo de vueloceronte
+			15692, # Ballenotas
+			19076, # Capa de Anerice
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			19075, # Máscara de Anerice
+			13783, # Torturador acuoso mayor
+			13830, # Viajante
+			16332, # Lozano mayor
+			11759, # Varita Liana
+			]
+Solution 2:
+	Fitness: 264.1255
+	Weapon damage:1056.502
+		Weapon: Varita Liana
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1061.6399999999999
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 77.0
+		vitalidad : 4150.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 35.0
+		% resistencia al agua : 54.0
+		% resistencia a la tierra : 28.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 575.0
+		inteligencia: 335.0
+		fuerza: 410.0
+		vitalidad: 4150.0
+		sabiduría: 375.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Ballenotas	200	15692
+		Capa	Capa de Anerice	200	19076
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Máscara de Anerice	200	19075
+		Trofeo	Viajante	100	13830
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Sanguinario mayor	150	16339
+		Varita	Varita Liana	193	11759
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			11738, # Anillo Chanicomo
+			19985, # Anillo de vueloceronte
+			15692, # Ballenotas
+			19076, # Capa de Anerice
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			19075, # Máscara de Anerice
+			13830, # Viajante
+			16332, # Lozano mayor
+			16339, # Sanguinario mayor
+			11759, # Varita Liana
+			]
+Solution 3:
+	Fitness: 260.9715
+	Weapon damage:1043.886
+		Weapon: Varita Liana
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1054.56
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 77.0
+		vitalidad : 4150.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 35.0
+		% resistencia al agua : 54.0
+		% resistencia a la tierra : 28.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 575.0
+		inteligencia: 335.0
+		fuerza: 410.0
+		vitalidad: 4150.0
+		sabiduría: 375.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Ballenotas	200	15692
+		Capa	Capa de Anerice	200	19076
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Máscara de Anerice	200	19075
+		Trofeo	Viajante	100	13830
+		Trofeo	Lozano	100	16331
+		Trofeo	Lozano mayor	150	16332
+		Varita	Varita Liana	193	11759
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			11738, # Anillo Chanicomo
+			19985, # Anillo de vueloceronte
+			15692, # Ballenotas
+			19076, # Capa de Anerice
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			19075, # Máscara de Anerice
+			13830, # Viajante
+			16331, # Lozano
+			16332, # Lozano mayor
+			11759, # Varita Liana
+			]
+Solution 4:
+	Fitness: 260.1255
+	Weapon damage:1040.502
+		Weapon: Varita Liana
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1035.6399999999999
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 77.0
+		vitalidad : 4150.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 35.0
+		% resistencia al agua : 54.0
+		% resistencia a la tierra : 28.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 575.0
+		inteligencia: 335.0
+		fuerza: 410.0
+		vitalidad: 4150.0
+		sabiduría: 375.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Ballenotas	200	15692
+		Capa	Capa de Anerice	200	19076
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Máscara de Anerice	200	19075
+		Trofeo	Viajante	100	13830
+		Trofeo	Asolador de agua	100	16263
+		Trofeo	Lozano mayor	150	16332
+		Varita	Varita Liana	193	11759
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			11738, # Anillo Chanicomo
+			19985, # Anillo de vueloceronte
+			15692, # Ballenotas
+			19076, # Capa de Anerice
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			19075, # Máscara de Anerice
+			13830, # Viajante
+			16263, # Asolador de agua
+			16332, # Lozano mayor
+			11759, # Varita Liana
+			]
+Solution 5:
+	Fitness: 257.84575
+	Weapon damage:1031.383
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1216.7625
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 76.0
+		vitalidad : 4100.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 27.0
+		% resistencia a la tierra : 33.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 680.0
+		inteligencia: 290.0
+		fuerza: 700.0
+		vitalidad: 4100.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto del Corazón Sangriento	200	19244
+		Anillo	Anillo de Pol Guatson	200	15698
+		Anillo	Anillo de Corrupción	200	22205
+		Arco	Arco de Wulán	200	24031
+		Bota	Botas del Corazón Sangriento	200	19245
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			19244, # Amuleto del Corazón Sangriento
+			15698, # Anillo de Pol Guatson
+			22205, # Anillo de Corrupción
+			24031, # Arco de Wulán
+			19245, # Botas del Corazón Sangriento
+			19607, # Capilla absolutoria
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			15694, # Kidiboina
+			16196, # Rabioso mayor
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			]
+Solution 6:
+	Fitness: 257.0525
+	Weapon damage:1028.21
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1191.85
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 80.0
+		vitalidad : 4000.0
+		% resistencia neutral : 22.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 35.0
+		% resistencia al agua : 25.0
+		% resistencia a la tierra : 19.0
+	Characteristics:
+		agilidad: 240.0
+		suerte: 740.0
+		inteligencia: 340.0
+		fuerza: 760.0
+		vitalidad: 4000.0
+		sabiduría: 350.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Brazalete de melenutrof	200	15190
+		Arco	Arco de Wulán	200	24031
+		Bota	Zapautonimias	200	19610
+		Capa	Capa Pología	198	14168
+		Cinturón	Cinturón de Ogivol	195	13132
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Jalatrool blanco	20	30957
+		Sombrero	Casco de Ogivol	193	13130
+		Trofeo	Caparazón neutral mayor	150	16320
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			11738, # Anillo Chanicomo
+			15190, # Brazalete de melenutrof
+			24031, # Arco de Wulán
+			19610, # Zapautonimias
+			14168, # Capa Pología
+			13132, # Cinturón de Ogivol
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			30957, # Jalatrool blanco
+			13130, # Casco de Ogivol
+			16320, # Caparazón neutral mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 7:
+	Fitness: 256.42724999999996
+	Weapon damage:1025.7089999999998
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1221.5725
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 76.0
+		vitalidad : 4100.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 27.0
+		% resistencia a la tierra : 33.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 580.0
+		inteligencia: 290.0
+		fuerza: 700.0
+		vitalidad: 4100.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto del Corazón Sangriento	200	19244
+		Anillo	Anillo de Pol Guatson	200	15698
+		Anillo	Anillo de Corrupción	200	22205
+		Arco	Arco de Wulán	200	24031
+		Bota	Botas del Corazón Sangriento	200	19245
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano	100	16331
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			19244, # Amuleto del Corazón Sangriento
+			15698, # Anillo de Pol Guatson
+			22205, # Anillo de Corrupción
+			24031, # Arco de Wulán
+			19245, # Botas del Corazón Sangriento
+			19607, # Capilla absolutoria
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			15694, # Kidiboina
+			16196, # Rabioso mayor
+			16331, # Lozano
+			16332, # Lozano mayor
+			]
+Solution 8:
+	Fitness: 256.2665
+	Weapon damage:1025.066
+		Weapon: Varita Liana
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1048.06
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 79.0
+		vitalidad : 4250.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 36.0
+		% resistencia al agua : 47.0
+		% resistencia a la tierra : 36.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 515.0
+		inteligencia: 335.0
+		fuerza: 350.0
+		vitalidad: 4250.0
+		sabiduría: 385.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Ballenotas	200	15692
+		Capa	Capa de Anerice	200	19076
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Máscara de Anerice	200	19075
+		Trofeo	Viajante	100	13830
+		Trofeo	Asolador de agua	100	16263
+		Trofeo	Lozano mayor	150	16332
+		Varita	Varita Liana	193	11759
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			11738, # Anillo Chanicomo
+			19985, # Anillo de vueloceronte
+			15692, # Ballenotas
+			19076, # Capa de Anerice
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			19075, # Máscara de Anerice
+			13830, # Viajante
+			16263, # Asolador de agua
+			16332, # Lozano mayor
+			11759, # Varita Liana
+			]
+Solution 9:
+	Fitness: 255.75325
+	Weapon damage:1023.013
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1212.7125
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 76.0
+		vitalidad : 4100.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 27.0
+		% resistencia a la tierra : 33.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 580.0
+		inteligencia: 290.0
+		fuerza: 700.0
+		vitalidad: 4100.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto del Corazón Sangriento	200	19244
+		Anillo	Anillo de Pol Guatson	200	15698
+		Anillo	Anillo de Corrupción	200	22205
+		Arco	Arco de Wulán	200	24031
+		Bota	Botas del Corazón Sangriento	200	19245
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Asolador de tierra mayor	150	16254
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			19244, # Amuleto del Corazón Sangriento
+			15698, # Anillo de Pol Guatson
+			22205, # Anillo de Corrupción
+			24031, # Arco de Wulán
+			19245, # Botas del Corazón Sangriento
+			19607, # Capilla absolutoria
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			15694, # Kidiboina
+			16196, # Rabioso mayor
+			16254, # Asolador de tierra mayor
+			16332, # Lozano mayor
+			]
+Solution 10:
+	Fitness: 252.755
+	Weapon damage:1011.02
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1157.9
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 80.0
+		vitalidad : 4000.0
+		% resistencia neutral : 22.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 35.0
+		% resistencia al agua : 25.0
+		% resistencia a la tierra : 19.0
+	Characteristics:
+		agilidad: 240.0
+		suerte: 740.0
+		inteligencia: 340.0
+		fuerza: 860.0
+		vitalidad: 4000.0
+		sabiduría: 350.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Brazalete de melenutrof	200	15190
+		Arco	Arco de Wulán	200	24031
+		Bota	Zapautonimias	200	19610
+		Capa	Capa Pología	198	14168
+		Cinturón	Cinturón de Ogivol	195	13132
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Jalatrool blanco	20	30957
+		Sombrero	Casco de Ogivol	193	13130
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Caparazón neutral mayor	150	16320
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			11738, # Anillo Chanicomo
+			15190, # Brazalete de melenutrof
+			24031, # Arco de Wulán
+			19610, # Zapautonimias
+			14168, # Capa Pología
+			13132, # Cinturón de Ogivol
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			30957, # Jalatrool blanco
+			13130, # Casco de Ogivol
+			16196, # Rabioso mayor
+			16320, # Caparazón neutral mayor
+			16333, # Espabilador
+			]
+Solution 11:
+	Fitness: 252.684
+	Weapon damage:1010.736
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1171.55
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 77.0
+		vitalidad : 4000.0
+		% resistencia neutral : 22.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 35.0
+		% resistencia al agua : 25.0
+		% resistencia a la tierra : 19.0
+	Characteristics:
+		agilidad: 240.0
+		suerte: 750.0
+		inteligencia: 350.0
+		fuerza: 810.0
+		vitalidad: 4000.0
+		sabiduría: 350.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Brazalete de melenutrof	200	15190
+		Arco	Arco de Wulán	200	24031
+		Bota	Patogas	200	15693
+		Capa	Capa Pología	198	14168
+		Cinturón	Cinturón de Ogivol	195	13132
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Jalatrool blanco	20	30957
+		Sombrero	Casco de Ogivol	193	13130
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Caparazón neutral mayor	150	16320
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			11738, # Anillo Chanicomo
+			15190, # Brazalete de melenutrof
+			24031, # Arco de Wulán
+			15693, # Patogas
+			14168, # Capa Pología
+			13132, # Cinturón de Ogivol
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			30957, # Jalatrool blanco
+			13130, # Casco de Ogivol
+			16196, # Rabioso mayor
+			16320, # Caparazón neutral mayor
+			16333, # Espabilador
+			]
+Solution 12:
+	Fitness: 251.38850000000002
+	Weapon damage:1005.5540000000001
+		Weapon: Varita Liana
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1037.355
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 78.0
+		vitalidad : 4250.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 42.0
+		% resistencia al agua : 37.0
+		% resistencia a la tierra : 32.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 565.0
+		inteligencia: 385.0
+		fuerza: 340.0
+		vitalidad: 4250.0
+		sabiduría: 355.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Zapautonimias	200	19610
+		Capa	Capa de Anerice	200	19076
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Máscara de Anerice	200	19075
+		Trofeo	Viajante	100	13830
+		Trofeo	Asolador de agua	100	16263
+		Trofeo	Lozano mayor	150	16332
+		Varita	Varita Liana	193	11759
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			11738, # Anillo Chanicomo
+			19985, # Anillo de vueloceronte
+			19610, # Zapautonimias
+			19076, # Capa de Anerice
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			19075, # Máscara de Anerice
+			13830, # Viajante
+			16263, # Asolador de agua
+			16332, # Lozano mayor
+			11759, # Varita Liana
+			]
+Solution 13:
+	Fitness: 250.75325
+	Weapon damage:1003.013
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1192.7125
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 76.0
+		vitalidad : 4100.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 27.0
+		% resistencia a la tierra : 33.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 580.0
+		inteligencia: 290.0
+		fuerza: 700.0
+		vitalidad: 4100.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto del Corazón Sangriento	200	19244
+		Anillo	Anillo de Pol Guatson	200	15698
+		Anillo	Anillo de Corrupción	200	22205
+		Arco	Arco de Wulán	200	24031
+		Bota	Botas del Corazón Sangriento	200	19245
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Prismaradita	Prismacción iridiscente	200	22013
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			19244, # Amuleto del Corazón Sangriento
+			15698, # Anillo de Pol Guatson
+			22205, # Anillo de Corrupción
+			24031, # Arco de Wulán
+			19245, # Botas del Corazón Sangriento
+			19607, # Capilla absolutoria
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			22013, # Prismacción iridiscente
+			15694, # Kidiboina
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			]
+Solution 14:
+	Fitness: 249.8755
+	Weapon damage:999.502
+		Weapon: Varita Liana
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1023.54
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 79.0
+		vitalidad : 4250.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 36.0
+		% resistencia al agua : 47.0
+		% resistencia a la tierra : 36.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 515.0
+		inteligencia: 335.0
+		fuerza: 410.0
+		vitalidad: 4250.0
+		sabiduría: 385.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Ballenotas	200	15692
+		Capa	Capa de Anerice	200	19076
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Máscara de Anerice	200	19075
+		Trofeo	Furibundo mayor	150	12724
+		Trofeo	Potente mayor	150	13825
+		Trofeo	Viajante	100	13830
+		Varita	Varita Liana	193	11759
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			11738, # Anillo Chanicomo
+			19985, # Anillo de vueloceronte
+			15692, # Ballenotas
+			19076, # Capa de Anerice
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			19075, # Máscara de Anerice
+			12724, # Furibundo mayor
+			13825, # Potente mayor
+			13830, # Viajante
+			11759, # Varita Liana
+			]
+Solution 15:
+	Fitness: 248.66075
+	Weapon damage:994.643
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1188.6625000000001
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 76.0
+		vitalidad : 4100.0
+		% resistencia neutral : 19.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 27.0
+		% resistencia a la tierra : 33.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 580.0
+		inteligencia: 290.0
+		fuerza: 600.0
+		vitalidad: 4100.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto del Corazón Sangriento	200	19244
+		Anillo	Anillo de Pol Guatson	200	15698
+		Anillo	Anillo de Corrupción	200	22205
+		Arco	Arco de Wulán	200	24031
+		Bota	Botas del Corazón Sangriento	200	19245
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Prismaradita	Prismacción iridiscente	200	22013
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Torturador acuoso mayor	150	13783
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			19244, # Amuleto del Corazón Sangriento
+			15698, # Anillo de Pol Guatson
+			22205, # Anillo de Corrupción
+			24031, # Arco de Wulán
+			19245, # Botas del Corazón Sangriento
+			19607, # Capilla absolutoria
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			22013, # Prismacción iridiscente
+			15694, # Kidiboina
+			13783, # Torturador acuoso mayor
+			16332, # Lozano mayor
+			]
+Solution 16:
+	Fitness: 247.4435
+	Weapon damage:989.774
+		Weapon: Varita Liana
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1004.4999999999999
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 79.0
+		vitalidad : 4250.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 36.0
+		% resistencia al agua : 47.0
+		% resistencia a la tierra : 36.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 515.0
+		inteligencia: 335.0
+		fuerza: 350.0
+		vitalidad: 4250.0
+		sabiduría: 385.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Ballenotas	200	15692
+		Capa	Capa de Anerice	200	19076
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Máscara de Anerice	200	19075
+		Trofeo	Viajante	100	13830
+		Trofeo	Asolador de agua	100	16263
+		Trofeo	Lozano menor	50	16330
+		Varita	Varita Liana	193	11759
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			11738, # Anillo Chanicomo
+			19985, # Anillo de vueloceronte
+			15692, # Ballenotas
+			19076, # Capa de Anerice
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			19075, # Máscara de Anerice
+			13830, # Viajante
+			16263, # Asolador de agua
+			16330, # Lozano menor
+			11759, # Varita Liana
+			]
+Solution 17:
+	Fitness: 246.06425000000002
+	Weapon damage:984.2570000000001
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1144.3725
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 76.0
+		vitalidad : 4100.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 27.0
+		% resistencia a la tierra : 33.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 580.0
+		inteligencia: 290.0
+		fuerza: 820.0
+		vitalidad: 4100.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto del Corazón Sangriento	200	19244
+		Anillo	Anillo de Pol Guatson	200	15698
+		Anillo	Anillo de Corrupción	200	22205
+		Arco	Arco de Wulán	200	24031
+		Bota	Botas del Corazón Sangriento	200	19245
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascotura	Kolifante mamuk	60	29430
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Asolador de tierra mayor	150	16254
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			19244, # Amuleto del Corazón Sangriento
+			15698, # Anillo de Pol Guatson
+			22205, # Anillo de Corrupción
+			24031, # Arco de Wulán
+			19245, # Botas del Corazón Sangriento
+			19607, # Capilla absolutoria
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			29430, # Kolifante mamuk
+			15694, # Kidiboina
+			16196, # Rabioso mayor
+			16254, # Asolador de tierra mayor
+			16332, # Lozano mayor
+			]
+Solution 18:
+	Fitness: 245.61700000000002
+	Weapon damage:982.4680000000001
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1219.19
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 77.0
+		vitalidad : 4100.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 16.0
+		% resistencia al agua : 42.0
+		% resistencia a la tierra : 39.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 650.0
+		inteligencia: 390.0
+		fuerza: 600.0
+		vitalidad: 4100.0
+		sabiduría: 375.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Coconillo	200	21223
+		Anillo	Anillo de Corrupción	200	22205
+		Arco	Arco de Wulán	200	24031
+		Bota	Botas del Espíritu Insano	200	19251
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinturón del Espíritu Insano	200	19250
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cocoscudo	200	21225
+		Mascota	Lokulto	20	13673
+		Sombrero	Máscara de Kutulú	200	18000
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			21223, # Coconillo
+			22205, # Anillo de Corrupción
+			24031, # Arco de Wulán
+			19251, # Botas del Espíritu Insano
+			19607, # Capilla absolutoria
+			19250, # Cinturón del Espíritu Insano
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			21225, # Cocoscudo
+			13673, # Lokulto
+			18000, # Máscara de Kutulú
+			13759, # Hércules mayor
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			]
+Solution 19:
+	Fitness: 245.61700000000002
+	Weapon damage:982.4680000000001
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1219.19
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 77.0
+		vitalidad : 4300.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 16.0
+		% resistencia al agua : 42.0
+		% resistencia a la tierra : 39.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 650.0
+		inteligencia: 390.0
+		fuerza: 600.0
+		vitalidad: 4300.0
+		sabiduría: 375.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Coconillo	200	21223
+		Anillo	Anillo de Corrupción	200	22205
+		Arco	Arco de Wulán	200	24031
+		Bota	Botas del Espíritu Insano	200	19251
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinturón del Espíritu Insano	200	19250
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cocoscudo	200	21225
+		Mascota	Lokulto	20	13673
+		Sombrero	Máscara de Kutulú	200	18000
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			21223, # Coconillo
+			22205, # Anillo de Corrupción
+			24031, # Arco de Wulán
+			19251, # Botas del Espíritu Insano
+			19607, # Capilla absolutoria
+			19250, # Cinturón del Espíritu Insano
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			21225, # Cocoscudo
+			13673, # Lokulto
+			18000, # Máscara de Kutulú
+			16196, # Rabioso mayor
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			]
+Solution 20:
+	Fitness: 245.61700000000002
+	Weapon damage:982.4680000000001
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1219.19
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 77.0
+		vitalidad : 4100.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 16.0
+		% resistencia al agua : 42.0
+		% resistencia a la tierra : 39.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 550.0
+		inteligencia: 390.0
+		fuerza: 700.0
+		vitalidad: 4100.0
+		sabiduría: 375.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Coconillo	200	21223
+		Anillo	Anillo de Corrupción	200	22205
+		Arco	Arco de Wulán	200	24031
+		Bota	Botas del Espíritu Insano	200	19251
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinturón del Espíritu Insano	200	19250
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cocoscudo	200	21225
+		Mascota	Lokulto	20	13673
+		Sombrero	Máscara de Kutulú	200	18000
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			21223, # Coconillo
+			22205, # Anillo de Corrupción
+			24031, # Arco de Wulán
+			19251, # Botas del Espíritu Insano
+			19607, # Capilla absolutoria
+			19250, # Cinturón del Espíritu Insano
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			21225, # Cocoscudo
+			13673, # Lokulto
+			18000, # Máscara de Kutulú
+			13759, # Hércules mayor
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			]
+Solution 21:
+	Fitness: 245.61700000000002
+	Weapon damage:982.4680000000001
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1219.19
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 77.0
+		vitalidad : 4100.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 16.0
+		% resistencia al agua : 42.0
+		% resistencia a la tierra : 39.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 650.0
+		inteligencia: 390.0
+		fuerza: 600.0
+		vitalidad: 4100.0
+		sabiduría: 375.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Coconillo	200	21223
+		Anillo	Anillo de Corrupción	200	22205
+		Arco	Arco de Wulán	200	24031
+		Bota	Botas del Espíritu Insano	200	19251
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinturón del Espíritu Insano	200	19250
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cocoscudo	200	21225
+		Mascota	Lokulto	20	13673
+		Sombrero	Máscara de Kutulú	200	18000
+		Trofeo	Suertudo mayor	150	13768
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			21223, # Coconillo
+			22205, # Anillo de Corrupción
+			24031, # Arco de Wulán
+			19251, # Botas del Espíritu Insano
+			19607, # Capilla absolutoria
+			19250, # Cinturón del Espíritu Insano
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			21225, # Cocoscudo
+			13673, # Lokulto
+			18000, # Máscara de Kutulú
+			13768, # Suertudo mayor
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			]
+Solution 22:
+	Fitness: 245.0065
+	Weapon damage:980.026
+		Weapon: Varita Liana
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1012.8649999999999
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 78.0
+		vitalidad : 4250.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 42.0
+		% resistencia al agua : 37.0
+		% resistencia a la tierra : 32.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 565.0
+		inteligencia: 385.0
+		fuerza: 400.0
+		vitalidad: 4250.0
+		sabiduría: 355.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Zapautonimias	200	19610
+		Capa	Capa de Anerice	200	19076
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Máscara de Anerice	200	19075
+		Trofeo	Furibundo mayor	150	12724
+		Trofeo	Potente mayor	150	13825
+		Trofeo	Viajante	100	13830
+		Varita	Varita Liana	193	11759
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			11738, # Anillo Chanicomo
+			19985, # Anillo de vueloceronte
+			19610, # Zapautonimias
+			19076, # Capa de Anerice
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			19075, # Máscara de Anerice
+			12724, # Furibundo mayor
+			13825, # Potente mayor
+			13830, # Viajante
+			11759, # Varita Liana
+			]
+Solution 23:
+	Fitness: 244.64575000000002
+	Weapon damage:978.5830000000001
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1149.1825
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 76.0
+		vitalidad : 4100.0
+		% resistencia neutral : 19.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 27.0
+		% resistencia a la tierra : 33.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 580.0
+		inteligencia: 290.0
+		fuerza: 720.0
+		vitalidad: 4100.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto del Corazón Sangriento	200	19244
+		Anillo	Anillo de Pol Guatson	200	15698
+		Anillo	Anillo de Corrupción	200	22205
+		Arco	Arco de Wulán	200	24031
+		Bota	Botas del Corazón Sangriento	200	19245
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascotura	Kolifante mamuk	60	29430
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Torturador acuoso mayor	150	13783
+		Trofeo	Lozano	100	16331
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			19244, # Amuleto del Corazón Sangriento
+			15698, # Anillo de Pol Guatson
+			22205, # Anillo de Corrupción
+			24031, # Arco de Wulán
+			19245, # Botas del Corazón Sangriento
+			19607, # Capilla absolutoria
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			29430, # Kolifante mamuk
+			15694, # Kidiboina
+			13783, # Torturador acuoso mayor
+			16331, # Lozano
+			16332, # Lozano mayor
+			]
+Solution 24:
+	Fitness: 244.507
+	Weapon damage:978.028
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1231.09
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 77.0
+		vitalidad : 4300.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 16.0
+		% resistencia al agua : 42.0
+		% resistencia a la tierra : 39.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 550.0
+		inteligencia: 390.0
+		fuerza: 600.0
+		vitalidad: 4300.0
+		sabiduría: 375.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Coconillo	200	21223
+		Anillo	Anillo de Corrupción	200	22205
+		Arco	Arco de Wulán	200	24031
+		Bota	Botas del Espíritu Insano	200	19251
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinturón del Espíritu Insano	200	19250
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cocoscudo	200	21225
+		Mascota	Lokulto	20	13673
+		Sombrero	Máscara de Kutulú	200	18000
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Sanguinario mayor	150	16339
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			21223, # Coconillo
+			22205, # Anillo de Corrupción
+			24031, # Arco de Wulán
+			19251, # Botas del Espíritu Insano
+			19607, # Capilla absolutoria
+			19250, # Cinturón del Espíritu Insano
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			21225, # Cocoscudo
+			13673, # Lokulto
+			18000, # Máscara de Kutulú
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			16339, # Sanguinario mayor
+			]
+Solution 25:
+	Fitness: 244.0125
+	Weapon damage:976.05
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1264.8
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 75.0
+		vitalidad : 4150.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 16.0
+		% resistencia al aire : 28.0
+		% resistencia al agua : 30.0
+		% resistencia a la tierra : 45.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 580.0
+		inteligencia: 460.0
+		fuerza: 490.0
+		vitalidad: 4150.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Anillo de Corrupción	200	22205
+		Arco	Arco de Wulán	200	24031
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón del Espíritu Insano	200	19250
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Lokulto	20	13673
+		Sombrero	Máscara del Espíritu Insano	200	19252
+		Trofeo	Suertudo mayor	150	13768
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			11738, # Anillo Chanicomo
+			22205, # Anillo de Corrupción
+			24031, # Arco de Wulán
+			15748, # Botarpilla
+			15747, # Capilla
+			19250, # Cinturón del Espíritu Insano
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18718, # Escudo de kukoloide
+			13673, # Lokulto
+			19252, # Máscara del Espíritu Insano
+			13768, # Suertudo mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 26:
+	Fitness: 243.97175
+	Weapon damage:975.887
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1140.3225
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 76.0
+		vitalidad : 4100.0
+		% resistencia neutral : 19.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 27.0
+		% resistencia a la tierra : 33.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 580.0
+		inteligencia: 290.0
+		fuerza: 720.0
+		vitalidad: 4100.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto del Corazón Sangriento	200	19244
+		Anillo	Anillo de Pol Guatson	200	15698
+		Anillo	Anillo de Corrupción	200	22205
+		Arco	Arco de Wulán	200	24031
+		Bota	Botas del Corazón Sangriento	200	19245
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascotura	Kolifante mamuk	60	29430
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Torturador acuoso mayor	150	13783
+		Trofeo	Asolador de tierra mayor	150	16254
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			19244, # Amuleto del Corazón Sangriento
+			15698, # Anillo de Pol Guatson
+			22205, # Anillo de Corrupción
+			24031, # Arco de Wulán
+			19245, # Botas del Corazón Sangriento
+			19607, # Capilla absolutoria
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			29430, # Kolifante mamuk
+			15694, # Kidiboina
+			13783, # Torturador acuoso mayor
+			16254, # Asolador de tierra mayor
+			16332, # Lozano mayor
+			]
+Solution 27:
+	Fitness: 243.51799999999997
+	Weapon damage:974.0719999999999
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1148.3475
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 76.0
+		vitalidad : 4000.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 27.0
+		% resistencia a la tierra : 33.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 580.0
+		inteligencia: 290.0
+		fuerza: 770.0
+		vitalidad: 4000.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto del Corazón Sangriento	200	19244
+		Anillo	Anillo de Pol Guatson	200	15698
+		Anillo	Anillo de Corrupción	200	22205
+		Arco	Arco de Wulán	200	24031
+		Bota	Botas del Corazón Sangriento	200	19245
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascotura	Kolifante mamuk	60	29430
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Hércules	100	13758
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Sanguinario mayor	150	16339
+	Chromosome: [
+			19244, # Amuleto del Corazón Sangriento
+			15698, # Anillo de Pol Guatson
+			22205, # Anillo de Corrupción
+			24031, # Arco de Wulán
+			19245, # Botas del Corazón Sangriento
+			19607, # Capilla absolutoria
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			29430, # Kolifante mamuk
+			15694, # Kidiboina
+			13758, # Hércules
+			16332, # Lozano mayor
+			16339, # Sanguinario mayor
+			]
+Solution 28:
+	Fitness: 243.22724999999997
+	Weapon damage:972.9089999999999
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1134.7525
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 76.0
+		vitalidad : 4100.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 27.0
+		% resistencia a la tierra : 33.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 580.0
+		inteligencia: 290.0
+		fuerza: 780.0
+		vitalidad: 4100.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto del Corazón Sangriento	200	19244
+		Anillo	Anillo de Pol Guatson	200	15698
+		Anillo	Anillo de Corrupción	200	22205
+		Arco	Arco de Wulán	200	24031
+		Bota	Botas del Corazón Sangriento	200	19245
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascotura	Kolifante mamuk	60	29430
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Furibundo mayor	150	12724
+		Trofeo	Asolador de tierra mayor	150	16254
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			19244, # Amuleto del Corazón Sangriento
+			15698, # Anillo de Pol Guatson
+			22205, # Anillo de Corrupción
+			24031, # Arco de Wulán
+			19245, # Botas del Corazón Sangriento
+			19607, # Capilla absolutoria
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			29430, # Kolifante mamuk
+			15694, # Kidiboina
+			12724, # Furibundo mayor
+			16254, # Asolador de tierra mayor
+			16332, # Lozano mayor
+			]
+Solution 29:
+	Fitness: 242.9375
+	Weapon damage:971.75
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1276.8
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 75.0
+		vitalidad : 4350.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 16.0
+		% resistencia al aire : 28.0
+		% resistencia al agua : 30.0
+		% resistencia a la tierra : 45.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 480.0
+		inteligencia: 460.0
+		fuerza: 490.0
+		vitalidad: 4350.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Anillo de Corrupción	200	22205
+		Arco	Arco de Wulán	200	24031
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón del Espíritu Insano	200	19250
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Lokulto	20	13673
+		Sombrero	Máscara del Espíritu Insano	200	19252
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+		Trofeo	Sanguinario mayor	150	16339
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			11738, # Anillo Chanicomo
+			22205, # Anillo de Corrupción
+			24031, # Arco de Wulán
+			15748, # Botarpilla
+			15747, # Capilla
+			19250, # Cinturón del Espíritu Insano
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18718, # Escudo de kukoloide
+			13673, # Lokulto
+			19252, # Máscara del Espíritu Insano
+			16332, # Lozano mayor
+			16333, # Espabilador
+			16339, # Sanguinario mayor
+			]
+Solution 30:
+	Fitness: 242.80800000000002
+	Weapon damage:971.2320000000001
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1122.71
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 77.0
+		vitalidad : 4000.0
+		% resistencia neutral : 22.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 35.0
+		% resistencia al agua : 25.0
+		% resistencia a la tierra : 19.0
+	Characteristics:
+		agilidad: 240.0
+		suerte: 750.0
+		inteligencia: 350.0
+		fuerza: 810.0
+		vitalidad: 4000.0
+		sabiduría: 350.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Brazalete de melenutrof	200	15190
+		Arco	Arco de Wulán	200	24031
+		Bota	Patogas	200	15693
+		Capa	Capa Pología	198	14168
+		Cinturón	Cinturón de Ogivol	195	13132
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Jalatrool blanco	20	30957
+		Sombrero	Casco de Ogivol	193	13130
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Caparazón neutral mayor	150	16320
+		Trofeo	Espabilador	100	16333
+		Trofeo	Sanguinario menor	50	16337
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			11738, # Anillo Chanicomo
+			15190, # Brazalete de melenutrof
+			24031, # Arco de Wulán
+			15693, # Patogas
+			14168, # Capa Pología
+			13132, # Cinturón de Ogivol
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			30957, # Jalatrool blanco
+			13130, # Casco de Ogivol
+			16196, # Rabioso mayor
+			16320, # Caparazón neutral mayor
+			16333, # Espabilador
+			16337, # Sanguinario menor
+			]
+Solution 31:
+	Fitness: 242.51799999999997
+	Weapon damage:970.0719999999999
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1132.3475
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 76.0
+		vitalidad : 4000.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 27.0
+		% resistencia a la tierra : 33.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 580.0
+		inteligencia: 290.0
+		fuerza: 770.0
+		vitalidad: 4000.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto del Corazón Sangriento	200	19244
+		Anillo	Anillo de Pol Guatson	200	15698
+		Anillo	Anillo de Corrupción	200	22205
+		Arco	Arco de Wulán	200	24031
+		Bota	Botas del Corazón Sangriento	200	19245
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascotura	Kolifante mamuk	60	29430
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Hércules	100	13758
+		Trofeo	Asolador de tierra mayor	150	16254
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			19244, # Amuleto del Corazón Sangriento
+			15698, # Anillo de Pol Guatson
+			22205, # Anillo de Corrupción
+			24031, # Arco de Wulán
+			19245, # Botas del Corazón Sangriento
+			19607, # Capilla absolutoria
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			29430, # Kolifante mamuk
+			15694, # Kidiboina
+			13758, # Hércules
+			16254, # Asolador de tierra mayor
+			16332, # Lozano mayor
+			]
+Solution 32:
+	Fitness: 241.97175
+	Weapon damage:967.887
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1132.3225
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 76.0
+		vitalidad : 4100.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 27.0
+		% resistencia a la tierra : 33.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 580.0
+		inteligencia: 290.0
+		fuerza: 720.0
+		vitalidad: 4100.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto del Corazón Sangriento	200	19244
+		Anillo	Anillo de Pol Guatson	200	15698
+		Anillo	Anillo de Corrupción	200	22205
+		Arco	Arco de Wulán	200	24031
+		Bota	Botas del Corazón Sangriento	200	19245
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascotura	Kolifante mamuk	60	29430
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Destructor de agua mayor	150	12690
+		Trofeo	Asolador de tierra mayor	150	16254
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			19244, # Amuleto del Corazón Sangriento
+			15698, # Anillo de Pol Guatson
+			22205, # Anillo de Corrupción
+			24031, # Arco de Wulán
+			19245, # Botas del Corazón Sangriento
+			19607, # Capilla absolutoria
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			29430, # Kolifante mamuk
+			15694, # Kidiboina
+			12690, # Destructor de agua mayor
+			16254, # Asolador de tierra mayor
+			16332, # Lozano mayor
+			]
+Solution 33:
+	Fitness: 241.56924999999998
+	Weapon damage:966.2769999999999
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1229.8850000000002
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 76.0
+		vitalidad : 4100.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 25.0
+		% resistencia al aire : 16.0
+		% resistencia al agua : 45.0
+		% resistencia a la tierra : 29.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 640.0
+		inteligencia: 400.0
+		fuerza: 490.0
+		vitalidad: 4100.0
+		sabiduría: 410.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collar rhoarim	200	31761
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Anillo de Corrupción	200	22205
+		Arco	Arco de Wulán	200	24031
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón del Espíritu Insano	200	19250
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cocoscudo	200	21225
+		Mascota	Lokulto	20	13673
+		Sombrero	Máscara del Espíritu Insano	200	19252
+		Trofeo	Suertudo mayor	150	13768
+		Trofeo	Espabilador	100	16333
+		Trofeo	Sanguinario mayor	150	16339
+	Chromosome: [
+			31761, # Collar rhoarim
+			11738, # Anillo Chanicomo
+			22205, # Anillo de Corrupción
+			24031, # Arco de Wulán
+			15748, # Botarpilla
+			15747, # Capilla
+			19250, # Cinturón del Espíritu Insano
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			21225, # Cocoscudo
+			13673, # Lokulto
+			19252, # Máscara del Espíritu Insano
+			13768, # Suertudo mayor
+			16333, # Espabilador
+			16339, # Sanguinario mayor
+			]
+Solution 34:
+	Fitness: 241.38600000000002
+	Weapon damage:965.5440000000001
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1127.53
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 77.0
+		vitalidad : 4000.0
+		% resistencia neutral : 22.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 35.0
+		% resistencia al agua : 25.0
+		% resistencia a la tierra : 19.0
+	Characteristics:
+		agilidad: 240.0
+		suerte: 750.0
+		inteligencia: 350.0
+		fuerza: 710.0
+		vitalidad: 4000.0
+		sabiduría: 350.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Brazalete de melenutrof	200	15190
+		Arco	Arco de Wulán	200	24031
+		Bota	Patogas	200	15693
+		Capa	Capa Pología	198	14168
+		Cinturón	Cinturón de Ogivol	195	13132
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Jalatrool blanco	20	30957
+		Sombrero	Casco de Ogivol	193	13130
+		Trofeo	Potente mayor	150	13825
+		Trofeo	Caparazón neutral mayor	150	16320
+		Trofeo	Espabilador	100	16333
+		Trofeo	Sanguinario menor	50	16337
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			11738, # Anillo Chanicomo
+			15190, # Brazalete de melenutrof
+			24031, # Arco de Wulán
+			15693, # Patogas
+			14168, # Capa Pología
+			13132, # Cinturón de Ogivol
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			30957, # Jalatrool blanco
+			13130, # Casco de Ogivol
+			13825, # Potente mayor
+			16320, # Caparazón neutral mayor
+			16333, # Espabilador
+			16337, # Sanguinario menor
+			]
+Solution 35:
+	Fitness: 240.63799999999998
+	Weapon damage:962.5519999999999
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1113.165
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 78.0
+		vitalidad : 4050.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 30.0
+		% resistencia al agua : 44.0
+		% resistencia a la tierra : 29.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 790.0
+		inteligencia: 290.0
+		fuerza: 770.0
+		vitalidad: 4050.0
+		sabiduría: 370.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Anillo de Corrupción	200	22205
+		Arco	Arco de Wulán	200	24031
+		Bota	Sandalias circulares del Kimbo	195	8861
+		Capa	Capa de Anerice	200	19076
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Microsmoglob	20	31885
+		Sombrero	El Kim	196	9461
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			11738, # Anillo Chanicomo
+			22205, # Anillo de Corrupción
+			24031, # Arco de Wulán
+			8861, # Sandalias circulares del Kimbo
+			19076, # Capa de Anerice
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			31885, # Microsmoglob
+			9461, # El Kim
+			16196, # Rabioso mayor
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			]
+Solution 36:
+	Fitness: 239.88600000000002
+	Weapon damage:959.5440000000001
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1118.53
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 77.0
+		vitalidad : 4000.0
+		% resistencia neutral : 22.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 35.0
+		% resistencia al agua : 25.0
+		% resistencia a la tierra : 19.0
+	Characteristics:
+		agilidad: 240.0
+		suerte: 750.0
+		inteligencia: 350.0
+		fuerza: 710.0
+		vitalidad: 4000.0
+		sabiduría: 350.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Brazalete de melenutrof	200	15190
+		Arco	Arco de Wulán	200	24031
+		Bota	Patogas	200	15693
+		Capa	Capa Pología	198	14168
+		Cinturón	Cinturón de Ogivol	195	13132
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Jalatrool blanco	20	30957
+		Sombrero	Casco de Ogivol	193	13130
+		Trofeo	Acorazado de agua mayor	150	12654
+		Trofeo	Potente mayor	150	13825
+		Trofeo	Caparazón neutral mayor	150	16320
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			11738, # Anillo Chanicomo
+			15190, # Brazalete de melenutrof
+			24031, # Arco de Wulán
+			15693, # Patogas
+			14168, # Capa Pología
+			13132, # Cinturón de Ogivol
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			30957, # Jalatrool blanco
+			13130, # Casco de Ogivol
+			12654, # Acorazado de agua mayor
+			13825, # Potente mayor
+			16320, # Caparazón neutral mayor
+			16333, # Espabilador
+			]
+Solution 37:
+	Fitness: 239.88600000000002
+	Weapon damage:959.5440000000001
+		Weapon: Arco de Wulán
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1118.53
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		% crítico : 77.0
+		vitalidad : 4000.0
+		% resistencia neutral : 22.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 35.0
+		% resistencia al agua : 25.0
+		% resistencia a la tierra : 19.0
+	Characteristics:
+		agilidad: 240.0
+		suerte: 750.0
+		inteligencia: 350.0
+		fuerza: 710.0
+		vitalidad: 4000.0
+		sabiduría: 350.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Brazalete de melenutrof	200	15190
+		Arco	Arco de Wulán	200	24031
+		Bota	Patogas	200	15693
+		Capa	Capa Pología	198	14168
+		Cinturón	Cinturón de Ogivol	195	13132
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Jalatrool blanco	20	30957
+		Sombrero	Casco de Ogivol	193	13130
+		Trofeo	Paralizador	100	13791
+		Trofeo	Potente mayor	150	13825
+		Trofeo	Caparazón neutral mayor	150	16320
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			11738, # Anillo Chanicomo
+			15190, # Brazalete de melenutrof
+			24031, # Arco de Wulán
+			15693, # Patogas
+			14168, # Capa Pología
+			13132, # Cinturón de Ogivol
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			18700, # Cuadrifolio
+			30957, # Jalatrool blanco
+			13130, # Casco de Ogivol
+			13791, # Paralizador
+			13825, # Potente mayor
+			16320, # Caparazón neutral mayor
+			16333, # Espabilador
+			]

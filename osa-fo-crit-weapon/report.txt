@@ -1,0 +1,5880 @@
+Solution 0:
+	Fitness: 242.715
+	Weapon damage:970.86
+		Weapon: Bastón Ba
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:436.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4100.0
+		invocaciones : 6.0
+		% resistencia neutral : 18.0
+		% resistencia al fuego : 21.0
+		% resistencia al aire : 18.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 22.0
+	Characteristics:
+		agilidad: 320.0
+		suerte: 230.0
+		inteligencia: 320.0
+		fuerza: 1076.0
+		vitalidad: 4100.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bastón	Bastón Ba	197	14166
+		Bota	Zapatillas de cangreno	200	19603
+		Capa	Velameba	200	15697
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Feanor	20	8693
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Robusto mayor	150	13828
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14166, # Bastón Ba
+			19603, # Zapatillas de cangreno
+			15697, # Velameba
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18718, # Escudo de kukoloide
+			8693, # Feanor
+			15695, # Maskrobio
+			13759, # Hércules mayor
+			13828, # Robusto mayor
+			]
+Solution 1:
+	Fitness: 241.92
+	Weapon damage:1209.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:443.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 18.0
+		% resistencia al fuego : 21.0
+		% resistencia al aire : 18.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 32.0
+	Characteristics:
+		agilidad: 320.0
+		suerte: 230.0
+		inteligencia: 370.0
+		fuerza: 1126.0
+		vitalidad: 4000.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Zapatillas de cangreno	200	19603
+		Capa	Velameba	200	15697
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de kukoloide	200	18718
+		Espada	Espada Lingüe	196	11744
+		Mascota	Feanor	20	8693
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Robusto mayor	150	13828
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			19603, # Zapatillas de cangreno
+			15697, # Velameba
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18718, # Escudo de kukoloide
+			11744, # Espada Lingüe
+			8693, # Feanor
+			15695, # Maskrobio
+			13759, # Hércules mayor
+			13828, # Robusto mayor
+			]
+Solution 2:
+	Fitness: 241.464
+	Weapon damage:1207.32
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:446.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 18.0
+		% resistencia al fuego : 21.0
+		% resistencia al aire : 28.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 32.0
+	Characteristics:
+		agilidad: 320.0
+		suerte: 230.0
+		inteligencia: 320.0
+		fuerza: 1151.0
+		vitalidad: 4050.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Zapatillas de cangreno	200	19603
+		Capa	Velameba	200	15697
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Feanor	20	8693
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Robusto mayor	150	13828
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			19603, # Zapatillas de cangreno
+			15697, # Velameba
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18718, # Escudo de kukoloide
+			8693, # Feanor
+			14055, # Laya zonca
+			15695, # Maskrobio
+			13759, # Hércules mayor
+			13828, # Robusto mayor
+			]
+Solution 3:
+	Fitness: 241.38400000000001
+	Weapon damage:1206.92
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:444.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 18.0
+		% resistencia al fuego : 21.0
+		% resistencia al aire : 28.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 32.0
+	Characteristics:
+		agilidad: 250.0
+		suerte: 160.0
+		inteligencia: 250.0
+		fuerza: 1081.0
+		vitalidad: 4050.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Zapatillas de cangreno	200	19603
+		Capa	Velameba	200	15697
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Feanor	20	8693
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Dañador mayor	150	13834
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			19603, # Zapatillas de cangreno
+			15697, # Velameba
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18718, # Escudo de kukoloide
+			8693, # Feanor
+			14055, # Laya zonca
+			15695, # Maskrobio
+			13759, # Hércules mayor
+			13828, # Robusto mayor
+			13834, # Dañador mayor
+			]
+Solution 4:
+	Fitness: 239.18400000000003
+	Weapon damage:1195.92
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:439.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 32.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 51.0
+	Characteristics:
+		agilidad: 140.0
+		suerte: 140.0
+		inteligencia: 140.0
+		fuerza: 1271.0
+		vitalidad: 4000.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collar de tritáceo	200	17997
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de cortesano tenebroso	200	15428
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de chocomante	200	20926
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Máscara del Espíritu de la Salvación	200	19249
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Viajante	100	13830
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			17997, # Collar de tritáceo
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15428, # Botas de cortesano tenebroso
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			20926, # Escudo de chocomante
+			12541, # Dragrillado
+			14055, # Laya zonca
+			19249, # Máscara del Espíritu de la Salvación
+			13759, # Hércules mayor
+			13830, # Viajante
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 5:
+	Fitness: 239.064
+	Weapon damage:1195.32
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:450.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4100.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 15.0
+		% resistencia al aire : 32.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 170.0
+		inteligencia: 150.0
+		fuerza: 1261.0
+		vitalidad: 4100.0
+		sabiduría: 375.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collar de tritáceo	200	17997
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Corteza de Brus	196	18693
+		Mascota	Piotín violeta	20	7713
+		Pala	Laya zonca	197	14055
+		Sombrero	Diadema de Wulán	200	24030
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			17997, # Collar de tritáceo
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18693, # Corteza de Brus
+			7713, # Piotín violeta
+			14055, # Laya zonca
+			24030, # Diadema de Wulán
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 6:
+	Fitness: 239.064
+	Weapon damage:1195.32
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:450.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4100.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 15.0
+		% resistencia al aire : 32.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 170.0
+		inteligencia: 150.0
+		fuerza: 1261.0
+		vitalidad: 4100.0
+		sabiduría: 375.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collar de tritáceo	200	17997
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Corteza de Brus	196	18693
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Diadema de Wulán	200	24030
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			17997, # Collar de tritáceo
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18693, # Corteza de Brus
+			12541, # Dragrillado
+			14055, # Laya zonca
+			24030, # Diadema de Wulán
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 7:
+	Fitness: 239.064
+	Weapon damage:1195.32
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:450.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4100.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 15.0
+		% resistencia al aire : 32.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 170.0
+		inteligencia: 150.0
+		fuerza: 1261.0
+		vitalidad: 4100.0
+		sabiduría: 375.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collar de tritáceo	200	17997
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Corteza de Brus	196	18693
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Diadema de Wulán	200	24030
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			17997, # Collar de tritáceo
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18693, # Corteza de Brus
+			12541, # Dragrillado
+			14055, # Laya zonca
+			24030, # Diadema de Wulán
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 8:
+	Fitness: 239.064
+	Weapon damage:1195.32
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:450.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4150.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 32.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 170.0
+		inteligencia: 220.0
+		fuerza: 1261.0
+		vitalidad: 4150.0
+		sabiduría: 345.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collar de tritáceo	200	17997
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Solar	200	19598
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Diadema de Wulán	200	24030
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			17997, # Collar de tritáceo
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			19598, # Escudo de Solar
+			12541, # Dragrillado
+			14055, # Laya zonca
+			24030, # Diadema de Wulán
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 9:
+	Fitness: 238.74399999999997
+	Weapon damage:1193.7199999999998
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:434.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4150.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 32.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 170.0
+		inteligencia: 220.0
+		fuerza: 1261.0
+		vitalidad: 4150.0
+		sabiduría: 345.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collar de tritáceo	200	17997
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Solar	200	19598
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Diadema de Wulán	200	24030
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Asolador neutral mayor	150	16257
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			17997, # Collar de tritáceo
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			19598, # Escudo de Solar
+			12541, # Dragrillado
+			14055, # Laya zonca
+			24030, # Diadema de Wulán
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16257, # Asolador neutral mayor
+			16333, # Espabilador
+			]
+Solution 10:
+	Fitness: 238.26399999999998
+	Weapon damage:1191.32
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:438.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4250.0
+		invocaciones : 6.0
+		% resistencia neutral : 18.0
+		% resistencia al fuego : 21.0
+		% resistencia al aire : 28.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 32.0
+	Characteristics:
+		agilidad: 320.0
+		suerte: 230.0
+		inteligencia: 320.0
+		fuerza: 1051.0
+		vitalidad: 4250.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Zapatillas de cangreno	200	19603
+		Capa	Velameba	200	15697
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Feanor	20	8693
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Dañador mayor	150	13834
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			19603, # Zapatillas de cangreno
+			15697, # Velameba
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18718, # Escudo de kukoloide
+			8693, # Feanor
+			14055, # Laya zonca
+			15695, # Maskrobio
+			13828, # Robusto mayor
+			13834, # Dañador mayor
+			]
+Solution 11:
+	Fitness: 237.94399999999996
+	Weapon damage:1189.7199999999998
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:446.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4150.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 32.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 170.0
+		inteligencia: 220.0
+		fuerza: 1261.0
+		vitalidad: 4150.0
+		sabiduría: 345.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collar de tritáceo	200	17997
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Solar	200	19598
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Diadema de Wulán	200	24030
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+		Trofeo	Sanguinario mayor	150	16339
+	Chromosome: [
+			17997, # Collar de tritáceo
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			19598, # Escudo de Solar
+			12541, # Dragrillado
+			14055, # Laya zonca
+			24030, # Diadema de Wulán
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			16339, # Sanguinario mayor
+			]
+Solution 12:
+	Fitness: 237.584
+	Weapon damage:1187.92
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:431.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 22.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 170.0
+		inteligencia: 220.0
+		fuerza: 1221.0
+		vitalidad: 4000.0
+		sabiduría: 325.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Nevark	194	13636
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Solar	200	19598
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Diadema de Wulán	200	24030
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Asolador neutral mayor	150	16257
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			13636, # Amuleto de Nevark
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			19598, # Escudo de Solar
+			12541, # Dragrillado
+			14055, # Laya zonca
+			24030, # Diadema de Wulán
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16257, # Asolador neutral mayor
+			16333, # Espabilador
+			]
+Solution 13:
+	Fitness: 237.51999999999998
+	Weapon damage:1187.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:426.19999999999993
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 25.0
+		% resistencia al fuego : 25.0
+		% resistencia al aire : 19.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 44.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 100.0
+		inteligencia: 210.0
+		fuerza: 1316.0
+		vitalidad: 4000.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Espada	Espada Lingüe	196	11744
+		Mascotura	Kompost	60	14848
+		Sombrero	Casco de Mizz Frizz	196	14060
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15748, # Botarpilla
+			15747, # Capilla
+			19983, # Cinturón de vueloceronte
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			11744, # Espada Lingüe
+			14848, # Kompost
+			14060, # Casco de Mizz Frizz
+			13759, # Hércules mayor
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 14:
+	Fitness: 237.51999999999998
+	Weapon damage:1187.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:426.19999999999993
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 25.0
+		% resistencia al fuego : 25.0
+		% resistencia al aire : 19.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 44.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 100.0
+		inteligencia: 210.0
+		fuerza: 1316.0
+		vitalidad: 4000.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Espada	Espada Lingüe	196	11744
+		Mascotura	Kompost	60	14848
+		Sombrero	Casco de Mizz Frizz	196	14060
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15748, # Botarpilla
+			15747, # Capilla
+			19983, # Cinturón de vueloceronte
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			11744, # Espada Lingüe
+			14848, # Kompost
+			14060, # Casco de Mizz Frizz
+			13759, # Hércules mayor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 15:
+	Fitness: 237.51999999999998
+	Weapon damage:1187.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:426.19999999999993
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 25.0
+		% resistencia al fuego : 25.0
+		% resistencia al aire : 19.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 44.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 100.0
+		inteligencia: 210.0
+		fuerza: 1316.0
+		vitalidad: 4000.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Espada	Espada Lingüe	196	11744
+		Mascotura	Kompost	60	14848
+		Sombrero	Casco de Mizz Frizz	196	14060
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15748, # Botarpilla
+			15747, # Capilla
+			19983, # Cinturón de vueloceronte
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			11744, # Espada Lingüe
+			14848, # Kompost
+			14060, # Casco de Mizz Frizz
+			13759, # Hércules mayor
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 16:
+	Fitness: 237.304
+	Weapon damage:1186.52
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:438.19999999999993
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4250.0
+		invocaciones : 6.0
+		% resistencia neutral : 18.0
+		% resistencia al fuego : 21.0
+		% resistencia al aire : 28.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 32.0
+	Characteristics:
+		agilidad: 320.0
+		suerte: 230.0
+		inteligencia: 320.0
+		fuerza: 1111.0
+		vitalidad: 4250.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Zapatillas de cangreno	200	19603
+		Capa	Velameba	200	15697
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Feanor	20	8693
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Furibundo mayor	150	12724
+		Trofeo	Robusto mayor	150	13828
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			19603, # Zapatillas de cangreno
+			15697, # Velameba
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18718, # Escudo de kukoloide
+			8693, # Feanor
+			14055, # Laya zonca
+			15695, # Maskrobio
+			12724, # Furibundo mayor
+			13828, # Robusto mayor
+			]
+Solution 17:
+	Fitness: 237.10399999999998
+	Weapon damage:1185.52
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:435.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 32.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 51.0
+	Characteristics:
+		agilidad: 140.0
+		suerte: 140.0
+		inteligencia: 140.0
+		fuerza: 1171.0
+		vitalidad: 4000.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collar de tritáceo	200	17997
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de cortesano tenebroso	200	15428
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de chocomante	200	20926
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Máscara del Espíritu de la Salvación	200	19249
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Viajante	100	13830
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			17997, # Collar de tritáceo
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15428, # Botas de cortesano tenebroso
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			20926, # Escudo de chocomante
+			12541, # Dragrillado
+			14055, # Laya zonca
+			19249, # Máscara del Espíritu de la Salvación
+			13759, # Hércules mayor
+			13830, # Viajante
+			16333, # Espabilador
+			]
+Solution 18:
+	Fitness: 237.10399999999998
+	Weapon damage:1185.52
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:435.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4250.0
+		invocaciones : 6.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 32.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 51.0
+	Characteristics:
+		agilidad: 220.0
+		suerte: 140.0
+		inteligencia: 140.0
+		fuerza: 1251.0
+		vitalidad: 4250.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collar de tritáceo	200	17997
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de cortesano tenebroso	200	15428
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de chocomante	200	20926
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Viajante	100	13830
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			17997, # Collar de tritáceo
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15428, # Botas de cortesano tenebroso
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			20926, # Escudo de chocomante
+			12541, # Dragrillado
+			14055, # Laya zonca
+			15436, # Sombrero de la Reina de los Ladrones
+			13830, # Viajante
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 19:
+	Fitness: 237.10399999999998
+	Weapon damage:1185.52
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:435.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4200.0
+		invocaciones : 6.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 32.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 51.0
+	Characteristics:
+		agilidad: 140.0
+		suerte: 140.0
+		inteligencia: 140.0
+		fuerza: 1171.0
+		vitalidad: 4200.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collar de tritáceo	200	17997
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de cortesano tenebroso	200	15428
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de chocomante	200	20926
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Máscara del Espíritu de la Salvación	200	19249
+		Trofeo	Viajante	100	13830
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			17997, # Collar de tritáceo
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15428, # Botas de cortesano tenebroso
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			20926, # Escudo de chocomante
+			12541, # Dragrillado
+			14055, # Laya zonca
+			19249, # Máscara del Espíritu de la Salvación
+			13830, # Viajante
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 20:
+	Fitness: 236.78400000000002
+	Weapon damage:1183.92
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:443.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 22.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 170.0
+		inteligencia: 220.0
+		fuerza: 1221.0
+		vitalidad: 4000.0
+		sabiduría: 325.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Nevark	194	13636
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Solar	200	19598
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Diadema de Wulán	200	24030
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+		Trofeo	Sanguinario mayor	150	16339
+	Chromosome: [
+			13636, # Amuleto de Nevark
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			19598, # Escudo de Solar
+			12541, # Dragrillado
+			14055, # Laya zonca
+			24030, # Diadema de Wulán
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			16339, # Sanguinario mayor
+			]
+Solution 21:
+	Fitness: 236.71999999999997
+	Weapon damage:1183.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:438.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 25.0
+		% resistencia al fuego : 25.0
+		% resistencia al aire : 19.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 44.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 100.0
+		inteligencia: 210.0
+		fuerza: 1276.0
+		vitalidad: 4000.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Espada	Espada Lingüe	196	11744
+		Mascota	Bulbesor	20	11955
+		Sombrero	Casco de Mizz Frizz	196	14060
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15748, # Botarpilla
+			15747, # Capilla
+			19983, # Cinturón de vueloceronte
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			11744, # Espada Lingüe
+			11955, # Bulbesor
+			14060, # Casco de Mizz Frizz
+			13759, # Hércules mayor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 22:
+	Fitness: 236.71999999999997
+	Weapon damage:1183.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:438.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 25.0
+		% resistencia al fuego : 25.0
+		% resistencia al aire : 19.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 44.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 100.0
+		inteligencia: 210.0
+		fuerza: 1276.0
+		vitalidad: 4000.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Espada	Espada Lingüe	196	11744
+		Mascota	Bulbesor	20	11955
+		Sombrero	Casco de Mizz Frizz	196	14060
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15748, # Botarpilla
+			15747, # Capilla
+			19983, # Cinturón de vueloceronte
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			11744, # Espada Lingüe
+			11955, # Bulbesor
+			14060, # Casco de Mizz Frizz
+			13759, # Hércules mayor
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 23:
+	Fitness: 236.62399999999997
+	Weapon damage:1183.12
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:435.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4150.0
+		invocaciones : 6.0
+		% resistencia neutral : 18.0
+		% resistencia al fuego : 18.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 37.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 100.0
+		inteligencia: 160.0
+		fuerza: 1221.0
+		vitalidad: 4150.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas del conde Kontatrás	200	14078
+		Capa	Capa Pología	198	14168
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Mascota	Piotín violeta	20	7713
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Hiperactivo	100	13829
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14078, # Botas del conde Kontatrás
+			14168, # Capa Pología
+			19983, # Cinturón de vueloceronte
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			7713, # Piotín violeta
+			14055, # Laya zonca
+			15695, # Maskrobio
+			13828, # Robusto mayor
+			13829, # Hiperactivo
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 24:
+	Fitness: 236.62399999999997
+	Weapon damage:1183.12
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:435.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4150.0
+		invocaciones : 6.0
+		% resistencia neutral : 18.0
+		% resistencia al fuego : 18.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 37.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 100.0
+		inteligencia: 160.0
+		fuerza: 1221.0
+		vitalidad: 4150.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas del conde Kontatrás	200	14078
+		Capa	Capa Pología	198	14168
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Hiperactivo	100	13829
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14078, # Botas del conde Kontatrás
+			14168, # Capa Pología
+			19983, # Cinturón de vueloceronte
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			12541, # Dragrillado
+			14055, # Laya zonca
+			15695, # Maskrobio
+			13828, # Robusto mayor
+			13829, # Hiperactivo
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 25:
+	Fitness: 236.32
+	Weapon damage:1181.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:429.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 25.0
+		% resistencia al fuego : 25.0
+		% resistencia al aire : 19.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 44.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 100.0
+		inteligencia: 210.0
+		fuerza: 1276.0
+		vitalidad: 4000.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Espada	Espada Lingüe	196	11744
+		Mascota	Bulbesor	20	11955
+		Sombrero	Casco de Mizz Frizz	196	14060
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15748, # Botarpilla
+			15747, # Capilla
+			19983, # Cinturón de vueloceronte
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			11744, # Espada Lingüe
+			11955, # Bulbesor
+			14060, # Casco de Mizz Frizz
+			13759, # Hércules mayor
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 26:
+	Fitness: 235.94399999999996
+	Weapon damage:1179.7199999999998
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:432.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 22.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 51.0
+	Characteristics:
+		agilidad: 200.0
+		suerte: 140.0
+		inteligencia: 140.0
+		fuerza: 1131.0
+		vitalidad: 4050.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Nevark	194	13636
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de cortesano tenebroso	200	15428
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de chocomante	200	20926
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Máscara del Espíritu de la Salvación	200	19249
+		Trofeo	Viajante	100	13830
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			13636, # Amuleto de Nevark
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15428, # Botas de cortesano tenebroso
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			20926, # Escudo de chocomante
+			12541, # Dragrillado
+			14055, # Laya zonca
+			19249, # Máscara del Espíritu de la Salvación
+			13830, # Viajante
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 27:
+	Fitness: 235.94399999999996
+	Weapon damage:1179.7199999999998
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:432.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4100.0
+		invocaciones : 6.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 22.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 51.0
+	Characteristics:
+		agilidad: 280.0
+		suerte: 140.0
+		inteligencia: 140.0
+		fuerza: 1211.0
+		vitalidad: 4100.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Nevark	194	13636
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de cortesano tenebroso	200	15428
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de chocomante	200	20926
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Viajante	100	13830
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			13636, # Amuleto de Nevark
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15428, # Botas de cortesano tenebroso
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			20926, # Escudo de chocomante
+			12541, # Dragrillado
+			14055, # Laya zonca
+			15436, # Sombrero de la Reina de los Ladrones
+			13830, # Viajante
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 28:
+	Fitness: 234.704
+	Weapon damage:1173.52
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:439.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 22.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 170.0
+		inteligencia: 220.0
+		fuerza: 1121.0
+		vitalidad: 4000.0
+		sabiduría: 325.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Nevark	194	13636
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Solar	200	19598
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Diadema de Wulán	200	24030
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+		Trofeo	Sanguinario mayor	150	16339
+	Chromosome: [
+			13636, # Amuleto de Nevark
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			19598, # Escudo de Solar
+			12541, # Dragrillado
+			14055, # Laya zonca
+			24030, # Diadema de Wulán
+			13828, # Robusto mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			16339, # Sanguinario mayor
+			]
+Solution 29:
+	Fitness: 234.38400000000001
+	Weapon damage:1171.92
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:423.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 22.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 170.0
+		inteligencia: 220.0
+		fuerza: 1121.0
+		vitalidad: 4000.0
+		sabiduría: 325.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Nevark	194	13636
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Solar	200	19598
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Diadema de Wulán	200	24030
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Asolador neutral mayor	150	16257
+		Trofeo	Espabilador	100	16333
+		Trofeo	Sanguinario mayor	150	16339
+	Chromosome: [
+			13636, # Amuleto de Nevark
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			19598, # Escudo de Solar
+			12541, # Dragrillado
+			14055, # Laya zonca
+			24030, # Diadema de Wulán
+			13828, # Robusto mayor
+			16257, # Asolador neutral mayor
+			16333, # Espabilador
+			16339, # Sanguinario mayor
+			]
+Solution 30:
+	Fitness: 234.32000000000002
+	Weapon damage:1171.6000000000001
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:425.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 17.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 44.0
+	Characteristics:
+		agilidad: 180.0
+		suerte: 100.0
+		inteligencia: 220.0
+		fuerza: 1366.0
+		vitalidad: 4000.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas del conde Kontatrás	200	14078
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Solar	200	19598
+		Espada	Espada Lingüe	196	11744
+		Mascotura	Kompost	60	14848
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+		Trofeo	Nómada	100	16335
+	Chromosome: [
+			15746, # Collarpilla
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14078, # Botas del conde Kontatrás
+			15747, # Capilla
+			19983, # Cinturón de vueloceronte
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			19598, # Escudo de Solar
+			11744, # Espada Lingüe
+			14848, # Kompost
+			15436, # Sombrero de la Reina de los Ladrones
+			13759, # Hércules mayor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			16335, # Nómada
+			]
+Solution 31:
+	Fitness: 233.11999999999998
+	Weapon damage:1165.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:432.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 7.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 15.0
+		% resistencia al aire : 18.0
+		% resistencia al agua : 26.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 285.0
+		suerte: 145.0
+		inteligencia: 300.0
+		fuerza: 1306.0
+		vitalidad: 4000.0
+		sabiduría: 425.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Bosque del lich	200	26023
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Espada	Espada Lingüe	196	11744
+		Mascota	Bulbesor	20	11955
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15748, # Botarpilla
+			15747, # Capilla
+			26023, # Bosque del lich
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			11744, # Espada Lingüe
+			11955, # Bulbesor
+			15436, # Sombrero de la Reina de los Ladrones
+			13759, # Hércules mayor
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 32:
+	Fitness: 232.32
+	Weapon damage:1161.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:409.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 25.0
+		% resistencia al fuego : 25.0
+		% resistencia al aire : 19.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 44.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 100.0
+		inteligencia: 210.0
+		fuerza: 1276.0
+		vitalidad: 4000.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Espada	Espada Lingüe	196	11744
+		Mascota	Black pekewabbit	20	15133
+		Sombrero	Casco de Mizz Frizz	196	14060
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15748, # Botarpilla
+			15747, # Capilla
+			19983, # Cinturón de vueloceronte
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			11744, # Espada Lingüe
+			15133, # Black pekewabbit
+			14060, # Casco de Mizz Frizz
+			13759, # Hércules mayor
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 33:
+	Fitness: 231.904
+	Weapon damage:1159.52
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:427.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4150.0
+		invocaciones : 6.0
+		% resistencia neutral : 18.0
+		% resistencia al fuego : 26.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 37.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 100.0
+		inteligencia: 160.0
+		fuerza: 1141.0
+		vitalidad: 4150.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de estrígido	200	14096
+		Capa	Capa Pología	198	14168
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Hiperactivo	100	13829
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14096, # Botas de estrígido
+			14168, # Capa Pología
+			19983, # Cinturón de vueloceronte
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			12541, # Dragrillado
+			14055, # Laya zonca
+			15695, # Maskrobio
+			13828, # Robusto mayor
+			13829, # Hiperactivo
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 34:
+	Fitness: 231.54399999999995
+	Weapon damage:1157.7199999999998
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:426.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4100.0
+		invocaciones : 6.0
+		% resistencia neutral : 18.0
+		% resistencia al fuego : 18.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 28.0
+		% resistencia a la tierra : 37.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 100.0
+		inteligencia: 220.0
+		fuerza: 1201.0
+		vitalidad: 4100.0
+		sabiduría: 390.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas del rey jugador	200	17572
+		Capa	Capa Pología	198	14168
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Hiperactivo	100	13829
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			17572, # Botas del rey jugador
+			14168, # Capa Pología
+			19983, # Cinturón de vueloceronte
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			12541, # Dragrillado
+			14055, # Laya zonca
+			15695, # Maskrobio
+			13828, # Robusto mayor
+			13829, # Hiperactivo
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 35:
+	Fitness: 231.064
+	Weapon damage:1155.32
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:426.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4200.0
+		invocaciones : 6.0
+		% resistencia neutral : 18.0
+		% resistencia al fuego : 21.0
+		% resistencia al aire : 28.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 32.0
+	Characteristics:
+		agilidad: 320.0
+		suerte: 230.0
+		inteligencia: 320.0
+		fuerza: 1051.0
+		vitalidad: 4200.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Zapatillas de cangreno	200	19603
+		Capa	Velameba	200	15697
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Feanor	20	8693
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Precursor	100	13806
+		Trofeo	Robusto mayor	150	13828
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			19603, # Zapatillas de cangreno
+			15697, # Velameba
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18718, # Escudo de kukoloide
+			8693, # Feanor
+			14055, # Laya zonca
+			15695, # Maskrobio
+			13806, # Precursor
+			13828, # Robusto mayor
+			]
+Solution 36:
+	Fitness: 231.064
+	Weapon damage:1155.32
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:426.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4250.0
+		invocaciones : 6.0
+		% resistencia neutral : 18.0
+		% resistencia al fuego : 21.0
+		% resistencia al aire : 28.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 32.0
+	Characteristics:
+		agilidad: 320.0
+		suerte: 230.0
+		inteligencia: 320.0
+		fuerza: 1051.0
+		vitalidad: 4250.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Zapatillas de cangreno	200	19603
+		Capa	Velameba	200	15697
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Feanor	20	8693
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Pugilista	150	30454
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			19603, # Zapatillas de cangreno
+			15697, # Velameba
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18718, # Escudo de kukoloide
+			8693, # Feanor
+			14055, # Laya zonca
+			15695, # Maskrobio
+			13828, # Robusto mayor
+			30454, # Pugilista
+			]
+Solution 37:
+	Fitness: 231.064
+	Weapon damage:1155.32
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:426.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4250.0
+		invocaciones : 6.0
+		% resistencia neutral : 18.0
+		% resistencia al fuego : 21.0
+		% resistencia al aire : 28.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 32.0
+	Characteristics:
+		agilidad: 320.0
+		suerte: 230.0
+		inteligencia: 320.0
+		fuerza: 1051.0
+		vitalidad: 4250.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Zapatillas de cangreno	200	19603
+		Capa	Velameba	200	15697
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Feanor	20	8693
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Destructor de aire menor	50	12688
+		Trofeo	Robusto mayor	150	13828
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			19603, # Zapatillas de cangreno
+			15697, # Velameba
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18718, # Escudo de kukoloide
+			8693, # Feanor
+			14055, # Laya zonca
+			15695, # Maskrobio
+			12688, # Destructor de aire menor
+			13828, # Robusto mayor
+			]
+Solution 38:
+	Fitness: 230.824
+	Weapon damage:1154.1200000000001
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:428.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 44.0
+	Characteristics:
+		agilidad: 180.0
+		suerte: 100.0
+		inteligencia: 170.0
+		fuerza: 1391.0
+		vitalidad: 4050.0
+		sabiduría: 410.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas del conde Kontatrás	200	14078
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Solar	200	19598
+		Mascotura	Kompost	60	14848
+		Pala	Laya zonca	197	14055
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+		Trofeo	Nómada	100	16335
+	Chromosome: [
+			15746, # Collarpilla
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14078, # Botas del conde Kontatrás
+			15747, # Capilla
+			19983, # Cinturón de vueloceronte
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			19598, # Escudo de Solar
+			14848, # Kompost
+			14055, # Laya zonca
+			15436, # Sombrero de la Reina de los Ladrones
+			13759, # Hércules mayor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			16335, # Nómada
+			]
+Solution 39:
+	Fitness: 230.78400000000002
+	Weapon damage:1153.92
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:425.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4100.0
+		invocaciones : 6.0
+		% resistencia neutral : 25.0
+		% resistencia al fuego : 18.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 25.0
+		% resistencia a la tierra : 37.0
+	Characteristics:
+		agilidad: 230.0
+		suerte: 100.0
+		inteligencia: 160.0
+		fuerza: 1211.0
+		vitalidad: 4100.0
+		sabiduría: 390.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas del Corazón Valiente	200	19242
+		Capa	Capa Pología	198	14168
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Hiperactivo	100	13829
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			19242, # Botas del Corazón Valiente
+			14168, # Capa Pología
+			19983, # Cinturón de vueloceronte
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			12541, # Dragrillado
+			14055, # Laya zonca
+			15695, # Maskrobio
+			13828, # Robusto mayor
+			13829, # Hiperactivo
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 40:
+	Fitness: 229.984
+	Weapon damage:1149.92
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:429.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 22.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 170.0
+		inteligencia: 220.0
+		fuerza: 1121.0
+		vitalidad: 4000.0
+		sabiduría: 325.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Nevark	194	13636
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Solar	200	19598
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Diadema de Wulán	200	24030
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Dañador	100	13833
+		Trofeo	Espabilador	100	16333
+		Trofeo	Sanguinario mayor	150	16339
+	Chromosome: [
+			13636, # Amuleto de Nevark
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			19598, # Escudo de Solar
+			12541, # Dragrillado
+			14055, # Laya zonca
+			24030, # Diadema de Wulán
+			13828, # Robusto mayor
+			13833, # Dañador
+			16333, # Espabilador
+			16339, # Sanguinario mayor
+			]
+Solution 41:
+	Fitness: 229.94399999999996
+	Weapon damage:1149.7199999999998
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:422.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 30.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 51.0
+	Characteristics:
+		agilidad: 220.0
+		suerte: 200.0
+		inteligencia: 200.0
+		fuerza: 1211.0
+		vitalidad: 4050.0
+		sabiduría: 410.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de cortesano tenebroso	200	15428
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de chocomante	200	20926
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Viajante	100	13830
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14169, # Talismán Tira
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15428, # Botas de cortesano tenebroso
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			20926, # Escudo de chocomante
+			12541, # Dragrillado
+			14055, # Laya zonca
+			15436, # Sombrero de la Reina de los Ladrones
+			13830, # Viajante
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 42:
+	Fitness: 229.94399999999996
+	Weapon damage:1149.7199999999998
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:422.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 29.0
+		% resistencia al agua : 25.0
+		% resistencia a la tierra : 51.0
+	Characteristics:
+		agilidad: 220.0
+		suerte: 200.0
+		inteligencia: 140.0
+		fuerza: 1211.0
+		vitalidad: 4050.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de cortesano tenebroso	200	15428
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de chocomante	200	20926
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Viajante	100	13830
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15428, # Botas de cortesano tenebroso
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			20926, # Escudo de chocomante
+			12541, # Dragrillado
+			14055, # Laya zonca
+			15436, # Sombrero de la Reina de los Ladrones
+			13828, # Robusto mayor
+			13830, # Viajante
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 43:
+	Fitness: 229.94399999999996
+	Weapon damage:1149.7199999999998
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:422.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 29.0
+		% resistencia al agua : 25.0
+		% resistencia a la tierra : 51.0
+	Characteristics:
+		agilidad: 220.0
+		suerte: 200.0
+		inteligencia: 140.0
+		fuerza: 1211.0
+		vitalidad: 4050.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de cortesano tenebroso	200	15428
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de chocomante	200	20926
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Viajante	100	13830
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15428, # Botas de cortesano tenebroso
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			20926, # Escudo de chocomante
+			12541, # Dragrillado
+			14055, # Laya zonca
+			15436, # Sombrero de la Reina de los Ladrones
+			13830, # Viajante
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 44:
+	Fitness: 229.51999999999998
+	Weapon damage:1147.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:426.19999999999993
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4200.0
+		invocaciones : 7.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 15.0
+		% resistencia al aire : 18.0
+		% resistencia al agua : 26.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 355.0
+		suerte: 215.0
+		inteligencia: 370.0
+		fuerza: 1276.0
+		vitalidad: 4200.0
+		sabiduría: 425.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Bosque del lich	200	26023
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Espada	Espada Lingüe	196	11744
+		Mascota	Bulbesor	20	11955
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15748, # Botarpilla
+			15747, # Capilla
+			26023, # Bosque del lich
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			30858, # Paravela de Mami Ayuto
+			11744, # Espada Lingüe
+			11955, # Bulbesor
+			15436, # Sombrero de la Reina de los Ladrones
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 45:
+	Fitness: 229.11999999999998
+	Weapon damage:1145.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:412.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 7.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 15.0
+		% resistencia al aire : 18.0
+		% resistencia al agua : 26.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 285.0
+		suerte: 145.0
+		inteligencia: 300.0
+		fuerza: 1306.0
+		vitalidad: 4000.0
+		sabiduría: 425.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Bosque del lich	200	26023
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Espada	Espada Lingüe	196	11744
+		Mascota	Black pekewabbit	20	15133
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15748, # Botarpilla
+			15747, # Capilla
+			26023, # Bosque del lich
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			11744, # Espada Lingüe
+			15133, # Black pekewabbit
+			15436, # Sombrero de la Reina de los Ladrones
+			13759, # Hércules mayor
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 46:
+	Fitness: 228.74399999999997
+	Weapon damage:1143.7199999999998
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:424.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 51.0
+	Characteristics:
+		agilidad: 180.0
+		suerte: 100.0
+		inteligencia: 170.0
+		fuerza: 1371.0
+		vitalidad: 4050.0
+		sabiduría: 410.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de cortesano tenebroso	200	15428
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Solar	200	19598
+		Mascotura	Kompost	60	14848
+		Pala	Laya zonca	197	14055
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+		Trofeo	Nómada	100	16335
+	Chromosome: [
+			15746, # Collarpilla
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15428, # Botas de cortesano tenebroso
+			15747, # Capilla
+			19983, # Cinturón de vueloceronte
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			19598, # Escudo de Solar
+			14848, # Kompost
+			14055, # Laya zonca
+			15436, # Sombrero de la Reina de los Ladrones
+			13759, # Hércules mayor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			16335, # Nómada
+			]
+Solution 47:
+	Fitness: 228.74399999999997
+	Weapon damage:1143.7199999999998
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:424.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 51.0
+	Characteristics:
+		agilidad: 180.0
+		suerte: 100.0
+		inteligencia: 100.0
+		fuerza: 1371.0
+		vitalidad: 4000.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de cortesano tenebroso	200	15428
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Corteza de Brus	196	18693
+		Mascotura	Kompost	60	14848
+		Pala	Laya zonca	197	14055
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+		Trofeo	Nómada	100	16335
+	Chromosome: [
+			15746, # Collarpilla
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15428, # Botas de cortesano tenebroso
+			15747, # Capilla
+			19983, # Cinturón de vueloceronte
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18693, # Corteza de Brus
+			14848, # Kompost
+			14055, # Laya zonca
+			15436, # Sombrero de la Reina de los Ladrones
+			13759, # Hércules mayor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			16335, # Nómada
+			]
+Solution 48:
+	Fitness: 228.71999999999997
+	Weapon damage:1143.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:420.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 17.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 250.0
+		suerte: 100.0
+		inteligencia: 300.0
+		fuerza: 1406.0
+		vitalidad: 4050.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Hierrofante	200	19609
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Valentía de Rykke Errel	200	20361
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo poseído	200	25220
+		Espada	Espada Lingüe	196	11744
+		Mascotura	Kompost	60	14848
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			19609, # Hierrofante
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			20361, # Valentía de Rykke Errel
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			25220, # Escudo poseído
+			11744, # Espada Lingüe
+			14848, # Kompost
+			15436, # Sombrero de la Reina de los Ladrones
+			13759, # Hércules mayor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 49:
+	Fitness: 228.71999999999997
+	Weapon damage:1143.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:420.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 17.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 100.0
+		inteligencia: 300.0
+		fuerza: 1326.0
+		vitalidad: 4000.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Hierrofante	200	19609
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Valentía de Rykke Errel	200	20361
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo poseído	200	25220
+		Espada	Espada Lingüe	196	11744
+		Mascotura	Kompost	60	14848
+		Sombrero	Máscara del Espíritu de la Salvación	200	19249
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			19609, # Hierrofante
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			20361, # Valentía de Rykke Errel
+			22209, # Zarcinturón de Corrupción
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			25220, # Escudo poseído
+			11744, # Espada Lingüe
+			14848, # Kompost
+			19249, # Máscara del Espíritu de la Salvación
+			13759, # Hércules mayor
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 50:
+	Fitness: 228.71999999999997
+	Weapon damage:1143.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:420.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 17.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 250.0
+		suerte: 100.0
+		inteligencia: 300.0
+		fuerza: 1406.0
+		vitalidad: 4050.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Hierrofante	200	19609
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Valentía de Rykke Errel	200	20361
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo poseído	200	25220
+		Espada	Espada Lingüe	196	11744
+		Mascotura	Kompost	60	14848
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			19609, # Hierrofante
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			20361, # Valentía de Rykke Errel
+			22209, # Zarcinturón de Corrupción
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			25220, # Escudo poseído
+			11744, # Espada Lingüe
+			14848, # Kompost
+			15436, # Sombrero de la Reina de los Ladrones
+			13759, # Hércules mayor
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 51:
+	Fitness: 227.92
+	Weapon damage:1139.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:432.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 17.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 250.0
+		suerte: 100.0
+		inteligencia: 300.0
+		fuerza: 1366.0
+		vitalidad: 4050.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Hierrofante	200	19609
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Valentía de Rykke Errel	200	20361
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo poseído	200	25220
+		Espada	Espada Lingüe	196	11744
+		Mascota	Bulbesor	20	11955
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			19609, # Hierrofante
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			20361, # Valentía de Rykke Errel
+			22209, # Zarcinturón de Corrupción
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			25220, # Escudo poseído
+			11744, # Espada Lingüe
+			11955, # Bulbesor
+			15436, # Sombrero de la Reina de los Ladrones
+			13759, # Hércules mayor
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 52:
+	Fitness: 227.92
+	Weapon damage:1139.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:410.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 7.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 15.0
+		% resistencia al aire : 18.0
+		% resistencia al agua : 26.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 355.0
+		suerte: 215.0
+		inteligencia: 370.0
+		fuerza: 1376.0
+		vitalidad: 4000.0
+		sabiduría: 425.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Bosque del lich	200	26023
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Espada	Espada Lingüe	196	11744
+		Mascota	Black pekewabbit	20	15133
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15748, # Botarpilla
+			15747, # Capilla
+			26023, # Bosque del lich
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			30858, # Paravela de Mami Ayuto
+			11744, # Espada Lingüe
+			15133, # Black pekewabbit
+			15436, # Sombrero de la Reina de los Ladrones
+			13759, # Hércules mayor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 53:
+	Fitness: 227.51999999999998
+	Weapon damage:1137.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:423.19999999999993
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 17.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 250.0
+		suerte: 100.0
+		inteligencia: 300.0
+		fuerza: 1366.0
+		vitalidad: 4050.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Hierrofante	200	19609
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Valentía de Rykke Errel	200	20361
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo poseído	200	25220
+		Espada	Espada Lingüe	196	11744
+		Mascota	Bulbesor	20	11955
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			19609, # Hierrofante
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			20361, # Valentía de Rykke Errel
+			22209, # Zarcinturón de Corrupción
+			7754, # Dofus Ocre
+			25220, # Escudo poseído
+			11744, # Espada Lingüe
+			11955, # Bulbesor
+			15436, # Sombrero de la Reina de los Ladrones
+			13759, # Hércules mayor
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 54:
+	Fitness: 227.304
+	Weapon damage:1136.52
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:418.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 18.0
+		% resistencia al aire : 30.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 44.0
+	Characteristics:
+		agilidad: 220.0
+		suerte: 200.0
+		inteligencia: 200.0
+		fuerza: 1151.0
+		vitalidad: 4050.0
+		sabiduría: 410.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de estrígido	200	14096
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de chocomante	200	20926
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Viajante	100	13830
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14169, # Talismán Tira
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14096, # Botas de estrígido
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			20926, # Escudo de chocomante
+			12541, # Dragrillado
+			14055, # Laya zonca
+			15436, # Sombrero de la Reina de los Ladrones
+			13830, # Viajante
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 55:
+	Fitness: 226.664
+	Weapon damage:1133.32
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:420.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 51.0
+	Characteristics:
+		agilidad: 180.0
+		suerte: 100.0
+		inteligencia: 100.0
+		fuerza: 1271.0
+		vitalidad: 4000.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de cortesano tenebroso	200	15428
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Corteza de Brus	196	18693
+		Mascotura	Kompost	60	14848
+		Pala	Laya zonca	197	14055
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Espabilador	100	16333
+		Trofeo	Nómada	100	16335
+	Chromosome: [
+			15746, # Collarpilla
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15428, # Botas de cortesano tenebroso
+			15747, # Capilla
+			19983, # Cinturón de vueloceronte
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18693, # Corteza de Brus
+			14848, # Kompost
+			14055, # Laya zonca
+			15436, # Sombrero de la Reina de los Ladrones
+			13759, # Hércules mayor
+			16333, # Espabilador
+			16335, # Nómada
+			]
+Solution 56:
+	Fitness: 226.664
+	Weapon damage:1133.32
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:420.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 51.0
+	Characteristics:
+		agilidad: 180.0
+		suerte: 100.0
+		inteligencia: 100.0
+		fuerza: 1271.0
+		vitalidad: 4000.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de cortesano tenebroso	200	15428
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Corteza de Brus	196	18693
+		Mascotura	Kompost	60	14848
+		Pala	Laya zonca	197	14055
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+		Trofeo	Nómada	100	16335
+	Chromosome: [
+			15746, # Collarpilla
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15428, # Botas de cortesano tenebroso
+			15747, # Capilla
+			19983, # Cinturón de vueloceronte
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18693, # Corteza de Brus
+			14848, # Kompost
+			14055, # Laya zonca
+			15436, # Sombrero de la Reina de los Ladrones
+			13759, # Hércules mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			16335, # Nómada
+			]
+Solution 57:
+	Fitness: 226.32
+	Weapon damage:1131.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:416.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4200.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 32.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 44.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 100.0
+		inteligencia: 220.0
+		fuerza: 1166.0
+		vitalidad: 4200.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Hierrofante	200	19609
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de Brus	197	13116
+		Capa	Capanj	200	18597
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Espada	Espada Lingüe	196	11744
+		Mascotura	Dragrillado	60	12541
+		Sombrero	Sombrero de Lonyon	200	15431
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			19609, # Hierrofante
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			13116, # Botas de Brus
+			18597, # Capanj
+			22209, # Zarcinturón de Corrupción
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			11744, # Espada Lingüe
+			12541, # Dragrillado
+			15431, # Sombrero de Lonyon
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 58:
+	Fitness: 225.62399999999997
+	Weapon damage:1128.12
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:418.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4100.0
+		invocaciones : 6.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 44.0
+	Characteristics:
+		agilidad: 180.0
+		suerte: 100.0
+		inteligencia: 100.0
+		fuerza: 1201.0
+		vitalidad: 4100.0
+		sabiduría: 470.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de cortesano tenebroso	200	15428
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Rectitud de Fallanster	200	20357
+		Mascotura	Kompost	60	14848
+		Pala	Laya zonca	197	14055
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+		Trofeo	Nómada	100	16335
+	Chromosome: [
+			15746, # Collarpilla
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15428, # Botas de cortesano tenebroso
+			15747, # Capilla
+			19983, # Cinturón de vueloceronte
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			20357, # Rectitud de Fallanster
+			14848, # Kompost
+			14055, # Laya zonca
+			15436, # Sombrero de la Reina de los Ladrones
+			13759, # Hércules mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			16335, # Nómada
+			]
+Solution 59:
+	Fitness: 225.12000000000003
+	Weapon damage:1125.6000000000001
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:419.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4250.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 17.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 250.0
+		suerte: 100.0
+		inteligencia: 300.0
+		fuerza: 1266.0
+		vitalidad: 4250.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Hierrofante	200	19609
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Valentía de Rykke Errel	200	20361
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo poseído	200	25220
+		Espada	Espada Lingüe	196	11744
+		Mascota	Bulbesor	20	11955
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			19609, # Hierrofante
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			20361, # Valentía de Rykke Errel
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			25220, # Escudo poseído
+			11744, # Espada Lingüe
+			11955, # Bulbesor
+			15436, # Sombrero de la Reina de los Ladrones
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 60:
+	Fitness: 224.71999999999997
+	Weapon damage:1123.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:410.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4200.0
+		invocaciones : 6.0
+		% resistencia neutral : 24.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 22.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 51.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 100.0
+		inteligencia: 320.0
+		fuerza: 1186.0
+		vitalidad: 4200.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Hierrofante	200	19609
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de Brus	197	13116
+		Capa	Valentía de Rykke Errel	200	20361
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Espada	Espada Lingüe	196	11744
+		Mascotura	Dragrillado	60	12541
+		Sombrero	Sombrero de Lonyon	200	15431
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			19609, # Hierrofante
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			13116, # Botas de Brus
+			20361, # Valentía de Rykke Errel
+			22209, # Zarcinturón de Corrupción
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			11744, # Espada Lingüe
+			12541, # Dragrillado
+			15431, # Sombrero de Lonyon
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 61:
+	Fitness: 224.704
+	Weapon damage:1123.52
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:425.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 33.0
+		% resistencia al fuego : 15.0
+		% resistencia al aire : 17.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 24.0
+	Characteristics:
+		agilidad: 230.0
+		suerte: 170.0
+		inteligencia: 280.0
+		fuerza: 1131.0
+		vitalidad: 4000.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa de Sylargh	198	14071
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Pared de zarzas	200	27544
+		Mascota	Feanor	20	8693
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14071, # Capa de Sylargh
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			27544, # Pared de zarzas
+			8693, # Feanor
+			14055, # Laya zonca
+			15695, # Maskrobio
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			]
+Solution 62:
+	Fitness: 224.32
+	Weapon damage:1121.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:411.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 22.0
+		% resistencia al agua : 27.0
+		% resistencia a la tierra : 44.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 100.0
+		inteligencia: 220.0
+		fuerza: 1166.0
+		vitalidad: 4050.0
+		sabiduría: 470.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Hierrofante	200	19609
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de Brus	197	13116
+		Capa	Capa de Sylargh	198	14071
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Espada	Espada Lingüe	196	11744
+		Mascotura	Dragrillado	60	12541
+		Sombrero	Sombrero de Lonyon	200	15431
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			19609, # Hierrofante
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			13116, # Botas de Brus
+			14071, # Capa de Sylargh
+			22209, # Zarcinturón de Corrupción
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			11744, # Espada Lingüe
+			12541, # Dragrillado
+			15431, # Sombrero de Lonyon
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 63:
+	Fitness: 223.78400000000002
+	Weapon damage:1118.92
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:400.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4100.0
+		invocaciones : 6.0
+		% resistencia neutral : 25.0
+		% resistencia al fuego : 18.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 25.0
+		% resistencia a la tierra : 37.0
+	Characteristics:
+		agilidad: 230.0
+		suerte: 100.0
+		inteligencia: 160.0
+		fuerza: 1211.0
+		vitalidad: 4100.0
+		sabiduría: 390.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas del Corazón Valiente	200	19242
+		Capa	Capa Pología	198	14168
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Hiperactivo	100	13829
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Asolador neutral mayor	150	16257
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			19242, # Botas del Corazón Valiente
+			14168, # Capa Pología
+			19983, # Cinturón de vueloceronte
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			12541, # Dragrillado
+			14055, # Laya zonca
+			15695, # Maskrobio
+			13828, # Robusto mayor
+			13829, # Hiperactivo
+			16196, # Rabioso mayor
+			16257, # Asolador neutral mayor
+			16333, # Espabilador
+			]
+Solution 64:
+	Fitness: 223.664
+	Weapon damage:1118.32
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:423.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 18.0
+		% resistencia al fuego : 15.0
+		% resistencia al aire : 17.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 24.0
+	Characteristics:
+		agilidad: 230.0
+		suerte: 210.0
+		inteligencia: 280.0
+		fuerza: 1131.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa de Sylargh	198	14071
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de estalarkmis	200	18715
+		Mascota	Feanor	20	8693
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14071, # Capa de Sylargh
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18715, # Escudo de estalarkmis
+			8693, # Feanor
+			14055, # Laya zonca
+			15695, # Maskrobio
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			]
+Solution 65:
+	Fitness: 223.32
+	Weapon damage:1116.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:394.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4150.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 29.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 44.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 170.0
+		inteligencia: 290.0
+		fuerza: 1281.0
+		vitalidad: 4150.0
+		sabiduría: 430.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto volcánico	200	19590
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Espada	Espada Lingüe	196	11744
+		Mascota	Black pekewabbit	20	15133
+		Sombrero	Casco de Mizz Frizz	196	14060
+		Trofeo	Rabioso menor	50	16194
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			19590, # Amuleto volcánico
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15748, # Botarpilla
+			15747, # Capilla
+			19983, # Cinturón de vueloceronte
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			30858, # Paravela de Mami Ayuto
+			11744, # Espada Lingüe
+			15133, # Black pekewabbit
+			14060, # Casco de Mizz Frizz
+			16194, # Rabioso menor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 66:
+	Fitness: 223.02399999999997
+	Weapon damage:1115.12
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:411.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4100.0
+		invocaciones : 6.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 22.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 51.0
+	Characteristics:
+		agilidad: 340.0
+		suerte: 140.0
+		inteligencia: 140.0
+		fuerza: 1271.0
+		vitalidad: 4100.0
+		sabiduría: 410.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Kralamansion	194	9464
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de cortesano tenebroso	200	15428
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de chocomante	200	20926
+		Mascota	Mekrangrejo	20	13071
+		Pala	Laya zonca	197	14055
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Viajante	100	13830
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			9464, # Kralamansion
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15428, # Botas de cortesano tenebroso
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			20926, # Escudo de chocomante
+			13071, # Mekrangrejo
+			14055, # Laya zonca
+			15436, # Sombrero de la Reina de los Ladrones
+			13830, # Viajante
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 67:
+	Fitness: 222.71999999999997
+	Weapon damage:1113.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:393.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4200.0
+		invocaciones : 6.0
+		% resistencia neutral : 25.0
+		% resistencia al fuego : 25.0
+		% resistencia al aire : 19.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 44.0
+	Characteristics:
+		agilidad: 230.0
+		suerte: 170.0
+		inteligencia: 280.0
+		fuerza: 1126.0
+		vitalidad: 4200.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Espada	Espada Lingüe	196	11744
+		Mascota	Leopardo	20	7705
+		Sombrero	Casco de Mizz Frizz	196	14060
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15748, # Botarpilla
+			15747, # Capilla
+			19983, # Cinturón de vueloceronte
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			30858, # Paravela de Mami Ayuto
+			11744, # Espada Lingüe
+			7705, # Leopardo
+			14060, # Casco de Mizz Frizz
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 68:
+	Fitness: 222.51999999999998
+	Weapon damage:1112.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:401.19999999999993
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 7.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 15.0
+		% resistencia al aire : 18.0
+		% resistencia al agua : 26.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 285.0
+		suerte: 145.0
+		inteligencia: 300.0
+		fuerza: 1331.0
+		vitalidad: 4000.0
+		sabiduría: 425.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Bosque del lich	200	26023
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Espada	Espada Lingüe	196	11744
+		Mascota	Black pekewabbit	20	15133
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Rabioso menor	50	16194
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15748, # Botarpilla
+			15747, # Capilla
+			26023, # Bosque del lich
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			11744, # Espada Lingüe
+			15133, # Black pekewabbit
+			15436, # Sombrero de la Reina de los Ladrones
+			13759, # Hércules mayor
+			16194, # Rabioso menor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 69:
+	Fitness: 222.504
+	Weapon damage:1112.52
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:412.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 51.0
+	Characteristics:
+		agilidad: 180.0
+		suerte: 220.0
+		inteligencia: 100.0
+		fuerza: 1231.0
+		vitalidad: 4000.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de cortesano tenebroso	200	15428
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Corteza de Brus	196	18693
+		Mascota	Bebé pandawa	20	8561
+		Pala	Laya zonca	197	14055
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+		Trofeo	Nómada	100	16335
+	Chromosome: [
+			15746, # Collarpilla
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15428, # Botas de cortesano tenebroso
+			15747, # Capilla
+			19983, # Cinturón de vueloceronte
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18693, # Corteza de Brus
+			8561, # Bebé pandawa
+			14055, # Laya zonca
+			15436, # Sombrero de la Reina de los Ladrones
+			13759, # Hércules mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			16335, # Nómada
+			]
+Solution 70:
+	Fitness: 221.62399999999997
+	Weapon damage:1108.12
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:410.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4100.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 22.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 44.0
+	Characteristics:
+		agilidad: 260.0
+		suerte: 200.0
+		inteligencia: 300.0
+		fuerza: 1141.0
+		vitalidad: 4100.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Zapatáculos	200	18020
+		Capa	Capachalote	200	15696
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Mascota	Piotín violeta	20	7713
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			18020, # Zapatáculos
+			15696, # Capachalote
+			19983, # Cinturón de vueloceronte
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			7713, # Piotín violeta
+			14055, # Laya zonca
+			15695, # Maskrobio
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 71:
+	Fitness: 221.62399999999997
+	Weapon damage:1108.12
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:410.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4100.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 22.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 44.0
+	Characteristics:
+		agilidad: 260.0
+		suerte: 200.0
+		inteligencia: 300.0
+		fuerza: 1141.0
+		vitalidad: 4100.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Zapatáculos	200	18020
+		Capa	Capachalote	200	15696
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Mascota	Piotín violeta	20	7713
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			18020, # Zapatáculos
+			15696, # Capachalote
+			19983, # Cinturón de vueloceronte
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			7713, # Piotín violeta
+			14055, # Laya zonca
+			15695, # Maskrobio
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 72:
+	Fitness: 221.62399999999997
+	Weapon damage:1108.12
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:410.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4100.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 22.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 44.0
+	Characteristics:
+		agilidad: 260.0
+		suerte: 200.0
+		inteligencia: 300.0
+		fuerza: 1141.0
+		vitalidad: 4100.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Zapatáculos	200	18020
+		Capa	Capachalote	200	15696
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Mascota	Piotín violeta	20	7713
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			18020, # Zapatáculos
+			15696, # Capachalote
+			19983, # Cinturón de vueloceronte
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			7713, # Piotín violeta
+			14055, # Laya zonca
+			15695, # Maskrobio
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 73:
+	Fitness: 221.464
+	Weapon damage:1107.32
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:418.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 18.0
+		% resistencia al fuego : 21.0
+		% resistencia al aire : 21.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 32.0
+	Characteristics:
+		agilidad: 320.0
+		suerte: 170.0
+		inteligencia: 370.0
+		fuerza: 1121.0
+		vitalidad: 4000.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa de Sylargh	198	14071
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Feanor	20	8693
+		Pala	Laya zonca	197	14055
+		Prismaradita	Pristrés iridiscente	200	21998
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Robusto mayor	150	13828
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14071, # Capa de Sylargh
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18718, # Escudo de kukoloide
+			8693, # Feanor
+			14055, # Laya zonca
+			21998, # Pristrés iridiscente
+			15695, # Maskrobio
+			13828, # Robusto mayor
+			]
+Solution 74:
+	Fitness: 221.464
+	Weapon damage:1107.32
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:418.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 18.0
+		% resistencia al fuego : 21.0
+		% resistencia al aire : 21.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 32.0
+	Characteristics:
+		agilidad: 320.0
+		suerte: 170.0
+		inteligencia: 370.0
+		fuerza: 1121.0
+		vitalidad: 4000.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa de Sylargh	198	14071
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Feanor	20	8693
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Evadido mediano	100	13752
+		Trofeo	Robusto mayor	150	13828
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14071, # Capa de Sylargh
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18718, # Escudo de kukoloide
+			8693, # Feanor
+			14055, # Laya zonca
+			15695, # Maskrobio
+			13752, # Evadido mediano
+			13828, # Robusto mayor
+			]
+Solution 75:
+	Fitness: 221.464
+	Weapon damage:1107.32
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:418.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 18.0
+		% resistencia al fuego : 21.0
+		% resistencia al aire : 21.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 32.0
+	Characteristics:
+		agilidad: 320.0
+		suerte: 170.0
+		inteligencia: 370.0
+		fuerza: 1121.0
+		vitalidad: 4000.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa de Sylargh	198	14071
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Feanor	20	8693
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Pugilista	150	30454
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14071, # Capa de Sylargh
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18718, # Escudo de kukoloide
+			8693, # Feanor
+			14055, # Laya zonca
+			15695, # Maskrobio
+			13828, # Robusto mayor
+			30454, # Pugilista
+			]
+Solution 76:
+	Fitness: 221.464
+	Weapon damage:1107.32
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:418.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 18.0
+		% resistencia al fuego : 21.0
+		% resistencia al aire : 21.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 32.0
+	Characteristics:
+		agilidad: 335.0
+		suerte: 170.0
+		inteligencia: 370.0
+		fuerza: 1121.0
+		vitalidad: 4000.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa de Sylargh	198	14071
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Feanor	20	8693
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Acróbata menor	50	12712
+		Trofeo	Robusto mayor	150	13828
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14071, # Capa de Sylargh
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18718, # Escudo de kukoloide
+			8693, # Feanor
+			14055, # Laya zonca
+			15695, # Maskrobio
+			12712, # Acróbata menor
+			13828, # Robusto mayor
+			]
+Solution 77:
+	Fitness: 221.464
+	Weapon damage:1107.32
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:410.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4100.0
+		invocaciones : 6.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 44.0
+	Characteristics:
+		agilidad: 180.0
+		suerte: 220.0
+		inteligencia: 100.0
+		fuerza: 1161.0
+		vitalidad: 4100.0
+		sabiduría: 470.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de cortesano tenebroso	200	15428
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Rectitud de Fallanster	200	20357
+		Mascota	Bebé pandawa	20	8561
+		Pala	Laya zonca	197	14055
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+		Trofeo	Nómada	100	16335
+	Chromosome: [
+			15746, # Collarpilla
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15428, # Botas de cortesano tenebroso
+			15747, # Capilla
+			19983, # Cinturón de vueloceronte
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			20357, # Rectitud de Fallanster
+			8561, # Bebé pandawa
+			14055, # Laya zonca
+			15436, # Sombrero de la Reina de los Ladrones
+			13759, # Hércules mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			16335, # Nómada
+			]
+Solution 78:
+	Fitness: 221.38400000000001
+	Weapon damage:1106.92
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:416.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 18.0
+		% resistencia al fuego : 21.0
+		% resistencia al aire : 21.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 32.0
+	Characteristics:
+		agilidad: 265.0
+		suerte: 100.0
+		inteligencia: 300.0
+		fuerza: 1051.0
+		vitalidad: 4000.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa de Sylargh	198	14071
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Feanor	20	8693
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Acróbata menor	50	12712
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Dañador mayor	150	13834
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14071, # Capa de Sylargh
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18718, # Escudo de kukoloide
+			8693, # Feanor
+			14055, # Laya zonca
+			15695, # Maskrobio
+			12712, # Acróbata menor
+			13828, # Robusto mayor
+			13834, # Dañador mayor
+			]
+Solution 79:
+	Fitness: 221.12000000000003
+	Weapon damage:1105.6000000000001
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:399.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4250.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 17.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 250.0
+		suerte: 100.0
+		inteligencia: 420.0
+		fuerza: 1266.0
+		vitalidad: 4250.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Hierrofante	200	19609
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Valentía de Rykke Errel	200	20361
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo poseído	200	25220
+		Espada	Espada Lingüe	196	11744
+		Mascota	Cromiñoncito	20	11765
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			19609, # Hierrofante
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			20361, # Valentía de Rykke Errel
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			25220, # Escudo poseído
+			11744, # Espada Lingüe
+			11765, # Cromiñoncito
+			15436, # Sombrero de la Reina de los Ladrones
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 80:
+	Fitness: 221.12000000000003
+	Weapon damage:1105.6000000000001
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:399.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4250.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 17.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 370.0
+		suerte: 100.0
+		inteligencia: 300.0
+		fuerza: 1266.0
+		vitalidad: 4250.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Hierrofante	200	19609
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Valentía de Rykke Errel	200	20361
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo poseído	200	25220
+		Espada	Espada Lingüe	196	11744
+		Mascota	Mekrangrejo	20	13071
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			19609, # Hierrofante
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			20361, # Valentía de Rykke Errel
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			25220, # Escudo poseído
+			11744, # Espada Lingüe
+			13071, # Mekrangrejo
+			15436, # Sombrero de la Reina de los Ladrones
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 81:
+	Fitness: 220.86399999999998
+	Weapon damage:1104.32
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:409.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4100.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 22.0
+		% resistencia al agua : 27.0
+		% resistencia a la tierra : 37.0
+	Characteristics:
+		agilidad: 270.0
+		suerte: 200.0
+		inteligencia: 300.0
+		fuerza: 1151.0
+		vitalidad: 4100.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas del Corazón Valiente	200	19242
+		Capa	Capachalote	200	15696
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Mascota	Piotín violeta	20	7713
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			19242, # Botas del Corazón Valiente
+			15696, # Capachalote
+			19983, # Cinturón de vueloceronte
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			7713, # Piotín violeta
+			14055, # Laya zonca
+			15695, # Maskrobio
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 82:
+	Fitness: 220.664
+	Weapon damage:1103.32
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:418.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 18.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 21.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 35.0
+	Characteristics:
+		agilidad: 320.0
+		suerte: 170.0
+		inteligencia: 370.0
+		fuerza: 1171.0
+		vitalidad: 4050.0
+		sabiduría: 430.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capachalote	200	15696
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Feanor	20	8693
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			15696, # Capachalote
+			19983, # Cinturón de vueloceronte
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18718, # Escudo de kukoloide
+			8693, # Feanor
+			14055, # Laya zonca
+			15695, # Maskrobio
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			]
+Solution 83:
+	Fitness: 220.584
+	Weapon damage:1102.92
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:416.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 18.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 21.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 35.0
+	Characteristics:
+		agilidad: 250.0
+		suerte: 100.0
+		inteligencia: 300.0
+		fuerza: 1101.0
+		vitalidad: 4050.0
+		sabiduría: 430.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capachalote	200	15696
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Feanor	20	8693
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Dañador mayor	150	13834
+		Trofeo	Rabioso mayor	150	16196
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			15696, # Capachalote
+			19983, # Cinturón de vueloceronte
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18718, # Escudo de kukoloide
+			8693, # Feanor
+			14055, # Laya zonca
+			15695, # Maskrobio
+			13828, # Robusto mayor
+			13834, # Dañador mayor
+			16196, # Rabioso mayor
+			]
+Solution 84:
+	Fitness: 220.54399999999995
+	Weapon damage:1102.7199999999998
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:393.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4100.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 22.0
+		% resistencia al agua : 19.0
+		% resistencia a la tierra : 37.0
+	Characteristics:
+		agilidad: 270.0
+		suerte: 200.0
+		inteligencia: 300.0
+		fuerza: 1151.0
+		vitalidad: 4100.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas del Corazón Valiente	200	19242
+		Capa	Capachalote	200	15696
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Mascota	Piotín violeta	20	7713
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Torturador neutral mayor	150	13777
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			19242, # Botas del Corazón Valiente
+			15696, # Capachalote
+			19983, # Cinturón de vueloceronte
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			7713, # Piotín violeta
+			14055, # Laya zonca
+			15695, # Maskrobio
+			13777, # Torturador neutral mayor
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 85:
+	Fitness: 220.42399999999998
+	Weapon damage:1102.12
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:408.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 25.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 44.0
+	Characteristics:
+		agilidad: 180.0
+		suerte: 100.0
+		inteligencia: 100.0
+		fuerza: 1161.0
+		vitalidad: 4050.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de cortesano tenebroso	200	15428
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Pared de zarzas	200	27544
+		Mascotura	Kolifante mamuk	60	29430
+		Pala	Laya zonca	197	14055
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+		Trofeo	Nómada	100	16335
+	Chromosome: [
+			15746, # Collarpilla
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15428, # Botas de cortesano tenebroso
+			15747, # Capilla
+			19983, # Cinturón de vueloceronte
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			27544, # Pared de zarzas
+			29430, # Kolifante mamuk
+			14055, # Laya zonca
+			15436, # Sombrero de la Reina de los Ladrones
+			13759, # Hércules mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			16335, # Nómada
+			]
+Solution 86:
+	Fitness: 220.42399999999998
+	Weapon damage:1102.12
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:408.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 25.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 44.0
+	Characteristics:
+		agilidad: 180.0
+		suerte: 220.0
+		inteligencia: 100.0
+		fuerza: 1161.0
+		vitalidad: 4050.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de cortesano tenebroso	200	15428
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Pared de zarzas	200	27544
+		Mascota	Bebé pandawa	20	8561
+		Pala	Laya zonca	197	14055
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+		Trofeo	Nómada	100	16335
+	Chromosome: [
+			15746, # Collarpilla
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15428, # Botas de cortesano tenebroso
+			15747, # Capilla
+			19983, # Cinturón de vueloceronte
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			27544, # Pared de zarzas
+			8561, # Bebé pandawa
+			14055, # Laya zonca
+			15436, # Sombrero de la Reina de los Ladrones
+			13759, # Hércules mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			16335, # Nómada
+			]
+Solution 87:
+	Fitness: 220.11999999999998
+	Weapon damage:1100.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:397.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4200.0
+		invocaciones : 6.0
+		% resistencia neutral : 25.0
+		% resistencia al fuego : 25.0
+		% resistencia al aire : 19.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 44.0
+	Characteristics:
+		agilidad: 230.0
+		suerte: 170.0
+		inteligencia: 280.0
+		fuerza: 1171.0
+		vitalidad: 4200.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Espada	Espada Lingüe	196	11744
+		Mascota	Black pekewabbit	20	15133
+		Sombrero	Casco de Mizz Frizz	196	14060
+		Trofeo	Rabioso menor	50	16194
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15748, # Botarpilla
+			15747, # Capilla
+			19983, # Cinturón de vueloceronte
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			30858, # Paravela de Mami Ayuto
+			11744, # Espada Lingüe
+			15133, # Black pekewabbit
+			14060, # Casco de Mizz Frizz
+			16194, # Rabioso menor
+			16333, # Espabilador
+			]
+Solution 88:
+	Fitness: 219.904
+	Weapon damage:1099.52
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:405.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4100.0
+		invocaciones : 6.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 22.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 51.0
+	Characteristics:
+		agilidad: 410.0
+		suerte: 210.0
+		inteligencia: 210.0
+		fuerza: 1241.0
+		vitalidad: 4100.0
+		sabiduría: 410.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Kralamansion	194	9464
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de cortesano tenebroso	200	15428
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de chocomante	200	20926
+		Mascota	Mekrangrejo	20	13071
+		Pala	Laya zonca	197	14055
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Viajante	100	13830
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			9464, # Kralamansion
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15428, # Botas de cortesano tenebroso
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			20926, # Escudo de chocomante
+			13071, # Mekrangrejo
+			14055, # Laya zonca
+			15436, # Sombrero de la Reina de los Ladrones
+			13830, # Viajante
+			16333, # Espabilador
+			]
+Solution 89:
+	Fitness: 219.224
+	Weapon damage:1096.12
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:406.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 34.0
+	Characteristics:
+		agilidad: 180.0
+		suerte: 220.0
+		inteligencia: 100.0
+		fuerza: 1161.0
+		vitalidad: 4050.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de cortesano tenebroso	200	15428
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de Brus	194	13114
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Pared de zarzas	200	27544
+		Mascota	Bebé pandawa	20	8561
+		Pala	Laya zonca	197	14055
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+		Trofeo	Nómada	100	16335
+	Chromosome: [
+			15746, # Collarpilla
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15428, # Botas de cortesano tenebroso
+			15747, # Capilla
+			13114, # Cinturón de Brus
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			27544, # Pared de zarzas
+			8561, # Bebé pandawa
+			14055, # Laya zonca
+			15436, # Sombrero de la Reina de los Ladrones
+			13759, # Hércules mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			16335, # Nómada
+			]
+Solution 90:
+	Fitness: 219.224
+	Weapon damage:1096.12
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:406.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4050.0
+		invocaciones : 6.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 34.0
+	Characteristics:
+		agilidad: 180.0
+		suerte: 100.0
+		inteligencia: 100.0
+		fuerza: 1161.0
+		vitalidad: 4050.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de cortesano tenebroso	200	15428
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de Brus	194	13114
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Pared de zarzas	200	27544
+		Mascotura	Kolifante mamuk	60	29430
+		Pala	Laya zonca	197	14055
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+		Trofeo	Nómada	100	16335
+	Chromosome: [
+			15746, # Collarpilla
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15428, # Botas de cortesano tenebroso
+			15747, # Capilla
+			13114, # Cinturón de Brus
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			27544, # Pared de zarzas
+			29430, # Kolifante mamuk
+			14055, # Laya zonca
+			15436, # Sombrero de la Reina de los Ladrones
+			13759, # Hércules mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			16335, # Nómada
+			]
+Solution 91:
+	Fitness: 219.224
+	Weapon damage:1096.12
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:406.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 34.0
+	Characteristics:
+		agilidad: 180.0
+		suerte: 150.0
+		inteligencia: 100.0
+		fuerza: 1211.0
+		vitalidad: 4000.0
+		sabiduría: 430.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de cortesano tenebroso	200	15428
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de Brus	194	13114
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo seco	194	27537
+		Mascotura	Kolifante mamuk	60	29430
+		Pala	Laya zonca	197	14055
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+		Trofeo	Nómada	100	16335
+	Chromosome: [
+			15746, # Collarpilla
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15428, # Botas de cortesano tenebroso
+			15747, # Capilla
+			13114, # Cinturón de Brus
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			27537, # Escudo seco
+			29430, # Kolifante mamuk
+			14055, # Laya zonca
+			15436, # Sombrero de la Reina de los Ladrones
+			13759, # Hércules mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			16335, # Nómada
+			]
+Solution 92:
+	Fitness: 219.224
+	Weapon damage:1096.12
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:406.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 34.0
+	Characteristics:
+		agilidad: 180.0
+		suerte: 270.0
+		inteligencia: 100.0
+		fuerza: 1211.0
+		vitalidad: 4000.0
+		sabiduría: 430.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collarpilla	200	15746
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas de cortesano tenebroso	200	15428
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de Brus	194	13114
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo seco	194	27537
+		Mascota	Bebé pandawa	20	8561
+		Pala	Laya zonca	197	14055
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+		Trofeo	Nómada	100	16335
+	Chromosome: [
+			15746, # Collarpilla
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15428, # Botas de cortesano tenebroso
+			15747, # Capilla
+			13114, # Cinturón de Brus
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			27537, # Escudo seco
+			8561, # Bebé pandawa
+			14055, # Laya zonca
+			15436, # Sombrero de la Reina de los Ladrones
+			13759, # Hércules mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			16335, # Nómada
+			]
+Solution 93:
+	Fitness: 219.18400000000003
+	Weapon damage:1095.92
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:411.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4000.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 22.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 170.0
+		inteligencia: 220.0
+		fuerza: 1121.0
+		vitalidad: 4000.0
+		sabiduría: 325.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Nevark	194	13636
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de Solar	200	19598
+		Mascotura	Dragrillado	60	12541
+		Pala	Laya zonca	197	14055
+		Sombrero	Diadema de Wulán	200	24030
+		Trofeo	Destructor de fuego mediano	100	12692
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			13636, # Amuleto de Nevark
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			19598, # Escudo de Solar
+			12541, # Dragrillado
+			14055, # Laya zonca
+			24030, # Diadema de Wulán
+			12692, # Destructor de fuego mediano
+			13828, # Robusto mayor
+			16333, # Espabilador
+			]
+Solution 94:
+	Fitness: 218.92
+	Weapon damage:1094.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:395.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4200.0
+		invocaciones : 7.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 15.0
+		% resistencia al aire : 18.0
+		% resistencia al agua : 26.0
+		% resistencia a la tierra : 41.0
+	Characteristics:
+		agilidad: 355.0
+		suerte: 215.0
+		inteligencia: 490.0
+		fuerza: 1301.0
+		vitalidad: 4200.0
+		sabiduría: 425.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de kukoloide	200	14091
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Bosque del lich	200	26023
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Espada	Espada Lingüe	196	11744
+		Mascota	Cromiñoncito	20	11765
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Rabioso menor	50	16194
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14091, # Amuleto de kukoloide
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			15748, # Botarpilla
+			15747, # Capilla
+			26023, # Bosque del lich
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			30858, # Paravela de Mami Ayuto
+			11744, # Espada Lingüe
+			11765, # Cromiñoncito
+			15436, # Sombrero de la Reina de los Ladrones
+			16194, # Rabioso menor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 95:
+	Fitness: 218.71999999999997
+	Weapon damage:1093.6
+		Weapon: Espada Lingüe
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:395.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4250.0
+		invocaciones : 7.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 17.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 51.0
+	Characteristics:
+		agilidad: 180.0
+		suerte: 100.0
+		inteligencia: 420.0
+		fuerza: 1196.0
+		vitalidad: 4250.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Hierrofante	200	19609
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas Jotdog-o	200	14171
+		Capa	Valentía de Rykke Errel	200	20361
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudámbar	200	18696
+		Espada	Espada Lingüe	196	11744
+		Mascota	Cromiñoncito	20	11765
+		Sombrero	Sombrero de la Reina de los Ladrones	200	15436
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			19609, # Hierrofante
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14171, # Botas Jotdog-o
+			20361, # Valentía de Rykke Errel
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			18696, # Escudámbar
+			11744, # Espada Lingüe
+			11765, # Cromiñoncito
+			15436, # Sombrero de la Reina de los Ladrones
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 96:
+	Fitness: 218.7
+	Weapon damage:1093.5
+		Weapon: Horca de Efedria
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:398.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4150.0
+		invocaciones : 7.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 51.0
+		% resistencia al agua : 37.0
+		% resistencia a la tierra : 22.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 200.0
+		inteligencia: 100.0
+		fuerza: 1196.0
+		vitalidad: 4150.0
+		sabiduría: 460.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collar de tritáceo	200	17997
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Zapatillas de cangreno	200	19603
+		Capa	Capachalote	200	15696
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Hacha	Horca de Efedria	200	27545
+		Mascotura	Dragrillado	60	12541
+		Sombrero	Pañoleta de Mami Ayuto	200	30860
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			17997, # Collar de tritáceo
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			19603, # Zapatillas de cangreno
+			15696, # Capachalote
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			27545, # Horca de Efedria
+			12541, # Dragrillado
+			30860, # Pañoleta de Mami Ayuto
+			13759, # Hércules mayor
+			13828, # Robusto mayor
+			16196, # Rabioso mayor
+			16333, # Espabilador
+			]
+Solution 97:
+	Fitness: 218.464
+	Weapon damage:1092.32
+		Weapon: Laya zonca
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:389.2
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		vitalidad : 4100.0
+		invocaciones : 6.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 22.0
+		% resistencia al agua : 19.0
+		% resistencia a la tierra : 37.0
+	Characteristics:
+		agilidad: 270.0
+		suerte: 200.0
+		inteligencia: 300.0
+		fuerza: 1051.0
+		vitalidad: 4100.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas del Corazón Valiente	200	19242
+		Capa	Capachalote	200	15696
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Mascota	Piotín violeta	20	7713
+		Pala	Laya zonca	197	14055
+		Sombrero	Maskrobio	200	15695
+		Trofeo	Torturador neutral mayor	150	13777
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			19242, # Botas del Corazón Valiente
+			15696, # Capachalote
+			19983, # Cinturón de vueloceronte
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			7713, # Piotín violeta
+			14055, # Laya zonca
+			15695, # Maskrobio
+			13777, # Torturador neutral mayor
+			13828, # Robusto mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]

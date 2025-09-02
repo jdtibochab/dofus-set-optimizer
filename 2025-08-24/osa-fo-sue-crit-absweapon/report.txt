@@ -1,0 +1,793 @@
+Solution 0:
+	Fitness: 1564.8339999999998
+	Weapon damage:1564.8339999999998
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:880.896
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 83.0
+		vitalidad : 4000.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 15.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 44.0
+		% resistencia a la tierra : 31.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 642.0
+		inteligencia: 140.0
+		fuerza: 762.0
+		vitalidad: 4000.0
+		sabiduría: 385.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas del Corazón Sangriento	200	19245
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Diadema de Wulán	200	24030
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			19245, # Botas del Corazón Sangriento
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			24030, # Diadema de Wulán
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 1:
+	Fitness: 1547.887
+	Weapon damage:1547.887
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:881.713
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 84.0
+		vitalidad : 4000.0
+		invocaciones : 5.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 37.0
+		% resistencia a la tierra : 31.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 702.0
+		inteligencia: 140.0
+		fuerza: 732.0
+		vitalidad: 4000.0
+		sabiduría: 385.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Zapatillas de cangreno	200	19603
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Diadema de Wulán	200	24030
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			19603, # Zapatillas de cangreno
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			24030, # Diadema de Wulán
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 2:
+	Fitness: 1526.9740000000002
+	Weapon damage:1526.9740000000002
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:874.656
+	Preferences:
+		PA : 12.0
+		PM : 7.0
+		% crítico : 83.0
+		vitalidad : 4000.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 44.0
+		% resistencia a la tierra : 31.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 702.0
+		inteligencia: 140.0
+		fuerza: 622.0
+		vitalidad: 4000.0
+		sabiduría: 395.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Anillo de Pol Guatson	200	15698
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Zapatillas de cangreno	200	19603
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cuadrifolio	193	18700
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Diadema de Wulán	200	24030
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			15698, # Anillo de Pol Guatson
+			22205, # Anillo de Corrupción
+			19603, # Zapatillas de cangreno
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18700, # Cuadrifolio
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			24030, # Diadema de Wulán
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 3:
+	Fitness: 1515.38
+	Weapon damage:1515.38
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:860.52
+	Preferences:
+		PA : 12.0
+		PM : 7.0
+		% crítico : 80.0
+		vitalidad : 4050.0
+		invocaciones : 4.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 25.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 47.0
+		% resistencia a la tierra : 34.0
+	Characteristics:
+		agilidad: 150.0
+		suerte: 672.0
+		inteligencia: 190.0
+		fuerza: 672.0
+		vitalidad: 4050.0
+		sabiduría: 395.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Anillo de Pol Guatson	200	15698
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Zapatillas de cangreno	200	19603
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Capitán Amakna	200	18670
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Diadema de Wulán	200	24030
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			15698, # Anillo de Pol Guatson
+			22205, # Anillo de Corrupción
+			19603, # Zapatillas de cangreno
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18670, # Escudo de Capitán Amakna
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			24030, # Diadema de Wulán
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 4:
+	Fitness: 1507.5259999999998
+	Weapon damage:1507.5259999999998
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:856.284
+	Preferences:
+		PA : 12.0
+		PM : 7.0
+		% crítico : 82.0
+		vitalidad : 4050.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 59.0
+		% resistencia a la tierra : 31.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 622.0
+		inteligencia: 140.0
+		fuerza: 622.0
+		vitalidad: 4050.0
+		sabiduría: 395.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Anillo de Pol Guatson	200	15698
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Zapatillas de cangreno	200	19603
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Cocoscudo	200	21225
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Diadema de Wulán	200	24030
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			15698, # Anillo de Pol Guatson
+			22205, # Anillo de Corrupción
+			19603, # Zapatillas de cangreno
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			21225, # Cocoscudo
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			24030, # Diadema de Wulán
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 5:
+	Fitness: 1496.255
+	Weapon damage:1496.255
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:844.745
+	Preferences:
+		PA : 12.0
+		PM : 7.0
+		% crítico : 80.0
+		vitalidad : 4000.0
+		invocaciones : 4.0
+		% resistencia neutral : 24.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 44.0
+		% resistencia a la tierra : 38.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 622.0
+		inteligencia: 140.0
+		fuerza: 692.0
+		vitalidad: 4000.0
+		sabiduría: 425.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Anillo de Pol Guatson	200	15698
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Zapatillas de cangreno	200	19603
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Corteza de Brus	196	18693
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Diadema de Wulán	200	24030
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			15698, # Anillo de Pol Guatson
+			22205, # Anillo de Corrupción
+			19603, # Zapatillas de cangreno
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18693, # Corteza de Brus
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			24030, # Diadema de Wulán
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 6:
+	Fitness: 1459.128
+	Weapon damage:1459.128
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:829.852
+	Preferences:
+		PA : 12.0
+		PM : 7.0
+		% crítico : 81.0
+		vitalidad : 4050.0
+		invocaciones : 5.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 44.0
+		% resistencia a la tierra : 31.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 622.0
+		inteligencia: 140.0
+		fuerza: 622.0
+		vitalidad: 4050.0
+		sabiduría: 435.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Anillo de Pol Guatson	200	15698
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Zapatillas de cangreno	200	19603
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Anerice	200	19077
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Diadema de Wulán	200	24030
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			15698, # Anillo de Pol Guatson
+			22205, # Anillo de Corrupción
+			19603, # Zapatillas de cangreno
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			19077, # Escudo de Anerice
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			24030, # Diadema de Wulán
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 7:
+	Fitness: 1457.411
+	Weapon damage:1457.411
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:831.394
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 82.0
+		vitalidad : 4000.0
+		invocaciones : 4.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 16.0
+		% resistencia al aire : 32.0
+		% resistencia al agua : 30.0
+		% resistencia a la tierra : 15.0
+	Characteristics:
+		agilidad: 230.0
+		suerte: 622.0
+		inteligencia: 320.0
+		fuerza: 662.0
+		vitalidad: 4000.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Anillo del conde Kontatrás	200	14077
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Botas de Dambeldoro	200	17105
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de kukoloide	200	18718
+		Martillo	Martillo seco	190	27540
+		Mulagua	Mulagua ciruela y esmeralda	60	-155
+		Sombrero	Pendiente de Kongoku	200	17107
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14169, # Talismán Tira
+			14077, # Anillo del conde Kontatrás
+			22205, # Anillo de Corrupción
+			17105, # Botas de Dambeldoro
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18718, # Escudo de kukoloide
+			27540, # Martillo seco
+			-155, # Mulagua ciruela y esmeralda
+			17107, # Pendiente de Kongoku
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 8:
+	Fitness: 1448.3559999999998
+	Weapon damage:1448.3559999999998
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:826.5240000000001
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 82.0
+		vitalidad : 4000.0
+		invocaciones : 4.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 16.0
+		% resistencia al aire : 32.0
+		% resistencia al agua : 30.0
+		% resistencia a la tierra : 15.0
+	Characteristics:
+		agilidad: 300.0
+		suerte: 692.0
+		inteligencia: 390.0
+		fuerza: 732.0
+		vitalidad: 4000.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Anillo del conde Kontatrás	200	14077
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Botas de Dambeldoro	200	17105
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de kukoloide	200	18718
+		Martillo	Martillo seco	190	27540
+		Mulagua	Mulagua ciruela y esmeralda	60	-155
+		Sombrero	Pendiente de Kongoku	200	17107
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14169, # Talismán Tira
+			14077, # Anillo del conde Kontatrás
+			22205, # Anillo de Corrupción
+			17105, # Botas de Dambeldoro
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18718, # Escudo de kukoloide
+			27540, # Martillo seco
+			-155, # Mulagua ciruela y esmeralda
+			17107, # Pendiente de Kongoku
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 9:
+	Fitness: 1436.128
+	Weapon damage:1436.128
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:796.162
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 81.0
+		vitalidad : 4050.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 30.0
+		% resistencia al aire : 40.0
+		% resistencia al agua : 55.0
+		% resistencia a la tierra : 17.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 542.0
+		inteligencia: 250.0
+		fuerza: 732.0
+		vitalidad: 4050.0
+		sabiduría: 360.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Anillo de Mizz Frizz	198	14061
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Botas del Corazón Sangriento	200	19245
+		Capa	Capa Pología	198	14168
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Anerice	200	19077
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Máscara de Anerice	200	19075
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14169, # Talismán Tira
+			14061, # Anillo de Mizz Frizz
+			22205, # Anillo de Corrupción
+			19245, # Botas del Corazón Sangriento
+			14168, # Capa Pología
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			19077, # Escudo de Anerice
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			19075, # Máscara de Anerice
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 10:
+	Fitness: 1433.8049999999998
+	Weapon damage:1433.8049999999998
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:810.22
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 80.0
+		vitalidad : 4050.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 30.0
+		% resistencia al aire : 33.0
+		% resistencia al agua : 58.0
+		% resistencia a la tierra : 17.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 542.0
+		inteligencia: 250.0
+		fuerza: 642.0
+		vitalidad: 4050.0
+		sabiduría: 350.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Anillo de Mizz Frizz	198	14061
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Escarpes de Miseria	200	22187
+		Capa	Capa Pología	198	14168
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Anerice	200	19077
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Máscara de Anerice	200	19075
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14169, # Talismán Tira
+			14061, # Anillo de Mizz Frizz
+			22205, # Anillo de Corrupción
+			22187, # Escarpes de Miseria
+			14168, # Capa Pología
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			19077, # Escudo de Anerice
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			19075, # Máscara de Anerice
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 11:
+	Fitness: 1421.076
+	Weapon damage:1421.076
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:791.4290000000001
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 82.0
+		vitalidad : 4050.0
+		invocaciones : 4.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 30.0
+		% resistencia al aire : 40.0
+		% resistencia al agua : 55.0
+		% resistencia a la tierra : 17.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 492.0
+		inteligencia: 200.0
+		fuerza: 682.0
+		vitalidad: 4050.0
+		sabiduría: 360.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Brazalete de melenutrof	200	15190
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Botas del Corazón Sangriento	200	19245
+		Capa	Capa Pología	198	14168
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Anerice	200	19077
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Máscara de Anerice	200	19075
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14169, # Talismán Tira
+			15190, # Brazalete de melenutrof
+			22205, # Anillo de Corrupción
+			19245, # Botas del Corazón Sangriento
+			14168, # Capa Pología
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			19077, # Escudo de Anerice
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			19075, # Máscara de Anerice
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 12:
+	Fitness: 1419.008
+	Weapon damage:1419.008
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:805.672
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 81.0
+		vitalidad : 4050.0
+		invocaciones : 4.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 30.0
+		% resistencia al aire : 33.0
+		% resistencia al agua : 58.0
+		% resistencia a la tierra : 17.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 492.0
+		inteligencia: 200.0
+		fuerza: 592.0
+		vitalidad: 4050.0
+		sabiduría: 350.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Brazalete de melenutrof	200	15190
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Escarpes de Miseria	200	22187
+		Capa	Capa Pología	198	14168
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Anerice	200	19077
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Máscara de Anerice	200	19075
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			14169, # Talismán Tira
+			15190, # Brazalete de melenutrof
+			22205, # Anillo de Corrupción
+			22187, # Escarpes de Miseria
+			14168, # Capa Pología
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			19077, # Escudo de Anerice
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			19075, # Máscara de Anerice
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]

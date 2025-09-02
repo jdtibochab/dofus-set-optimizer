@@ -1,0 +1,793 @@
+Solution 0:
+	Fitness: 1557.69
+	Weapon damage:1557.69
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:1234.62
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 82.0
+		vitalidad : 4150.0
+		invocaciones : 4.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 23.0
+		% resistencia al aire : 28.0
+		% resistencia al agua : 43.0
+		% resistencia a la tierra : 17.0
+	Characteristics:
+		agilidad: 410.0
+		suerte: 630.0
+		inteligencia: 380.0
+		fuerza: 630.0
+		vitalidad: 4150.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Anillo de Pol Guatson	200	15698
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Botas trithonas	200	18030
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de Capitán Amakna	200	18670
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Máscara trithona	200	18031
+		Trofeo	Potente mayor	150	13825
+	Chromosome: [
+			14169, # Talismán Tira
+			15698, # Anillo de Pol Guatson
+			22205, # Anillo de Corrupción
+			18030, # Botas trithonas
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18670, # Escudo de Capitán Amakna
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			18031, # Máscara trithona
+			13825, # Potente mayor
+			]
+Solution 1:
+	Fitness: 1556.0900000000001
+	Weapon damage:1556.0900000000001
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:1220.01
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 82.0
+		vitalidad : 4150.0
+		invocaciones : 4.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 23.0
+		% resistencia al aire : 28.0
+		% resistencia al agua : 43.0
+		% resistencia a la tierra : 17.0
+	Characteristics:
+		agilidad: 410.0
+		suerte: 630.0
+		inteligencia: 380.0
+		fuerza: 690.0
+		vitalidad: 4150.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Anillo de Pol Guatson	200	15698
+		Anillo	Anillo de Corrupción	200	22205
+		Bota	Botas trithonas	200	18030
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de Capitán Amakna	200	18670
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Máscara trithona	200	18031
+		Trofeo	Furibundo mayor	150	12724
+	Chromosome: [
+			14169, # Talismán Tira
+			15698, # Anillo de Pol Guatson
+			22205, # Anillo de Corrupción
+			18030, # Botas trithonas
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18670, # Escudo de Capitán Amakna
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			18031, # Máscara trithona
+			12724, # Furibundo mayor
+			]
+Solution 2:
+	Fitness: 1534.9625
+	Weapon damage:1534.9625
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:1206.9624999999999
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 80.0
+		vitalidad : 4150.0
+		invocaciones : 5.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 30.0
+		% resistencia al aire : 35.0
+		% resistencia al agua : 33.0
+		% resistencia a la tierra : 17.0
+	Characteristics:
+		agilidad: 410.0
+		suerte: 660.0
+		inteligencia: 380.0
+		fuerza: 660.0
+		vitalidad: 4150.0
+		sabiduría: 405.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Pikanillo	195	14882
+		Anillo	Anillo de Pol Guatson	200	15698
+		Bota	Botas trithonas	200	18030
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de Capitán Amakna	200	18670
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Máscara trithona	200	18031
+		Trofeo	Furibundo mayor	150	12724
+	Chromosome: [
+			14169, # Talismán Tira
+			14882, # Pikanillo
+			15698, # Anillo de Pol Guatson
+			18030, # Botas trithonas
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18670, # Escudo de Capitán Amakna
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			18031, # Máscara trithona
+			12724, # Furibundo mayor
+			]
+Solution 3:
+	Fitness: 1464.45
+	Weapon damage:1464.45
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:1085.795
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 84.0
+		vitalidad : 4000.0
+		invocaciones : 3.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 31.0
+		% resistencia al agua : 40.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 410.0
+		suerte: 630.0
+		inteligencia: 560.0
+		fuerza: 800.0
+		vitalidad: 4000.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Anillo del conde Kontatrás	200	14077
+		Anillo	Anillo de famosillo	200	19608
+		Bota	Botas del rey jugador	200	17572
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de Capitán Amakna	200	18670
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Corona del rey jugador	200	17573
+		Trofeo	Potente mayor	150	13825
+	Chromosome: [
+			14169, # Talismán Tira
+			14077, # Anillo del conde Kontatrás
+			19608, # Anillo de famosillo
+			17572, # Botas del rey jugador
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18670, # Escudo de Capitán Amakna
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			17573, # Corona del rey jugador
+			13825, # Potente mayor
+			]
+Solution 4:
+	Fitness: 1459.9625
+	Weapon damage:1459.9625
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:1131.9624999999999
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 80.0
+		vitalidad : 4150.0
+		invocaciones : 5.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 30.0
+		% resistencia al aire : 35.0
+		% resistencia al agua : 33.0
+		% resistencia a la tierra : 17.0
+	Characteristics:
+		agilidad: 410.0
+		suerte: 660.0
+		inteligencia: 380.0
+		fuerza: 660.0
+		vitalidad: 4150.0
+		sabiduría: 405.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Pikanillo	195	14882
+		Anillo	Anillo de Pol Guatson	200	15698
+		Bota	Botas trithonas	200	18030
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Dofus	Dofus plateado	20	19629
+		Escudo	Escudo de Capitán Amakna	200	18670
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Máscara trithona	200	18031
+		Trofeo	Furibundo mayor	150	12724
+	Chromosome: [
+			14169, # Talismán Tira
+			14882, # Pikanillo
+			15698, # Anillo de Pol Guatson
+			18030, # Botas trithonas
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			19629, # Dofus plateado
+			18670, # Escudo de Capitán Amakna
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			18031, # Máscara trithona
+			12724, # Furibundo mayor
+			]
+Solution 5:
+	Fitness: 1455.78
+	Weapon damage:1455.78
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:1155.81
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 82.0
+		vitalidad : 4250.0
+		invocaciones : 4.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 16.0
+		% resistencia al aire : 39.0
+		% resistencia al agua : 37.0
+		% resistencia a la tierra : 29.0
+	Characteristics:
+		agilidad: 420.0
+		suerte: 580.0
+		inteligencia: 390.0
+		fuerza: 640.0
+		vitalidad: 4250.0
+		sabiduría: 460.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Anillo de Pol Guatson	200	15698
+		Anillo	Anillo trithón	200	18029
+		Bota	Botas trithonas	200	18030
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de kukoloide	200	18718
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Pendiente de Kongoku	200	17107
+		Trofeo	Furibundo mayor	150	12724
+	Chromosome: [
+			14169, # Talismán Tira
+			15698, # Anillo de Pol Guatson
+			18029, # Anillo trithón
+			18030, # Botas trithonas
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18718, # Escudo de kukoloide
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			17107, # Pendiente de Kongoku
+			12724, # Furibundo mayor
+			]
+Solution 6:
+	Fitness: 1452.8
+	Weapon damage:1452.8
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:1078.455
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 86.0
+		vitalidad : 4000.0
+		invocaciones : 3.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 28.0
+		% resistencia al agua : 52.0
+		% resistencia a la tierra : 17.0
+	Characteristics:
+		agilidad: 360.0
+		suerte: 580.0
+		inteligencia: 510.0
+		fuerza: 750.0
+		vitalidad: 4000.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Anillo del conde Kontatrás	200	14077
+		Anillo	Anillo de famosillo	200	19608
+		Bota	Botas del rey jugador	200	17572
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Cocoscudo	200	21225
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Corona del rey jugador	200	17573
+		Trofeo	Potente mayor	150	13825
+	Chromosome: [
+			14169, # Talismán Tira
+			14077, # Anillo del conde Kontatrás
+			19608, # Anillo de famosillo
+			17572, # Botas del rey jugador
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			21225, # Cocoscudo
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			17573, # Corona del rey jugador
+			13825, # Potente mayor
+			]
+Solution 7:
+	Fitness: 1442.1
+	Weapon damage:1442.1
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:1068.1
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 85.0
+		vitalidad : 4000.0
+		invocaciones : 3.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 23.0
+		% resistencia al aire : 32.0
+		% resistencia al agua : 37.0
+		% resistencia a la tierra : 25.0
+	Characteristics:
+		agilidad: 420.0
+		suerte: 580.0
+		inteligencia: 570.0
+		fuerza: 810.0
+		vitalidad: 4000.0
+		sabiduría: 480.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Anillo del conde Kontatrás	200	14077
+		Anillo	Anillo de famosillo	200	19608
+		Bota	Botas del rey jugador	200	17572
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de kukoloide	200	18718
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Corona del rey jugador	200	17573
+		Trofeo	Potente mayor	150	13825
+	Chromosome: [
+			14169, # Talismán Tira
+			14077, # Anillo del conde Kontatrás
+			19608, # Anillo de famosillo
+			17572, # Botas del rey jugador
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18718, # Escudo de kukoloide
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			17573, # Corona del rey jugador
+			13825, # Potente mayor
+			]
+Solution 8:
+	Fitness: 1437.5849999999998
+	Weapon damage:1437.5849999999998
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:1150.94
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 82.0
+		vitalidad : 4200.0
+		invocaciones : 4.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 42.0
+		% resistencia al agua : 37.0
+		% resistencia a la tierra : 21.0
+	Characteristics:
+		agilidad: 410.0
+		suerte: 630.0
+		inteligencia: 380.0
+		fuerza: 580.0
+		vitalidad: 4200.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Anillo de Pol Guatson	200	15698
+		Anillo	Anillo trithón	200	18029
+		Bota	Botas trithonas	200	18030
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo alveolado	199	18712
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Pendiente de Kongoku	200	17107
+		Trofeo	Furibundo mayor	150	12724
+	Chromosome: [
+			14169, # Talismán Tira
+			15698, # Anillo de Pol Guatson
+			18029, # Anillo trithón
+			18030, # Botas trithonas
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18712, # Escudo alveolado
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			17107, # Pendiente de Kongoku
+			12724, # Furibundo mayor
+			]
+Solution 9:
+	Fitness: 1422.2
+	Weapon damage:1422.2
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:1071.18
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 86.0
+		vitalidad : 4000.0
+		invocaciones : 3.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 16.0
+		% resistencia al aire : 39.0
+		% resistencia al agua : 30.0
+		% resistencia a la tierra : 32.0
+	Characteristics:
+		agilidad: 420.0
+		suerte: 580.0
+		inteligencia: 570.0
+		fuerza: 760.0
+		vitalidad: 4000.0
+		sabiduría: 430.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Brazalete de melenutrof	200	15190
+		Anillo	Anillo de Pol Guatson	200	15698
+		Bota	Botas del rey jugador	200	17572
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de kukoloide	200	18718
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Corona del rey jugador	200	17573
+		Trofeo	Potente mayor	150	13825
+	Chromosome: [
+			14169, # Talismán Tira
+			15190, # Brazalete de melenutrof
+			15698, # Anillo de Pol Guatson
+			17572, # Botas del rey jugador
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18718, # Escudo de kukoloide
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			17573, # Corona del rey jugador
+			13825, # Potente mayor
+			]
+Solution 10:
+	Fitness: 1420.6000000000001
+	Weapon damage:1420.6000000000001
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:1056.45
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 86.0
+		vitalidad : 4000.0
+		invocaciones : 3.0
+		% resistencia neutral : 27.0
+		% resistencia al fuego : 16.0
+		% resistencia al aire : 39.0
+		% resistencia al agua : 30.0
+		% resistencia a la tierra : 32.0
+	Characteristics:
+		agilidad: 420.0
+		suerte: 580.0
+		inteligencia: 570.0
+		fuerza: 820.0
+		vitalidad: 4000.0
+		sabiduría: 430.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Brazalete de melenutrof	200	15190
+		Anillo	Anillo de Pol Guatson	200	15698
+		Bota	Botas del rey jugador	200	17572
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de kukoloide	200	18718
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Corona del rey jugador	200	17573
+		Trofeo	Furibundo mayor	150	12724
+	Chromosome: [
+			14169, # Talismán Tira
+			15190, # Brazalete de melenutrof
+			15698, # Anillo de Pol Guatson
+			17572, # Botas del rey jugador
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18718, # Escudo de kukoloide
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			17573, # Corona del rey jugador
+			12724, # Furibundo mayor
+			]
+Solution 11:
+	Fitness: 1405.7
+	Weapon damage:1405.7
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:1050.42
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 89.0
+		vitalidad : 4050.0
+		invocaciones : 3.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 16.0
+		% resistencia al aire : 39.0
+		% resistencia al agua : 30.0
+		% resistencia a la tierra : 32.0
+	Characteristics:
+		agilidad: 420.0
+		suerte: 580.0
+		inteligencia: 570.0
+		fuerza: 810.0
+		vitalidad: 4050.0
+		sabiduría: 480.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Anillo del conde Kontatrás	200	14077
+		Anillo	Anillo de Pol Guatson	200	15698
+		Bota	Botas del rey jugador	200	17572
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de kukoloide	200	18718
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Corona del rey jugador	200	17573
+		Trofeo	Potente mayor	150	13825
+	Chromosome: [
+			14169, # Talismán Tira
+			14077, # Anillo del conde Kontatrás
+			15698, # Anillo de Pol Guatson
+			17572, # Botas del rey jugador
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18718, # Escudo de kukoloide
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			17573, # Corona del rey jugador
+			13825, # Potente mayor
+			]
+Solution 12:
+	Fitness: 1404.1000000000001
+	Weapon damage:1404.1000000000001
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:1035.6000000000001
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 89.0
+		vitalidad : 4050.0
+		invocaciones : 3.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 16.0
+		% resistencia al aire : 39.0
+		% resistencia al agua : 30.0
+		% resistencia a la tierra : 32.0
+	Characteristics:
+		agilidad: 420.0
+		suerte: 580.0
+		inteligencia: 570.0
+		fuerza: 870.0
+		vitalidad: 4050.0
+		sabiduría: 480.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Anillo del conde Kontatrás	200	14077
+		Anillo	Anillo de Pol Guatson	200	15698
+		Bota	Botas del rey jugador	200	17572
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de kukoloide	200	18718
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Corona del rey jugador	200	17573
+		Trofeo	Furibundo mayor	150	12724
+	Chromosome: [
+			14169, # Talismán Tira
+			14077, # Anillo del conde Kontatrás
+			15698, # Anillo de Pol Guatson
+			17572, # Botas del rey jugador
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18718, # Escudo de kukoloide
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			17573, # Corona del rey jugador
+			12724, # Furibundo mayor
+			]

@@ -132,6 +132,13 @@ class Chromosome(object):
         else:
             return self.are_nested_conditions_met(conditions)
     
+    def _implement_element_effects(self, totals):
+        # Prospecting adds 1 point per 10 chance
+        prospecting = totals.get(25,0) + totals.get(22,0)//10
+        totals[25] = prospecting
+
+        # TODO: Implement healing and other effects
+    
     def get_totals(self):
         """
         Get the totals of the chromosome based on the character's stats, item contributions, and set contributions.
@@ -141,10 +148,12 @@ class Chromosome(object):
         The totals are returned as a dictionary."""
         # Get the character stats
         character_contributions = self.character.stats.copy()
-        return pd.DataFrame(
+        totals = pd.DataFrame(
             [character_contributions,
               self.item_contributions,
                 self.set_contributions]).sum(axis=0).to_dict()
+        self._implement_element_effects(totals)
+        return totals
     
     def get_weapon_damage(self, weapon):
         if not weapon["effects"]:
@@ -309,11 +318,17 @@ class Chromosome(object):
         can be either "weapon" or "elements".
         """
         # TODO: Implement push damage
-        fitness = self.get_final_damage(type=self.objective)
-        if self.objective == "weapon" and self.optimizer.config.get("normalize_by_apcost", True):
-            # Normalize by AP cost
-            ap_cost = self.weapon["apCost"]
-            fitness /= ap_cost
+        if self.objective in ["weapon", "elements"]:
+            fitness = self.get_final_damage(type=self.objective)
+            if self.objective == "weapon" and self.optimizer.config.get("normalize_by_apcost", True):
+                # Normalize by AP cost
+                ap_cost = self.weapon["apCost"]
+                fitness /= ap_cost
+        elif isinstance(self.objective, int):
+            # User provided a integer flag for optimizing an element
+            fitness = self.totals.get(self.objective, 0)
+        else:
+            return NotImplemented
         return self.penalize(fitness)
     
     def totals_summary(self):

@@ -1,3 +1,4 @@
+
 elements = [
     36, # Agility,
     22, # Chance

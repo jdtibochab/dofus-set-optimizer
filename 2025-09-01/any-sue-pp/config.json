@@ -1,0 +1,43 @@
+{
+    "optimizer": {
+        "path": "any-sue-pp",
+        "language": "es",
+        "population_size": 300,
+        "num_parents_mating": 100,
+        "num_generations": 400,
+        "mutation_rate": 0.05,
+        "crossover_rate": 0.8,
+        "parent_selection_type": "tournament",
+        "tournament_size": 3,
+        "exclusions": {
+            "items": [
+                6894,
+                6895,
+                3080,
+                9031,
+                6980,
+                31886
+            ]
+        },
+        "inclusions": {
+            "items": []
+        },
+        "preferences": {
+            "lower": {},
+            "upper": {}
+        },
+        "level_offset": 100,
+        "objective": 25
+    },
+    "character": {
+        "level": 200,
+        "scrolled": true,
+        "exo": {},
+        "distributed_points": {},
+        "elements": [
+            22
+        ],
+        "melee": true,
+        "ranged": true
+    }
+}

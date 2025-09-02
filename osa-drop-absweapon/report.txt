@@ -1,0 +1,5124 @@
+Solution 0:
+	Fitness: 1074.6
+	Weapon damage:1074.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:434.19999999999993
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 406.0
+		invocaciones : 3.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 270.0
+		suerte: 1406.0
+		inteligencia: 440.0
+		fuerza: 270.0
+		vitalidad: 4000.0
+		sabiduría: 370.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo Kturno	196	14932
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Subligar de Demena	192	27542
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Otazo	20	10866
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Nómada	100	16335
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			14932, # Anillo Kturno
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			27542, # Subligar de Demena
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			10866, # Otazo
+			15694, # Kidiboina
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			16335, # Nómada
+			19605, # Varita Malgama
+			]
+Solution 1:
+	Fitness: 1074.6
+	Weapon damage:1074.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:434.19999999999993
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 406.0
+		invocaciones : 3.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 270.0
+		suerte: 1406.0
+		inteligencia: 440.0
+		fuerza: 270.0
+		vitalidad: 4000.0
+		sabiduría: 370.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo Kturno	196	14932
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Subligar de Demena	192	27542
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Pekefux atigrado	20	11011
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Nómada	100	16335
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			14932, # Anillo Kturno
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			27542, # Subligar de Demena
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			11011, # Pekefux atigrado
+			15694, # Kidiboina
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			16335, # Nómada
+			19605, # Varita Malgama
+			]
+Solution 2:
+	Fitness: 1074.6
+	Weapon damage:1074.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:434.19999999999993
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 406.0
+		invocaciones : 3.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 270.0
+		suerte: 1406.0
+		inteligencia: 440.0
+		fuerza: 270.0
+		vitalidad: 4000.0
+		sabiduría: 370.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo Kturno	196	14932
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Subligar de Demena	192	27542
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Nomoon	20	6716
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Nómada	100	16335
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			14932, # Anillo Kturno
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			27542, # Subligar de Demena
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			6716, # Nomoon
+			15694, # Kidiboina
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			16335, # Nómada
+			19605, # Varita Malgama
+			]
+Solution 3:
+	Fitness: 1074.6
+	Weapon damage:1074.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:434.19999999999993
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 406.0
+		invocaciones : 3.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 270.0
+		suerte: 1406.0
+		inteligencia: 440.0
+		fuerza: 270.0
+		vitalidad: 4000.0
+		sabiduría: 370.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo Kturno	196	14932
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Subligar de Demena	192	27542
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Glub	20	17813
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Nómada	100	16335
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			14932, # Anillo Kturno
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			27542, # Subligar de Demena
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			17813, # Glub
+			15694, # Kidiboina
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			16335, # Nómada
+			19605, # Varita Malgama
+			]
+Solution 4:
+	Fitness: 1074.6
+	Weapon damage:1074.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:434.19999999999993
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 406.0
+		invocaciones : 3.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 270.0
+		suerte: 1406.0
+		inteligencia: 440.0
+		fuerza: 270.0
+		vitalidad: 4000.0
+		sabiduría: 370.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo Kturno	196	14932
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Subligar de Demena	192	27542
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Cuerbokito Feo	20	7703
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Nómada	100	16335
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			14932, # Anillo Kturno
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			27542, # Subligar de Demena
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			7703, # Cuerbokito Feo
+			15694, # Kidiboina
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			16335, # Nómada
+			19605, # Varita Malgama
+			]
+Solution 5:
+	Fitness: 1071.6
+	Weapon damage:1071.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:435.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4050.0
+		prospección : 400.0
+		invocaciones : 3.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 17.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 270.0
+		suerte: 1396.0
+		inteligencia: 510.0
+		fuerza: 270.0
+		vitalidad: 4050.0
+		sabiduría: 380.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo Kturno	196	14932
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Calzón del Capitán Chafer	200	30856
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Cuerbokito Feo	20	7703
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Nómada	100	16335
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			14932, # Anillo Kturno
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			30856, # Calzón del Capitán Chafer
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			7703, # Cuerbokito Feo
+			15694, # Kidiboina
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			16335, # Nómada
+			19605, # Varita Malgama
+			]
+Solution 6:
+	Fitness: 1068.6
+	Weapon damage:1068.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:424.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 400.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 38.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 21.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 1396.0
+		inteligencia: 240.0
+		fuerza: 170.0
+		vitalidad: 4000.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de shorrokh	200	18004
+		Anillo	Anillo Kturno	196	14932
+		Anillo	Anillo de Pol Guatson	200	15698
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capa de mantatáser	200	18005
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Hacha	Hacha Jazo	192	14289
+		Mascotura	Dekarbón	60	12963
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Suertudo mayor	150	13768
+		Trofeo	Suertudo mayor	150	16248
+	Chromosome: [
+			18004, # Amuleto de shorrokh
+			14932, # Anillo Kturno
+			15698, # Anillo de Pol Guatson
+			14099, # Botas de nocturlabiúho
+			18005, # Capa de mantatáser
+			15699, # Cintáceo
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			14289, # Hacha Jazo
+			12963, # Dekarbón
+			15694, # Kidiboina
+			12716, # Jugador mayor
+			13768, # Suertudo mayor
+			16248, # Suertudo mayor
+			]
+Solution 7:
+	Fitness: 1068.6
+	Weapon damage:1068.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:424.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 400.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 38.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 21.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 1396.0
+		inteligencia: 240.0
+		fuerza: 170.0
+		vitalidad: 4000.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de shorrokh	200	18004
+		Anillo	Anillo Kturno	196	14932
+		Anillo	Anillo de Pol Guatson	200	15698
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capa de mantatáser	200	18005
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Snoofle	20	15249
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Suertudo mayor	150	13768
+		Trofeo	Suertudo mayor	150	16248
+	Chromosome: [
+			18004, # Amuleto de shorrokh
+			14932, # Anillo Kturno
+			15698, # Anillo de Pol Guatson
+			14099, # Botas de nocturlabiúho
+			18005, # Capa de mantatáser
+			15699, # Cintáceo
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			14289, # Hacha Jazo
+			15249, # Snoofle
+			15694, # Kidiboina
+			12716, # Jugador mayor
+			13768, # Suertudo mayor
+			16248, # Suertudo mayor
+			]
+Solution 8:
+	Fitness: 1068.6
+	Weapon damage:1068.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:424.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 400.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 38.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 21.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 1396.0
+		inteligencia: 240.0
+		fuerza: 170.0
+		vitalidad: 4000.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de shorrokh	200	18004
+		Anillo	Anillo Kturno	196	14932
+		Anillo	Anillo de Pol Guatson	200	15698
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capa de mantatáser	200	18005
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Otazo	20	10866
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Suertudo mayor	150	13768
+		Trofeo	Suertudo mayor	150	16248
+	Chromosome: [
+			18004, # Amuleto de shorrokh
+			14932, # Anillo Kturno
+			15698, # Anillo de Pol Guatson
+			14099, # Botas de nocturlabiúho
+			18005, # Capa de mantatáser
+			15699, # Cintáceo
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			14289, # Hacha Jazo
+			10866, # Otazo
+			15694, # Kidiboina
+			12716, # Jugador mayor
+			13768, # Suertudo mayor
+			16248, # Suertudo mayor
+			]
+Solution 9:
+	Fitness: 1066.6
+	Weapon damage:1066.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:434.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4100.0
+		prospección : 400.0
+		invocaciones : 3.0
+		% resistencia neutral : 29.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 41.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 24.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 1206.0
+		inteligencia: 230.0
+		fuerza: 160.0
+		vitalidad: 4100.0
+		sabiduría: 435.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de shorrokh	200	18004
+		Anillo	Anillo glacial	197	14058
+		Anillo	Anillo Kturno	196	14932
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capa de buhotofu	200	14085
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Ghulscudo	200	19080
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Nomoon	20	6716
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Viajante	100	13830
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			18004, # Amuleto de shorrokh
+			14058, # Anillo glacial
+			14932, # Anillo Kturno
+			14087, # Botas de buhotofu
+			14085, # Capa de buhotofu
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			19080, # Ghulscudo
+			14289, # Hacha Jazo
+			6716, # Nomoon
+			15694, # Kidiboina
+			13830, # Viajante
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			]
+Solution 10:
+	Fitness: 1066.6
+	Weapon damage:1066.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:434.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4100.0
+		prospección : 400.0
+		invocaciones : 3.0
+		% resistencia neutral : 29.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 41.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 24.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 1206.0
+		inteligencia: 230.0
+		fuerza: 160.0
+		vitalidad: 4100.0
+		sabiduría: 435.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de shorrokh	200	18004
+		Anillo	Anillo glacial	197	14058
+		Anillo	Anillo Kturno	196	14932
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capa de buhotofu	200	14085
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Ghulscudo	200	19080
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Bloalak	20	16276
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Nómada	100	16335
+	Chromosome: [
+			18004, # Amuleto de shorrokh
+			14058, # Anillo glacial
+			14932, # Anillo Kturno
+			14087, # Botas de buhotofu
+			14085, # Capa de buhotofu
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			19080, # Ghulscudo
+			14289, # Hacha Jazo
+			16276, # Bloalak
+			15694, # Kidiboina
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			16335, # Nómada
+			]
+Solution 11:
+	Fitness: 1066.6
+	Weapon damage:1066.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:434.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4100.0
+		prospección : 400.0
+		invocaciones : 3.0
+		% resistencia neutral : 29.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 41.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 24.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 1206.0
+		inteligencia: 230.0
+		fuerza: 160.0
+		vitalidad: 4100.0
+		sabiduría: 435.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de shorrokh	200	18004
+		Anillo	Anillo glacial	197	14058
+		Anillo	Anillo Kturno	196	14932
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capa de buhotofu	200	14085
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Ghulscudo	200	19080
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Bloalak	20	16276
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Viajante	100	13830
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			18004, # Amuleto de shorrokh
+			14058, # Anillo glacial
+			14932, # Anillo Kturno
+			14087, # Botas de buhotofu
+			14085, # Capa de buhotofu
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			19080, # Ghulscudo
+			14289, # Hacha Jazo
+			16276, # Bloalak
+			15694, # Kidiboina
+			13830, # Viajante
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			]
+Solution 12:
+	Fitness: 1062.0
+	Weapon damage:1062.0
+		Weapon: Guadaña serafina
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:457.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 405.0
+		invocaciones : 4.0
+		% resistencia neutral : 24.0
+		% resistencia al fuego : 27.0
+		% resistencia al aire : 30.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 200.0
+		suerte: 1346.0
+		inteligencia: 170.0
+		fuerza: 300.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de nocturlabiúho	200	14097
+		Anillo	Brazalete de los fondos marinos	200	16005
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Calpulpillos	200	18006
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Guadaña	Guadaña serafina	200	26009
+		Mascota	Glub	20	17813
+		Sombrero	Máscara de los fondos marinos	200	16007
+		Trofeo	Viajante	100	13830
+		Trofeo	Suertudo mayor	150	16248
+	Chromosome: [
+			14097, # Amuleto de nocturlabiúho
+			16005, # Brazalete de los fondos marinos
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			18006, # Calpulpillos
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			26009, # Guadaña serafina
+			17813, # Glub
+			16007, # Máscara de los fondos marinos
+			13830, # Viajante
+			16248, # Suertudo mayor
+			]
+Solution 13:
+	Fitness: 1062.0
+	Weapon damage:1062.0
+		Weapon: Guadaña serafina
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:457.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 405.0
+		invocaciones : 4.0
+		% resistencia neutral : 24.0
+		% resistencia al fuego : 27.0
+		% resistencia al aire : 30.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 200.0
+		suerte: 1346.0
+		inteligencia: 170.0
+		fuerza: 300.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de nocturlabiúho	200	14097
+		Anillo	Brazalete de los fondos marinos	200	16005
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Calpulpillos	200	18006
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Guadaña	Guadaña serafina	200	26009
+		Mascota	Snoofle	20	15249
+		Sombrero	Máscara de los fondos marinos	200	16007
+		Trofeo	Viajante	100	13830
+		Trofeo	Suertudo mayor	150	16248
+	Chromosome: [
+			14097, # Amuleto de nocturlabiúho
+			16005, # Brazalete de los fondos marinos
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			18006, # Calpulpillos
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			26009, # Guadaña serafina
+			15249, # Snoofle
+			16007, # Máscara de los fondos marinos
+			13830, # Viajante
+			16248, # Suertudo mayor
+			]
+Solution 14:
+	Fitness: 1061.6
+	Weapon damage:1061.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:417.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 405.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 44.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 1256.0
+		inteligencia: 300.0
+		fuerza: 170.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de buhotofu	200	14086
+		Anillo	Granizanillo	196	11470
+		Anillo	Anillo Kturno	196	14932
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Trofeo de la Despedazadora	200	31757
+		Mascota	Bloalak	20	16276
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			14086, # Amuleto de buhotofu
+			11470, # Granizanillo
+			14932, # Anillo Kturno
+			14087, # Botas de buhotofu
+			19607, # Capilla absolutoria
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			31757, # Trofeo de la Despedazadora
+			16276, # Bloalak
+			15694, # Kidiboina
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			19605, # Varita Malgama
+			]
+Solution 15:
+	Fitness: 1061.6
+	Weapon damage:1061.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:417.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 405.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 44.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 1256.0
+		inteligencia: 300.0
+		fuerza: 170.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de buhotofu	200	14086
+		Anillo	Granizanillo	196	11470
+		Anillo	Anillo Kturno	196	14932
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Trofeo de la Despedazadora	200	31757
+		Mascota	Pekefux	20	8155
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			14086, # Amuleto de buhotofu
+			11470, # Granizanillo
+			14932, # Anillo Kturno
+			14087, # Botas de buhotofu
+			19607, # Capilla absolutoria
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			31757, # Trofeo de la Despedazadora
+			8155, # Pekefux
+			15694, # Kidiboina
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			19605, # Varita Malgama
+			]
+Solution 16:
+	Fitness: 1061.6
+	Weapon damage:1061.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:417.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 405.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 44.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 1256.0
+		inteligencia: 300.0
+		fuerza: 170.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de buhotofu	200	14086
+		Anillo	Granizanillo	196	11470
+		Anillo	Anillo Kturno	196	14932
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Trofeo de la Despedazadora	200	31757
+		Mascota	Otazo	20	10866
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			14086, # Amuleto de buhotofu
+			11470, # Granizanillo
+			14932, # Anillo Kturno
+			14087, # Botas de buhotofu
+			19607, # Capilla absolutoria
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			31757, # Trofeo de la Despedazadora
+			10866, # Otazo
+			15694, # Kidiboina
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			19605, # Varita Malgama
+			]
+Solution 17:
+	Fitness: 1061.6
+	Weapon damage:1061.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:417.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 405.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 44.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 1256.0
+		inteligencia: 300.0
+		fuerza: 170.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de buhotofu	200	14086
+		Anillo	Granizanillo	196	11470
+		Anillo	Anillo Kturno	196	14932
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Trofeo de la Despedazadora	200	31757
+		Mascota	Pekefux atigrado	20	11011
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			14086, # Amuleto de buhotofu
+			11470, # Granizanillo
+			14932, # Anillo Kturno
+			14087, # Botas de buhotofu
+			19607, # Capilla absolutoria
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			31757, # Trofeo de la Despedazadora
+			11011, # Pekefux atigrado
+			15694, # Kidiboina
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			19605, # Varita Malgama
+			]
+Solution 18:
+	Fitness: 1061.6
+	Weapon damage:1061.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:417.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 405.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 15.0
+		% resistencia al aire : 47.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 30.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 1256.0
+		inteligencia: 300.0
+		fuerza: 230.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de buhotofu	200	14086
+		Anillo	Granizanillo	196	11470
+		Anillo	Anillo Kturno	196	14932
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Ghulscudo	200	19080
+		Mascota	Snoofle	20	15249
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			14086, # Amuleto de buhotofu
+			11470, # Granizanillo
+			14932, # Anillo Kturno
+			14087, # Botas de buhotofu
+			19607, # Capilla absolutoria
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			19080, # Ghulscudo
+			15249, # Snoofle
+			15694, # Kidiboina
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			19605, # Varita Malgama
+			]
+Solution 19:
+	Fitness: 1061.6
+	Weapon damage:1061.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:417.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 405.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 44.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 1256.0
+		inteligencia: 300.0
+		fuerza: 170.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de buhotofu	200	14086
+		Anillo	Granizanillo	196	11470
+		Anillo	Anillo Kturno	196	14932
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Trofeo de la Despedazadora	200	31757
+		Mascota	Snoofle	20	15249
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			14086, # Amuleto de buhotofu
+			11470, # Granizanillo
+			14932, # Anillo Kturno
+			14087, # Botas de buhotofu
+			19607, # Capilla absolutoria
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			31757, # Trofeo de la Despedazadora
+			15249, # Snoofle
+			15694, # Kidiboina
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			19605, # Varita Malgama
+			]
+Solution 20:
+	Fitness: 1060.6
+	Weapon damage:1060.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:432.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4100.0
+		prospección : 407.0
+		invocaciones : 3.0
+		% resistencia neutral : 29.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 41.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 24.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 1276.0
+		inteligencia: 300.0
+		fuerza: 230.0
+		vitalidad: 4100.0
+		sabiduría: 435.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de shorrokh	200	18004
+		Anillo	Anillo glacial	197	14058
+		Anillo	Anillo Kturno	196	14932
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capa de buhotofu	200	14085
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Ghulscudo	200	19080
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Bloalak	20	16276
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Viajante	100	13830
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			18004, # Amuleto de shorrokh
+			14058, # Anillo glacial
+			14932, # Anillo Kturno
+			14087, # Botas de buhotofu
+			14085, # Capa de buhotofu
+			15699, # Cintáceo
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			19080, # Ghulscudo
+			14289, # Hacha Jazo
+			16276, # Bloalak
+			15694, # Kidiboina
+			13830, # Viajante
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			]
+Solution 21:
+	Fitness: 1059.6
+	Weapon damage:1059.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:431.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4050.0
+		prospección : 406.0
+		invocaciones : 3.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 17.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 270.0
+		suerte: 1456.0
+		inteligencia: 510.0
+		fuerza: 270.0
+		vitalidad: 4050.0
+		sabiduría: 380.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo Kturno	196	14932
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Calzón del Capitán Chafer	200	30856
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Cuerbokito Feo	20	7703
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Nómada	100	16335
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			14932, # Anillo Kturno
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			30856, # Calzón del Capitán Chafer
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			7703, # Cuerbokito Feo
+			15694, # Kidiboina
+			12716, # Jugador mayor
+			16248, # Suertudo mayor
+			16335, # Nómada
+			19605, # Varita Malgama
+			]
+Solution 22:
+	Fitness: 1057.0
+	Weapon damage:1057.0
+		Weapon: Guadaña serafina
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:455.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 403.0
+		invocaciones : 4.0
+		% resistencia neutral : 31.0
+		% resistencia al fuego : 27.0
+		% resistencia al aire : 30.0
+		% resistencia al agua : 24.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 200.0
+		suerte: 1336.0
+		inteligencia: 170.0
+		fuerza: 300.0
+		vitalidad: 4000.0
+		sabiduría: 430.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de nocturlabiúho	200	14097
+		Anillo	Brazalete de los fondos marinos	200	16005
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Calpulpillos	200	18006
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de Danathor	195	30690
+		Guadaña	Guadaña serafina	200	26009
+		Mascota	Snoofle	20	15249
+		Sombrero	Máscara de los fondos marinos	200	16007
+		Trofeo	Viajante	100	13830
+		Trofeo	Suertudo mayor	150	16248
+	Chromosome: [
+			14097, # Amuleto de nocturlabiúho
+			16005, # Brazalete de los fondos marinos
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			18006, # Calpulpillos
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			30690, # Escudo de Danathor
+			26009, # Guadaña serafina
+			15249, # Snoofle
+			16007, # Máscara de los fondos marinos
+			13830, # Viajante
+			16248, # Suertudo mayor
+			]
+Solution 23:
+	Fitness: 1055.6
+	Weapon damage:1055.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:415.19999999999993
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 404.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 44.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 1246.0
+		inteligencia: 230.0
+		fuerza: 100.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de buhotofu	200	14086
+		Anillo	Granizanillo	196	11470
+		Anillo	Anillo Kturno	196	14932
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Trofeo de la Despedazadora	200	31757
+		Mascota	Pekefux	20	8155
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			14086, # Amuleto de buhotofu
+			11470, # Granizanillo
+			14932, # Anillo Kturno
+			14087, # Botas de buhotofu
+			19607, # Capilla absolutoria
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			31757, # Trofeo de la Despedazadora
+			8155, # Pekefux
+			15694, # Kidiboina
+			12716, # Jugador mayor
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			19605, # Varita Malgama
+			]
+Solution 24:
+	Fitness: 1055.6
+	Weapon damage:1055.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:415.19999999999993
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 404.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 15.0
+		% resistencia al aire : 47.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 30.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 1246.0
+		inteligencia: 230.0
+		fuerza: 160.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de buhotofu	200	14086
+		Anillo	Granizanillo	196	11470
+		Anillo	Anillo Kturno	196	14932
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Ghulscudo	200	19080
+		Mascota	Snoofle	20	15249
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			14086, # Amuleto de buhotofu
+			11470, # Granizanillo
+			14932, # Anillo Kturno
+			14087, # Botas de buhotofu
+			19607, # Capilla absolutoria
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			19080, # Ghulscudo
+			15249, # Snoofle
+			15694, # Kidiboina
+			12716, # Jugador mayor
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			19605, # Varita Malgama
+			]
+Solution 25:
+	Fitness: 1055.6
+	Weapon damage:1055.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:415.19999999999993
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 404.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 44.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 1246.0
+		inteligencia: 230.0
+		fuerza: 100.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de buhotofu	200	14086
+		Anillo	Granizanillo	196	11470
+		Anillo	Anillo Kturno	196	14932
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Trofeo de la Despedazadora	200	31757
+		Mascota	Snoofle	20	15249
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			14086, # Amuleto de buhotofu
+			11470, # Granizanillo
+			14932, # Anillo Kturno
+			14087, # Botas de buhotofu
+			19607, # Capilla absolutoria
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			31757, # Trofeo de la Despedazadora
+			15249, # Snoofle
+			15694, # Kidiboina
+			12716, # Jugador mayor
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			19605, # Varita Malgama
+			]
+Solution 26:
+	Fitness: 1043.6
+	Weapon damage:1043.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:429.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 405.0
+		invocaciones : 3.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 30.0
+		% resistencia al aire : 20.0
+		% resistencia al agua : 34.0
+		% resistencia a la tierra : 27.0
+	Characteristics:
+		agilidad: 230.0
+		suerte: 1206.0
+		inteligencia: 100.0
+		fuerza: 130.0
+		vitalidad: 4000.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Brazalete de los fondos marinos	200	16005
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinturón de nocturlabiúho	200	14098
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Escudo de Danathor	195	30690
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Pekefux atigrado	20	11011
+		Sombrero	Máscara de los fondos marinos	200	16007
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			16005, # Brazalete de los fondos marinos
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			14098, # Cinturón de nocturlabiúho
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			30690, # Escudo de Danathor
+			14289, # Hacha Jazo
+			11011, # Pekefux atigrado
+			16007, # Máscara de los fondos marinos
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 27:
+	Fitness: 1043.6
+	Weapon damage:1043.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:429.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 405.0
+		invocaciones : 3.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 30.0
+		% resistencia al aire : 20.0
+		% resistencia al agua : 34.0
+		% resistencia a la tierra : 27.0
+	Characteristics:
+		agilidad: 230.0
+		suerte: 1206.0
+		inteligencia: 100.0
+		fuerza: 130.0
+		vitalidad: 4000.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Brazalete de los fondos marinos	200	16005
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinturón de nocturlabiúho	200	14098
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Escudo de Danathor	195	30690
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Snoofle	20	15249
+		Sombrero	Máscara de los fondos marinos	200	16007
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			16005, # Brazalete de los fondos marinos
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			14098, # Cinturón de nocturlabiúho
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			30690, # Escudo de Danathor
+			14289, # Hacha Jazo
+			15249, # Snoofle
+			16007, # Máscara de los fondos marinos
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 28:
+	Fitness: 1039.5
+	Weapon damage:1039.5
+		Weapon: Guadaña serafina
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:450.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 409.0
+		invocaciones : 4.0
+		% resistencia neutral : 29.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 20.0
+		% resistencia al agua : 24.0
+		% resistencia a la tierra : 27.0
+	Characteristics:
+		agilidad: 200.0
+		suerte: 1196.0
+		inteligencia: 220.0
+		fuerza: 300.0
+		vitalidad: 4000.0
+		sabiduría: 390.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de nocturlabiúho	200	14097
+		Anillo	Alianza G'nostika	196	14049
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Calpulpillos	200	18006
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Siete años de mala suerte	194	18701
+		Guadaña	Guadaña serafina	200	26009
+		Mascota	Snoofle	20	15249
+		Sombrero	Máscara de los fondos marinos	200	16007
+		Trofeo	Viajante	100	13830
+		Trofeo	Suertudo mayor	150	16248
+	Chromosome: [
+			14097, # Amuleto de nocturlabiúho
+			14049, # Alianza G'nostika
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			18006, # Calpulpillos
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			18701, # Siete años de mala suerte
+			26009, # Guadaña serafina
+			15249, # Snoofle
+			16007, # Máscara de los fondos marinos
+			13830, # Viajante
+			16248, # Suertudo mayor
+			]
+Solution 29:
+	Fitness: 1032.6
+	Weapon damage:1032.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:412.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 404.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 38.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 21.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 1336.0
+		inteligencia: 240.0
+		fuerza: 170.0
+		vitalidad: 4000.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de shorrokh	200	18004
+		Anillo	Anillo Kturno	196	14932
+		Anillo	Anillo de Pol Guatson	200	15698
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capa de mantatáser	200	18005
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dosaurio	80	10907
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Snoofle	20	15249
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Suertudo mayor	150	13768
+		Trofeo	Suertudo mayor	150	16248
+	Chromosome: [
+			18004, # Amuleto de shorrokh
+			14932, # Anillo Kturno
+			15698, # Anillo de Pol Guatson
+			14099, # Botas de nocturlabiúho
+			18005, # Capa de mantatáser
+			15699, # Cintáceo
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			10907, # Dosaurio
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			14289, # Hacha Jazo
+			15249, # Snoofle
+			15694, # Kidiboina
+			13768, # Suertudo mayor
+			16248, # Suertudo mayor
+			]
+Solution 30:
+	Fitness: 1032.6
+	Weapon damage:1032.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:412.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 404.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 38.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 21.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 1336.0
+		inteligencia: 240.0
+		fuerza: 170.0
+		vitalidad: 4000.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de shorrokh	200	18004
+		Anillo	Anillo Kturno	196	14932
+		Anillo	Anillo de Pol Guatson	200	15698
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capa de mantatáser	200	18005
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dosaurio	80	10907
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Otazo	20	10866
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Suertudo mayor	150	13768
+		Trofeo	Suertudo mayor	150	16248
+	Chromosome: [
+			18004, # Amuleto de shorrokh
+			14932, # Anillo Kturno
+			15698, # Anillo de Pol Guatson
+			14099, # Botas de nocturlabiúho
+			18005, # Capa de mantatáser
+			15699, # Cintáceo
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			10907, # Dosaurio
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			14289, # Hacha Jazo
+			10866, # Otazo
+			15694, # Kidiboina
+			13768, # Suertudo mayor
+			16248, # Suertudo mayor
+			]
+Solution 31:
+	Fitness: 1032.6
+	Weapon damage:1032.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:412.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 404.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 38.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 21.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 1336.0
+		inteligencia: 240.0
+		fuerza: 170.0
+		vitalidad: 4000.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de shorrokh	200	18004
+		Anillo	Anillo Kturno	196	14932
+		Anillo	Anillo de Pol Guatson	200	15698
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capa de mantatáser	200	18005
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dosaurio	80	10907
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Hacha	Hacha Jazo	192	14289
+		Mascotura	Dekarbón	60	12963
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Suertudo mayor	150	13768
+		Trofeo	Suertudo mayor	150	16248
+	Chromosome: [
+			18004, # Amuleto de shorrokh
+			14932, # Anillo Kturno
+			15698, # Anillo de Pol Guatson
+			14099, # Botas de nocturlabiúho
+			18005, # Capa de mantatáser
+			15699, # Cintáceo
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			10907, # Dosaurio
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			14289, # Hacha Jazo
+			12963, # Dekarbón
+			15694, # Kidiboina
+			13768, # Suertudo mayor
+			16248, # Suertudo mayor
+			]
+Solution 32:
+	Fitness: 1031.6
+	Weapon damage:1031.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:425.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4050.0
+		prospección : 403.0
+		invocaciones : 3.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 30.0
+		% resistencia al aire : 20.0
+		% resistencia al agua : 27.0
+		% resistencia a la tierra : 27.0
+	Characteristics:
+		agilidad: 230.0
+		suerte: 1136.0
+		inteligencia: 100.0
+		fuerza: 130.0
+		vitalidad: 4050.0
+		sabiduría: 460.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Brazalete de los fondos marinos	200	16005
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinturón de nocturlabiúho	200	14098
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Escudístiko	200	18692
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Snoofle	20	15249
+		Sombrero	Máscara de los fondos marinos	200	16007
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			16005, # Brazalete de los fondos marinos
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			14098, # Cinturón de nocturlabiúho
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			18692, # Escudístiko
+			14289, # Hacha Jazo
+			15249, # Snoofle
+			16007, # Máscara de los fondos marinos
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 33:
+	Fitness: 1031.6
+	Weapon damage:1031.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:425.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4050.0
+		prospección : 403.0
+		invocaciones : 3.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 30.0
+		% resistencia al aire : 20.0
+		% resistencia al agua : 27.0
+		% resistencia a la tierra : 27.0
+	Characteristics:
+		agilidad: 230.0
+		suerte: 1136.0
+		inteligencia: 100.0
+		fuerza: 130.0
+		vitalidad: 4050.0
+		sabiduría: 460.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Brazalete de los fondos marinos	200	16005
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinturón de nocturlabiúho	200	14098
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Escudístiko	200	18692
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Pekefux atigrado	20	11011
+		Sombrero	Máscara de los fondos marinos	200	16007
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			16005, # Brazalete de los fondos marinos
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			14098, # Cinturón de nocturlabiúho
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			18692, # Escudístiko
+			14289, # Hacha Jazo
+			11011, # Pekefux atigrado
+			16007, # Máscara de los fondos marinos
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 34:
+	Fitness: 1031.6
+	Weapon damage:1031.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:407.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 404.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 44.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 1246.0
+		inteligencia: 230.0
+		fuerza: 100.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de buhotofu	200	14086
+		Anillo	Granizanillo	196	11470
+		Anillo	Anillo Kturno	196	14932
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Trofeo de la Despedazadora	200	31757
+		Mascota	Snoofle	20	15249
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano	100	16331
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			14086, # Amuleto de buhotofu
+			11470, # Granizanillo
+			14932, # Anillo Kturno
+			14087, # Botas de buhotofu
+			19607, # Capilla absolutoria
+			14162, # Cinto Dovencible
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			31757, # Trofeo de la Despedazadora
+			15249, # Snoofle
+			15694, # Kidiboina
+			12716, # Jugador mayor
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			16331, # Lozano
+			19605, # Varita Malgama
+			]
+Solution 35:
+	Fitness: 1028.6
+	Weapon damage:1028.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:416.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4050.0
+		prospección : 418.0
+		invocaciones : 3.0
+		% resistencia neutral : 29.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 41.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 24.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 1236.0
+		inteligencia: 360.0
+		fuerza: 230.0
+		vitalidad: 4050.0
+		sabiduría: 435.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collar de la reina del azar	200	17576
+		Anillo	Anillo glacial	197	14058
+		Anillo	Anillo Kturno	196	14932
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capa de buhotofu	200	14085
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Ghulscudo	200	19080
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Bloalak	20	16276
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Viajante	100	13830
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			17576, # Collar de la reina del azar
+			14058, # Anillo glacial
+			14932, # Anillo Kturno
+			14087, # Botas de buhotofu
+			14085, # Capa de buhotofu
+			15699, # Cintáceo
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			19080, # Ghulscudo
+			14289, # Hacha Jazo
+			16276, # Bloalak
+			15694, # Kidiboina
+			13830, # Viajante
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			]
+Solution 36:
+	Fitness: 1027.6
+	Weapon damage:1027.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:425.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4100.0
+		prospección : 405.0
+		invocaciones : 3.0
+		% resistencia neutral : 24.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 27.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 1406.0
+		inteligencia: 340.0
+		fuerza: 170.0
+		vitalidad: 4100.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto del Ojo Atento	200	19255
+		Anillo	Anillo del profesor Xa	191	12109
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Calpulpillos	200	18006
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Trofeo de la Despedazadora	200	31757
+		Mascota	Otazo	20	10866
+		Sombrero	Cabello de la Despedazadora	200	31756
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Caparazón de fuego	100	16322
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			19255, # Amuleto del Ojo Atento
+			12109, # Anillo del profesor Xa
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			18006, # Calpulpillos
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			31757, # Trofeo de la Despedazadora
+			10866, # Otazo
+			31756, # Cabello de la Despedazadora
+			12716, # Jugador mayor
+			16248, # Suertudo mayor
+			16322, # Caparazón de fuego
+			19605, # Varita Malgama
+			]
+Solution 37:
+	Fitness: 1027.6
+	Weapon damage:1027.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:425.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4100.0
+		prospección : 405.0
+		invocaciones : 3.0
+		% resistencia neutral : 24.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 27.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 1406.0
+		inteligencia: 340.0
+		fuerza: 170.0
+		vitalidad: 4100.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto del Ojo Atento	200	19255
+		Anillo	Anillo del profesor Xa	191	12109
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Calpulpillos	200	18006
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Trofeo de la Despedazadora	200	31757
+		Mascota	Pekefux	20	8155
+		Sombrero	Cabello de la Despedazadora	200	31756
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Caparazón de fuego	100	16322
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			19255, # Amuleto del Ojo Atento
+			12109, # Anillo del profesor Xa
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			18006, # Calpulpillos
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			31757, # Trofeo de la Despedazadora
+			8155, # Pekefux
+			31756, # Cabello de la Despedazadora
+			12716, # Jugador mayor
+			16248, # Suertudo mayor
+			16322, # Caparazón de fuego
+			19605, # Varita Malgama
+			]
+Solution 38:
+	Fitness: 1027.0
+	Weapon damage:1027.0
+		Weapon: Guadaña serafina
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:443.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 407.0
+		invocaciones : 4.0
+		% resistencia neutral : 38.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 20.0
+		% resistencia al agua : 24.0
+		% resistencia a la tierra : 27.0
+	Characteristics:
+		agilidad: 260.0
+		suerte: 1276.0
+		inteligencia: 170.0
+		fuerza: 300.0
+		vitalidad: 4000.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de nocturlabiúho	200	14097
+		Anillo	Alianza golosona	198	12113
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Calpulpillos	200	18006
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de Danathor	195	30690
+		Guadaña	Guadaña serafina	200	26009
+		Mascota	Snoofle	20	15249
+		Sombrero	Máscara de los fondos marinos	200	16007
+		Trofeo	Viajante	100	13830
+		Trofeo	Suertudo mayor	150	16248
+	Chromosome: [
+			14097, # Amuleto de nocturlabiúho
+			12113, # Alianza golosona
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			18006, # Calpulpillos
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			30690, # Escudo de Danathor
+			26009, # Guadaña serafina
+			15249, # Snoofle
+			16007, # Máscara de los fondos marinos
+			13830, # Viajante
+			16248, # Suertudo mayor
+			]
+Solution 39:
+	Fitness: 1024.6
+	Weapon damage:1024.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:412.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4100.0
+		prospección : 415.0
+		invocaciones : 4.0
+		% resistencia neutral : 29.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 28.0
+		% resistencia a la tierra : 24.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 1206.0
+		inteligencia: 230.0
+		fuerza: 230.0
+		vitalidad: 4100.0
+		sabiduría: 405.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Kralamansion	194	9464
+		Anillo	Anillo glacial	197	14058
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capa de buhotofu	200	14085
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Ghulscudo	200	19080
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Bloalak	20	16276
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Viajante	100	13830
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			9464, # Kralamansion
+			14058, # Anillo glacial
+			19985, # Anillo de vueloceronte
+			14087, # Botas de buhotofu
+			14085, # Capa de buhotofu
+			15699, # Cintáceo
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			19080, # Ghulscudo
+			14289, # Hacha Jazo
+			16276, # Bloalak
+			15694, # Kidiboina
+			13830, # Viajante
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			]
+Solution 40:
+	Fitness: 1022.6
+	Weapon damage:1022.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:414.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4100.0
+		prospección : 402.0
+		invocaciones : 3.0
+		% resistencia neutral : 29.0
+		% resistencia al fuego : 27.0
+		% resistencia al aire : 34.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 24.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 1226.0
+		inteligencia: 290.0
+		fuerza: 230.0
+		vitalidad: 4100.0
+		sabiduría: 455.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collar de la reina del azar	200	17576
+		Anillo	Anillo glacial	197	14058
+		Anillo	Brazalete de los fondos marinos	200	16005
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capa de buhotofu	200	14085
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Ghulscudo	200	19080
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Bloalak	20	16276
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Viajante	100	13830
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			17576, # Collar de la reina del azar
+			14058, # Anillo glacial
+			16005, # Brazalete de los fondos marinos
+			14087, # Botas de buhotofu
+			14085, # Capa de buhotofu
+			15699, # Cintáceo
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			19080, # Ghulscudo
+			14289, # Hacha Jazo
+			16276, # Bloalak
+			15694, # Kidiboina
+			13830, # Viajante
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			]
+Solution 41:
+	Fitness: 1022.0
+	Weapon damage:1022.0
+		Weapon: Guadaña serafina
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:441.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 411.0
+		invocaciones : 4.0
+		% resistencia neutral : 31.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 20.0
+		% resistencia al agua : 24.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 200.0
+		suerte: 1266.0
+		inteligencia: 220.0
+		fuerza: 300.0
+		vitalidad: 4000.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de nocturlabiúho	200	14097
+		Anillo	Alianza G'nostika	196	14049
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Calpulpillos	200	18006
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de Danathor	195	30690
+		Guadaña	Guadaña serafina	200	26009
+		Mascota	Snoofle	20	15249
+		Sombrero	Máscara de los fondos marinos	200	16007
+		Trofeo	Viajante	100	13830
+		Trofeo	Suertudo mayor	150	16248
+	Chromosome: [
+			14097, # Amuleto de nocturlabiúho
+			14049, # Alianza G'nostika
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			18006, # Calpulpillos
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			30690, # Escudo de Danathor
+			26009, # Guadaña serafina
+			15249, # Snoofle
+			16007, # Máscara de los fondos marinos
+			13830, # Viajante
+			16248, # Suertudo mayor
+			]
+Solution 42:
+	Fitness: 1021.6
+	Weapon damage:1021.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:423.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4100.0
+		prospección : 404.0
+		invocaciones : 3.0
+		% resistencia neutral : 24.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 27.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 1396.0
+		inteligencia: 340.0
+		fuerza: 170.0
+		vitalidad: 4100.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto del Ojo Atento	200	19255
+		Anillo	Anillo del profesor Xa	191	12109
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Calpulpillos	200	18006
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Trofeo de la Despedazadora	200	31757
+		Mascota	Pekefux	20	8155
+		Sombrero	Cabello de la Despedazadora	200	31756
+		Trofeo	Afortunado	100	16247
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Caparazón de fuego menor	50	16321
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			19255, # Amuleto del Ojo Atento
+			12109, # Anillo del profesor Xa
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			18006, # Calpulpillos
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			31757, # Trofeo de la Despedazadora
+			8155, # Pekefux
+			31756, # Cabello de la Despedazadora
+			16247, # Afortunado
+			16248, # Suertudo mayor
+			16321, # Caparazón de fuego menor
+			19605, # Varita Malgama
+			]
+Solution 43:
+	Fitness: 1021.6
+	Weapon damage:1021.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:423.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 404.0
+		invocaciones : 3.0
+		% resistencia neutral : 24.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 27.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 1396.0
+		inteligencia: 340.0
+		fuerza: 170.0
+		vitalidad: 4000.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto del Ojo Atento	200	19255
+		Anillo	Anillo del profesor Xa	191	12109
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Calpulpillos	200	18006
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Trofeo de la Despedazadora	200	31757
+		Mascota	Pekefux	20	8155
+		Sombrero	Cabello de la Despedazadora	200	31756
+		Trofeo	Suertudo	100	13767
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Caparazón de fuego	100	16322
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			19255, # Amuleto del Ojo Atento
+			12109, # Anillo del profesor Xa
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			18006, # Calpulpillos
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			31757, # Trofeo de la Despedazadora
+			8155, # Pekefux
+			31756, # Cabello de la Despedazadora
+			13767, # Suertudo
+			16248, # Suertudo mayor
+			16322, # Caparazón de fuego
+			19605, # Varita Malgama
+			]
+Solution 44:
+	Fitness: 1021.6
+	Weapon damage:1021.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:423.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4100.0
+		prospección : 404.0
+		invocaciones : 3.0
+		% resistencia neutral : 24.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 27.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 1396.0
+		inteligencia: 340.0
+		fuerza: 170.0
+		vitalidad: 4100.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto del Ojo Atento	200	19255
+		Anillo	Anillo del profesor Xa	191	12109
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Calpulpillos	200	18006
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Trofeo de la Despedazadora	200	31757
+		Mascota	Pekefux	20	8155
+		Sombrero	Cabello de la Despedazadora	200	31756
+		Trofeo	Afortunado	100	16247
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Caparazón de fuego	100	16322
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			19255, # Amuleto del Ojo Atento
+			12109, # Anillo del profesor Xa
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			18006, # Calpulpillos
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			31757, # Trofeo de la Despedazadora
+			8155, # Pekefux
+			31756, # Cabello de la Despedazadora
+			16247, # Afortunado
+			16248, # Suertudo mayor
+			16322, # Caparazón de fuego
+			19605, # Varita Malgama
+			]
+Solution 45:
+	Fitness: 1019.6
+	Weapon damage:1019.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:411.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 404.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 44.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 1246.0
+		inteligencia: 230.0
+		fuerza: 100.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de buhotofu	200	14086
+		Anillo	Granizanillo	196	11470
+		Anillo	Anillo Kturno	196	14932
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Trofeo de la Despedazadora	200	31757
+		Mascota	Snoofle	20	15249
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Dañador mayor	150	13834
+		Trofeo	Suertudo mayor	150	16248
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			14086, # Amuleto de buhotofu
+			11470, # Granizanillo
+			14932, # Anillo Kturno
+			14087, # Botas de buhotofu
+			19607, # Capilla absolutoria
+			14162, # Cinto Dovencible
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			31757, # Trofeo de la Despedazadora
+			15249, # Snoofle
+			15694, # Kidiboina
+			12716, # Jugador mayor
+			13828, # Robusto mayor
+			13834, # Dañador mayor
+			16248, # Suertudo mayor
+			19605, # Varita Malgama
+			]
+Solution 46:
+	Fitness: 1019.6
+	Weapon damage:1019.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:411.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 404.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 15.0
+		% resistencia al aire : 47.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 30.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 1246.0
+		inteligencia: 230.0
+		fuerza: 160.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de buhotofu	200	14086
+		Anillo	Granizanillo	196	11470
+		Anillo	Anillo Kturno	196	14932
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Ghulscudo	200	19080
+		Mascota	Snoofle	20	15249
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Dañador mayor	150	13834
+		Trofeo	Suertudo mayor	150	16248
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			14086, # Amuleto de buhotofu
+			11470, # Granizanillo
+			14932, # Anillo Kturno
+			14087, # Botas de buhotofu
+			19607, # Capilla absolutoria
+			14162, # Cinto Dovencible
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			19080, # Ghulscudo
+			15249, # Snoofle
+			15694, # Kidiboina
+			12716, # Jugador mayor
+			13828, # Robusto mayor
+			13834, # Dañador mayor
+			16248, # Suertudo mayor
+			19605, # Varita Malgama
+			]
+Solution 47:
+	Fitness: 1018.5999999999999
+	Weapon damage:1018.5999999999999
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:424.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 403.0
+		invocaciones : 3.0
+		% resistencia neutral : 24.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 17.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 30.0
+	Characteristics:
+		agilidad: 270.0
+		suerte: 1386.0
+		inteligencia: 230.0
+		fuerza: 170.0
+		vitalidad: 4000.0
+		sabiduría: 430.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto del Ojo Atento	200	19255
+		Anillo	Anillo del profesor Xa	191	12109
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Calpulpillos	200	18006
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dosaurio	80	10907
+		Dofus	Dolmanax	100	13344
+		Escudo	Trofeo de la Despedazadora	200	31757
+		Mascota	Pekefux	20	8155
+		Sombrero	Casco de Ilyzaelle	200	19262
+		Trofeo	Afortunado	100	16247
+		Trofeo	Suertudo mayor	150	16248
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			19255, # Amuleto del Ojo Atento
+			12109, # Anillo del profesor Xa
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			18006, # Calpulpillos
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			10907, # Dosaurio
+			13344, # Dolmanax
+			31757, # Trofeo de la Despedazadora
+			8155, # Pekefux
+			19262, # Casco de Ilyzaelle
+			16247, # Afortunado
+			16248, # Suertudo mayor
+			19605, # Varita Malgama
+			]
+Solution 48:
+	Fitness: 1017.6
+	Weapon damage:1017.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:415.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 402.0
+		invocaciones : 3.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 30.0
+		% resistencia al aire : 37.0
+		% resistencia al agua : 27.0
+		% resistencia a la tierra : 27.0
+	Characteristics:
+		agilidad: 300.0
+		suerte: 1176.0
+		inteligencia: 170.0
+		fuerza: 130.0
+		vitalidad: 4000.0
+		sabiduría: 490.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Anillo Kturno	196	14932
+		Anillo	Brazalete de los fondos marinos	200	16005
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinturón de nocturlabiúho	200	14098
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Escudo de Ilyzaelle	200	19263
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Snoofle	20	15249
+		Sombrero	Máscara de los fondos marinos	200	16007
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			14932, # Anillo Kturno
+			16005, # Brazalete de los fondos marinos
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			14098, # Cinturón de nocturlabiúho
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			19263, # Escudo de Ilyzaelle
+			14289, # Hacha Jazo
+			15249, # Snoofle
+			16007, # Máscara de los fondos marinos
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 49:
+	Fitness: 1017.6
+	Weapon damage:1017.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:415.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 402.0
+		invocaciones : 3.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 30.0
+		% resistencia al aire : 37.0
+		% resistencia al agua : 27.0
+		% resistencia a la tierra : 27.0
+	Characteristics:
+		agilidad: 300.0
+		suerte: 1176.0
+		inteligencia: 170.0
+		fuerza: 130.0
+		vitalidad: 4000.0
+		sabiduría: 490.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Anillo Kturno	196	14932
+		Anillo	Brazalete de los fondos marinos	200	16005
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinturón de nocturlabiúho	200	14098
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Escudo de Ilyzaelle	200	19263
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Pekefux atigrado	20	11011
+		Sombrero	Máscara de los fondos marinos	200	16007
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			14932, # Anillo Kturno
+			16005, # Brazalete de los fondos marinos
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			14098, # Cinturón de nocturlabiúho
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			19263, # Escudo de Ilyzaelle
+			14289, # Hacha Jazo
+			11011, # Pekefux atigrado
+			16007, # Máscara de los fondos marinos
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 50:
+	Fitness: 1013.5999999999999
+	Weapon damage:1013.5999999999999
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:419.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 400.0
+		invocaciones : 3.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 27.0
+		% resistencia al agua : 37.0
+		% resistencia a la tierra : 27.0
+	Characteristics:
+		agilidad: 300.0
+		suerte: 1156.0
+		inteligencia: 170.0
+		fuerza: 130.0
+		vitalidad: 4000.0
+		sabiduría: 440.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Anillo Kturno	196	14932
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinturón de nocturlabiúho	200	14098
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Escudo de Ilyzaelle	200	19263
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Pekefux atigrado	20	11011
+		Sombrero	Máscara de los fondos marinos	200	16007
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			14932, # Anillo Kturno
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			14098, # Cinturón de nocturlabiúho
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			19263, # Escudo de Ilyzaelle
+			14289, # Hacha Jazo
+			11011, # Pekefux atigrado
+			16007, # Máscara de los fondos marinos
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 51:
+	Fitness: 1012.0
+	Weapon damage:1012.0
+		Weapon: Guadaña serafina
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:431.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 400.0
+		invocaciones : 3.0
+		% resistencia neutral : 26.0
+		% resistencia al fuego : 32.0
+		% resistencia al aire : 20.0
+		% resistencia al agua : 32.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 270.0
+		suerte: 1246.0
+		inteligencia: 220.0
+		fuerza: 170.0
+		vitalidad: 4000.0
+		sabiduría: 335.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de buhotofu	200	14086
+		Anillo	Anillo Céano	200	14879
+		Anillo	Anillo de famosillo	200	19608
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capa de buhotofu	200	14085
+		Cinturón	Calpulpillos	200	18006
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Guadaña	Guadaña serafina	200	26009
+		Mascotura	Dekarbón	60	12963
+		Sombrero	Casco de Ilyzaelle	200	19262
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			14086, # Amuleto de buhotofu
+			14879, # Anillo Céano
+			19608, # Anillo de famosillo
+			14087, # Botas de buhotofu
+			14085, # Capa de buhotofu
+			18006, # Calpulpillos
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			26009, # Guadaña serafina
+			12963, # Dekarbón
+			19262, # Casco de Ilyzaelle
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			]
+Solution 52:
+	Fitness: 1012.0
+	Weapon damage:1012.0
+		Weapon: Guadaña serafina
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:435.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 400.0
+		invocaciones : 3.0
+		% resistencia neutral : 26.0
+		% resistencia al fuego : 32.0
+		% resistencia al aire : 20.0
+		% resistencia al agua : 32.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 270.0
+		suerte: 1246.0
+		inteligencia: 220.0
+		fuerza: 170.0
+		vitalidad: 4000.0
+		sabiduría: 335.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de buhotofu	200	14086
+		Anillo	Anillo Céano	200	14879
+		Anillo	Anillo de famosillo	200	19608
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capa de buhotofu	200	14085
+		Cinturón	Calpulpillos	200	18006
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Guadaña	Guadaña serafina	200	26009
+		Mascotura	Dekarbón	60	12963
+		Sombrero	Casco de Ilyzaelle	200	19262
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Asolador de agua mayor	150	16264
+	Chromosome: [
+			14086, # Amuleto de buhotofu
+			14879, # Anillo Céano
+			19608, # Anillo de famosillo
+			14087, # Botas de buhotofu
+			14085, # Capa de buhotofu
+			18006, # Calpulpillos
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			26009, # Guadaña serafina
+			12963, # Dekarbón
+			19262, # Casco de Ilyzaelle
+			16248, # Suertudo mayor
+			16264, # Asolador de agua mayor
+			]
+Solution 53:
+	Fitness: 1012.0
+	Weapon damage:1012.0
+		Weapon: Guadaña serafina
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:435.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 400.0
+		invocaciones : 3.0
+		% resistencia neutral : 26.0
+		% resistencia al fuego : 32.0
+		% resistencia al aire : 20.0
+		% resistencia al agua : 32.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 270.0
+		suerte: 1246.0
+		inteligencia: 220.0
+		fuerza: 170.0
+		vitalidad: 4000.0
+		sabiduría: 335.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de buhotofu	200	14086
+		Anillo	Anillo Céano	200	14879
+		Anillo	Anillo de famosillo	200	19608
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capa de buhotofu	200	14085
+		Cinturón	Calpulpillos	200	18006
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Guadaña	Guadaña serafina	200	26009
+		Mascota	Nomoon	20	6716
+		Sombrero	Casco de Ilyzaelle	200	19262
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Asolador de agua mayor	150	16264
+	Chromosome: [
+			14086, # Amuleto de buhotofu
+			14879, # Anillo Céano
+			19608, # Anillo de famosillo
+			14087, # Botas de buhotofu
+			14085, # Capa de buhotofu
+			18006, # Calpulpillos
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			26009, # Guadaña serafina
+			6716, # Nomoon
+			19262, # Casco de Ilyzaelle
+			16248, # Suertudo mayor
+			16264, # Asolador de agua mayor
+			]
+Solution 54:
+	Fitness: 1012.0
+	Weapon damage:1012.0
+		Weapon: Guadaña serafina
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:431.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 400.0
+		invocaciones : 3.0
+		% resistencia neutral : 26.0
+		% resistencia al fuego : 32.0
+		% resistencia al aire : 20.0
+		% resistencia al agua : 32.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 270.0
+		suerte: 1246.0
+		inteligencia: 220.0
+		fuerza: 170.0
+		vitalidad: 4000.0
+		sabiduría: 335.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de buhotofu	200	14086
+		Anillo	Anillo Céano	200	14879
+		Anillo	Anillo de famosillo	200	19608
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capa de buhotofu	200	14085
+		Cinturón	Calpulpillos	200	18006
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Guadaña	Guadaña serafina	200	26009
+		Mascota	Otazo	20	10866
+		Sombrero	Casco de Ilyzaelle	200	19262
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			14086, # Amuleto de buhotofu
+			14879, # Anillo Céano
+			19608, # Anillo de famosillo
+			14087, # Botas de buhotofu
+			14085, # Capa de buhotofu
+			18006, # Calpulpillos
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			26009, # Guadaña serafina
+			10866, # Otazo
+			19262, # Casco de Ilyzaelle
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			]
+Solution 55:
+	Fitness: 1012.0
+	Weapon damage:1012.0
+		Weapon: Guadaña serafina
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:435.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 400.0
+		invocaciones : 3.0
+		% resistencia neutral : 26.0
+		% resistencia al fuego : 32.0
+		% resistencia al aire : 20.0
+		% resistencia al agua : 32.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 270.0
+		suerte: 1246.0
+		inteligencia: 220.0
+		fuerza: 170.0
+		vitalidad: 4000.0
+		sabiduría: 335.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de buhotofu	200	14086
+		Anillo	Anillo Céano	200	14879
+		Anillo	Anillo de famosillo	200	19608
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capa de buhotofu	200	14085
+		Cinturón	Calpulpillos	200	18006
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Guadaña	Guadaña serafina	200	26009
+		Mascota	Otazo	20	10866
+		Sombrero	Casco de Ilyzaelle	200	19262
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Asolador de agua mayor	150	16264
+	Chromosome: [
+			14086, # Amuleto de buhotofu
+			14879, # Anillo Céano
+			19608, # Anillo de famosillo
+			14087, # Botas de buhotofu
+			14085, # Capa de buhotofu
+			18006, # Calpulpillos
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			26009, # Guadaña serafina
+			10866, # Otazo
+			19262, # Casco de Ilyzaelle
+			16248, # Suertudo mayor
+			16264, # Asolador de agua mayor
+			]
+Solution 56:
+	Fitness: 1012.0
+	Weapon damage:1012.0
+		Weapon: Guadaña serafina
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:435.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 400.0
+		invocaciones : 3.0
+		% resistencia neutral : 18.0
+		% resistencia al fuego : 32.0
+		% resistencia al aire : 20.0
+		% resistencia al agua : 32.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 270.0
+		suerte: 1246.0
+		inteligencia: 220.0
+		fuerza: 170.0
+		vitalidad: 4000.0
+		sabiduría: 335.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de buhotofu	200	14086
+		Anillo	Anillo Céano	200	14879
+		Anillo	Anillo de famosillo	200	19608
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capa de buhotofu	200	14085
+		Cinturón	Calpulpillos	200	18006
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Guadaña	Guadaña serafina	200	26009
+		Mascota	Otazo	20	10866
+		Sombrero	Casco de Ilyzaelle	200	19262
+		Trofeo	Torturador acuoso mayor	150	13783
+		Trofeo	Suertudo mayor	150	16248
+	Chromosome: [
+			14086, # Amuleto de buhotofu
+			14879, # Anillo Céano
+			19608, # Anillo de famosillo
+			14087, # Botas de buhotofu
+			14085, # Capa de buhotofu
+			18006, # Calpulpillos
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			26009, # Guadaña serafina
+			10866, # Otazo
+			19262, # Casco de Ilyzaelle
+			13783, # Torturador acuoso mayor
+			16248, # Suertudo mayor
+			]
+Solution 57:
+	Fitness: 1011.6
+	Weapon damage:1011.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:411.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4150.0
+		prospección : 409.0
+		invocaciones : 3.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 24.0
+		% resistencia al aire : 20.0
+		% resistencia al agua : 27.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 270.0
+		suerte: 1386.0
+		inteligencia: 490.0
+		fuerza: 270.0
+		vitalidad: 4150.0
+		sabiduría: 380.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo Céano	200	14879
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Calzón del Capitán Chafer	200	30856
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Cuerbokito Feo	20	7703
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Nómada	100	16335
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			14879, # Anillo Céano
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			30856, # Calzón del Capitán Chafer
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			7703, # Cuerbokito Feo
+			15694, # Kidiboina
+			12716, # Jugador mayor
+			16248, # Suertudo mayor
+			16335, # Nómada
+			19605, # Varita Malgama
+			]
+Solution 58:
+	Fitness: 1008.5999999999999
+	Weapon damage:1008.5999999999999
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:404.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 400.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 38.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 21.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 1296.0
+		inteligencia: 240.0
+		fuerza: 170.0
+		vitalidad: 4000.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de shorrokh	200	18004
+		Anillo	Anillo Kturno	196	14932
+		Anillo	Anillo de Pol Guatson	200	15698
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capa de mantatáser	200	18005
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dosaurio	80	10907
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Hacha	Hacha Jazo	192	14289
+		Mascotura	Dekarbón	60	12963
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Suertudo mayor	150	13768
+	Chromosome: [
+			18004, # Amuleto de shorrokh
+			14932, # Anillo Kturno
+			15698, # Anillo de Pol Guatson
+			14099, # Botas de nocturlabiúho
+			18005, # Capa de mantatáser
+			15699, # Cintáceo
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			10907, # Dosaurio
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			14289, # Hacha Jazo
+			12963, # Dekarbón
+			15694, # Kidiboina
+			12716, # Jugador mayor
+			13768, # Suertudo mayor
+			]
+Solution 59:
+	Fitness: 1008.5999999999999
+	Weapon damage:1008.5999999999999
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:404.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 400.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 38.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 21.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 1296.0
+		inteligencia: 240.0
+		fuerza: 170.0
+		vitalidad: 4000.0
+		sabiduría: 450.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de shorrokh	200	18004
+		Anillo	Anillo Kturno	196	14932
+		Anillo	Anillo de Pol Guatson	200	15698
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capa de mantatáser	200	18005
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dosaurio	80	10907
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Otazo	20	10866
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Suertudo mayor	150	13768
+	Chromosome: [
+			18004, # Amuleto de shorrokh
+			14932, # Anillo Kturno
+			15698, # Anillo de Pol Guatson
+			14099, # Botas de nocturlabiúho
+			18005, # Capa de mantatáser
+			15699, # Cintáceo
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			10907, # Dosaurio
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			14289, # Hacha Jazo
+			10866, # Otazo
+			15694, # Kidiboina
+			12716, # Jugador mayor
+			13768, # Suertudo mayor
+			]
+Solution 60:
+	Fitness: 1006.0
+	Weapon damage:1006.0
+		Weapon: Guadaña serafina
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:435.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 407.0
+		invocaciones : 3.0
+		% resistencia neutral : 26.0
+		% resistencia al fuego : 25.0
+		% resistencia al aire : 30.0
+		% resistencia al agua : 25.0
+		% resistencia a la tierra : 30.0
+	Characteristics:
+		agilidad: 270.0
+		suerte: 1226.0
+		inteligencia: 280.0
+		fuerza: 230.0
+		vitalidad: 4000.0
+		sabiduría: 375.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de buhotofu	200	14086
+		Anillo	Anillo del profesor Xa	191	12109
+		Anillo	Anillo Céano	200	14879
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capa de buhotofu	200	14085
+		Cinturón	Calpulpillos	200	18006
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Ghulscudo	200	19080
+		Guadaña	Guadaña serafina	200	26009
+		Mascota	Otazo	20	10866
+		Sombrero	Casco de Ilyzaelle	200	19262
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Asolador de agua mayor	150	16264
+	Chromosome: [
+			14086, # Amuleto de buhotofu
+			12109, # Anillo del profesor Xa
+			14879, # Anillo Céano
+			14087, # Botas de buhotofu
+			14085, # Capa de buhotofu
+			18006, # Calpulpillos
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			19080, # Ghulscudo
+			26009, # Guadaña serafina
+			10866, # Otazo
+			19262, # Casco de Ilyzaelle
+			16248, # Suertudo mayor
+			16264, # Asolador de agua mayor
+			]
+Solution 61:
+	Fitness: 1005.6
+	Weapon damage:1005.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:403.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4050.0
+		prospección : 401.0
+		invocaciones : 3.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 17.0
+		% resistencia al agua : 17.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 270.0
+		suerte: 1406.0
+		inteligencia: 510.0
+		fuerza: 270.0
+		vitalidad: 4050.0
+		sabiduría: 390.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo Kturno	196	14932
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Calzón del Capitán Chafer	200	30856
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Cuerbokito Feo	20	7703
+		Sombrero	Casco Tilleo	199	13194
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Nómada	100	16335
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			14932, # Anillo Kturno
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			30856, # Calzón del Capitán Chafer
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			7703, # Cuerbokito Feo
+			13194, # Casco Tilleo
+			12716, # Jugador mayor
+			16248, # Suertudo mayor
+			16335, # Nómada
+			19605, # Varita Malgama
+			]
+Solution 62:
+	Fitness: 998.6
+	Weapon damage:998.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:398.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4050.0
+		prospección : 427.0
+		invocaciones : 4.0
+		% resistencia neutral : 29.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 31.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 24.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 1176.0
+		inteligencia: 300.0
+		fuerza: 230.0
+		vitalidad: 4050.0
+		sabiduría: 435.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Kralamansion	194	9464
+		Anillo	Anillo glacial	197	14058
+		Anillo	Anillo Kturno	196	14932
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capa de buhotofu	200	14085
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Ghulscudo	200	19080
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Bloalak	20	16276
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Viajante	100	13830
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			9464, # Kralamansion
+			14058, # Anillo glacial
+			14932, # Anillo Kturno
+			14087, # Botas de buhotofu
+			14085, # Capa de buhotofu
+			15699, # Cintáceo
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			19080, # Ghulscudo
+			14289, # Hacha Jazo
+			16276, # Bloalak
+			15694, # Kidiboina
+			13830, # Viajante
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			]
+Solution 63:
+	Fitness: 998.5999999999999
+	Weapon damage:998.5999999999999
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:394.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4100.0
+		prospección : 409.0
+		invocaciones : 4.0
+		% resistencia neutral : 36.0
+		% resistencia al fuego : 27.0
+		% resistencia al aire : 17.0
+		% resistencia al agua : 21.0
+		% resistencia a la tierra : 21.0
+	Characteristics:
+		agilidad: 290.0
+		suerte: 1186.0
+		inteligencia: 230.0
+		fuerza: 170.0
+		vitalidad: 4100.0
+		sabiduría: 365.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Kralamansion	194	9464
+		Anillo	Alianza golosona	198	12113
+		Anillo	Anillo Rtografiko	200	24035
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capa de buhotofu	200	14085
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Bloalak	20	16276
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Viajante	100	13830
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			9464, # Kralamansion
+			12113, # Alianza golosona
+			24035, # Anillo Rtografiko
+			14087, # Botas de buhotofu
+			14085, # Capa de buhotofu
+			15699, # Cintáceo
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			14289, # Hacha Jazo
+			16276, # Bloalak
+			15694, # Kidiboina
+			13830, # Viajante
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			]
+Solution 64:
+	Fitness: 998.0
+	Weapon damage:998.0
+		Weapon: Guadaña serafina
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:429.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 406.0
+		invocaciones : 5.0
+		% resistencia neutral : 31.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 20.0
+		% resistencia al agua : 24.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 200.0
+		suerte: 1216.0
+		inteligencia: 170.0
+		fuerza: 300.0
+		vitalidad: 4000.0
+		sabiduría: 410.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de nocturlabiúho	200	14097
+		Anillo	Anillo de vueloceronte	200	19985
+		Anillo	Anillo lunar	200	21228
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Calpulpillos	200	18006
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de Danathor	195	30690
+		Guadaña	Guadaña serafina	200	26009
+		Mascota	Snoofle	20	15249
+		Sombrero	Máscara de los fondos marinos	200	16007
+		Trofeo	Viajante	100	13830
+		Trofeo	Suertudo mayor	150	16248
+	Chromosome: [
+			14097, # Amuleto de nocturlabiúho
+			19985, # Anillo de vueloceronte
+			21228, # Anillo lunar
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			18006, # Calpulpillos
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			30690, # Escudo de Danathor
+			26009, # Guadaña serafina
+			15249, # Snoofle
+			16007, # Máscara de los fondos marinos
+			13830, # Viajante
+			16248, # Suertudo mayor
+			]
+Solution 65:
+	Fitness: 996.0
+	Weapon damage:996.0
+		Weapon: Guadaña serafina
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:427.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 400.0
+		invocaciones : 3.0
+		% resistencia neutral : 26.0
+		% resistencia al fuego : 32.0
+		% resistencia al aire : 20.0
+		% resistencia al agua : 32.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 270.0
+		suerte: 1246.0
+		inteligencia: 220.0
+		fuerza: 170.0
+		vitalidad: 4000.0
+		sabiduría: 335.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de buhotofu	200	14086
+		Anillo	Anillo Céano	200	14879
+		Anillo	Anillo de famosillo	200	19608
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capa de buhotofu	200	14085
+		Cinturón	Calpulpillos	200	18006
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Guadaña	Guadaña serafina	200	26009
+		Mascota	Otazo	20	10866
+		Sombrero	Casco de Ilyzaelle	200	19262
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Sanguinario mayor	150	16339
+	Chromosome: [
+			14086, # Amuleto de buhotofu
+			14879, # Anillo Céano
+			19608, # Anillo de famosillo
+			14087, # Botas de buhotofu
+			14085, # Capa de buhotofu
+			18006, # Calpulpillos
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			26009, # Guadaña serafina
+			10866, # Otazo
+			19262, # Casco de Ilyzaelle
+			16248, # Suertudo mayor
+			16339, # Sanguinario mayor
+			]
+Solution 66:
+	Fitness: 995.6
+	Weapon damage:995.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:403.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 404.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 15.0
+		% resistencia al aire : 47.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 30.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 1246.0
+		inteligencia: 230.0
+		fuerza: 160.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de buhotofu	200	14086
+		Anillo	Granizanillo	196	11470
+		Anillo	Anillo Kturno	196	14932
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Ghulscudo	200	19080
+		Mascota	Snoofle	20	15249
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Potente mayor	150	13825
+		Trofeo	Dañador mayor	150	13834
+		Trofeo	Suertudo mayor	150	16248
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			14086, # Amuleto de buhotofu
+			11470, # Granizanillo
+			14932, # Anillo Kturno
+			14087, # Botas de buhotofu
+			19607, # Capilla absolutoria
+			14162, # Cinto Dovencible
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			19080, # Ghulscudo
+			15249, # Snoofle
+			15694, # Kidiboina
+			12716, # Jugador mayor
+			13825, # Potente mayor
+			13834, # Dañador mayor
+			16248, # Suertudo mayor
+			19605, # Varita Malgama
+			]
+Solution 67:
+	Fitness: 995.6
+	Weapon damage:995.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:403.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 404.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 44.0
+		% resistencia al agua : 20.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 1246.0
+		inteligencia: 230.0
+		fuerza: 100.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de buhotofu	200	14086
+		Anillo	Granizanillo	196	11470
+		Anillo	Anillo Kturno	196	14932
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Trofeo de la Despedazadora	200	31757
+		Mascota	Snoofle	20	15249
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Potente mayor	150	13825
+		Trofeo	Dañador mayor	150	13834
+		Trofeo	Suertudo mayor	150	16248
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			14086, # Amuleto de buhotofu
+			11470, # Granizanillo
+			14932, # Anillo Kturno
+			14087, # Botas de buhotofu
+			19607, # Capilla absolutoria
+			14162, # Cinto Dovencible
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			31757, # Trofeo de la Despedazadora
+			15249, # Snoofle
+			15694, # Kidiboina
+			12716, # Jugador mayor
+			13825, # Potente mayor
+			13834, # Dañador mayor
+			16248, # Suertudo mayor
+			19605, # Varita Malgama
+			]
+Solution 68:
+	Fitness: 992.6
+	Weapon damage:992.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:396.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4100.0
+		prospección : 411.0
+		invocaciones : 4.0
+		% resistencia neutral : 29.0
+		% resistencia al fuego : 27.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 24.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 1166.0
+		inteligencia: 230.0
+		fuerza: 230.0
+		vitalidad: 4100.0
+		sabiduría: 455.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Kralamansion	194	9464
+		Anillo	Anillo glacial	197	14058
+		Anillo	Brazalete de los fondos marinos	200	16005
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capa de buhotofu	200	14085
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Ghulscudo	200	19080
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Bloalak	20	16276
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Viajante	100	13830
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			9464, # Kralamansion
+			14058, # Anillo glacial
+			16005, # Brazalete de los fondos marinos
+			14087, # Botas de buhotofu
+			14085, # Capa de buhotofu
+			15699, # Cintáceo
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			19080, # Ghulscudo
+			14289, # Hacha Jazo
+			16276, # Bloalak
+			15694, # Kidiboina
+			13830, # Viajante
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			]
+Solution 69:
+	Fitness: 987.6
+	Weapon damage:987.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:417.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4110.0
+		prospección : 402.0
+		invocaciones : 3.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 17.0
+		% resistencia al agua : 37.0
+		% resistencia a la tierra : 37.0
+	Characteristics:
+		agilidad: 400.0
+		suerte: 1176.0
+		inteligencia: 170.0
+		fuerza: 130.0
+		vitalidad: 4110.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Anillo Kturno	196	14932
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinturón de nocturlabiúho	200	14098
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Escudo de Ilyzaelle	200	19263
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Pekefux atigrado	20	11011
+		Sombrero	Casco de Ilyzaelle	200	19262
+		Trofeo	Sobreviviente mayor	150	12726
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			14932, # Anillo Kturno
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			14098, # Cinturón de nocturlabiúho
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			19263, # Escudo de Ilyzaelle
+			14289, # Hacha Jazo
+			11011, # Pekefux atigrado
+			19262, # Casco de Ilyzaelle
+			12726, # Sobreviviente mayor
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 70:
+	Fitness: 987.5999999999999
+	Weapon damage:987.5999999999999
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:413.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4050.0
+		prospección : 405.0
+		invocaciones : 3.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 20.0
+		% resistencia al agua : 47.0
+		% resistencia a la tierra : 37.0
+	Characteristics:
+		agilidad: 400.0
+		suerte: 1106.0
+		inteligencia: 150.0
+		fuerza: 130.0
+		vitalidad: 4050.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Anillo Céano	200	14879
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinturón de nocturlabiúho	200	14098
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Escudo de Ilyzaelle	200	19263
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Nomoon	20	6716
+		Sombrero	Casco de Ilyzaelle	200	19262
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			14879, # Anillo Céano
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			14098, # Cinturón de nocturlabiúho
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			19263, # Escudo de Ilyzaelle
+			14289, # Hacha Jazo
+			6716, # Nomoon
+			19262, # Casco de Ilyzaelle
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 71:
+	Fitness: 987.5999999999999
+	Weapon damage:987.5999999999999
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:413.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4050.0
+		prospección : 405.0
+		invocaciones : 3.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 20.0
+		% resistencia al agua : 47.0
+		% resistencia a la tierra : 37.0
+	Characteristics:
+		agilidad: 400.0
+		suerte: 1106.0
+		inteligencia: 150.0
+		fuerza: 130.0
+		vitalidad: 4050.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Anillo Céano	200	14879
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinturón de nocturlabiúho	200	14098
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Escudo de Ilyzaelle	200	19263
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Pekefux	20	8155
+		Sombrero	Casco de Ilyzaelle	200	19262
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			14879, # Anillo Céano
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			14098, # Cinturón de nocturlabiúho
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			19263, # Escudo de Ilyzaelle
+			14289, # Hacha Jazo
+			8155, # Pekefux
+			19262, # Casco de Ilyzaelle
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 72:
+	Fitness: 987.5999999999999
+	Weapon damage:987.5999999999999
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:413.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4050.0
+		prospección : 405.0
+		invocaciones : 3.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 20.0
+		% resistencia al agua : 47.0
+		% resistencia a la tierra : 37.0
+	Characteristics:
+		agilidad: 400.0
+		suerte: 1106.0
+		inteligencia: 150.0
+		fuerza: 130.0
+		vitalidad: 4050.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Anillo Céano	200	14879
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinturón de nocturlabiúho	200	14098
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Escudo de Ilyzaelle	200	19263
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Pekefux atigrado	20	11011
+		Sombrero	Casco de Ilyzaelle	200	19262
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			14879, # Anillo Céano
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			14098, # Cinturón de nocturlabiúho
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			19263, # Escudo de Ilyzaelle
+			14289, # Hacha Jazo
+			11011, # Pekefux atigrado
+			19262, # Casco de Ilyzaelle
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 73:
+	Fitness: 986.5999999999999
+	Weapon damage:986.5999999999999
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:402.2
+	Preferences:
+		PA : 13.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 405.0
+		invocaciones : 4.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 22.0
+		% resistencia al aire : 44.0
+		% resistencia al agua : 16.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 1306.0
+		inteligencia: 230.0
+		fuerza: 100.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de buhotofu	200	14086
+		Anillo	Anillo glacial	197	14058
+		Anillo	Anillo Kturno	196	14932
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Trofeo de la Despedazadora	200	31757
+		Mascota	Snoofle	20	15249
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Caparazón de agua	100	16325
+		Trofeo	Espabilador	100	16333
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			14086, # Amuleto de buhotofu
+			14058, # Anillo glacial
+			14932, # Anillo Kturno
+			14087, # Botas de buhotofu
+			19607, # Capilla absolutoria
+			14162, # Cinto Dovencible
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			31757, # Trofeo de la Despedazadora
+			15249, # Snoofle
+			15694, # Kidiboina
+			12716, # Jugador mayor
+			16248, # Suertudo mayor
+			16325, # Caparazón de agua
+			16333, # Espabilador
+			19605, # Varita Malgama
+			]
+Solution 74:
+	Fitness: 984.6
+	Weapon damage:984.6
+		Weapon: Varita Malgama
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:398.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 407.0
+		invocaciones : 4.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 15.0
+		% resistencia al aire : 44.0
+		% resistencia al agua : 16.0
+		% resistencia a la tierra : 30.0
+	Characteristics:
+		agilidad: 100.0
+		suerte: 1326.0
+		inteligencia: 230.0
+		fuerza: 170.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de buhotofu	200	14086
+		Anillo	Anillo glacial	197	14058
+		Anillo	Anillo Kturno	196	14932
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Trofeo de la Despedazadora	200	31757
+		Mascota	Snoofle	20	15249
+		Sombrero	Casco de grithril	200	19978
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Caparazón de agua	100	16325
+		Trofeo	Espabilador	100	16333
+		Varita	Varita Malgama	200	19605
+	Chromosome: [
+			14086, # Amuleto de buhotofu
+			14058, # Anillo glacial
+			14932, # Anillo Kturno
+			14087, # Botas de buhotofu
+			19607, # Capilla absolutoria
+			14162, # Cinto Dovencible
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			31757, # Trofeo de la Despedazadora
+			15249, # Snoofle
+			19978, # Casco de grithril
+			12716, # Jugador mayor
+			16248, # Suertudo mayor
+			16325, # Caparazón de agua
+			16333, # Espabilador
+			19605, # Varita Malgama
+			]
+Solution 75:
+	Fitness: 980.6
+	Weapon damage:980.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:388.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 404.0
+		invocaciones : 3.0
+		% resistencia neutral : 36.0
+		% resistencia al fuego : 37.0
+		% resistencia al aire : 17.0
+		% resistencia al agua : 21.0
+		% resistencia a la tierra : 21.0
+	Characteristics:
+		agilidad: 330.0
+		suerte: 1186.0
+		inteligencia: 270.0
+		fuerza: 170.0
+		vitalidad: 4000.0
+		sabiduría: 365.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto Bleta	196	14884
+		Anillo	Alianza golosona	198	12113
+		Anillo	Anillo Rtografiko	200	24035
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capa de buhotofu	200	14085
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Cuadrifolio	193	18700
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Bloalak	20	16276
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Viajante	100	13830
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			14884, # Amuleto Bleta
+			12113, # Alianza golosona
+			24035, # Anillo Rtografiko
+			14087, # Botas de buhotofu
+			14085, # Capa de buhotofu
+			15699, # Cintáceo
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			18700, # Cuadrifolio
+			14289, # Hacha Jazo
+			16276, # Bloalak
+			15694, # Kidiboina
+			13830, # Viajante
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			]
+Solution 76:
+	Fitness: 979.5
+	Weapon damage:979.5
+		Weapon: Guadaña serafina
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:418.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 402.0
+		invocaciones : 3.0
+		% resistencia neutral : 26.0
+		% resistencia al fuego : 32.0
+		% resistencia al aire : 20.0
+		% resistencia al agua : 32.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 200.0
+		suerte: 1261.0
+		inteligencia: 150.0
+		fuerza: 100.0
+		vitalidad: 4000.0
+		sabiduría: 335.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de buhotofu	200	14086
+		Anillo	Anillo Céano	200	14879
+		Anillo	Anillo de famosillo	200	19608
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capa de buhotofu	200	14085
+		Cinturón	Calpulpillos	200	18006
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Cuadrifolio	193	18700
+		Guadaña	Guadaña serafina	200	26009
+		Mascota	Otazo	20	10866
+		Sombrero	Casco de Ilyzaelle	200	19262
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Suertudo menor	50	16246
+		Trofeo	Suertudo mayor	150	16248
+	Chromosome: [
+			14086, # Amuleto de buhotofu
+			14879, # Anillo Céano
+			19608, # Anillo de famosillo
+			14087, # Botas de buhotofu
+			14085, # Capa de buhotofu
+			18006, # Calpulpillos
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			18700, # Cuadrifolio
+			26009, # Guadaña serafina
+			10866, # Otazo
+			19262, # Casco de Ilyzaelle
+			12716, # Jugador mayor
+			16246, # Suertudo menor
+			16248, # Suertudo mayor
+			]
+Solution 77:
+	Fitness: 974.5999999999999
+	Weapon damage:974.5999999999999
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:390.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 406.0
+		invocaciones : 3.0
+		% resistencia neutral : 29.0
+		% resistencia al fuego : 37.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 24.0
+	Characteristics:
+		agilidad: 210.0
+		suerte: 1166.0
+		inteligencia: 270.0
+		fuerza: 230.0
+		vitalidad: 4000.0
+		sabiduría: 455.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto Bleta	196	14884
+		Anillo	Anillo glacial	197	14058
+		Anillo	Brazalete de los fondos marinos	200	16005
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capa de buhotofu	200	14085
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Ghulscudo	200	19080
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Bloalak	20	16276
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Viajante	100	13830
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			14884, # Amuleto Bleta
+			14058, # Anillo glacial
+			16005, # Brazalete de los fondos marinos
+			14087, # Botas de buhotofu
+			14085, # Capa de buhotofu
+			15699, # Cintáceo
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			19080, # Ghulscudo
+			14289, # Hacha Jazo
+			16276, # Bloalak
+			15694, # Kidiboina
+			13830, # Viajante
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			]
+Solution 78:
+	Fitness: 973.6
+	Weapon damage:973.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:391.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 402.0
+		invocaciones : 3.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 34.0
+		% resistencia al agua : 34.0
+		% resistencia a la tierra : 37.0
+	Characteristics:
+		agilidad: 270.0
+		suerte: 1126.0
+		inteligencia: 220.0
+		fuerza: 100.0
+		vitalidad: 4000.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Anillo Céano	200	14879
+		Anillo	Anillo Kturno	196	14932
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Subligar de Demena	192	27542
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Escudo de Ilyzaelle	200	19263
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Pekefux atigrado	20	11011
+		Sombrero	Casco de Ilyzaelle	200	19262
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			14879, # Anillo Céano
+			14932, # Anillo Kturno
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			27542, # Subligar de Demena
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			19263, # Escudo de Ilyzaelle
+			14289, # Hacha Jazo
+			11011, # Pekefux atigrado
+			19262, # Casco de Ilyzaelle
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 79:
+	Fitness: 973.6
+	Weapon damage:973.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:391.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 402.0
+		invocaciones : 3.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 34.0
+		% resistencia al agua : 34.0
+		% resistencia a la tierra : 37.0
+	Characteristics:
+		agilidad: 270.0
+		suerte: 1126.0
+		inteligencia: 220.0
+		fuerza: 100.0
+		vitalidad: 4000.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Anillo Céano	200	14879
+		Anillo	Anillo Kturno	196	14932
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Subligar de Demena	192	27542
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Escudo	Escudo de Ilyzaelle	200	19263
+		Hacha	Hacha Jazo	192	14289
+		Mascotura	Dekarbón	60	12963
+		Sombrero	Casco de Ilyzaelle	200	19262
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			14879, # Anillo Céano
+			14932, # Anillo Kturno
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			27542, # Subligar de Demena
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			19263, # Escudo de Ilyzaelle
+			14289, # Hacha Jazo
+			12963, # Dekarbón
+			19262, # Casco de Ilyzaelle
+			13828, # Robusto mayor
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]
+Solution 80:
+	Fitness: 973.0
+	Weapon damage:973.0
+		Weapon: Guadaña serafina
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:419.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4100.0
+		prospección : 406.0
+		invocaciones : 4.0
+		% resistencia neutral : 31.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 20.0
+		% resistencia al agua : 24.0
+		% resistencia a la tierra : 20.0
+	Characteristics:
+		agilidad: 250.0
+		suerte: 1216.0
+		inteligencia: 220.0
+		fuerza: 350.0
+		vitalidad: 4100.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de nocturlabiúho	200	14097
+		Anillo	Anillo de luchador de presinkach	200	15440
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Calpulpillos	200	18006
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de Danathor	195	30690
+		Guadaña	Guadaña serafina	200	26009
+		Mascota	Snoofle	20	15249
+		Sombrero	Máscara de los fondos marinos	200	16007
+		Trofeo	Viajante	100	13830
+		Trofeo	Suertudo mayor	150	16248
+	Chromosome: [
+			14097, # Amuleto de nocturlabiúho
+			15440, # Anillo de luchador de presinkach
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			18006, # Calpulpillos
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			30690, # Escudo de Danathor
+			26009, # Guadaña serafina
+			15249, # Snoofle
+			16007, # Máscara de los fondos marinos
+			13830, # Viajante
+			16248, # Suertudo mayor
+			]
+Solution 81:
+	Fitness: 973.0
+	Weapon damage:973.0
+		Weapon: Guadaña serafina
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:419.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4150.0
+		prospección : 406.0
+		invocaciones : 4.0
+		% resistencia neutral : 31.0
+		% resistencia al fuego : 17.0
+		% resistencia al aire : 20.0
+		% resistencia al agua : 31.0
+		% resistencia a la tierra : 27.0
+	Characteristics:
+		agilidad: 200.0
+		suerte: 1216.0
+		inteligencia: 170.0
+		fuerza: 300.0
+		vitalidad: 4150.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de nocturlabiúho	200	14097
+		Anillo	Anillo trithón	200	18029
+		Anillo	Anillo de vueloceronte	200	19985
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Calpulpillos	200	18006
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de Danathor	195	30690
+		Guadaña	Guadaña serafina	200	26009
+		Mascota	Snoofle	20	15249
+		Sombrero	Máscara de los fondos marinos	200	16007
+		Trofeo	Viajante	100	13830
+		Trofeo	Suertudo mayor	150	16248
+	Chromosome: [
+			14097, # Amuleto de nocturlabiúho
+			18029, # Anillo trithón
+			19985, # Anillo de vueloceronte
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			18006, # Calpulpillos
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			30690, # Escudo de Danathor
+			26009, # Guadaña serafina
+			15249, # Snoofle
+			16007, # Máscara de los fondos marinos
+			13830, # Viajante
+			16248, # Suertudo mayor
+			]
+Solution 82:
+	Fitness: 971.5999999999999
+	Weapon damage:971.5999999999999
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:387.2
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 401.0
+		invocaciones : 3.0
+		% resistencia neutral : 36.0
+		% resistencia al fuego : 44.0
+		% resistencia al aire : 24.0
+		% resistencia al agua : 18.0
+		% resistencia a la tierra : 31.0
+	Characteristics:
+		agilidad: 270.0
+		suerte: 1166.0
+		inteligencia: 270.0
+		fuerza: 230.0
+		vitalidad: 4000.0
+		sabiduría: 455.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto Bleta	196	14884
+		Anillo	Alianza golosona	198	12113
+		Anillo	Brazalete de los fondos marinos	200	16005
+		Bota	Botas de buhotofu	200	14087
+		Capa	Capa de buhotofu	200	14085
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Ghulscudo	200	19080
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Bloalak	20	16276
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Viajante	100	13830
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			14884, # Amuleto Bleta
+			12113, # Alianza golosona
+			16005, # Brazalete de los fondos marinos
+			14087, # Botas de buhotofu
+			14085, # Capa de buhotofu
+			15699, # Cintáceo
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			19080, # Ghulscudo
+			14289, # Hacha Jazo
+			16276, # Bloalak
+			15694, # Kidiboina
+			13830, # Viajante
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			]
+Solution 83:
+	Fitness: 967.6
+	Weapon damage:967.6
+		Weapon: Hacha Jazo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:389.20000000000005
+	Preferences:
+		PA : 12.0
+		PM : 5.0
+		vitalidad : 4000.0
+		prospección : 409.0
+		invocaciones : 3.0
+		% resistencia neutral : 15.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 34.0
+		% resistencia al agua : 34.0
+		% resistencia a la tierra : 37.0
+	Characteristics:
+		agilidad: 340.0
+		suerte: 1196.0
+		inteligencia: 290.0
+		fuerza: 170.0
+		vitalidad: 4000.0
+		sabiduría: 420.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Anillo Céano	200	14879
+		Anillo	Anillo Kturno	196	14932
+		Bota	Botas de nocturlabiúho	200	14099
+		Capa	Capilla absolutoria	200	19607
+		Cinturón	Subligar de Demena	192	27542
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus kalipto	100	8072
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de Ilyzaelle	200	19263
+		Hacha	Hacha Jazo	192	14289
+		Mascota	Pekefux atigrado	20	11011
+		Sombrero	Casco de Ilyzaelle	200	19262
+		Trofeo	Suertudo mayor	150	16248
+		Trofeo	Lozano mayor	150	16332
+		Trofeo	Espabilador	100	16333
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			14879, # Anillo Céano
+			14932, # Anillo Kturno
+			14099, # Botas de nocturlabiúho
+			19607, # Capilla absolutoria
+			27542, # Subligar de Demena
+			7754, # Dofus Ocre
+			8072, # Dofus kalipto
+			13344, # Dolmanax
+			19263, # Escudo de Ilyzaelle
+			14289, # Hacha Jazo
+			11011, # Pekefux atigrado
+			19262, # Casco de Ilyzaelle
+			16248, # Suertudo mayor
+			16332, # Lozano mayor
+			16333, # Espabilador
+			]

@@ -1,0 +1,427 @@
+Solution 0:
+	Fitness: 273.05
+	Weapon damage:1092.2
+		Weapon: Bastón Ba
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:726.6949999999999
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 80.0
+		vitalidad : 4000.0
+		invocaciones : 3.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 16.0
+		% resistencia al aire : 26.0
+		% resistencia al agua : 35.0
+		% resistencia a la tierra : 29.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 332.0
+		inteligencia: 160.0
+		fuerza: 932.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bastón	Bastón Ba	197	14166
+		Bota	Botas trithonas	200	18030
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Pendiente de Kongoku	200	17107
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14166, # Bastón Ba
+			18030, # Botas trithonas
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18718, # Escudo de kukoloide
+			31885, # Microsmoglob
+			17107, # Pendiente de Kongoku
+			13759, # Hércules mayor
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			]
+Solution 1:
+	Fitness: 272.55
+	Weapon damage:1090.2
+		Weapon: Bastón Ba
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:715.495
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 80.0
+		vitalidad : 4000.0
+		invocaciones : 3.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 16.0
+		% resistencia al aire : 26.0
+		% resistencia al agua : 35.0
+		% resistencia a la tierra : 29.0
+	Characteristics:
+		agilidad: 160.0
+		suerte: 332.0
+		inteligencia: 160.0
+		fuerza: 932.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bastón	Bastón Ba	197	14166
+		Bota	Botas trithonas	200	18030
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Pendiente de Kongoku	200	17107
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Rabioso mayor	150	16196
+		Trofeo	Lozano mayor	150	16332
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14166, # Bastón Ba
+			18030, # Botas trithonas
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			18718, # Escudo de kukoloide
+			31885, # Microsmoglob
+			17107, # Pendiente de Kongoku
+			13759, # Hércules mayor
+			16196, # Rabioso mayor
+			16332, # Lozano mayor
+			]
+Solution 2:
+	Fitness: 271.05
+	Weapon damage:1084.2
+		Weapon: Bastón Ba
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:710.645
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 80.0
+		vitalidad : 4000.0
+		invocaciones : 3.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 16.0
+		% resistencia al aire : 26.0
+		% resistencia al agua : 35.0
+		% resistencia a la tierra : 29.0
+	Characteristics:
+		agilidad: 230.0
+		suerte: 402.0
+		inteligencia: 230.0
+		fuerza: 1002.0
+		vitalidad: 4000.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Pol Guatson	200	15701
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bastón	Bastón Ba	197	14166
+		Bota	Botas trithonas	200	18030
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Pendiente de Kongoku	200	17107
+		Trofeo	Hércules mayor	150	13759
+		Trofeo	Rabioso mayor	150	16196
+	Chromosome: [
+			15701, # Amuleto de Pol Guatson
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14166, # Bastón Ba
+			18030, # Botas trithonas
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18718, # Escudo de kukoloide
+			31885, # Microsmoglob
+			17107, # Pendiente de Kongoku
+			13759, # Hércules mayor
+			16196, # Rabioso mayor
+			]
+Solution 3:
+	Fitness: 258.05
+	Weapon damage:1032.2
+		Weapon: Bastón Ba
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:727.332
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 81.0
+		vitalidad : 4100.0
+		invocaciones : 3.0
+		% resistencia neutral : 20.0
+		% resistencia al fuego : 16.0
+		% resistencia al aire : 26.0
+		% resistencia al agua : 28.0
+		% resistencia a la tierra : 22.0
+	Characteristics:
+		agilidad: 280.0
+		suerte: 452.0
+		inteligencia: 280.0
+		fuerza: 902.0
+		vitalidad: 4100.0
+		sabiduría: 410.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Golosotrón Real	198	11720
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bastón	Bastón Ba	197	14166
+		Bota	Botas trithonas	200	18030
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Pendiente de Kongoku	200	17107
+		Trofeo	Rabioso mayor	150	16196
+	Chromosome: [
+			11720, # Amuleto de Golosotrón Real
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			14166, # Bastón Ba
+			18030, # Botas trithonas
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			18718, # Escudo de kukoloide
+			31885, # Microsmoglob
+			17107, # Pendiente de Kongoku
+			16196, # Rabioso mayor
+			]
+Solution 4:
+	Fitness: 251.21333333333334
+	Weapon damage:1507.28
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:833.495
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 80.0
+		vitalidad : 4050.0
+		invocaciones : 3.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 35.0
+		% resistencia al agua : 28.0
+		% resistencia a la tierra : 39.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 572.0
+		inteligencia: 280.0
+		fuerza: 922.0
+		vitalidad: 4050.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas del Espíritu Insano	200	19251
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Máscara del Espíritu Insano	200	19252
+		Trofeo	Hércules mayor	150	13759
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			19251, # Botas del Espíritu Insano
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			30858, # Paravela de Mami Ayuto
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			19252, # Máscara del Espíritu Insano
+			13759, # Hércules mayor
+			]
+Solution 5:
+	Fitness: 247.64666666666668
+	Weapon damage:1485.88
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:828.645
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 80.0
+		vitalidad : 4250.0
+		invocaciones : 3.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 35.0
+		% resistencia al agua : 28.0
+		% resistencia a la tierra : 39.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 572.0
+		inteligencia: 280.0
+		fuerza: 822.0
+		vitalidad: 4250.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas del Espíritu Insano	200	19251
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Máscara del Espíritu Insano	200	19252
+		Trofeo	Potente mayor	150	13825
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			19251, # Botas del Espíritu Insano
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			30858, # Paravela de Mami Ayuto
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			19252, # Máscara del Espíritu Insano
+			13825, # Potente mayor
+			]
+Solution 6:
+	Fitness: 247.38000000000002
+	Weapon damage:1484.2800000000002
+		Weapon: Martillo seco
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:823.7950000000001
+	Preferences:
+		PA : 12.0
+		PM : 6.0
+		% crítico : 80.0
+		vitalidad : 4250.0
+		invocaciones : 3.0
+		% resistencia neutral : 17.0
+		% resistencia al fuego : 20.0
+		% resistencia al aire : 35.0
+		% resistencia al agua : 28.0
+		% resistencia a la tierra : 39.0
+	Characteristics:
+		agilidad: 170.0
+		suerte: 572.0
+		inteligencia: 280.0
+		fuerza: 882.0
+		vitalidad: 4250.0
+		sabiduría: 400.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Bota	Botas del Espíritu Insano	200	19251
+		Capa	Capa Pología	198	14168
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dolmanax	100	13344
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Martillo	Martillo seco	190	27540
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Máscara del Espíritu Insano	200	19252
+		Trofeo	Furibundo mayor	150	12724
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			19251, # Botas del Espíritu Insano
+			14168, # Capa Pología
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			13344, # Dolmanax
+			30858, # Paravela de Mami Ayuto
+			27540, # Martillo seco
+			31885, # Microsmoglob
+			19252, # Máscara del Espíritu Insano
+			12724, # Furibundo mayor
+			]

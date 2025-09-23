@@ -137,6 +137,12 @@ class Chromosome(object):
         prospecting = totals.get(25,0) + totals.get(22,0)//10
         totals[25] = prospecting
 
+        # Lock and dodge adds 1 point per 10 agility
+        lock = totals.get(26,0) + totals.get(36,0)//10
+        dodge = totals.get(59,0) + totals.get(36,0)//10
+        totals[26] = lock
+        totals[59] = dodge
+
         # TODO: Implement healing and other effects
     
     def get_totals(self):

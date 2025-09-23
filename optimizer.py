@@ -55,7 +55,7 @@ class Optimizer(object):
         """
         Initialize the mapping of slots to pool types.
         """
-        # TODO: Allow addition of one defined chromosome (e.g. current set)
+        # TODO: Allow addition of defined chromosomes (e.g. current set)
         self.slot_to_pool_type = {}
         self.pools = []
         inclusions = self.config.get("inclusions", {}).get("items", [])[:]
@@ -138,7 +138,7 @@ class Optimizer(object):
             return False
         if item["level"] + self.config["level_offset"] < self.character.level:
             if item["type"]["superTypeId"] not in [12, 13, 99]: # Pet, Dofus, Mount
-                # Only pets can be low level
+                # Only pets, dofuses, and mounts can be low level
                 return False
 
         if item["type"]["superTypeId"] == 2: # Weapon
@@ -175,6 +175,13 @@ class Optimizer(object):
         return Chromosome(chromosome,
                           self).fitness
 
+    def _insert_initial_options(self,initial_population,initial_options):
+        # Insert options in random places of the population
+        for i in initial_options:
+            random_index = random.randint(0, len(initial_population))
+            initial_population[random_index] = i
+        return initial_population
+    
     def initialize(self):
         """
         Initialize the genetic algorithm instance with the given configuration.
@@ -185,6 +192,9 @@ class Optimizer(object):
         The genetic algorithm instance is created using the pygad library."""
         # Initialize the population
         initial_population = self._initialize_population_from_sets()
+        if self.config.get("initial_options",False):
+            initial_population = self._insert_initial_options(initial_population,
+                                                              self.config["initial_options"])
         self.ga_instance = pygad.GA(
             num_generations=self.config["num_generations"],
             num_parents_mating=self.config["num_parents_mating"],

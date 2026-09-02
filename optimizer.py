@@ -39,7 +39,7 @@ class Optimizer(object):
             (7, 1),
             (10,1),
             (11, 1),
-            ([12,99], 1), # Pet/Mount
+            ([12,27], 1), # Pet/Mount
             (13, 6), # Dofus
         ]
         self.initial_population = None

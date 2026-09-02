@@ -1,13 +1,19 @@
-from functools import reduce
 import random
-import pygad
+from functools import reduce
+
 import numpy as np
+import pygad
+
 from chromosome import Chromosome
 
 # https://chat.cborg.lbl.gov/c/14738910-0178-4da7-be92-69a815a9736c
 
+_pet_mount_super_type_ids = [12, 27, 22, 9, 6]
+_dofus_slot_super_type_ids = [13]
+_prismaradite_type_ids = [124]
+
 # TODO: Save and load solutions 
-class Optimizer(object):
+class Optimizer:
     """
     Optimizer class to manage the genetic algorithm for optimizing item 
     combinations for a Dofus character.
@@ -39,8 +45,8 @@ class Optimizer(object):
             (7, 1),
             (10,1),
             (11, 1),
-            ([12, 27, 22,  9,  6], 1), # Pet/Mount
-            (13, 6), # Dofus
+            (_pet_mount_super_type_ids, 1), # Pet/Mount
+            (_dofus_slot_super_type_ids, 6), # Dofus
         ]
         self.initial_population = None
         self.ga_instance = None
@@ -136,21 +142,20 @@ class Optimizer(object):
             return False
         if item["level"] > self.character.level:
             return False
-        if item["level"] + self.config["level_offset"] < self.character.level:
-            if item["type"]["superTypeId"] not in [12, 13, 99]: # Pet, Dofus, Mount
-                # Only pets, dofuses, and mounts can be low level
-                return False
-
+        if item["level"] + self.config["level_offset"] < self.character.level and item["type"]["superTypeId"] not in _pet_mount_super_type_ids + _dofus_slot_super_type_ids: # Pet, Dofus, Mount
+            # Only pets, dofuses, and mounts can be low level
+            return False
+        if item["type"]["itemTypeId"] in _prismaradite_type_ids:
+            return False # Exclude Prismaradite items
         if item["type"]["superTypeId"] == 2: # Weapon
             if item["apCost"] == 0:
                 # Skip weapons with 0 AP cost
                 return False
             ranged = self.character.config.get("ranged",True)
             melee = self.character.config.get("melee",True)
-            if ranged and isinstance(ranged,int):
+            if ranged and isinstance(ranged,int) and item["range"] < ranged:
                 # User specified minimum range on weapon
-                if item["range"] < ranged:
-                    return False
+                return False
             if item["range"] > 1 and not ranged:
                 # Skip ranged weapons
                 return False

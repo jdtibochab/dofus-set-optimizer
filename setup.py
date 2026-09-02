@@ -17,7 +17,9 @@ setup(
         "pygad",
         "pandas",
         "numpy",
-        "ipykernel"
+        "ipykernel",
+        "scikit-learn",
+        "matplotlib"
     ],
     python_requires=">=3.10",
     classifiers=[

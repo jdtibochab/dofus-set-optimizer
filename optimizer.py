@@ -8,7 +8,7 @@ from chromosome import Chromosome
 
 # https://chat.cborg.lbl.gov/c/14738910-0178-4da7-be92-69a815a9736c
 
-_pet_mount_super_type_ids = [12, 27, 22, 9, 6]
+_pet_mount_super_type_ids = [12, 27]
 _dofus_slot_super_type_ids = [13]
 _prismaradite_type_ids = [124]
 
@@ -162,6 +162,8 @@ class Optimizer:
             if item["range"] <=1 and not melee:
                 # Skip melee weapons
                 return False
+
+        # TODO: Check that either it has effects or is part of a set with effects
 
 
         return True

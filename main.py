@@ -73,6 +73,12 @@ def update_config_from_args(config, args):
             "target": 6, # range
             "strength": 0.1,  # Penalty for not meeting the target
         }
+    if 'midranged' in args.keys:
+        config['character']['ranged'] = 3
+        config['optimizer']['preferences']['lower'][31] = {
+            "target": 6, # range
+            "strength": 0.1,  # Penalty for not meeting the target
+        }
     if 'melee' in args.keys:
         config['character']['ranged'] = False
 
@@ -111,6 +117,8 @@ def _preprocess_items(config):
     return pd.DataFrame.from_dict(dct, orient='index')
 
 def main():
+    print(f"[CHECKPOINT] Starting at {datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}")
+
     # Parse command-line arguments and override config values if provided
     args = parse_args(configure_parser=None)
 
@@ -130,8 +138,8 @@ def main():
     with open(config["optimizer"]["path"] + '/config.json', 'w') as file:
         json.dump(config, file, indent=4)
 
-    # Load items
-    Items = _preprocess_items(config)
+    # # Load items
+    # Items = _preprocess_items(config)
 
     # Initialize objects
     char = Character(**config["character"])
@@ -157,6 +165,8 @@ def main():
     # Plot generations
     analyzer.report_generations()
     plt.savefig(f'{config['optimizer']['path']}/generations.png')
+
+    print(f"[CHECKPOINT] Finished at {datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}")
 
 if __name__ == "__main__":
     main()

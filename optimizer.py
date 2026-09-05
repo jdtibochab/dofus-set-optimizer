@@ -147,6 +147,12 @@ class Optimizer:
             return False
         if item["type"]["itemTypeId"] in _prismaradite_type_ids:
             return False # Exclude Prismaradite items
+
+        # Check that either it has effects or is part of a set
+        if not item['effects'] and not item['hasParentSet']:
+            return False
+
+        # Check if the item is a weapon and apply specific validation rules
         if item["type"]["superTypeId"] == 2: # Weapon
             if item["apCost"] == 0:
                 # Skip weapons with 0 AP cost
@@ -162,10 +168,7 @@ class Optimizer:
             if item["range"] <=1 and not melee:
                 # Skip melee weapons
                 return False
-
-        # TODO: Check that either it has effects or is part of a set with effects
-
-
+        # If the item passed all checks, it is considered valid
         return True
     
     def fitness(self,ga_instance,chromosome,chromosome_idx):

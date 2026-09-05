@@ -25,10 +25,13 @@ def parse_args(configure_parser=None):
         >>> parse_args(configure_parser=...)
     """
     parser = argparse.ArgumentParser(description="Run MLP embedding demo with different DBTL cycle splits")
-    parser.add_argument('--keys', type=str, nargs='+', help='Keys to trigger different settings', default=None, required=True)
+    parser.add_argument('--keys', type=str, nargs='+', help='Keys to trigger different settings', default=['omni'])
     parser.add_argument('--exo', type=str, nargs='+', help='Exos', default=[])
     parser.add_argument('--normalize-by-apcost', action='store_true', help='Whether to normalize damage by AP cost', default=False)
     parser.add_argument('--objective', type=str, help='Objective to optimize, can be "weapon" or "elements"', default="weapon")
+    parser.add_argument('--include-items', type=str, nargs='+', help='Items to include', default=[])
+    parser.add_argument('--exclude-items', type=str, nargs='+', help='Items to exclude', default=[])
+    parser.add_argument('--reference', type=str, nargs='+', help='Reference items', default=[8993, 13641, 13642, 14161, 14162, 14169, 14092, 14093, 18718, 13673, 739, 694, 7754, 737, 7043, 18043])
     if configure_parser is not None:
         configure_parser(parser)
     return parser.parse_args()
@@ -36,7 +39,7 @@ def parse_args(configure_parser=None):
 def update_config_from_args(config, args):
     if 'crit' in args.keys:
         config['optimizer']['preferences']['lower'][29] = {
-            "target": 80,  # Crit
+            "target": 85,  # Crit
             "strength": 0.1,  # Penalty for not meeting the target
         }
     if 'omni' in args.keys:
@@ -93,6 +96,10 @@ def update_config_from_args(config, args):
 
     # if args.normalize_by_apcost:
     #     config['optimizer']['normalize_by_apcost'] = True
+    if args.include_items:
+        config['optimizer']['inclusions']['items'].extend([int(i) for i in args.include_items])
+    if args.exclude_items:
+        config['optimizer']['exclusions']['items'].extend([int(i) for i in args.exclude_items])
 
     # Dump all other keys into optimizer
     for key, value in vars(args).items():
@@ -153,9 +160,17 @@ def main():
 
     # Analyze
     analyzer = Analyzer(opt, solutions)
+
+    # Run analysis
     analyzer.run_analysis()
 
-    # Save results
+    # Add reference to analyzer if provided
+    if config['optimizer'].get('reference'):
+        chr = Chromosome(
+            [int(i) for i in config['optimizer']['reference']], opt)
+        analyzer.candidates.insert(0, chr)
+
+    # Save extended results
     analyzer.report_extended_results()
 
     # Plot PCA

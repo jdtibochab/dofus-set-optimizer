@@ -26,6 +26,7 @@ base_config = {
                         9031,
                         6980, # Vulbis
                         13344, # Dolmanax
+                        32121, # Bota	Clarividencia de Mériana	200	32121
                         ]  # Excluded items
         },
         "inclusions": {

@@ -28,8 +28,7 @@ class Chromosome(object):
 
         # Get the items and item sets of the chromosome
         self.items = [optimizer.items[i] for i in self.chromosome if i is not None]
-        self.item_sets = [v for k,v in optimizer.item_sets.items() \
-                    if set(v["items"]) & set([i["ankama_id"] for i in self.items])] # Filter item sets to only include valid items
+        self.item_sets = optimizer.item_sets # Filter item sets to only include valid items
 
         # Get the item contributions
         self.item_contributions = self.get_item_contributions()
@@ -76,12 +75,20 @@ class Chromosome(object):
         # Set effects contributions
         lst = []
         seen_sets = set()
-        for item_set in self.item_sets:
-            if item_set["ankama_id"] in seen_sets:
+
+        # Iterate over items and get sets, then calculate more efficiently.
+        for item in self.items:
+            if not item['hasParentSet']:
                 continue
-            seen_sets.add(item_set["ankama_id"])
-            overlap = len(set([i["ankama_id"] for i in self.items]) & set(item_set["items"]))
-            lst.append(get_set_contribution(item_set, overlap))
+            parent_set_id = item['parentSet']['id']
+            parent_set = self.item_sets[parent_set_id]
+            if parent_set_id in seen_sets:
+                continue
+            seen_sets.add(parent_set_id)
+            overlapping_items = set([i["ankama_id"] for i in self.items]).intersection(set(parent_set["items"])) if parent_set else set()
+            overlap = len(overlapping_items)
+            lst.append(get_set_contribution(parent_set, overlap))
+
         return pd.DataFrame(lst).sum(axis=0).to_dict()
 
     def is_condition_met(self, condition):
@@ -371,7 +378,7 @@ class Chromosome(object):
         language = self.optimizer.config.get("language", "en")
         dct = {}
         for item in self.items:
-            item_set = get_item_set(item, {k["ankama_id"]: k for k in self.item_sets})
+            item_set = get_item_set(item, self.item_sets)
             dct[item["ankama_id"]] = {
                 "type_id": item["type"]["superTypeId"],
                 "type": item["type"]["name"][language],

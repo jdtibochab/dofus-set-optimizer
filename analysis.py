@@ -42,7 +42,9 @@ class Analyzer(object):
                     continue
                 candidates.append(chr)
         print(f"Number of candidate solutions: {len(candidates)}")
-        self.candidates = candidates
+        # self.candidates = candidates
+        self.candidates = sorted(candidates,key=lambda x: x.fitness, reverse=True)
+
 
     def get_valid_data(self):
         exclude = [179,225,72]
@@ -70,6 +72,8 @@ class Analyzer(object):
         self.principal_components = self.pca.fit_transform(self.df_totals_normalized.values)
 
     def plot_pca(self):
+        if not hasattr(self, 'principal_components'):
+            return
         # Visualize
         plt.figure(figsize=(8,6))
         # Mask data points with fitness value
@@ -115,6 +119,8 @@ class Analyzer(object):
         self.get_candidate_solutions()
         self.get_valid_data()
         self.normalize_totals()
+        if len(self.candidates) == 0:
+            return
         self.run_pca()
         # self.plot_pca()
 
@@ -128,15 +134,12 @@ class Analyzer(object):
             axi.set_ylabel('Best Fitness')
         fig.tight_layout()
 
-    def report_results(self, lst_solutions, ignore_penalized = True):
+    def report_results(self, lst_solutions):
         from utils import elements
         path =self.optimizer.config["path"]
         filename = f"{path}/report.txt"
         with open(filename,"w") as file:
-            for idx, solution in enumerate(sorted(lst_solutions,
-                                                key=lambda x: x.fitness, reverse=True)):
-                if solution.penalized and ignore_penalized:
-                    continue
+            for idx, solution in enumerate(lst_solutions):
 
                 file.write(f"Solution {idx}:\n")
                 file.write(f"\tFitness: {solution.get_fitness()}\n")

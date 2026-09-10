@@ -30,7 +30,7 @@ def construct_report_str(chromosome):
             32, # Potencia
         })
         _report_preferences = [int(i) for i in sorted(list(_report_preferences)) if i in df.index]
-        for i, row in df.loc[_report_preferences].iterrows():
+        for i, row in df.loc[_report_preferences].sort_values("description").iterrows():
             report_lines.append(f"\t\t{row['description']} : {row['value']}")
     report_lines.append("\tCharacteristics:")
     for element in chromosome.elements:

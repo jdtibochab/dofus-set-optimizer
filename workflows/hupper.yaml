@@ -1,41 +1,41 @@
 
 description:
-  name: report-sacri
+  name: report-hupper
   description: Configuration for Dofus set optimization
 
 env:
   variables:
     REPO_ROOT: $(SPECROOT)/..
     
-    OBJECTIVE: "weapon"
+    OBJECTIVE: "elements"
     NORMALIZE_BY_APCOST: "true"
-    EXCLUSIONS: "32121" # Meriana
+    EXCLUSIONS: "32121"
     INCLUSIONS: "7754" # Ocre
 
     ELEMENTS: "36 22 13 45"
-    MELEE: "true"
-    RANGED: "false"
-    WEAPON_RANGE: 0
+    MELEE: "false"
+    RANGED: "true"
+    WEAPON_RANGE: 3
 
     LEVEL: 200
     LEVEL_OFFSET: 10
 
     AP: 12
-    MP: 6
+    MP: 5
     VIT: 4000
     RES_NEUTRAL: 15
     RES_FIRE: 15
     RES_AIR: 15
     RES_WATER: 15
     RES_EARTH: 15
-    RANGE: 0
+    RANGE: 6
 
-    CRIT: 85
-    EXO: "12:1 8:1 29:1"
+    CRIT: 90
+    EXO: "12:1 8:1 29:2 31:1"
     DISTRIBUTED_POINTS: "none"
     SCROLLED: "true"
 
-    REFERENCE: "17683 21235 13642 14161 14162 14169 14092 14093 18718 13673 739 694 7754 737 7043 18043"
+    REFERENCE: "none"
 
 
 batch:

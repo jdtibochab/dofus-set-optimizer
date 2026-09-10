@@ -129,6 +129,7 @@ def parse_args(configure_parser=None):
     parser.add_argument('--res-water', type=int, help='Water resistance for the character', default=15)
     parser.add_argument('--res-earth', type=int, help='Earth resistance for the character', default=15)
     parser.add_argument('--crit', type=int, help='Critical chance for the character', default=0)
+    parser.add_argument('--range', type=int, help='Range for the character', default=1)
 
     # Character dictionaries
     parser.add_argument('--exo', type=str, nargs='+', help='Exos, e.g. "12:1 8:1"', default=[])
@@ -212,6 +213,10 @@ def get_config_from_args(args):
                     29: {
                         "target": args.crit, # Critical chance
                         "strength": args.penalty_strength,  # Penalty for not meeting the target
+                    },
+                    31: {
+                        "target": args.range,  # Range
+                        "strength": args.penalty_strength,  # Penalty for not meeting the target
                     }
                 },
                 "upper": {},
@@ -221,6 +226,7 @@ def get_config_from_args(args):
             "level_offset": args.level_offset,  # Level offset for items
             "objective": args.objective,  # Objective to optimize, can be "weapon" or "elements"
             "normalize_by_apcost" : args.normalize_by_apcost, # If False, only care about absolute damage regardless of AP costst
+            "reference": args.reference,  # Reference items
         },
         "character": {
             "level": args.level,

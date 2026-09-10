@@ -14,7 +14,7 @@ base_config = {
         "language": "es",
         "population_size": 300,
         "num_parents_mating": 100, # Number of parents to mate, usually 1/3 of population size
-        "num_generations": 1000,
+        "num_generations": 500,
         "mutation_rate": 0.1,
         "crossover_rate": 0.8,
         "parent_selection_type": "tournament",  # Tournament Selection
@@ -48,10 +48,6 @@ base_config = {
                     "target": 6,  # MP
                     "strength": 0.1,  # Penalty for not meeting the target
                 },
-                # 29: {
-                #     "target": 80,  # Crit
-                #     "strength": 0.75,  # Penalty for not meeting the target
-                # },
                 9: {
                     "target": 4000,  # Vit
                     "strength": 0.1,  # Penalty for not meeting the target
@@ -75,7 +71,7 @@ base_config = {
                 63 : {
                     "target": 15, # %res range
                     "strength": 0.1,  # Penalty for not meeting the target
-                }
+                },
             },
             "upper": {}
         },

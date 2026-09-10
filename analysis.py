@@ -1,11 +1,56 @@
-import numpy as np
-from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
+import numpy as np
 import pandas as pd
+from sklearn.decomposition import PCA
+
 from chromosome import Chromosome
 
 
-class Analyzer(object):
+def construct_report_str(chromosome):
+    report_lines = []
+    report_lines.append(f"\tFitness: {chromosome.fitness}")
+    report_lines.append(f"\tWeapon damage: {chromosome.get_final_damage(type='weapon')}")
+    wpn = chromosome.weapon['name'][chromosome.optimizer.config.get('language', 'en')]
+    report_lines.append(f"\t\tWeapon: {wpn}")
+    report_lines.append(f"\t\tAP Cost: {chromosome.weapon['apCost']}")
+    report_lines.append(f"\t\tCasts per turn: {chromosome.weapon['maxCastPerTurn']}")
+    dmg = chromosome.get_final_damage(type="elements")
+    report_lines.append(f"\tSpell damage:{dmg}")
+    # file.write("\tIs the solution viable?", solution.viable)
+    # file.write("\tWas the solution penalized?", solution.penalized)
+
+    report_lines.append("\tPreferences:")
+    df = chromosome.totals_summary()
+    for bound, preference in chromosome.preferences.items():
+        _report_preferences = set(preference.keys()).union({
+            29, # Crit
+            24, # Initiative
+            26, # Placaje
+            59, # Huida
+            32, # Potencia
+        })
+        _report_preferences = [int(i) for i in sorted(list(_report_preferences)) if i in df.index]
+        for i, row in df.loc[_report_preferences].iterrows():
+            report_lines.append(f"\t\t{row['description']} : {row['value']}")
+    report_lines.append("\tCharacteristics:")
+    for element in chromosome.elements:
+        element = int(element)
+        report_lines.append(f"\t\t{df.loc[element]['description']}: {df.loc[element]['value']}")
+
+    report_lines.append("\tItems:")
+    report_lines.append("\t\tType\tDescription\tLevel\tID")
+    sorted_summary = chromosome.set_summary().sort_values("type")
+    for item,row in sorted_summary.iterrows():
+        # Prettify the output
+        report_lines.append(f"\t\t{row['type']}\t{row['description']}\t{row['level']}\t{item}")
+
+    chromosome_strings = [f"\t\t\t{gene}, # {row['description']}\n" for gene,row in sorted_summary.iterrows()]
+    phrase = "".join(chromosome_strings)
+    report_lines.append(f"\tChromosome: [\n{phrase}\t\t\t]")
+    report_lines.append("")
+    return "\n".join(report_lines)
+
+class Analyzer:
     def __init__(self, opt, solutions):
         self.optimizer = opt
         self.solutions = solutions
@@ -140,42 +185,9 @@ class Analyzer(object):
         filename = f"{path}/report.txt"
         with open(filename,"w") as file:
             for idx, solution in enumerate(lst_solutions):
-
+                report = construct_report_str(solution)
                 file.write(f"Solution {idx}:\n")
-                file.write(f"\tFitness: {solution.get_fitness()}\n")
-                dmg = solution.get_final_damage(type="weapon")
-                file.write(f"\tWeapon damage:{dmg}\n")
-                wpn = solution.weapon['name'][self.optimizer.config.get('language', 'en')]
-                file.write(f"\t\tWeapon: {wpn}\n")
-                file.write(f"\t\tAP Cost: {solution.weapon['apCost']}\n")
-                file.write(f"\t\tCasts per turn: {solution.weapon['maxCastPerTurn']}\n")
-                dmg = solution.get_final_damage(type="elements")
-                file.write(f"\tSpell damage:{dmg}\n")
-                # file.write("\tIs the solution viable?", solution.viable)
-                # file.write("\tWas the solution penalized?", solution.penalized)
-
-                file.write("\tPreferences:\n")
-                df = solution.totals_summary()
-                for bound, preference in solution.preferences.items():
-                    for element, details in preference.items():
-                        row = df.loc[element]
-                        file.write(f"\t\t{row['description']} : {row['value']}\n")
-                file.write("\tCharacteristics:\n")
-                for element in elements:
-                    file.write(f"\t\t{df.loc[element]['description']}: {df.loc[element]['value']}\n")
-
-                file.write("\tItems:\n")
-                file.write("\t\tType\tDescription\tLevel\tID\n")
-                sorted_summary = solution.set_summary().sort_values("type")
-                for item,row in sorted_summary.iterrows():
-                    # Prettify the output
-                    file.write(f"\t\t{row['type']}\t{row['description']}\t{row['level']}\t{item}\n")
-
-                chromosome_strings = [f"\t\t\t{gene}, # {row['description']}\n" for gene,row in sorted_summary.iterrows()]
-                phrase = "".join(chromosome_strings)
-                file.write(f"\tChromosome: [\n{phrase}\t\t\t]")
-                file.write("\n")
-            file.close()
+                file.write(report + "\n")
 
     def report_extended_results(self):
         self.report_results(self.candidates)

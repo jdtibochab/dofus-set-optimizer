@@ -31,7 +31,7 @@ def parse_args(configure_parser=None):
     parser.add_argument('--objective', type=str, help='Objective to optimize, can be "weapon" or "elements"', default="weapon")
     parser.add_argument('--include-items', type=str, nargs='+', help='Items to include', default=[])
     parser.add_argument('--exclude-items', type=str, nargs='+', help='Items to exclude', default=[])
-    parser.add_argument('--reference', type=str, nargs='+', help='Reference items', default=[8993, 13641, 13642, 14161, 14162, 14169, 14092, 14093, 18718, 13673, 739, 694, 7754, 737, 7043, 18043])
+    parser.add_argument('--reference', type=str, nargs='+', help='Reference items', default=[])
     if configure_parser is not None:
         configure_parser(parser)
     return parser.parse_args()
@@ -79,7 +79,7 @@ def update_config_from_args(config, args):
     if 'midranged' in args.keys:
         config['character']['ranged'] = 3
         config['optimizer']['preferences']['lower'][31] = {
-            "target": 6, # range
+            "target": 4, # range
             "strength": 0.1,  # Penalty for not meeting the target
         }
     if 'melee' in args.keys:

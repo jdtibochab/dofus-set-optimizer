@@ -6,7 +6,7 @@ python -m main \
     --objective weapon \
     --normalize-by-apcost \
     --include-items 7115 18043 \
-    --reference 8993 13641 13642 14161 14162 14169 14092 14093 18718 13673 739 694 7754 737 7043 18043
+    --reference 17683 21235 13642 14161 14162 14169 14092 14093 18718 13673 739 694 7754 737 7043 18043
 
 python -m main \
     --keys omni crit melee \
@@ -37,19 +37,16 @@ python -m main \
 
 # Hupper
 python -m main \
-    --keys omni crit \
-    --exo AP MP crit \
+    --keys omni crit midranged\
+    --exo AP MP crit AL \
     --normalize-by-apcost \
-    --objective weapon \
-    --include-items 18043
-python -m main \
-    --keys omni crit \
-    --exo AP MP crit \
     --objective elements \
     --include-items 18043
+
 python -m main \
-    --keys omni \
-    --exo AP MP crit \
+    --keys agi crit midranged \
+    --exo AP MP crit AL \
+    --normalize-by-apcost \
     --objective elements \
     --include-items 18043
 

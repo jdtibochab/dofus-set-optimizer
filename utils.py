@@ -12,6 +12,24 @@ elements = [
     10, # Wisdom
 ]
 
+_key_to_id = {
+    "agi": 36,
+    "cha": 22,
+    "int": 13,
+    "str": 45,
+    "vit": 9,
+    "wis": 10,
+
+    "ap": 12,
+    "mp": 8,
+    "res_agi": 16,
+    "res_cha": 17,
+    "res_int": 37,
+    "res_str": 63,
+    "crit": 29,
+    "range": 31
+}
+
 damage_mapper = {
         # Damage
             189 : 36, # Air,
@@ -108,12 +126,7 @@ def parse_args(configure_parser=None):
     # Items and characteristics
     parser.add_argument('--exclusions', type=int, nargs='+', help='Items to exclude', default=[])
     parser.add_argument('--inclusions', type=int, nargs='+', help='Items to include', default=[])
-    parser.add_argument('--elements', type=int, nargs='+', help='Character elements', default=[
-        36, # Agility,
-        22, # Chance
-        13, # Intelligence
-        45  # Strength
-    ])
+    parser.add_argument('--elements', type=str, nargs='+', help='Character elements', default=["agi", "str", "cha", "int"])
     parser.add_argument('--melee', action='store_true', help='Whether the character is melee', default=False)
     parser.add_argument('--ranged', action='store_true', help='Whether the character is ranged', default=False)
     parser.add_argument('--weapon-range', type=int, help='Minimum weapon range for the character', default=1)
@@ -143,8 +156,8 @@ def parse_args(configure_parser=None):
 def _parse_lst_to_dict(lst):
     result = {}
     for item in lst:
-        key, value = map(int, item.split(':'))
-        result[int(key)] = int(value)
+        key, value = map(str, item.split(':'))
+        result[_key_to_id[key]] = int(value)
     return result
 
 def get_config_from_args(args):
@@ -165,6 +178,7 @@ def get_config_from_args(args):
                             9031,
                             6980, # Vulbis
                             13344, # Dolmanax
+                            29136, # Silvestre
                             ] + args.exclusions,
             },
             "inclusions": {
@@ -233,7 +247,7 @@ def get_config_from_args(args):
             "scrolled": args.scrolled,
             "exo": _parse_lst_to_dict(args.exo),
             "distributed_points": _parse_lst_to_dict(args.distributed_points),
-            "elements" : args.elements,
+            "elements" : [_key_to_id[key] for key in args.elements],
             "melee" : args.melee,
             "ranged" : args.weapon_range if args.ranged else False
         }

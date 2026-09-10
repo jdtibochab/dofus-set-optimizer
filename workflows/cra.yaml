@@ -12,7 +12,7 @@ env:
     EXCLUSIONS: "32121"
     INCLUSIONS: "7754" # Ocre
 
-    ELEMENTS: "36 22 13 45"
+    ELEMENTS: "agi str cha int"
     MELEE: "false"
     RANGED: "true"
     WEAPON_RANGE: 7
@@ -31,7 +31,7 @@ env:
     RANGE: 6
 
     CRIT: 85
-    EXO: "12:1 8:1 29:1 31:1"
+    EXO: "ap:1 mp:1 crit:1 vit:200 range:1"
     DISTRIBUTED_POINTS: "none"
     SCROLLED: "true"
 

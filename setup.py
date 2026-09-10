@@ -19,7 +19,8 @@ setup(
         "numpy",
         "ipykernel",
         "scikit-learn",
-        "matplotlib"
+        "matplotlib",
+        "maestrowf"
     ],
     python_requires=">=3.10",
     classifiers=[

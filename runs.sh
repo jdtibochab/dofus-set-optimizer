@@ -58,3 +58,7 @@ python -m main \
     --objective weapon \
     --include-items 7115 18043 \
     --reference 17578 17579 17580 19984 19983 19985 19986 15190 18700 13673 739 13825 18043 7754 7043 694 7115
+
+
+
+maestro --run sacri.yaml -o ../report/sacri

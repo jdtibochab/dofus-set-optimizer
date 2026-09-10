@@ -1,40 +1,17 @@
-from datetime import datetime 
-import argparse
-import os
 import json
-
-from optimizer import Optimizer
-from chromosome import Chromosome
-from character import Character
-from utils import get_item_set, elements
-from data import items, item_sets
-import pandas as pd
-from analysis import Analyzer
+import os
+from datetime import datetime
 
 import matplotlib.pyplot as plt
-from utils import base_config
+import pandas as pd
 
-def parse_args(configure_parser=None):
-    """
-    Build the command-line parser for the training workflow.
+from analysis import Analyzer
+from character import Character
+from chromosome import Chromosome
+from data import item_sets, items
+from optimizer import Optimizer
+from utils import get_config_from_args, get_item_set, parse_args
 
-    Args:
-        configure_parser (Any): Input value.
-
-    Example:
-        >>> parse_args(configure_parser=...)
-    """
-    parser = argparse.ArgumentParser(description="Run MLP embedding demo with different DBTL cycle splits")
-    parser.add_argument('--keys', type=str, nargs='+', help='Keys to trigger different settings', default=['omni'])
-    parser.add_argument('--exo', type=str, nargs='+', help='Exos', default=[])
-    parser.add_argument('--normalize-by-apcost', action='store_true', help='Whether to normalize damage by AP cost', default=False)
-    parser.add_argument('--objective', type=str, help='Objective to optimize, can be "weapon" or "elements"', default="weapon")
-    parser.add_argument('--include-items', type=str, nargs='+', help='Items to include', default=[])
-    parser.add_argument('--exclude-items', type=str, nargs='+', help='Items to exclude', default=[])
-    parser.add_argument('--reference', type=str, nargs='+', help='Reference items', default=[])
-    if configure_parser is not None:
-        configure_parser(parser)
-    return parser.parse_args()
 
 def update_config_from_args(config, args):
     if 'crit' in args.keys:
@@ -130,13 +107,13 @@ def main():
     args = parse_args(configure_parser=None)
 
     # Copy base config
-    config = base_config.copy()
+    config = get_config_from_args(args)
 
-    # Update from keys
-    config = update_config_from_args(config, args)
+    # # Update from keys
+    # config = update_config_from_args(config, args)
 
-    # Update path
-    config['optimizer']['path'] = _get_output_path(args)
+    # # Update path
+    # config['optimizer']['path'] = _get_output_path(args)
 
     # Save configs
     if not os.path.exists(config["optimizer"]["path"]):

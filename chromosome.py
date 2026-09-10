@@ -264,9 +264,9 @@ class Chromosome(object):
         target = preference["target"]
         current = self.totals.get(element, 0)
         if bound_type == "lower":
-            return max(target - current, 0)/target
+            return max(target - current, 0)/max(target, 1) # Avoid division by zero
         else:
-            return max(current - target, 0)/target
+            return max(current - target, 0)/max(target, 1)
 
     def _get_preference_penalty(self, preferences):
         """

@@ -1,0 +1,96 @@
+
+description:
+  name: report-sacri
+  description: Configuration for Dofus set optimization
+
+env:
+  variables:
+    REPO_ROOT: $(SPECROOT)/..
+    
+    OBJECTIVE: "weapon"
+    NORMALIZE_BY_APCOST: "true"
+    EXCLUSIONS: "none"
+    INCLUSIONS: "none"
+
+    ELEMENTS: "36 22 13 45"
+    MELEE: "true"
+    RANGED: "false"
+    WEAPON_RANGE: 1
+
+    LEVEL: 200
+    LEVEL_OFFSET: 10
+
+    AP: 12
+    MP: 6
+    VIT: 4000
+    RES_NEUTRAL: 15
+    RES_FIRE: 15
+    RES_AIR: 15
+    RES_WATER: 15
+    RES_EARTH: 15
+
+    CRIT: 85
+    EXO: "12:1 8:1 29:1"
+    DISTRIBUTED_POINTS: "9:595"
+    SCROLLED: "true"
+
+
+batch:
+  type: local
+
+study:
+  - name: run_training
+    description: Run training for the CRISPRi workflow on SLURM
+    run:
+      cmd: |
+        cd $(REPO_ROOT)
+
+        flags=(
+          "$(REPO_ROOT)/main.py"
+          "--objective" "$(OBJECTIVE)"
+          "--elements" $(ELEMENTS)
+          "--level" "$(LEVEL)"
+          "--level-offset" "$(LEVEL_OFFSET)"
+          "--ap" "$(AP)"
+          "--mp" "$(MP)"
+          "--vit" "$(VIT)"
+          "--res-neutral" "$(RES_NEUTRAL)"
+          "--res-fire" "$(RES_FIRE)"
+          "--res-air" "$(RES_AIR)"
+          "--res-water" "$(RES_WATER)"
+          "--res-earth" "$(RES_EARTH)"
+          "--crit" "$(CRIT)"
+          "--path" "$(WORKSPACE)"
+        )
+
+        if [ "$(NORMALIZE_BY_APCOST)" = "true" ]; then
+          flags+=("--normalize-by-apcost")
+        fi
+        if [ "$(EXCLUSIONS)" != "none" ]; then
+          flags+=("--exclusions" $(EXCLUSIONS))
+        fi
+        if [ "$(INCLUSIONS)" != "none" ]; then
+          flags+=("--inclusions" $(INCLUSIONS))
+        fi
+        if [ "$(SCROLLED)" = "true" ]; then
+          flags+=("--scrolled")
+        fi
+        if [ -n "$(EXO)" ]; then
+          flags+=("--exo" $(EXO))
+        fi
+        if [ -n "$(DISTRIBUTED_POINTS)" ]; then
+          flags+=("--distributed-points" $(DISTRIBUTED_POINTS))
+        fi
+        if [ -n "$(WEAPON_RANGE)" ]; then
+          flags+=("--weapon-range" $(WEAPON_RANGE))
+        fi
+        if [ "$(MELEE)" = "true" ]; then
+          flags+=("--melee")
+        fi
+        if [ "$(RANGED)" = "true" ]; then
+          flags+=("--ranged")
+        fi
+
+        echo "Running with flags: ${flags[@]}"
+
+        python "${flags[@]}"

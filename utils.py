@@ -119,13 +119,15 @@ def parse_args(configure_parser=None):
 
     parser.add_argument('--reference', type=str, nargs='+', help='Reference items', default=[])
     parser.add_argument('--population-size', type=int, help='Population size for the optimizer', default=100)
-    parser.add_argument('--num-parents-mating', type=int, help='Number of parents to mate', default=100)
+    parser.add_argument('--num-parents-mating', type=int, help='Number of parents to mate', default=150)
     parser.add_argument('--num-generations', type=int, help='Number of generations', default=300)
-    parser.add_argument('--mutation-rate', type=float, help='Mutation rate', default=0.05)
-    parser.add_argument('--crossover-rate', type=float, help='Crossover rate', default=0.8)
+    parser.add_argument('--mutation-type', type=str, help='Mutation type for the optimizer', default="adaptive")
+    parser.add_argument('--mutation-rate', type=float, nargs='+', help='Mutation rate', default=[0.1875, 0.0625])
+    parser.add_argument('--crossover-rate', type=float, help='Crossover rate', default=0.85)
     parser.add_argument('--tournament-size', type=int, help='Tournament size for selection', default=3)
-    parser.add_argument('--penalty-strength', type=float, help='Penalty for strength', default=0.1)
-
+    parser.add_argument('--penalty-strength', type=float, help='Penalty for strength', default=0.01)
+    parser.add_argument('--keep-elitism', type=int, help='Keep elitism for the optimizer', default=2)
+    parser.add_argument('--crossover-type', type=str, help='Crossover type for the optimizer', default="single_point")
 
     # Items and characteristics
     parser.add_argument('--exclusions', type=int, nargs='+', help='Items to exclude', default=[])
@@ -178,6 +180,9 @@ def get_config_from_args(args):
             "crossover_rate": args.crossover_rate,
             "parent_selection_type": "tournament",  # Tournament Selection
             "tournament_size": args.tournament_size,
+            "keep_elitism": args.keep_elitism,
+            "mutation_type": args.mutation_type,
+            "crossover_type": args.crossover_type,
             "exclusions": {
                 "items": [6894,
                             6895,

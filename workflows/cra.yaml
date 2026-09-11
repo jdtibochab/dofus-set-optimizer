@@ -7,7 +7,7 @@ env:
   variables:
     REPO_ROOT: $(SPECROOT)/..
     
-    OBJECTIVE: "weapon"
+    OBJECTIVE: "elements"
     NORMALIZE_BY_APCOST: "true"
     EXCLUSIONS: "32121"
     INCLUSIONS: "7754" # Ocre
@@ -30,7 +30,7 @@ env:
     RES_EARTH: 15
     RANGE: 6
 
-    CRIT: 80
+    CRIT: 85
     EXO: "ap:1 mp:1 crit:2 vit:200 range:1"
     DISTRIBUTED_POINTS: "none"
     SCROLLED: "true"

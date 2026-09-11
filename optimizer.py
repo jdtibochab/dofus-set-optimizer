@@ -206,20 +206,29 @@ class Optimizer:
             initial_population = self._insert_initial_options(initial_population,
                                                               self.config["initial_options"])
         self.ga_instance = pygad.GA(
+            # --- General Configuration ---
             num_generations=self.config["num_generations"],
             num_parents_mating=self.config["num_parents_mating"],
             sol_per_pop=self.config["population_size"],
-            num_genes=len(self.pools),
             fitness_func=self.fitness,
-            gene_type=int,
-            gene_space=self.pools,
             parent_selection_type=self.config["parent_selection_type"],
             K_tournament=self.config.get("tournament_size", 3),
-            crossover_probability=self.config["crossover_rate"],
-            mutation_probability=self.config["mutation_rate"],
-            keep_elitism=2,
+            keep_elitism=self.config["keep_elitism"],
             initial_population=initial_population,
             save_best_solutions=True,
+
+            # --- Chromosome Structure ---
+            num_genes=len(self.pools),
+            gene_type=int,
+            gene_space=self.pools,
+
+            # --- Mutation Configuration ---
+            mutation_type = self.config["mutation_type"],
+            mutation_probability=self.config["mutation_rate"],
+
+            # --- Crossover Configuration ---
+            crossover_type=self.config["crossover_type"],
+            crossover_probability=self.config["crossover_rate"],
         )
 
     def run_ga(self, island=None):

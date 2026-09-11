@@ -21,22 +21,30 @@ def construct_report_str(chromosome):
 
     report_lines.append("\tPreferences:")
     df = chromosome.totals_summary()
-    for bound, preference in chromosome.preferences.items():
-        _report_preferences = set(preference.keys()).union({
+
+    # Include all preferences from the chromosome in the report
+    _report_preferences = {
             29, # Crit
             24, # Initiative
             26, # Placaje
             59, # Huida
             32, # Potencia
-        })
-        _report_preferences = [int(i) for i in list(_report_preferences) if i in df.index]
-        for i, row in df.loc[_report_preferences].sort_values("description").iterrows():
-            report_lines.append(f"\t\t{row['description']} : {row['value']}")
+    }
+    for bound, preference in chromosome.preferences.items():
+        _report_preferences = _report_preferences.union({int(i) for i in preference})
+
+    # Filter out preferences that are not present in the dataframe index
+    _report_preferences = [i for i in _report_preferences if i in df.index]
+    for i, row in df.loc[_report_preferences].sort_values("description").iterrows():
+        report_lines.append(f"\t\t{row['description']} : {row['value']}")
     report_lines.append("\tCharacteristics:")
+
+    # Include all characteristics from the chromosome in the report
     for element in chromosome.elements:
         element = int(element)
         report_lines.append(f"\t\t{df.loc[element]['description']}: {df.loc[element]['value']}")
 
+    # Include all items from the chromosome in the report
     report_lines.append("\tItems:")
     report_lines.append("\t\tType\tDescription\tLevel\tID")
     sorted_summary = chromosome.set_summary().sort_values("type")

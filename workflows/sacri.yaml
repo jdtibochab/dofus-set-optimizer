@@ -31,7 +31,7 @@ env:
     RANGE: 0
 
     CRIT: 85
-    EXO: "ap:1 mp:1 crit:1 vit:200"
+    EXO: "ap:1 mp:1 crit:2 vit:200"
     DISTRIBUTED_POINTS: "none"
     SCROLLED: "true"
 

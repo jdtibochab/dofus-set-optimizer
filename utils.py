@@ -27,7 +27,11 @@ _key_to_id = {
     "res_int": 37,
     "res_str": 63,
     "crit": 29,
-    "range": 31
+    "range": 31,
+    "ini": 24,
+    "lock": 26,
+    "dodge": 59,
+    "pow": 32
 }
 
 damage_mapper = {
@@ -116,7 +120,7 @@ def parse_args(configure_parser=None):
     parser.add_argument('--reference', type=str, nargs='+', help='Reference items', default=[])
     parser.add_argument('--population-size', type=int, help='Population size for the optimizer', default=100)
     parser.add_argument('--num-parents-mating', type=int, help='Number of parents to mate', default=100)
-    parser.add_argument('--num-generations', type=int, help='Number of generations', default=200)
+    parser.add_argument('--num-generations', type=int, help='Number of generations', default=300)
     parser.add_argument('--mutation-rate', type=float, help='Mutation rate', default=0.05)
     parser.add_argument('--crossover-rate', type=float, help='Crossover rate', default=0.8)
     parser.add_argument('--tournament-size', type=int, help='Tournament size for selection', default=3)
@@ -148,7 +152,10 @@ def parse_args(configure_parser=None):
     parser.add_argument('--exo', type=str, nargs='+', help='Exos, e.g. "12:1 8:1"', default=[])
     parser.add_argument('--distributed-points', type=str, nargs='+', help='Distributed points for character attributes, e.g. "9: 595"', default=[])
 
+    # I/O
     parser.add_argument('--path', type=str, help='Output path for the optimizer results', default=f'reports/{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}')
+    parser.add_argument('--config', type=str, help='Path to the configuration file', default=None)
+
     if configure_parser is not None:
         configure_parser(parser)
     return parser.parse_args()

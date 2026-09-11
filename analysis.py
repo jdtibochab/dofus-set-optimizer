@@ -29,7 +29,7 @@ def construct_report_str(chromosome):
             59, # Huida
             32, # Potencia
         })
-        _report_preferences = [int(i) for i in sorted(list(_report_preferences)) if i in df.index]
+        _report_preferences = [int(i) for i in list(_report_preferences) if i in df.index]
         for i, row in df.loc[_report_preferences].sort_values("description").iterrows():
             report_lines.append(f"\t\t{row['description']} : {row['value']}")
     report_lines.append("\tCharacteristics:")
@@ -46,6 +46,13 @@ def construct_report_str(chromosome):
 
     chromosome_strings = [f"\t\t\t{gene}, # {row['description']}\n" for gene,row in sorted_summary.iterrows()]
     phrase = "".join(chromosome_strings)
+
+    report_lines.append(f"\tPenalized: {chromosome.penalized}")
+    if chromosome.penalized:
+        # Indicate what was penalized
+        for penalty in chromosome.penalties:
+            report_lines.append(f"\t\tPenalized: {penalty['element']} ({penalty['bound_type']}) with offset {penalty['offset']} and strength {penalty['strength']}")
+
     report_lines.append(f"\tChromosome: [\n{phrase}\t\t\t]")
     report_lines.append("")
     return "\n".join(report_lines)

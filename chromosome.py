@@ -25,6 +25,7 @@ class Chromosome(object):
         self.objective = optimizer.config["objective"]
         self.viable = True
         self.penalized = False
+        self.penalties = []
 
         # Get the items and item sets of the chromosome
         self.items = [optimizer.items[i] for i in self.chromosome if i is not None]
@@ -281,6 +282,14 @@ class Chromosome(object):
                     # Penalize and also continuously reduce the fitness
                     penalty *= (1 - strength) * (1 - offset)
                     self.penalized = True
+
+                    # Store the penalty for this preference
+                    self.penalties.append({
+                        "element": element,
+                        "bound_type": bound_type,
+                        "offset": offset,
+                        "strength": strength
+                    })
         return penalty
         
     def penalize(self, fitness):
@@ -297,13 +306,21 @@ class Chromosome(object):
         - The preferences are applied as a penalty factor, which is multiplied to the fitness.
         """
         # Duplicated dofus and trophies
-        duplicates = len(self.chromosome[-6:]) - len(set(self.chromosome[-6:]))
+        _dofus_type_items = self.chromosome[-6:]
+        duplicates = len(_dofus_type_items) - len(set(_dofus_type_items))
         for _ in range(duplicates):
             # Penalty per duplicated dofus or trophy
             fitness *= 0.1
             # Mark as non-viable
             self.viable = False
             self.penalized = True
+
+            self.penalties.append({
+                "element": ",".join([str(i) for i in _dofus_type_items]),
+                "bound_type": "duplicated_dofus_or_trophy",
+                "offset": None,
+                "strength": None
+            })
 
         if len(set(self.chromosome[2:4])) < 2:
             # Arbitrary penalty for duplicated rings
@@ -312,6 +329,13 @@ class Chromosome(object):
             self.viable = False
             self.penalized = True
 
+            self.penalties.append({
+                "element": None,
+                "bound_type": "duplicated_rings",
+                "offset": None,
+                "strength": None
+            })
+
         for item in self.items:
             if not self.are_item_conditions_met(item):
                 # Penalize for items that do not meet the conditions
@@ -319,7 +343,12 @@ class Chromosome(object):
                 # Mark as non-viable
                 self.viable = False
                 self.penalized = True
-                
+                self.penalties.append({
+                    "element": None,
+                    "bound_type": f"item_conditions_not_met:{item['ankama_id']}",
+                    "offset": None,
+                    "strength": None
+                })
         # Penalizations for preferences
         penalty = self._get_preference_penalty(self.preferences)
         return fitness * penalty

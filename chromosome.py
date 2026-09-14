@@ -1,4 +1,4 @@
-from utils import damage_mapper, bonus_damage_mapper
+from utils import damage_mapper, bonus_damage_mapper, elements
 from utils import get_item_contribution, get_set_contribution, get_item_set
 import pandas as pd
 
@@ -150,6 +150,9 @@ class Chromosome(object):
         dodge = totals.get(59,0) + totals.get(36,0)//10
         totals[26] = lock
         totals[59] = dodge
+
+        # Initiative
+        totals[24] = totals.get(24,0) + sum(totals.get(e,0) for e in elements)
 
         # TODO: Implement healing and other effects
     

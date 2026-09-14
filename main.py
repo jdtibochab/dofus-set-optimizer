@@ -34,6 +34,8 @@ def main():
     # Copy base config
     config = get_config_from_args(args)
 
+    # config['character']['melee'] = True
+
     # Save configs
     if not os.path.exists(config["optimizer"]["path"]):
         os.makedirs(config["optimizer"]["path"], exist_ok=True)
@@ -52,7 +54,10 @@ def main():
                     **config["optimizer"])
 
     # Optimize
-    solutions = opt.optimize(islands = 12, max_workers = 4)
+    solutions = opt.optimize(
+        islands = config['optimizer']['islands'],
+        max_workers = config['optimizer']['max_workers']
+    )
 
     # Analyze
     analyzer = Analyzer(opt, solutions)

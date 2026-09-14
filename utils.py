@@ -8,8 +8,6 @@ elements = [
     22, # Chance
     13, # Intelligence
     45, # Strength
-    9, # Vitality
-    10, # Wisdom
 ]
 
 _key_to_id = {
@@ -129,6 +127,9 @@ def parse_args(configure_parser=None):
     parser.add_argument('--keep-elitism', type=int, help='Keep elitism for the optimizer', default=2)
     parser.add_argument('--crossover-type', type=str, help='Crossover type for the optimizer', default="single_point")
 
+    parser.add_argument('--islands', type=int, help='Number of islands for the optimizer', default=1)
+    parser.add_argument('--max-workers', type=int, help='Maximum number of workers for parallel execution', default=1)
+
     # Items and characteristics
     parser.add_argument('--exclusions', type=int, nargs='+', help='Items to exclude', default=[])
     parser.add_argument('--inclusions', type=int, nargs='+', help='Items to include', default=[])
@@ -139,8 +140,8 @@ def parse_args(configure_parser=None):
     parser.add_argument('--level', type=int, help='Character level', default=200)
     parser.add_argument('--scrolled', action='store_true', help='Whether the character has scrolled items', default=False)
     parser.add_argument('--level-offset', type=int, help='Level offset for items', default=10)
-    parser.add_argument('--ap', type=int, help='Action points for the character', default=12)
-    parser.add_argument('--mp', type=int, help='Movement points for the character', default=6)
+    parser.add_argument('--ap', type=int, help='Action points for the character', default=7)
+    parser.add_argument('--mp', type=int, help='Movement points for the character', default=3)
     parser.add_argument('--vit', type=int, help='Vitality for the character', default=4000)
     parser.add_argument('--res-neutral', type=int, help='Neutral resistance for the character', default=15)
     parser.add_argument('--res-fire', type=int, help='Fire resistance for the character', default=15)
@@ -183,6 +184,8 @@ def get_config_from_args(args):
             "keep_elitism": args.keep_elitism,
             "mutation_type": args.mutation_type,
             "crossover_type": args.crossover_type,
+            "max_workers": args.max_workers,
+            "islands": args.islands,
             "exclusions": {
                 "items": [6894,
                             6895,

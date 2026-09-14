@@ -7,9 +7,9 @@ env:
   variables:
     REPO_ROOT: $(SPECROOT)/..
     
-    OBJECTIVE: "elements"
+    OBJECTIVE: "weapon"
     NORMALIZE_BY_APCOST: "true"
-    EXCLUSIONS: "32121"
+    EXCLUSIONS: "32121 16333 16335" # Meriana
     INCLUSIONS: "7754" # Ocre
 
     ELEMENTS: "agi str cha int"
@@ -36,6 +36,8 @@ env:
     SCROLLED: "true"
 
     REFERENCE: "17578 17579 17580 19984 19983 19985 19986 15190 18700 13673 739 13825 18043 7754 7043 694 7115"
+    ISLANDS: 80
+    MAX_WORKERS: 8
 
 batch:
   type: local
@@ -64,6 +66,8 @@ study:
           "--crit" "$(CRIT)"
           "--range" "$(RANGE)"
           "--path" "$(WORKSPACE)"
+          "--islands" "$(ISLANDS)"
+          "--max-workers" "$(MAX_WORKERS)"
         )
 
         if [ "$(NORMALIZE_BY_APCOST)" = "true" ]; then

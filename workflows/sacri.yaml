@@ -9,7 +9,7 @@ env:
     
     OBJECTIVE: "weapon"
     NORMALIZE_BY_APCOST: "true"
-    EXCLUSIONS: "32121" # Meriana
+    EXCLUSIONS: "32121 16333 16335" # Meriana
     INCLUSIONS: "7754" # Ocre
 
     ELEMENTS: "agi str cha int"
@@ -36,6 +36,8 @@ env:
     SCROLLED: "true"
 
     REFERENCE: "17683 21235 13642 14161 14162 14169 14092 14093 18718 13673 739 694 7754 737 7043 18043"
+    ISLANDS: 80
+    MAX_WORKERS: 8
 
 
 batch:
@@ -65,6 +67,8 @@ study:
           "--crit" "$(CRIT)"
           "--range" "$(RANGE)"
           "--path" "$(WORKSPACE)"
+          "--islands" "$(ISLANDS)"
+          "--max-workers" "$(MAX_WORKERS)"
         )
 
         if [ "$(NORMALIZE_BY_APCOST)" = "true" ]; then

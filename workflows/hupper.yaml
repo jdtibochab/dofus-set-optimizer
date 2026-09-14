@@ -9,7 +9,7 @@ env:
     
     OBJECTIVE: "elements"
     NORMALIZE_BY_APCOST: "true"
-    EXCLUSIONS: "32121"
+    EXCLUSIONS: "32121" # Meriana
     INCLUSIONS: "7754" # Ocre
 
     ELEMENTS: "agi str cha int"
@@ -36,6 +36,8 @@ env:
     SCROLLED: "true"
 
     REFERENCE: "none"
+    ISLANDS: 16
+    MAX_WORKERS: 8
 
 
 batch:
@@ -65,6 +67,8 @@ study:
           "--crit" "$(CRIT)"
           "--range" "$(RANGE)"
           "--path" "$(WORKSPACE)"
+          "--islands" "$(ISLANDS)"
+          "--max-workers" "$(MAX_WORKERS)"
         )
 
         if [ "$(NORMALIZE_BY_APCOST)" = "true" ]; then

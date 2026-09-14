@@ -4,6 +4,7 @@ import pandas as pd
 from sklearn.decomposition import PCA
 
 from chromosome import Chromosome
+import chromosome
 
 
 def construct_report_str(chromosome):
@@ -198,11 +199,29 @@ class Analyzer:
         from utils import elements
         path =self.optimizer.config["path"]
         filename = f"{path}/report.txt"
+
+        _sol_columns = []
         with open(filename,"w") as file:
             for idx, solution in enumerate(lst_solutions):
                 report = construct_report_str(solution)
                 file.write(f"Solution {idx}:\n")
                 file.write(report + "\n")
+
+                # Append solution summary
+                df = solution.totals_summary()
+                _series = df.dropna(subset=['description']).set_index('description')['value'].sort_index()
+                _series['Fitness'] = solution.fitness
+                _series['Weapon'] = solution.weapon['name'][solution.optimizer.config.get('language', 'en')]
+                _series['Weapon damage'] = solution.get_final_damage(type='weapon')
+                _series['Weapon AP cost'] = solution.weapon['apCost']
+                _series['Weapon casts per turn'] = solution.weapon['maxCastPerTurn']
+                _series['Spell damage'] = solution.get_final_damage(type='elements')
+                _sol_columns.append(_series)
+        if not _sol_columns:
+            return
+        merged_df = pd.concat(_sol_columns, axis=1)
+        merged_df.columns = [f"Solution {i}" for i in range(len(_sol_columns))]
+        merged_df.to_csv(f"{path}/summary.csv")
 
     def report_extended_results(self):
         self.report_results(self.candidates)

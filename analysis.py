@@ -216,6 +216,8 @@ class Analyzer:
                 _series['Weapon AP cost'] = solution.weapon['apCost']
                 _series['Weapon casts per turn'] = solution.weapon['maxCastPerTurn']
                 _series['Spell damage'] = solution.get_final_damage(type='elements')
+                # Remove duplicate labels
+                _series = _series[~_series.index.duplicated(keep='first')]
                 _sol_columns.append(_series)
         if not _sol_columns:
             return

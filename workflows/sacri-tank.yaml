@@ -10,7 +10,7 @@ env:
     OBJECTIVE: "elements"
     NORMALIZE_BY_APCOST: "true"
     EXCLUSIONS: "32121 16333 16335" # Meriana
-    INCLUSIONS: "7754" # Ocre
+    INCLUSIONS: "7754 7115" # Ocre, Marfil
 
     ELEMENTS: "agi"
     MELEE: "true"
@@ -32,12 +32,12 @@ env:
     LOCK: 150
     DODGE: 60
     CRIT: 0
-    
+
     EXO: "ap:1 mp:1 vit:200"
     DISTRIBUTED_POINTS: "none"
     SCROLLED: "true"
 
-    REFERENCE: "17683 21235 13642 14161 14162 14169 14092 14093 18718 13673 739 694 7754 737 7043 18043"
+    REFERENCE: "none"
     ISLANDS: 16
     MAX_WORKERS: 8
 

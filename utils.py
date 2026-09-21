@@ -150,6 +150,8 @@ def parse_args(configure_parser=None):
     parser.add_argument('--res-earth', type=int, help='Earth resistance for the character', default=15)
     parser.add_argument('--crit', type=int, help='Critical chance for the character', default=0)
     parser.add_argument('--range', type=int, help='Range for the character', default=1)
+    parser.add_argument('--lock', type=int, help='Lock for the character', default=1)
+    parser.add_argument('--dodge', type=int, help='Dodge for the character', default=1)
 
     # Character dictionaries
     parser.add_argument('--exo', type=str, nargs='+', help='Exos, e.g. "12:1 8:1"', default=[])
@@ -169,6 +171,20 @@ def _parse_lst_to_dict(lst):
         key, value = map(str, item.split(':'))
         result[_key_to_id[key]] = int(value)
     return result
+
+def get_bounds_from_args(args):
+    bound = {}
+    for key, value in vars(args).items():
+        if key not in _key_to_id:
+            continue
+        if value <= 0:
+            continue
+        _id = _key_to_id[key]
+        bound[_id] = {
+            "target": value,
+            "strength": args.penalty_strength
+        }
+    return bound
 
 def get_config_from_args(args):
     config = {
@@ -206,48 +222,7 @@ def get_config_from_args(args):
                 ] + args.inclusions,
             },
             "preferences": {
-                "lower": {
-                    12: {
-                        "target": args.ap,  # AP
-                        "strength": args.penalty_strength,  # Penalty for not meeting the target
-                    },
-                    8: {
-                        "target": args.mp,  # MP
-                        "strength": args.penalty_strength,  # Penalty for not meeting the target
-                    },
-                    9: {
-                        "target": args.vit,  # Vit
-                        "strength": args.penalty_strength,  # Penalty for not meeting the target
-                    },
-                    34 : {
-                        "target": args.res_neutral, # %res neutral
-                        "strength": args.penalty_strength,  # Penalty for not meeting the target
-                    },
-                    37 : {
-                        "target": args.res_fire, # %res fire
-                        "strength": args.penalty_strength,  # Penalty for not meeting the target
-                    },
-                    16 : {
-                        "target": args.res_air, # %res air
-                        "strength": args.penalty_strength,  # Penalty for not meeting the target
-                    },
-                    17 : {
-                        "target": args.res_water, # %res water
-                        "strength": args.penalty_strength,  # Penalty for not meeting the target
-                    },
-                    63 : {
-                        "target": args.res_earth, # %res earth
-                        "strength": args.penalty_strength,  # Penalty for not meeting the target
-                    },
-                    29: {
-                        "target": args.crit, # Critical chance
-                        "strength": args.penalty_strength,  # Penalty for not meeting the target
-                    },
-                    31: {
-                        "target": args.range,  # Range
-                        "strength": args.penalty_strength,  # Penalty for not meeting the target
-                    }
-                },
+                "lower": get_bounds_from_args(args),
                 "upper": {},
             },
 

@@ -29,6 +29,8 @@ env:
     RES_WATER: 15
     RES_EARTH: 15
     RANGE: 6
+    LOCK: 0
+    DODGE: 0
 
     CRIT: 90
     EXO: "ap:1 mp:1 crit:2 vit:200 range:1"
@@ -69,6 +71,8 @@ study:
           "--path" "$(WORKSPACE)"
           "--islands" "$(ISLANDS)"
           "--max-workers" "$(MAX_WORKERS)"
+          "--lock" "$(LOCK)"
+          "--dodge" "$(DODGE)"
         )
 
         if [ "$(NORMALIZE_BY_APCOST)" = "true" ]; then

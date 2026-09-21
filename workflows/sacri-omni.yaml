@@ -1,6 +1,6 @@
 
 description:
-  name: report-cra
+  name: report-sacri-omni
   description: Configuration for Dofus set optimization
 
 env:
@@ -13,33 +13,34 @@ env:
     INCLUSIONS: "7754" # Ocre
 
     ELEMENTS: "agi str cha int"
-    MELEE: "false"
-    RANGED: "true"
-    WEAPON_RANGE: 7
+    MELEE: "true"
+    RANGED: "false"
+    WEAPON_RANGE: 0
 
     LEVEL: 200
     LEVEL_OFFSET: 10
 
     AP: 12
-    MP: 5
+    MP: 6
     VIT: 4000
     RES_NEUTRAL: 15
     RES_FIRE: 15
     RES_AIR: 15
     RES_WATER: 15
     RES_EARTH: 15
-    RANGE: 6
+    RANGE: 0
     LOCK: 0
     DODGE: 0
 
     CRIT: 85
-    EXO: "ap:1 mp:1 crit:2 vit:200 range:1"
+    EXO: "ap:1 mp:1 crit:2 vit:200"
     DISTRIBUTED_POINTS: "none"
     SCROLLED: "true"
 
-    REFERENCE: "17578 17579 17580 19984 19983 19985 19986 15190 18700 13673 739 13825 18043 7754 7043 694 7115"
+    REFERENCE: "17683 21235 13642 14161 14162 14169 14092 14093 18718 13673 739 694 7754 737 7043 18043"
     ISLANDS: 80
     MAX_WORKERS: 8
+
 
 batch:
   type: local

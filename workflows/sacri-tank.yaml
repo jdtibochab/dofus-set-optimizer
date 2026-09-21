@@ -1,18 +1,18 @@
 
 description:
-  name: report-sacri
+  name: report-sacri-tank
   description: Configuration for Dofus set optimization
 
 env:
   variables:
     REPO_ROOT: $(SPECROOT)/..
     
-    OBJECTIVE: "weapon"
+    OBJECTIVE: "elements"
     NORMALIZE_BY_APCOST: "true"
     EXCLUSIONS: "32121 16333 16335" # Meriana
     INCLUSIONS: "7754" # Ocre
 
-    ELEMENTS: "agi str cha int"
+    ELEMENTS: "agi"
     MELEE: "true"
     RANGED: "false"
     WEAPON_RANGE: 0
@@ -21,7 +21,7 @@ env:
     LEVEL_OFFSET: 10
 
     AP: 12
-    MP: 6
+    MP: 5
     VIT: 4000
     RES_NEUTRAL: 15
     RES_FIRE: 15
@@ -29,14 +29,16 @@ env:
     RES_WATER: 15
     RES_EARTH: 15
     RANGE: 0
-
-    CRIT: 85
-    EXO: "ap:1 mp:1 crit:2 vit:200"
+    LOCK: 150
+    DODGE: 60
+    CRIT: 0
+    
+    EXO: "ap:1 mp:1 vit:200"
     DISTRIBUTED_POINTS: "none"
     SCROLLED: "true"
 
     REFERENCE: "17683 21235 13642 14161 14162 14169 14092 14093 18718 13673 739 694 7754 737 7043 18043"
-    ISLANDS: 80
+    ISLANDS: 16
     MAX_WORKERS: 8
 
 
@@ -69,6 +71,8 @@ study:
           "--path" "$(WORKSPACE)"
           "--islands" "$(ISLANDS)"
           "--max-workers" "$(MAX_WORKERS)"
+          "--lock" "$(LOCK)"
+          "--dodge" "$(DODGE)"
         )
 
         if [ "$(NORMALIZE_BY_APCOST)" = "true" ]; then

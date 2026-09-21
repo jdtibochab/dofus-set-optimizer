@@ -1,5 +1,6 @@
 
 
-maestro --run sacri.yaml
-maestro --run cra.yaml
-maestro --run hupper.yaml
+maestro run sacri-omni.yaml
+maestro run sacri-tank.yaml
+maestro run cra.yaml
+maestro run hupper.yaml

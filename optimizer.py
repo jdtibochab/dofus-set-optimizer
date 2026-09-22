@@ -159,15 +159,27 @@ class Optimizer:
                 return False
             ranged = self.character.config.get("ranged",True)
             melee = self.character.config.get("melee",True)
-            item_range = item.get("minRange", item['range'])
-            if ranged and isinstance(ranged,int) and item_range < ranged:
+            item_min_range = item.get("minRange", item['range'])
+            item_max_range = item['range']
+
+            passed = True
+            if ranged and isinstance(ranged,int) and item_max_range < ranged:
                 # User specified minimum range on weapon
-                return False
-            if item_range > 1 and not ranged:
+                passed = False
+
+            if melee and item_min_range > 1:
+                # Skip weapons with minimum range greater than 1
+                passed = False
+
+            if not ranged and item_min_range > 1:
                 # Skip ranged weapons
-                return False
-            if item_range <=1 and not melee:
+                passed = False
+            
+            if not melee and item_max_range <=1:
                 # Skip melee weapons
+                passed = False
+
+            if not passed:
                 return False
         # If the item passed all checks, it is considered valid
         return True

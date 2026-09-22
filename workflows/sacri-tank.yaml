@@ -7,15 +7,15 @@ env:
   variables:
     REPO_ROOT: $(SPECROOT)/..
     
-    OBJECTIVE: "elements"
+    OBJECTIVE: "steal"
     NORMALIZE_BY_APCOST: "true"
-    EXCLUSIONS: "32121 16333 16335" # Meriana
-    INCLUSIONS: "7754 7115" # Ocre, Marfil
+    EXCLUSIONS: "32121 16333 16335 20354" # Meriana
+    INCLUSIONS: "7754 7115 18043 694 20366" # Ocre, Marfil
 
     ELEMENTS: "agi"
     MELEE: "true"
     RANGED: "false"
-    WEAPON_RANGE: 0
+    WEAPON_RANGE: "none"
 
     LEVEL: 200
     LEVEL_OFFSET: 10

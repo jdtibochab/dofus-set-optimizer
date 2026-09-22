@@ -1,4 +1,4 @@
-from utils import damage_mapper, bonus_damage_mapper, elements
+from utils import damage_mapper, bonus_damage_mapper, elements, steal_damages
 from utils import get_item_contribution, get_set_contribution, get_item_set
 import pandas as pd
 
@@ -172,7 +172,7 @@ class Chromosome(object):
         self._implement_element_effects(totals)
         return totals
     
-    def get_weapon_damage(self, weapon):
+    def get_weapon_damage(self, weapon, type):
         if not weapon["effects"]:
             return {}
         damage_effects = [d for d in weapon["effects"] if d["active"]]
@@ -182,7 +182,9 @@ class Chromosome(object):
         for d in damage_effects:
             field = "max" if d["min_max_irrelevant"] == 0 else "min"
             element_id = d["element_id"]
-            if element_id == 248: # Best element flag
+            if type == "steal" and element_id not in steal_damages:
+                continue
+            if element_id == 248 or element_id == 257: # Best element flag
                 stats = {i:v for i,v in self.totals.items() if i in damage_mapper.values()}
                 best_stat = sorted(stats,key=lambda x: stats[x])[-1]
                 # Get the element with highest stat
@@ -206,10 +208,10 @@ class Chromosome(object):
         base_crit_chance = self.totals.get(29,0)
         base_crit_added_damage = self.totals.get(38,0)
 
-        if type == "weapon":
+        if type == "weapon" or type == "steal":
             if self.weapon is None:
                 return 0
-            dct_damage = self.get_weapon_damage(self.weapon)
+            dct_damage = self.get_weapon_damage(self.weapon, type=type)
             crit_bonus = self.weapon["criticalHitBonus"] \
                 if not pd.isna(self.weapon["criticalHitBonus"]) else 0
             crit_chance = self.weapon["criticalHitProbability"] \
@@ -363,7 +365,7 @@ class Chromosome(object):
         can be either "weapon" or "elements".
         """
         # TODO: Implement push damage
-        if self.objective in ["weapon", "elements"]:
+        if self.objective in ["weapon", "elements", "steal"]:
             fitness = self.get_final_damage(type=self.objective)
             if self.objective == "weapon" and self.optimizer.config.get("normalize_by_apcost", True):
                 # Normalize by AP cost

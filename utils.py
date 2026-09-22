@@ -33,6 +33,8 @@ _key_to_id = {
     "pow": 32
 }
 
+steal_damages = [224, 203, 193, 221, 223, 257]
+
 damage_mapper = {
         # Damage
             189 : 36, # Air,
@@ -114,7 +116,7 @@ def parse_args(configure_parser=None):
 
     # Optimizer
     parser.add_argument('--normalize-by-apcost', action='store_true', help='Whether to normalize damage by AP cost', default=False)
-    parser.add_argument('--objective', type=str, help='Objective to optimize, can be "weapon" or "elements"', default="weapon")
+    parser.add_argument('--objective', type=str, help='Objective to optimize, can be "weapon" or "elements"', default="weapon", choices=["weapon", "elements", "steal"])
 
     parser.add_argument('--reference', type=str, nargs='+', help='Reference items', default=[])
     parser.add_argument('--population-size', type=int, help='Population size for the optimizer', default=100)

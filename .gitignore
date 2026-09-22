@@ -1,6 +1,7 @@
 data/
 outputs/
 reports/
+debug/
 
 report-*
 manifest.json

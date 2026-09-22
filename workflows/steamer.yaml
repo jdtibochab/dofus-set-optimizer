@@ -1,0 +1,111 @@
+
+description:
+  name: report-steamer
+  description: Configuration for Dofus set optimization
+
+env:
+  variables:
+    REPO_ROOT: $(SPECROOT)/..
+    
+    OBJECTIVE: "push"
+    NORMALIZE_BY_APCOST: "true"
+    EXCLUSIONS: "32121" # Meriana
+    INCLUSIONS: "7754" # Ocre
+
+    ELEMENTS: "agi cha"
+    MELEE: "false"
+    RANGED: "true"
+    WEAPON_RANGE: 2
+
+    LEVEL: 200
+    LEVEL_OFFSET: 10
+
+    AP: 12
+    MP: 5 
+    VIT: 4000
+    RES_NEUTRAL: 20
+    RES_FIRE: 20
+    RES_AIR: 20
+    RES_WATER: 20
+    RES_EARTH: 20
+    RANGE: 4
+    LOCK: 0
+    DODGE: 0
+
+    CRIT: 0
+    EXO: "ap:1 mp:1 vit:200 range:1"
+    DISTRIBUTED_POINTS: "none"
+    SCROLLED: "true"
+
+    REFERENCE: "none"
+    ISLANDS: 16
+    MAX_WORKERS: 8
+
+
+batch:
+  type: local
+
+study:
+  - name: run_training
+    description: Run training for the CRISPRi workflow on SLURM
+    run:
+      cmd: |
+        cd $(REPO_ROOT)
+
+        flags=(
+          "$(REPO_ROOT)/main.py"
+          "--objective" "$(OBJECTIVE)"
+          "--elements" $(ELEMENTS)
+          "--level" "$(LEVEL)"
+          "--level-offset" "$(LEVEL_OFFSET)"
+          "--ap" "$(AP)"
+          "--mp" "$(MP)"
+          "--vit" "$(VIT)"
+          "--res-neutral" "$(RES_NEUTRAL)"
+          "--res-fire" "$(RES_FIRE)"
+          "--res-air" "$(RES_AIR)"
+          "--res-water" "$(RES_WATER)"
+          "--res-earth" "$(RES_EARTH)"
+          "--crit" "$(CRIT)"
+          "--range" "$(RANGE)"
+          "--path" "$(WORKSPACE)"
+          "--islands" "$(ISLANDS)"
+          "--max-workers" "$(MAX_WORKERS)"
+          "--lock" "$(LOCK)"
+          "--dodge" "$(DODGE)"
+        )
+
+        if [ "$(NORMALIZE_BY_APCOST)" = "true" ]; then
+          flags+=("--normalize-by-apcost")
+        fi
+        if [ "$(EXCLUSIONS)" != "none" ]; then
+          flags+=("--exclusions" $(EXCLUSIONS))
+        fi
+        if [ "$(INCLUSIONS)" != "none" ]; then
+          flags+=("--inclusions" $(INCLUSIONS))
+        fi
+        if [ "$(SCROLLED)" = "true" ]; then
+          flags+=("--scrolled")
+        fi
+        if [ "$(EXO)" != "none" ]; then
+          flags+=("--exo" $(EXO))
+        fi
+        if [ "$(DISTRIBUTED_POINTS)" != "none" ]; then
+          flags+=("--distributed-points" $(DISTRIBUTED_POINTS))
+        fi
+        if [ "$(WEAPON_RANGE)" != "none" ]; then
+          flags+=("--weapon-range" $(WEAPON_RANGE))
+        fi
+        if [ "$(MELEE)" = "true" ]; then
+          flags+=("--melee")
+        fi
+        if [ "$(RANGED)" = "true" ]; then
+          flags+=("--ranged")
+        fi
+        if [ "$(REFERENCE)" != "none" ]; then
+          flags+=("--reference" $(REFERENCE))
+        fi
+
+        echo "Running with flags: ${flags[@]}"
+
+        python "${flags[@]}"

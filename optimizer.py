@@ -279,7 +279,11 @@ class Optimizer:
             with concurrent.futures.ProcessPoolExecutor(max_workers=max_workers) as executor:
                 results = list(executor.map(self.run_ga, range(islands)))
                 return results
-        return self.run_ga()
+
+        solutions = self.run_ga()
+        if not isinstance(solutions, list):
+            solutions = [solutions]
+        return solutions
     
     @property
     def effect_descriptions(self):

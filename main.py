@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 from datetime import datetime
 
 import matplotlib.pyplot as plt
@@ -35,6 +36,10 @@ def main():
     config = get_config_from_args(args)
 
     # config['character']['melee'] = True
+
+    if os.getenv('TERM_PROGRAM') == 'vscode' and 'debugpy' in sys.modules:
+        config["optimizer"]["path"] = f"debug/{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}"
+        config["optimizer"]["objective"] = "push"
 
     # Save configs
     if not os.path.exists(config["optimizer"]["path"]):

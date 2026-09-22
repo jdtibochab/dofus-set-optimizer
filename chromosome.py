@@ -265,14 +265,18 @@ class Chromosome(object):
     
     def _get_offset(self, element, preference, bound_type):
         """
-        Calculate the offset for a given element based on the preference and bound type.
+        Calculate the relative offset for a given element based on the preference and bound type.
         """
         target = preference["target"]
         current = self.totals.get(element, 0)
         if bound_type == "lower":
-            return max(target - current, 0)/max(target, 1) # Avoid division by zero
+            value = max(target - current, 0)/max(target, 1) # Avoid division by zero
         else:
-            return max(current - target, 0)/max(target, 1)
+            value = max(current - target, 0)/max(target, 1)
+
+        # Apply a tanh activation to smoothly scale the offset between 0 and 1
+        value = (pow(2.71828, value) - pow(2.71828, -value)) / (pow(2.71828, value) + pow(2.71828, -value))
+        return value
 
     def _get_preference_penalty(self, preferences):
         """
@@ -285,7 +289,10 @@ class Chromosome(object):
                 offset = self._get_offset(element, preference, bound_type)
                 if offset:
                     # Penalize and also continuously reduce the fitness
-                    penalty *= (1 - strength) * (1 - offset)
+                    _penalty = (1 - strength) * (1 - offset)
+
+                    # Multiply the overall penalty by the calculated penalty for this preference
+                    penalty *= _penalty
                     self.penalized = True
 
                     # Store the penalty for this preference
@@ -293,7 +300,8 @@ class Chromosome(object):
                         "element": element,
                         "bound_type": bound_type,
                         "offset": offset,
-                        "strength": strength
+                        "strength": strength,
+                        "penalty": (1 - strength) * (1 - offset)
                     })
         return penalty
         
@@ -371,6 +379,8 @@ class Chromosome(object):
                 # Normalize by AP cost
                 ap_cost = self.weapon["apCost"]
                 fitness /= ap_cost
+        elif self.objective == "push":
+            fitness = self.totals.get(62, 0)
         elif isinstance(self.objective, int):
             # User provided a integer flag for optimizing an element
             fitness = self.totals.get(self.objective, 0)

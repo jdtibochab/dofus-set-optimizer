@@ -112,11 +112,11 @@ def parse_args(configure_parser=None):
     Example:
         >>> parse_args(configure_parser=...)
     """
-    parser = argparse.ArgumentParser(description="Run MLP embedding demo with different DBTL cycle splits")
+    parser = argparse.ArgumentParser(description="Run the Dofus set optimization workflow")
 
     # Optimizer
     parser.add_argument('--normalize-by-apcost', action='store_true', help='Whether to normalize damage by AP cost', default=False)
-    parser.add_argument('--objective', type=str, help='Objective to optimize, can be "weapon" or "elements"', default="weapon", choices=["weapon", "elements", "steal"])
+    parser.add_argument('--objective', type=str, help='Objective to optimize, can be "weapon" or "elements"', default="weapon", choices=["weapon", "elements", "steal", "push"])
 
     parser.add_argument('--reference', type=str, nargs='+', help='Reference items', default=[])
     parser.add_argument('--population-size', type=int, help='Population size for the optimizer', default=100)

@@ -10,12 +10,12 @@ env:
     OBJECTIVE: "weapon"
     NORMALIZE_BY_APCOST: "true"
     EXCLUSIONS: "32121 16333 16335" # Meriana
-    INCLUSIONS: "7754" # Ocre
+    INCLUSIONS: "7754 7115 7043 18043 739 694" # Dofus inclusions
 
     ELEMENTS: "agi str cha int"
     MELEE: "false"
     RANGED: "true"
-    WEAPON_RANGE: 7
+    WEAPON_RANGE: 6
 
     LEVEL: 200
     LEVEL_OFFSET: 10
@@ -38,7 +38,7 @@ env:
     SCROLLED: "true"
 
     REFERENCE: "17578 17579 17580 19984 19983 19985 19986 15190 18700 13673 739 13825 18043 7754 7043 694 7115"
-    ISLANDS: 80
+    ISLANDS: 16
     MAX_WORKERS: 8
 
 batch:

@@ -10,7 +10,7 @@ env:
     OBJECTIVE: "steal"
     NORMALIZE_BY_APCOST: "true"
     EXCLUSIONS: "32121 16333 16335 20354" # Meriana
-    INCLUSIONS: "7754 7115 18043 694 20366" # Ocre, Marfil
+    INCLUSIONS: "7754 7115 18043 694 20366 24034" # Ocre, Marfil
 
     ELEMENTS: "agi"
     MELEE: "true"
@@ -32,12 +32,13 @@ env:
     LOCK: 150
     DODGE: 60
     CRIT: 0
+    INITIATIVE: 3000
 
     EXO: "ap:1 mp:1 vit:200"
     DISTRIBUTED_POINTS: "none"
     SCROLLED: "true"
 
-    REFERENCE: "none"
+    REFERENCE: "17581 13124 17582 13125 17583 20366 694 7115 7754 18043 7043 737 19263 24034 11966 13123"
     ISLANDS: 16
     MAX_WORKERS: 8
 
@@ -73,6 +74,7 @@ study:
           "--max-workers" "$(MAX_WORKERS)"
           "--lock" "$(LOCK)"
           "--dodge" "$(DODGE)"
+          "--initiative" "$(INITIATIVE)"
         )
 
         if [ "$(NORMALIZE_BY_APCOST)" = "true" ]; then

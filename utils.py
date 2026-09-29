@@ -27,7 +27,7 @@ _key_to_id = {
     "res_neutral": 34,
     "crit": 29,
     "range": 31,
-    "ini": 24,
+    "initiative": 24,
     "lock": 26,
     "dodge": 59,
     "pow": 32
@@ -145,16 +145,17 @@ def parse_args(configure_parser=None):
     parser.add_argument('--level-offset', type=int, help='Level offset for items', default=10)
     parser.add_argument('--ap', type=int, help='Action points for the character', default=7)
     parser.add_argument('--mp', type=int, help='Movement points for the character', default=3)
-    parser.add_argument('--vit', type=int, help='Vitality for the character', default=4000)
-    parser.add_argument('--res-neutral', type=int, help='Neutral resistance for the character', default=15)
-    parser.add_argument('--res-fire', type=int, help='Fire resistance for the character', default=15)
-    parser.add_argument('--res-air', type=int, help='Air resistance for the character', default=15)
-    parser.add_argument('--res-water', type=int, help='Water resistance for the character', default=15)
-    parser.add_argument('--res-earth', type=int, help='Earth resistance for the character', default=15)
+    parser.add_argument('--vit', type=int, help='Vitality for the character', default=3000)
+    parser.add_argument('--res-neutral', type=int, help='Neutral resistance for the character', default=0)
+    parser.add_argument('--res-fire', type=int, help='Fire resistance for the character', default=0)
+    parser.add_argument('--res-air', type=int, help='Air resistance for the character', default=0)
+    parser.add_argument('--res-water', type=int, help='Water resistance for the character', default=0)
+    parser.add_argument('--res-earth', type=int, help='Earth resistance for the character', default=0)
     parser.add_argument('--crit', type=int, help='Critical chance for the character', default=0)
-    parser.add_argument('--range', type=int, help='Range for the character', default=1)
-    parser.add_argument('--lock', type=int, help='Lock for the character', default=1)
-    parser.add_argument('--dodge', type=int, help='Dodge for the character', default=1)
+    parser.add_argument('--range', type=int, help='Range for the character', default=0)
+    parser.add_argument('--lock', type=int, help='Lock for the character', default=0)
+    parser.add_argument('--dodge', type=int, help='Dodge for the character', default=0)
+    parser.add_argument('--initiative', type=int, help='Initiative for the character', default=0)
 
     # Character dictionaries
     parser.add_argument('--exo', type=str, nargs='+', help='Exos, e.g. "12:1 8:1"', default=[])

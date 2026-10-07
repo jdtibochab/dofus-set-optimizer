@@ -89,12 +89,15 @@ def get_item_contribution(item):
 def get_set_contribution(item_set, overlap):
     set_effects = item_set["effects"]
     contributions = {}
+
+    # Process set effects for the given overlap
     if set_effects is not None:
         for d in set_effects.get(str(overlap), []):
             field = "max" if d["min_max_irrelevant"] == 0 else "min"
             contributions[d["element_id"]] = d[field]
-    # Add to set bonus
-    contributions[72] = overlap - 1
+    
+    # Starting v3.7, set bonus contribution is calculated as 1 for every set with at least 2 pieces
+    contributions[72] = int(overlap >= 2)
     return contributions
 
 def get_item_set(item, item_sets):

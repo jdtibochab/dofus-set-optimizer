@@ -1,3 +1,6 @@
+# Temporary files
+# Hidden temporary files
+_*
 data/
 outputs/
 reports/

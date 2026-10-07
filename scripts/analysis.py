@@ -116,7 +116,7 @@ class Analyzer:
             lst_fitness.append(candidate.fitness)
         df_totals = pd.DataFrame.from_dict(dct_totals, orient='index').fillna(0.)
         df_totals = df_totals[[i for i in df_totals.columns if i not in exclude]]
-        df_totals.columns = df_totals.columns.map(lambda x: self.optimizer.effect_descriptions.get(x, {}).get('es', x))
+        df_totals.columns = df_totals.columns.map(lambda x: self.optimizer.effect_descriptions.get(x, {}).get(self.optimizer.config.get('language', 'en'), x))
         self.df_totals = df_totals
         self.lst_fitness = lst_fitness
 

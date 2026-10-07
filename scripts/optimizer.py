@@ -298,5 +298,8 @@ class Optimizer:
         effect_descriptions[72] = {
             'en': 'Set bonus',
             'es': 'Bonus de set',
+            'fr': 'Bonus de panoplie',
+            'de': 'Setbonus',
+            'pt': 'Bônus de conjunto',
         }
         return effect_descriptions

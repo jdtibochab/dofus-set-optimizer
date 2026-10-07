@@ -167,6 +167,7 @@ def parse_args(configure_parser=None):
     # I/O
     parser.add_argument('--path', type=str, help='Output path for the optimizer results', default=f'reports/{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}')
     parser.add_argument('--config', type=str, help='Path to the configuration file', default=None)
+    parser.add_argument('--language', type=str, help='Language for item and stat names in reports', default="en", choices=["en", "es", "fr", "de", "pt"])
 
     if configure_parser is not None:
         configure_parser(parser)
@@ -196,7 +197,7 @@ def get_bounds_from_args(args):
 def get_config_from_args(args):
     config = {
         "optimizer" : {
-            "language": "es",
+            "language": args.language,
             "population_size": args.population_size,
             "num_parents_mating": args.num_parents_mating, # Number of parents to mate, usually 1/3 of population sizeze
             "num_generations": args.num_generations,

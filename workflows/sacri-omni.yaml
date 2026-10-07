@@ -41,6 +41,7 @@ env:
     REFERENCE: "17683 21235 13642 14161 14162 14169 14092 14093 18718 13673 739 694 7754 737 7043 18043"
     ISLANDS: 16
     MAX_WORKERS: 8
+    LANGUAGE: "en"
 
 
 batch:
@@ -72,6 +73,7 @@ study:
           "--path" "$(WORKSPACE)"
           "--islands" "$(ISLANDS)"
           "--max-workers" "$(MAX_WORKERS)"
+          "--language" "$(LANGUAGE)"
           "--lock" "$(LOCK)"
           "--dodge" "$(DODGE)"
           "--initiative" "$(INITIATIVE)"

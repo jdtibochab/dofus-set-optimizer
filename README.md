@@ -15,9 +15,8 @@ The optimizer runs several independent "islands" Genetic Algorithm ([PyGAD](http
 | [scripts/optimizer.py](scripts/optimizer.py) | `Optimizer`: filters valid items, builds the per-slot item pools, seeds the population from item sets and runs [PyGAD](https://pygad.readthedocs.io/) (optionally across multiple islands/processes). |
 | [scripts/chromosome.py](scripts/chromosome.py) | `Chromosome`: one candidate set. Computes stat totals (items + set bonuses + character), damage, item-condition checks, penalties and fitness. |
 | [scripts/analysis.py](scripts/analysis.py) | `Analyzer`: selects candidate solutions, writes `report.txt` / `summary.csv`, and plots PCA and per-island fitness curves. |
-| [Items.ipynb](Items.ipynb) | Notebook for interactively inspecting items and evaluating hand-picked sets (adds `scripts/` to `sys.path`; run with the repo root as working directory). |
+| [notebooks/Items.ipynb](notebooks/Items.ipynb) | Notebook for interactively inspecting items and evaluating hand-picked sets (adds `scripts/` to `sys.path`; run with the repo root as working directory). |
 | [workflows/](workflows/) | [Maestro](https://maestrowf.readthedocs.io/) study specs with ready-made builds (`cra`, `hupper`, `sacri-omni`, `sacri-tank`, `steamer`). |
-| [runs.sh](runs.sh) | Runs all the Maestro workflows in sequence. |
 | [download.sh](download.sh) | Downloads the latest Dofus 3 game data release from [dofusdude/dofus3-main](https://github.com/dofusdude/dofus3-main). |
 | [setup.py](setup.py) | Package metadata and dependencies. |
 
@@ -168,6 +167,7 @@ Keys accepted by `--exo` and `--distributed-points`: `agi`, `cha`, `int`, `str`,
 | Flag | Default | Description |
 | --- | --- | --- |
 | `--path` | `reports/<timestamp>` | Output directory. |
+| `--language` | `en` | Language for item and stat names in the reports: `en`, `es`, `fr`, `de`, `pt`. |
 
 ### Outputs
 
@@ -181,11 +181,11 @@ Each run writes to `--path`:
 | `pca.png` | PCA of the candidates' stat totals, colored by fitness, with the top stat loadings drawn as arrows. Shows how different the good sets are from each other. |
 | `generations.png` | Best fitness per generation for each island, to check convergence. |
 
-Item and stat names are reported in Spanish (`language` is set to `es` in `get_config_from_args`, [scripts/utils.py](scripts/utils.py)); the data also contains `en`, `fr`, `de`, `pt`.
+Item and stat names are reported in the language chosen with `--language` (English by default).
 
 ### Finding item IDs
 
-Inclusions, exclusions and references use Ankama item IDs. Look them up in the `ankama_id` field of `data/MAPPED_ITEMS.json`, from [Items.ipynb](Items.ipynb), or from the last block of a previous `report.txt`. A quick search by name:
+Inclusions, exclusions and references use Ankama item IDs. Look them up in the `ankama_id` field of `data/MAPPED_ITEMS.json`, from [notebooks/Items.ipynb](notebooks/Items.ipynb), or from the last block of a previous `report.txt`. A quick search by name:
 
 ```bash
 PYTHONPATH=scripts python -c "
@@ -208,11 +208,11 @@ maestro run cra.yaml          # asks for confirmation; add -y to skip
 maestro status report-cra_*   # check progress
 ```
 
-Or run all of them in sequence:
+Or launch all of them (each `maestro run` starts its own background conductor, so they run concurrently):
 
 ```bash
 cd workflows
-bash ../runs.sh
+for spec in *.yaml; do maestro run -y "$spec"; done
 ```
 
 Each run creates `workflows/report-<name>_<YYYYMMDD-HHMMSS>/`; the optimizer outputs (`report.txt`, `summary.csv`, `pca.png`, `generations.png`, `config.json`) are in its `run_training/` subdirectory, alongside the step's stdout/stderr (`run_training.<pid>.out/.err`).
@@ -264,6 +264,7 @@ env:
 
     ISLANDS: 16
     MAX_WORKERS: 8
+    LANGUAGE: "en"              # en, es, fr, de or pt
 ```
 
 Keep the `batch` and `study` sections unchanged: the single `run_training` step `cd`s to `REPO_ROOT`, turns these variables into CLI flags (boolean variables add their flag when `"true"`, list variables are skipped when `"none"`), and calls `scripts/main.py` with `--path $(WORKSPACE)`. Every variable referenced in the step must be defined in the spec. The specs use `batch: type: local`; switching to a scheduler such as SLURM is a matter of changing the `batch` block per the Maestro docs.

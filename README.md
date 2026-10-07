@@ -8,14 +8,14 @@ The optimizer runs several independent "islands" Genetic Algorithm optimizations
 
 | Path | Description |
 | --- | --- |
-| [main.py](main.py) | CLI entry point: parses arguments, builds the character and optimizer, runs the GA and writes the reports. |
-| [utils.py](utils.py) | Argument parser (`parse_args`), CLI → config translation (`get_config_from_args`), stat ID tables and item/set contribution helpers. |
-| [data.py](data.py) | Loads `data/MAPPED_ITEMS.json` and `data/MAPPED_SETS.json` into `items` and `item_sets` dicts keyed by Ankama ID. |
-| [character.py](character.py) | `Character`: base stats from level, characteristic point distribution (respecting soft caps), scrolls and exos. |
-| [optimizer.py](optimizer.py) | `Optimizer`: filters valid items, builds the per-slot item pools, seeds the population from item sets and runs [PyGAD](https://pygad.readthedocs.io/) (optionally across multiple islands/processes). |
-| [chromosome.py](chromosome.py) | `Chromosome`: one candidate set. Computes stat totals (items + set bonuses + character), damage, item-condition checks, penalties and fitness. |
-| [analysis.py](analysis.py) | `Analyzer`: selects candidate solutions, writes `report.txt` / `summary.csv`, and plots PCA and per-island fitness curves. |
-| [Items.ipynb](Items.ipynb) | Notebook for interactively inspecting items and evaluating hand-picked sets. |
+| [scripts/main.py](scripts/main.py) | CLI entry point: parses arguments, builds the character and optimizer, runs the GA and writes the reports. |
+| [scripts/utils.py](scripts/utils.py) | Argument parser (`parse_args`), CLI → config translation (`get_config_from_args`), stat ID tables and item/set contribution helpers. |
+| [scripts/data.py](scripts/data.py) | Loads `data/MAPPED_ITEMS.json` and `data/MAPPED_SETS.json` into `items` and `item_sets` dicts keyed by Ankama ID. |
+| [scripts/character.py](scripts/character.py) | `Character`: base stats from level, characteristic point distribution (respecting soft caps), scrolls and exos. |
+| [scripts/optimizer.py](scripts/optimizer.py) | `Optimizer`: filters valid items, builds the per-slot item pools, seeds the population from item sets and runs [PyGAD](https://pygad.readthedocs.io/) (optionally across multiple islands/processes). |
+| [scripts/chromosome.py](scripts/chromosome.py) | `Chromosome`: one candidate set. Computes stat totals (items + set bonuses + character), damage, item-condition checks, penalties and fitness. |
+| [scripts/analysis.py](scripts/analysis.py) | `Analyzer`: selects candidate solutions, writes `report.txt` / `summary.csv`, and plots PCA and per-island fitness curves. |
+| [Items.ipynb](Items.ipynb) | Notebook for interactively inspecting items and evaluating hand-picked sets (adds `scripts/` to `sys.path`; run with the repo root as working directory). |
 | [workflows/](workflows/) | [Maestro](https://maestrowf.readthedocs.io/) study specs with ready-made builds (`cra`, `hupper`, `sacri-omni`, `sacri-tank`, `steamer`). |
 | [runs.sh](runs.sh) | Runs all the Maestro workflows in sequence. |
 | [download.sh](download.sh) | Downloads the latest Dofus 3 game data release from [dofusdude/dofus3-main](https://github.com/dofusdude/dofus3-main). |
@@ -41,7 +41,7 @@ Generated, git-ignored directories: `data/` (game data), `reports/` (CLI runs), 
 | 10–15 | Dofus / trophies (prysmaradites are excluded) |
 
 **Item filtering.** An item is a candidate only if:
-- it is not excluded (via `--exclusions` or the built-in list in [utils.py](utils.py)),
+- it is not excluded (via `--exclusions` or the built-in list in [scripts/utils.py](scripts/utils.py)),
 - its level is ≤ the character level and, except for pets, mounts and Dofus, ≥ `level - level_offset`,
 - weapons match the `--melee` / `--ranged` / `--weapon-range` constraints and cost more than 0 AP.
 
@@ -68,7 +68,7 @@ Stat targets are **lower bounds**; passing `0` (the default for most) means "don
 
 ## Installation
 
-Requires Python ≥ 3.10 (f-string syntax in [main.py](main.py) needs 3.12) and the [GitHub CLI](https://cli.github.com/) for downloading game data.
+Requires Python ≥ 3.10 (f-string syntax in [scripts/main.py](scripts/main.py) needs 3.12) and the [GitHub CLI](https://cli.github.com/) for downloading game data.
 
 ```bash
 git clone https://github.com/jdtibochab/dofus-set-optimizer.git
@@ -84,12 +84,12 @@ Only `data/MAPPED_ITEMS.json` and `data/MAPPED_SETS.json` are needed; the rest o
 
 ## Usage: CLI
 
-Always run from the repository root: the data files are loaded with relative paths.
+Commands below are run from the repository root (the default `--path` is `reports/<timestamp>` relative to the current directory). The data files are located relative to the scripts, so `scripts/main.py` can be called from anywhere.
 
 Minimal example — a level 200, 4-element character optimizing weapon damage per AP, targeting 12 AP / 6 MP:
 
 ```bash
-python main.py --objective weapon --normalize-by-apcost \
+python scripts/main.py --objective weapon --normalize-by-apcost \
     --elements agi str cha int --level 200 --scrolled \
     --ap 12 --mp 6 --vit 4000 \
     --islands 8 --max-workers 8
@@ -98,7 +98,7 @@ python main.py --objective weapon --normalize-by-apcost \
 A fuller example (melee agility tank maximizing steal damage):
 
 ```bash
-python main.py \
+python scripts/main.py \
     --objective steal --normalize-by-apcost \
     --elements agi --melee \
     --level 200 --level-offset 10 --scrolled \
@@ -181,14 +181,14 @@ Each run writes to `--path`:
 | `pca.png` | PCA of the candidates' stat totals, colored by fitness, with the top stat loadings drawn as arrows. Shows how different the good sets are from each other. |
 | `generations.png` | Best fitness per generation for each island, to check convergence. |
 
-Item and stat names are reported in Spanish (`language` is set to `es` in `get_config_from_args`, [utils.py](utils.py)); the data also contains `en`, `fr`, `de`, `pt`.
+Item and stat names are reported in Spanish (`language` is set to `es` in `get_config_from_args`, [scripts/utils.py](scripts/utils.py)); the data also contains `en`, `fr`, `de`, `pt`.
 
 ### Finding item IDs
 
 Inclusions, exclusions and references use Ankama item IDs. Look them up in the `ankama_id` field of `data/MAPPED_ITEMS.json`, from [Items.ipynb](Items.ipynb), or from the last block of a previous `report.txt`. A quick search by name:
 
 ```bash
-python -c "
+PYTHONPATH=scripts python -c "
 from data import items
 q = 'Ochre Dofus'
 for i, it in items.items():
@@ -266,11 +266,11 @@ env:
     MAX_WORKERS: 8
 ```
 
-Keep the `batch` and `study` sections unchanged: the single `run_training` step `cd`s to `REPO_ROOT`, turns these variables into CLI flags (boolean variables add their flag when `"true"`, list variables are skipped when `"none"`), and calls `main.py` with `--path $(WORKSPACE)`. Every variable referenced in the step must be defined in the spec. The specs use `batch: type: local`; switching to a scheduler such as SLURM is a matter of changing the `batch` block per the Maestro docs.
+Keep the `batch` and `study` sections unchanged: the single `run_training` step `cd`s to `REPO_ROOT`, turns these variables into CLI flags (boolean variables add their flag when `"true"`, list variables are skipped when `"none"`), and calls `scripts/main.py` with `--path $(WORKSPACE)`. Every variable referenced in the step must be defined in the spec. The specs use `batch: type: local`; switching to a scheduler such as SLURM is a matter of changing the `batch` block per the Maestro docs.
 
 ## Tips
 
 - **Runtime** scales with `islands × num_generations × population_size`. Start with `--islands 4 --num-generations 100` to check a configuration, then scale up.
 - **Unmet targets**: if every result reports penalties for a stat, the target may be unreachable with your inclusions/exclusions. Lower it, or raise `--penalty-strength` to make it weigh more.
 - **Comparing to your current set**: pass it as `--reference`; it appears as `Solution 0` in `report.txt` and in `summary.csv`.
-- **Debugging**: when launched from the VS Code debugger, [main.py](main.py) writes to `debug/<timestamp>/` and forces the `push` objective.
+- **Debugging**: when launched from the VS Code debugger, [scripts/main.py](scripts/main.py) writes to `debug/<timestamp>/` and forces the `push` objective.

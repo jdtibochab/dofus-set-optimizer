@@ -54,7 +54,7 @@ study:
         cd $(REPO_ROOT)
 
         flags=(
-          "$(REPO_ROOT)/main.py"
+          "$(REPO_ROOT)/scripts/main.py"
           "--objective" "$(OBJECTIVE)"
           "--elements" $(ELEMENTS)
           "--level" "$(LEVEL)"

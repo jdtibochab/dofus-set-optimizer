@@ -9,8 +9,8 @@ env:
     
     OBJECTIVE: "weapon"
     NORMALIZE_BY_APCOST: "true"
-    EXCLUSIONS: "32121 16333 16335" # Meriana
-    INCLUSIONS: "7754 7115 7043 18043 739 694" # Dofus inclusions
+    EXCLUSIONS: "32121" # Meriana
+    INCLUSIONS: "7754 18043" # Dofus inclusions
 
     ELEMENTS: "agi str cha int"
     MELEE: "false"
@@ -22,18 +22,18 @@ env:
 
     AP: 12
     MP: 5
-    VIT: 4000
-    RES_NEUTRAL: 15
-    RES_FIRE: 15
-    RES_AIR: 15
-    RES_WATER: 15
-    RES_EARTH: 15
+    VIT: 3800
+    RES_NEUTRAL: 10
+    RES_FIRE: 13
+    RES_AIR: 13
+    RES_WATER: 13
+    RES_EARTH: 13
     RANGE: 6
     LOCK: 0
     DODGE: 0
     INITIATIVE: 0
 
-    CRIT: 85
+    CRIT: 87
     EXO: "ap:1 mp:1 crit:2 vit:200 range:1"
     DISTRIBUTED_POINTS: "none"
     SCROLLED: "true"

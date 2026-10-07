@@ -293,4 +293,10 @@ class Optimizer:
                 continue
             for effect in item["effects"]:
                 effect_descriptions[effect["element_id"]] = effect["type"]
+
+        # Add set bonus effect description
+        effect_descriptions[72] = {
+            'en': 'Set bonus',
+            'es': 'Bonus de set',
+        }
         return effect_descriptions

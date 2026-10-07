@@ -10,7 +10,7 @@ env:
     OBJECTIVE: "elements"
     NORMALIZE_BY_APCOST: "true"
     EXCLUSIONS: "32121" # Meriana
-    INCLUSIONS: "7754" # Ocre
+    INCLUSIONS: "7754 18043" # Dofus inclusions
 
     ELEMENTS: "agi str cha int"
     MELEE: "false"

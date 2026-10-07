@@ -108,7 +108,7 @@ class Analyzer:
 
 
     def get_valid_data(self):
-        exclude = [179,225,72]
+        exclude = [179, 225]
         dct_totals = {}
         lst_fitness = []
         for idx,candidate in enumerate(self.candidates):

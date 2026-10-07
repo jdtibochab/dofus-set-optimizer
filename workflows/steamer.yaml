@@ -10,12 +10,12 @@ env:
     OBJECTIVE: "push"
     NORMALIZE_BY_APCOST: "true"
     EXCLUSIONS: "32121" # Meriana
-    INCLUSIONS: "7754" # Ocre
+    INCLUSIONS: "7754 18043" # Dofus inclusions
 
     ELEMENTS: "agi cha"
-    MELEE: "false"
+    MELEE: "true"
     RANGED: "true"
-    WEAPON_RANGE: 2
+    WEAPON_RANGE: "none"
 
     LEVEL: 200
     LEVEL_OFFSET: 10

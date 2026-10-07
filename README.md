@@ -38,7 +38,7 @@ Generated, git-ignored directories: `data/` (game data), `reports/` (CLI runs), 
 | 7 | Hat |
 | 8 | Cloak |
 | 9 | Pet / mount |
-| 10–15 | Dofus / trophies / prysmaradites slots |
+| 10–15 | Dofus / trophies (prysmaradites are excluded) |
 
 **Item filtering.** An item is a candidate only if:
 - it is not excluded (via `--exclusions` or the built-in list in [utils.py](utils.py)),
@@ -190,7 +190,7 @@ Inclusions, exclusions and references use Ankama item IDs. Look them up in the `
 ```bash
 python -c "
 from data import items
-q = 'Dofus Ocre'
+q = 'Ochre Dofus'
 for i, it in items.items():
     if q.lower() in it['name']['en'].lower(): print(i, it['name']['en'], it['level'])
 "
@@ -212,7 +212,7 @@ Or run all of them in sequence:
 
 ```bash
 cd workflows
-bash runs.sh   # runs.sh lives in the repo root: bash ../runs.sh
+bash ../runs.sh
 ```
 
 Each run creates `workflows/report-<name>_<YYYYMMDD-HHMMSS>/`; the optimizer outputs (`report.txt`, `summary.csv`, `pca.png`, `generations.png`, `config.json`) are in its `run_training/` subdirectory, alongside the step's stdout/stderr (`run_training.<pid>.out/.err`).

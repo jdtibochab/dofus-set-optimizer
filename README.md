@@ -2,7 +2,7 @@
 
 A genetic-algorithm optimizer that searches the full Dofus 3 item database for the equipment set that maximizes a chosen objective (weapon damage, spell damage, steal damage or push damage) for a given character, while softly enforcing stat targets such as AP, MP, vitality, resistances, crit, lock or initiative.
 
-The optimizer runs several independent GA "islands" in parallel, collects the best unique, unpenalized sets found across them, and writes a human-readable report, a CSV comparison table and diagnostic plots.
+The optimizer runs several independent "islands" Genetic Algorithm optimizations in parallel, collects the best unique, unpenalized sets found across them, and writes a human-readable report, a CSV comparison table and diagnostic plots.
 
 ## Repository contents
 

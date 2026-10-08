@@ -19,6 +19,8 @@ pip install -e .
 bash download.sh
 ```
 
+Alternatively, manually download them from the [releases](https://github.com/dofusdude/dofus3-main/releases)
+
 Only `data/MAPPED_ITEMS.json` and `data/MAPPED_SETS.json` are needed; the rest of the release can be deleted. Re-run `download.sh` after game updates to refresh the item database.
 
 ## Usage: CLI

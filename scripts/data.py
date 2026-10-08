@@ -27,3 +27,9 @@ if __name__ == "__main__":
             by=["categoryId", "superTypeId", "itemTypeId"]
             )
         Items.to_csv(f'data/ITEM_NAMES_AND_IDS.{lang}.csv', index=False)
+
+    # Save indented json files
+    with open(os.path.join(_DATA_DIR, 'MAPPED_ITEMS.json'), 'w') as file:
+        json.dump(list(items.values()), file, indent=4)
+    with open(os.path.join(_DATA_DIR, 'MAPPED_SETS.json'), 'w') as file:
+        json.dump(list(item_sets.values()), file, indent=4)

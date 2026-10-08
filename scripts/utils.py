@@ -217,9 +217,7 @@ def get_config_from_args(args):
                             6895,
                             3080,
                             9031,
-                            6980, # Vulbis
                             13344, # Dolmanax
-                            29136, # Silvestre
                             ] + args.exclusions,
             },
             "inclusions": {

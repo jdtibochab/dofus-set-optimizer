@@ -2,7 +2,7 @@
 
 **Problem:** _A level 200 character has 10<sup>34</sup> ways to build a set, but there is only one that's good enough_
 
-This is a fun side project I used to learn Genetic Algorithm optimization in large phase spaces. I spent some extra time updating it with new code, but this is not a fully-fledged user-friendly codebase. That said, a programming-savvy Dofus enthusiast should be able to optimize their set using this code. You can use the python script in `scripts/main.py` to run it (see usage below), or the Maestro workflows in `worklows/`. If using Maestro, be sure to check their documentation first.
+This is a fun project I developed in my free time that I used to learn Genetic Algorithm optimization in large phase spaces. I spent some extra time updating it with new code, but this is not a fully-fledged user-friendly codebase. That said, a programming-savvy Dofus enthusiast should be able to optimize their set using this code. You can use the python script in `scripts/main.py` to run it (see usage below), or the Maestro workflows in `worklows/`. If using Maestro, be sure to check their documentation first.
 
 Feel free to contribute!
 

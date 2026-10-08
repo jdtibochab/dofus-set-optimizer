@@ -1,6 +1,13 @@
 # Dofus set optimizer
 
-A genetic-algorithm optimizer that searches the full Dofus 3 item database for the equipment set that maximizes one or more objectives (weapon damage, spell damage, steal damage, push damage, summed when combined) for a given character, while softly enforcing stat targets such as AP, MP, vitality, resistances, crit, lock, initiative or push damage.
+**Problem:** _A level 200 character has 10<sup>34</sup> ways to build a set, but there is only one that's good enough_
+
+This is a fun side project I used to learn Genetic Algorithm optimization in large phase spaces. I spent some extra time updating it with new code, but this is not a fully-fledged user-friendly codebase. That said, a programming-savvy Dofus enthusiast should be able to optimize their set using this code. You can use the python script in `scripts/main.py` to run it (see usage below), or the Maestro workflows in `worklows/`. If using Maestro, be sure to check their documentation first.
+
+Feel free to contribute!
+
+## Description of this repo
+This repo contains a genetic-algorithm optimizer that searches the full Dofus 3 item database for the equipment set that maximizes one or more objectives (weapon damage, spell damage, steal damage, push damage, summed when combined) for a given character, while softly enforcing stat targets such as AP, MP, vitality, resistances, crit, lock, initiative or push damage.
 
 The optimizer runs several independent "islands" Genetic Algorithm ([PyGAD](https://pygad.readthedocs.io/)) optimizations in parallel, collects the best unique, unpenalized sets found across them, and writes a human-readable report, a CSV comparison table and diagnostic plots. The data is obtained from [dofusdude](https://github.com/dofusdude/dofus3-main).
 

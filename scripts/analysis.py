@@ -6,6 +6,9 @@ from sklearn.decomposition import PCA
 from chromosome import Chromosome
 import chromosome
 
+# Stats excluded from the PCA and summary.csv. 179 (-AP) and 238 (-MP) are
+# on-hit weapon effects that share their label with the character's AP/MP
+_EXCLUDED_STATS = [179, 225, 238]
 
 def construct_report_str(chromosome):
     report_lines = []
@@ -110,14 +113,13 @@ class Analyzer:
 
 
     def get_valid_data(self):
-        exclude = [179, 225]
         dct_totals = {}
         lst_fitness = []
         for idx,candidate in enumerate(self.candidates):
             dct_totals[idx] = candidate.totals
             lst_fitness.append(candidate.fitness)
         df_totals = pd.DataFrame.from_dict(dct_totals, orient='index').fillna(0.)
-        df_totals = df_totals[[i for i in df_totals.columns if i not in exclude]]
+        df_totals = df_totals[[i for i in df_totals.columns if i not in _EXCLUDED_STATS]]
         df_totals.columns = df_totals.columns.map(lambda x: self.optimizer.effect_descriptions.get(x, {}).get(self.optimizer.config.get('language', 'en'), x))
         self.df_totals = df_totals
         self.lst_fitness = lst_fitness
@@ -211,6 +213,7 @@ class Analyzer:
 
                 # Append solution summary
                 df = solution.totals_summary()
+                df = df.drop(index=_EXCLUDED_STATS, errors='ignore')
                 _series = df.dropna(subset=['description']).set_index('description')['value'].sort_index()
                 _series['Fitness'] = solution.fitness
                 _series['Weapon'] = solution.weapon['name'][solution.optimizer.config.get('language', 'en')]

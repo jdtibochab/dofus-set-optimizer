@@ -221,7 +221,8 @@ class Chromosome(object):
                 if not pd.isna(self.weapon["criticalHitProbability"]) else 0
             
         elif type == "elements":
-            spell_damage = 20 # Default spell damage
+            number_of_elements = len(self.elements)
+            spell_damage = 20/number_of_elements # Default spell damage
             crit_bonus = 5 # Default crit bonus
             crit_chance = 5 # Default spell crit chance
 

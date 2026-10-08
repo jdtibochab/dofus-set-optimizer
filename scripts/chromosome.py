@@ -369,6 +369,19 @@ class Chromosome(object):
         penalty = self._get_preference_penalty(self.preferences)
         return fitness * penalty
 
+    def get_push_damage(self):
+        """
+        Get the total push damage for the chromosome.
+        The push damage is calculated as (level/2 + push bonus + 32) * average spell distance.
+        """
+        # Calculate the push damage based on the character's level, push bonus, and average spell distance
+        bonus = self.totals.get(62, 0)
+        level = self.character.level
+
+        # Average spell distance for push damage
+        distance = 2
+        return (level/2 + bonus + 32) * distance
+
     def get_fitness(self):
         """
         Get the fitness of the chromosome based on the objectives.
@@ -385,7 +398,7 @@ class Chromosome(object):
                     ap_cost = self.weapon["apCost"]
                     _fitness /= ap_cost
             elif objective == "push":
-                _fitness = self.totals.get(62, 0)
+                _fitness = self.get_push_damage()
             elif isinstance(objective, int):
                 # User provided a integer flag for optimizing an element
                 _fitness = self.totals.get(objective, 0)

@@ -56,7 +56,7 @@ env:
     # Target initiative (lower bound; 0 = ignore)
     INITIATIVE: 0
     # Target push damage (lower bound; 0 = ignore)
-    PUSH: 500
+    PUSH: 400
 
     # Target % critical chance (lower bound; 0 = ignore); when set, crits are also weighted into damage
     CRIT: 0

@@ -17,6 +17,8 @@ def construct_report_str(chromosome):
     report_lines.append(f"\t\tCasts per turn: {chromosome.weapon['maxCastPerTurn']}")
     dmg = chromosome.get_final_damage(type="elements")
     report_lines.append(f"\tSpell damage:{dmg}")
+    push = chromosome.get_push_damage()
+    report_lines.append(f"\tPush damage: {push}")
     # file.write("\tIs the solution viable?", solution.viable)
     # file.write("\tWas the solution penalized?", solution.penalized)
 

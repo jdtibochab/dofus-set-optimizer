@@ -13,7 +13,7 @@ env:
     # "true" divides weapon damage by the weapon's AP cost (weapon objective only)
     NORMALIZE_BY_APCOST: "true"
     # Space-separated Ankama item IDs that are never used, or "none"
-    EXCLUSIONS: "32121" # Meriana
+    EXCLUSIONS: "32121 13344" # Meriana
     # Space-separated Ankama item IDs forced into the set, or "none"
     INCLUSIONS: "7754 18043" # Dofus inclusions
 

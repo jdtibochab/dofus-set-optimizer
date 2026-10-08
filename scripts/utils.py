@@ -217,7 +217,6 @@ def get_config_from_args(args):
                             6895,
                             3080,
                             9031,
-                            13344, # Dolmanax
                             ] + args.exclusions,
             },
             "inclusions": {

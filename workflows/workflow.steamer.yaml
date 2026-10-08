@@ -85,7 +85,7 @@ batch:
   type: local
 
 study:
-  - name: run_training
+  - name: run_optimization
     description: Run training for the CRISPRi workflow on SLURM
     run:
       cmd: |

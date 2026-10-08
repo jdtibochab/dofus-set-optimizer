@@ -23,5 +23,7 @@ if __name__ == "__main__":
                 'ankama_id' : v['ankama_id']
             }
             dct[k].update({i:j for i,j in v['type'].items() if i not in dct[k]})
-        Items = pd.DataFrame.from_dict(dct, orient='index')
+        Items = pd.DataFrame.from_dict(dct, orient='index').sort_values(
+            by=["categoryId", "superTypeId", "itemTypeId"]
+            )
         Items.to_csv(f'data/ITEM_NAMES_AND_IDS.{lang}.csv', index=False)

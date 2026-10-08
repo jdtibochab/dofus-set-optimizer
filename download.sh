@@ -1,7 +1,7 @@
 
 
 # Download the latest release
-gh release download --repo "dofusdude/dofus3-main" --pattern "*" --dir "data"
+gh release download --repo "dofusdude/dofus3-main" --pattern "MAPPED_*.json" --dir "data"
 
 # Parse items as a dataframe to look up IDs and names
 python -m scripts.data

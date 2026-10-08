@@ -120,7 +120,7 @@ def parse_args(configure_parser=None):
 
     # Optimizer
     parser.add_argument('--normalize-by-apcost', action='store_true', help='Whether to normalize damage by AP cost', default=False)
-    parser.add_argument('--objective', type=str, help='Objective to optimize, can be "weapon" or "elements"', default="weapon", choices=["weapon", "elements", "steal", "push"])
+    parser.add_argument('--objective', type=str, nargs='+', help='Objective(s) to optimize; scores of multiple objectives are summed', default=["weapon"], choices=["weapon", "elements", "steal", "push"])
 
     parser.add_argument('--reference', type=str, nargs='+', help='Reference items', default=[])
     parser.add_argument('--population-size', type=int, help='Population size for the optimizer', default=100)
@@ -238,7 +238,7 @@ def get_config_from_args(args):
 
             "path": args.path,
             "level_offset": args.level_offset,  # Level offset for items
-            "objective": args.objective,  # Objective to optimize, can be "weapon" or "elements"
+            "objective": args.objective,  # Objectives to optimize, their scores are summed
             "normalize_by_apcost" : args.normalize_by_apcost, # If False, only care about absolute damage regardless of AP costst
             "reference": args.reference,  # Reference items
         },

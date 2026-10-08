@@ -23,6 +23,9 @@ class Chromosome(object):
         self.preferences = optimizer.config["preferences"]
         self.elements = optimizer.character.config["elements"]
         self.objective = optimizer.config["objective"]
+        if not isinstance(self.objective, list):
+            # Configs saved before multi-objective support store a single objective
+            self.objective = [self.objective]
         self.viable = True
         self.penalized = False
         self.penalties = []
@@ -368,24 +371,29 @@ class Chromosome(object):
 
     def get_fitness(self):
         """
-        Get the fitness of the chromosome based on the objective.
-        The fitness is calculated based on the objective type, which
-        can be either "weapon" or "elements".
+        Get the fitness of the chromosome based on the objectives.
+        The fitness is the sum of the scores of every objective in the list
+        ("weapon", "elements", "steal", "push"), penalized once at the end.
         """
-        # TODO: Implement push damage
-        if self.objective in ["weapon", "elements", "steal"]:
-            fitness = self.get_final_damage(type=self.objective)
-            if self.objective == "weapon" and self.optimizer.config.get("normalize_by_apcost", True):
-                # Normalize by AP cost
-                ap_cost = self.weapon["apCost"]
-                fitness /= ap_cost
-        elif self.objective == "push":
-            fitness = self.totals.get(62, 0)
-        elif isinstance(self.objective, int):
-            # User provided a integer flag for optimizing an element
-            fitness = self.totals.get(self.objective, 0)
-        else:
-            return NotImplemented
+        fitness = 0
+        for objective in self.objective:
+            # Accumulate fitness for each objective
+            if objective in ["weapon", "elements", "steal"]:
+                _fitness = self.get_final_damage(type=objective)
+                if objective == "weapon" and self.optimizer.config.get("normalize_by_apcost", True):
+                    # Normalize by AP cost
+                    ap_cost = self.weapon["apCost"]
+                    _fitness /= ap_cost
+            elif objective == "push":
+                _fitness = self.totals.get(62, 0)
+            elif isinstance(objective, int):
+                # User provided a integer flag for optimizing an element
+                _fitness = self.totals.get(objective, 0)
+            else:
+                return NotImplemented
+
+            # Add the fitness contribution of the current objective to the total fitness
+            fitness += _fitness
         return self.penalize(fitness)
     
     def totals_summary(self):

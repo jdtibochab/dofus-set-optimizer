@@ -8,7 +8,7 @@ env:
     # Repository root (one level above this spec); main.py is run from here
     REPO_ROOT: $(SPECROOT)/..
     
-    # What to maximize: weapon (weapon hit damage), elements (generic spell damage), steal (weapon life-steal damage) or push (push damage)
+    # Space-separated objectives whose scores are summed: weapon (weapon hit damage), elements (generic spell damage), steal (weapon life-steal damage), push (push damage)
     OBJECTIVE: "weapon"
     # "true" divides weapon damage by the weapon's AP cost (weapon objective only)
     NORMALIZE_BY_APCOST: "true"
@@ -88,7 +88,7 @@ study:
 
         flags=(
           "$(REPO_ROOT)/scripts/main.py"
-          "--objective" "$(OBJECTIVE)"
+          "--objective" $(OBJECTIVE)
           "--elements" $(ELEMENTS)
           "--level" "$(LEVEL)"
           "--level-offset" "$(LEVEL_OFFSET)"

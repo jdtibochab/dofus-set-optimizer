@@ -1,6 +1,6 @@
 # Dofus set optimizer
 
-A genetic-algorithm optimizer that searches the full Dofus 3 item database for the equipment set that maximizes a chosen objective (weapon damage, spell damage, steal damage or push damage) for a given character, while softly enforcing stat targets such as AP, MP, vitality, resistances, crit, lock, initiative or push damage.
+A genetic-algorithm optimizer that searches the full Dofus 3 item database for the equipment set that maximizes one or more objectives (weapon damage, spell damage, steal damage, push damage, summed when combined) for a given character, while softly enforcing stat targets such as AP, MP, vitality, resistances, crit, lock, initiative or push damage.
 
 The optimizer runs several independent "islands" Genetic Algorithm ([PyGAD](https://pygad.readthedocs.io/)) optimizations in parallel, collects the best unique, unpenalized sets found across them, and writes a human-readable report, a CSV comparison table and diagnostic plots. The data is obtained from [dofusdude](https://github.com/dofusdude/dofus3-main).
 
@@ -57,7 +57,7 @@ python scripts/main.py \
 
 | Flag | Default | Description |
 | --- | --- | --- |
-| `--objective` | `weapon` | One of `weapon`, `elements`, `steal`, `push`. |
+| `--objective` | `weapon` | One or more of `weapon`, `elements`, `steal`, `push`. With several (e.g. `--objective elements push`), their scores are added together before penalties are applied. Scores are not rescaled, so damage objectives (typically 1000+) outweigh push (typically a few hundred). |
 | `--normalize-by-apcost` | off | Divide weapon damage by weapon AP cost. |
 
 **Character**
@@ -165,7 +165,7 @@ Each run creates `workflows/report-<name>_<YYYYMMDD-HHMMSS>/`; the optimizer out
 | [hupper.yaml](workflows/hupper.yaml) | `elements` | agi str cha int | ranged, range ≥ 3 | Spell-damage build, 12 AP / 6 MP. |
 | [sacri-omni.yaml](workflows/sacri-omni.yaml) | `weapon` / AP | agi str cha int | melee | Multi-element hitter. |
 | [sacri-tank.yaml](workflows/sacri-tank.yaml) | `steal` / AP | agi | melee | High vit, resistances, lock and initiative. |
-| [steamer.yaml](workflows/steamer.yaml) | `push` | agi cha | melee + ranged | Push-damage build. |
+| [steamer.yaml](workflows/steamer.yaml) | `elements` + `push` | agi cha | melee + ranged | Spell + push-damage build, push target 500. |
 
 ### Writing your own
 
@@ -180,7 +180,7 @@ env:
   variables:
     REPO_ROOT: $(SPECROOT)/..
 
-    OBJECTIVE: "weapon"
+    OBJECTIVE: "weapon"            # space-separated list; scores are summed
     NORMALIZE_BY_APCOST: "true"
     EXCLUSIONS: "32121"           # space-separated IDs, or "none"
     INCLUSIONS: "7754 18043"      # space-separated IDs, or "none"

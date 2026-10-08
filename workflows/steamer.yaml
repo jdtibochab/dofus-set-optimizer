@@ -8,8 +8,8 @@ env:
     # Repository root (one level above this spec); main.py is run from here
     REPO_ROOT: $(SPECROOT)/..
     
-    # What to maximize: weapon (weapon hit damage), elements (generic spell damage), steal (weapon life-steal damage) or push (push damage)
-    OBJECTIVE: "elements"
+    # Space-separated objectives whose scores are summed: weapon (weapon hit damage), elements (generic spell damage), steal (weapon life-steal damage), push (push damage)
+    OBJECTIVE: "elements push"
     # "true" divides weapon damage by the weapon's AP cost (weapon objective only)
     NORMALIZE_BY_APCOST: "true"
     # Space-separated Ankama item IDs that are never used, or "none"
@@ -36,17 +36,17 @@ env:
     # Target MP (lower bound; 0 = ignore)
     MP: 5 
     # Target vitality (lower bound; 0 = ignore)
-    VIT: 4000
+    VIT: 3800
     # Target % neutral resistance (lower bound; 0 = ignore)
-    RES_NEUTRAL: 20
+    RES_NEUTRAL: 10
     # Target % fire resistance (lower bound; 0 = ignore)
-    RES_FIRE: 20
+    RES_FIRE: 13
     # Target % air resistance (lower bound; 0 = ignore)
-    RES_AIR: 20
+    RES_AIR: 13
     # Target % water resistance (lower bound; 0 = ignore)
-    RES_WATER: 20
+    RES_WATER: 13
     # Target % earth resistance (lower bound; 0 = ignore)
-    RES_EARTH: 20
+    RES_EARTH: 13
     # Target range (lower bound; 0 = ignore)
     RANGE: 6
     # Target lock (lower bound; 0 = ignore)
@@ -56,7 +56,7 @@ env:
     # Target initiative (lower bound; 0 = ignore)
     INITIATIVE: 0
     # Target push damage (lower bound; 0 = ignore)
-    PUSH: 0
+    PUSH: 500
 
     # Target % critical chance (lower bound; 0 = ignore); when set, crits are also weighted into damage
     CRIT: 0
@@ -89,7 +89,7 @@ study:
 
         flags=(
           "$(REPO_ROOT)/scripts/main.py"
-          "--objective" "$(OBJECTIVE)"
+          "--objective" $(OBJECTIVE)
           "--elements" $(ELEMENTS)
           "--level" "$(LEVEL)"
           "--level-offset" "$(LEVEL_OFFSET)"

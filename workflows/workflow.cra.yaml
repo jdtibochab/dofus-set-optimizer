@@ -1,7 +1,11 @@
 
 description:
-  name: report-steamer
-  description: Configuration for Dofus set optimization
+  name: report-cra
+  description: |
+    Configuration for Dofus set optimization.
+    ```
+      maestro run -p pgen.cra.py workflow.cra.yaml
+    ```
 
 env:
   variables:
@@ -9,7 +13,7 @@ env:
     REPO_ROOT: $(SPECROOT)/..
     
     # Space-separated objectives whose scores are summed: weapon (weapon hit damage), elements (generic spell damage), steal (weapon life-steal damage), push (push damage)
-    OBJECTIVE: "elements push"
+    OBJECTIVE: $(OBJECTIVE)
     # "true" divides weapon damage by the weapon's AP cost (weapon objective only)
     NORMALIZE_BY_APCOST: "true"
     # Space-separated Ankama item IDs that are never used, or "none"
@@ -18,13 +22,13 @@ env:
     INCLUSIONS: "7754 18043" # Dofus inclusions
 
     # Damage elements to optimize for (agi, str, cha, int); characteristic points are split evenly across them
-    ELEMENTS: "agi cha"
+    ELEMENTS: "agi str cha int"
     # "true" allows melee weapons
-    MELEE: "true"
+    MELEE: "false"
     # "true" allows ranged weapons
     RANGED: "true"
     # Minimum weapon max-range when RANGED is "true", or "none"
-    WEAPON_RANGE: "none"
+    WEAPON_RANGE: 6
 
     # Character level
     LEVEL: 200
@@ -34,7 +38,7 @@ env:
     # Target AP (lower bound; 0 = ignore)
     AP: 12
     # Target MP (lower bound; 0 = ignore)
-    MP: 5 
+    MP: $(MP)
     # Target vitality (lower bound; 0 = ignore)
     VIT: 3800
     # Target % neutral resistance (lower bound; 0 = ignore)
@@ -56,26 +60,25 @@ env:
     # Target initiative (lower bound; 0 = ignore)
     INITIATIVE: 0
     # Target push damage (lower bound; 0 = ignore)
-    PUSH: 400
+    PUSH: 0
 
     # Target % critical chance (lower bound; 0 = ignore); when set, crits are also weighted into damage
-    CRIT: 0
+    CRIT: 87
     # Exo bonuses as key:value pairs (e.g. ap:1 mp:1 vit:200), or "none"
-    EXO: "ap:1 mp:1 vit:200 range:1"
+    EXO: "ap:1 mp:1 crit:2 vit:200 range:1"
     # Characteristic points invested per stat as key:value pairs (e.g. vit:995), or "none" to split evenly across ELEMENTS
     DISTRIBUTED_POINTS: "none"
     # "true" adds +100 to every characteristic (fully scrolled)
     SCROLLED: "true"
 
     # Space-separated item IDs of a set to compare against (reported as Solution 0), or "none"
-    REFERENCE: "none"
+    REFERENCE: "17578 17579 17580 19984 19983 19985 19986 15190 18700 13673 739 13825 18043 7754 7043 694 7115"
     # Number of independent GA runs
     ISLANDS: 16
     # Parallel processes used to run the islands
     MAX_WORKERS: 8
     # Language for item and stat names in the reports: en, es, fr, de or pt
     LANGUAGE: "es"
-
 
 batch:
   type: local

@@ -127,15 +127,7 @@ Item and stat names are reported in the language chosen with `--language` (Engli
 
 ### Finding item IDs
 
-Inclusions, exclusions and references use Ankama item IDs. Look them up in the `ankama_id` field of `data/MAPPED_ITEMS.json`, from [notebooks/Items.ipynb](notebooks/Items.ipynb), or from the last block of a previous `report.txt`. A quick search by name:
-
-```bash
-PYTHONPATH=scripts python -c "
-from data import items
-q = 'Ochre Dofus'
-for i, it in items.items():
-    if q.lower() in it['name']['en'].lower(): print(i, it['name']['en'], it['level'])
-"
+Inclusions, exclusions and references use Ankama item IDs. Look them up in the `ankama_id` field of `data/data/ITEM_NAMES_AND_IDS.LANGUAGE.csv`.
 ```
 
 ## Usage: Maestro workflows

@@ -1,6 +1,6 @@
 # Dofus set optimizer
 
-A genetic-algorithm optimizer that searches the full Dofus 3 item database for the equipment set that maximizes a chosen objective (weapon damage, spell damage, steal damage or push damage) for a given character, while softly enforcing stat targets such as AP, MP, vitality, resistances, crit, lock or initiative.
+A genetic-algorithm optimizer that searches the full Dofus 3 item database for the equipment set that maximizes a chosen objective (weapon damage, spell damage, steal damage or push damage) for a given character, while softly enforcing stat targets such as AP, MP, vitality, resistances, crit, lock, initiative or push damage.
 
 The optimizer runs several independent "islands" Genetic Algorithm ([PyGAD](https://pygad.readthedocs.io/)) optimizations in parallel, collects the best unique, unpenalized sets found across them, and writes a human-readable report, a CSV comparison table and diagnostic plots. The data is obtained from [dofusdude](https://github.com/dofusdude/dofus3-main).
 
@@ -72,11 +72,11 @@ python scripts/main.py \
 | `--melee` / `--ranged` | off | Allow melee and/or ranged weapons. |
 | `--weapon-range` | `1` | Minimum max-range of the weapon when `--ranged` is set. |
 
-Keys accepted by `--exo` and `--distributed-points`: `agi`, `cha`, `int`, `str`, `vit`, `wis`, `ap`, `mp`, `range`, `crit`, `pow`, `initiative`, `lock`, `dodge`, `res_neutral`, `res_fire`, `res_air`, `res_water`, `res_earth`.
+Keys accepted by `--exo` and `--distributed-points`: `agi`, `cha`, `int`, `str`, `vit`, `wis`, `ap`, `mp`, `range`, `crit`, `pow`, `initiative`, `lock`, `dodge`, `push`, `res_neutral`, `res_fire`, `res_air`, `res_water`, `res_earth`.
 
 **Stat targets** (lower bounds; `0` = ignore). `--crit` also enables crit weighting in the damage formula.
 
-`--ap` (default 7), `--mp` (3), `--vit` (3000), `--range`, `--crit`, `--lock`, `--dodge`, `--initiative`, `--res-neutral`, `--res-fire`, `--res-air`, `--res-water`, `--res-earth` (all default 0).
+`--ap` (default 7), `--mp` (3), `--vit` (3000), `--range`, `--crit`, `--lock`, `--dodge`, `--initiative`, `--push`, `--res-neutral`, `--res-fire`, `--res-air`, `--res-water`, `--res-earth` (all default 0).
 
 **Items**
 
@@ -195,7 +195,7 @@ env:
     AP: 12
     MP: 6
     VIT: 4000
-    # RES_*, RANGE, LOCK, DODGE, INITIATIVE, CRIT ...
+    # RES_*, RANGE, LOCK, DODGE, INITIATIVE, PUSH, CRIT ...
 
     EXO: "ap:1 mp:1"              # or "none"
     DISTRIBUTED_POINTS: "none"

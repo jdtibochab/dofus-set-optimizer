@@ -30,7 +30,8 @@ _key_to_id = {
     "initiative": 24,
     "lock": 26,
     "dodge": 59,
-    "pow": 32
+    "pow": 32,
+    "push": 62
 }
 
 steal_damages = [224, 203, 193, 221, 223, 257]
@@ -159,6 +160,7 @@ def parse_args(configure_parser=None):
     parser.add_argument('--lock', type=int, help='Lock for the character', default=0)
     parser.add_argument('--dodge', type=int, help='Dodge for the character', default=0)
     parser.add_argument('--initiative', type=int, help='Initiative for the character', default=0)
+    parser.add_argument('--push', type=int, help='Push damage for the character', default=0)
 
     # Character dictionaries
     parser.add_argument('--exo', type=str, nargs='+', help='Exos, e.g. "12:1 8:1"', default=[])

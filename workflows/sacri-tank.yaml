@@ -57,6 +57,8 @@ env:
     CRIT: 0
     # Target initiative (lower bound; 0 = ignore)
     INITIATIVE: 3200
+    # Target push damage (lower bound; 0 = ignore)
+    PUSH: 0
 
     # Exo bonuses as key:value pairs (e.g. ap:1 mp:1 vit:200), or "none"
     EXO: "ap:1 mp:1 vit:200"
@@ -108,6 +110,7 @@ study:
           "--lock" "$(LOCK)"
           "--dodge" "$(DODGE)"
           "--initiative" "$(INITIATIVE)"
+          "--push" "$(PUSH)"
         )
 
         if [ "$(NORMALIZE_BY_APCOST)" = "true" ]; then

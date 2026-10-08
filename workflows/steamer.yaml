@@ -9,7 +9,7 @@ env:
     REPO_ROOT: $(SPECROOT)/..
     
     # What to maximize: weapon (weapon hit damage), elements (generic spell damage), steal (weapon life-steal damage) or push (push damage)
-    OBJECTIVE: "push"
+    OBJECTIVE: "elements"
     # "true" divides weapon damage by the weapon's AP cost (weapon objective only)
     NORMALIZE_BY_APCOST: "true"
     # Space-separated Ankama item IDs that are never used, or "none"
@@ -48,13 +48,15 @@ env:
     # Target % earth resistance (lower bound; 0 = ignore)
     RES_EARTH: 20
     # Target range (lower bound; 0 = ignore)
-    RANGE: 4
+    RANGE: 6
     # Target lock (lower bound; 0 = ignore)
     LOCK: 0
     # Target dodge (lower bound; 0 = ignore)
     DODGE: 0
     # Target initiative (lower bound; 0 = ignore)
     INITIATIVE: 0
+    # Target push damage (lower bound; 0 = ignore)
+    PUSH: 0
 
     # Target % critical chance (lower bound; 0 = ignore); when set, crits are also weighted into damage
     CRIT: 0
@@ -108,6 +110,7 @@ study:
           "--lock" "$(LOCK)"
           "--dodge" "$(DODGE)"
           "--initiative" "$(INITIATIVE)"
+          "--push" "$(PUSH)"
         )
 
         if [ "$(NORMALIZE_BY_APCOST)" = "true" ]; then

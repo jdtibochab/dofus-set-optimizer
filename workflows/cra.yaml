@@ -55,6 +55,8 @@ env:
     DODGE: 0
     # Target initiative (lower bound; 0 = ignore)
     INITIATIVE: 0
+    # Target push damage (lower bound; 0 = ignore)
+    PUSH: 0
 
     # Target % critical chance (lower bound; 0 = ignore); when set, crits are also weighted into damage
     CRIT: 87
@@ -107,6 +109,7 @@ study:
           "--lock" "$(LOCK)"
           "--dodge" "$(DODGE)"
           "--initiative" "$(INITIATIVE)"
+          "--push" "$(PUSH)"
         )
 
         if [ "$(NORMALIZE_BY_APCOST)" = "true" ]; then

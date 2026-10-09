@@ -22,6 +22,8 @@ def construct_report_str(chromosome):
     report_lines.append(f"\tSpell damage:{dmg}")
     push = chromosome.get_push_damage()
     report_lines.append(f"\tPush damage: {push}")
+    heals = chromosome.get_healing()
+    report_lines.append(f"\tHeals: {heals}")
     # file.write("\tIs the solution viable?", solution.viable)
     # file.write("\tWas the solution penalized?", solution.penalized)
 

@@ -62,7 +62,7 @@ env:
     # Target push damage (lower bound; 0 = ignore)
     PUSH: 0
     # Target heals (lower bound; 0 = ignore)
-    HEALS: 0
+    HEALS: $(HEALS)
 
     # Target % critical chance (lower bound; 0 = ignore); when set, crits are also weighted into damage
     CRIT: 0

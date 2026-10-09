@@ -17,9 +17,10 @@ The optimizer runs several independent "islands" Genetic Algorithm ([PyGAD](http
 Requires Python ≥ 3.10 (f-string syntax in [scripts/main.py](scripts/main.py) needs 3.12) and the [GitHub CLI](https://cli.github.com/) for downloading game data.
 
 ```bash
+# Clone the repo
 git clone https://github.com/jdtibochab/dofus-set-optimizer.git
-cd dofus-set-optimizer
-python -m venv .venv && source .venv/bin/activate
+
+# Install 
 pip install -e .
 
 # Download the game data into data/ (needs `gh auth login` first)

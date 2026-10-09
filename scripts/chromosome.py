@@ -222,9 +222,9 @@ class Chromosome(object):
             
         elif type == "elements":
             number_of_elements = len(self.elements)
-            # Default spell damage. Assume 4 hits.
-            spell_damage = 20 * 4 / number_of_elements
-            crit_bonus = 5 # Default crit bonus
+            # Default spell damage. Assume 1 hit for 100 dmg per element.
+            spell_damage = 100 / number_of_elements
+            crit_bonus = 20 / number_of_elements # Default crit bonus
             crit_chance = 5 # Default spell crit chance
 
             dct_damage = {}
@@ -384,6 +384,16 @@ class Chromosome(object):
         distance = 2
         return (level/2 + bonus + 32) * distance
 
+    def get_healing(self):
+        """
+        Get the total healing for the chromosome.
+        The healing is calculated as the sum of all healing-related stats.
+        """
+        heals_base = 15
+        heals_bonus = self.totals.get(121, 0)
+        inteligence = self.totals.get(13, 0)
+        return heals_base * (inteligence + 100) / 100 + heals_bonus
+    
     def get_fitness(self):
         """
         Get the fitness of the chromosome based on the objectives.
@@ -401,6 +411,8 @@ class Chromosome(object):
                     _fitness /= ap_cost
             elif objective == "push":
                 _fitness = self.get_push_damage()
+            elif objective == "heals":
+                _fitness = self.get_healing()
             elif isinstance(objective, int):
                 # User provided a integer flag for optimizing an element
                 _fitness = self.totals.get(objective, 0)

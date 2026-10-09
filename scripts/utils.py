@@ -31,10 +31,17 @@ _key_to_id = {
     "lock": 26,
     "dodge": 59,
     "pow": 32,
-    "push": 62
+    "push": 62,
+    "heals": 121
 }
 
 steal_damages = [224, 203, 193, 221, 223, 257]
+
+heals_mapper = {
+    278: 45, # Neutral
+    261: 13, # Fire
+    
+}
 
 damage_mapper = {
         # Damage
@@ -120,7 +127,7 @@ def parse_args(configure_parser=None):
 
     # Optimizer
     parser.add_argument('--normalize-by-apcost', action='store_true', help='Whether to normalize damage by AP cost', default=False)
-    parser.add_argument('--objective', type=str, nargs='+', help='Objective(s) to optimize; scores of multiple objectives are summed', default=["weapon"], choices=["weapon", "elements", "steal", "push"])
+    parser.add_argument('--objective', type=str, nargs='+', help='Objective(s) to optimize; scores of multiple objectives are summed', default=["weapon"], choices=["weapon", "elements", "steal", "push", "heals"])
 
     parser.add_argument('--reference', type=str, nargs='+', help='Reference items', default=[])
     parser.add_argument('--population-size', type=int, help='Population size for the optimizer', default=100)
@@ -161,7 +168,8 @@ def parse_args(configure_parser=None):
     parser.add_argument('--dodge', type=int, help='Dodge for the character', default=0)
     parser.add_argument('--initiative', type=int, help='Initiative for the character', default=0)
     parser.add_argument('--push', type=int, help='Push damage for the character', default=0)
-
+    parser.add_argument('--heals', type=int, help='Heals for the character', default=0)
+    
     # Character dictionaries
     parser.add_argument('--exo', type=str, nargs='+', help='Exos, e.g. "12:1 8:1"', default=[])
     parser.add_argument('--distributed-points', type=str, nargs='+', help='Distributed points for character attributes, e.g. "9: 595"', default=[])

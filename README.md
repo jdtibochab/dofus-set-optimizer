@@ -81,11 +81,11 @@ python scripts/main.py \
 | `--melee` / `--ranged` | off | Allow melee and/or ranged weapons. |
 | `--weapon-range` | `1` | Minimum max-range of the weapon when `--ranged` is set. |
 
-Keys accepted by `--exo` and `--distributed-points`: `agi`, `cha`, `int`, `str`, `vit`, `wis`, `ap`, `mp`, `range`, `crit`, `pow`, `initiative`, `lock`, `dodge`, `push`, `res_neutral`, `res_fire`, `res_air`, `res_water`, `res_earth`.
+Keys accepted by `--exo` and `--distributed-points`: `agi`, `cha`, `int`, `str`, `vit`, `wis`, `ap`, `mp`, `range`, `crit`, `pow`, `initiative`, `lock`, `dodge`, `push`, `heals`, `res_neutral`, `res_fire`, `res_air`, `res_water`, `res_earth`.
 
 **Stat targets** (lower bounds; `0` = ignore). `--crit` also enables crit weighting in the damage formula.
 
-`--ap` (default 7), `--mp` (3), `--vit` (3000), `--range`, `--crit`, `--lock`, `--dodge`, `--initiative`, `--push`, `--res-neutral`, `--res-fire`, `--res-air`, `--res-water`, `--res-earth` (all default 0).
+`--ap` (default 7), `--mp` (3), `--vit` (3000), `--range`, `--crit`, `--lock`, `--dodge`, `--initiative`, `--push`, `--heals`, `--res-neutral`, `--res-fire`, `--res-air`, `--res-water`, `--res-earth` (all default 0).
 
 **Items**
 

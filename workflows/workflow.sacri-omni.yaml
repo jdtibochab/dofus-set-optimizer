@@ -57,6 +57,8 @@ env:
     INITIATIVE: 0
     # Target push damage (lower bound; 0 = ignore)
     PUSH: 0
+    # Target heals (lower bound; 0 = ignore)
+    HEALS: 0
 
     # Target % critical chance (lower bound; 0 = ignore); when set, crits are also weighted into damage
     CRIT: 85
@@ -111,6 +113,7 @@ study:
           "--dodge" "$(DODGE)"
           "--initiative" "$(INITIATIVE)"
           "--push" "$(PUSH)"
+          "--heals" "$(HEALS)"
         )
 
         if [ "$(NORMALIZE_BY_APCOST)" = "true" ]; then

@@ -59,6 +59,8 @@ env:
     INITIATIVE: 3200
     # Target push damage (lower bound; 0 = ignore)
     PUSH: 0
+    # Target heals (lower bound; 0 = ignore)
+    HEALS: 0
 
     # Exo bonuses as key:value pairs (e.g. ap:1 mp:1 vit:200), or "none"
     EXO: "ap:1 mp:1 vit:200"
@@ -111,6 +113,7 @@ study:
           "--dodge" "$(DODGE)"
           "--initiative" "$(INITIATIVE)"
           "--push" "$(PUSH)"
+          "--heals" "$(HEALS)"
         )
 
         if [ "$(NORMALIZE_BY_APCOST)" = "true" ]; then

@@ -19,7 +19,7 @@ env:
     # Space-separated Ankama item IDs that are never used, or "none"
     EXCLUSIONS: "32121 13344" # Meriana
     # Space-separated Ankama item IDs forced into the set, or "none"
-    INCLUSIONS: "7754 18043" # Dofus inclusions
+    INCLUSIONS: "7754 18043 739" # Dofus inclusions
 
     # Damage elements to optimize for (agi, str, cha, int); characteristic points are split evenly across them
     ELEMENTS: $(ELEMENTS)
@@ -61,6 +61,8 @@ env:
     INITIATIVE: 0
     # Target push damage (lower bound; 0 = ignore)
     PUSH: 0
+    # Target heals (lower bound; 0 = ignore)
+    HEALS: 0
 
     # Target % critical chance (lower bound; 0 = ignore); when set, crits are also weighted into damage
     CRIT: 87
@@ -114,6 +116,7 @@ study:
           "--dodge" "$(DODGE)"
           "--initiative" "$(INITIATIVE)"
           "--push" "$(PUSH)"
+          "--heals" "$(HEALS)"
         )
 
         if [ "$(NORMALIZE_BY_APCOST)" = "true" ]; then

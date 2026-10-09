@@ -1,8 +1,9 @@
 from maestrowf.datastructures.core import ParameterGenerator
 
 MP = [5]
-OBJECTIVE = ["elements", "weapon"]
-ELEMENTS = ["agi int", "str cha", "agi str", "str int", "agi int str cha"]
+OBJECTIVE = ["elements"]
+# ELEMENTS = ["agi int", "str cha", "agi str", "str int", "agi int str cha"]
+ELEMENTS = ["agi int str cha"]
 
 def get_custom_generator(env, **kwargs):
     rows = []

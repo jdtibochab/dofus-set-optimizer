@@ -1,0 +1,15 @@
+MP.6.OBJ.elements.MELEE.true.HEALS.200:
+  labels: !!python/object/apply:collections.OrderedDict
+  - - - $(MP.label)
+      - MP.6
+    - - $(OBJECTIVE.label)
+      - OBJ.elements
+    - - $(MELEE.label)
+      - MELEE.true
+    - - $(HEALS.label)
+      - HEALS.200
+  params:
+    $(HEALS): 200
+    $(MELEE): 'true'
+    $(MP): 6
+    $(OBJECTIVE): elements

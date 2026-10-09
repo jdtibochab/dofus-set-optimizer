@@ -1,0 +1,127 @@
+{
+    "optimizer": {
+        "language": "es",
+        "population_size": 100,
+        "num_parents_mating": 150,
+        "num_generations": 300,
+        "mutation_rate": [
+            0.1875,
+            0.0625
+        ],
+        "crossover_rate": 0.85,
+        "parent_selection_type": "tournament",
+        "tournament_size": 3,
+        "keep_elitism": 2,
+        "mutation_type": "adaptive",
+        "crossover_type": "single_point",
+        "max_workers": 8,
+        "islands": 16,
+        "exclusions": {
+            "items": [
+                6894,
+                6895,
+                3080,
+                9031,
+                32121,
+                13344
+            ]
+        },
+        "inclusions": {
+            "items": [
+                7754,
+                18043,
+                739
+            ]
+        },
+        "preferences": {
+            "lower": {
+                "12": {
+                    "target": 12,
+                    "strength": 0.01
+                },
+                "8": {
+                    "target": 5,
+                    "strength": 0.01
+                },
+                "9": {
+                    "target": 3800,
+                    "strength": 0.01
+                },
+                "34": {
+                    "target": 10,
+                    "strength": 0.01
+                },
+                "37": {
+                    "target": 13,
+                    "strength": 0.01
+                },
+                "16": {
+                    "target": 13,
+                    "strength": 0.01
+                },
+                "17": {
+                    "target": 13,
+                    "strength": 0.01
+                },
+                "63": {
+                    "target": 13,
+                    "strength": 0.01
+                },
+                "29": {
+                    "target": 87,
+                    "strength": 0.01
+                },
+                "31": {
+                    "target": 6,
+                    "strength": 0.01
+                }
+            },
+            "upper": {}
+        },
+        "path": "/Users/jdtibochab/other/dofus-set-optimizer/workflows/report-cra_20261008-175406/run_optimization/ELE.agi_int_str_cha.MP.5.OBJ.elements",
+        "level_offset": 10,
+        "objective": [
+            "elements"
+        ],
+        "normalize_by_apcost": true,
+        "reference": [
+            "17578",
+            "17579",
+            "17580",
+            "19984",
+            "19983",
+            "19985",
+            "19986",
+            "15190",
+            "18700",
+            "13673",
+            "739",
+            "13825",
+            "18043",
+            "7754",
+            "7043",
+            "694",
+            "7115"
+        ]
+    },
+    "character": {
+        "level": 200,
+        "scrolled": true,
+        "exo": {
+            "12": 1,
+            "8": 1,
+            "29": 2,
+            "9": 200,
+            "31": 1
+        },
+        "distributed_points": {},
+        "elements": [
+            36,
+            13,
+            45,
+            22
+        ],
+        "melee": false,
+        "ranged": 6
+    }
+}

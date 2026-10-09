@@ -1,0 +1,6435 @@
+Solution 0:
+	Fitness: 1858.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1858.0
+	Push damage: 264.0
+	Heals: 433.65
+	Preferences:
+		% crítico : 8.0
+		% resistencia a la tierra : 27.0
+		% resistencia al agua : 14.0
+		% resistencia al aire : 34.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 24.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 207.0
+		huida : 82.0
+		iniciativa : 1991.0
+		placaje : 47.0
+		potencia (daños generales) : 250.0
+		vitalidad : 4500.0
+	Characteristics:
+		inteligencia: 1411.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Anillo Rorífico	200	18037
+		Bota	Botas innombrables	200	18003
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Sombrero secular	200	14079
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+		Vueloceronte	Vueloceronte orquídeo	60	33199
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			18037, # Anillo Rorífico
+			18003, # Botas innombrables
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			14079, # Sombrero secular
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			33199, # Vueloceronte orquídeo
+			]
+
+Solution 1:
+	Fitness: 1858.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1858.0
+	Push damage: 264.0
+	Heals: 433.65
+	Preferences:
+		% crítico : 8.0
+		% resistencia a la tierra : 27.0
+		% resistencia al agua : 14.0
+		% resistencia al aire : 34.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 24.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 207.0
+		huida : 58.0
+		iniciativa : 1991.0
+		placaje : 47.0
+		potencia (daños generales) : 250.0
+		vitalidad : 4500.0
+	Characteristics:
+		inteligencia: 1411.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Anillo Rorífico	200	18037
+		Bota	Botas innombrables	200	18003
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Sombrero secular	200	14079
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+		Vueloceronte	Vueloceronte orquídeo	60	33199
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			18037, # Anillo Rorífico
+			18003, # Botas innombrables
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			14079, # Sombrero secular
+			13756, # Doctor mayor
+			13762, # Astuto mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			33199, # Vueloceronte orquídeo
+			]
+
+Solution 2:
+	Fitness: 1843.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1843.0
+	Push damage: 264.0
+	Heals: 386.9
+	Preferences:
+		% crítico : -24.0
+		% resistencia a la tierra : 19.0
+		% resistencia al agua : 16.0
+		% resistencia al aire : 36.0
+		% resistencia al fuego : 16.0
+		% resistencia neutral : 19.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 200.0
+		huida : 114.0
+		iniciativa : 1276.0
+		placaje : 32.0
+		potencia (daños generales) : 525.0
+		vitalidad : 4300.0
+	Characteristics:
+		inteligencia: 1146.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Kralanillo	199	8877
+		Anillo	Alianza Natomia	198	13897
+		Bota	Botas del Espíritu de la Salvación	200	19248
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu de la Salvación	200	19247
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Mascotura	Hardo	60	14854
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			8877, # Kralanillo
+			13897, # Alianza Natomia
+			19248, # Botas del Espíritu de la Salvación
+			19979, # Capa de Martillelo
+			19247, # Cinturón del Espíritu de la Salvación
+			694, # Dofus Púrpura
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			14854, # Hardo
+			20360, # Diadema de Ganymed
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			]
+
+Solution 3:
+	Fitness: 1843.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1843.0
+	Push damage: 264.0
+	Heals: 386.9
+	Preferences:
+		% crítico : -24.0
+		% resistencia a la tierra : 19.0
+		% resistencia al agua : 16.0
+		% resistencia al aire : 36.0
+		% resistencia al fuego : 16.0
+		% resistencia neutral : 19.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 200.0
+		huida : 114.0
+		iniciativa : 1276.0
+		placaje : 32.0
+		potencia (daños generales) : 525.0
+		vitalidad : 4300.0
+	Characteristics:
+		inteligencia: 1146.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Kralanillo	199	8877
+		Anillo	Alianza Natomia	198	13897
+		Bota	Botas del Espíritu de la Salvación	200	19248
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu de la Salvación	200	19247
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Mascotura	Hardo	60	14854
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			8877, # Kralanillo
+			13897, # Alianza Natomia
+			19248, # Botas del Espíritu de la Salvación
+			19979, # Capa de Martillelo
+			19247, # Cinturón del Espíritu de la Salvación
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			14854, # Hardo
+			20360, # Diadema de Ganymed
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			]
+
+Solution 4:
+	Fitness: 1840.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1840.0
+	Push damage: 264.0
+	Heals: 443.4
+	Preferences:
+		% crítico : 8.0
+		% resistencia a la tierra : 27.0
+		% resistencia al agua : 14.0
+		% resistencia al aire : 44.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 24.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 219.0
+		huida : 58.0
+		iniciativa : 2036.0
+		placaje : 32.0
+		potencia (daños generales) : 250.0
+		vitalidad : 4400.0
+	Characteristics:
+		inteligencia: 1396.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo Rorífico	200	18037
+		Anillo	Lavanillo	200	19597
+		Bota	Botas innombrables	200	18003
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Sombrero secular	200	14079
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+		Vueloceronte	Vueloceronte orquídeo	60	33199
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			18037, # Anillo Rorífico
+			19597, # Lavanillo
+			18003, # Botas innombrables
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			14079, # Sombrero secular
+			13756, # Doctor mayor
+			13762, # Astuto mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			33199, # Vueloceronte orquídeo
+			]
+
+Solution 5:
+	Fitness: 1840.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1840.0
+	Push damage: 264.0
+	Heals: 426.9
+	Preferences:
+		% crítico : 8.0
+		% resistencia a la tierra : 27.0
+		% resistencia al agua : 14.0
+		% resistencia al aire : 34.0
+		% resistencia al fuego : 27.0
+		% resistencia neutral : 24.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 207.0
+		huida : 58.0
+		iniciativa : 1946.0
+		placaje : 32.0
+		potencia (daños generales) : 280.0
+		vitalidad : 4400.0
+	Characteristics:
+		inteligencia: 1366.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo Rorífico	200	18037
+		Anillo	Anillo de Tejash	194	32222
+		Bota	Botas innombrables	200	18003
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Sombrero secular	200	14079
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+		Vueloceronte	Vueloceronte orquídeo	60	33199
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			18037, # Anillo Rorífico
+			32222, # Anillo de Tejash
+			18003, # Botas innombrables
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			14079, # Sombrero secular
+			13756, # Doctor mayor
+			13762, # Astuto mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			33199, # Vueloceronte orquídeo
+			]
+
+Solution 6:
+	Fitness: 1833.0000000000002
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1833.0000000000002
+	Push damage: 264.0
+	Heals: 369.4
+	Preferences:
+		% crítico : -32.0
+		% resistencia a la tierra : 22.0
+		% resistencia al agua : 23.0
+		% resistencia al aire : 29.0
+		% resistencia al fuego : 33.0
+		% resistencia neutral : 19.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 202.0
+		huida : 101.0
+		iniciativa : 836.0
+		placaje : 16.0
+		potencia (daños generales) : 660.0
+		vitalidad : 4800.0
+	Characteristics:
+		inteligencia: 1016.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Brazalete de melenutrof	200	15190
+		Anillo	Maldición del Venerable Durmiente	200	31799
+		Bota	Botas del Espíritu de la Salvación	200	19248
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu de la Salvación	200	19247
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo orquídeo y pelirrojo	60	33049
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15190, # Brazalete de melenutrof
+			31799, # Maldición del Venerable Durmiente
+			19248, # Botas del Espíritu de la Salvación
+			19979, # Capa de Martillelo
+			19247, # Cinturón del Espíritu de la Salvación
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33049, # Dragopavo orquídeo y pelirrojo
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			20360, # Diadema de Ganymed
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			]
+
+Solution 7:
+	Fitness: 1823.0000000000002
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1823.0000000000002
+	Push damage: 264.0
+	Heals: 395.9
+	Preferences:
+		% crítico : -24.0
+		% resistencia a la tierra : 19.0
+		% resistencia al agua : 16.0
+		% resistencia al aire : 36.0
+		% resistencia al fuego : 16.0
+		% resistencia neutral : 19.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 200.0
+		huida : 114.0
+		iniciativa : 1336.0
+		placaje : 32.0
+		potencia (daños generales) : 445.0
+		vitalidad : 4200.0
+	Characteristics:
+		inteligencia: 1206.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Kralanillo	199	8877
+		Anillo	Alianza Natomia	198	13897
+		Bota	Botas del Espíritu de la Salvación	200	19248
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu de la Salvación	200	19247
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Mascotura	Hardo	60	14854
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Astuto	100	13761
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			8877, # Kralanillo
+			13897, # Alianza Natomia
+			19248, # Botas del Espíritu de la Salvación
+			19979, # Capa de Martillelo
+			19247, # Cinturón del Espíritu de la Salvación
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			14854, # Hardo
+			20360, # Diadema de Ganymed
+			13761, # Astuto
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			]
+
+Solution 8:
+	Fitness: 1815.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1815.0
+	Push damage: 304.0
+	Heals: 422.65
+	Preferences:
+		% crítico : -1.0
+		% resistencia a la tierra : 24.0
+		% resistencia al agua : 14.0
+		% resistencia al aire : 48.0
+		% resistencia al fuego : 14.0
+		% resistencia neutral : 24.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 202.0
+		huida : 70.0
+		iniciativa : 1701.0
+		placaje : 31.0
+		potencia (daños generales) : 245.0
+		vitalidad : 4400.0
+	Characteristics:
+		inteligencia: 1371.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo Rorífico	200	18037
+		Anillo	Anilluræus	200	18599
+		Bota	Botas innombrables	200	18003
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cintriga	200	15750
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Casco ciclópeo	200	18036
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+		Vueloceronte	Vueloceronte orquídeo	60	33199
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			18037, # Anillo Rorífico
+			18599, # Anilluræus
+			18003, # Botas innombrables
+			19979, # Capa de Martillelo
+			15750, # Cintriga
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			18036, # Casco ciclópeo
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			33199, # Vueloceronte orquídeo
+			]
+
+Solution 9:
+	Fitness: 1803.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1803.0
+	Push damage: 264.0
+	Heals: 433.9
+	Preferences:
+		% crítico : 11.0
+		% resistencia a la tierra : 27.0
+		% resistencia al agua : 14.0
+		% resistencia al aire : 44.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 14.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 214.0
+		huida : 43.0
+		iniciativa : 2026.0
+		placaje : 24.0
+		potencia (daños generales) : 250.0
+		vitalidad : 4400.0
+	Characteristics:
+		inteligencia: 1366.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Mizz Frizz	198	14061
+		Anillo	Lavanillo	200	19597
+		Bota	Botas innombrables	200	18003
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Sombrero secular	200	14079
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+		Vueloceronte	Vueloceronte orquídeo	60	33199
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			14061, # Anillo de Mizz Frizz
+			19597, # Lavanillo
+			18003, # Botas innombrables
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			14079, # Sombrero secular
+			13756, # Doctor mayor
+			13762, # Astuto mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			33199, # Vueloceronte orquídeo
+			]
+
+Solution 10:
+	Fitness: 1795.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1795.0
+	Push damage: 304.0
+	Heals: 419.65
+	Preferences:
+		% crítico : -1.0
+		% resistencia a la tierra : 32.0
+		% resistencia al agua : 14.0
+		% resistencia al aire : 48.0
+		% resistencia al fuego : 14.0
+		% resistencia neutral : 24.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 202.0
+		huida : 70.0
+		iniciativa : 1681.0
+		placaje : 31.0
+		potencia (daños generales) : 245.0
+		vitalidad : 4400.0
+	Characteristics:
+		inteligencia: 1351.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo Rorífico	200	18037
+		Anillo	Anilluræus	200	18599
+		Bota	Botas innombrables	200	18003
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cintriga	200	15750
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Casco ciclópeo	200	18036
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+		Vueloceronte	Vueloceronte jade y orquídeo	60	33192
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			18037, # Anillo Rorífico
+			18599, # Anilluræus
+			18003, # Botas innombrables
+			19979, # Capa de Martillelo
+			15750, # Cintriga
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			18036, # Casco ciclópeo
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			33192, # Vueloceronte jade y orquídeo
+			]
+
+Solution 11:
+	Fitness: 1792.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1792.0
+	Push damage: 264.0
+	Heals: 411.4
+	Preferences:
+		% crítico : -7.0
+		% resistencia a la tierra : 40.0
+		% resistencia al agua : 17.0
+		% resistencia al aire : 37.0
+		% resistencia al fuego : 27.0
+		% resistencia neutral : 27.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 205.0
+		huida : 79.0
+		iniciativa : 1816.0
+		placaje : 28.0
+		potencia (daños generales) : 320.0
+		vitalidad : 4600.0
+	Characteristics:
+		inteligencia: 1276.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Anillo Rorífico	200	18037
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo marfil y orquídeo	60	33043
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Corona de Nidas	200	15186
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			18037, # Anillo Rorífico
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33043, # Dragopavo marfil y orquídeo
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			15186, # Corona de Nidas
+			13756, # Doctor mayor
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16204, # Erudito mayor
+			]
+
+Solution 12:
+	Fitness: 1792.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1792.0
+	Push damage: 264.0
+	Heals: 411.4
+	Preferences:
+		% crítico : 5.0
+		% resistencia a la tierra : 40.0
+		% resistencia al agua : 17.0
+		% resistencia al aire : 37.0
+		% resistencia al fuego : 27.0
+		% resistencia neutral : 27.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 205.0
+		huida : 79.0
+		iniciativa : 1816.0
+		placaje : 28.0
+		potencia (daños generales) : 320.0
+		vitalidad : 4600.0
+	Characteristics:
+		inteligencia: 1276.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Anillo Rorífico	200	18037
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo marfil y orquídeo	60	33043
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Corona de Nidas	200	15186
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			18037, # Anillo Rorífico
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			694, # Dofus Púrpura
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33043, # Dragopavo marfil y orquídeo
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			15186, # Corona de Nidas
+			13756, # Doctor mayor
+			13762, # Astuto mayor
+			16204, # Erudito mayor
+			]
+
+Solution 13:
+	Fitness: 1792.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1792.0
+	Push damage: 264.0
+	Heals: 411.4
+	Preferences:
+		% crítico : 5.0
+		% resistencia a la tierra : 40.0
+		% resistencia al agua : 17.0
+		% resistencia al aire : 37.0
+		% resistencia al fuego : 27.0
+		% resistencia neutral : 27.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 205.0
+		huida : 79.0
+		iniciativa : 1816.0
+		placaje : 28.0
+		potencia (daños generales) : 320.0
+		vitalidad : 4600.0
+	Characteristics:
+		inteligencia: 1276.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Anillo Rorífico	200	18037
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo marfil y orquídeo	60	33043
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Corona de Nidas	200	15186
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			18037, # Anillo Rorífico
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33043, # Dragopavo marfil y orquídeo
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			15186, # Corona de Nidas
+			13756, # Doctor mayor
+			13762, # Astuto mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			]
+
+Solution 14:
+	Fitness: 1790.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1790.0
+	Push damage: 264.0
+	Heals: 403.9
+	Preferences:
+		% crítico : -7.0
+		% resistencia a la tierra : 20.0
+		% resistencia al agua : 15.0
+		% resistencia al aire : 41.0
+		% resistencia al fuego : 24.0
+		% resistencia neutral : 24.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 202.0
+		huida : 62.0
+		iniciativa : 2116.0
+		placaje : 55.0
+		potencia (daños generales) : 350.0
+		vitalidad : 4350.0
+	Characteristics:
+		inteligencia: 1246.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo Rorífico	200	18037
+		Anillo	Lavanillo	200	19597
+		Bota	Botas innombrables	200	18003
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Abrazo de Servidumbre	200	22429
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Casco ciclópeo	200	18036
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+		Vueloceronte	Vueloceronte zafiro y orquídeo	60	33245
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			18037, # Anillo Rorífico
+			19597, # Lavanillo
+			18003, # Botas innombrables
+			19979, # Capa de Martillelo
+			22429, # Abrazo de Servidumbre
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			18036, # Casco ciclópeo
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			33245, # Vueloceronte zafiro y orquídeo
+			]
+
+Solution 15:
+	Fitness: 1790.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1790.0
+	Push damage: 264.0
+	Heals: 400.9
+	Preferences:
+		% crítico : -1.0
+		% resistencia a la tierra : 29.0
+		% resistencia al agua : 26.0
+		% resistencia al aire : 26.0
+		% resistencia al fuego : 26.0
+		% resistencia neutral : 19.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 202.0
+		huida : 64.0
+		iniciativa : 2106.0
+		placaje : 49.0
+		potencia (daños generales) : 395.0
+		vitalidad : 4850.0
+	Characteristics:
+		inteligencia: 1226.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Maldición del Venerable Durmiente	200	31799
+		Bota	Botas del Espíritu Insano	200	19251
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu Insano	200	19250
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus silvestre	180	29136
+		Dragopavo	Dragopavo orquídeo y pelirrojo	60	33049
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			31799, # Maldición del Venerable Durmiente
+			19251, # Botas del Espíritu Insano
+			19979, # Capa de Martillelo
+			19250, # Cinturón del Espíritu Insano
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			29136, # Dofus silvestre
+			33049, # Dragopavo orquídeo y pelirrojo
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			20360, # Diadema de Ganymed
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16204, # Erudito mayor
+			]
+
+Solution 16:
+	Fitness: 1790.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1790.0
+	Push damage: 264.0
+	Heals: 400.9
+	Preferences:
+		% crítico : -1.0
+		% resistencia a la tierra : 29.0
+		% resistencia al agua : 26.0
+		% resistencia al aire : 26.0
+		% resistencia al fuego : 26.0
+		% resistencia neutral : 19.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 202.0
+		huida : 64.0
+		iniciativa : 2106.0
+		placaje : 49.0
+		potencia (daños generales) : 395.0
+		vitalidad : 4850.0
+	Characteristics:
+		inteligencia: 1226.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Maldición del Venerable Durmiente	200	31799
+		Bota	Botas del Espíritu Insano	200	19251
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu Insano	200	19250
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo orquídeo y pelirrojo	60	33049
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Observador	50	16336
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			31799, # Maldición del Venerable Durmiente
+			19251, # Botas del Espíritu Insano
+			19979, # Capa de Martillelo
+			19250, # Cinturón del Espíritu Insano
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33049, # Dragopavo orquídeo y pelirrojo
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			20360, # Diadema de Ganymed
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16204, # Erudito mayor
+			16336, # Observador
+			]
+
+Solution 17:
+	Fitness: 1783.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1783.0
+	Push damage: 264.0
+	Heals: 442.9
+	Preferences:
+		% crítico : 11.0
+		% resistencia a la tierra : 27.0
+		% resistencia al agua : 14.0
+		% resistencia al aire : 44.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 14.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 214.0
+		huida : 43.0
+		iniciativa : 2086.0
+		placaje : 24.0
+		potencia (daños generales) : 170.0
+		vitalidad : 4400.0
+	Characteristics:
+		inteligencia: 1426.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Mizz Frizz	198	14061
+		Anillo	Lavanillo	200	19597
+		Bota	Botas innombrables	200	18003
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Sombrero secular	200	14079
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito	100	16203
+		Trofeo	Erudito mayor	150	16204
+		Vueloceronte	Vueloceronte orquídeo	60	33199
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			14061, # Anillo de Mizz Frizz
+			19597, # Lavanillo
+			18003, # Botas innombrables
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			14079, # Sombrero secular
+			13756, # Doctor mayor
+			13762, # Astuto mayor
+			16203, # Erudito
+			16204, # Erudito mayor
+			33199, # Vueloceronte orquídeo
+			]
+
+Solution 18:
+	Fitness: 1779.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1779.9999999999998
+	Push damage: 344.0
+	Heals: 393.4
+	Preferences:
+		% crítico : 3.0
+		% resistencia a la tierra : 22.0
+		% resistencia al agua : 26.0
+		% resistencia al aire : 39.0
+		% resistencia al fuego : 26.0
+		% resistencia neutral : 14.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 205.0
+		huida : 101.0
+		iniciativa : 1276.0
+		placaje : 31.0
+		potencia (daños generales) : 450.0
+		vitalidad : 4600.0
+	Characteristics:
+		inteligencia: 1156.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Maldición del Venerable Durmiente	200	31799
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo marfil y pelirrojo	60	33045
+		Escudo	Escudístiko	200	18692
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			31799, # Maldición del Venerable Durmiente
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33045, # Dragopavo marfil y pelirrojo
+			18692, # Escudístiko
+			25222, # Martillo poseído
+			20360, # Diadema de Ganymed
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			]
+
+Solution 19:
+	Fitness: 1779.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1779.9999999999998
+	Push damage: 344.0
+	Heals: 393.4
+	Preferences:
+		% crítico : 3.0
+		% resistencia a la tierra : 22.0
+		% resistencia al agua : 26.0
+		% resistencia al aire : 39.0
+		% resistencia al fuego : 26.0
+		% resistencia neutral : 14.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 205.0
+		huida : 77.0
+		iniciativa : 1276.0
+		placaje : 31.0
+		potencia (daños generales) : 450.0
+		vitalidad : 4600.0
+	Characteristics:
+		inteligencia: 1156.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Maldición del Venerable Durmiente	200	31799
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo marfil y pelirrojo	60	33045
+		Escudo	Escudístiko	200	18692
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			31799, # Maldición del Venerable Durmiente
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			694, # Dofus Púrpura
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33045, # Dragopavo marfil y pelirrojo
+			18692, # Escudístiko
+			25222, # Martillo poseído
+			20360, # Diadema de Ganymed
+			13756, # Doctor mayor
+			13762, # Astuto mayor
+			16204, # Erudito mayor
+			]
+
+Solution 20:
+	Fitness: 1779.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1779.9999999999998
+	Push damage: 344.0
+	Heals: 393.4
+	Preferences:
+		% crítico : 3.0
+		% resistencia a la tierra : 22.0
+		% resistencia al agua : 26.0
+		% resistencia al aire : 39.0
+		% resistencia al fuego : 26.0
+		% resistencia neutral : 14.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 205.0
+		huida : 101.0
+		iniciativa : 1276.0
+		placaje : 31.0
+		potencia (daños generales) : 450.0
+		vitalidad : 4600.0
+	Characteristics:
+		inteligencia: 1156.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Maldición del Venerable Durmiente	200	31799
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo marfil y pelirrojo	60	33045
+		Escudo	Escudístiko	200	18692
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			31799, # Maldición del Venerable Durmiente
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			694, # Dofus Púrpura
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33045, # Dragopavo marfil y pelirrojo
+			18692, # Escudístiko
+			25222, # Martillo poseído
+			20360, # Diadema de Ganymed
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			]
+
+Solution 21:
+	Fitness: 1776.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1776.9999999999998
+	Push damage: 304.0
+	Heals: 404.65
+	Preferences:
+		% crítico : -8.0
+		% resistencia a la tierra : 47.0
+		% resistencia al agua : 14.0
+		% resistencia al aire : 41.0
+		% resistencia al fuego : 14.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 202.0
+		huida : 70.0
+		iniciativa : 1581.0
+		placaje : 31.0
+		potencia (daños generales) : 325.0
+		vitalidad : 4350.0
+	Characteristics:
+		inteligencia: 1251.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo Rorífico	200	18037
+		Anillo	Anilluræus	200	18599
+		Bota	Grebas escarlata	200	34328
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cintriga	200	15750
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Casco ciclópeo	200	18036
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+		Vueloceronte	Vueloceronte jade y orquídeo	60	33192
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			18037, # Anillo Rorífico
+			18599, # Anilluræus
+			34328, # Grebas escarlata
+			19979, # Capa de Martillelo
+			15750, # Cintriga
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			18036, # Casco ciclópeo
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			33192, # Vueloceronte jade y orquídeo
+			]
+
+Solution 22:
+	Fitness: 1775.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1775.0
+	Push damage: 264.0
+	Heals: 403.9
+	Preferences:
+		% crítico : -22.0
+		% resistencia a la tierra : 20.0
+		% resistencia al agua : 15.0
+		% resistencia al aire : 41.0
+		% resistencia al fuego : 24.0
+		% resistencia neutral : 24.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 202.0
+		huida : 2.0
+		iniciativa : 1616.0
+		placaje : 35.0
+		potencia (daños generales) : 350.0
+		vitalidad : 4450.0
+	Characteristics:
+		inteligencia: 1246.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo Rorífico	200	18037
+		Anillo	Lavanillo	200	19597
+		Bota	Botas innombrables	200	18003
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Valentía de la Señorita Jhessica	200	20366
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Casco ciclópeo	200	18036
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+		Vueloceronte	Vueloceronte zafiro y orquídeo	60	33245
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			18037, # Anillo Rorífico
+			19597, # Lavanillo
+			18003, # Botas innombrables
+			19979, # Capa de Martillelo
+			20366, # Valentía de la Señorita Jhessica
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			18036, # Casco ciclópeo
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			33245, # Vueloceronte zafiro y orquídeo
+			]
+
+Solution 23:
+	Fitness: 1774.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1774.9999999999998
+	Push damage: 294.0
+	Heals: 415.9
+	Preferences:
+		% crítico : -3.0
+		% resistencia a la tierra : 32.0
+		% resistencia al agua : 27.0
+		% resistencia al aire : 41.0
+		% resistencia al fuego : 24.0
+		% resistencia neutral : 24.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 7.0
+		de cura : 202.0
+		huida : 62.0
+		iniciativa : 1696.0
+		placaje : 43.0
+		potencia (daños generales) : 250.0
+		vitalidad : 4300.0
+	Characteristics:
+		inteligencia: 1326.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo Rorífico	200	18037
+		Anillo	Lavanillo	200	19597
+		Bota	Botas innombrables	200	18003
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Coconturón	200	21224
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Casco ciclópeo	200	18036
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+		Vueloceronte	Vueloceronte zafiro y orquídeo	60	33245
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			18037, # Anillo Rorífico
+			19597, # Lavanillo
+			18003, # Botas innombrables
+			19979, # Capa de Martillelo
+			21224, # Coconturón
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			18036, # Casco ciclópeo
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			33245, # Vueloceronte zafiro y orquídeo
+			]
+
+Solution 24:
+	Fitness: 1771.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1771.9999999999998
+	Push damage: 264.0
+	Heals: 410.65
+	Preferences:
+		% crítico : -1.0
+		% resistencia a la tierra : 29.0
+		% resistencia al agua : 26.0
+		% resistencia al aire : 36.0
+		% resistencia al fuego : 26.0
+		% resistencia neutral : 19.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 214.0
+		huida : 64.0
+		iniciativa : 2151.0
+		placaje : 34.0
+		potencia (daños generales) : 395.0
+		vitalidad : 4750.0
+	Characteristics:
+		inteligencia: 1211.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Lavanillo	200	19597
+		Anillo	Maldición del Venerable Durmiente	200	31799
+		Bota	Botas del Espíritu Insano	200	19251
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu Insano	200	19250
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo orquídeo y pelirrojo	60	33049
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Observador	50	16336
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			19597, # Lavanillo
+			31799, # Maldición del Venerable Durmiente
+			19251, # Botas del Espíritu Insano
+			19979, # Capa de Martillelo
+			19250, # Cinturón del Espíritu Insano
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33049, # Dragopavo orquídeo y pelirrojo
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			20360, # Diadema de Ganymed
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16204, # Erudito mayor
+			16336, # Observador
+			]
+
+Solution 25:
+	Fitness: 1769.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1769.9999999999998
+	Push damage: 264.0
+	Heals: 403.4
+	Preferences:
+		% crítico : -18.0
+		% resistencia a la tierra : 22.0
+		% resistencia al agua : 24.0
+		% resistencia al aire : 29.0
+		% resistencia al fuego : 26.0
+		% resistencia neutral : 19.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 215.0
+		huida : 112.0
+		iniciativa : 1386.0
+		placaje : 23.0
+		potencia (daños generales) : 450.0
+		vitalidad : 4000.0
+	Characteristics:
+		inteligencia: 1156.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Kralanillo	199	8877
+		Anillo	Anillo de Noai Aludem	197	13642
+		Bota	Botas del Espíritu de la Salvación	200	19248
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu de la Salvación	200	19247
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Mascotura	Hardo	60	14854
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Astuto	100	13761
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			8877, # Kralanillo
+			13642, # Anillo de Noai Aludem
+			19248, # Botas del Espíritu de la Salvación
+			19979, # Capa de Martillelo
+			19247, # Cinturón del Espíritu de la Salvación
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			14854, # Hardo
+			20360, # Diadema de Ganymed
+			13761, # Astuto
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			]
+
+Solution 26:
+	Fitness: 1767.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1767.9999999999998
+	Push damage: 314.0
+	Heals: 395.8
+	Preferences:
+		% crítico : -1.0
+		% resistencia a la tierra : 35.0
+		% resistencia al agua : 19.0
+		% resistencia al aire : 26.0
+		% resistencia al fuego : 25.0
+		% resistencia neutral : 19.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 202.0
+		huida : 73.0
+		iniciativa : 2372.0
+		placaje : 49.0
+		potencia (daños generales) : 395.0
+		vitalidad : 4850.0
+	Characteristics:
+		inteligencia: 1192.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Alianza de Dark Vlad	200	30943
+		Bota	Botas del Espíritu Insano	200	19251
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu Insano	200	19250
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo orquídeo y pelirrojo	60	33049
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Observador	50	16336
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			30943, # Alianza de Dark Vlad
+			19251, # Botas del Espíritu Insano
+			19979, # Capa de Martillelo
+			19250, # Cinturón del Espíritu Insano
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33049, # Dragopavo orquídeo y pelirrojo
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			20360, # Diadema de Ganymed
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16204, # Erudito mayor
+			16336, # Observador
+			]
+
+Solution 27:
+	Fitness: 1763.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1763.0
+	Push damage: 264.0
+	Heals: 386.9
+	Preferences:
+		% crítico : -24.0
+		% resistencia a la tierra : 19.0
+		% resistencia al agua : 16.0
+		% resistencia al aire : 36.0
+		% resistencia al fuego : 16.0
+		% resistencia neutral : 19.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 200.0
+		huida : 114.0
+		iniciativa : 1276.0
+		placaje : 32.0
+		potencia (daños generales) : 445.0
+		vitalidad : 4200.0
+	Characteristics:
+		inteligencia: 1146.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Kralanillo	199	8877
+		Anillo	Alianza Natomia	198	13897
+		Bota	Botas del Espíritu de la Salvación	200	19248
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu de la Salvación	200	19247
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Mascotura	Hardo	60	14854
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Astuto	100	13761
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito	100	16203
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			8877, # Kralanillo
+			13897, # Alianza Natomia
+			19248, # Botas del Espíritu de la Salvación
+			19979, # Capa de Martillelo
+			19247, # Cinturón del Espíritu de la Salvación
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			14854, # Hardo
+			20360, # Diadema de Ganymed
+			13761, # Astuto
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16203, # Erudito
+			]
+
+Solution 28:
+	Fitness: 1762.0000000000002
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1762.0000000000002
+	Push damage: 264.0
+	Heals: 406.9
+	Preferences:
+		% crítico : -4.0
+		% resistencia a la tierra : 29.0
+		% resistencia al agua : 19.0
+		% resistencia al aire : 36.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 19.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 7.0
+		de cura : 214.0
+		huida : 64.0
+		iniciativa : 2426.0
+		placaje : 49.0
+		potencia (daños generales) : 395.0
+		vitalidad : 4800.0
+	Characteristics:
+		inteligencia: 1186.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Lavanillo	200	19597
+		Bota	Botas del Espíritu Insano	200	19251
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu Insano	200	19250
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo orquídeo y pelirrojo	60	33049
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Observador	50	16336
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			19597, # Lavanillo
+			19251, # Botas del Espíritu Insano
+			19979, # Capa de Martillelo
+			19250, # Cinturón del Espíritu Insano
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33049, # Dragopavo orquídeo y pelirrojo
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			20360, # Diadema de Ganymed
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16204, # Erudito mayor
+			16336, # Observador
+			]
+
+Solution 29:
+	Fitness: 1759.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1759.0
+	Push damage: 264.0
+	Heals: 422.65
+	Preferences:
+		% crítico : -4.0
+		% resistencia a la tierra : 29.0
+		% resistencia al agua : 19.0
+		% resistencia al aire : 36.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 29.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 229.0
+		huida : 72.0
+		iniciativa : 2511.0
+		placaje : 42.0
+		potencia (daños generales) : 395.0
+		vitalidad : 4750.0
+	Characteristics:
+		inteligencia: 1191.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo Rorífico	200	18037
+		Anillo	Lavanillo	200	19597
+		Bota	Botas del Espíritu Insano	200	19251
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu Insano	200	19250
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo orquídeo y pelirrojo	60	33049
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Observador	50	16336
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			18037, # Anillo Rorífico
+			19597, # Lavanillo
+			19251, # Botas del Espíritu Insano
+			19979, # Capa de Martillelo
+			19250, # Cinturón del Espíritu Insano
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33049, # Dragopavo orquídeo y pelirrojo
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			20360, # Diadema de Ganymed
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16204, # Erudito mayor
+			16336, # Observador
+			]
+
+Solution 30:
+	Fitness: 1755.0000000000002
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1755.0000000000002
+	Push damage: 344.0
+	Heals: 394.4
+	Preferences:
+		% crítico : 3.0
+		% resistencia a la tierra : 26.0
+		% resistencia al agua : 29.0
+		% resistencia al aire : 34.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 14.0
+		PA : 12.0
+		PM : 7.0
+		alcance : 6.0
+		de cura : 206.0
+		huida : 42.0
+		iniciativa : 1216.0
+		placaje : 77.0
+		potencia (daños generales) : 425.0
+		vitalidad : 4700.0
+	Characteristics:
+		inteligencia: 1156.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Lavanillo	200	19597
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Coconturón	200	21224
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo orquídeo y pelirrojo	60	33049
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Máscara ardiente	200	19586
+		Trofeo	Doctor	100	13755
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			19597, # Lavanillo
+			15748, # Botarpilla
+			15747, # Capilla
+			21224, # Coconturón
+			694, # Dofus Púrpura
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33049, # Dragopavo orquídeo y pelirrojo
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			19586, # Máscara ardiente
+			13755, # Doctor
+			13762, # Astuto mayor
+			16204, # Erudito mayor
+			]
+
+Solution 31:
+	Fitness: 1755.0000000000002
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1755.0000000000002
+	Push damage: 344.0
+	Heals: 394.4
+	Preferences:
+		% crítico : -9.0
+		% resistencia a la tierra : 26.0
+		% resistencia al agua : 29.0
+		% resistencia al aire : 34.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 14.0
+		PA : 12.0
+		PM : 7.0
+		alcance : 6.0
+		de cura : 206.0
+		huida : 42.0
+		iniciativa : 1216.0
+		placaje : 77.0
+		potencia (daños generales) : 425.0
+		vitalidad : 4700.0
+	Characteristics:
+		inteligencia: 1156.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Lavanillo	200	19597
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Coconturón	200	21224
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo orquídeo y pelirrojo	60	33049
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Máscara ardiente	200	19586
+		Trofeo	Doctor	100	13755
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			19597, # Lavanillo
+			15748, # Botarpilla
+			15747, # Capilla
+			21224, # Coconturón
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33049, # Dragopavo orquídeo y pelirrojo
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			19586, # Máscara ardiente
+			13755, # Doctor
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16204, # Erudito mayor
+			]
+
+Solution 32:
+	Fitness: 1755.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1755.0
+	Push damage: 264.0
+	Heals: 414.65
+	Preferences:
+		% crítico : 8.0
+		% resistencia a la tierra : 37.0
+		% resistencia al agua : 24.0
+		% resistencia al aire : 44.0
+		% resistencia al fuego : 24.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 200.0
+		huida : 79.0
+		iniciativa : 1451.0
+		placaje : 16.0
+		potencia (daños generales) : 235.0
+		vitalidad : 4550.0
+	Characteristics:
+		inteligencia: 1331.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Maldición del Venerable Durmiente	200	31799
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dotruz	110	15235
+		Dragopavo	Dragopavo marfil y orquídeo	60	33043
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Corona de Nidas	200	15186
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			31799, # Maldición del Venerable Durmiente
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			15235, # Dotruz
+			33043, # Dragopavo marfil y orquídeo
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			15186, # Corona de Nidas
+			13756, # Doctor mayor
+			13762, # Astuto mayor
+			16204, # Erudito mayor
+			]
+
+Solution 33:
+	Fitness: 1755.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1755.0
+	Push damage: 264.0
+	Heals: 414.65
+	Preferences:
+		% crítico : 8.0
+		% resistencia a la tierra : 37.0
+		% resistencia al agua : 24.0
+		% resistencia al aire : 44.0
+		% resistencia al fuego : 24.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 200.0
+		huida : 103.0
+		iniciativa : 1451.0
+		placaje : 16.0
+		potencia (daños generales) : 235.0
+		vitalidad : 4550.0
+	Characteristics:
+		inteligencia: 1331.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Maldición del Venerable Durmiente	200	31799
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dotruz	110	15235
+		Dragopavo	Dragopavo marfil y orquídeo	60	33043
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Corona de Nidas	200	15186
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			31799, # Maldición del Venerable Durmiente
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			15235, # Dotruz
+			33043, # Dragopavo marfil y orquídeo
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			15186, # Corona de Nidas
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			]
+
+Solution 34:
+	Fitness: 1753.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1753.0
+	Push damage: 264.0
+	Heals: 438.4
+	Preferences:
+		% crítico : 11.0
+		% resistencia a la tierra : 27.0
+		% resistencia al agua : 14.0
+		% resistencia al aire : 44.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 14.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 214.0
+		huida : 43.0
+		iniciativa : 2056.0
+		placaje : 24.0
+		potencia (daños generales) : 170.0
+		vitalidad : 4400.0
+	Characteristics:
+		inteligencia: 1396.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Mizz Frizz	198	14061
+		Anillo	Lavanillo	200	19597
+		Bota	Botas innombrables	200	18003
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Sombrero secular	200	14079
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito menor	50	16202
+		Trofeo	Erudito mayor	150	16204
+		Vueloceronte	Vueloceronte orquídeo	60	33199
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			14061, # Anillo de Mizz Frizz
+			19597, # Lavanillo
+			18003, # Botas innombrables
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			14079, # Sombrero secular
+			13756, # Doctor mayor
+			13762, # Astuto mayor
+			16202, # Erudito menor
+			16204, # Erudito mayor
+			33199, # Vueloceronte orquídeo
+			]
+
+Solution 35:
+	Fitness: 1752.0000000000002
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1752.0000000000002
+	Push damage: 264.0
+	Heals: 393.4
+	Preferences:
+		% crítico : 5.0
+		% resistencia a la tierra : 40.0
+		% resistencia al agua : 17.0
+		% resistencia al aire : 37.0
+		% resistencia al fuego : 27.0
+		% resistencia neutral : 27.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 205.0
+		huida : 79.0
+		iniciativa : 1696.0
+		placaje : 28.0
+		potencia (daños generales) : 400.0
+		vitalidad : 4600.0
+	Characteristics:
+		inteligencia: 1156.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Anillo Rorífico	200	18037
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo marfil y orquídeo	60	33043
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Corona de Nidas	200	15186
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Lozano mayor	150	16332
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			18037, # Anillo Rorífico
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			694, # Dofus Púrpura
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33043, # Dragopavo marfil y orquídeo
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			15186, # Corona de Nidas
+			13756, # Doctor mayor
+			13762, # Astuto mayor
+			16332, # Lozano mayor
+			]
+
+Solution 36:
+	Fitness: 1751.0000000000002
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1751.0000000000002
+	Push damage: 264.0
+	Heals: 412.65
+	Preferences:
+		% crítico : 6.0
+		% resistencia a la tierra : 31.0
+		% resistencia al agua : 24.0
+		% resistencia al aire : 34.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 24.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 201.0
+		huida : 71.0
+		iniciativa : 1941.0
+		placaje : 24.0
+		potencia (daños generales) : 245.0
+		vitalidad : 4200.0
+	Characteristics:
+		inteligencia: 1311.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo Rorífico	200	18037
+		Anillo	Anilluræus	200	18599
+		Bota	Botas de Meno	200	18022
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Gorra de Meno	200	18023
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+		Vueloceronte	Vueloceronte orquídeo	60	33199
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			18037, # Anillo Rorífico
+			18599, # Anilluræus
+			18022, # Botas de Meno
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			18023, # Gorra de Meno
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			33199, # Vueloceronte orquídeo
+			]
+
+Solution 37:
+	Fitness: 1751.0000000000002
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1751.0000000000002
+	Push damage: 264.0
+	Heals: 412.65
+	Preferences:
+		% crítico : 18.0
+		% resistencia a la tierra : 31.0
+		% resistencia al agua : 24.0
+		% resistencia al aire : 34.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 24.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 201.0
+		huida : 47.0
+		iniciativa : 1941.0
+		placaje : 24.0
+		potencia (daños generales) : 245.0
+		vitalidad : 4200.0
+	Characteristics:
+		inteligencia: 1311.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo Rorífico	200	18037
+		Anillo	Anilluræus	200	18599
+		Bota	Botas de Meno	200	18022
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Gorra de Meno	200	18023
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito mayor	150	16204
+		Vueloceronte	Vueloceronte orquídeo	60	33199
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			18037, # Anillo Rorífico
+			18599, # Anilluræus
+			18022, # Botas de Meno
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			694, # Dofus Púrpura
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			18023, # Gorra de Meno
+			13756, # Doctor mayor
+			13762, # Astuto mayor
+			16204, # Erudito mayor
+			33199, # Vueloceronte orquídeo
+			]
+
+Solution 38:
+	Fitness: 1751.0000000000002
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1751.0000000000002
+	Push damage: 264.0
+	Heals: 412.65
+	Preferences:
+		% crítico : 18.0
+		% resistencia a la tierra : 31.0
+		% resistencia al agua : 24.0
+		% resistencia al aire : 34.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 24.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 201.0
+		huida : 71.0
+		iniciativa : 1941.0
+		placaje : 24.0
+		potencia (daños generales) : 245.0
+		vitalidad : 4200.0
+	Characteristics:
+		inteligencia: 1311.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo Rorífico	200	18037
+		Anillo	Anilluræus	200	18599
+		Bota	Botas de Meno	200	18022
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Gorra de Meno	200	18023
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+		Vueloceronte	Vueloceronte orquídeo	60	33199
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			18037, # Anillo Rorífico
+			18599, # Anilluræus
+			18022, # Botas de Meno
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			694, # Dofus Púrpura
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			18023, # Gorra de Meno
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			33199, # Vueloceronte orquídeo
+			]
+
+Solution 39:
+	Fitness: 1749.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1749.9999999999998
+	Push damage: 474.0
+	Heals: 418.65
+	Preferences:
+		% crítico : 6.0
+		% resistencia a la tierra : 27.0
+		% resistencia al agua : 31.0
+		% resistencia al aire : 24.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 12.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 210.0
+		huida : 43.0
+		iniciativa : 1291.0
+		placaje : 49.0
+		potencia (daños generales) : 260.0
+		vitalidad : 4750.0
+	Characteristics:
+		inteligencia: 1291.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Momistianillo	200	18594
+		Bota	Momistibotas	200	18593
+		Capa	Abrigo del Venerable Durmiente	200	31797
+		Cinturón	Coconturón	200	21224
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo orquídeo y pelirrojo	60	33049
+		Escudo	Escudístiko	200	18692
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Casco ciclópeo	200	18036
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			18594, # Momistianillo
+			18593, # Momistibotas
+			31797, # Abrigo del Venerable Durmiente
+			21224, # Coconturón
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33049, # Dragopavo orquídeo y pelirrojo
+			18692, # Escudístiko
+			25222, # Martillo poseído
+			18036, # Casco ciclópeo
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			]
+
+Solution 40:
+	Fitness: 1749.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1749.9999999999998
+	Push damage: 474.0
+	Heals: 418.65
+	Preferences:
+		% crítico : 18.0
+		% resistencia a la tierra : 27.0
+		% resistencia al agua : 31.0
+		% resistencia al aire : 24.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 12.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 210.0
+		huida : 43.0
+		iniciativa : 1291.0
+		placaje : 49.0
+		potencia (daños generales) : 260.0
+		vitalidad : 4750.0
+	Characteristics:
+		inteligencia: 1291.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Momistianillo	200	18594
+		Bota	Momistibotas	200	18593
+		Capa	Abrigo del Venerable Durmiente	200	31797
+		Cinturón	Coconturón	200	21224
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo orquídeo y pelirrojo	60	33049
+		Escudo	Escudístiko	200	18692
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Casco ciclópeo	200	18036
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			18594, # Momistianillo
+			18593, # Momistibotas
+			31797, # Abrigo del Venerable Durmiente
+			21224, # Coconturón
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33049, # Dragopavo orquídeo y pelirrojo
+			18692, # Escudístiko
+			25222, # Martillo poseído
+			18036, # Casco ciclópeo
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			]
+
+Solution 41:
+	Fitness: 1749.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1749.9999999999998
+	Push damage: 474.0
+	Heals: 418.65
+	Preferences:
+		% crítico : 18.0
+		% resistencia a la tierra : 27.0
+		% resistencia al agua : 31.0
+		% resistencia al aire : 24.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 12.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 210.0
+		huida : 43.0
+		iniciativa : 1291.0
+		placaje : 49.0
+		potencia (daños generales) : 260.0
+		vitalidad : 4750.0
+	Characteristics:
+		inteligencia: 1291.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Momistianillo	200	18594
+		Bota	Momistibotas	200	18593
+		Capa	Abrigo del Venerable Durmiente	200	31797
+		Cinturón	Coconturón	200	21224
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo orquídeo y pelirrojo	60	33049
+		Escudo	Escudístiko	200	18692
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Casco ciclópeo	200	18036
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			18594, # Momistianillo
+			18593, # Momistibotas
+			31797, # Abrigo del Venerable Durmiente
+			21224, # Coconturón
+			694, # Dofus Púrpura
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33049, # Dragopavo orquídeo y pelirrojo
+			18692, # Escudístiko
+			25222, # Martillo poseído
+			18036, # Casco ciclópeo
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			]
+
+Solution 42:
+	Fitness: 1744.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1744.9999999999998
+	Push damage: 264.0
+	Heals: 396.65
+	Preferences:
+		% crítico : -24.0
+		% resistencia a la tierra : 19.0
+		% resistencia al agua : 16.0
+		% resistencia al aire : 46.0
+		% resistencia al fuego : 16.0
+		% resistencia neutral : 19.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 212.0
+		huida : 114.0
+		iniciativa : 1321.0
+		placaje : 17.0
+		potencia (daños generales) : 445.0
+		vitalidad : 4100.0
+	Characteristics:
+		inteligencia: 1131.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Kralanillo	199	8877
+		Anillo	Lavanillo	200	19597
+		Bota	Botas del Espíritu de la Salvación	200	19248
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu de la Salvación	200	19247
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Mascotura	Hardo	60	14854
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Astuto	100	13761
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito	100	16203
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			8877, # Kralanillo
+			19597, # Lavanillo
+			19248, # Botas del Espíritu de la Salvación
+			19979, # Capa de Martillelo
+			19247, # Cinturón del Espíritu de la Salvación
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			14854, # Hardo
+			20360, # Diadema de Ganymed
+			13761, # Astuto
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16203, # Erudito
+			]
+
+Solution 43:
+	Fitness: 1744.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1744.9999999999998
+	Push damage: 264.0
+	Heals: 362.4
+	Preferences:
+		% crítico : -35.0
+		% resistencia a la tierra : 19.0
+		% resistencia al agua : 16.0
+		% resistencia al aire : 39.0
+		% resistencia al fuego : 23.0
+		% resistencia neutral : 26.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 204.0
+		huida : 97.0
+		iniciativa : 1166.0
+		placaje : 12.0
+		potencia (daños generales) : 620.0
+		vitalidad : 4350.0
+	Characteristics:
+		inteligencia: 956.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Brazalete de melenutrof	200	15190
+		Anillo	Lavanillo	200	19597
+		Bota	Botas del Espíritu de la Salvación	200	19248
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu de la Salvación	200	19247
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Solar	200	19598
+		Martillo	Martillo poseído	200	25222
+		Mascota	Ross	20	8677
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15190, # Brazalete de melenutrof
+			19597, # Lavanillo
+			19248, # Botas del Espíritu de la Salvación
+			19979, # Capa de Martillelo
+			19247, # Cinturón del Espíritu de la Salvación
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			19598, # Escudo de Solar
+			25222, # Martillo poseído
+			8677, # Ross
+			20360, # Diadema de Ganymed
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			]
+
+Solution 44:
+	Fitness: 1742.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1742.0
+	Push damage: 294.0
+	Heals: 394.9
+	Preferences:
+		% crítico : 5.0
+		% resistencia a la tierra : 26.0
+		% resistencia al agua : 29.0
+		% resistencia al aire : 24.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 14.0
+		PA : 12.0
+		PM : 7.0
+		alcance : 6.0
+		de cura : 208.0
+		huida : 48.0
+		iniciativa : 1926.0
+		placaje : 73.0
+		potencia (daños generales) : 425.0
+		vitalidad : 4800.0
+	Characteristics:
+		inteligencia: 1146.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Lavanillo	200	19597
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Coconturón	200	21224
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo orquídeo y pelirrojo	60	33049
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Máscara de luchador de presinkach	200	15442
+		Trofeo	Doctor	100	13755
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			19597, # Lavanillo
+			15748, # Botarpilla
+			15747, # Capilla
+			21224, # Coconturón
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33049, # Dragopavo orquídeo y pelirrojo
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			15442, # Máscara de luchador de presinkach
+			13755, # Doctor
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16204, # Erudito mayor
+			]
+
+Solution 45:
+	Fitness: 1740.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1740.0
+	Push damage: 294.0
+	Heals: 390.9
+	Preferences:
+		% crítico : 8.0
+		% resistencia a la tierra : 34.0
+		% resistencia al agua : 29.0
+		% resistencia al aire : 32.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 14.0
+		PA : 12.0
+		PM : 7.0
+		alcance : 6.0
+		de cura : 204.0
+		huida : 48.0
+		iniciativa : 1766.0
+		placaje : 66.0
+		potencia (daños generales) : 425.0
+		vitalidad : 4450.0
+	Characteristics:
+		inteligencia: 1146.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Lavanillo	200	19597
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Coconturón	200	21224
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo orquídeo y pelirrojo	60	33049
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Doctor	100	13755
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			19597, # Lavanillo
+			15748, # Botarpilla
+			15747, # Capilla
+			21224, # Coconturón
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33049, # Dragopavo orquídeo y pelirrojo
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			13641, # Gorro de Noai Aludem
+			13755, # Doctor
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16204, # Erudito mayor
+			]
+
+Solution 46:
+	Fitness: 1737.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1737.0
+	Push damage: 294.0
+	Heals: 384.4
+	Preferences:
+		% crítico : 1.0
+		% resistencia a la tierra : 44.0
+		% resistencia al agua : 38.0
+		% resistencia al aire : 29.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 19.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 205.0
+		huida : 32.0
+		iniciativa : 1516.0
+		placaje : 20.0
+		potencia (daños generales) : 450.0
+		vitalidad : 4650.0
+	Characteristics:
+		inteligencia: 1096.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Momistianillo	200	18594
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Coconturón	200	21224
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo marfil y pelirrojo	60	33045
+		Escudo	Burlador de la Muerte	200	20358
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			18594, # Momistianillo
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			21224, # Coconturón
+			694, # Dofus Púrpura
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33045, # Dragopavo marfil y pelirrojo
+			20358, # Burlador de la Muerte
+			25222, # Martillo poseído
+			20360, # Diadema de Ganymed
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			]
+
+Solution 47:
+	Fitness: 1733.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1733.0
+	Push damage: 264.0
+	Heals: 396.65
+	Preferences:
+		% crítico : -24.0
+		% resistencia a la tierra : 22.0
+		% resistencia al agua : 16.0
+		% resistencia al aire : 29.0
+		% resistencia al fuego : 26.0
+		% resistencia neutral : 19.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 215.0
+		huida : 106.0
+		iniciativa : 1281.0
+		placaje : 36.0
+		potencia (daños generales) : 450.0
+		vitalidad : 4250.0
+	Characteristics:
+		inteligencia: 1111.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Kralanillo	199	8877
+		Anillo	Alianza Natomia	198	13897
+		Bota	Botas del Espíritu de la Salvación	200	19248
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu de la Salvación	200	19247
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Mascotura	Hardo	60	14854
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Astuto	100	13761
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito	100	16203
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			8877, # Kralanillo
+			13897, # Alianza Natomia
+			19248, # Botas del Espíritu de la Salvación
+			19979, # Capa de Martillelo
+			19247, # Cinturón del Espíritu de la Salvación
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			14854, # Hardo
+			20360, # Diadema de Ganymed
+			13761, # Astuto
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16203, # Erudito
+			]
+
+Solution 48:
+	Fitness: 1733.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1733.0
+	Push damage: 264.0
+	Heals: 382.4
+	Preferences:
+		% crítico : -24.0
+		% resistencia a la tierra : 19.0
+		% resistencia al agua : 16.0
+		% resistencia al aire : 36.0
+		% resistencia al fuego : 16.0
+		% resistencia neutral : 19.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 200.0
+		huida : 114.0
+		iniciativa : 1246.0
+		placaje : 32.0
+		potencia (daños generales) : 445.0
+		vitalidad : 4150.0
+	Characteristics:
+		inteligencia: 1116.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Kralanillo	199	8877
+		Anillo	Alianza Natomia	198	13897
+		Bota	Botas del Espíritu de la Salvación	200	19248
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu de la Salvación	200	19247
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Mascotura	Hardo	60	14854
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Astuto menor	50	13760
+		Trofeo	Astuto	100	13761
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			8877, # Kralanillo
+			13897, # Alianza Natomia
+			19248, # Botas del Espíritu de la Salvación
+			19979, # Capa de Martillelo
+			19247, # Cinturón del Espíritu de la Salvación
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			14854, # Hardo
+			20360, # Diadema de Ganymed
+			13760, # Astuto menor
+			13761, # Astuto
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			]
+
+Solution 49:
+	Fitness: 1732.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1732.0
+	Push damage: 264.0
+	Heals: 402.4
+	Preferences:
+		% crítico : 11.0
+		% resistencia a la tierra : 40.0
+		% resistencia al agua : 17.0
+		% resistencia al aire : 37.0
+		% resistencia al fuego : 27.0
+		% resistencia neutral : 27.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 205.0
+		huida : 79.0
+		iniciativa : 1756.0
+		placaje : 28.0
+		potencia (daños generales) : 320.0
+		vitalidad : 4600.0
+	Characteristics:
+		inteligencia: 1216.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Anillo Rorífico	200	18037
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo marfil y orquídeo	60	33043
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Corona de Nidas	200	15186
+		Trofeo	Sabio mayor	150	12719
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto mayor	150	13762
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			18037, # Anillo Rorífico
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			694, # Dofus Púrpura
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33043, # Dragopavo marfil y orquídeo
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			15186, # Corona de Nidas
+			12719, # Sabio mayor
+			13756, # Doctor mayor
+			13762, # Astuto mayor
+			]
+
+Solution 50:
+	Fitness: 1731.0000000000002
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1731.0000000000002
+	Push damage: 304.0
+	Heals: 425.4
+	Preferences:
+		% crítico : 12.0
+		% resistencia a la tierra : 37.0
+		% resistencia al agua : 17.0
+		% resistencia al aire : 44.0
+		% resistencia al fuego : 15.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 222.0
+		huida : 20.0
+		iniciativa : 2506.0
+		placaje : 60.0
+		potencia (daños generales) : 275.0
+		vitalidad : 4300.0
+	Characteristics:
+		inteligencia: 1256.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Lavanillo	200	19597
+		Bota	Botas de Otomai	192	13118
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu Insano	200	19250
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Máscara del Espíritu Insano	200	19252
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+		Vueloceronte	Vueloceronte rubí y orquídeo	60	33231
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			19597, # Lavanillo
+			13118, # Botas de Otomai
+			19979, # Capa de Martillelo
+			19250, # Cinturón del Espíritu Insano
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			19252, # Máscara del Espíritu Insano
+			13756, # Doctor mayor
+			13762, # Astuto mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			33231, # Vueloceronte rubí y orquídeo
+			]
+
+Solution 51:
+	Fitness: 1731.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1731.0
+	Push damage: 264.0
+	Heals: 421.65
+	Preferences:
+		% crítico : 24.0
+		% resistencia a la tierra : 31.0
+		% resistencia al agua : 24.0
+		% resistencia al aire : 34.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 24.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 201.0
+		huida : 71.0
+		iniciativa : 2001.0
+		placaje : 24.0
+		potencia (daños generales) : 165.0
+		vitalidad : 4200.0
+	Characteristics:
+		inteligencia: 1371.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo Rorífico	200	18037
+		Anillo	Anilluræus	200	18599
+		Bota	Botas de Meno	200	18022
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Gorra de Meno	200	18023
+		Trofeo	Sabio mayor	150	12719
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+		Vueloceronte	Vueloceronte orquídeo	60	33199
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			18037, # Anillo Rorífico
+			18599, # Anilluræus
+			18022, # Botas de Meno
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			18023, # Gorra de Meno
+			12719, # Sabio mayor
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			33199, # Vueloceronte orquídeo
+			]
+
+Solution 52:
+	Fitness: 1731.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1731.0
+	Push damage: 264.0
+	Heals: 421.65
+	Preferences:
+		% crítico : 24.0
+		% resistencia a la tierra : 31.0
+		% resistencia al agua : 24.0
+		% resistencia al aire : 34.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 24.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 201.0
+		huida : 47.0
+		iniciativa : 2001.0
+		placaje : 24.0
+		potencia (daños generales) : 165.0
+		vitalidad : 4200.0
+	Characteristics:
+		inteligencia: 1371.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo Rorífico	200	18037
+		Anillo	Anilluræus	200	18599
+		Bota	Botas de Meno	200	18022
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Gorra de Meno	200	18023
+		Trofeo	Sabio mayor	150	12719
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito mayor	150	16204
+		Vueloceronte	Vueloceronte orquídeo	60	33199
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			18037, # Anillo Rorífico
+			18599, # Anilluræus
+			18022, # Botas de Meno
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			18023, # Gorra de Meno
+			12719, # Sabio mayor
+			13756, # Doctor mayor
+			13762, # Astuto mayor
+			16204, # Erudito mayor
+			33199, # Vueloceronte orquídeo
+			]
+
+Solution 53:
+	Fitness: 1730.0000000000002
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1730.0000000000002
+	Push damage: 474.0
+	Heals: 405.15
+	Preferences:
+		% crítico : 18.0
+		% resistencia a la tierra : 27.0
+		% resistencia al agua : 31.0
+		% resistencia al aire : 24.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 12.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 210.0
+		huida : 43.0
+		iniciativa : 1201.0
+		placaje : 49.0
+		potencia (daños generales) : 330.0
+		vitalidad : 4750.0
+	Characteristics:
+		inteligencia: 1201.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Momistianillo	200	18594
+		Bota	Momistibotas	200	18593
+		Capa	Abrigo del Venerable Durmiente	200	31797
+		Cinturón	Coconturón	200	21224
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo marfil y pelirrojo	60	33045
+		Escudo	Escudístiko	200	18692
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Casco ciclópeo	200	18036
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			18594, # Momistianillo
+			18593, # Momistibotas
+			31797, # Abrigo del Venerable Durmiente
+			21224, # Coconturón
+			694, # Dofus Púrpura
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33045, # Dragopavo marfil y pelirrojo
+			18692, # Escudístiko
+			25222, # Martillo poseído
+			18036, # Casco ciclópeo
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			]
+
+Solution 54:
+	Fitness: 1726.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1726.9999999999998
+	Push damage: 264.0
+	Heals: 397.9
+	Preferences:
+		% crítico : 13.0
+		% resistencia a la tierra : 47.0
+		% resistencia al agua : 24.0
+		% resistencia al aire : 37.0
+		% resistencia al fuego : 27.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 202.0
+		huida : 71.0
+		iniciativa : 1666.0
+		placaje : 20.0
+		potencia (daños generales) : 320.0
+		vitalidad : 4700.0
+	Characteristics:
+		inteligencia: 1206.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Anilluræus	200	18599
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo marfil y orquídeo	60	33043
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Corona de Nidas	200	15186
+		Trofeo	Sabio mayor	150	12719
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto mayor	150	13762
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			18599, # Anilluræus
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			694, # Dofus Púrpura
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33043, # Dragopavo marfil y orquídeo
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			15186, # Corona de Nidas
+			12719, # Sabio mayor
+			13756, # Doctor mayor
+			13762, # Astuto mayor
+			]
+
+Solution 55:
+	Fitness: 1723.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1723.0
+	Push damage: 264.0
+	Heals: 433.9
+	Preferences:
+		% crítico : 11.0
+		% resistencia a la tierra : 27.0
+		% resistencia al agua : 14.0
+		% resistencia al aire : 44.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 14.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 8.0
+		de cura : 214.0
+		huida : 43.0
+		iniciativa : 2026.0
+		placaje : 24.0
+		potencia (daños generales) : 170.0
+		vitalidad : 4400.0
+	Characteristics:
+		inteligencia: 1366.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Mizz Frizz	198	14061
+		Anillo	Lavanillo	200	19597
+		Bota	Botas innombrables	200	18003
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus silvestre	180	29136
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Sombrero secular	200	14079
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito mayor	150	16204
+		Vueloceronte	Vueloceronte orquídeo	60	33199
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			14061, # Anillo de Mizz Frizz
+			19597, # Lavanillo
+			18003, # Botas innombrables
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			29136, # Dofus silvestre
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			14079, # Sombrero secular
+			13756, # Doctor mayor
+			13762, # Astuto mayor
+			16204, # Erudito mayor
+			33199, # Vueloceronte orquídeo
+			]
+
+Solution 56:
+	Fitness: 1721.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1721.9999999999998
+	Push damage: 304.0
+	Heals: 406.9
+	Preferences:
+		% crítico : 5.0
+		% resistencia a la tierra : 14.0
+		% resistencia al agua : 17.0
+		% resistencia al aire : 34.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 14.0
+		PA : 12.0
+		PM : 7.0
+		alcance : 6.0
+		de cura : 223.0
+		huida : 48.0
+		iniciativa : 1966.0
+		placaje : 65.0
+		potencia (daños generales) : 425.0
+		vitalidad : 4800.0
+	Characteristics:
+		inteligencia: 1126.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Lavanillo	200	19597
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Cintriga	200	15750
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo orquídeo y pelirrojo	60	33049
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Máscara de luchador de presinkach	200	15442
+		Trofeo	Doctor	100	13755
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			19597, # Lavanillo
+			15748, # Botarpilla
+			15747, # Capilla
+			15750, # Cintriga
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33049, # Dragopavo orquídeo y pelirrojo
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			15442, # Máscara de luchador de presinkach
+			13755, # Doctor
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16204, # Erudito mayor
+			]
+
+Solution 57:
+	Fitness: 1720.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1720.9999999999998
+	Push damage: 264.0
+	Heals: 420.15
+	Preferences:
+		% crítico : 22.0
+		% resistencia a la tierra : 24.0
+		% resistencia al agua : 17.0
+		% resistencia al aire : 44.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 24.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 7.0
+		de cura : 201.0
+		huida : 47.0
+		iniciativa : 2051.0
+		placaje : 24.0
+		potencia (daños generales) : 165.0
+		vitalidad : 4050.0
+	Characteristics:
+		inteligencia: 1361.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo Rorífico	200	18037
+		Anillo	Lavanillo	200	19597
+		Bota	Botas de Meno	200	18022
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Gorra de Meno	200	18023
+		Trofeo	Sabio mayor	150	12719
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito mayor	150	16204
+		Vueloceronte	Vueloceronte orquídeo	60	33199
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			18037, # Anillo Rorífico
+			19597, # Lavanillo
+			18022, # Botas de Meno
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			18023, # Gorra de Meno
+			12719, # Sabio mayor
+			13756, # Doctor mayor
+			13762, # Astuto mayor
+			16204, # Erudito mayor
+			33199, # Vueloceronte orquídeo
+			]
+
+Solution 58:
+	Fitness: 1720.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1720.0
+	Push damage: 374.0
+	Heals: 388.4
+	Preferences:
+		% crítico : 0.0
+		% resistencia a la tierra : 34.0
+		% resistencia al agua : 38.0
+		% resistencia al aire : 29.0
+		% resistencia al fuego : 26.0
+		% resistencia neutral : 14.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 200.0
+		huida : 82.0
+		iniciativa : 936.0
+		placaje : 35.0
+		potencia (daños generales) : 380.0
+		vitalidad : 4200.0
+	Characteristics:
+		inteligencia: 1156.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Maldición del Venerable Durmiente	200	31799
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Coconturón	200	21224
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudístiko	200	18692
+		Martillo	Martillo poseído	200	25222
+		Mascota	Pulp	20	13099
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			31799, # Maldición del Venerable Durmiente
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			21224, # Coconturón
+			694, # Dofus Púrpura
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			18692, # Escudístiko
+			25222, # Martillo poseído
+			13099, # Pulp
+			20360, # Diadema de Ganymed
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			]
+
+Solution 59:
+	Fitness: 1720.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1720.0
+	Push damage: 264.0
+	Heals: 362.4
+	Preferences:
+		% crítico : -40.0
+		% resistencia a la tierra : 20.0
+		% resistencia al agua : 14.0
+		% resistencia al aire : 37.0
+		% resistencia al fuego : 21.0
+		% resistencia neutral : 24.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 204.0
+		huida : 87.0
+		iniciativa : 1096.0
+		placaje : 12.0
+		potencia (daños generales) : 580.0
+		vitalidad : 4300.0
+	Characteristics:
+		inteligencia: 956.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Brazalete de melenutrof	200	15190
+		Anillo	Lavanillo	200	19597
+		Bota	Botas del Espíritu de la Salvación	200	19248
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu de la Salvación	200	19247
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Frasco de Otomai	196	30689
+		Martillo	Martillo poseído	200	25222
+		Mascota	Ross	20	8677
+		Sombrero	Máscara del Espíritu de la Salvación	200	19249
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15190, # Brazalete de melenutrof
+			19597, # Lavanillo
+			19248, # Botas del Espíritu de la Salvación
+			19979, # Capa de Martillelo
+			19247, # Cinturón del Espíritu de la Salvación
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			30689, # Frasco de Otomai
+			25222, # Martillo poseído
+			8677, # Ross
+			19249, # Máscara del Espíritu de la Salvación
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			]
+
+Solution 60:
+	Fitness: 1720.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1720.0
+	Push damage: 264.0
+	Heals: 362.4
+	Preferences:
+		% crítico : -45.0
+		% resistencia a la tierra : 27.0
+		% resistencia al agua : 14.0
+		% resistencia al aire : 37.0
+		% resistencia al fuego : 21.0
+		% resistencia neutral : 24.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 204.0
+		huida : 87.0
+		iniciativa : 1166.0
+		placaje : 12.0
+		potencia (daños generales) : 580.0
+		vitalidad : 4350.0
+	Characteristics:
+		inteligencia: 956.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Brazalete de melenutrof	200	15190
+		Anillo	Lavanillo	200	19597
+		Bota	Botas del Espíritu de la Salvación	200	19248
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu de la Salvación	200	19247
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudo de Solar	200	19598
+		Martillo	Martillo poseído	200	25222
+		Mascota	Ross	20	8677
+		Sombrero	Máscara del Espíritu de la Salvación	200	19249
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15190, # Brazalete de melenutrof
+			19597, # Lavanillo
+			19248, # Botas del Espíritu de la Salvación
+			19979, # Capa de Martillelo
+			19247, # Cinturón del Espíritu de la Salvación
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			19598, # Escudo de Solar
+			25222, # Martillo poseído
+			8677, # Ross
+			19249, # Máscara del Espíritu de la Salvación
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			]
+
+Solution 61:
+	Fitness: 1719.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1719.9999999999998
+	Push damage: 304.0
+	Heals: 402.9
+	Preferences:
+		% crítico : 8.0
+		% resistencia a la tierra : 22.0
+		% resistencia al agua : 17.0
+		% resistencia al aire : 42.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 14.0
+		PA : 12.0
+		PM : 7.0
+		alcance : 6.0
+		de cura : 219.0
+		huida : 48.0
+		iniciativa : 1806.0
+		placaje : 58.0
+		potencia (daños generales) : 425.0
+		vitalidad : 4450.0
+	Characteristics:
+		inteligencia: 1126.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Lavanillo	200	19597
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Cintriga	200	15750
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo orquídeo y pelirrojo	60	33049
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Doctor	100	13755
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			19597, # Lavanillo
+			15748, # Botarpilla
+			15747, # Capilla
+			15750, # Cintriga
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33049, # Dragopavo orquídeo y pelirrojo
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			13641, # Gorro de Noai Aludem
+			13755, # Doctor
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16204, # Erudito mayor
+			]
+
+Solution 62:
+	Fitness: 1717.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1717.0
+	Push damage: 304.0
+	Heals: 427.9
+	Preferences:
+		% crítico : 13.0
+		% resistencia a la tierra : 34.0
+		% resistencia al agua : 17.0
+		% resistencia al aire : 44.0
+		% resistencia al fuego : 15.0
+		% resistencia neutral : 24.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 226.0
+		huida : 20.0
+		iniciativa : 2566.0
+		placaje : 52.0
+		potencia (daños generales) : 275.0
+		vitalidad : 4300.0
+	Characteristics:
+		inteligencia: 1246.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Lavanillo	200	19597
+		Bota	Botas de Meno	200	18022
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu Insano	200	19250
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Máscara del Espíritu Insano	200	19252
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+		Vueloceronte	Vueloceronte rubí y orquídeo	60	33231
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			19597, # Lavanillo
+			18022, # Botas de Meno
+			19979, # Capa de Martillelo
+			19250, # Cinturón del Espíritu Insano
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			19252, # Máscara del Espíritu Insano
+			13756, # Doctor mayor
+			13762, # Astuto mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			33231, # Vueloceronte rubí y orquídeo
+			]
+
+Solution 63:
+	Fitness: 1717.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1717.0
+	Push damage: 304.0
+	Heals: 404.9
+	Preferences:
+		% crítico : 13.0
+		% resistencia a la tierra : 34.0
+		% resistencia al agua : 17.0
+		% resistencia al aire : 44.0
+		% resistencia al fuego : 15.0
+		% resistencia neutral : 24.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 203.0
+		huida : 44.0
+		iniciativa : 2566.0
+		placaje : 52.0
+		potencia (daños generales) : 275.0
+		vitalidad : 4300.0
+	Characteristics:
+		inteligencia: 1246.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Lavanillo	200	19597
+		Bota	Botas de Meno	200	18022
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu Insano	200	19250
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dotruz	110	15235
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Máscara del Espíritu Insano	200	19252
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+		Vueloceronte	Vueloceronte rubí y orquídeo	60	33231
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			19597, # Lavanillo
+			18022, # Botas de Meno
+			19979, # Capa de Martillelo
+			19250, # Cinturón del Espíritu Insano
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			15235, # Dotruz
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			19252, # Máscara del Espíritu Insano
+			13762, # Astuto mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			33231, # Vueloceronte rubí y orquídeo
+			]
+
+Solution 64:
+	Fitness: 1717.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1717.0
+	Push damage: 304.0
+	Heals: 403.9
+	Preferences:
+		% crítico : 19.0
+		% resistencia a la tierra : 34.0
+		% resistencia al agua : 17.0
+		% resistencia al aire : 44.0
+		% resistencia al fuego : 15.0
+		% resistencia neutral : 24.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 202.0
+		huida : 44.0
+		iniciativa : 2566.0
+		placaje : 52.0
+		potencia (daños generales) : 275.0
+		vitalidad : 4300.0
+	Characteristics:
+		inteligencia: 1246.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Lavanillo	200	19597
+		Bota	Botas de Meno	200	18022
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu Insano	200	19250
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Máscara del Espíritu Insano	200	19252
+		Trofeo	Cuidador mayor	150	12708
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+		Vueloceronte	Vueloceronte rubí y orquídeo	60	33231
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			19597, # Lavanillo
+			18022, # Botas de Meno
+			19979, # Capa de Martillelo
+			19250, # Cinturón del Espíritu Insano
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			19252, # Máscara del Espíritu Insano
+			12708, # Cuidador mayor
+			13762, # Astuto mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			33231, # Vueloceronte rubí y orquídeo
+			]
+
+Solution 65:
+	Fitness: 1717.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1717.0
+	Push damage: 264.0
+	Heals: 396.4
+	Preferences:
+		% crítico : 5.0
+		% resistencia a la tierra : 40.0
+		% resistencia al agua : 17.0
+		% resistencia al aire : 47.0
+		% resistencia al fuego : 27.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 7.0
+		de cura : 202.0
+		huida : 71.0
+		iniciativa : 1716.0
+		placaje : 20.0
+		potencia (daños generales) : 320.0
+		vitalidad : 4450.0
+	Characteristics:
+		inteligencia: 1196.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Lavanillo	200	19597
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo marfil y orquídeo	60	33043
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Corona de Nidas	200	15186
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto	100	13761
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Lozano mayor	150	16332
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			19597, # Lavanillo
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33043, # Dragopavo marfil y orquídeo
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			15186, # Corona de Nidas
+			13756, # Doctor mayor
+			13761, # Astuto
+			13762, # Astuto mayor
+			16332, # Lozano mayor
+			]
+
+Solution 66:
+	Fitness: 1717.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1717.0
+	Push damage: 304.0
+	Heals: 427.9
+	Preferences:
+		% crítico : 0.0
+		% resistencia a la tierra : 27.0
+		% resistencia al agua : 17.0
+		% resistencia al aire : 44.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 7.0
+		de cura : 226.0
+		huida : 44.0
+		iniciativa : 2546.0
+		placaje : 64.0
+		potencia (daños generales) : 275.0
+		vitalidad : 4800.0
+	Characteristics:
+		inteligencia: 1246.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Lavanillo	200	19597
+		Bota	Botas del Espíritu Insano	200	19251
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu Insano	200	19250
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo orquídeo y pelirrojo	60	33049
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Máscara del Espíritu Insano	200	19252
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Observador	50	16336
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			19597, # Lavanillo
+			19251, # Botas del Espíritu Insano
+			19979, # Capa de Martillelo
+			19250, # Cinturón del Espíritu Insano
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33049, # Dragopavo orquídeo y pelirrojo
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			19252, # Máscara del Espíritu Insano
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16204, # Erudito mayor
+			16336, # Observador
+			]
+
+Solution 67:
+	Fitness: 1715.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1715.0
+	Push damage: 264.0
+	Heals: 431.4
+	Preferences:
+		% crítico : -24.0
+		% resistencia a la tierra : 22.0
+		% resistencia al agua : 16.0
+		% resistencia al aire : 39.0
+		% resistencia al fuego : 26.0
+		% resistencia neutral : 19.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 252.0
+		huida : 106.0
+		iniciativa : 1326.0
+		placaje : 21.0
+		potencia (daños generales) : 450.0
+		vitalidad : 4250.0
+	Characteristics:
+		inteligencia: 1096.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Kralanillo	199	8877
+		Anillo	Lavanillo	200	19597
+		Bota	Botas del Espíritu de la Salvación	200	19248
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu de la Salvación	200	19247
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dotruz	110	15235
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Mascotura	Hardo	60	14854
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			8877, # Kralanillo
+			19597, # Lavanillo
+			19248, # Botas del Espíritu de la Salvación
+			19979, # Capa de Martillelo
+			19247, # Cinturón del Espíritu de la Salvación
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			15235, # Dotruz
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			14854, # Hardo
+			20360, # Diadema de Ganymed
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			]
+
+Solution 68:
+	Fitness: 1714.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1714.9999999999998
+	Push damage: 264.0
+	Heals: 396.65
+	Preferences:
+		% crítico : 8.0
+		% resistencia a la tierra : 37.0
+		% resistencia al agua : 24.0
+		% resistencia al aire : 44.0
+		% resistencia al fuego : 24.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 200.0
+		huida : 103.0
+		iniciativa : 1331.0
+		placaje : 16.0
+		potencia (daños generales) : 315.0
+		vitalidad : 4550.0
+	Characteristics:
+		inteligencia: 1211.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Maldición del Venerable Durmiente	200	31799
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dotruz	110	15235
+		Dragopavo	Dragopavo marfil y orquídeo	60	33043
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Corona de Nidas	200	15186
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Lozano mayor	150	16332
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			31799, # Maldición del Venerable Durmiente
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			15235, # Dotruz
+			33043, # Dragopavo marfil y orquídeo
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			15186, # Corona de Nidas
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16332, # Lozano mayor
+			]
+
+Solution 69:
+	Fitness: 1714.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1714.9999999999998
+	Push damage: 264.0
+	Heals: 419.65
+	Preferences:
+		% crítico : -4.0
+		% resistencia a la tierra : 37.0
+		% resistencia al agua : 24.0
+		% resistencia al aire : 44.0
+		% resistencia al fuego : 24.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 223.0
+		huida : 79.0
+		iniciativa : 1331.0
+		placaje : 16.0
+		potencia (daños generales) : 315.0
+		vitalidad : 4550.0
+	Characteristics:
+		inteligencia: 1211.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Maldición del Venerable Durmiente	200	31799
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo marfil y orquídeo	60	33043
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Corona de Nidas	200	15186
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Curandero mayor	150	16190
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			31799, # Maldición del Venerable Durmiente
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33043, # Dragopavo marfil y orquídeo
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			15186, # Corona de Nidas
+			13756, # Doctor mayor
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16190, # Curandero mayor
+			]
+
+Solution 70:
+	Fitness: 1714.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1714.9999999999998
+	Push damage: 264.0
+	Heals: 396.65
+	Preferences:
+		% crítico : -4.0
+		% resistencia a la tierra : 37.0
+		% resistencia al agua : 24.0
+		% resistencia al aire : 44.0
+		% resistencia al fuego : 24.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 200.0
+		huida : 103.0
+		iniciativa : 1331.0
+		placaje : 16.0
+		potencia (daños generales) : 315.0
+		vitalidad : 4750.0
+	Characteristics:
+		inteligencia: 1211.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Maldición del Venerable Durmiente	200	31799
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dotruz	110	15235
+		Dragopavo	Dragopavo marfil y orquídeo	60	33043
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Corona de Nidas	200	15186
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			31799, # Maldición del Venerable Durmiente
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			15235, # Dotruz
+			33043, # Dragopavo marfil y orquídeo
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			15186, # Corona de Nidas
+			13828, # Robusto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			]
+
+Solution 71:
+	Fitness: 1714.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1714.9999999999998
+	Push damage: 264.0
+	Heals: 396.65
+	Preferences:
+		% crítico : -4.0
+		% resistencia a la tierra : 37.0
+		% resistencia al agua : 24.0
+		% resistencia al aire : 44.0
+		% resistencia al fuego : 24.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 200.0
+		huida : 103.0
+		iniciativa : 1331.0
+		placaje : 16.0
+		potencia (daños generales) : 315.0
+		vitalidad : 4550.0
+	Characteristics:
+		inteligencia: 1211.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Maldición del Venerable Durmiente	200	31799
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dotruz	110	15235
+		Dragopavo	Dragopavo marfil y orquídeo	60	33043
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Corona de Nidas	200	15186
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Curandero mayor	150	16190
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			31799, # Maldición del Venerable Durmiente
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			15235, # Dotruz
+			33043, # Dragopavo marfil y orquídeo
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			15186, # Corona de Nidas
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16190, # Curandero mayor
+			]
+
+Solution 72:
+	Fitness: 1714.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1714.9999999999998
+	Push damage: 264.0
+	Heals: 407.15
+	Preferences:
+		% crítico : -4.0
+		% resistencia a la tierra : 37.0
+		% resistencia al agua : 24.0
+		% resistencia al aire : 44.0
+		% resistencia al fuego : 24.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 200.0
+		huida : 103.0
+		iniciativa : 1401.0
+		placaje : 16.0
+		potencia (daños generales) : 245.0
+		vitalidad : 4150.0
+	Characteristics:
+		inteligencia: 1281.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Maldición del Venerable Durmiente	200	31799
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dotruz	110	15235
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Mascotura	Hardo	60	14854
+		Sombrero	Corona de Nidas	200	15186
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Curandero mayor	150	16190
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			31799, # Maldición del Venerable Durmiente
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			15235, # Dotruz
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			14854, # Hardo
+			15186, # Corona de Nidas
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16190, # Curandero mayor
+			]
+
+Solution 73:
+	Fitness: 1714.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1714.9999999999998
+	Push damage: 264.0
+	Heals: 407.15
+	Preferences:
+		% crítico : 8.0
+		% resistencia a la tierra : 37.0
+		% resistencia al agua : 24.0
+		% resistencia al aire : 44.0
+		% resistencia al fuego : 24.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 200.0
+		huida : 103.0
+		iniciativa : 1401.0
+		placaje : 16.0
+		potencia (daños generales) : 245.0
+		vitalidad : 4150.0
+	Characteristics:
+		inteligencia: 1281.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Maldición del Venerable Durmiente	200	31799
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dotruz	110	15235
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Mascotura	Hardo	60	14854
+		Sombrero	Corona de Nidas	200	15186
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Lozano mayor	150	16332
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			31799, # Maldición del Venerable Durmiente
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			15235, # Dotruz
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			14854, # Hardo
+			15186, # Corona de Nidas
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16332, # Lozano mayor
+			]
+
+Solution 74:
+	Fitness: 1713.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1713.9999999999998
+	Push damage: 304.0
+	Heals: 443.65
+	Preferences:
+		% crítico : 0.0
+		% resistencia a la tierra : 27.0
+		% resistencia al agua : 17.0
+		% resistencia al aire : 44.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 27.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 241.0
+		huida : 52.0
+		iniciativa : 2631.0
+		placaje : 57.0
+		potencia (daños generales) : 275.0
+		vitalidad : 4750.0
+	Characteristics:
+		inteligencia: 1251.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo Rorífico	200	18037
+		Anillo	Lavanillo	200	19597
+		Bota	Botas del Espíritu Insano	200	19251
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu Insano	200	19250
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo orquídeo y pelirrojo	60	33049
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Máscara del Espíritu Insano	200	19252
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Observador	50	16336
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			18037, # Anillo Rorífico
+			19597, # Lavanillo
+			19251, # Botas del Espíritu Insano
+			19979, # Capa de Martillelo
+			19250, # Cinturón del Espíritu Insano
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33049, # Dragopavo orquídeo y pelirrojo
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			19252, # Máscara del Espíritu Insano
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16204, # Erudito mayor
+			16336, # Observador
+			]
+
+Solution 75:
+	Fitness: 1712.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1712.9999999999998
+	Push damage: 324.0
+	Heals: 416.4
+	Preferences:
+		% crítico : -4.0
+		% resistencia a la tierra : 34.0
+		% resistencia al agua : 14.0
+		% resistencia al aire : 49.0
+		% resistencia al fuego : 14.0
+		% resistencia neutral : 21.0
+		PA : 12.0
+		PM : 7.0
+		alcance : 6.0
+		de cura : 204.0
+		huida : 67.0
+		iniciativa : 2436.0
+		placaje : 31.0
+		potencia (daños generales) : 210.0
+		vitalidad : 4350.0
+	Characteristics:
+		inteligencia: 1316.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza golosona	198	12113
+		Anillo	Lavanillo	200	19597
+		Bota	Botas innombrables	200	18003
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Paravela de Mami Ayuto	200	30858
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Sombrero secular	200	14079
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Erudito mayor	150	16204
+		Vueloceronte	Vueloceronte orquídeo	60	33199
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			12113, # Alianza golosona
+			19597, # Lavanillo
+			18003, # Botas innombrables
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			30858, # Paravela de Mami Ayuto
+			25222, # Martillo poseído
+			14079, # Sombrero secular
+			13756, # Doctor mayor
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16204, # Erudito mayor
+			33199, # Vueloceronte orquídeo
+			]
+
+Solution 76:
+	Fitness: 1710.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1710.0
+	Push damage: 474.0
+	Heals: 414.15
+	Preferences:
+		% crítico : 24.0
+		% resistencia a la tierra : 27.0
+		% resistencia al agua : 31.0
+		% resistencia al aire : 24.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 12.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 210.0
+		huida : 43.0
+		iniciativa : 1261.0
+		placaje : 49.0
+		potencia (daños generales) : 250.0
+		vitalidad : 4750.0
+	Characteristics:
+		inteligencia: 1261.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Momistianillo	200	18594
+		Bota	Momistibotas	200	18593
+		Capa	Abrigo del Venerable Durmiente	200	31797
+		Cinturón	Coconturón	200	21224
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo marfil y pelirrojo	60	33045
+		Escudo	Escudístiko	200	18692
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Casco ciclópeo	200	18036
+		Trofeo	Sabio mayor	150	12719
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			18594, # Momistianillo
+			18593, # Momistibotas
+			31797, # Abrigo del Venerable Durmiente
+			21224, # Coconturón
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33045, # Dragopavo marfil y pelirrojo
+			18692, # Escudístiko
+			25222, # Martillo poseído
+			18036, # Casco ciclópeo
+			12719, # Sabio mayor
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			]
+
+Solution 77:
+	Fitness: 1709.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1709.9999999999998
+	Push damage: 304.0
+	Heals: 375.4
+	Preferences:
+		% crítico : -24.0
+		% resistencia a la tierra : 20.0
+		% resistencia al agua : 21.0
+		% resistencia al aire : 17.0
+		% resistencia al fuego : 31.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 208.0
+		huida : 84.0
+		iniciativa : 1236.0
+		placaje : 31.0
+		potencia (daños generales) : 510.0
+		vitalidad : 4199.0
+	Characteristics:
+		inteligencia: 1016.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo Rorífico	200	18037
+		Anillo	Maldición del Venerable Durmiente	200	31799
+		Bota	Botas del Espíritu de la Salvación	200	19248
+		Capa	Capa Brigada	198	13197
+		Cinturón	Cinturón del Espíritu de la Salvación	200	19247
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus silvestre	180	29136
+		Dragopavo	Dragopavo ciruela y orquídeo	60	33059
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Máscara del Espíritu de la Salvación	200	19249
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			18037, # Anillo Rorífico
+			31799, # Maldición del Venerable Durmiente
+			19248, # Botas del Espíritu de la Salvación
+			13197, # Capa Brigada
+			19247, # Cinturón del Espíritu de la Salvación
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			29136, # Dofus silvestre
+			33059, # Dragopavo ciruela y orquídeo
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			19249, # Máscara del Espíritu de la Salvación
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			]
+
+Solution 78:
+	Fitness: 1707.0000000000002
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1707.0000000000002
+	Push damage: 264.0
+	Heals: 406.9
+	Preferences:
+		% crítico : 13.0
+		% resistencia a la tierra : 47.0
+		% resistencia al agua : 24.0
+		% resistencia al aire : 37.0
+		% resistencia al fuego : 27.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 202.0
+		huida : 71.0
+		iniciativa : 1726.0
+		placaje : 20.0
+		potencia (daños generales) : 240.0
+		vitalidad : 4600.0
+	Characteristics:
+		inteligencia: 1266.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Anilluræus	200	18599
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo marfil y orquídeo	60	33043
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Corona de Nidas	200	15186
+		Trofeo	Sabio mayor	150	12719
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto	100	13761
+		Trofeo	Astuto mayor	150	13762
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			18599, # Anilluræus
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33043, # Dragopavo marfil y orquídeo
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			15186, # Corona de Nidas
+			12719, # Sabio mayor
+			13756, # Doctor mayor
+			13761, # Astuto
+			13762, # Astuto mayor
+			]
+
+Solution 79:
+	Fitness: 1702.0000000000002
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1702.0000000000002
+	Push damage: 294.0
+	Heals: 389.4
+	Preferences:
+		% crítico : -3.0
+		% resistencia a la tierra : 34.0
+		% resistencia al agua : 31.0
+		% resistencia al aire : 39.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 14.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 207.0
+		huida : 62.0
+		iniciativa : 1346.0
+		placaje : 40.0
+		potencia (daños generales) : 390.0
+		vitalidad : 4600.0
+	Characteristics:
+		inteligencia: 1116.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Lavanillo	200	19597
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Coconturón	200	21224
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo púrpura y pelirrojo	60	33051
+		Escudo	Rectitud de Fallanster	200	20357
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			19597, # Lavanillo
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			21224, # Coconturón
+			694, # Dofus Púrpura
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33051, # Dragopavo púrpura y pelirrojo
+			20357, # Rectitud de Fallanster
+			25222, # Martillo poseído
+			20360, # Diadema de Ganymed
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			]
+
+Solution 80:
+	Fitness: 1702.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1702.0
+	Push damage: 304.0
+	Heals: 398.65
+	Preferences:
+		% crítico : 20.0
+		% resistencia a la tierra : 14.0
+		% resistencia al agua : 23.0
+		% resistencia al aire : 50.0
+		% resistencia al fuego : 22.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 205.0
+		huida : 53.0
+		iniciativa : 2621.0
+		placaje : 43.0
+		potencia (daños generales) : 325.0
+		vitalidad : 4350.0
+	Characteristics:
+		inteligencia: 1191.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Brazalete de melenutrof	200	15190
+		Anillo	Lavanillo	200	19597
+		Bota	Botas del Espíritu Insano	200	19251
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Bosque del lich	200	26023
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Máscara del Espíritu Insano	200	19252
+		Trofeo	Cuidador mayor	150	12708
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+		Vueloceronte	Vueloceronte rubí y orquídeo	60	33231
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15190, # Brazalete de melenutrof
+			19597, # Lavanillo
+			19251, # Botas del Espíritu Insano
+			19979, # Capa de Martillelo
+			26023, # Bosque del lich
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			19252, # Máscara del Espíritu Insano
+			12708, # Cuidador mayor
+			13762, # Astuto mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			33231, # Vueloceronte rubí y orquídeo
+			]
+
+Solution 81:
+	Fitness: 1702.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1702.0
+	Push damage: 304.0
+	Heals: 399.65
+	Preferences:
+		% crítico : 14.0
+		% resistencia a la tierra : 14.0
+		% resistencia al agua : 23.0
+		% resistencia al aire : 50.0
+		% resistencia al fuego : 22.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 206.0
+		huida : 53.0
+		iniciativa : 2621.0
+		placaje : 43.0
+		potencia (daños generales) : 325.0
+		vitalidad : 4350.0
+	Characteristics:
+		inteligencia: 1191.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Brazalete de melenutrof	200	15190
+		Anillo	Lavanillo	200	19597
+		Bota	Botas del Espíritu Insano	200	19251
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Bosque del lich	200	26023
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dotruz	110	15235
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Máscara del Espíritu Insano	200	19252
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+		Vueloceronte	Vueloceronte rubí y orquídeo	60	33231
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15190, # Brazalete de melenutrof
+			19597, # Lavanillo
+			19251, # Botas del Espíritu Insano
+			19979, # Capa de Martillelo
+			26023, # Bosque del lich
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			15235, # Dotruz
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			19252, # Máscara del Espíritu Insano
+			13762, # Astuto mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			33231, # Vueloceronte rubí y orquídeo
+			]
+
+Solution 82:
+	Fitness: 1701.0000000000002
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1701.0000000000002
+	Push damage: 264.0
+	Heals: 417.15
+	Preferences:
+		% crítico : 29.0
+		% resistencia a la tierra : 24.0
+		% resistencia al agua : 17.0
+		% resistencia al aire : 44.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 24.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 7.0
+		de cura : 201.0
+		huida : 47.0
+		iniciativa : 2031.0
+		placaje : 24.0
+		potencia (daños generales) : 165.0
+		vitalidad : 4050.0
+	Characteristics:
+		inteligencia: 1341.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo Rorífico	200	18037
+		Anillo	Lavanillo	200	19597
+		Bota	Botas de Meno	200	18022
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Gorra de Meno	200	18023
+		Trofeo	Sabio mayor	150	12719
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito mayor	150	16204
+		Vueloceronte	Vueloceronte esmeralda y orquídeo	60	33172
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			18037, # Anillo Rorífico
+			19597, # Lavanillo
+			18022, # Botas de Meno
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			18023, # Gorra de Meno
+			12719, # Sabio mayor
+			13756, # Doctor mayor
+			13762, # Astuto mayor
+			16204, # Erudito mayor
+			33172, # Vueloceronte esmeralda y orquídeo
+			]
+
+Solution 83:
+	Fitness: 1701.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1701.0
+	Push damage: 264.0
+	Heals: 384.65
+	Preferences:
+		% crítico : 28.0
+		% resistencia a la tierra : 16.0
+		% resistencia al agua : 19.0
+		% resistencia al aire : 26.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 26.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 200.0
+		huida : 67.0
+		iniciativa : 1891.0
+		placaje : 32.0
+		potencia (daños generales) : 385.0
+		vitalidad : 4550.0
+	Characteristics:
+		inteligencia: 1131.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo Rorífico	200	18037
+		Anillo	Lavanillo	200	19597
+		Bota	Botas de Meno	200	18022
+		Capa	Capa de Meno	200	18024
+		Cinturón	Abrazo de Servidumbre	200	22429
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo orquídeo y pelirrojo	60	33049
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Cuidador mayor	150	12708
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Observador	50	16336
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			18037, # Anillo Rorífico
+			19597, # Lavanillo
+			18022, # Botas de Meno
+			18024, # Capa de Meno
+			22429, # Abrazo de Servidumbre
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33049, # Dragopavo orquídeo y pelirrojo
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			20360, # Diadema de Ganymed
+			12708, # Cuidador mayor
+			13762, # Astuto mayor
+			16204, # Erudito mayor
+			16336, # Observador
+			]
+
+Solution 84:
+	Fitness: 1701.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1701.0
+	Push damage: 264.0
+	Heals: 384.65
+	Preferences:
+		% crítico : 22.0
+		% resistencia a la tierra : 16.0
+		% resistencia al agua : 19.0
+		% resistencia al aire : 26.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 26.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 200.0
+		huida : 55.0
+		iniciativa : 1891.0
+		placaje : 32.0
+		potencia (daños generales) : 385.0
+		vitalidad : 4550.0
+	Characteristics:
+		inteligencia: 1131.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo Rorífico	200	18037
+		Anillo	Lavanillo	200	19597
+		Bota	Botas de Meno	200	18022
+		Capa	Capa de Meno	200	18024
+		Cinturón	Abrazo de Servidumbre	200	22429
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo orquídeo y pelirrojo	60	33049
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Doctor	100	13755
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Observador	50	16336
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			18037, # Anillo Rorífico
+			19597, # Lavanillo
+			18022, # Botas de Meno
+			18024, # Capa de Meno
+			22429, # Abrazo de Servidumbre
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33049, # Dragopavo orquídeo y pelirrojo
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			20360, # Diadema de Ganymed
+			13755, # Doctor
+			13762, # Astuto mayor
+			16204, # Erudito mayor
+			16336, # Observador
+			]
+
+Solution 85:
+	Fitness: 1700.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1700.0
+	Push damage: 264.0
+	Heals: 386.4
+	Preferences:
+		% crítico : 4.0
+		% resistencia a la tierra : 22.0
+		% resistencia al agua : 24.0
+		% resistencia al aire : 39.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 21.0
+		PA : 12.0
+		PM : 7.0
+		alcance : 6.0
+		de cura : 204.0
+		huida : 48.0
+		iniciativa : 1786.0
+		placaje : 73.0
+		potencia (daños generales) : 425.0
+		vitalidad : 4550.0
+	Characteristics:
+		inteligencia: 1116.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Lavanillo	200	19597
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de chocomante	200	20925
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo orquídeo y pelirrojo	60	33049
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Doctor	100	13755
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			19597, # Lavanillo
+			15748, # Botarpilla
+			15747, # Capilla
+			20925, # Cinturón de chocomante
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33049, # Dragopavo orquídeo y pelirrojo
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			13641, # Gorro de Noai Aludem
+			13755, # Doctor
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16204, # Erudito mayor
+			]
+
+Solution 86:
+	Fitness: 1697.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1697.0
+	Push damage: 264.0
+	Heals: 405.4
+	Preferences:
+		% crítico : 11.0
+		% resistencia a la tierra : 40.0
+		% resistencia al agua : 17.0
+		% resistencia al aire : 47.0
+		% resistencia al fuego : 27.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 7.0
+		de cura : 202.0
+		huida : 71.0
+		iniciativa : 1776.0
+		placaje : 20.0
+		potencia (daños generales) : 240.0
+		vitalidad : 4450.0
+	Characteristics:
+		inteligencia: 1256.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Lavanillo	200	19597
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo marfil y orquídeo	60	33043
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Corona de Nidas	200	15186
+		Trofeo	Sabio mayor	150	12719
+		Trofeo	Doctor mayor	150	13756
+		Trofeo	Astuto	100	13761
+		Trofeo	Astuto mayor	150	13762
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			19597, # Lavanillo
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33043, # Dragopavo marfil y orquídeo
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			15186, # Corona de Nidas
+			12719, # Sabio mayor
+			13756, # Doctor mayor
+			13761, # Astuto
+			13762, # Astuto mayor
+			]
+
+Solution 87:
+	Fitness: 1696.0000000000002
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1696.0000000000002
+	Push damage: 264.0
+	Heals: 398.15
+	Preferences:
+		% crítico : 22.0
+		% resistencia a la tierra : 13.0
+		% resistencia al agua : 25.0
+		% resistencia al aire : 32.0
+		% resistencia al fuego : 16.0
+		% resistencia neutral : 26.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 200.0
+		huida : 64.0
+		iniciativa : 1661.0
+		placaje : 6.0
+		potencia (daños generales) : 285.0
+		vitalidad : 4550.0
+	Characteristics:
+		inteligencia: 1221.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo Rorífico	200	18037
+		Anillo	Lavanillo	200	19597
+		Bota	Botas de Meno	200	18022
+		Capa	Capa de Meno	200	18024
+		Cinturón	Bosque del lich	200	26023
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo orquídeo y pelirrojo	60	33049
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Doctor	100	13755
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Observador	50	16336
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			18037, # Anillo Rorífico
+			19597, # Lavanillo
+			18022, # Botas de Meno
+			18024, # Capa de Meno
+			26023, # Bosque del lich
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33049, # Dragopavo orquídeo y pelirrojo
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			20360, # Diadema de Ganymed
+			13755, # Doctor
+			13762, # Astuto mayor
+			16204, # Erudito mayor
+			16336, # Observador
+			]
+
+Solution 88:
+	Fitness: 1692.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1692.0
+	Push damage: 474.0
+	Heals: 407.4
+	Preferences:
+		% crítico : 24.0
+		% resistencia a la tierra : 27.0
+		% resistencia al agua : 31.0
+		% resistencia al aire : 24.0
+		% resistencia al fuego : 29.0
+		% resistencia neutral : 12.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 210.0
+		huida : 43.0
+		iniciativa : 1216.0
+		placaje : 34.0
+		potencia (daños generales) : 280.0
+		vitalidad : 4650.0
+	Characteristics:
+		inteligencia: 1216.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Momistianillo	200	18594
+		Anillo	Anillo de Tejash	194	32222
+		Bota	Momistibotas	200	18593
+		Capa	Abrigo del Venerable Durmiente	200	31797
+		Cinturón	Coconturón	200	21224
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo marfil y pelirrojo	60	33045
+		Escudo	Escudístiko	200	18692
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Casco ciclópeo	200	18036
+		Trofeo	Sabio mayor	150	12719
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			18594, # Momistianillo
+			32222, # Anillo de Tejash
+			18593, # Momistibotas
+			31797, # Abrigo del Venerable Durmiente
+			21224, # Coconturón
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33045, # Dragopavo marfil y pelirrojo
+			18692, # Escudístiko
+			25222, # Martillo poseído
+			18036, # Casco ciclópeo
+			12719, # Sabio mayor
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			]
+
+Solution 89:
+	Fitness: 1692.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1692.0
+	Push damage: 304.0
+	Heals: 395.65
+	Preferences:
+		% crítico : 9.0
+		% resistencia a la tierra : 34.0
+		% resistencia al agua : 19.0
+		% resistencia al aire : 31.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 205.0
+		huida : 67.0
+		iniciativa : 1221.0
+		placaje : 23.0
+		potencia (daños generales) : 325.0
+		vitalidad : 4600.0
+	Characteristics:
+		inteligencia: 1171.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo Rorífico	200	18037
+		Anillo	Anilluræus	200	18599
+		Bota	Grebas escarlata	200	34328
+		Capa	Abrigo del Venerable Durmiente	200	31797
+		Cinturón	Cintriga	200	15750
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus silvestre	180	29136
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Casco ciclópeo	200	18036
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+		Vueloceronte	Vueloceronte orquídeo	60	33199
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			18037, # Anillo Rorífico
+			18599, # Anilluræus
+			34328, # Grebas escarlata
+			31797, # Abrigo del Venerable Durmiente
+			15750, # Cintriga
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			29136, # Dofus silvestre
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			18036, # Casco ciclópeo
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			33199, # Vueloceronte orquídeo
+			]
+
+Solution 90:
+	Fitness: 1692.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1692.0
+	Push damage: 374.0
+	Heals: 389.4
+	Preferences:
+		% crítico : -3.0
+		% resistencia a la tierra : 34.0
+		% resistencia al agua : 31.0
+		% resistencia al aire : 39.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 14.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 7.0
+		de cura : 207.0
+		huida : 82.0
+		iniciativa : 1346.0
+		placaje : 35.0
+		potencia (daños generales) : 380.0
+		vitalidad : 4550.0
+	Characteristics:
+		inteligencia: 1116.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Lavanillo	200	19597
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Coconturón	200	21224
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo púrpura y pelirrojo	60	33051
+		Escudo	Escudístiko	200	18692
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			19597, # Lavanillo
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			21224, # Coconturón
+			694, # Dofus Púrpura
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33051, # Dragopavo púrpura y pelirrojo
+			18692, # Escudístiko
+			25222, # Martillo poseído
+			20360, # Diadema de Ganymed
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			]
+
+Solution 91:
+	Fitness: 1692.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1692.0
+	Push damage: 344.0
+	Heals: 377.4
+	Preferences:
+		% crítico : -22.0
+		% resistencia a la tierra : 22.0
+		% resistencia al agua : 19.0
+		% resistencia al aire : 39.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 14.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 207.0
+		huida : 22.0
+		iniciativa : 1266.0
+		placaje : 27.0
+		potencia (daños generales) : 480.0
+		vitalidad : 4700.0
+	Characteristics:
+		inteligencia: 1036.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Lavanillo	200	19597
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Valentía de la Señorita Jhessica	200	20366
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo púrpura y pelirrojo	60	33051
+		Escudo	Escudístiko	200	18692
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			19597, # Lavanillo
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			20366, # Valentía de la Señorita Jhessica
+			694, # Dofus Púrpura
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33051, # Dragopavo púrpura y pelirrojo
+			18692, # Escudístiko
+			25222, # Martillo poseído
+			20360, # Diadema de Ganymed
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			16204, # Erudito mayor
+			]
+
+Solution 92:
+	Fitness: 1690.0000000000002
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1690.0000000000002
+	Push damage: 264.0
+	Heals: 390.15
+	Preferences:
+		% crítico : 13.0
+		% resistencia a la tierra : 15.0
+		% resistencia al agua : 17.0
+		% resistencia al aire : 25.0
+		% resistencia al fuego : 24.0
+		% resistencia neutral : 21.0
+		PA : 12.0
+		PM : 7.0
+		alcance : 6.0
+		de cura : 204.0
+		huida : 45.0
+		iniciativa : 1841.0
+		placaje : 62.0
+		potencia (daños generales) : 390.0
+		vitalidad : 4400.0
+	Characteristics:
+		inteligencia: 1141.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Lavanillo	200	19597
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de Golosotrón Real	195	11721
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo orquídeo y pelirrojo	60	33049
+		Escudo	Frasco de Otomai	196	30689
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Doctor	100	13755
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			19597, # Lavanillo
+			15748, # Botarpilla
+			15747, # Capilla
+			11721, # Cinturón de Golosotrón Real
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33049, # Dragopavo orquídeo y pelirrojo
+			30689, # Frasco de Otomai
+			25222, # Martillo poseído
+			13641, # Gorro de Noai Aludem
+			13755, # Doctor
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16204, # Erudito mayor
+			]
+
+Solution 93:
+	Fitness: 1690.0000000000002
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1690.0000000000002
+	Push damage: 264.0
+	Heals: 384.9
+	Preferences:
+		% crítico : 8.0
+		% resistencia a la tierra : 22.0
+		% resistencia al agua : 17.0
+		% resistencia al aire : 32.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 14.0
+		PA : 12.0
+		PM : 7.0
+		alcance : 7.0
+		de cura : 204.0
+		huida : 57.0
+		iniciativa : 1806.0
+		placaje : 62.0
+		potencia (daños generales) : 425.0
+		vitalidad : 4400.0
+	Characteristics:
+		inteligencia: 1106.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Lavanillo	200	19597
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de Golosotrón Real	195	11721
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo orquídeo y pelirrojo	60	33049
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Doctor	100	13755
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			19597, # Lavanillo
+			15748, # Botarpilla
+			15747, # Capilla
+			11721, # Cinturón de Golosotrón Real
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33049, # Dragopavo orquídeo y pelirrojo
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			13641, # Gorro de Noai Aludem
+			13755, # Doctor
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16204, # Erudito mayor
+			]
+
+Solution 94:
+	Fitness: 1687.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1687.0
+	Push damage: 304.0
+	Heals: 414.65
+	Preferences:
+		% crítico : 13.0
+		% resistencia a la tierra : 37.0
+		% resistencia al agua : 17.0
+		% resistencia al aire : 37.0
+		% resistencia al fuego : 25.0
+		% resistencia neutral : 24.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 218.0
+		huida : 36.0
+		iniciativa : 2571.0
+		placaje : 56.0
+		potencia (daños generales) : 280.0
+		vitalidad : 4350.0
+	Characteristics:
+		inteligencia: 1211.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Lavanillo	200	19597
+		Bota	Botas de Meno	200	18022
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu Insano	200	19250
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dotruz	110	15235
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Máscara del Espíritu Insano	200	19252
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Lozano mayor	150	16332
+		Vueloceronte	Vueloceronte rubí y orquídeo	60	33231
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			19597, # Lavanillo
+			18022, # Botas de Meno
+			19979, # Capa de Martillelo
+			19250, # Cinturón del Espíritu Insano
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			15235, # Dotruz
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			19252, # Máscara del Espíritu Insano
+			13762, # Astuto mayor
+			16204, # Erudito mayor
+			16332, # Lozano mayor
+			33231, # Vueloceronte rubí y orquídeo
+			]
+
+Solution 95:
+	Fitness: 1687.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1687.0
+	Push damage: 264.0
+	Heals: 413.15
+	Preferences:
+		% crítico : -7.0
+		% resistencia a la tierra : 37.0
+		% resistencia al agua : 17.0
+		% resistencia al aire : 54.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 7.0
+		de cura : 212.0
+		huida : 103.0
+		iniciativa : 1721.0
+		placaje : 16.0
+		potencia (daños generales) : 245.0
+		vitalidad : 4100.0
+	Characteristics:
+		inteligencia: 1241.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo de Nidas	200	15187
+		Anillo	Lavanillo	200	19597
+		Bota	Chanclas de Nidas	200	15188
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón secular	200	14081
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dotruz	110	15235
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Mascotura	Hardo	60	14854
+		Sombrero	Corona de Nidas	200	15186
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Curandero mayor	150	16190
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			15187, # Anillo de Nidas
+			19597, # Lavanillo
+			15188, # Chanclas de Nidas
+			19979, # Capa de Martillelo
+			14081, # Cinturón secular
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			15235, # Dotruz
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			14854, # Hardo
+			15186, # Corona de Nidas
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16190, # Curandero mayor
+			]
+
+Solution 96:
+	Fitness: 1684.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1684.0
+	Push damage: 304.0
+	Heals: 415.15
+	Preferences:
+		% crítico : 12.0
+		% resistencia a la tierra : 27.0
+		% resistencia al agua : 17.0
+		% resistencia al aire : 44.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 27.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 208.0
+		huida : 52.0
+		iniciativa : 2661.0
+		placaje : 57.0
+		potencia (daños generales) : 195.0
+		vitalidad : 4350.0
+	Characteristics:
+		inteligencia: 1281.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Anillo Rorífico	200	18037
+		Anillo	Lavanillo	200	19597
+		Bota	Botas del Espíritu Insano	200	19251
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu Insano	200	19250
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Escudámpago de Tejash	192	32224
+		Martillo	Martillo poseído	200	25222
+		Mascota	Besosete	20	11971
+		Sombrero	Máscara del Espíritu Insano	200	19252
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero menor	50	16188
+		Trofeo	Erudito mayor	150	16204
+		Trofeo	Observador	50	16336
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			18037, # Anillo Rorífico
+			19597, # Lavanillo
+			19251, # Botas del Espíritu Insano
+			19979, # Capa de Martillelo
+			19250, # Cinturón del Espíritu Insano
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32224, # Escudámpago de Tejash
+			25222, # Martillo poseído
+			11971, # Besosete
+			19252, # Máscara del Espíritu Insano
+			13762, # Astuto mayor
+			16188, # Curandero menor
+			16204, # Erudito mayor
+			16336, # Observador
+			]
+
+Solution 97:
+	Fitness: 1680.0
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1680.0
+	Push damage: 264.0
+	Heals: 388.65
+	Preferences:
+		% crítico : 8.0
+		% resistencia a la tierra : 25.0
+		% resistencia al agua : 17.0
+		% resistencia al aire : 35.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 14.0
+		PA : 12.0
+		PM : 7.0
+		alcance : 6.0
+		de cura : 204.0
+		huida : 45.0
+		iniciativa : 1951.0
+		placaje : 62.0
+		potencia (daños generales) : 390.0
+		vitalidad : 4450.0
+	Characteristics:
+		inteligencia: 1131.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Alianza Natomia	198	13897
+		Anillo	Lavanillo	200	19597
+		Bota	Botarpilla	200	15748
+		Capa	Capilla	200	15747
+		Cinturón	Cinturón de Golosotrón Real	195	11721
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Dragopavo	Dragopavo orquídeo y pelirrojo	60	33049
+		Escudo	Ghulscudo	200	19080
+		Martillo	Martillo poseído	200	25222
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Doctor	100	13755
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Robusto mayor	150	13828
+		Trofeo	Erudito mayor	150	16204
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			13897, # Alianza Natomia
+			19597, # Lavanillo
+			15748, # Botarpilla
+			15747, # Capilla
+			11721, # Cinturón de Golosotrón Real
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			33049, # Dragopavo orquídeo y pelirrojo
+			19080, # Ghulscudo
+			25222, # Martillo poseído
+			13641, # Gorro de Noai Aludem
+			13755, # Doctor
+			13762, # Astuto mayor
+			13828, # Robusto mayor
+			16204, # Erudito mayor
+			]
+
+Solution 98:
+	Fitness: 1672.9999999999998
+	Weapon damage: 0
+		Weapon: Martillo poseído
+		AP Cost: 4
+		Casts per turn: 2
+	Spell damage:1672.9999999999998
+	Push damage: 264.0
+	Heals: 387.65
+	Preferences:
+		% crítico : -21.0
+		% resistencia a la tierra : 22.0
+		% resistencia al agua : 16.0
+		% resistencia al aire : 29.0
+		% resistencia al fuego : 26.0
+		% resistencia neutral : 19.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		de cura : 215.0
+		huida : 106.0
+		iniciativa : 1221.0
+		placaje : 36.0
+		potencia (daños generales) : 450.0
+		vitalidad : 4300.0
+	Characteristics:
+		inteligencia: 1051.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amor de Helsefina	200	32118
+		Anillo	Kralanillo	199	8877
+		Anillo	Alianza Natomia	198	13897
+		Bota	Botas del Espíritu de la Salvación	200	19248
+		Capa	Capa de Martillelo	200	19979
+		Cinturón	Cinturón del Espíritu de la Salvación	200	19247
+		Dofus	Dofus vulbis	180	6980
+		Dofus	Dofus Ocre	160	7754
+		Escudo	Botón de Psikopomzopato	200	32245
+		Martillo	Martillo poseído	200	25222
+		Mascotura	Hardo	60	14854
+		Sombrero	Diadema de Ganymed	200	20360
+		Trofeo	Sabio mediano	100	12720
+		Trofeo	Astuto menor	50	13760
+		Trofeo	Astuto mayor	150	13762
+		Trofeo	Curandero mayor	150	16190
+	Penalized: False
+	Chromosome: [
+			32118, # Amor de Helsefina
+			8877, # Kralanillo
+			13897, # Alianza Natomia
+			19248, # Botas del Espíritu de la Salvación
+			19979, # Capa de Martillelo
+			19247, # Cinturón del Espíritu de la Salvación
+			6980, # Dofus vulbis
+			7754, # Dofus Ocre
+			32245, # Botón de Psikopomzopato
+			25222, # Martillo poseído
+			14854, # Hardo
+			20360, # Diadema de Ganymed
+			12720, # Sabio mediano
+			13760, # Astuto menor
+			13762, # Astuto mayor
+			16190, # Curandero mayor
+			]
+

@@ -1,0 +1,16 @@
+dependencies:
+  _source: !!set {}
+  run_training: !!set {}
+hub_dependencies:
+  _source: !!set {}
+  run_training: !!set {}
+step_combinations:
+  _source: /Users/jdtibochab/other/dofus-set-optimizer/workflows/report-sacri-tank_20261007-112403
+  run_training:
+    run_training: run_training
+used_parameters:
+  _source: !!set {}
+  run_training: !!set {}
+workspaces:
+  _source: /Users/jdtibochab/other/dofus-set-optimizer/workflows/report-sacri-tank_20261007-112403
+  run_training: run_training

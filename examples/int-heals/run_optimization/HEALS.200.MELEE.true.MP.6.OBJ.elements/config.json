@@ -1,0 +1,106 @@
+{
+    "optimizer": {
+        "language": "es",
+        "population_size": 100,
+        "num_parents_mating": 150,
+        "num_generations": 300,
+        "mutation_rate": [
+            0.1875,
+            0.0625
+        ],
+        "crossover_rate": 0.85,
+        "parent_selection_type": "tournament",
+        "tournament_size": 3,
+        "keep_elitism": 2,
+        "mutation_type": "adaptive",
+        "crossover_type": "single_point",
+        "max_workers": 8,
+        "islands": 16,
+        "exclusions": {
+            "items": [
+                6894,
+                6895,
+                3080,
+                9031,
+                32121,
+                13344
+            ]
+        },
+        "inclusions": {
+            "items": [
+                7754,
+                6980,
+                25222,
+                32118
+            ]
+        },
+        "preferences": {
+            "lower": {
+                "12": {
+                    "target": 12,
+                    "strength": 0.01
+                },
+                "8": {
+                    "target": 6,
+                    "strength": 0.01
+                },
+                "9": {
+                    "target": 3800,
+                    "strength": 0.01
+                },
+                "34": {
+                    "target": 10,
+                    "strength": 0.01
+                },
+                "37": {
+                    "target": 13,
+                    "strength": 0.01
+                },
+                "16": {
+                    "target": 13,
+                    "strength": 0.01
+                },
+                "17": {
+                    "target": 13,
+                    "strength": 0.01
+                },
+                "63": {
+                    "target": 13,
+                    "strength": 0.01
+                },
+                "31": {
+                    "target": 6,
+                    "strength": 0.01
+                },
+                "121": {
+                    "target": 200,
+                    "strength": 0.01
+                }
+            },
+            "upper": {}
+        },
+        "path": "/Users/jdtibochab/other/dofus-set-optimizer/workflows/report-steamer_20261008-213301/run_optimization/HEALS.200.MELEE.true.MP.6.OBJ.elements",
+        "level_offset": 10,
+        "objective": [
+            "elements"
+        ],
+        "normalize_by_apcost": true,
+        "reference": []
+    },
+    "character": {
+        "level": 200,
+        "scrolled": true,
+        "exo": {
+            "12": 1,
+            "8": 1,
+            "9": 200,
+            "31": 1
+        },
+        "distributed_points": {},
+        "elements": [
+            13
+        ],
+        "melee": true,
+        "ranged": 1
+    }
+}

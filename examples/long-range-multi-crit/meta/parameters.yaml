@@ -1,0 +1,12 @@
+MP.5.OBJ.elements.ELE.agi int str cha:
+  labels: !!python/object/apply:collections.OrderedDict
+  - - - $(MP.label)
+      - MP.5
+    - - $(OBJECTIVE.label)
+      - OBJ.elements
+    - - $(ELEMENTS.label)
+      - ELE.agi int str cha
+  params:
+    $(ELEMENTS): agi int str cha
+    $(MP): 5
+    $(OBJECTIVE): elements

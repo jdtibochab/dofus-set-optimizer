@@ -1,0 +1,9 @@
+Running with flags: /Users/jdtibochab/other/dofus-set-optimizer/workflows/../scripts/main.py --objective elements --elements int --level 200 --level-offset 10 --ap 12 --mp 6 --vit 3800 --res-neutral 10 --res-fire 13 --res-air 13 --res-water 13 --res-earth 13 --crit 0 --range 6 --path /Users/jdtibochab/other/dofus-set-optimizer/workflows/report-steamer_20261008-213301/run_optimization/HEALS.200.MELEE.true.MP.6.OBJ.elements --islands 16 --max-workers 8 --language es --lock 0 --dodge 0 --initiative 0 --push 0 --heals 200 --normalize-by-apcost --exclusions 32121 13344 --inclusions 7754 6980 25222 32118 --scrolled --exo ap:1 mp:1 vit:200 range:1 --melee --ranged
+[CHECKPOINT] Starting at 2026-10-08_21-33-04
+Total items: 1819
+Total item sets: 161
+Total pools:
+   16 with sizes [1, 1, 82, 82, 65, 82, 46, 93, 72, 453, 1, 1, 299, 299, 299, 299]
+Total combinations: 10^25.60
+Number of candidate solutions: 99
+[CHECKPOINT] Finished at 2026-10-08_21-36-25

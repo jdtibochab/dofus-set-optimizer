@@ -1,0 +1,19 @@
+dependencies:
+  _source: !!set {}
+  run_optimization: !!set {}
+hub_dependencies:
+  _source: !!set {}
+  run_optimization: !!set {}
+step_combinations:
+  _source: /Users/jdtibochab/other/dofus-set-optimizer/workflows/report-cra_20261008-175406
+  run_optimization:
+    run_optimization_ELE.agi int str cha.MP.5.OBJ.elements: run_optimization/ELE.agi_int_str_cha.MP.5.OBJ.elements
+used_parameters:
+  _source: !!set {}
+  run_optimization: !!set
+    ELEMENTS: null
+    MP: null
+    OBJECTIVE: null
+workspaces:
+  _source: /Users/jdtibochab/other/dofus-set-optimizer/workflows/report-cra_20261008-175406
+  run_optimization_ELE.agi int str cha.MP.5.OBJ.elements: run_optimization/ELE.agi_int_str_cha.MP.5.OBJ.elements

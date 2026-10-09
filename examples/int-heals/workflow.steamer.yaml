@@ -1,0 +1,156 @@
+
+description:
+  name: report-steamer
+  description: |
+    Configuration for Dofus set optimization.
+    ```
+      maestro run -p pgen.steamer.py workflow.steamer.yaml
+    ```
+
+env:
+  variables:
+    # Repository root (one level above this spec); main.py is run from here
+    REPO_ROOT: $(SPECROOT)/..
+    
+    # Space-separated objectives whose scores are summed: weapon (weapon hit damage), elements (generic spell damage), steal (weapon life-steal damage), push (push damage)
+    OBJECTIVE: $(OBJECTIVE)
+    # "true" divides weapon damage by the weapon's AP cost (weapon objective only)
+    NORMALIZE_BY_APCOST: "true"
+    # Space-separated Ankama item IDs that are never used, or "none"
+    EXCLUSIONS: "32121 13344" # Meriana
+    # Space-separated Ankama item IDs forced into the set, or "none"
+    INCLUSIONS: "7754 6980 25222 32118" # Dofus inclusions
+
+    # Damage elements to optimize for (agi, str, cha, int); characteristic points are split evenly across them
+    ELEMENTS: "int"
+    # "true" allows melee weapons
+    MELEE: $(MELEE)
+    # "true" allows ranged weapons
+    RANGED: "true"
+    # Minimum weapon max-range when RANGED is "true", or "none"
+    WEAPON_RANGE: "none"
+
+    # Character level
+    LEVEL: 200
+    # Ignore gear more than this many levels below LEVEL (pets, mounts and Dofus are exempt)
+    LEVEL_OFFSET: 10
+
+    # Target AP (lower bound; 0 = ignore)
+    AP: 12
+    # Target MP (lower bound; 0 = ignore)
+    MP: $(MP)
+    # Target vitality (lower bound; 0 = ignore)
+    VIT: 3800
+    # Target % neutral resistance (lower bound; 0 = ignore)
+    RES_NEUTRAL: 10
+    # Target % fire resistance (lower bound; 0 = ignore)
+    RES_FIRE: 13
+    # Target % air resistance (lower bound; 0 = ignore)
+    RES_AIR: 13
+    # Target % water resistance (lower bound; 0 = ignore)
+    RES_WATER: 13
+    # Target % earth resistance (lower bound; 0 = ignore)
+    RES_EARTH: 13
+    # Target range (lower bound; 0 = ignore)
+    RANGE: 6
+    # Target lock (lower bound; 0 = ignore)
+    LOCK: 0
+    # Target dodge (lower bound; 0 = ignore)
+    DODGE: 0
+    # Target initiative (lower bound; 0 = ignore)
+    INITIATIVE: 0
+    # Target push damage (lower bound; 0 = ignore)
+    PUSH: 0
+    # Target heals (lower bound; 0 = ignore)
+    HEALS: $(HEALS)
+
+    # Target % critical chance (lower bound; 0 = ignore); when set, crits are also weighted into damage
+    CRIT: 0
+    # Exo bonuses as key:value pairs (e.g. ap:1 mp:1 vit:200), or "none"
+    EXO: "ap:1 mp:1 vit:200 range:1"
+    # Characteristic points invested per stat as key:value pairs (e.g. vit:995), or "none" to split evenly across ELEMENTS
+    DISTRIBUTED_POINTS: "none"
+    # "true" adds +100 to every characteristic (fully scrolled)
+    SCROLLED: "true"
+
+    # Space-separated item IDs of a set to compare against (reported as Solution 0), or "none"
+    REFERENCE: "none"
+    # Number of independent GA runs
+    ISLANDS: 16
+    # Parallel processes used to run the islands
+    MAX_WORKERS: 8
+    # Language for item and stat names in the reports: en, es, fr, de or pt
+    LANGUAGE: "es"
+
+
+batch:
+  type: local
+
+study:
+  - name: run_optimization
+    description: Run training for the CRISPRi workflow on SLURM
+    run:
+      cmd: |
+        cd $(REPO_ROOT)
+
+        flags=(
+          "$(REPO_ROOT)/scripts/main.py"
+          "--objective" $(OBJECTIVE)
+          "--elements" $(ELEMENTS)
+          "--level" "$(LEVEL)"
+          "--level-offset" "$(LEVEL_OFFSET)"
+          "--ap" "$(AP)"
+          "--mp" "$(MP)"
+          "--vit" "$(VIT)"
+          "--res-neutral" "$(RES_NEUTRAL)"
+          "--res-fire" "$(RES_FIRE)"
+          "--res-air" "$(RES_AIR)"
+          "--res-water" "$(RES_WATER)"
+          "--res-earth" "$(RES_EARTH)"
+          "--crit" "$(CRIT)"
+          "--range" "$(RANGE)"
+          "--path" "$(WORKSPACE)"
+          "--islands" "$(ISLANDS)"
+          "--max-workers" "$(MAX_WORKERS)"
+          "--language" "$(LANGUAGE)"
+          "--lock" "$(LOCK)"
+          "--dodge" "$(DODGE)"
+          "--initiative" "$(INITIATIVE)"
+          "--push" "$(PUSH)"
+          "--heals" "$(HEALS)"
+        )
+
+        if [ "$(NORMALIZE_BY_APCOST)" = "true" ]; then
+          flags+=("--normalize-by-apcost")
+        fi
+        if [ "$(EXCLUSIONS)" != "none" ]; then
+          flags+=("--exclusions" $(EXCLUSIONS))
+        fi
+        if [ "$(INCLUSIONS)" != "none" ]; then
+          flags+=("--inclusions" $(INCLUSIONS))
+        fi
+        if [ "$(SCROLLED)" = "true" ]; then
+          flags+=("--scrolled")
+        fi
+        if [ "$(EXO)" != "none" ]; then
+          flags+=("--exo" $(EXO))
+        fi
+        if [ "$(DISTRIBUTED_POINTS)" != "none" ]; then
+          flags+=("--distributed-points" $(DISTRIBUTED_POINTS))
+        fi
+        if [ "$(WEAPON_RANGE)" != "none" ]; then
+          flags+=("--weapon-range" $(WEAPON_RANGE))
+        fi
+        if [ "$(MELEE)" = "true" ]; then
+          flags+=("--melee")
+        fi
+        if [ "$(RANGED)" = "true" ]; then
+          flags+=("--ranged")
+        fi
+        if [ "$(REFERENCE)" != "none" ]; then
+          flags+=("--reference" $(REFERENCE))
+        fi
+
+        echo "Running with flags: ${flags[@]}"
+
+        python "${flags[@]}"

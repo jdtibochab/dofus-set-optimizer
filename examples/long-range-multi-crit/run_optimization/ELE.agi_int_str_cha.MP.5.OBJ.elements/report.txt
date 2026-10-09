@@ -1,0 +1,1058 @@
+Solution 0:
+	Fitness: 2039.908
+	Weapon damage: 1536.7187999999999
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:2039.908
+	Push damage: 264.0
+	Preferences:
+		% crítico : 89.0
+		% resistencia a la tierra : 39.0
+		% resistencia al agua : 29.0
+		% resistencia al aire : 19.0
+		% resistencia al fuego : 29.0
+		% resistencia neutral : 34.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 80.0
+		iniciativa : 2924.0
+		placaje : 63.0
+		potencia (daños generales) : 270.0
+		vitalidad : 4150.0
+	Characteristics:
+		agilidad: 636.0
+		inteligencia: 736.0
+		fuerza: 736.0
+		suerte: 816.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo de vueloceronte	200	19985
+		Anillo	Brazalete de melenutrof	200	15190
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Marfil	180	7115
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus abisal	180	18043
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus Púrpura	110	694
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Casco de Miauvizor	200	17579
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			19985, # Anillo de vueloceronte
+			15190, # Brazalete de melenutrof
+			19986, # Arco de vueloceronte
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			19983, # Cinturón de vueloceronte
+			7115, # Dofus Marfil
+			7043, # Dofus de los hielos
+			18043, # Dofus abisal
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			694, # Dofus Púrpura
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			17579, # Casco de Miauvizor
+			13825, # Potente mayor
+			]
+
+Solution 1:
+	Fitness: 2220.806
+	Weapon damage: 1578.17
+		Weapon: Arco de Tentenhuevo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:2220.806
+	Push damage: 444.0
+	Preferences:
+		% crítico : 93.0
+		% resistencia a la tierra : 31.0
+		% resistencia al agua : 15.0
+		% resistencia al aire : 33.0
+		% resistencia al fuego : 20.0
+		% resistencia neutral : 15.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 68.0
+		iniciativa : 3034.0
+		placaje : 97.0
+		potencia (daños generales) : 375.0
+		vitalidad : 4050.0
+	Characteristics:
+		agilidad: 686.0
+		inteligencia: 416.0
+		fuerza: 496.0
+		suerte: 536.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Tentenhuevo	200	32234
+		Arco	Arco de Tentenhuevo	200	32235
+		Bota	Botas de estrígido	200	14096
+		Capa	Melena de Tal Kasha	200	18591
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Disco de Tentenhuevo	200	32236
+		Mascota	Lokulto	20	13673
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			13642, # Anillo de Noai Aludem
+			32234, # Anillo de Tentenhuevo
+			32235, # Arco de Tentenhuevo
+			14096, # Botas de estrígido
+			18591, # Melena de Tal Kasha
+			14095, # Cinturón de estrígido
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			32236, # Disco de Tentenhuevo
+			13673, # Lokulto
+			13641, # Gorro de Noai Aludem
+			13825, # Potente mayor
+			]
+
+Solution 2:
+	Fitness: 2218.7929999999997
+	Weapon damage: 1558.42
+		Weapon: Arco de Tentenhuevo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:2218.7929999999997
+	Push damage: 474.0
+	Preferences:
+		% crítico : 94.0
+		% resistencia a la tierra : 31.0
+		% resistencia al agua : 15.0
+		% resistencia al aire : 33.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 22.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 74.0
+		iniciativa : 3154.0
+		placaje : 97.0
+		potencia (daños generales) : 300.0
+		vitalidad : 3800.0
+	Characteristics:
+		agilidad: 746.0
+		inteligencia: 476.0
+		fuerza: 496.0
+		suerte: 536.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Tentenhuevo	200	32234
+		Arco	Arco de Tentenhuevo	200	32235
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Melena de Tal Kasha	200	18591
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Disco de Tentenhuevo	200	32236
+		Mascota	Lokulto	20	13673
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			13642, # Anillo de Noai Aludem
+			32234, # Anillo de Tentenhuevo
+			32235, # Arco de Tentenhuevo
+			13643, # Getas de Noai Aludem
+			18591, # Melena de Tal Kasha
+			14095, # Cinturón de estrígido
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			32236, # Disco de Tentenhuevo
+			13673, # Lokulto
+			13641, # Gorro de Noai Aludem
+			13825, # Potente mayor
+			]
+
+Solution 3:
+	Fitness: 2112.518
+	Weapon damage: 1231.92
+		Weapon: Yaularco
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:2112.518
+	Push damage: 264.0
+	Preferences:
+		% crítico : 94.0
+		% resistencia a la tierra : 35.0
+		% resistencia al agua : 25.0
+		% resistencia al aire : 18.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 23.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 60.0
+		iniciativa : 3084.0
+		placaje : 98.0
+		potencia (daños generales) : 530.0
+		vitalidad : 4250.0
+	Characteristics:
+		agilidad: 436.0
+		inteligencia: 506.0
+		fuerza: 506.0
+		suerte: 436.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Brazalete de melenutrof	200	15190
+		Anillo	Coconillo	200	21223
+		Arco	Yaularco	200	27644
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Cocoscudo	200	21225
+		Mascota	Lokulto	20	13673
+		Sombrero	Casco de Miauvizor	200	17579
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			15190, # Brazalete de melenutrof
+			21223, # Coconillo
+			27644, # Yaularco
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			14095, # Cinturón de estrígido
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			21225, # Cocoscudo
+			13673, # Lokulto
+			17579, # Casco de Miauvizor
+			13825, # Potente mayor
+			]
+
+Solution 4:
+	Fitness: 2096.572
+	Weapon damage: 1483.42
+		Weapon: Arco de Tentenhuevo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:2096.572
+	Push damage: 474.0
+	Preferences:
+		% crítico : 91.0
+		% resistencia a la tierra : 31.0
+		% resistencia al agua : 15.0
+		% resistencia al aire : 33.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 22.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 74.0
+		iniciativa : 3154.0
+		placaje : 97.0
+		potencia (daños generales) : 300.0
+		vitalidad : 3800.0
+	Characteristics:
+		agilidad: 746.0
+		inteligencia: 476.0
+		fuerza: 496.0
+		suerte: 536.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Tentenhuevo	200	32234
+		Arco	Arco de Tentenhuevo	200	32235
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Melena de Tal Kasha	200	18591
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Disco de Tentenhuevo	200	32236
+		Mascota	Lokulto	20	13673
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Torturador ígneo menor	50	13778
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			13642, # Anillo de Noai Aludem
+			32234, # Anillo de Tentenhuevo
+			32235, # Arco de Tentenhuevo
+			13643, # Getas de Noai Aludem
+			18591, # Melena de Tal Kasha
+			14095, # Cinturón de estrígido
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			32236, # Disco de Tentenhuevo
+			13673, # Lokulto
+			13641, # Gorro de Noai Aludem
+			13778, # Torturador ígneo menor
+			13825, # Potente mayor
+			]
+
+Solution 5:
+	Fitness: 2077.84
+	Weapon damage: 1356.9
+		Weapon: Varita de Torkelonia
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:2077.84
+	Push damage: 394.0
+	Preferences:
+		% crítico : 90.0
+		% resistencia a la tierra : 36.0
+		% resistencia al agua : 20.0
+		% resistencia al aire : 29.0
+		% resistencia al fuego : 14.0
+		% resistencia neutral : 15.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 63.0
+		iniciativa : 3684.0
+		placaje : 76.0
+		potencia (daños generales) : 250.0
+		vitalidad : 3850.0
+	Characteristics:
+		agilidad: 536.0
+		inteligencia: 516.0
+		fuerza: 426.0
+		suerte: 306.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Rosca de Mecanimut	200	32240
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capa de Golosorak	200	32237
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de Golosorak	200	32239
+		Mascotura	Sakóquero	60	13465
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Furibundo mayor	150	12724
+		Trofeo	Potente mayor	150	13825
+		Varita	Varita de Torkelonia	200	21229
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			13642, # Anillo de Noai Aludem
+			32240, # Rosca de Mecanimut
+			13643, # Getas de Noai Aludem
+			32237, # Capa de Golosorak
+			14095, # Cinturón de estrígido
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			32239, # Escudo de Golosorak
+			13465, # Sakóquero
+			13641, # Gorro de Noai Aludem
+			12724, # Furibundo mayor
+			13825, # Potente mayor
+			21229, # Varita de Torkelonia
+			]
+
+Solution 6:
+	Fitness: 2077.84
+	Weapon damage: 1329.9
+		Weapon: Varita de Torkelonia
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:2077.84
+	Push damage: 394.0
+	Preferences:
+		% crítico : 90.0
+		% resistencia a la tierra : 36.0
+		% resistencia al agua : 20.0
+		% resistencia al aire : 29.0
+		% resistencia al fuego : 14.0
+		% resistencia neutral : 15.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 63.0
+		iniciativa : 3684.0
+		placaje : 76.0
+		potencia (daños generales) : 250.0
+		vitalidad : 3850.0
+	Characteristics:
+		agilidad: 536.0
+		inteligencia: 576.0
+		fuerza: 366.0
+		suerte: 306.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Rosca de Mecanimut	200	32240
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capa de Golosorak	200	32237
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de Golosorak	200	32239
+		Mascotura	Sakóquero	60	13465
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Sabio mayor	150	12719
+		Trofeo	Potente mayor	150	13825
+		Varita	Varita de Torkelonia	200	21229
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			13642, # Anillo de Noai Aludem
+			32240, # Rosca de Mecanimut
+			13643, # Getas de Noai Aludem
+			32237, # Capa de Golosorak
+			14095, # Cinturón de estrígido
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			32239, # Escudo de Golosorak
+			13465, # Sakóquero
+			13641, # Gorro de Noai Aludem
+			12719, # Sabio mayor
+			13825, # Potente mayor
+			21229, # Varita de Torkelonia
+			]
+
+Solution 7:
+	Fitness: 2019.265
+	Weapon damage: 1533.92
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:2019.265
+	Push damage: 264.0
+	Preferences:
+		% crítico : 90.0
+		% resistencia a la tierra : 14.0
+		% resistencia al agua : 23.0
+		% resistencia al aire : 17.0
+		% resistencia al fuego : 30.0
+		% resistencia neutral : 32.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 61.0
+		iniciativa : 2394.0
+		placaje : 70.0
+		potencia (daños generales) : 375.0
+		vitalidad : 4250.0
+	Characteristics:
+		agilidad: 556.0
+		inteligencia: 656.0
+		fuerza: 496.0
+		suerte: 686.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Brazalete de melenutrof	200	15190
+		Anillo	Anillo Rtografiko	200	24035
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Kidiboina	200	15694
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			15190, # Brazalete de melenutrof
+			24035, # Anillo Rtografiko
+			19986, # Arco de vueloceronte
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			15694, # Kidiboina
+			13825, # Potente mayor
+			]
+
+Solution 8:
+	Fitness: 2015.712
+	Weapon damage: 1343.4
+		Weapon: Varita de Torkelonia
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:2015.712
+	Push damage: 264.0
+	Preferences:
+		% crítico : 91.0
+		% resistencia a la tierra : 28.0
+		% resistencia al agua : 13.0
+		% resistencia al aire : 21.0
+		% resistencia al fuego : 13.0
+		% resistencia neutral : 18.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 68.0
+		iniciativa : 2524.0
+		placaje : 95.0
+		potencia (daños generales) : 410.0
+		vitalidad : 4250.0
+	Characteristics:
+		agilidad: 556.0
+		inteligencia: 496.0
+		fuerza: 496.0
+		suerte: 576.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Brazalete de melenutrof	200	15190
+		Anillo	Anillo Rtografiko	200	24035
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Casco de Miauvizor	200	17579
+		Trofeo	Potente mayor	150	13825
+		Varita	Varita de Torkelonia	200	21229
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			15190, # Brazalete de melenutrof
+			24035, # Anillo Rtografiko
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			14095, # Cinturón de estrígido
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18700, # Cuadrifolio
+			31885, # Microsmoglob
+			17579, # Casco de Miauvizor
+			13825, # Potente mayor
+			21229, # Varita de Torkelonia
+			]
+
+Solution 9:
+	Fitness: 2013.551
+	Weapon damage: 1438.42
+		Weapon: Arco de Tentenhuevo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:2013.551
+	Push damage: 474.0
+	Preferences:
+		% crítico : 88.0
+		% resistencia a la tierra : 31.0
+		% resistencia al agua : 15.0
+		% resistencia al aire : 33.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 22.0
+		PA : 13.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 74.0
+		iniciativa : 3154.0
+		placaje : 97.0
+		potencia (daños generales) : 300.0
+		vitalidad : 3800.0
+	Characteristics:
+		agilidad: 746.0
+		inteligencia: 476.0
+		fuerza: 496.0
+		suerte: 536.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Tentenhuevo	200	32234
+		Arco	Arco de Tentenhuevo	200	32235
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Melena de Tal Kasha	200	18591
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Disco de Tentenhuevo	200	32236
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Potente mayor	150	13825
+		Vueloceronte	Vueloceronte esmeralda	60	33167
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			13642, # Anillo de Noai Aludem
+			32234, # Anillo de Tentenhuevo
+			32235, # Arco de Tentenhuevo
+			13643, # Getas de Noai Aludem
+			18591, # Melena de Tal Kasha
+			14095, # Cinturón de estrígido
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			32236, # Disco de Tentenhuevo
+			13641, # Gorro de Noai Aludem
+			13825, # Potente mayor
+			33167, # Vueloceronte esmeralda
+			]
+
+Solution 10:
+	Fitness: 2012.518
+	Weapon damage: 1181.92
+		Weapon: Yaularco
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:2012.518
+	Push damage: 264.0
+	Preferences:
+		% crítico : 94.0
+		% resistencia a la tierra : 35.0
+		% resistencia al agua : 25.0
+		% resistencia al aire : 18.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 23.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 70.0
+		iniciativa : 3084.0
+		placaje : 88.0
+		potencia (daños generales) : 530.0
+		vitalidad : 4250.0
+	Characteristics:
+		agilidad: 436.0
+		inteligencia: 506.0
+		fuerza: 506.0
+		suerte: 436.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Brazalete de melenutrof	200	15190
+		Anillo	Coconillo	200	21223
+		Arco	Yaularco	200	27644
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Cocoscudo	200	21225
+		Mascota	Lokulto	20	13673
+		Sombrero	Casco de Miauvizor	200	17579
+		Trofeo	Evadido menor	50	13751
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			15190, # Brazalete de melenutrof
+			21223, # Coconillo
+			27644, # Yaularco
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			14095, # Cinturón de estrígido
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			21225, # Cocoscudo
+			13673, # Lokulto
+			17579, # Casco de Miauvizor
+			13751, # Evadido menor
+			13825, # Potente mayor
+			]
+
+Solution 11:
+	Fitness: 2011.8680000000002
+	Weapon damage: 1202.3200000000002
+		Weapon: Yaularco
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:2011.8680000000002
+	Push damage: 264.0
+	Preferences:
+		% crítico : 89.0
+		% resistencia a la tierra : 35.0
+		% resistencia al agua : 25.0
+		% resistencia al aire : 18.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 23.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 60.0
+		iniciativa : 3084.0
+		placaje : 98.0
+		potencia (daños generales) : 600.0
+		vitalidad : 4650.0
+	Characteristics:
+		agilidad: 436.0
+		inteligencia: 506.0
+		fuerza: 506.0
+		suerte: 436.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Brazalete de melenutrof	200	15190
+		Anillo	Coconillo	200	21223
+		Arco	Yaularco	200	27644
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Dragopavo	Dragopavo esmeralda y marfil	60	33030
+		Escudo	Cocoscudo	200	21225
+		Sombrero	Casco de Miauvizor	200	17579
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			15190, # Brazalete de melenutrof
+			21223, # Coconillo
+			27644, # Yaularco
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			14095, # Cinturón de estrígido
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			33030, # Dragopavo esmeralda y marfil
+			21225, # Cocoscudo
+			17579, # Casco de Miauvizor
+			13825, # Potente mayor
+			]
+
+Solution 12:
+	Fitness: 2004.694
+	Weapon damage: 1161.3200000000002
+		Weapon: Yaularco
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:2004.694
+	Push damage: 514.0
+	Preferences:
+		% crítico : 92.0
+		% resistencia a la tierra : 28.0
+		% resistencia al agua : 30.0
+		% resistencia al aire : 21.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 13.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 52.0
+		iniciativa : 3524.0
+		placaje : 88.0
+		potencia (daños generales) : 440.0
+		vitalidad : 4300.0
+	Characteristics:
+		agilidad: 326.0
+		inteligencia: 396.0
+		fuerza: 336.0
+		suerte: 266.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Anillo de Noai Aludem	197	13642
+		Arco	Yaularco	200	27644
+		Bota	Botas trithonas	200	18030
+		Capa	Capa de Golosorak	200	32237
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de Golosorak	200	32239
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Máscara trithona	200	18031
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			11738, # Anillo Chanicomo
+			13642, # Anillo de Noai Aludem
+			27644, # Yaularco
+			18030, # Botas trithonas
+			32237, # Capa de Golosorak
+			14095, # Cinturón de estrígido
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			32239, # Escudo de Golosorak
+			31885, # Microsmoglob
+			18031, # Máscara trithona
+			13825, # Potente mayor
+			]
+
+Solution 13:
+	Fitness: 2003.252
+	Weapon damage: 1091.71
+		Weapon: Arco de dantartánico
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:2003.252
+	Push damage: 264.0
+	Preferences:
+		% crítico : 91.0
+		% resistencia a la tierra : 22.0
+		% resistencia al agua : 33.0
+		% resistencia al aire : 16.0
+		% resistencia al fuego : 18.0
+		% resistencia neutral : 26.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 56.0
+		iniciativa : 3254.0
+		placaje : 89.0
+		potencia (daños generales) : 490.0
+		vitalidad : 4000.0
+	Characteristics:
+		agilidad: 501.0
+		inteligencia: 416.0
+		fuerza: 266.0
+		suerte: 371.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Coconillo	200	21223
+		Arco	Arco de dantartánico	200	33607
+		Bota	Escarpes de Miseria	200	22187
+		Capa	Capa Colchonada	196	13657
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Cocoscudo	200	21225
+		Mascota	Lokulto	20	13673
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			13642, # Anillo de Noai Aludem
+			21223, # Coconillo
+			33607, # Arco de dantartánico
+			22187, # Escarpes de Miseria
+			13657, # Capa Colchonada
+			14095, # Cinturón de estrígido
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			21225, # Cocoscudo
+			13673, # Lokulto
+			13641, # Gorro de Noai Aludem
+			12716, # Jugador mayor
+			13825, # Potente mayor
+			]
+
+Solution 14:
+	Fitness: 2003.252
+	Weapon damage: 1104.31
+		Weapon: Arco de dantartánico
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:2003.252
+	Push damage: 264.0
+	Preferences:
+		% crítico : 91.0
+		% resistencia a la tierra : 22.0
+		% resistencia al agua : 33.0
+		% resistencia al aire : 16.0
+		% resistencia al fuego : 18.0
+		% resistencia neutral : 26.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 56.0
+		iniciativa : 3254.0
+		placaje : 89.0
+		potencia (daños generales) : 490.0
+		vitalidad : 4000.0
+	Characteristics:
+		agilidad: 501.0
+		inteligencia: 416.0
+		fuerza: 326.0
+		suerte: 311.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Coconillo	200	21223
+		Arco	Arco de dantartánico	200	33607
+		Bota	Escarpes de Miseria	200	22187
+		Capa	Capa Colchonada	196	13657
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Cocoscudo	200	21225
+		Mascota	Lokulto	20	13673
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Furibundo mayor	150	12724
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			13642, # Anillo de Noai Aludem
+			21223, # Coconillo
+			33607, # Arco de dantartánico
+			22187, # Escarpes de Miseria
+			13657, # Capa Colchonada
+			14095, # Cinturón de estrígido
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			21225, # Cocoscudo
+			13673, # Lokulto
+			13641, # Gorro de Noai Aludem
+			12724, # Furibundo mayor
+			13825, # Potente mayor
+			]
+
+Solution 15:
+	Fitness: 2003.252
+	Weapon damage: 1118.71
+		Weapon: Arco de dantartánico
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:2003.252
+	Push damage: 264.0
+	Preferences:
+		% crítico : 91.0
+		% resistencia a la tierra : 22.0
+		% resistencia al agua : 33.0
+		% resistencia al aire : 16.0
+		% resistencia al fuego : 18.0
+		% resistencia neutral : 26.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 62.0
+		iniciativa : 3254.0
+		placaje : 95.0
+		potencia (daños generales) : 490.0
+		vitalidad : 4000.0
+	Characteristics:
+		agilidad: 561.0
+		inteligencia: 416.0
+		fuerza: 266.0
+		suerte: 311.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Coconillo	200	21223
+		Arco	Arco de dantartánico	200	33607
+		Bota	Escarpes de Miseria	200	22187
+		Capa	Capa Colchonada	196	13657
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Cocoscudo	200	21225
+		Mascota	Lokulto	20	13673
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Acróbata mayor	150	12714
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			13642, # Anillo de Noai Aludem
+			21223, # Coconillo
+			33607, # Arco de dantartánico
+			22187, # Escarpes de Miseria
+			13657, # Capa Colchonada
+			14095, # Cinturón de estrígido
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			21225, # Cocoscudo
+			13673, # Lokulto
+			13641, # Gorro de Noai Aludem
+			12714, # Acróbata mayor
+			13825, # Potente mayor
+			]
+

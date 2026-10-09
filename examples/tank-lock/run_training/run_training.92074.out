@@ -1,0 +1,9 @@
+Running with flags: /Users/jdtibochab/other/dofus-set-optimizer/workflows/../main.py --objective steal --elements agi --level 200 --level-offset 10 --ap 12 --mp 5 --vit 4000 --res-neutral 20 --res-fire 20 --res-air 20 --res-water 20 --res-earth 20 --crit 0 --range 0 --path /Users/jdtibochab/other/dofus-set-optimizer/workflows/report-sacri-tank_20261007-112403/run_training --islands 16 --max-workers 8 --lock 150 --dodge 60 --initiative 3200 --normalize-by-apcost --exclusions 32121 20354 --inclusions 7754 7115 18043 24034 20366 --scrolled --exo ap:1 mp:1 vit:200 --melee --reference 17581 13124 17582 15692 19979 20366 694 7115 7754 18043 25220 24034 19980 13765 12714 33166
+[CHECKPOINT] Starting at 2026-10-07_11-24-06
+Total items: 1816
+Total item sets: 161
+Total pools:
+   16 with sizes [73, 1, 82, 82, 1, 82, 46, 93, 72, 453, 1, 1, 1, 297, 297, 297]
+Total combinations: 10^23.17
+Number of candidate solutions: 149
+[CHECKPOINT] Finished at 2026-10-07_11-28-34

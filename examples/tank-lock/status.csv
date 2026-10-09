@@ -1,0 +1,2 @@
+Step Name,Job ID,Workspace,State,Run Time,Elapsed Time,Start Time,Submit Time,End Time,Number Restarts,Params
+run_training,92074,run_training,FINISHED,0d:00h:04m:31s,0d:00h:04m:31s,2026-10-07 11:24:04,2026-10-07 11:24:04,2026-10-07 11:28:35,0,

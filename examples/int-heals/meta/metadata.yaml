@@ -1,0 +1,20 @@
+dependencies:
+  _source: !!set {}
+  run_optimization: !!set {}
+hub_dependencies:
+  _source: !!set {}
+  run_optimization: !!set {}
+step_combinations:
+  _source: /Users/jdtibochab/other/dofus-set-optimizer/workflows/report-steamer_20261008-213301
+  run_optimization:
+    run_optimization_HEALS.200.MELEE.true.MP.6.OBJ.elements: run_optimization/HEALS.200.MELEE.true.MP.6.OBJ.elements
+used_parameters:
+  _source: !!set {}
+  run_optimization: !!set
+    HEALS: null
+    MELEE: null
+    MP: null
+    OBJECTIVE: null
+workspaces:
+  _source: /Users/jdtibochab/other/dofus-set-optimizer/workflows/report-steamer_20261008-213301
+  run_optimization_HEALS.200.MELEE.true.MP.6.OBJ.elements: run_optimization/HEALS.200.MELEE.true.MP.6.OBJ.elements

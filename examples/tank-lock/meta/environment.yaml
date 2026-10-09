@@ -1,0 +1,61 @@
+ART_SRC_PATH: /Users/jdtibochab/repos/jbei.art
+BUNDLED_DEBUGPY_PATH: /Users/jdtibochab/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/libs/debugpy
+CBORG_API_KEY: sk-5js41oSP3GIG2H6Vfwqz9Q
+CBORG_BASE_URL: https://api.cborg.lbl.gov/
+CLAUDE_CODE_SSE_PORT: '55993'
+CODA_API_KEY: ba7d3bed-e6cc-413d-b40f-e39d9d8168bf
+COLORTERM: truecolor
+COMMAND_MODE: unix2003
+CONDA_SHLVL: '0'
+COPILOT_DEBUG_NONCE: b60333b6f13e251d1413d0ecf6b7f5d6
+FH_API_TOKEN: ABCD
+FPATH: /opt/homebrew/share/zsh/site-functions:/usr/local/share/zsh/site-functions:/usr/share/zsh/site-functions:/usr/share/zsh/5.9/functions
+GIT_ASKPASS: /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh
+HOME: /Users/jdtibochab
+HOMEBREW_CELLAR: /opt/homebrew/Cellar
+HOMEBREW_PREFIX: /opt/homebrew
+HOMEBREW_REPOSITORY: /opt/homebrew
+INFOPATH: '/opt/homebrew/share/info:'
+LANG: en_US.UTF-8
+LOGNAME: jdtibochab
+MACH_PORT_RENDEZVOUS_PEER_VALDATION: '1'
+MAMBA_EXE: /Users/jdtibochab/miniforge3/bin/mamba
+MAMBA_ROOT_PREFIX: /Users/jdtibochab/miniforge3
+MallocNanoZone: '0'
+OPENAI_API_BASEURL: https://api.cborg.lbl.gov
+OPENAI_API_KEY: sk-WiFTKS6h-jXztUNnPK4HwQ
+PATH: /Users/jdtibochab/other/dofus-set-optimizer/.venv/bin:/Users/jdtibochab/.local/bin:/Users/jdtibochab/miniforge3/condabin:/Users/jdtibochab/Library/Application
+  Support/Code/User/globalStorage/github.copilot-chat/debugCommand:/Users/jdtibochab/Library/Application
+  Support/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/jdtibochab/Library/Application
+  Support/Code/User/globalStorage/github.copilot-chat/debugCommand:/Users/jdtibochab/Library/Application
+  Support/Code/User/globalStorage/github.copilot-chat/copilotCli:/Users/jdtibochab/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts
+PWD: /Users/jdtibochab/other/dofus-set-optimizer/workflows
+PYDEVD_DISABLE_FILE_VALIDATION: '1'
+PYTHONSTARTUP: /Users/jdtibochab/Library/Application Support/Code/User/workspaceStorage/bfddd8d8a6c12ec7095de31cd2028384/ms-python.python/pythonrc.py
+PYTHON_BASIC_REPL: '1'
+SHELL: /bin/zsh
+SHLVL: '2'
+SSH_AUTH_SOCK: /private/tmp/com.apple.launchd.o1Vv7Rz6aj/Listeners
+TERM: xterm-256color
+TERM_PROGRAM: vscode
+TERM_PROGRAM_VERSION: 1.135.0
+TMPDIR: /var/folders/kb/4rj6v4lj55b0h_wrblbl2pt80000gp/T/
+USER: jdtibochab
+USER_ZDOTDIR: /Users/jdtibochab
+VIRTUAL_ENV: /Users/jdtibochab/other/dofus-set-optimizer/.venv
+VIRTUAL_ENV_PROMPT: '(.venv) '
+VSCODE_DEBUGPY_ADAPTER_ENDPOINTS: /Users/jdtibochab/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/.noConfigDebugAdapterEndpoints/endpoint-54f5546044c8835d.txt
+VSCODE_GIT_ASKPASS_EXTRA_ARGS: ''
+VSCODE_GIT_ASKPASS_MAIN: /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js
+VSCODE_GIT_ASKPASS_NODE: /Applications/Visual Studio Code.app/Contents/Frameworks/Code
+  Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)
+VSCODE_GIT_IPC_HANDLE: /var/folders/kb/4rj6v4lj55b0h_wrblbl2pt80000gp/T/vscode-git-5cac9c71f9.sock
+VSCODE_INJECTION: '1'
+VSCODE_PROFILE_INITIALIZED: '1'
+VSCODE_PYTHON_AUTOACTIVATE_GUARD: '1'
+XPC_FLAGS: '0x0'
+XPC_SERVICE_NAME: '0'
+ZDOTDIR: /Users/jdtibochab
+_: /usr/bin/nohup
+__CFBundleIdentifier: com.microsoft.VSCode
+__CF_USER_TEXT_ENCODING: 0x1F6:0:0

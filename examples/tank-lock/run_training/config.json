@@ -1,0 +1,128 @@
+{
+    "optimizer": {
+        "language": "es",
+        "population_size": 100,
+        "num_parents_mating": 150,
+        "num_generations": 300,
+        "mutation_rate": [
+            0.1875,
+            0.0625
+        ],
+        "crossover_rate": 0.85,
+        "parent_selection_type": "tournament",
+        "tournament_size": 3,
+        "keep_elitism": 2,
+        "mutation_type": "adaptive",
+        "crossover_type": "single_point",
+        "max_workers": 8,
+        "islands": 16,
+        "exclusions": {
+            "items": [
+                6894,
+                6895,
+                3080,
+                9031,
+                6980,
+                13344,
+                29136,
+                32121,
+                20354
+            ]
+        },
+        "inclusions": {
+            "items": [
+                7754,
+                7115,
+                18043,
+                24034,
+                20366
+            ]
+        },
+        "preferences": {
+            "lower": {
+                "12": {
+                    "target": 12,
+                    "strength": 0.01
+                },
+                "8": {
+                    "target": 5,
+                    "strength": 0.01
+                },
+                "9": {
+                    "target": 4000,
+                    "strength": 0.01
+                },
+                "34": {
+                    "target": 20,
+                    "strength": 0.01
+                },
+                "37": {
+                    "target": 20,
+                    "strength": 0.01
+                },
+                "16": {
+                    "target": 20,
+                    "strength": 0.01
+                },
+                "17": {
+                    "target": 20,
+                    "strength": 0.01
+                },
+                "63": {
+                    "target": 20,
+                    "strength": 0.01
+                },
+                "26": {
+                    "target": 150,
+                    "strength": 0.01
+                },
+                "59": {
+                    "target": 60,
+                    "strength": 0.01
+                },
+                "24": {
+                    "target": 3200,
+                    "strength": 0.01
+                }
+            },
+            "upper": {}
+        },
+        "path": "/Users/jdtibochab/other/dofus-set-optimizer/workflows/report-sacri-tank_20261007-112403/run_training",
+        "level_offset": 10,
+        "objective": "steal",
+        "normalize_by_apcost": true,
+        "reference": [
+            "17581",
+            "13124",
+            "17582",
+            "15692",
+            "19979",
+            "20366",
+            "694",
+            "7115",
+            "7754",
+            "18043",
+            "25220",
+            "24034",
+            "19980",
+            "13765",
+            "12714",
+            "33166"
+        ]
+    },
+    "character": {
+        "level": 200,
+        "scrolled": true,
+        "exo": {
+            "12": 1,
+            "8": 1,
+            "9": 200
+        },
+        "distributed_points": {},
+        "elements": [
+            36
+        ],
+        "melee": true,
+        "ranged": false
+    }
+}

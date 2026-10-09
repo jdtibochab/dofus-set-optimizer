@@ -7,9 +7,12 @@
 
 ```bash
 cd workflows
-maestro run cra.yaml          # asks for confirmation; add -y to skip
-maestro status report-cra_*   # check progress
+maestro run workflow.hupper.yaml                     # asks for confirmation; add -y to skip
+maestro run -p pgen.steamer.py workflow.steamer.yaml # specs with a parameter generator
+maestro status report-steamer_*                      # check progress
 ```
+
+`workflow.cra.yaml` and `workflow.steamer.yaml` take some variables (`$(OBJECTIVE)`, `$(MP)`, `$(HEALS)`, ...) from their `pgen.<build>.py` parameter generator, which runs one study step per combination of the lists defined at its top. Edit those lists to sweep settings; the launch command is also in each spec's `description`.
 
 Each run creates `workflows/report-<name>_<YYYYMMDD-HHMMSS>/`; the optimizer outputs (`report.txt`, `summary.csv`, `pca.png`, `generations.png`, `config.json`) are in its `run_training/` subdirectory, alongside the step's stdout/stderr (`run_training.<pid>.out/.err`).
 
@@ -17,15 +20,22 @@ Each run creates `workflows/report-<name>_<YYYYMMDD-HHMMSS>/`; the optimizer out
 
 | Spec | Objective | Elements | Weapon | Notes |
 | --- | --- | --- | --- | --- |
-| [cra.yaml](workflows/cra.yaml) | `weapon` / AP | agi str cha int | ranged, range ≥ 6 | High crit, 12 AP / 5 MP. |
-| [hupper.yaml](workflows/hupper.yaml) | `elements` | agi str cha int | ranged, range ≥ 3 | Spell-damage build, 12 AP / 6 MP. |
-| [sacri-omni.yaml](workflows/sacri-omni.yaml) | `weapon` / AP | agi str cha int | melee | Multi-element hitter. |
-| [sacri-tank.yaml](workflows/sacri-tank.yaml) | `steal` / AP | agi | melee | High vit, resistances, lock and initiative. |
-| [steamer.yaml](workflows/steamer.yaml) | `elements` + `push` | agi cha | melee + ranged | Spell + push-damage build, push target 500. |
+| [workflow.cra.yaml](workflow.cra.yaml) + [pgen.cra.py](pgen.cra.py) | from pgen (`elements`) | from pgen | ranged, range ≥ 6 | High crit; pgen sets the objective, MP and element combinations to run. |
+| [workflow.hupper.yaml](workflow.hupper.yaml) | `elements` | agi str cha int | ranged, range ≥ 3 | Spell-damage build, 12 AP / 6 MP. |
+| [workflow.sacri-omni.yaml](workflow.sacri-omni.yaml) | `weapon` / AP | agi str cha int | melee | Multi-element hitter. |
+| [workflow.sacri-tank.yaml](workflow.sacri-tank.yaml) | `steal` / AP | agi | melee | High vit, resistances, lock and initiative. |
+| [workflow.steamer.yaml](workflow.steamer.yaml) + [pgen.steamer.py](pgen.steamer.py) | from pgen (`elements`) | int | melee + ranged | Intelligence build; pgen pairs each objective with a minimum `HEALS` (currently 200). |
+
+### Heal optimization
+
+Two ways to bring healing into a workflow:
+
+- **Maximize healing:** set `OBJECTIVE: "heals"` (alone, or combined such as `"elements heals"`) and `ELEMENTS: "int"`. The score is `15 × (1 + Intelligence / 100) + Heals bonus`.
+- **Require a minimum heal bonus:** keep your damage objective and set `HEALS` to the minimum flat Heals bonus; sets below it are penalized like any other stat target. `pgen.steamer.py` does this, zipping each entry of `OBJECTIVE` with the matching entry of `HEALS` (e.g. `OBJECTIVE = ["elements", "heals"]`, `HEALS = [200, 0]` runs a damage build with ≥ 200 Heals and a pure healer).
 
 ### Writing your own
 
-Copy an existing spec and edit the variables in `env.variables`. Each one maps to the CLI flag of the same name (see [Arguments](#arguments)):
+Copy an existing spec and edit the variables in `env.variables`. Each one maps to the CLI flag of the same name (see [Arguments](../README.md#arguments)):
 
 ```yaml
 description:
@@ -52,6 +62,7 @@ env:
     MP: 6
     VIT: 4000
     # RES_*, RANGE, LOCK, DODGE, INITIATIVE, PUSH, CRIT ...
+    HEALS: 0                      # minimum flat Heals bonus (0 = ignore)
 
     EXO: "ap:1 mp:1"              # or "none"
     DISTRIBUTED_POINTS: "none"

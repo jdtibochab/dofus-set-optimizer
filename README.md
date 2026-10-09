@@ -7,7 +7,7 @@ This is a fun project I developed in my free time that I used to learn Genetic A
 Feel free to contribute!
 
 ## Description of this repo
-This repo contains a genetic-algorithm optimizer that searches the full Dofus 3 item database for the equipment set that maximizes one or more objectives (weapon damage, spell damage, steal damage, push damage, summed when combined) for a given character, while softly enforcing stat targets such as AP, MP, vitality, resistances, crit, lock, initiative or push damage.
+This repo contains a genetic-algorithm optimizer that searches the full Dofus 3 item database for the equipment set that maximizes one or more objectives (weapon damage, spell damage, steal damage, push damage or healing, summed when combined) for a given character, while softly enforcing stat targets such as AP, MP, vitality, resistances, crit, lock, initiative, push damage or a minimum heal bonus.
 
 The optimizer runs several independent "islands" Genetic Algorithm ([PyGAD](https://pygad.readthedocs.io/)) optimizations in parallel, collects the best unique, unpenalized sets found across them, and writes a human-readable report, a CSV comparison table and diagnostic plots. The data is obtained from [dofusdude](https://github.com/dofusdude/dofus3-main).
 
@@ -43,6 +43,24 @@ python scripts/main.py --objective weapon --normalize-by-apcost \
     --islands 8 --max-workers 8
 ```
 
+A healer, maximizing healing with all characteristic points in Intelligence:
+
+```bash
+python scripts/main.py --objective heals \
+    --elements int --melee --ranged \
+    --level 200 --scrolled --ap 12 --mp 6 --vit 4000 \
+    --islands 8 --max-workers 8
+```
+
+A damage dealer that also needs a minimum heal bonus (spell damage is maximized; sets below 200 Heals are penalized):
+
+```bash
+python scripts/main.py --objective elements --heals 200 \
+    --elements int --melee --ranged \
+    --level 200 --scrolled --ap 12 --mp 6 \
+    --islands 8 --max-workers 8
+```
+
 A fuller example (melee agility tank maximizing steal damage):
 
 ```bash
@@ -66,8 +84,18 @@ python scripts/main.py \
 
 | Flag | Default | Description |
 | --- | --- | --- |
-| `--objective` | `weapon` | One or more of `weapon`, `elements`, `steal`, `push`. With several (e.g. `--objective elements push`), their scores are added together before penalties are applied. Scores are not rescaled, so damage objectives (typically 1000+) outweigh push (typically a few hundred). |
+| `--objective` | `weapon` | One or more of `weapon`, `elements`, `steal`, `push`, `heals`. With several (e.g. `--objective elements push`), their scores are added together before penalties are applied. Scores are not rescaled, so damage objectives (typically 1000+) outweigh push and heals (typically a few hundred). |
 | `--normalize-by-apcost` | off | Divide weapon damage by weapon AP cost. |
+
+What each objective scores:
+
+| Objective | Score |
+| --- | --- |
+| `weapon` | Expected weapon hit damage across the selected elements (crit-weighted when `--crit` is set); divided by AP cost with `--normalize-by-apcost`. |
+| `elements` | Expected damage of a generic 20-base-damage spell in each selected element. |
+| `steal` | Like `weapon`, counting only the weapon's life-steal lines. |
+| `push` | Push damage of a 2-cell push: `(level / 2 + push damage bonus + 32) × 2`. |
+| `heals` | Healing of a reference 15-base heal: `15 × (1 + Intelligence / 100) + Heals bonus`. Use `--elements int` so characteristic points go to Intelligence. |
 
 **Character**
 
@@ -83,7 +111,7 @@ python scripts/main.py \
 
 Keys accepted by `--exo` and `--distributed-points`: `agi`, `cha`, `int`, `str`, `vit`, `wis`, `ap`, `mp`, `range`, `crit`, `pow`, `initiative`, `lock`, `dodge`, `push`, `heals`, `res_neutral`, `res_fire`, `res_air`, `res_water`, `res_earth`.
 
-**Stat targets** (lower bounds; `0` = ignore). `--crit` also enables crit weighting in the damage formula.
+**Stat targets** (lower bounds; `0` = ignore). `--crit` also enables crit weighting in the damage formula. `--heals` sets a minimum flat Heals bonus (stat 121, "Soin" / "de cura"); it works with any objective, so a damage build can be required to keep some healing.
 
 `--ap` (default 7), `--mp` (3), `--vit` (3000), `--range`, `--crit`, `--lock`, `--dodge`, `--initiative`, `--push`, `--heals`, `--res-neutral`, `--res-fire`, `--res-air`, `--res-water`, `--res-earth` (all default 0).
 
@@ -125,7 +153,7 @@ Each run writes to `--path`:
 | File | Content |
 | --- | --- |
 | `config.json` | Full resolved configuration. |
-| `report.txt` | One block per candidate set: fitness, weapon and spell damage, targeted stats, characteristics, item list (type, name, level, ID), any penalties, and the chromosome as a list of IDs. |
+| `report.txt` | One block per candidate set: fitness, weapon, spell and push damage, healing, targeted stats, characteristics, item list (type, name, level, ID), any penalties, and the chromosome as a list of IDs. |
 | `summary.csv` | All stat totals side by side, one column per candidate — handy for comparing sets in a spreadsheet. |
 | `pca.png` | PCA of the candidates' stat totals, colored by fitness, with the top stat loadings drawn as arrows. Shows how different the good sets are from each other. |
 | `generations.png` | Best fitness per generation for each island, to check convergence. |
@@ -134,8 +162,7 @@ Item and stat names are reported in the language chosen with `--language` (Engli
 
 ### Finding item IDs
 
-Inclusions, exclusions and references use Ankama item IDs. Look them up in the `ankama_id` field of `data/data/ITEM_NAMES_AND_IDS.LANGUAGE.csv`.
-```
+Inclusions, exclusions and references use Ankama item IDs. Look them up in the `ankama_id` field of `data/ITEM_NAMES_AND_IDS.<language>.csv` (generated by `python -m scripts.data` from the repo root).
 
 ## Usage: Maestro workflows
 
@@ -145,9 +172,11 @@ Inclusions, exclusions and references use Ankama item IDs. Look them up in the `
 
 ```bash
 cd workflows
-maestro run cra.yaml          # asks for confirmation; add -y to skip
-maestro status report-cra_*   # check progress
+maestro run workflow.hupper.yaml                     # asks for confirmation; add -y to skip
+maestro run -p pgen.steamer.py workflow.steamer.yaml # specs with a parameter generator
 ```
+
+See [workflows/README.md](workflows/README.md) for the included builds, parameter generators, heal optimization and writing your own spec.
 
 Each run creates `workflows/report-<name>_<YYYYMMDD-HHMMSS>/`; the optimizer outputs (`report.txt`, `summary.csv`, `pca.png`, `generations.png`, `config.json`) are in its `run_training/` subdirectory, alongside the step's stdout/stderr (`run_training.<pid>.out/.err`).
 

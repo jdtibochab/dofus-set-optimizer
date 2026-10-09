@@ -20,7 +20,10 @@ Requires Python ≥ 3.10 (f-string syntax in [scripts/main.py](scripts/main.py) 
 # Clone the repo
 git clone https://github.com/jdtibochab/dofus-set-optimizer.git
 
-# Install 
+# Move inside folder
+cd dofus-set-optimizer
+
+# Install
 pip install -e .
 
 # Download the game data into data/ (needs `gh auth login` first)

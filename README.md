@@ -108,13 +108,13 @@ What each objective scores:
 | `--class` | none | Character class (`cra`, `ecaflip`, `eniripsa`, `enutrof`, `eliotrope`, `feca`, `foggernaut`, `forgelance`, `huppermage`, `iop`, `masqueraider`, `osamodas`, `ouginak`, `pandawa`, `rogue`, `sacrier`, `sadida`, `sram`, `xelor`). Only used for the [Dofus Forge](#opening-sets-in-dofus-forge) links; without it, pick the class on Dofus Forge. |
 | `--level` | `200` | Character level. |
 | `--elements` | `agi str cha int` | Damage elements to optimize (`agi`, `str`, `cha`, `int`). Characteristic points are split evenly across them unless `--distributed-points` is given. |
-| `--scrolled` | off | Add +100 to every characteristic. |
+| `--scrolled` | off | Add +100 to Strength, Intelligence, Chance and Agility. |
 | `--exo KEY:VALUE ...` | none | Exo bonuses, e.g. `ap:1 mp:1 range:1 vit:200`. |
-| `--distributed-points KEY:VALUE ...` | auto | Characteristic points to invest per stat (soft caps applied), e.g. `vit:995`. |
+| `--distributed-points KEY:VALUE ...` | auto | Characteristic points to invest per characteristic (`vit`, `wis`, `str`, `int`, `cha`, `agi`), e.g. `str:600 vit:395`. Costs follow the game: Vitality 1 point each, Wisdom 3, and elements 1 each up to 100, then 2 up to 200, 3 up to 300 and 4 beyond. |
 | `--melee` / `--ranged` | off | Allow melee weapons (minimum range ≤ 1) and/or ranged weapons (reach beyond 1 cell). With both, either kind is allowed; with neither, any weapon is. |
 | `--weapon-range` | `1` | Minimum max-range for ranged weapons when `--ranged` is set (melee weapons allowed by `--melee` are not affected). |
 
-Keys accepted by `--exo` and `--distributed-points`: `agi`, `cha`, `int`, `str`, `vit`, `wis`, `ap`, `mp`, `range`, `crit`, `pow`, `initiative`, `lock`, `dodge`, `push`, `heals`, `res_neutral`, `res_fire`, `res_air`, `res_water`, `res_earth`.
+Keys accepted by `--exo`: `agi`, `cha`, `int`, `str`, `vit`, `wis`, `ap`, `mp`, `range`, `crit`, `pow`, `initiative`, `lock`, `dodge`, `push`, `heals`, `res_neutral`, `res_fire`, `res_air`, `res_water`, `res_earth`.
 
 **Stat targets** (lower bounds; `0` = ignore). `--crit` also enables crit weighting in the damage formula. `--heals` sets a minimum flat Heals bonus (stat 121, "Soin" / "de cura"); it works with any objective, so a damage build can be required to keep some healing.
 
@@ -182,7 +182,7 @@ The class comes from `--class`. For runs made without it, pass it when rebuildin
 python scripts/html_report.py examples/tank-lock/run_training --class sacrier
 ```
 
-Dofus Forge doesn't support every planner feature this optimizer models, and vice versa: exos aren't included in the link, and Dofus Forge charges characteristic points by stat value brackets, so its point budget and totals may differ slightly from this report's. DofusBook has no import feature or public API, so sets can't be exported there automatically.
+Exos aren't part of Dofus Forge's link format, so add them there by hand. DofusBook has no import feature or public API, so sets can't be exported there automatically.
 
 ### Finding item IDs
 

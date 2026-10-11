@@ -74,13 +74,14 @@ bonus_damage_mapper = {
             223 : 49, # Neutral
     }
 
+# Characteristic point costs: (stat value where the tier ends, points per stat point); None = no end
 default_soft_caps = {
-    9: [0,None, 0, 0, 0, 0], # Vitality
-    10: [0, 0, 0, None, 0, 0], # Wisdom
-    45: [0, 100, 200, 300, None, 0], # Strength
-    13: [0, 100, 200, 300, None, 0], # Intelligence
-    22: [0, 100, 200, 300, None, 0], # Chance
-    36: [0, 100, 200, 300, None, 0]  # Agility
+    9: [(None, 1)], # Vitality
+    10: [(None, 3)], # Wisdom
+    45: [(100, 1), (200, 2), (300, 3), (None, 4)], # Strength
+    13: [(100, 1), (200, 2), (300, 3), (None, 4)], # Intelligence
+    22: [(100, 1), (200, 2), (300, 3), (None, 4)], # Chance
+    36: [(100, 1), (200, 2), (300, 3), (None, 4)]  # Agility
 }
 
 def get_item_contribution(item):

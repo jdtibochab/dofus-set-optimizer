@@ -25,23 +25,18 @@ class Character(object):
         self._update_stats()
 
     def _distribute_points(self, element_id, points):
-        if element_id not in self.stats:
-            self.stats[element_id] = 0
-        soft_cap = default_soft_caps.get(element_id, [None] * 5)
-        for i in range(len(soft_cap)):
-            if points < 1:
-                # Not enough points to distribute
+        if element_id not in default_soft_caps:
+            raise ValueError(f"Characteristic points can only go to vit, wis, str, int, cha or agi, not stat {element_id}")
+        value = self.stats.get(element_id, 0)
+        for upper_bound, cost in default_soft_caps[element_id]:
+            room = float('inf') if upper_bound is None else max(upper_bound - value, 0)
+            add = int(min(room, points // cost))
+            value += add
+            points -= add * cost
+            if add < room:
+                # Not enough points left to fill this tier
                 break
-            lower_bound, upper_bound = soft_cap[i],soft_cap[i+1]
-            if upper_bound is None:
-                upper_bound = float('inf')
-            distribute = min((upper_bound - lower_bound), points)
-            add = distribute // (i + 1)
-            if add < 1:
-                # Not enough points to distribute
-                break
-            self.stats[element_id] += add
-            points -= distribute
+        self.stats[element_id] = value
 
     def _auto_distribute_points(self):
         #TODO: Allow the optimizer to distribute points unevenly

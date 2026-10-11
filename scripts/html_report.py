@@ -15,6 +15,7 @@ import os
 import re
 from datetime import datetime
 
+from dofus_forge import CLASSES as DOFUS_FORGE_CLASSES, chromosome_url
 from utils import get_set_contribution
 
 # Stats shown in the key stats grid, in display order
@@ -122,6 +123,7 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
 .plots { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
 .plots img { width: 100%; height: auto; background: #fff; border-radius: 6px; }
 .stack > * + * { margin-top: 16px; }
+a.ext { float: right; font-size: 13px; font-weight: 500; }
 """
 
 
@@ -223,6 +225,7 @@ def _solution_data(chromosome, ctx):
     return {
         "chromosome": chromosome,
         "ids": ids,
+        "dofus_forge": chromosome_url(chromosome),
         "fitness": chromosome.fitness,
         "scores": scores if isinstance(scores, dict) else {},
         "metrics": [
@@ -250,6 +253,8 @@ def _render_header(ctx, title, solutions, has_reference):
         weapon_rule += f", range ≥ {ranged}"
 
     chips = [f'<span class="chip accent">Maximize: {_esc(" + ".join(ctx.objective_label(o) for o in ctx.objectives))}</span>']
+    if character.config.get("class"):
+        chips.append(f'<span class="chip">{_esc(character.config["class"].capitalize())}</span>')
     chips.append(f'<span class="chip">Level {character.level}</span>')
     chips.append(f'<span class="chip">Elements: {_esc(", ".join(ctx.stat_label(e) for e in ctx.elements))}</span>')
     chips.append(f'<span class="chip">Weapon: {_esc(weapon_rule)}</span>')
@@ -342,12 +347,13 @@ def _render_overview(data, ctx, has_reference, best):
   <td>{weapon}</td><td class="small">{sets or '<span class="muted">—</span>'}</td>
   <td class="num">{met}/{len(d["requirements"])}</td>
   <td class="num">{'—' if idx == best else diff}</td>
+  <td><a href="{_esc(d["dofus_forge"])}" target="_blank" rel="noopener">Open ↗</a></td>
 </tr>""")
     return f"""
 <h2>Solutions</h2>
 <div class="scroll"><table>
   <thead><tr><th>Set</th><th>Status</th><th class="num">Fitness</th>{score_heads}
-  <th>Weapon</th><th>Set bonuses (≥ 2 pieces)</th><th class="num">Targets met</th><th class="num">Items ≠ best</th></tr></thead>
+  <th>Weapon</th><th>Set bonuses (≥ 2 pieces)</th><th class="num">Targets met</th><th class="num">Items ≠ best</th><th>Dofus Forge</th></tr></thead>
   <tbody>{"".join(rows)}</tbody>
 </table></div>"""
 
@@ -447,7 +453,8 @@ def _render_solution(idx, d, ctx, has_reference, best, best_ids):
     <span class="fitness">{_fmt(d["fitness"])}</span><span class="muted">fitness · {weapon}</span></summary>
   <div class="sol-body">
     <div class="stack">
-      <div class="card"><h3>Items</h3><table>{"".join(item_rows)}</table></div>
+      <div class="card"><h3>Items <a class="ext" href="{_esc(d["dofus_forge"])}" target="_blank" rel="noopener">Open in Dofus Forge ↗</a></h3>
+        <table>{"".join(item_rows)}</table></div>
       <div class="card"><h3>Sets</h3><table>{set_rows}</table></div>
     </div>
     <div class="stack">
@@ -536,10 +543,12 @@ def write_html_report(optimizer, solutions, has_reference=False, title=None):
 
 # --- Rebuilding reports for existing runs ---------------------------------
 
-def _load_config(run_dir):
+def _load_config(run_dir, character_class=None):
     with open(os.path.join(run_dir, "config.json")) as file:
         config = json.load(file)
     character = config["character"]
+    if character_class:
+        character["class"] = character_class
     for key in ("exo", "distributed_points"):
         character[key] = {int(k): v for k, v in character.get(key, {}).items()}
     preferences = config["optimizer"].get("preferences", {})
@@ -555,14 +564,14 @@ def _load_solutions(run_dir):
     return [[int(i) for i in re.findall(r"^\s*(\d+),", block, flags=re.MULTILINE)] for block in blocks]
 
 
-def rebuild_report(run_dir):
+def rebuild_report(run_dir, character_class=None):
     """Re-evaluate the sets listed in a run's report.txt and write its report.html."""
     from character import Character
     from chromosome import Chromosome
     from data import item_sets, items
     from optimizer import Optimizer
 
-    config = _load_config(run_dir)
+    config = _load_config(run_dir, character_class)
     optimizer = Optimizer(Character(**config["character"]), items, item_sets, **config["optimizer"])
     solutions = []
     for ids in _load_solutions(run_dir):
@@ -621,6 +630,8 @@ def write_index(root, entries):
 def main():
     parser = argparse.ArgumentParser(description="Build HTML reports for existing optimization runs")
     parser.add_argument("paths", nargs="+", help="Run directories, or directories containing runs (e.g. a Maestro study)")
+    parser.add_argument("--class", dest="character_class", choices=DOFUS_FORGE_CLASSES, default=None,
+                        help="Character class for Dofus Forge links, overriding the one saved with the run")
     args = parser.parse_args()
     for root in args.paths:
         runs = _find_runs(root)
@@ -630,7 +641,7 @@ def main():
         entries = []
         for run_dir in runs:
             print(f"Rendering {run_dir}")
-            entries.append((run_dir, rebuild_report(run_dir)))
+            entries.append((run_dir, rebuild_report(run_dir, args.character_class)))
         if len(runs) > 1 or os.path.abspath(runs[0]) != os.path.abspath(root):
             write_index(root, entries)
             print(f"Wrote {os.path.join(root, 'index.html')}")

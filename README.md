@@ -105,6 +105,7 @@ What each objective scores:
 
 | Flag | Default | Description |
 | --- | --- | --- |
+| `--class` | none | Character class (`cra`, `ecaflip`, `eniripsa`, `enutrof`, `eliotrope`, `feca`, `foggernaut`, `forgelance`, `huppermage`, `iop`, `masqueraider`, `osamodas`, `ouginak`, `pandawa`, `rogue`, `sacrier`, `sadida`, `sram`, `xelor`). Only used for the [Dofus Forge](#opening-sets-in-dofus-forge) links; without it, pick the class on Dofus Forge. |
 | `--level` | `200` | Character level. |
 | `--elements` | `agi str cha int` | Damage elements to optimize (`agi`, `str`, `cha`, `int`). Characteristic points are split evenly across them unless `--distributed-points` is given. |
 | `--scrolled` | off | Add +100 to every characteristic. |
@@ -157,8 +158,8 @@ Each run writes to `--path`:
 | File | Content |
 | --- | --- |
 | `config.json` | Full resolved configuration. |
-| `report.html` | Self-contained page summarizing the run: objective and requirements, a table of all candidate sets (status, fitness, objective scores, weapon, set bonuses, targets met, items that differ from the best set), a met/missed matrix of every target per set, and per-set details (items with icons, set bonuses, damage and healing, characteristics, key stats, any problems). Open it in a browser. |
-| `report.txt` | One block per candidate set: fitness, weapon, spell and push damage, healing, targeted stats, characteristics, item list (type, name, level, ID), any penalties, and the chromosome as a list of IDs. |
+| `report.html` | Self-contained page summarizing the run: objective and requirements, a table of all candidate sets (status, fitness, objective scores, weapon, set bonuses, targets met, items that differ from the best set), a met/missed matrix of every target per set, and per-set details (items with icons, set bonuses, damage and healing, characteristics, key stats, any problems), each with a link to open it in Dofus Forge. Open it in a browser. |
+| `report.txt` | One block per candidate set: fitness, weapon, spell and push damage, healing, targeted stats, characteristics, item list (type, name, level, ID), any penalties, the chromosome as a list of IDs, and a Dofus Forge link. |
 | `summary.csv` | All stat totals side by side, one column per candidate — handy for comparing sets in a spreadsheet. |
 | `pca.png` | PCA of the candidates' stat totals, colored by fitness, with the top stat loadings drawn as arrows. Shows how different the good sets are from each other. |
 | `generations.png` | Best fitness per generation for each island, to check convergence. |
@@ -170,6 +171,18 @@ python scripts/html_report.py workflows/report-cra_20261008-175406
 ```
 
 Item and stat names are reported in the language chosen with `--language` (English by default).
+
+### Opening sets in Dofus Forge
+
+Every candidate set in `report.html` and `report.txt` has a link to [Dofus Forge](https://wembie.github.io/dofus-forge/), an open-source Dofus 3 build planner that also uses dofusdude data. The link carries the whole build in the URL (items in their slots, class, level, characteristic points and scrolls), so nothing is uploaded and no account is needed. Save it there, then adjust it, add exos and forgemagic runes, or share it.
+
+The class comes from `--class`. For runs made without it, pass it when rebuilding the report:
+
+```bash
+python scripts/html_report.py examples/tank-lock/run_training --class sacrier
+```
+
+Dofus Forge doesn't support every planner feature this optimizer models, and vice versa: exos aren't included in the link, and Dofus Forge charges characteristic points by stat value brackets, so its point budget and totals may differ slightly from this report's. DofusBook has no import feature or public API, so sets can't be exported there automatically.
 
 ### Finding item IDs
 

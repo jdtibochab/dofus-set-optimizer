@@ -20,6 +20,8 @@ class Character(object):
                 self._distribute_points(k, v)
         else:
             self._auto_distribute_points()
+        # Characteristic points invested, before base stats, scrolls and exos
+        self.allocated = dict(self.stats)
         self._update_stats()
 
     def _distribute_points(self, element_id, points):

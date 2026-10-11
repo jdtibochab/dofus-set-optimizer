@@ -5,6 +5,7 @@ from sklearn.decomposition import PCA
 
 from chromosome import Chromosome
 import chromosome
+from dofus_forge import chromosome_url
 
 # Stats excluded from the PCA and summary.csv. 179 (-AP) and 238 (-MP) are
 # on-hit weapon effects that share their label with the character's AP/MP
@@ -212,6 +213,7 @@ class Analyzer:
                 report = construct_report_str(solution)
                 file.write(f"Solution {idx}:\n")
                 file.write(report + "\n")
+                file.write(f"Dofus Forge: {chromosome_url(solution)}\n")
 
                 # Append solution summary
                 df = solution.totals_summary()

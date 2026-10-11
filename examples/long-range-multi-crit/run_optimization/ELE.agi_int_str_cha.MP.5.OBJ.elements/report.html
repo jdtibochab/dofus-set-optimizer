@@ -89,13 +89,14 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
 .plots { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
 .plots img { width: 100%; height: auto; background: #fff; border-radius: 6px; }
 .stack > * + * { margin-top: 16px; }
+a.ext { float: right; font-size: 13px; font-weight: 500; }
 </style>
 </head>
 <body><main>
 <header>
   <h1>ELE.agi_int_str_cha.MP.5.OBJ.elements</h1>
-  <div class="muted small">examples/long-range-multi-crit/run_optimization/ELE.agi_int_str_cha.MP.5.OBJ.elements · generated 2026-10-11 14:37</div>
-  <div class="chips"><span class="chip accent">Maximize: Spell damage</span><span class="chip">Level 200</span><span class="chip">Elements: agilidad, inteligencia, fuerza, suerte</span><span class="chip">Weapon: ranged, range ≥ 6</span><span class="chip">Scrolled</span><span class="chip">Exos: PA +1, PM +1, % crítico +2, vitalidad +200, alcance +1</span><span class="chip">15 candidate sets</span></div>
+  <div class="muted small">examples/long-range-multi-crit/run_optimization/ELE.agi_int_str_cha.MP.5.OBJ.elements · generated 2026-10-11 15:57</div>
+  <div class="chips"><span class="chip accent">Maximize: Spell damage</span><span class="chip">Cra</span><span class="chip">Level 200</span><span class="chip">Elements: agilidad, inteligencia, fuerza, suerte</span><span class="chip">Weapon: ranged, range ≥ 6</span><span class="chip">Scrolled</span><span class="chip">Exos: PA +1, PM +1, % crítico +2, vitalidad +200, alcance +1</span><span class="chip">15 candidate sets</span></div>
 </header>
 <h2>Setup</h2>
 <div class="grid">
@@ -110,7 +111,7 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
 <h2>Solutions</h2>
 <div class="scroll"><table>
   <thead><tr><th>Set</th><th>Status</th><th class="num">Fitness</th><th class="num">Spell damage</th>
-  <th>Weapon</th><th>Set bonuses (≥ 2 pieces)</th><th class="num">Targets met</th><th class="num">Items ≠ best</th></tr></thead>
+  <th>Weapon</th><th>Set bonuses (≥ 2 pieces)</th><th class="num">Targets met</th><th class="num">Items ≠ best</th><th>Dofus Forge</th></tr></thead>
   <tbody>
 <tr class="">
   <td><a href="#sol-0">Reference</a></td><td><span class="badge ok">All targets met</span> <span class="badge ref">Reference</span></td>
@@ -118,6 +119,7 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
   <td>Arco de vueloceronte</td><td class="small">Set de vueloceronte <span class="muted">4/5</span>, Set de Miauvizor <span class="muted">3/3</span></td>
   <td class="num">10/10</td>
   <td class="num">9</td>
+  <td><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxOTk4NCwxOTk4NSwxNTE5MCwxOTk4MywxNzU3OCwxOTk4NiwxODcwMCwxMzY3MyxudWxsLDcxMTUsNzA0MywxODA0Myw3MzksNzc1NCw2OTRdfQ" target="_blank" rel="noopener">Open ↗</a></td>
 </tr>
 <tr class="is-best">
   <td><a href="#sol-1">#1</a></td><td><span class="badge ok">All targets met</span> <span class="badge best">Best</span></td>
@@ -125,6 +127,7 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
   <td>Arco de Tentenhuevo</td><td class="small">Set de Tentenhuevo <span class="muted">3/3</span>, Set de estrígido <span class="muted">3/3</span>, Set de Noai Aludem <span class="muted">2/3</span></td>
   <td class="num">10/10</td>
   <td class="num">—</td>
+  <td><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxMzY0MSwxODU5MSwxNDA5NCwxMzY0MiwzMjIzNCwxNDA5NSwxNDA5NiwzMjIzNSwzMjIzNiwxMzY3MyxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></td>
 </tr>
 <tr class="">
   <td><a href="#sol-2">#2</a></td><td><span class="badge ok">All targets met</span></td>
@@ -132,6 +135,7 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
   <td>Arco de Tentenhuevo</td><td class="small">Set de Noai Aludem <span class="muted">3/3</span>, Set de Tentenhuevo <span class="muted">3/3</span>, Set de estrígido <span class="muted">2/3</span></td>
   <td class="num">10/10</td>
   <td class="num">1</td>
+  <td><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxMzY0MSwxODU5MSwxNDA5NCwxMzY0MiwzMjIzNCwxNDA5NSwxMzY0MywzMjIzNSwzMjIzNiwxMzY3MyxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></td>
 </tr>
 <tr class="">
   <td><a href="#sol-3">#3</a></td><td><span class="badge ok">All targets met</span></td>
@@ -139,6 +143,7 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
   <td>Yaularco</td><td class="small">Set de Miauvizor <span class="muted">3/3</span>, Set de Cocuzko <span class="muted">2/2</span>, Set de estrígido <span class="muted">2/3</span></td>
   <td class="num">10/10</td>
   <td class="num">7</td>
+  <td><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxNDA5NCwxNTE5MCwyMTIyMywxNDA5NSwxNzU3OCwyNzY0NCwyMTIyNSwxMzY3MyxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></td>
 </tr>
 <tr class="">
   <td><a href="#sol-4">#4</a></td><td><span class="badge ok">All targets met</span></td>
@@ -146,6 +151,7 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
   <td>Arco de Tentenhuevo</td><td class="small">Set de Noai Aludem <span class="muted">3/3</span>, Set de Tentenhuevo <span class="muted">3/3</span>, Set de estrígido <span class="muted">2/3</span></td>
   <td class="num">10/10</td>
   <td class="num">2</td>
+  <td><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxMzY0MSwxODU5MSwxNDA5NCwxMzY0MiwzMjIzNCwxNDA5NSwxMzY0MywzMjIzNSwzMjIzNiwxMzY3MyxudWxsLDY5NCw3MzksNzc1NCwxODA0MywxMzc3OCwxMzgyNV19" target="_blank" rel="noopener">Open ↗</a></td>
 </tr>
 <tr class="">
   <td><a href="#sol-5">#5</a></td><td><span class="badge ok">All targets met</span></td>
@@ -153,6 +159,7 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
   <td>Varita de Torkelonia</td><td class="small">Set de Noai Aludem <span class="muted">3/3</span>, Set de Golosorak <span class="muted">2/3</span>, Set de estrígido <span class="muted">2/3</span></td>
   <td class="num">10/10</td>
   <td class="num">7</td>
+  <td><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxMzY0MSwzMjIzNywxNDA5NCwxMzY0MiwzMjI0MCwxNDA5NSwxMzY0MywyMTIyOSwzMjIzOSwxMzQ2NSxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MjQsMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></td>
 </tr>
 <tr class="">
   <td><a href="#sol-6">#6</a></td><td><span class="badge ok">All targets met</span></td>
@@ -160,6 +167,7 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
   <td>Varita de Torkelonia</td><td class="small">Set de Noai Aludem <span class="muted">3/3</span>, Set de Golosorak <span class="muted">2/3</span>, Set de estrígido <span class="muted">2/3</span></td>
   <td class="num">10/10</td>
   <td class="num">7</td>
+  <td><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxMzY0MSwzMjIzNywxNDA5NCwxMzY0MiwzMjI0MCwxNDA5NSwxMzY0MywyMTIyOSwzMjIzOSwxMzQ2NSxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MTksMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></td>
 </tr>
 <tr class="">
   <td><a href="#sol-7">#7</a></td><td><span class="badge ok">All targets met</span></td>
@@ -167,6 +175,7 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
   <td>Arco de vueloceronte</td><td class="small">Set de Miauvizor <span class="muted">2/3</span>, Set de la ballena <span class="muted">2/5</span>, Set de vueloceronte <span class="muted">2/5</span></td>
   <td class="num">10/10</td>
   <td class="num">9</td>
+  <td><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxNTY5NCwxNzU4MCwxOTk4NCwxNTE5MCwyNDAzNSwxNTY5OSwxNzU3OCwxOTk4NiwxODcwMCwxMzY3MyxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></td>
 </tr>
 <tr class="">
   <td><a href="#sol-8">#8</a></td><td><span class="badge ok">All targets met</span></td>
@@ -174,6 +183,7 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
   <td>Varita de Torkelonia</td><td class="small">Set de Miauvizor <span class="muted">3/3</span>, Set de estrígido <span class="muted">2/3</span></td>
   <td class="num">10/10</td>
   <td class="num">8</td>
+  <td><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxNDA5NCwxNTE5MCwyNDAzNSwxNDA5NSwxNzU3OCwyMTIyOSwxODcwMCwzMTg4NSxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></td>
 </tr>
 <tr class="">
   <td><a href="#sol-9">#9</a></td><td><span class="badge ok">All targets met</span></td>
@@ -181,6 +191,7 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
   <td>Arco de Tentenhuevo</td><td class="small">Set de Noai Aludem <span class="muted">3/3</span>, Set de Tentenhuevo <span class="muted">3/3</span>, Set de estrígido <span class="muted">2/3</span></td>
   <td class="num">10/10</td>
   <td class="num">2</td>
+  <td><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxMzY0MSwxODU5MSwxNDA5NCwxMzY0MiwzMjIzNCwxNDA5NSwxMzY0MywzMjIzNSwzMjIzNiwzMzE2NyxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></td>
 </tr>
 <tr class="">
   <td><a href="#sol-10">#10</a></td><td><span class="badge ok">All targets met</span></td>
@@ -188,6 +199,7 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
   <td>Yaularco</td><td class="small">Set de Miauvizor <span class="muted">3/3</span>, Set de Cocuzko <span class="muted">2/2</span>, Set de estrígido <span class="muted">2/3</span></td>
   <td class="num">10/10</td>
   <td class="num">8</td>
+  <td><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxNDA5NCwxNTE5MCwyMTIyMywxNDA5NSwxNzU3OCwyNzY0NCwyMTIyNSwxMzY3MyxudWxsLDY5NCw3MzksNzc1NCwxODA0MywxMzc1MSwxMzgyNV19" target="_blank" rel="noopener">Open ↗</a></td>
 </tr>
 <tr class="">
   <td><a href="#sol-11">#11</a></td><td><span class="badge ok">All targets met</span></td>
@@ -195,6 +207,7 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
   <td>Yaularco</td><td class="small">Set de Miauvizor <span class="muted">3/3</span>, Set de Cocuzko <span class="muted">2/2</span>, Set de estrígido <span class="muted">2/3</span></td>
   <td class="num">10/10</td>
   <td class="num">8</td>
+  <td><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxNDA5NCwxNTE5MCwyMTIyMywxNDA5NSwxNzU3OCwyNzY0NCwyMTIyNSwzMzAzMCxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></td>
 </tr>
 <tr class="">
   <td><a href="#sol-12">#12</a></td><td><span class="badge ok">All targets met</span></td>
@@ -202,6 +215,7 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
   <td>Yaularco</td><td class="small">Set de Golosorak <span class="muted">2/3</span>, Set de estrígido <span class="muted">2/3</span>, Set trithón <span class="muted">2/3</span></td>
   <td class="num">10/10</td>
   <td class="num">7</td>
+  <td><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxODAzMSwzMjIzNywxNDA5NCwxMTczOCwxMzY0MiwxNDA5NSwxODAzMCwyNzY0NCwzMjIzOSwzMTg4NSxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></td>
 </tr>
 <tr class="">
   <td><a href="#sol-13">#13</a></td><td><span class="badge ok">All targets met</span></td>
@@ -209,6 +223,7 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
   <td>Arco de dantartánico</td><td class="small">Set de Cocuzko <span class="muted">2/2</span>, Set de Noai Aludem <span class="muted">2/3</span>, Set de estrígido <span class="muted">2/3</span></td>
   <td class="num">10/10</td>
   <td class="num">6</td>
+  <td><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxMzY0MSwxMzY1NywxNDA5NCwxMzY0MiwyMTIyMywxNDA5NSwyMjE4NywzMzYwNywyMTIyNSwxMzY3MyxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MTYsMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></td>
 </tr>
 <tr class="">
   <td><a href="#sol-14">#14</a></td><td><span class="badge ok">All targets met</span></td>
@@ -216,6 +231,7 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
   <td>Arco de dantartánico</td><td class="small">Set de Cocuzko <span class="muted">2/2</span>, Set de Noai Aludem <span class="muted">2/3</span>, Set de estrígido <span class="muted">2/3</span></td>
   <td class="num">10/10</td>
   <td class="num">6</td>
+  <td><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxMzY0MSwxMzY1NywxNDA5NCwxMzY0MiwyMTIyMywxNDA5NSwyMjE4NywzMzYwNywyMTIyNSwxMzY3MyxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MjQsMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></td>
 </tr>
 <tr class="">
   <td><a href="#sol-15">#15</a></td><td><span class="badge ok">All targets met</span></td>
@@ -223,6 +239,7 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
   <td>Arco de dantartánico</td><td class="small">Set de Cocuzko <span class="muted">2/2</span>, Set de Noai Aludem <span class="muted">2/3</span>, Set de estrígido <span class="muted">2/3</span></td>
   <td class="num">10/10</td>
   <td class="num">6</td>
+  <td><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxMzY0MSwxMzY1NywxNDA5NCwxMzY0MiwyMTIyMywxNDA5NSwyMjE4NywzMzYwNywyMTIyNSwxMzY3MyxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MTQsMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></td>
 </tr></tbody>
 </table></div>
 <h2>Requirements by solution</h2>
@@ -235,7 +252,8 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
     <span class="fitness">2,039.9</span><span class="muted">fitness · Arco de vueloceronte</span></summary>
   <div class="sol-body">
     <div class="stack">
-      <div class="card"><h3>Items</h3><table>
+      <div class="card"><h3>Items <a class="ext" href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxOTk4NCwxOTk4NSwxNTE5MCwxOTk4MywxNzU3OCwxOTk4NiwxODcwMCwxMzY3MyxudWxsLDcxMTUsNzA0MywxODA0Myw3MzksNzc1NCw2OTRdfQ" target="_blank" rel="noopener">Open in Dofus Forge ↗</a></h3>
+        <table>
 <tr class="diff">
   <td><img class="icon" src="https://static.ankama.com/dofus/www/game/items/200/1305.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></td><td class="small muted">Amuleto</td>
   <td>Amuleto de vueloceronte <span class="badge warn">≠ best</span></td>
@@ -359,7 +377,8 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
     <span class="fitness">2,220.8</span><span class="muted">fitness · Arco de Tentenhuevo</span></summary>
   <div class="sol-body">
     <div class="stack">
-      <div class="card"><h3>Items</h3><table>
+      <div class="card"><h3>Items <a class="ext" href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxMzY0MSwxODU5MSwxNDA5NCwxMzY0MiwzMjIzNCwxNDA5NSwxNDA5NiwzMjIzNSwzMjIzNiwxMzY3MyxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open in Dofus Forge ↗</a></h3>
+        <table>
 <tr class="">
   <td><img class="icon" src="https://static.ankama.com/dofus/www/game/items/200/1235.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></td><td class="small muted">Amuleto</td>
   <td>Amuleto de estrígido </td>
@@ -477,7 +496,8 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
     <span class="fitness">2,218.8</span><span class="muted">fitness · Arco de Tentenhuevo</span></summary>
   <div class="sol-body">
     <div class="stack">
-      <div class="card"><h3>Items</h3><table>
+      <div class="card"><h3>Items <a class="ext" href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxMzY0MSwxODU5MSwxNDA5NCwxMzY0MiwzMjIzNCwxNDA5NSwxMzY0MywzMjIzNSwzMjIzNiwxMzY3MyxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open in Dofus Forge ↗</a></h3>
+        <table>
 <tr class="">
   <td><img class="icon" src="https://static.ankama.com/dofus/www/game/items/200/1235.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></td><td class="small muted">Amuleto</td>
   <td>Amuleto de estrígido </td>
@@ -595,7 +615,8 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
     <span class="fitness">2,112.5</span><span class="muted">fitness · Yaularco</span></summary>
   <div class="sol-body">
     <div class="stack">
-      <div class="card"><h3>Items</h3><table>
+      <div class="card"><h3>Items <a class="ext" href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxNDA5NCwxNTE5MCwyMTIyMywxNDA5NSwxNzU3OCwyNzY0NCwyMTIyNSwxMzY3MyxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open in Dofus Forge ↗</a></h3>
+        <table>
 <tr class="">
   <td><img class="icon" src="https://static.ankama.com/dofus/www/game/items/200/1235.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></td><td class="small muted">Amuleto</td>
   <td>Amuleto de estrígido </td>
@@ -713,7 +734,8 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
     <span class="fitness">2,096.6</span><span class="muted">fitness · Arco de Tentenhuevo</span></summary>
   <div class="sol-body">
     <div class="stack">
-      <div class="card"><h3>Items</h3><table>
+      <div class="card"><h3>Items <a class="ext" href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxMzY0MSwxODU5MSwxNDA5NCwxMzY0MiwzMjIzNCwxNDA5NSwxMzY0MywzMjIzNSwzMjIzNiwxMzY3MyxudWxsLDY5NCw3MzksNzc1NCwxODA0MywxMzc3OCwxMzgyNV19" target="_blank" rel="noopener">Open in Dofus Forge ↗</a></h3>
+        <table>
 <tr class="">
   <td><img class="icon" src="https://static.ankama.com/dofus/www/game/items/200/1235.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></td><td class="small muted">Amuleto</td>
   <td>Amuleto de estrígido </td>
@@ -831,7 +853,8 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
     <span class="fitness">2,077.8</span><span class="muted">fitness · Varita de Torkelonia</span></summary>
   <div class="sol-body">
     <div class="stack">
-      <div class="card"><h3>Items</h3><table>
+      <div class="card"><h3>Items <a class="ext" href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxMzY0MSwzMjIzNywxNDA5NCwxMzY0MiwzMjI0MCwxNDA5NSwxMzY0MywyMTIyOSwzMjIzOSwxMzQ2NSxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MjQsMTM4MjVdfQ" target="_blank" rel="noopener">Open in Dofus Forge ↗</a></h3>
+        <table>
 <tr class="">
   <td><img class="icon" src="https://static.ankama.com/dofus/www/game/items/200/1235.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></td><td class="small muted">Amuleto</td>
   <td>Amuleto de estrígido </td>
@@ -949,7 +972,8 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
     <span class="fitness">2,077.8</span><span class="muted">fitness · Varita de Torkelonia</span></summary>
   <div class="sol-body">
     <div class="stack">
-      <div class="card"><h3>Items</h3><table>
+      <div class="card"><h3>Items <a class="ext" href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxMzY0MSwzMjIzNywxNDA5NCwxMzY0MiwzMjI0MCwxNDA5NSwxMzY0MywyMTIyOSwzMjIzOSwxMzQ2NSxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MTksMTM4MjVdfQ" target="_blank" rel="noopener">Open in Dofus Forge ↗</a></h3>
+        <table>
 <tr class="">
   <td><img class="icon" src="https://static.ankama.com/dofus/www/game/items/200/1235.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></td><td class="small muted">Amuleto</td>
   <td>Amuleto de estrígido </td>
@@ -1067,7 +1091,8 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
     <span class="fitness">2,019.3</span><span class="muted">fitness · Arco de vueloceronte</span></summary>
   <div class="sol-body">
     <div class="stack">
-      <div class="card"><h3>Items</h3><table>
+      <div class="card"><h3>Items <a class="ext" href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxNTY5NCwxNzU4MCwxOTk4NCwxNTE5MCwyNDAzNSwxNTY5OSwxNzU3OCwxOTk4NiwxODcwMCwxMzY3MyxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open in Dofus Forge ↗</a></h3>
+        <table>
 <tr class="diff">
   <td><img class="icon" src="https://static.ankama.com/dofus/www/game/items/200/1305.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></td><td class="small muted">Amuleto</td>
   <td>Amuleto de vueloceronte <span class="badge warn">≠ best</span></td>
@@ -1185,7 +1210,8 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
     <span class="fitness">2,015.7</span><span class="muted">fitness · Varita de Torkelonia</span></summary>
   <div class="sol-body">
     <div class="stack">
-      <div class="card"><h3>Items</h3><table>
+      <div class="card"><h3>Items <a class="ext" href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxNDA5NCwxNTE5MCwyNDAzNSwxNDA5NSwxNzU3OCwyMTIyOSwxODcwMCwzMTg4NSxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open in Dofus Forge ↗</a></h3>
+        <table>
 <tr class="">
   <td><img class="icon" src="https://static.ankama.com/dofus/www/game/items/200/1235.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></td><td class="small muted">Amuleto</td>
   <td>Amuleto de estrígido </td>
@@ -1303,7 +1329,8 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
     <span class="fitness">2,013.6</span><span class="muted">fitness · Arco de Tentenhuevo</span></summary>
   <div class="sol-body">
     <div class="stack">
-      <div class="card"><h3>Items</h3><table>
+      <div class="card"><h3>Items <a class="ext" href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxMzY0MSwxODU5MSwxNDA5NCwxMzY0MiwzMjIzNCwxNDA5NSwxMzY0MywzMjIzNSwzMjIzNiwzMzE2NyxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open in Dofus Forge ↗</a></h3>
+        <table>
 <tr class="">
   <td><img class="icon" src="https://static.ankama.com/dofus/www/game/items/200/1235.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></td><td class="small muted">Amuleto</td>
   <td>Amuleto de estrígido </td>
@@ -1421,7 +1448,8 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
     <span class="fitness">2,012.5</span><span class="muted">fitness · Yaularco</span></summary>
   <div class="sol-body">
     <div class="stack">
-      <div class="card"><h3>Items</h3><table>
+      <div class="card"><h3>Items <a class="ext" href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxNDA5NCwxNTE5MCwyMTIyMywxNDA5NSwxNzU3OCwyNzY0NCwyMTIyNSwxMzY3MyxudWxsLDY5NCw3MzksNzc1NCwxODA0MywxMzc1MSwxMzgyNV19" target="_blank" rel="noopener">Open in Dofus Forge ↗</a></h3>
+        <table>
 <tr class="">
   <td><img class="icon" src="https://static.ankama.com/dofus/www/game/items/200/1235.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></td><td class="small muted">Amuleto</td>
   <td>Amuleto de estrígido </td>
@@ -1539,7 +1567,8 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
     <span class="fitness">2,011.9</span><span class="muted">fitness · Yaularco</span></summary>
   <div class="sol-body">
     <div class="stack">
-      <div class="card"><h3>Items</h3><table>
+      <div class="card"><h3>Items <a class="ext" href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxNDA5NCwxNTE5MCwyMTIyMywxNDA5NSwxNzU3OCwyNzY0NCwyMTIyNSwzMzAzMCxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open in Dofus Forge ↗</a></h3>
+        <table>
 <tr class="">
   <td><img class="icon" src="https://static.ankama.com/dofus/www/game/items/200/1235.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></td><td class="small muted">Amuleto</td>
   <td>Amuleto de estrígido </td>
@@ -1657,7 +1686,8 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
     <span class="fitness">2,004.7</span><span class="muted">fitness · Yaularco</span></summary>
   <div class="sol-body">
     <div class="stack">
-      <div class="card"><h3>Items</h3><table>
+      <div class="card"><h3>Items <a class="ext" href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxODAzMSwzMjIzNywxNDA5NCwxMTczOCwxMzY0MiwxNDA5NSwxODAzMCwyNzY0NCwzMjIzOSwzMTg4NSxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open in Dofus Forge ↗</a></h3>
+        <table>
 <tr class="">
   <td><img class="icon" src="https://static.ankama.com/dofus/www/game/items/200/1235.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></td><td class="small muted">Amuleto</td>
   <td>Amuleto de estrígido </td>
@@ -1775,7 +1805,8 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
     <span class="fitness">2,003.3</span><span class="muted">fitness · Arco de dantartánico</span></summary>
   <div class="sol-body">
     <div class="stack">
-      <div class="card"><h3>Items</h3><table>
+      <div class="card"><h3>Items <a class="ext" href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxMzY0MSwxMzY1NywxNDA5NCwxMzY0MiwyMTIyMywxNDA5NSwyMjE4NywzMzYwNywyMTIyNSwxMzY3MyxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MTYsMTM4MjVdfQ" target="_blank" rel="noopener">Open in Dofus Forge ↗</a></h3>
+        <table>
 <tr class="">
   <td><img class="icon" src="https://static.ankama.com/dofus/www/game/items/200/1235.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></td><td class="small muted">Amuleto</td>
   <td>Amuleto de estrígido </td>
@@ -1893,7 +1924,8 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
     <span class="fitness">2,003.3</span><span class="muted">fitness · Arco de dantartánico</span></summary>
   <div class="sol-body">
     <div class="stack">
-      <div class="card"><h3>Items</h3><table>
+      <div class="card"><h3>Items <a class="ext" href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxMzY0MSwxMzY1NywxNDA5NCwxMzY0MiwyMTIyMywxNDA5NSwyMjE4NywzMzYwNywyMTIyNSwxMzY3MyxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MjQsMTM4MjVdfQ" target="_blank" rel="noopener">Open in Dofus Forge ↗</a></h3>
+        <table>
 <tr class="">
   <td><img class="icon" src="https://static.ankama.com/dofus/www/game/items/200/1235.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></td><td class="small muted">Amuleto</td>
   <td>Amuleto de estrígido </td>
@@ -2011,7 +2043,8 @@ code.ids { display: block; white-space: pre-wrap; word-break: break-word; backgr
     <span class="fitness">2,003.3</span><span class="muted">fitness · Arco de dantartánico</span></summary>
   <div class="sol-body">
     <div class="stack">
-      <div class="card"><h3>Items</h3><table>
+      <div class="card"><h3>Items <a class="ext" href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTY2LDE2NiwxNjYsMTY2XSwicyI6NjAsImUiOlsxMzY0MSwxMzY1NywxNDA5NCwxMzY0MiwyMTIyMywxNDA5NSwyMjE4NywzMzYwNywyMTIyNSwxMzY3MyxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MTQsMTM4MjVdfQ" target="_blank" rel="noopener">Open in Dofus Forge ↗</a></h3>
+        <table>
 <tr class="">
   <td><img class="icon" src="https://static.ankama.com/dofus/www/game/items/200/1235.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'"></td><td class="small muted">Amuleto</td>
   <td>Amuleto de estrígido </td>

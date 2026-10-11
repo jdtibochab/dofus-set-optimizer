@@ -2,6 +2,8 @@
 import argparse
 from datetime import datetime
 
+from dofus_forge import CLASSES as DOFUS_FORGE_CLASSES
+
 
 elements = [
     36, # Agility,
@@ -151,6 +153,7 @@ def parse_args(configure_parser=None):
     parser.add_argument('--melee', action='store_true', help='Whether the character is melee', default=False)
     parser.add_argument('--ranged', action='store_true', help='Whether the character is ranged', default=False)
     parser.add_argument('--weapon-range', type=int, help='Minimum weapon range for the character', default=1)
+    parser.add_argument('--class', dest='character_class', type=str, help='Character class, used in Dofus Forge links', default=None, choices=DOFUS_FORGE_CLASSES)
     parser.add_argument('--level', type=int, help='Character level', default=200)
     parser.add_argument('--scrolled', action='store_true', help='Whether the character has scrolled items', default=False)
     parser.add_argument('--level-offset', type=int, help='Level offset for items', default=10)
@@ -248,6 +251,7 @@ def get_config_from_args(args):
             "reference": args.reference,  # Reference items
         },
         "character": {
+            "class": args.character_class,
             "level": args.level,
             "scrolled": args.scrolled,
             "exo": _parse_lst_to_dict(args.exo),

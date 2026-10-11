@@ -162,24 +162,21 @@ class Optimizer:
             item_min_range = item.get("minRange", item['range'])
             item_max_range = item['range']
 
-            passed = True
-            if ranged and isinstance(ranged,int) and item_max_range < ranged:
-                # User specified minimum range on weapon
-                passed = False
+            if not melee and not ranged:
+                # No weapon preference, any weapon is allowed
+                return True
 
-            if melee and item_min_range > 1:
-                # Skip weapons with minimum range greater than 1
-                passed = False
+            # Melee weapons can hit adjacent cells
+            melee_ok = bool(melee) and item_min_range <= 1
 
-            if not ranged and item_min_range > 1:
-                # Skip ranged weapons
-                passed = False
-            
-            if not melee and item_max_range <=1:
-                # Skip melee weapons
-                passed = False
+            # Ranged weapons reach beyond 1 cell, and at least the user's
+            # minimum weapon range when one is given
+            min_reach = 2
+            if ranged and not isinstance(ranged, bool) and isinstance(ranged, int):
+                min_reach = max(min_reach, ranged)
+            ranged_ok = bool(ranged) and item_max_range >= min_reach
 
-            if not passed:
+            if not (melee_ok or ranged_ok):
                 return False
         # If the item passed all checks, it is considered valid
         return True

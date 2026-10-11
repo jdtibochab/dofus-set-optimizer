@@ -110,8 +110,8 @@ What each objective scores:
 | `--scrolled` | off | Add +100 to every characteristic. |
 | `--exo KEY:VALUE ...` | none | Exo bonuses, e.g. `ap:1 mp:1 range:1 vit:200`. |
 | `--distributed-points KEY:VALUE ...` | auto | Characteristic points to invest per stat (soft caps applied), e.g. `vit:995`. |
-| `--melee` / `--ranged` | off | Allow melee and/or ranged weapons. |
-| `--weapon-range` | `1` | Minimum max-range of the weapon when `--ranged` is set. |
+| `--melee` / `--ranged` | off | Allow melee weapons (minimum range ≤ 1) and/or ranged weapons (reach beyond 1 cell). With both, either kind is allowed; with neither, any weapon is. |
+| `--weapon-range` | `1` | Minimum max-range for ranged weapons when `--ranged` is set (melee weapons allowed by `--melee` are not affected). |
 
 Keys accepted by `--exo` and `--distributed-points`: `agi`, `cha`, `int`, `str`, `vit`, `wis`, `ap`, `mp`, `range`, `crit`, `pow`, `initiative`, `lock`, `dodge`, `push`, `heals`, `res_neutral`, `res_fire`, `res_air`, `res_water`, `res_earth`.
 
@@ -157,10 +157,17 @@ Each run writes to `--path`:
 | File | Content |
 | --- | --- |
 | `config.json` | Full resolved configuration. |
+| `report.html` | Self-contained page summarizing the run: objective and requirements, a table of all candidate sets (status, fitness, objective scores, weapon, set bonuses, targets met, items that differ from the best set), a met/missed matrix of every target per set, and per-set details (items with icons, set bonuses, damage and healing, characteristics, key stats, any problems). Open it in a browser. |
 | `report.txt` | One block per candidate set: fitness, weapon, spell and push damage, healing, targeted stats, characteristics, item list (type, name, level, ID), any penalties, and the chromosome as a list of IDs. |
 | `summary.csv` | All stat totals side by side, one column per candidate — handy for comparing sets in a spreadsheet. |
 | `pca.png` | PCA of the candidates' stat totals, colored by fitness, with the top stat loadings drawn as arrows. Shows how different the good sets are from each other. |
 | `generations.png` | Best fitness per generation for each island, to check convergence. |
+
+To build `report.html` for runs made before this existed, or to compare a whole Maestro study, pass run directories or a study directory. A study gets an extra `index.html` listing every run's best set:
+
+```bash
+python scripts/html_report.py workflows/report-cra_20261008-175406
+```
 
 Item and stat names are reported in the language chosen with `--language` (English by default).
 

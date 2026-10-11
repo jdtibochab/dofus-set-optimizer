@@ -398,9 +398,18 @@ class Chromosome(object):
         """
         Get the fitness of the chromosome based on the objectives.
         The fitness is the sum of the scores of every objective in the list
-        ("weapon", "elements", "steal", "push"), penalized once at the end.
+        ("weapon", "elements", "steal", "push", "heals"), penalized once at the end.
         """
-        fitness = 0
+        scores = self.get_objective_scores()
+        if scores is NotImplemented:
+            return NotImplemented
+        return self.penalize(sum(scores.values()))
+
+    def get_objective_scores(self):
+        """
+        Get the unpenalized score of every objective, keyed by objective.
+        """
+        scores = {}
         for objective in self.objective:
             # Accumulate fitness for each objective
             if objective in ["weapon", "elements", "steal"]:
@@ -419,9 +428,9 @@ class Chromosome(object):
             else:
                 return NotImplemented
 
-            # Add the fitness contribution of the current objective to the total fitness
-            fitness += _fitness
-        return self.penalize(fitness)
+            # Store the contribution of the current objective to the total fitness
+            scores[objective] = _fitness
+        return scores
     
     def totals_summary(self):
         """

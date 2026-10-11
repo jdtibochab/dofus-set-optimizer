@@ -10,6 +10,7 @@ from analysis import Analyzer
 from character import Character
 from chromosome import Chromosome
 from data import item_sets, items
+from html_report import write_html_report
 from optimizer import Optimizer
 from utils import get_config_from_args, get_item_set, parse_args
 
@@ -86,6 +87,10 @@ def main():
     # Plot generations
     analyzer.report_generations()
     plt.savefig(f'{config['optimizer']['path']}/generations.png')
+
+    # HTML report (after the plots, which it embeds)
+    write_html_report(opt, analyzer.candidates,
+                      has_reference=bool(config['optimizer'].get('reference')))
 
     print(f"[CHECKPOINT] Finished at {datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}")
 

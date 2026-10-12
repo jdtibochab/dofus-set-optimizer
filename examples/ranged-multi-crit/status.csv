@@ -1,0 +1,2 @@
+Step Name,Job ID,Workspace,State,Run Time,Elapsed Time,Start Time,Submit Time,End Time,Number Restarts,Params
+run_optimization_ELE.agi int str cha.MP.5.OBJ.elements,99238,run_optimization/ELE.agi_int_str_cha.MP.5.OBJ.elements,FINISHED,0d:00h:03m:47s,0d:00h:03m:47s,2026-10-11 16:47:29,2026-10-11 16:47:29,2026-10-11 16:51:16,0,ELEMENTS:agi int str cha;MP:5;OBJECTIVE:elements

@@ -18,7 +18,7 @@ flags=(
   "--res-earth" "20"
   "--crit" "0"
   "--range" "0"
-  "--path" "/Users/jdtibochab/other/dofus-set-optimizer/main/workflows/report-sacri-tank_20261011-170816/run_optimization"
+  "--path" "/Users/jdtibochab/other/dofus-set-optimizer/main/workflows/report-sacri-tank_20261013-170018/run_optimization"
   "--islands" "16"
   "--max-workers" "8"
   "--language" "es"

@@ -170,7 +170,7 @@ class _Context:
 
     def objective_label(self, objective):
         label = _OBJECTIVE_LABELS.get(objective, self.stat_label(objective) if isinstance(objective, int) else str(objective))
-        if objective == "weapon" and self.config.get("normalize_by_apcost", True):
+        if objective in ("weapon", "steal") and self.config.get("normalize_by_apcost", True):
             label += " / AP"
         return label
 

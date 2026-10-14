@@ -414,7 +414,7 @@ class Chromosome(object):
             # Accumulate fitness for each objective
             if objective in ["weapon", "elements", "steal"]:
                 _fitness = self.get_final_damage(type=objective)
-                if objective == "weapon" and self.optimizer.config.get("normalize_by_apcost", True):
+                if objective in ["weapon", "steal"] and self.optimizer.config.get("normalize_by_apcost", True):
                     # Normalize by AP cost
                     ap_cost = self.weapon["apCost"]
                     _fitness /= ap_cost

@@ -89,7 +89,7 @@ python scripts/main.py \
 | Flag | Default | Description |
 | --- | --- | --- |
 | `--objective` | `weapon` | One or more of `weapon`, `elements`, `steal`, `push`, `heals`. With several (e.g. `--objective elements push`), their scores are added together before penalties are applied. Scores are not rescaled, so damage objectives (typically 1000+) outweigh push and heals (typically a few hundred). |
-| `--normalize-by-apcost` | off | Divide weapon damage by weapon AP cost. |
+| `--normalize-by-apcost` | off | Divide the `weapon` and `steal` scores by the weapon's AP cost. |
 
 What each objective scores:
 
@@ -97,7 +97,7 @@ What each objective scores:
 | --- | --- |
 | `weapon` | Expected weapon hit damage across the selected elements (crit-weighted when `--crit` is set); divided by AP cost with `--normalize-by-apcost`. |
 | `elements` | Expected damage of a generic 20-base-damage spell in each selected element. |
-| `steal` | Like `weapon`, counting only the weapon's life-steal lines. |
+| `steal` | Like `weapon`, counting only the weapon's life-steal lines; also divided by AP cost with `--normalize-by-apcost`. |
 | `push` | Push damage of a 2-cell push: `(level / 2 + push damage bonus + 32) × 2`. |
 | `heals` | Healing of a reference 15-base heal: `15 × (1 + Intelligence / 100) + Heals bonus`. Use `--elements int` so characteristic points go to Intelligence. |
 

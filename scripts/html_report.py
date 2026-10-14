@@ -44,6 +44,7 @@ _CSS = """
   --muted: #68685f; --border: #e2e2dc; --accent: #3451b2; --accent-bg: #e8ecfa;
   --ok: #217a3c; --ok-bg: #e3f3e8; --warn: #9a5800; --warn-bg: #fdf0dc;
   --bad: #b42323; --bad-bg: #fbe7e7;
+  --z-hi: #2a78d6; --z-lo: #e34948;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -51,6 +52,7 @@ _CSS = """
     --muted: #a0a097; --border: #34342f; --accent: #8fa6ff; --accent-bg: #232a45;
     --ok: #6fcf8d; --ok-bg: #18301f; --warn: #f0b45c; --warn-bg: #352812;
     --bad: #f28b8b; --bad-bg: #3a1c1c;
+    --z-hi: #3987e5; --z-lo: #e66767;
   }
 }
 * { box-sizing: border-box; }
@@ -97,6 +99,16 @@ th.stat-name { background: var(--surface-2); }
 td.ok { color: var(--ok); background: var(--ok-bg); }
 td.bad { color: var(--bad); background: var(--bad-bg); font-weight: 600; }
 td.top { font-weight: 700; }
+td.z-hi-1 { background: color-mix(in srgb, var(--z-hi) 14%, transparent); }
+td.z-hi-2 { background: color-mix(in srgb, var(--z-hi) 30%, transparent); }
+td.z-hi-3 { background: color-mix(in srgb, var(--z-hi) 50%, transparent); }
+td.z-lo-1 { background: color-mix(in srgb, var(--z-lo) 14%, transparent); }
+td.z-lo-2 { background: color-mix(in srgb, var(--z-lo) 30%, transparent); }
+td.z-lo-3 { background: color-mix(in srgb, var(--z-lo) 50%, transparent); }
+.miss { color: var(--bad); font-weight: 700; }
+.pass { color: var(--muted); }
+.z-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; margin: 0 0 10px; }
+.z-legend .swatch { display: inline-block; width: 22px; height: 14px; border-radius: 3px; vertical-align: -2px; margin-right: 4px; border: 1px solid var(--border); }
 tr.objective td.stat-name, tr.objective td.top { color: var(--accent); }
 tr.objective td.stat-name { font-weight: 600; }
 tr.group-end td { border-bottom: 2px solid var(--muted); }
@@ -385,15 +397,42 @@ openTarget();
 </script>"""
 
 
+def _z_scores(values, higher_is_better=True):
+    """Signed z-score of each value within its row, positive meaning better; None when the row doesn't vary."""
+    nums = [v for v in values if v is not None]
+    if len(nums) < 2:
+        return [None] * len(values)
+    mean = sum(nums) / len(nums)
+    std = (sum((v - mean) ** 2 for v in nums) / len(nums)) ** 0.5
+    if not std:
+        return [None] * len(values)
+    sign = 1 if higher_is_better else -1
+    return [None if v is None else sign * (v - mean) / std for v in values]
+
+
+def _z_class(z):
+    # Three equal steps per arm; |z| < 0.5 stays neutral
+    if z is None or abs(z) < 0.5:
+        return ""
+    step = 3 if abs(z) >= 2 else 2 if abs(z) >= 1 else 1
+    return f" z-{'hi' if z > 0 else 'lo'}-{step}"
+
+
+def _z_title(z):
+    return "" if z is None else f"z = {z:+.2f}"
+
+
 def _render_requirements_matrix(data, ctx, has_reference):
     heads = "".join(f'<th class="num"><a href="#sol-{i}">{_label(i, has_reference)}</a></th>' for i in range(len(data)))
     rows = []
 
-    # Damage and healing: no target, so the highest value of each row is bolded instead
+    # Damage and healing have no target: higher is better, and the highest value is bolded
     for m_idx, (label, _, key) in enumerate(data[0]["metrics"]):
         values = [d["metrics"][m_idx][1] for d in data]
-        top = max(values)
-        cells = "".join(f'<td class="num{" top" if v == top and top else ""}">{_fmt(v)}</td>' for v in values)
+        top = max(v for v in values if v is not None) if any(v is not None for v in values) else None
+        cells = "".join(
+            f'<td class="num{" top" if v == top and top else ""}{_z_class(z)}" title="{_z_title(z)}">{_fmt(v)}</td>'
+            for v, z in zip(values, _z_scores(values)))
         objective = " objective" if key in ctx.objectives else ""
         rows.append(f'<tr class="metric{objective}"><td class="stat-name">{_esc(label)}</td>'
                     f'<td class="num muted">—</td>{cells}</tr>')
@@ -402,17 +441,29 @@ def _render_requirements_matrix(data, ctx, has_reference):
     rows.append(f'<tr class="metric group-end"><td class="stat-name">Weapon AP / casts</td>'
                 f'<td class="num muted">—</td>{cells}</tr>')
 
+    # Requirements: colored by z-score in the direction of the bound, with ✓/✗ for the target
     for r_idx, (bound, stat, target) in enumerate(ctx.requirements):
+        reqs = [d["requirements"][r_idx] for d in data]
+        z_scores = _z_scores([r["actual"] for r in reqs], higher_is_better=bound == "lower")
         cells = []
-        for d in data:
-            r = d["requirements"][r_idx]
-            mark = "✓" if r["met"] else "✗"
-            cells.append(f'<td class="num {"ok" if r["met"] else "bad"}" title="{_esc(_signed(r["actual"] - target))} vs target">'
-                         f'{mark} {_fmt(r["actual"])}</td>')
+        for r, z in zip(reqs, z_scores):
+            mark = '<span class="pass">✓</span>' if r["met"] else '<span class="miss">✗</span>'
+            title = f'{_signed(r["actual"] - target)} vs target' + (f' · {_z_title(z)}' if z is not None else "")
+            cells.append(f'<td class="num{_z_class(z)}" title="{_esc(title)}">{mark} {_fmt(r["actual"])}</td>')
         rows.append(f"<tr><td class=\"stat-name\">{_esc(ctx.stat_label(stat))}</td>"
                     f"<td class=\"num muted\">{'≥' if bound == 'lower' else '≤'} {_fmt(target)}</td>{''.join(cells)}</tr>")
+    legend = (
+        '<div class="z-legend small muted">'
+        '<span>Cell color compares each value with the other sets in its row (z-score):</span>'
+        '<span><span class="swatch" style="background: color-mix(in srgb, var(--z-hi) 50%, transparent)"></span>'
+        'better than average</span>'
+        '<span><span class="swatch" style="background: color-mix(in srgb, var(--z-lo) 50%, transparent)"></span>'
+        'worse than average</span>'
+        '<span>darker = further from average (0.5, 1 and 2 standard deviations) · '
+        '<span class="miss">✗</span> target missed · hover a cell for its z-score</span></div>')
     return f"""
 <h2 id="by-solution">Damage and requirements by solution</h2>
+{legend}
 <div class="scroll"><table>
   <thead><tr><th class="stat-name">Stat</th><th class="num">Target</th>{heads}</tr></thead>
   <tbody>{"".join(rows)}</tbody>

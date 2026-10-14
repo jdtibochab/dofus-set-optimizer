@@ -158,7 +158,7 @@ Each run writes to `--path`:
 | File | Content |
 | --- | --- |
 | `config.json` | Full resolved configuration. |
-| `report.html` | Self-contained page summarizing the run: objective and requirements, a list of all candidate sets with one row each (status, fitness, objective scores, weapon, set bonuses, targets met, items that differ from the best set, Dofus Forge link) that expands to show the set's details (items with icons, set bonuses, damage and healing, characteristics, key stats, any problems), and a table comparing every set's damage, healing and met/missed targets side by side. Open it in a browser. |
+| `report.html` | Self-contained page summarizing the run: objective and requirements, a list of all candidate sets with one row each (status, fitness, objective scores, weapon, set bonuses, targets met, items that differ from the best set, Dofus Forge link) that expands to show the set's details (items with icons, set bonuses, damage and healing, characteristics, key stats, any problems), and a table comparing every set's damage, healing and met/missed targets side by side, with each cell colored by how far it sits above or below the other sets in its row (z-score). Open it in a browser. |
 | `report.txt` | One block per candidate set: fitness, weapon, spell and push damage, healing, targeted stats, characteristics, item list (type, name, level, ID), any penalties, the chromosome as a list of IDs, and a Dofus Forge link. |
 | `summary.csv` | All stat totals side by side, one column per candidate — handy for comparing sets in a spreadsheet. |
 | `pca.png` | PCA of the candidates' stat totals, colored by fitness, with the top stat loadings drawn as arrows. Shows how different the good sets are from each other. |

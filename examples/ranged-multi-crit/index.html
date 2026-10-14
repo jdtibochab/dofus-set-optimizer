@@ -10,6 +10,7 @@
   --muted: #68685f; --border: #e2e2dc; --accent: #3451b2; --accent-bg: #e8ecfa;
   --ok: #217a3c; --ok-bg: #e3f3e8; --warn: #9a5800; --warn-bg: #fdf0dc;
   --bad: #b42323; --bad-bg: #fbe7e7;
+  --z-hi: #2a78d6; --z-lo: #e34948;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -17,6 +18,7 @@
     --muted: #a0a097; --border: #34342f; --accent: #8fa6ff; --accent-bg: #232a45;
     --ok: #6fcf8d; --ok-bg: #18301f; --warn: #f0b45c; --warn-bg: #352812;
     --bad: #f28b8b; --bad-bg: #3a1c1c;
+    --z-hi: #3987e5; --z-lo: #e66767;
   }
 }
 * { box-sizing: border-box; }
@@ -63,6 +65,16 @@ th.stat-name { background: var(--surface-2); }
 td.ok { color: var(--ok); background: var(--ok-bg); }
 td.bad { color: var(--bad); background: var(--bad-bg); font-weight: 600; }
 td.top { font-weight: 700; }
+td.z-hi-1 { background: color-mix(in srgb, var(--z-hi) 14%, transparent); }
+td.z-hi-2 { background: color-mix(in srgb, var(--z-hi) 30%, transparent); }
+td.z-hi-3 { background: color-mix(in srgb, var(--z-hi) 50%, transparent); }
+td.z-lo-1 { background: color-mix(in srgb, var(--z-lo) 14%, transparent); }
+td.z-lo-2 { background: color-mix(in srgb, var(--z-lo) 30%, transparent); }
+td.z-lo-3 { background: color-mix(in srgb, var(--z-lo) 50%, transparent); }
+.miss { color: var(--bad); font-weight: 700; }
+.pass { color: var(--muted); }
+.z-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; margin: 0 0 10px; }
+.z-legend .swatch { display: inline-block; width: 22px; height: 14px; border-radius: 3px; vertical-align: -2px; margin-right: 4px; border: 1px solid var(--border); }
 tr.objective td.stat-name, tr.objective td.top { color: var(--accent); }
 tr.objective td.stat-name { font-weight: 600; }
 tr.group-end td { border-bottom: 2px solid var(--muted); }
@@ -115,7 +127,7 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </style>
 </head>
 <body><main>
-<header><h1>ranged-multi-crit</h1><div class="muted small">1 run · generated 2026-10-13 20:50</div></header>
+<header><h1>ranged-multi-crit</h1><div class="muted small">1 run · generated 2026-10-13 20:54</div></header>
 <h2>Runs</h2>
 <div class="scroll"><table>
 <thead><tr><th>Run</th><th>Objective</th><th>Elements</th><th class="num">Best fitness</th><th>Best status</th>

@@ -73,6 +73,8 @@ tr.group-end td { border-bottom: 2px solid var(--muted); }
   padding: 8px 14px; border-bottom: 1px solid var(--border);
 }
 .sol-row > .num { text-align: right; font-variant-numeric: tabular-nums; }
+.sol-row > .met-ok { color: var(--ok); font-weight: 600; }
+.sol-row > .met-bad { color: var(--bad); font-weight: 600; }
 .sol-head { font-size: 12px; color: var(--muted); font-weight: 600; background: var(--surface-2); }
 details.solution:last-child > summary { border-bottom: none; }
 details.solution > summary { list-style: none; cursor: pointer; }
@@ -115,7 +117,7 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 <body><main>
 <header>
   <h1>run_optimization</h1>
-  <div class="muted small">examples/tank-agi/run_optimization · generated 2026-10-13 20:46</div>
+  <div class="muted small">examples/tank-agi/run_optimization · generated 2026-10-13 20:50</div>
   <div class="chips"><span class="chip accent">Maximize: Steal damage / AP</span><span class="chip">Sacrier</span><span class="chip">Level 200</span><span class="chip">Elements: agilidad</span><span class="chip">Weapon: melee</span><span class="chip">Scrolled</span><span class="chip">Exos: PA +1, PM +1, vitalidad +200</span><span class="chip">162 candidate sets</span></div>
 </header>
 <h2>Setup</h2>
@@ -137,11 +139,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
   
 <details class="solution" id="sol-0">
   <summary class="sol-row">
-    <span class="sol-label">Reference</span><span><span class="badge ok">All targets met</span> <span class="badge ref">Reference</span></span>
+    <span class="sol-label">Reference</span><span> <span class="badge ref">Reference</span></span>
     <span class="num fitness" data-label="Fitness">170.1</span><span class="num" data-label="Steal damage / AP">170.1</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">2/3</span>, Set de la sota afortunada <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTc1ODEsMTMxMjQsMTc1ODIsMjAzNjYsMTU2OTIsMjQwMzQsMjUyMjAsMzMxNjYsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEyNzE0LDEzNzY1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -263,11 +265,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution is-best" id="sol-1" open>
   <summary class="sol-row">
-    <span class="sol-label">#1</span><span><span class="badge ok">All targets met</span> <span class="badge best">Best</span></span>
+    <span class="sol-label">#1</span><span> <span class="badge best">Best</span></span>
     <span class="num fitness" data-label="Fitness">175.1</span><span class="num" data-label="Steal damage / AP">175.1</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de la sota afortunada <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">—</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjAzNjAsMjUyMjEsMTc1ODEsMTMxMjQsMTc1ODIsMjAzNjYsMTgwMDcsMjQwMzQsMzIyMzYsMzMwMDMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjgsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -389,11 +391,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-2">
   <summary class="sol-row">
-    <span class="sol-label">#2</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#2</span><span></span>
     <span class="num fitness" data-label="Fitness">174.9</span><span class="num" data-label="Steal damage / AP">174.9</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de la sota afortunada <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">2</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjAzNjAsMjUyMjEsMTc1ODEsMTIxMTMsMTc1ODIsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMwMDMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjgsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -515,11 +517,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-3">
   <summary class="sol-row">
-    <span class="sol-label">#3</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#3</span><span></span>
     <span class="num fitness" data-label="Fitness">174.3</span><span class="num" data-label="Steal damage / AP">174.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTE3MzgsMTIxMTMsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMTE5NjYsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -641,11 +643,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-4">
   <summary class="sol-row">
-    <span class="sol-label">#4</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#4</span><span></span>
     <span class="num fitness" data-label="Fitness">174.3</span><span class="num" data-label="Steal damage / AP">174.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTE3MzgsMTIxMTMsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMTE5NjYsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjgsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -767,11 +769,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-5">
   <summary class="sol-row">
-    <span class="sol-label">#5</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#5</span><span></span>
     <span class="num fitness" data-label="Fitness">173.7</span><span class="num" data-label="Steal damage / AP">173.7</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTE3MzgsMTIxMTMsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMTQ4MzMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjgsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -893,11 +895,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-6">
   <summary class="sol-row">
-    <span class="sol-label">#6</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#6</span><span></span>
     <span class="num fitness" data-label="Fitness">173.3</span><span class="num" data-label="Steal damage / AP">173.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTE3MzgsMjYwMDcsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMTQ4MzMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjgsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -1019,11 +1021,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-7">
   <summary class="sol-row">
-    <span class="sol-label">#7</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#7</span><span></span>
     <span class="num fitness" data-label="Fitness">172.5</span><span class="num" data-label="Steal damage / AP">172.5</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de la sota afortunada <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">2</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjAzNjAsMjUyMjEsMTc1ODEsMTMxMjQsMTc1ODIsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMwMDMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjMsMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -1145,11 +1147,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-8">
   <summary class="sol-row">
-    <span class="sol-label">#8</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#8</span><span></span>
     <span class="num fitness" data-label="Fitness">172.4</span><span class="num" data-label="Steal damage / AP">172.4</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de la sota afortunada <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">2</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjAzNjAsMjUyMjEsMTc1ODEsMTMxMjQsMTc1ODIsMjAzNjYsMTgwMjAsMjQwMzQsMzIyNDUsMzMwMDMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjgsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -1271,11 +1273,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-9">
   <summary class="sol-row">
-    <span class="sol-label">#9</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#9</span><span></span>
     <span class="num fitness" data-label="Fitness">172.3</span><span class="num" data-label="Steal damage / AP">172.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMxNjYsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -1397,11 +1399,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-10">
   <summary class="sol-row">
-    <span class="sol-label">#10</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#10</span><span></span>
     <span class="num fitness" data-label="Fitness">172.3</span><span class="num" data-label="Steal damage / AP">172.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMxNjYsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -1523,11 +1525,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-11">
   <summary class="sol-row">
-    <span class="sol-label">#11</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#11</span><span></span>
     <span class="num fitness" data-label="Fitness">172.3</span><span class="num" data-label="Steal damage / AP">172.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">6</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMxNjYsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjgsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -1649,11 +1651,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-12">
   <summary class="sol-row">
-    <span class="sol-label">#12</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#12</span><span></span>
     <span class="num fitness" data-label="Fitness">172.3</span><span class="num" data-label="Steal damage / AP">172.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMxNjYsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -1775,11 +1777,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-13">
   <summary class="sol-row">
-    <span class="sol-label">#13</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#13</span><span></span>
     <span class="num fitness" data-label="Fitness">172.3</span><span class="num" data-label="Steal damage / AP">172.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMxNjYsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -1901,11 +1903,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-14">
   <summary class="sol-row">
-    <span class="sol-label">#14</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#14</span><span></span>
     <span class="num fitness" data-label="Fitness">172.3</span><span class="num" data-label="Steal damage / AP">172.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMxNjYsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -2027,11 +2029,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-15">
   <summary class="sol-row">
-    <span class="sol-label">#15</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#15</span><span></span>
     <span class="num fitness" data-label="Fitness">172.0</span><span class="num" data-label="Steal damage / AP">172.0</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTE3MzgsMTIxMTMsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMTQ4MzMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjQsMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -2153,11 +2155,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-16">
   <summary class="sol-row">
-    <span class="sol-label">#16</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#16</span><span></span>
     <span class="num fitness" data-label="Fitness">171.6</span><span class="num" data-label="Steal damage / AP">171.6</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTE3MzgsMjYwMDcsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMTQ4MzMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjQsMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -2279,11 +2281,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-17">
   <summary class="sol-row">
-    <span class="sol-label">#17</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#17</span><span></span>
     <span class="num fitness" data-label="Fitness">171.4</span><span class="num" data-label="Steal damage / AP">171.4</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Psikopomzopato <span class="muted">2/3</span>, Set de la sota afortunada <span class="muted">2/3</span>, Set de luchador de presinkach <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjAzNjAsMTc1ODMsMTc1ODEsMTU0NDAsMzIyNDMsMjAzNjYsMTU0NDEsMjQwMzQsMzIyNDUsMzMxODgsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDEzODI4XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -2405,11 +2407,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-18">
   <summary class="sol-row">
-    <span class="sol-label">#18</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#18</span><span></span>
     <span class="num fitness" data-label="Fitness">171.3</span><span class="num" data-label="Steal damage / AP">171.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTMxMjQsMTgwMzcsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMyMjcsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -2531,11 +2533,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-19">
   <summary class="sol-row">
-    <span class="sol-label">#19</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#19</span><span></span>
     <span class="num fitness" data-label="Fitness">171.2</span><span class="num" data-label="Steal damage / AP">171.2</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTkyNjIsMjUyMjEsMTQwOTEsMTQwOTIsMTgwMzcsMjAzNjYsMTMxMjUsMjQwMzQsMTg3MTgsMTE5NjYsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -2657,11 +2659,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-20">
   <summary class="sol-row">
-    <span class="sol-label">#20</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#20</span><span></span>
     <span class="num fitness" data-label="Fitness">171.1</span><span class="num" data-label="Steal damage / AP">171.1</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTc1ODIsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMxNjYsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -2783,11 +2785,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-21">
   <summary class="sol-row">
-    <span class="sol-label">#21</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#21</span><span></span>
     <span class="num fitness" data-label="Fitness">170.9</span><span class="num" data-label="Steal damage / AP">170.9</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de la sota afortunada <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">2</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjAzNjAsMjUyMjEsMTc1ODEsMTMxMjQsMTc1ODIsMjAzNjYsMTU0MzcsMjQwMzQsMzIyNDUsMzMwMDMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjgsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -2909,11 +2911,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-22">
   <summary class="sol-row">
-    <span class="sol-label">#22</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#22</span><span></span>
     <span class="num fitness" data-label="Fitness">170.7</span><span class="num" data-label="Steal damage / AP">170.7</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMxNjYsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDQsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -3035,11 +3037,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-23">
   <summary class="sol-row">
-    <span class="sol-label">#23</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#23</span><span></span>
     <span class="num fitness" data-label="Fitness">170.7</span><span class="num" data-label="Steal damage / AP">170.7</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMxMzYsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -3161,11 +3163,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-24">
   <summary class="sol-row">
-    <span class="sol-label">#24</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#24</span><span></span>
     <span class="num fitness" data-label="Fitness">170.7</span><span class="num" data-label="Steal damage / AP">170.7</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMyMTcsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -3287,11 +3289,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-25">
   <summary class="sol-row">
-    <span class="sol-label">#25</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#25</span><span></span>
     <span class="num fitness" data-label="Fitness">170.7</span><span class="num" data-label="Steal damage / AP">170.7</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMyNDEsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -3413,11 +3415,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-26">
   <summary class="sol-row">
-    <span class="sol-label">#26</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#26</span><span></span>
     <span class="num fitness" data-label="Fitness">170.7</span><span class="num" data-label="Steal damage / AP">170.7</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMyNTEsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -3539,11 +3541,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-27">
   <summary class="sol-row">
-    <span class="sol-label">#27</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#27</span><span></span>
     <span class="num fitness" data-label="Fitness">170.7</span><span class="num" data-label="Steal damage / AP">170.7</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">6</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMyMDAsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjgsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -3665,11 +3667,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-28">
   <summary class="sol-row">
-    <span class="sol-label">#28</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#28</span><span></span>
     <span class="num fitness" data-label="Fitness">170.7</span><span class="num" data-label="Steal damage / AP">170.7</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMyMDAsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -3791,11 +3793,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-29">
   <summary class="sol-row">
-    <span class="sol-label">#29</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#29</span><span></span>
     <span class="num fitness" data-label="Fitness">170.7</span><span class="num" data-label="Steal damage / AP">170.7</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">6</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMxNDYsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjgsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -3917,11 +3919,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-30">
   <summary class="sol-row">
-    <span class="sol-label">#30</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#30</span><span></span>
     <span class="num fitness" data-label="Fitness">170.7</span><span class="num" data-label="Steal damage / AP">170.7</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMxNDYsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -4043,11 +4045,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-31">
   <summary class="sol-row">
-    <span class="sol-label">#31</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#31</span><span></span>
     <span class="num fitness" data-label="Fitness">170.7</span><span class="num" data-label="Steal damage / AP">170.7</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMxNDYsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -4169,11 +4171,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-32">
   <summary class="sol-row">
-    <span class="sol-label">#32</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#32</span><span></span>
     <span class="num fitness" data-label="Fitness">170.7</span><span class="num" data-label="Steal damage / AP">170.7</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">6</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMxNzksbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjgsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -4295,11 +4297,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-33">
   <summary class="sol-row">
-    <span class="sol-label">#33</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#33</span><span></span>
     <span class="num fitness" data-label="Fitness">170.7</span><span class="num" data-label="Steal damage / AP">170.7</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMxNzcsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -4421,11 +4423,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-34">
   <summary class="sol-row">
-    <span class="sol-label">#34</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#34</span><span></span>
     <span class="num fitness" data-label="Fitness">170.7</span><span class="num" data-label="Steal damage / AP">170.7</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMxNzksbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -4547,11 +4549,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-35">
   <summary class="sol-row">
-    <span class="sol-label">#35</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#35</span><span></span>
     <span class="num fitness" data-label="Fitness">170.6</span><span class="num" data-label="Steal damage / AP">170.6</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMxNjYsbnVsbCw3MDQzLDcxMTUsNzc1NCwxODA0MywxMzc2NSwxNjI0NV19" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -4673,11 +4675,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-36">
   <summary class="sol-row">
-    <span class="sol-label">#36</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#36</span><span></span>
     <span class="num fitness" data-label="Fitness">170.5</span><span class="num" data-label="Steal damage / AP">170.5</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTkyNjIsMjUyMjEsMTQwOTEsMTQwOTIsMTgwMzcsMjAzNjYsMTMxMjUsMjQwMzQsMTg3MTgsMTQ4MzMsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -4799,11 +4801,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-37">
   <summary class="sol-row">
-    <span class="sol-label">#37</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#37</span><span></span>
     <span class="num fitness" data-label="Fitness">170.0</span><span class="num" data-label="Steal damage / AP">170.0</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">2/4</span>, Set de la sota afortunada <span class="muted">2/3</span>, Set del precipicio <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">5</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjAzNjAsMTgwMDgsMTc1ODEsMTQwOTIsMTc1ODIsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsMzMyMDMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MDcsMTM4MjhdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -4925,11 +4927,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-38">
   <summary class="sol-row">
-    <span class="sol-label">#38</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#38</span><span></span>
     <span class="num fitness" data-label="Fitness">170.0</span><span class="num" data-label="Steal damage / AP">170.0</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">2/4</span>, Set de la sota afortunada <span class="muted">2/3</span>, Set del precipicio <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">5</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjAzNjAsMTgwMDgsMTc1ODEsMTQwOTIsMTc1ODIsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsMzMyMDMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMjYwNjYsMTM3NjUsMTM4MjhdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -5051,11 +5053,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-39">
   <summary class="sol-row">
-    <span class="sol-label">#39</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#39</span><span></span>
     <span class="num fitness" data-label="Fitness">169.8</span><span class="num" data-label="Steal damage / AP">169.8</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Psikopomzopato <span class="muted">2/3</span>, Set de la sota afortunada <span class="muted">2/3</span>, Set de luchador de presinkach <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjAzNjAsMTc1ODMsMTc1ODEsMTU0NDAsMzIyNDMsMjAzNjYsMTU0NDEsMjQwMzQsMzIyNDUsMzMxODgsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTI3MTQsMTM3NjUsMTM4MjhdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -5177,11 +5179,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-40">
   <summary class="sol-row">
-    <span class="sol-label">#40</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#40</span><span></span>
     <span class="num fitness" data-label="Fitness">169.7</span><span class="num" data-label="Steal damage / AP">169.7</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMjUyMTUsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMxNjYsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -5303,11 +5305,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-41">
   <summary class="sol-row">
-    <span class="sol-label">#41</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#41</span><span></span>
     <span class="num fitness" data-label="Fitness">169.7</span><span class="num" data-label="Steal damage / AP">169.7</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTMxMjQsMTgwMzcsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMyMjcsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTI3MTQsMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -5429,11 +5431,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-42">
   <summary class="sol-row">
-    <span class="sol-label">#42</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#42</span><span></span>
     <span class="num fitness" data-label="Fitness">169.6</span><span class="num" data-label="Steal damage / AP">169.6</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">6</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTMxMjQsMTc1ODIsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMyMjcsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTI3MTQsMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -5555,11 +5557,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-43">
   <summary class="sol-row">
-    <span class="sol-label">#43</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#43</span><span></span>
     <span class="num fitness" data-label="Fitness">169.5</span><span class="num" data-label="Steal damage / AP">169.5</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTQwODMsMTE3MzgsMTIxMTMsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMxNjYsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -5681,11 +5683,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-44">
   <summary class="sol-row">
-    <span class="sol-label">#44</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#44</span><span></span>
     <span class="num fitness" data-label="Fitness">169.1</span><span class="num" data-label="Steal damage / AP">169.1</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de la sota afortunada <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">3</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjAzNjAsMjUyMjEsMTc1ODEsMTIxMTMsMTc1ODIsMjAzNjYsMTU0MzcsMjQwMzQsMzIyNDUsMzMwMDMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjgsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -5807,11 +5809,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-45">
   <summary class="sol-row">
-    <span class="sol-label">#45</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#45</span><span></span>
     <span class="num fitness" data-label="Fitness">169.0</span><span class="num" data-label="Steal damage / AP">169.0</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMyMjcsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTI3MTQsMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -5933,11 +5935,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-46">
   <summary class="sol-row">
-    <span class="sol-label">#46</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#46</span><span></span>
     <span class="num fitness" data-label="Fitness">169.0</span><span class="num" data-label="Steal damage / AP">169.0</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMxNjYsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjcsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -6059,11 +6061,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-47">
   <summary class="sol-row">
-    <span class="sol-label">#47</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#47</span><span></span>
     <span class="num fitness" data-label="Fitness">169.0</span><span class="num" data-label="Steal damage / AP">169.0</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">6</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMzIyMzYsMzMxNDYsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -6185,11 +6187,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-48">
   <summary class="sol-row">
-    <span class="sol-label">#48</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#48</span><span></span>
     <span class="num fitness" data-label="Fitness">168.5</span><span class="num" data-label="Steal damage / AP">168.5</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de la sota afortunada <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">3</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjAzNjAsMjUyMjEsMTc1ODEsMTc1ODIsMjQwMzUsMjAzNjYsMTU0MzcsMjQwMzQsMzIyNDUsMzMwMDMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjgsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -6311,11 +6313,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-49">
   <summary class="sol-row">
-    <span class="sol-label">#49</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#49</span><span></span>
     <span class="num fitness" data-label="Fitness">168.5</span><span class="num" data-label="Steal damage / AP">168.5</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTE3MzgsMTIxMTMsMjAzNjYsMTU3NDQsMjQwMzQsMzIyNDUsMTQ4MzMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjQsMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -6437,11 +6439,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-50">
   <summary class="sol-row">
-    <span class="sol-label">#50</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#50</span><span></span>
     <span class="num fitness" data-label="Fitness">168.1</span><span class="num" data-label="Steal damage / AP">168.1</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMjUyMjAsMzMyMjcsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTI3MTQsMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -6563,11 +6565,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-51">
   <summary class="sol-row">
-    <span class="sol-label">#51</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#51</span><span></span>
     <span class="num fitness" data-label="Fitness">168.1</span><span class="num" data-label="Steal damage / AP">168.1</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTQwODMsMTIxMTMsMjEyMjMsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMxNjYsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -6689,11 +6691,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-52">
   <summary class="sol-row">
-    <span class="sol-label">#52</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#52</span><span></span>
     <span class="num fitness" data-label="Fitness">168.1</span><span class="num" data-label="Steal damage / AP">168.1</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTE3MzgsMjYwMDcsMjAzNjYsMTU3NDQsMjQwMzQsMzIyNDUsMTQ4MzMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjQsMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -6815,11 +6817,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-53">
   <summary class="sol-row">
-    <span class="sol-label">#53</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#53</span><span></span>
     <span class="num fitness" data-label="Fitness">167.9</span><span class="num" data-label="Steal damage / AP">167.9</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTE3MzgsMTIxMTMsMjAzNjYsMTU3NDEsMjQwMzQsMzIyNDUsMTQ4MzMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjQsMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -6941,11 +6943,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-54">
   <summary class="sol-row">
-    <span class="sol-label">#54</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#54</span><span></span>
     <span class="num fitness" data-label="Fitness">167.6</span><span class="num" data-label="Steal damage / AP">167.6</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTE3MzgsMTIxMTMsMjAzNjYsMTU0MzUsMjQwMzQsMzIyNDUsMTQ4MzMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjQsMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -7067,11 +7069,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-55">
   <summary class="sol-row">
-    <span class="sol-label">#55</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#55</span><span></span>
     <span class="num fitness" data-label="Fitness">167.6</span><span class="num" data-label="Steal damage / AP">167.6</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMjQwMzIsMjAzNjYsMTgwMDcsMjQwMzQsMzIyMzYsMzMxNDYsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -7193,11 +7195,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-56">
   <summary class="sol-row">
-    <span class="sol-label">#56</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#56</span><span></span>
     <span class="num fitness" data-label="Fitness">167.5</span><span class="num" data-label="Steal damage / AP">167.5</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTE3MzgsMjYwMDcsMjAzNjYsMTU3NDEsMjQwMzQsMzIyNDUsMTQ4MzMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjQsMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -7319,11 +7321,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-57">
   <summary class="sol-row">
-    <span class="sol-label">#57</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#57</span><span></span>
     <span class="num fitness" data-label="Fitness">167.4</span><span class="num" data-label="Steal damage / AP">167.4</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTQwODMsMTIxMTMsMTMxMjQsMjAzNjYsMTU2OTIsMjQwMzQsMzIyNDUsMzMxNTcsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -7445,11 +7447,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-58">
   <summary class="sol-row">
-    <span class="sol-label">#58</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#58</span><span></span>
     <span class="num fitness" data-label="Fitness">167.4</span><span class="num" data-label="Steal damage / AP">167.4</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTQwODMsMTIxMTMsMTMxMjQsMjAzNjYsMTU2OTIsMjQwMzQsMzIyNDUsMzMxNzksbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -7571,11 +7573,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-59">
   <summary class="sol-row">
-    <span class="sol-label">#59</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#59</span><span></span>
     <span class="num fitness" data-label="Fitness">167.4</span><span class="num" data-label="Steal damage / AP">167.4</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTQwODMsMTIxMTMsMTMxMjQsMjAzNjYsMTU2OTIsMjQwMzQsMzIyNDUsMzMyMDMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -7697,11 +7699,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-60">
   <summary class="sol-row">
-    <span class="sol-label">#60</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#60</span><span></span>
     <span class="num fitness" data-label="Fitness">167.4</span><span class="num" data-label="Steal damage / AP">167.4</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTQwODMsMTIxMTMsMTMxMjQsMjAzNjYsMTU2OTIsMjQwMzQsMzIyNDUsMzMxNzcsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -7823,11 +7825,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-61">
   <summary class="sol-row">
-    <span class="sol-label">#61</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#61</span><span></span>
     <span class="num fitness" data-label="Fitness">167.3</span><span class="num" data-label="Steal damage / AP">167.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsODY5MyxudWxsLDcxMTUsNzc1NCwxODA0MywxMjcxNCwxMzc2NSwxNjI0NV19" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -7949,11 +7951,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-62">
   <summary class="sol-row">
-    <span class="sol-label">#62</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#62</span><span></span>
     <span class="num fitness" data-label="Fitness">167.2</span><span class="num" data-label="Steal damage / AP">167.2</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTkyNjIsMjUyMjEsMTQwOTEsMTQwOTIsMTgwMzcsMjAzNjYsMTMxMjUsMjQwMzQsMTg3MTgsMTMwNzEsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -8075,11 +8077,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-63">
   <summary class="sol-row">
-    <span class="sol-label">#63</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#63</span><span></span>
     <span class="num fitness" data-label="Fitness">166.7</span><span class="num" data-label="Steal damage / AP">166.7</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">6</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTkyNjIsMjUyMjEsMTQwOTEsMTQwOTIsMTgwMzcsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsMzMwMDMsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -8201,11 +8203,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-64">
   <summary class="sol-row">
-    <span class="sol-label">#64</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#64</span><span></span>
     <span class="num fitness" data-label="Fitness">166.7</span><span class="num" data-label="Steal damage / AP">166.7</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTc1ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTU2OTIsMjQwMzQsMzIyNDUsMzMyMTcsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -8327,11 +8329,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-65">
   <summary class="sol-row">
-    <span class="sol-label">#65</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#65</span><span></span>
     <span class="num fitness" data-label="Fitness">166.7</span><span class="num" data-label="Steal damage / AP">166.7</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTc1ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTU2OTIsMjQwMzQsMzIyNDUsMzMxNzcsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -8453,11 +8455,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-66">
   <summary class="sol-row">
-    <span class="sol-label">#66</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#66</span><span></span>
     <span class="num fitness" data-label="Fitness">166.4</span><span class="num" data-label="Steal damage / AP">166.4</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTQwODMsMTIxMTMsMjEyMjMsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMyNDEsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjgsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -8579,11 +8581,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-67">
   <summary class="sol-row">
-    <span class="sol-label">#67</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#67</span><span></span>
     <span class="num fitness" data-label="Fitness">166.4</span><span class="num" data-label="Steal damage / AP">166.4</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTQwODMsMTIxMTMsMjEyMjMsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMxNDYsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -8705,11 +8707,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-68">
   <summary class="sol-row">
-    <span class="sol-label">#68</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#68</span><span></span>
     <span class="num fitness" data-label="Fitness">166.4</span><span class="num" data-label="Steal damage / AP">166.4</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTQwODMsMTIxMTMsMjEyMjMsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMyNDEsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -8831,11 +8833,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-69">
   <summary class="sol-row">
-    <span class="sol-label">#69</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#69</span><span></span>
     <span class="num fitness" data-label="Fitness">166.3</span><span class="num" data-label="Steal damage / AP">166.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMjUyMTUsMjAzNjYsMTgwMDcsMjQwMzQsMzIyMzYsMzMxNDYsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -8957,11 +8959,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-70">
   <summary class="sol-row">
-    <span class="sol-label">#70</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#70</span><span></span>
     <span class="num fitness" data-label="Fitness">166.1</span><span class="num" data-label="Steal damage / AP">166.1</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Psikopomzopato <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">4</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjAzNjAsMjUyMjEsMTc1ODEsMTIxMTMsMzIyNDMsMjAzNjYsMTU0MzcsMjQwMzQsMzIyNDUsMzMwMDMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjgsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -9083,11 +9085,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-71">
   <summary class="sol-row">
-    <span class="sol-label">#71</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#71</span><span></span>
     <span class="num fitness" data-label="Fitness">166.1</span><span class="num" data-label="Steal damage / AP">166.1</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTE3MzgsMzIxMTksMjAzNjYsMTU3NDQsMjQwMzQsMzIyNDUsMTQ4MzMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjQsMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -9209,11 +9211,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-72">
   <summary class="sol-row">
-    <span class="sol-label">#72</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#72</span><span></span>
     <span class="num fitness" data-label="Fitness">166.0</span><span class="num" data-label="Steal damage / AP">166.0</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span>, Set de los idos <span class="muted">2/3</span>, Set de los poseídos <span class="muted">2/4</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">10</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTU3NDAsMjUyMTUsMjAzNjYsMTU3NDEsMjQwMzQsMjUyMjAsMzMxNjYsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY0LDEzNzY1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -9335,11 +9337,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-73">
   <summary class="sol-row">
-    <span class="sol-label">#73</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#73</span><span></span>
     <span class="num fitness" data-label="Fitness">166.0</span><span class="num" data-label="Steal damage / AP">166.0</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span>, Set de los idos <span class="muted">2/3</span>, Set de los poseídos <span class="muted">2/4</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTU3NDAsMjUyMTUsMjAzNjYsMTU3NDEsMjQwMzQsMjUyMjAsMzMxNjYsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTI3MTQsMTM3NjUsMTM4MjhdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -9461,11 +9463,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-74">
   <summary class="sol-row">
-    <span class="sol-label">#74</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#74</span><span></span>
     <span class="num fitness" data-label="Fitness">166.0</span><span class="num" data-label="Steal damage / AP">166.0</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span>, Set de los idos <span class="muted">2/3</span>, Set de los poseídos <span class="muted">2/4</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">10</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTU3NDAsMjUyMTUsMjAzNjYsMTU3NDEsMjQwMzQsMjUyMjAsMzMxNjYsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEyNzE0LDEzNzY1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -9587,11 +9589,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-75">
   <summary class="sol-row">
-    <span class="sol-label">#75</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#75</span><span></span>
     <span class="num fitness" data-label="Fitness">165.9</span><span class="num" data-label="Steal damage / AP">165.9</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTU0NDAsMjAzNjYsMTgwMDcsMjQwMzQsMzIyMzYsMzMxNDYsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -9713,11 +9715,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-76">
   <summary class="sol-row">
-    <span class="sol-label">#76</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#76</span><span></span>
     <span class="num fitness" data-label="Fitness">165.6</span><span class="num" data-label="Steal damage / AP">165.6</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMxNjYsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTI2NzksMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -9839,11 +9841,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-77">
   <summary class="sol-row">
-    <span class="sol-label">#77</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#77</span><span></span>
     <span class="num fitness" data-label="Fitness">165.6</span><span class="num" data-label="Steal damage / AP">165.6</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de la sota afortunada <span class="muted">2/3</span>, Set de luchador de presinkach <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjAzNjAsMTc1ODMsMTc1ODEsMTU0NDAsMjQwMzIsMjAzNjYsMTU0NDEsMjQwMzQsMzIyNDUsMzMxODgsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTI3MTQsMTM3NjUsMTM4MjhdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -9965,11 +9967,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-78">
   <summary class="sol-row">
-    <span class="sol-label">#78</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#78</span><span></span>
     <span class="num fitness" data-label="Fitness">165.5</span><span class="num" data-label="Steal damage / AP">165.5</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTc1ODEsMTIxMTMsMTgwMzcsMjAzNjYsMTU2OTIsMjQwMzQsMzIyNDUsMzMxNzcsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -10091,11 +10093,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-79">
   <summary class="sol-row">
-    <span class="sol-label">#79</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#79</span><span></span>
     <span class="num fitness" data-label="Fitness">165.3</span><span class="num" data-label="Steal damage / AP">165.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Reliquias de la Aurora Púrpura <span class="muted">4/6</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjYwMjAsMjI0MTIsMjYwMTksMTgwMzcsMjYwMTgsMjAzNjYsMjYwMjIsMjQwMzQsMjEyMjUsMzMxNjYsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjgsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -10217,11 +10219,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-80">
   <summary class="sol-row">
-    <span class="sol-label">#80</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#80</span><span></span>
     <span class="num fitness" data-label="Fitness">165.3</span><span class="num" data-label="Steal damage / AP">165.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Reliquias de la Aurora Púrpura <span class="muted">4/6</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjYwMjAsMjI0MTIsMjYwMTksMTgwMzcsMjYwMTgsMjAzNjYsMjYwMjIsMjQwMzQsMjEyMjUsMzMxNjYsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -10343,11 +10345,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-81">
   <summary class="sol-row">
-    <span class="sol-label">#81</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#81</span><span></span>
     <span class="num fitness" data-label="Fitness">165.3</span><span class="num" data-label="Steal damage / AP">165.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Reliquias de la Aurora Púrpura <span class="muted">4/6</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjYwMjAsMjI0MTIsMjYwMTksMTgwMzcsMjYwMTgsMjAzNjYsMjYwMjIsMjQwMzQsMjEyMjUsMzMxNjYsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -10469,11 +10471,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-82">
   <summary class="sol-row">
-    <span class="sol-label">#82</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#82</span><span></span>
     <span class="num fitness" data-label="Fitness">165.3</span><span class="num" data-label="Steal damage / AP">165.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTc1ODEsMTIxMTMsMjQwMzIsMjAzNjYsMTU2OTIsMjQwMzQsMzIyNDUsMzMxNzcsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -10595,11 +10597,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-83">
   <summary class="sol-row">
-    <span class="sol-label">#83</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#83</span><span></span>
     <span class="num fitness" data-label="Fitness">165.2</span><span class="num" data-label="Steal damage / AP">165.2</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTE3MzgsMzIxMTksMjAzNjYsMTU0MzUsMjQwMzQsMzIyNDUsMTQ4MzMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjQsMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -10721,11 +10723,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-84">
   <summary class="sol-row">
-    <span class="sol-label">#84</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#84</span><span></span>
     <span class="num fitness" data-label="Fitness">165.2</span><span class="num" data-label="Steal damage / AP">165.2</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Reliquias de la Aurora Púrpura <span class="muted">4/6</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjYwMjAsMTk5NzksMjYwMTksMTgwMzcsMjYwMTgsMjAzNjYsMjYwMjIsMjQwMzQsMjEyMjUsMzMxNjYsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -10847,11 +10849,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-85">
   <summary class="sol-row">
-    <span class="sol-label">#85</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#85</span><span></span>
     <span class="num fitness" data-label="Fitness">165.2</span><span class="num" data-label="Steal damage / AP">165.2</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Reliquias de la Aurora Púrpura <span class="muted">4/6</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjYwMjAsMTk5NzksMjYwMTksMTgwMzcsMjYwMTgsMjAzNjYsMjYwMjIsMjQwMzQsMjEyMjUsMzMxNjYsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -10973,11 +10975,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-86">
   <summary class="sol-row">
-    <span class="sol-label">#86</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#86</span><span></span>
     <span class="num fitness" data-label="Fitness">165.0</span><span class="num" data-label="Steal damage / AP">165.0</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMjYwMDcsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsODY5MyxudWxsLDcxMTUsNzc1NCwxODA0MywxMjcxNCwxMzc2NSwxNjI0NV19" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -11099,11 +11101,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-87">
   <summary class="sol-row">
-    <span class="sol-label">#87</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#87</span><span></span>
     <span class="num fitness" data-label="Fitness">165.0</span><span class="num" data-label="Steal damage / AP">165.0</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">6</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTkyNjIsMjUyMjEsMTQwOTEsMTQwOTIsMTgwMzcsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsMzMwMDMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDQsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -11225,11 +11227,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-88">
   <summary class="sol-row">
-    <span class="sol-label">#88</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#88</span><span></span>
     <span class="num fitness" data-label="Fitness">165.0</span><span class="num" data-label="Steal damage / AP">165.0</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span>, Set de Fuji Gélifux <span class="muted">2/4</span>, Set del precipicio <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTIxMTgsMTgwMDgsMTQwOTEsMTIxMjAsMTQwOTIsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsMzMxODgsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDEzODI4XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -11351,11 +11353,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-89">
   <summary class="sol-row">
-    <span class="sol-label">#89</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#89</span><span></span>
     <span class="num fitness" data-label="Fitness">164.8</span><span class="num" data-label="Steal damage / AP">164.8</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMjUyMjAsMzMxNjYsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTI2NzksMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -11477,11 +11479,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-90">
   <summary class="sol-row">
-    <span class="sol-label">#90</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#90</span><span></span>
     <span class="num fitness" data-label="Fitness">164.7</span><span class="num" data-label="Steal damage / AP">164.7</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTQwODMsMTIxMTMsMjEyMjMsMjAzNjYsMTgwMDcsMjQwMzQsMzIyMzYsMzMyNDEsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -11603,11 +11605,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-91">
   <summary class="sol-row">
-    <span class="sol-label">#91</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#91</span><span></span>
     <span class="num fitness" data-label="Fitness">164.3</span><span class="num" data-label="Steal damage / AP">164.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span>, Set de los idos <span class="muted">2/3</span>, Set de los poseídos <span class="muted">2/4</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTU3NDAsMjUyMTUsMjAzNjYsMTU3NDEsMjQwMzQsMjUyMjAsMzMyMDAsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTI3MTQsMTM3NjUsMTM4MjhdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -11729,11 +11731,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-92">
   <summary class="sol-row">
-    <span class="sol-label">#92</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#92</span><span></span>
     <span class="num fitness" data-label="Fitness">164.3</span><span class="num" data-label="Steal damage / AP">164.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span>, Set de los idos <span class="muted">2/3</span>, Set de los poseídos <span class="muted">2/4</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">10</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTU3NDAsMjUyMTUsMjAzNjYsMTU3NDEsMjQwMzQsMjUyMjAsMzMyMDAsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEyNzE0LDEzNzY1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -11855,11 +11857,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-93">
   <summary class="sol-row">
-    <span class="sol-label">#93</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#93</span><span></span>
     <span class="num fitness" data-label="Fitness">164.3</span><span class="num" data-label="Steal damage / AP">164.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de luchador de presinkach <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTU0NDIsMTM2NTcsMzIxMTgsMTU0NDAsMjQwMzUsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMzMwMjMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjgsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -11981,11 +11983,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-94">
   <summary class="sol-row">
-    <span class="sol-label">#94</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#94</span><span></span>
     <span class="num fitness" data-label="Fitness">164.3</span><span class="num" data-label="Steal damage / AP">164.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de luchador de presinkach <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTU0NDIsMTM2NTcsMzIxMTgsMTU0NDAsMjQwMzUsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMTQ4MzMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -12107,11 +12109,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-95">
   <summary class="sol-row">
-    <span class="sol-label">#95</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#95</span><span></span>
     <span class="num fitness" data-label="Fitness">164.3</span><span class="num" data-label="Steal damage / AP">164.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de luchador de presinkach <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTU0NDIsMTM2NTcsMzIxMTgsMTU0NDAsMjQwMzUsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMTQ4MzMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjgsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -12233,11 +12235,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-96">
   <summary class="sol-row">
-    <span class="sol-label">#96</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#96</span><span></span>
     <span class="num fitness" data-label="Fitness">164.2</span><span class="num" data-label="Steal damage / AP">164.2</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMjYwMDcsMjAzNjYsMTgwMDcsMjQwMzQsMjUyMjAsODY5MyxudWxsLDcxMTUsNzc1NCwxODA0MywxMjcxNCwxMzc2NSwxNjI0NV19" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -12359,11 +12361,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-97">
   <summary class="sol-row">
-    <span class="sol-label">#97</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#97</span><span></span>
     <span class="num fitness" data-label="Fitness">164.2</span><span class="num" data-label="Steal damage / AP">164.2</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTU0NDAsMjAzNjYsMTgwMDcsMjQwMzQsMzIyMzMsMzMxNDYsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -12485,11 +12487,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-98">
   <summary class="sol-row">
-    <span class="sol-label">#98</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#98</span><span></span>
     <span class="num fitness" data-label="Fitness">163.8</span><span class="num" data-label="Steal damage / AP">163.8</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMzM2MDUsMjAzNjYsMTgwMDcsMjQwMzQsMzIyMzMsMzMxNDYsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -12611,11 +12613,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-99">
   <summary class="sol-row">
-    <span class="sol-label">#99</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#99</span><span></span>
     <span class="num fitness" data-label="Fitness">163.5</span><span class="num" data-label="Steal damage / AP">163.5</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Reliquias de la Aurora Púrpura <span class="muted">4/6</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjYwMjAsMTk5NzksMjYwMTksMTgwMzcsMjYwMTgsMjAzNjYsMjYwMjIsMjQwMzQsMjEyMjUsMzMyMDAsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -12737,11 +12739,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-100">
   <summary class="sol-row">
-    <span class="sol-label">#100</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#100</span><span></span>
     <span class="num fitness" data-label="Fitness">163.5</span><span class="num" data-label="Steal damage / AP">163.5</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Reliquias de la Aurora Púrpura <span class="muted">4/6</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjYwMjAsMTk5NzksMjYwMTksMTgwMzcsMjYwMTgsMjAzNjYsMjYwMjIsMjQwMzQsMjEyMjUsMzMyMDAsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -12863,11 +12865,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-101">
   <summary class="sol-row">
-    <span class="sol-label">#101</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#101</span><span></span>
     <span class="num fitness" data-label="Fitness">163.5</span><span class="num" data-label="Steal damage / AP">163.5</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTQwODMsMjEyMjMsMjc1MjYsMjAzNjYsMTgwMDcsMjQwMzQsMzIyMzYsMzMyNDEsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -12989,11 +12991,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-102">
   <summary class="sol-row">
-    <span class="sol-label">#102</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#102</span><span></span>
     <span class="num fitness" data-label="Fitness">163.5</span><span class="num" data-label="Steal damage / AP">163.5</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set del Ojo Putrefacto <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTkyNTcsMTkyNTYsMTkyNTgsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMTkyNjMsMzMxNjYsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -13115,11 +13117,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-103">
   <summary class="sol-row">
-    <span class="sol-label">#103</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#103</span><span></span>
     <span class="num fitness" data-label="Fitness">163.4</span><span class="num" data-label="Steal damage / AP">163.4</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMjYwMDcsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsODY5MyxudWxsLDcxMTUsNzc1NCwxODA0MywxMjcxNCwxMzc2NSwxNjI0NV19" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -13241,11 +13243,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-104">
   <summary class="sol-row">
-    <span class="sol-label">#104</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#104</span><span></span>
     <span class="num fitness" data-label="Fitness">163.4</span><span class="num" data-label="Steal damage / AP">163.4</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMjQwMzIsMjAzNjYsMTgwMDcsMjQwMzQsMjUyMjAsMzMxNjYsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTI2NzksMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -13367,11 +13369,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-105">
   <summary class="sol-row">
-    <span class="sol-label">#105</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#105</span><span></span>
     <span class="num fitness" data-label="Fitness">163.4</span><span class="num" data-label="Steal damage / AP">163.4</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMjYwMDcsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsMzMxNzcsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzFdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -13493,11 +13495,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-106">
   <summary class="sol-row">
-    <span class="sol-label">#106</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#106</span><span></span>
     <span class="num fitness" data-label="Fitness">163.3</span><span class="num" data-label="Steal damage / AP">163.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span>, Set de Fuji Gélifux <span class="muted">2/4</span>, Set del precipicio <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTIxMTgsMTgwMDgsMTQwOTEsMTIxMjAsMTQwOTIsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsMzMxODgsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEyNzE0LDEzNzY1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -13619,11 +13621,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-107">
   <summary class="sol-row">
-    <span class="sol-label">#107</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#107</span><span></span>
     <span class="num fitness" data-label="Fitness">163.3</span><span class="num" data-label="Steal damage / AP">163.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">2/4</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">6</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTkyNjIsMjUyMjEsMzIxMTgsMTQwOTIsMTgwMzcsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsMzMwMDMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDQsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -13745,11 +13747,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-108">
   <summary class="sol-row">
-    <span class="sol-label">#108</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#108</span><span></span>
     <span class="num fitness" data-label="Fitness">163.3</span><span class="num" data-label="Steal damage / AP">163.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets"><span class="muted">—</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">3</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjAzNjAsMjUyMjEsMTc1ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTU0MzcsMjQwMzQsMzIyNDUsMzMwMDMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjgsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -13871,11 +13873,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-109">
   <summary class="sol-row">
-    <span class="sol-label">#109</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#109</span><span></span>
     <span class="num fitness" data-label="Fitness">163.3</span><span class="num" data-label="Steal damage / AP">163.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set del Ojo Putrefacto <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">6</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTkyNTcsMTkyNTYsMTkyNTgsMTMxMjQsMTgwMzcsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsMzMxNjYsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjgsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -13997,11 +13999,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-110">
   <summary class="sol-row">
-    <span class="sol-label">#110</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#110</span><span></span>
     <span class="num fitness" data-label="Fitness">163.3</span><span class="num" data-label="Steal damage / AP">163.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set del Ojo Putrefacto <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTkyNTcsMTkyNTYsMTkyNTgsMTMxMjQsMTgwMzcsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsMzMxNjYsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -14123,11 +14125,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-111">
   <summary class="sol-row">
-    <span class="sol-label">#111</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#111</span><span></span>
     <span class="num fitness" data-label="Fitness">163.1</span><span class="num" data-label="Steal damage / AP">163.1</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMjUyMjAsMzMxNzcsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTI2NzksMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -14249,11 +14251,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-112">
   <summary class="sol-row">
-    <span class="sol-label">#112</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#112</span><span></span>
     <span class="num fitness" data-label="Fitness">163.0</span><span class="num" data-label="Steal damage / AP">163.0</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">4/4</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTkyNjIsMjUyMjEsMTQwOTEsMTQwOTIsMTgwMzcsMjAzNjYsMTQwOTMsMjQwMzQsMTg3MTgsMzMwMDMsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -14375,11 +14377,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-113">
   <summary class="sol-row">
-    <span class="sol-label">#113</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#113</span><span></span>
     <span class="num fitness" data-label="Fitness">162.8</span><span class="num" data-label="Steal damage / AP">162.8</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTc1ODEsMTIxMTMsMTQwOTIsMjAzNjYsMTU2OTIsMjQwMzQsMzIyNDUsMzMxNzcsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -14501,11 +14503,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-114">
   <summary class="sol-row">
-    <span class="sol-label">#114</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#114</span><span></span>
     <span class="num fitness" data-label="Fitness">162.6</span><span class="num" data-label="Steal damage / AP">162.6</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de luchador de presinkach <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTU0NDIsMTM2NTcsMzIxMTgsMTU0NDAsMjQwMzUsMjAzNjYsMTgwMDcsMjQwMzQsMzIyNDUsMTQ4MzMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDQsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -14627,11 +14629,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-115">
   <summary class="sol-row">
-    <span class="sol-label">#115</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#115</span><span></span>
     <span class="num fitness" data-label="Fitness">162.5</span><span class="num" data-label="Steal damage / AP">162.5</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMjYwMDcsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsMzMxNzcsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjMsMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -14753,11 +14755,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-116">
   <summary class="sol-row">
-    <span class="sol-label">#116</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#116</span><span></span>
     <span class="num fitness" data-label="Fitness">162.3</span><span class="num" data-label="Steal damage / AP">162.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsMzMyNDEsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTI2NzksMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -14879,11 +14881,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-117">
   <summary class="sol-row">
-    <span class="sol-label">#117</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#117</span><span></span>
     <span class="num fitness" data-label="Fitness">162.3</span><span class="num" data-label="Steal damage / AP">162.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMTMxMjQsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsMzMxNzcsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTI2NzksMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -15005,11 +15007,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-118">
   <summary class="sol-row">
-    <span class="sol-label">#118</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#118</span><span></span>
     <span class="num fitness" data-label="Fitness">162.0</span><span class="num" data-label="Steal damage / AP">162.0</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">2/4</span>, Set del precipicio <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">6</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjAzNjAsMTgwMDgsMTkyNjEsMTQwOTIsMTc1ODIsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsMzMyMTcsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMjYwNjYsMTM3NjUsMTM4MjhdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -15131,11 +15133,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-119">
   <summary class="sol-row">
-    <span class="sol-label">#119</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#119</span><span></span>
     <span class="num fitness" data-label="Fitness">162.0</span><span class="num" data-label="Steal damage / AP">162.0</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">2/4</span>, Set del precipicio <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">6</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjAzNjAsMTgwMDgsMTgwMzUsMTQwOTIsMTc1ODIsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsMzMyMDMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMjYwNjYsMTM3NjUsMTM4MjhdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -15257,11 +15259,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-120">
   <summary class="sol-row">
-    <span class="sol-label">#120</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#120</span><span></span>
     <span class="num fitness" data-label="Fitness">162.0</span><span class="num" data-label="Steal damage / AP">162.0</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">2/4</span>, Set del precipicio <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">6</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjAzNjAsMTgwMDgsMTkyNjEsMTQwOTIsMTc1ODIsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsMzMyMDMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMjYwNjYsMTM3NjUsMTM4MjhdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -15383,11 +15385,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-121">
   <summary class="sol-row">
-    <span class="sol-label">#121</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#121</span><span></span>
     <span class="num fitness" data-label="Fitness">161.9</span><span class="num" data-label="Steal damage / AP">161.9</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span>, Set de los idos <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTMxMjQsMTU3NDAsMjAzNjYsMTU3NDEsMjQwMzQsMjUyMjAsMzMyMDAsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTI3MTQsMTM3NjQsMTM3NjVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -15509,11 +15511,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-122">
   <summary class="sol-row">
-    <span class="sol-label">#122</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#122</span><span></span>
     <span class="num fitness" data-label="Fitness">161.8</span><span class="num" data-label="Steal damage / AP">161.8</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Reliquias de la Aurora Púrpura <span class="muted">4/6</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjYwMjAsMTk5NzksMjYwMTksMTgwMzcsMjYwMTgsMjAzNjYsMjYwMjIsMjQwMzQsMjEyMjUsMzMyMDAsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTI3MTQsMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -15635,11 +15637,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-123">
   <summary class="sol-row">
-    <span class="sol-label">#123</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#123</span><span></span>
     <span class="num fitness" data-label="Fitness">161.6</span><span class="num" data-label="Steal damage / AP">161.6</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set del Ojo Putrefacto <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTkyNTcsMTkyNTYsMTkyNTgsMTMxMjQsMTgwMzcsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsMzMyMTcsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -15761,11 +15763,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-124">
   <summary class="sol-row">
-    <span class="sol-label">#124</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#124</span><span></span>
     <span class="num fitness" data-label="Fitness">161.6</span><span class="num" data-label="Steal damage / AP">161.6</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set del Ojo Putrefacto <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTkyNTcsMTkyNTYsMTkyNTgsMTMxMjQsMTgwMzcsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsMzMyMDgsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -15887,11 +15889,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-125">
   <summary class="sol-row">
-    <span class="sol-label">#125</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#125</span><span></span>
     <span class="num fitness" data-label="Fitness">161.4</span><span class="num" data-label="Steal damage / AP">161.4</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTcxMDMsMTIxMTMsMTgwMzcsMjAzNjYsMTU2OTIsMjQwMzQsMjAzNTcsMzMxNzcsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -16013,11 +16015,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-126">
   <summary class="sol-row">
-    <span class="sol-label">#126</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#126</span><span></span>
     <span class="num fitness" data-label="Fitness">161.4</span><span class="num" data-label="Steal damage / AP">161.4</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">4/4</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTkyNjIsMjUyMjEsMTQwOTEsMTQwOTIsMTgwMzcsMjAzNjYsMTQwOTMsMjQwMzQsMTg3MTgsMzMwMDMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDQsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -16139,11 +16141,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-127">
   <summary class="sol-row">
-    <span class="sol-label">#127</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#127</span><span></span>
     <span class="num fitness" data-label="Fitness">161.4</span><span class="num" data-label="Steal damage / AP">161.4</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMzM2MDUsMjAzNjYsMTkyNDIsMjQwMzQsMzIyMzYsMzMxNDYsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -16265,11 +16267,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-128">
   <summary class="sol-row">
-    <span class="sol-label">#128</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#128</span><span></span>
     <span class="num fitness" data-label="Fitness">161.1</span><span class="num" data-label="Steal damage / AP">161.1</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTc1ODEsMTIxMTMsMTQwOTIsMjAzNjYsMTU2OTIsMjQwMzQsMjAzNTcsMzMxNzcsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -16391,11 +16393,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-129">
   <summary class="sol-row">
-    <span class="sol-label">#129</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#129</span><span></span>
     <span class="num fitness" data-label="Fitness">160.8</span><span class="num" data-label="Steal damage / AP">160.8</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMjYwMDcsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsODY5MyxudWxsLDcxMTUsNzc1NCwxODA0MywxMzc2MywxMzc2NSwxNjI0NV19" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -16517,11 +16519,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-130">
   <summary class="sol-row">
-    <span class="sol-label">#130</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#130</span><span></span>
     <span class="num fitness" data-label="Fitness">160.8</span><span class="num" data-label="Steal damage / AP">160.8</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMjQwMzIsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsMzMyNDEsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTI2NzksMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -16643,11 +16645,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-131">
   <summary class="sol-row">
-    <span class="sol-label">#131</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#131</span><span></span>
     <span class="num fitness" data-label="Fitness">160.8</span><span class="num" data-label="Steal damage / AP">160.8</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMjQwMzIsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsMzMxNzcsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTI2NzksMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -16769,11 +16771,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-132">
   <summary class="sol-row">
-    <span class="sol-label">#132</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#132</span><span></span>
     <span class="num fitness" data-label="Fitness">160.7</span><span class="num" data-label="Steal damage / AP">160.7</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMjYwMDcsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsODY5MyxudWxsLDcxMTUsNzc1NCwxODA0MywxMzc2NSwxNjI0NSwxNjI2Nl19" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -16895,11 +16897,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-133">
   <summary class="sol-row">
-    <span class="sol-label">#133</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#133</span><span></span>
     <span class="num fitness" data-label="Fitness">160.7</span><span class="num" data-label="Steal damage / AP">160.7</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span>, Set del precipicio <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">6</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjAzNjAsMTgwMDgsMTQwOTEsMTQwOTIsMTc1ODIsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsMzMyMDMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMjYwNjYsMTM3NjUsMTM4MjhdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -17021,11 +17023,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-134">
   <summary class="sol-row">
-    <span class="sol-label">#134</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#134</span><span></span>
     <span class="num fitness" data-label="Fitness">160.4</span><span class="num" data-label="Steal damage / AP">160.4</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTE3MzgsMzIxMTksMjAzNjYsMTU3NDEsMjQwMzQsMzIyNDUsMTQ4MzMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYxODQsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -17147,11 +17149,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-135">
   <summary class="sol-row">
-    <span class="sol-label">#135</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#135</span><span></span>
     <span class="num fitness" data-label="Fitness">160.4</span><span class="num" data-label="Steal damage / AP">160.4</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de maligilante <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">5</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjAzNjAsMTU0MzksMTc1ODEsMTE3MzgsMTIxMTMsMjAzNjYsMTU0MzcsMjQwMzQsMzIyNDUsMzMwMDMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjgsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -17273,11 +17275,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-136">
   <summary class="sol-row">
-    <span class="sol-label">#136</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#136</span><span></span>
     <span class="num fitness" data-label="Fitness">160.4</span><span class="num" data-label="Steal damage / AP">160.4</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set del Ojo Putrefacto <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTkyNTcsMTkyNTYsMTkyNTgsMTc1ODIsMTgwMzcsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsMzMyMDgsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -17399,11 +17401,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-137">
   <summary class="sol-row">
-    <span class="sol-label">#137</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#137</span><span></span>
     <span class="num fitness" data-label="Fitness">160.3</span><span class="num" data-label="Steal damage / AP">160.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span>, Set del precipicio <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk2MDAsMTgwMDgsMTQwOTEsMTQwOTIsMTc1ODIsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsMzMyMDMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMjYwNjYsMTM3NjUsMTM4MjhdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -17525,11 +17527,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-138">
   <summary class="sol-row">
-    <span class="sol-label">#138</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#138</span><span></span>
     <span class="num fitness" data-label="Fitness">160.3</span><span class="num" data-label="Steal damage / AP">160.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de maligilante <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">6</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTU0MzgsMTU0MzksMTc1ODEsMTE3MzgsMTIxMTMsMjAzNjYsMTU0MzcsMjQwMzQsMzIyNDUsMzMwMDMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjgsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -17651,11 +17653,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-139">
   <summary class="sol-row">
-    <span class="sol-label">#139</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#139</span><span></span>
     <span class="num fitness" data-label="Fitness">160.3</span><span class="num" data-label="Steal damage / AP">160.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de la sota afortunada <span class="muted">2/3</span>, Set de luchador de presinkach <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjAzNjAsMTc1ODMsMTc1ODEsMTU0NDAsMjQwMzIsMjAzNjYsMTU0NDEsMjQwMzQsMzIyNDUsMzMxODgsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTI3MTQsMTM3ODYsMTM4MjhdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -17777,11 +17779,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-140">
   <summary class="sol-row">
-    <span class="sol-label">#140</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#140</span><span></span>
     <span class="num fitness" data-label="Fitness">160.2</span><span class="num" data-label="Steal damage / AP">160.2</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTc1ODEsMTIxMTMsMTQwOTIsMjAzNjYsMTU2OTIsMjQwMzQsMTg3MTIsMzMxNzcsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -17903,11 +17905,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-141">
   <summary class="sol-row">
-    <span class="sol-label">#141</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#141</span><span></span>
     <span class="num fitness" data-label="Fitness">160.2</span><span class="num" data-label="Steal damage / AP">160.2</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTkyNjIsMjI0MTIsMzIxMTgsMTQwOTIsMTgwMzcsMjAzNjYsMTQwOTMsMjQwMzQsMTg3MTgsMzMwMDMsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -18029,11 +18031,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-142">
   <summary class="sol-row">
-    <span class="sol-label">#142</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#142</span><span></span>
     <span class="num fitness" data-label="Fitness">160.2</span><span class="num" data-label="Steal damage / AP">160.2</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTE3MzgsMzIxMTksMjAzNjYsMTU0MzUsMjQwMzQsMzIyNDUsMTQ4MzMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYxODQsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -18155,11 +18157,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-143">
   <summary class="sol-row">
-    <span class="sol-label">#143</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#143</span><span></span>
     <span class="num fitness" data-label="Fitness">160.0</span><span class="num" data-label="Steal damage / AP">160.0</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTMxMjQsMTU3NDAsMjAzNjYsMTgwMjAsMjQwMzQsMjUyMjAsMzMyMDAsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEyNzE0LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -18281,11 +18283,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-144">
   <summary class="sol-row">
-    <span class="sol-label">#144</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#144</span><span></span>
     <span class="num fitness" data-label="Fitness">160.0</span><span class="num" data-label="Steal damage / AP">160.0</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTMxMjQsMTU3NDAsMjAzNjYsMTgwMjAsMjQwMzQsMjUyMjAsMzMyMDAsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEyNzE0LDEzNzY1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -18407,11 +18409,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-145">
   <summary class="sol-row">
-    <span class="sol-label">#145</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#145</span><span></span>
     <span class="num fitness" data-label="Fitness">160.0</span><span class="num" data-label="Steal damage / AP">160.0</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTMxMjQsMTU3NDAsMjAzNjYsMTgwMjAsMjQwMzQsMjUyMjAsMzMyMDAsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjgsMTYyNDRdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -18533,11 +18535,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-146">
   <summary class="sol-row">
-    <span class="sol-label">#146</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#146</span><span></span>
     <span class="num fitness" data-label="Fitness">159.7</span><span class="num" data-label="Steal damage / AP">159.7</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Fuji Gélifux <span class="muted">3/4</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTIxMTgsMTIxMTcsMzIxMTgsMTIxMTMsMTQwOTIsMjAzNjYsMTIxMTksMjQwMzQsMzIyNDUsMzMwMjMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -18659,11 +18661,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-147">
   <summary class="sol-row">
-    <span class="sol-label">#147</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#147</span><span></span>
     <span class="num fitness" data-label="Fitness">159.7</span><span class="num" data-label="Steal damage / AP">159.7</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Fuji Gélifux <span class="muted">3/4</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTIxMTgsMTIxMTcsMzIxMTgsMTIxMTMsMTQwOTIsMjAzNjYsMTIxMTksMjQwMzQsMzIyNDUsMzMwMjMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjgsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -18785,11 +18787,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-148">
   <summary class="sol-row">
-    <span class="sol-label">#148</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#148</span><span></span>
     <span class="num fitness" data-label="Fitness">159.5</span><span class="num" data-label="Steal damage / AP">159.5</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Reliquias de la Aurora Púrpura <span class="muted">4/6</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjYwMjAsMTUxOTcsMjYwMTksMTgwMzcsMjYwMTgsMjAzNjYsMjYwMjIsMjQwMzQsMjEyMjUsMzMyMDAsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTI3MTQsMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -18911,11 +18913,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-149">
   <summary class="sol-row">
-    <span class="sol-label">#149</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#149</span><span></span>
     <span class="num fitness" data-label="Fitness">159.5</span><span class="num" data-label="Steal damage / AP">159.5</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMjYwMDcsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsODY5MyxudWxsLDcxMTUsNzc1NCwxODA0MywxMzc2NSwxNjI0NSwxNjI2NV19" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -19037,11 +19039,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-150">
   <summary class="sol-row">
-    <span class="sol-label">#150</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#150</span><span></span>
     <span class="num fitness" data-label="Fitness">158.7</span><span class="num" data-label="Steal damage / AP">158.7</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de maligilante <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">6</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjAzNjAsMTU0MzksMTc1ODEsMTE3MzgsMTIxMTMsMjAzNjYsMTU0MzcsMjQwMzQsMzIyNDUsMzMwMDMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTI3MTQsMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -19163,11 +19165,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-151">
   <summary class="sol-row">
-    <span class="sol-label">#151</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#151</span><span></span>
     <span class="num fitness" data-label="Fitness">158.6</span><span class="num" data-label="Steal damage / AP">158.6</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de maligilante <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTU0MzgsMTU0MzksMTc1ODEsMTE3MzgsMTIxMTMsMjAzNjYsMTU0MzcsMjQwMzQsMzIyNDUsMzMwMDMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTI3MTQsMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -19289,11 +19291,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-152">
   <summary class="sol-row">
-    <span class="sol-label">#152</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#152</span><span></span>
     <span class="num fitness" data-label="Fitness">158.6</span><span class="num" data-label="Steal damage / AP">158.6</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de la sota afortunada <span class="muted">2/3</span>, Set de luchador de presinkach <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjAzNjAsMTc1ODMsMTc1ODEsMTU0NDAsMjQwMzIsMjAzNjYsMTU0NDEsMjQwMzQsMTg3MTgsMzMxODgsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjQsMTM3ODYsMTM4MjhdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -19415,11 +19417,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-153">
   <summary class="sol-row">
-    <span class="sol-label">#153</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#153</span><span></span>
     <span class="num fitness" data-label="Fitness">158.6</span><span class="num" data-label="Steal damage / AP">158.6</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de la sota afortunada <span class="muted">2/3</span>, Set de luchador de presinkach <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMjAzNjAsMTc1ODMsMTc1ODEsMTU0NDAsMjQwMzIsMjAzNjYsMTU0NDEsMjQwMzQsMTg3MTgsMzMxODgsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTI3MTQsMTM3ODYsMTM4MjhdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -19541,11 +19543,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-154">
   <summary class="sol-row">
-    <span class="sol-label">#154</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#154</span><span></span>
     <span class="num fitness" data-label="Fitness">158.5</span><span class="num" data-label="Steal damage / AP">158.5</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de luchador de presinkach <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTU0NDIsMTM2NTcsMzIxMTgsMTU0NDAsMjQwMzUsMjAzNjYsMTkyNDIsMjQwMzQsMzIyNDUsMTQ4MzMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDQsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -19667,11 +19669,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-155">
   <summary class="sol-row">
-    <span class="sol-label">#155</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#155</span><span></span>
     <span class="num fitness" data-label="Fitness">158.4</span><span class="num" data-label="Steal damage / AP">158.4</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTcxMDMsMTQwOTIsMTc1ODIsMjAzNjYsMTU2OTIsMjQwMzQsMTg3MTIsMzMxNzcsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYzMzJdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -19793,11 +19795,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-156">
   <summary class="sol-row">
-    <span class="sol-label">#156</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#156</span><span></span>
     <span class="num fitness" data-label="Fitness">158.3</span><span class="num" data-label="Steal damage / AP">158.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTMxMjQsMTU3NDAsMjAzNjYsMTgwMjAsMjQwMzQsMjUyMjAsMzMyMDAsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTI3MTQsMTM3NjUsMTYyNDRdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -19919,11 +19921,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-157">
   <summary class="sol-row">
-    <span class="sol-label">#157</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#157</span><span></span>
     <span class="num fitness" data-label="Fitness">158.3</span><span class="num" data-label="Steal damage / AP">158.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span>, Set de Fuji Gélifux <span class="muted">2/4</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTIxMTgsMTIxMTcsMTQwOTEsMTMxMjQsMTQwOTIsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsMzMxODgsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEyNzE0LDEzNzY1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -20045,11 +20047,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-158">
   <summary class="sol-row">
-    <span class="sol-label">#158</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#158</span><span></span>
     <span class="num fitness" data-label="Fitness">158.3</span><span class="num" data-label="Steal damage / AP">158.3</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de luchador de presinkach <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTU0NDIsMTM2NTcsMzIxMTgsMTU0NDAsMjQwMzUsMjAzNjYsMTkyNDIsMjQwMzQsMzIyNDUsMTQ4MzMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDUsMTYyNjddfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -20171,11 +20173,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-159">
   <summary class="sol-row">
-    <span class="sol-label">#159</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#159</span><span></span>
     <span class="num fitness" data-label="Fitness">158.1</span><span class="num" data-label="Steal damage / AP">158.1</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTkyNjIsMjUyMjEsMzIxMTgsMTQwOTIsMTgwMzcsMjAzNjYsMTQwOTMsMjQwMzQsMTg3MTgsMzMwMDMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTYyNDQsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -20297,11 +20299,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-160">
   <summary class="sol-row">
-    <span class="sol-label">#160</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#160</span><span></span>
     <span class="num fitness" data-label="Fitness">158.0</span><span class="num" data-label="Steal damage / AP">158.0</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">6</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMjIyMTQsMTMxMjQsMjc1MjYsMjAzNjYsMTgwMDcsMjQwMzQsMzIyMzYsMzMyNDEsbnVsbCw2OTQsNzExNSw3NzU0LDE4MDQzLDEzNzY1LDE2MjQ1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -20423,11 +20425,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-161">
   <summary class="sol-row">
-    <span class="sol-label">#161</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#161</span><span></span>
     <span class="num fitness" data-label="Fitness">158.0</span><span class="num" data-label="Steal damage / AP">158.0</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Fuji Gélifux <span class="muted">3/4</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTIxMTgsMTIxMTcsMzIxMTgsMTIxMTMsMTQwOTIsMjAzNjYsMTIxMTksMjQwMzQsMzIyMzYsMzMwMjMsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTM3NjUsMTM4MjgsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -20549,11 +20551,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-162">
   <summary class="sol-row">
-    <span class="sol-label">#162</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#162</span><span></span>
     <span class="num fitness" data-label="Fitness">158.0</span><span class="num" data-label="Steal damage / AP">158.0</span>
     <span data-label="Weapon">Tintarela picuda</span>
     <span class="small" data-label="Sets">Set de Martillelo <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">11/11</span>
+    <span class="num met-ok" data-label="Targets met">11/11</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoic2FjcmllciIsImwiOjIwMCwiZyI6Im0iLCJhIjpbMCwwLDAsMCwwLDM5OF0sInMiOjYwLCJlIjpbMTk5ODAsMTk5NzksMTk5ODEsMTIxMTMsMjEyMjMsMjAzNjYsMTgwMDcsMjQwMzQsMTg3MTgsMzMwMTIsbnVsbCw3MTE1LDc3NTQsMTgwNDMsMTI2NzksMTM3NjUsMTYyNDVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>

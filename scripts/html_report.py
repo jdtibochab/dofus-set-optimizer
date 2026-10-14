@@ -107,6 +107,8 @@ tr.group-end td { border-bottom: 2px solid var(--muted); }
   padding: 8px 14px; border-bottom: 1px solid var(--border);
 }
 .sol-row > .num { text-align: right; font-variant-numeric: tabular-nums; }
+.sol-row > .met-ok { color: var(--ok); font-weight: 600; }
+.sol-row > .met-bad { color: var(--bad); font-weight: 600; }
 .sol-head { font-size: 12px; color: var(--muted); font-weight: 600; background: var(--surface-2); }
 details.solution:last-child > summary { border-bottom: none; }
 details.solution > summary { list-style: none; cursor: pointer; }
@@ -345,8 +347,9 @@ def _label(index, has_reference):
 
 
 def _badges(idx, d, has_reference, best):
+    # Target status is shown by the colored "Targets met" value; only invalid sets get a badge
     cls, text = d["status"]
-    badges = f'<span class="badge {cls}">{_esc(text)}</span>'
+    badges = f'<span class="badge {cls}">{_esc(text)}</span>' if cls == "bad" else ""
     if has_reference and idx == 0:
         badges += ' <span class="badge ref">Reference</span>'
     if idx == best:
@@ -423,6 +426,7 @@ def _render_solution(idx, d, ctx, has_reference, best, best_ids, data):
     scores = "".join(f'<span class="num" data-label="{_esc(ctx.objective_label(o))}">{_fmt(d["scores"].get(o))}</span>'
                      for o in ctx.objectives)
     met = sum(r["met"] for r in d["requirements"])
+    met_cls = (" met-ok" if met == len(d["requirements"]) else " met-bad") if d["requirements"] else ""
     bonus_sets = ", ".join(f'{_esc(s["name"])} <span class="muted">{s["worn"]}/{s["total"]}</span>'
                            for s in d["sets"] if s["worn"] >= 2)
     diff = len(set(d["ids"]) ^ set(data[best]["ids"])) // 2 if best is not None else 0
@@ -491,7 +495,7 @@ def _render_solution(idx, d, ctx, has_reference, best, best_ids, data):
     <span class="num fitness" data-label="Fitness">{_fmt(d["fitness"])}</span>{scores}
     <span data-label="Weapon">{weapon}</span>
     <span class="small" data-label="Sets">{bonus_sets or '<span class="muted">—</span>'}</span>
-    <span class="num" data-label="Targets met">{met}/{len(d["requirements"])}</span>
+    <span class="num{met_cls}" data-label="Targets met">{met}/{len(d["requirements"])}</span>
     <span class="num" data-label="Items ≠ best">{'—' if idx == best else diff}</span>
     <span><a href="{_esc(d["dofus_forge"])}" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>

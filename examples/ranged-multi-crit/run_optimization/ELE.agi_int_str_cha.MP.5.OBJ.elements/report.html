@@ -73,6 +73,8 @@ tr.group-end td { border-bottom: 2px solid var(--muted); }
   padding: 8px 14px; border-bottom: 1px solid var(--border);
 }
 .sol-row > .num { text-align: right; font-variant-numeric: tabular-nums; }
+.sol-row > .met-ok { color: var(--ok); font-weight: 600; }
+.sol-row > .met-bad { color: var(--bad); font-weight: 600; }
 .sol-head { font-size: 12px; color: var(--muted); font-weight: 600; background: var(--surface-2); }
 details.solution:last-child > summary { border-bottom: none; }
 details.solution > summary { list-style: none; cursor: pointer; }
@@ -115,7 +117,7 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 <body><main>
 <header>
   <h1>ELE.agi_int_str_cha.MP.5.OBJ.elements</h1>
-  <div class="muted small">examples/ranged-multi-crit/run_optimization/ELE.agi_int_str_cha.MP.5.OBJ.elements · generated 2026-10-13 20:46</div>
+  <div class="muted small">examples/ranged-multi-crit/run_optimization/ELE.agi_int_str_cha.MP.5.OBJ.elements · generated 2026-10-13 20:50</div>
   <div class="chips"><span class="chip accent">Maximize: Spell damage</span><span class="chip">Cra</span><span class="chip">Level 200</span><span class="chip">Elements: agilidad, inteligencia, fuerza, suerte</span><span class="chip">Weapon: ranged, range ≥ 6</span><span class="chip">Scrolled</span><span class="chip">Exos: PA +1, PM +1, % crítico +2, vitalidad +200, alcance +1</span><span class="chip">67 candidate sets</span></div>
 </header>
 <h2>Setup</h2>
@@ -137,11 +139,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
   
 <details class="solution" id="sol-0">
   <summary class="sol-row">
-    <span class="sol-label">Reference</span><span><span class="badge ok">All targets met</span> <span class="badge ref">Reference</span></span>
+    <span class="sol-label">Reference</span><span> <span class="badge ref">Reference</span></span>
     <span class="num fitness" data-label="Fitness">2,049.4</span><span class="num" data-label="Spell damage">2,049.4</span>
     <span data-label="Weapon">Arco de vueloceronte</span>
     <span class="small" data-label="Sets">Set de vueloceronte <span class="muted">4/5</span>, Set de Miauvizor <span class="muted">3/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxOTk4NCwxOTk4NSwxNTE5MCwxOTk4MywxNzU3OCwxOTk4NiwxODcwMCwxMzY3MyxudWxsLDcxMTUsNzA0MywxODA0Myw3MzksNzc1NCw2OTRdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -269,11 +271,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution is-best" id="sol-1" open>
   <summary class="sol-row">
-    <span class="sol-label">#1</span><span><span class="badge ok">All targets met</span> <span class="badge best">Best</span></span>
+    <span class="sol-label">#1</span><span> <span class="badge best">Best</span></span>
     <span class="num fitness" data-label="Fitness">2,077.3</span><span class="num" data-label="Spell damage">2,077.3</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span>, Set de Tal Kasha <span class="muted">2/3</span>, Set de estrígido <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">—</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxODU5MCwxODU5MSwxNDA5NCwxNDA5MiwxNTE5MCwxNDA5NSwxNDA5MywyMTIyOSwxODcxOCwzMTg4NSxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -395,11 +397,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-2">
   <summary class="sol-row">
-    <span class="sol-label">#2</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#2</span><span></span>
     <span class="num fitness" data-label="Fitness">2,047.3</span><span class="num" data-label="Spell damage">2,047.3</span>
     <span data-label="Weapon">Pluma de Buhorado</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span>, Set de Noai Aludem <span class="muted">2/3</span>, Set de estrígido <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">5</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwxOTI0MywxNDA5NCwxMzY0MiwxNDA5MiwxNDA5NSwxNDA5MywyMDM1NiwxODcxOCwxMzQ2NSxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -521,11 +523,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-3">
   <summary class="sol-row">
-    <span class="sol-label">#3</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#3</span><span></span>
     <span class="num fitness" data-label="Fitness">2,042.8</span><span class="num" data-label="Spell damage">2,042.8</span>
     <span data-label="Weapon">Pluma de Buhorado</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span>, Set de Noai Aludem <span class="muted">2/3</span>, Set de estrígido <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">5</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwxOTA3NiwxNDA5NCwxMzY0MiwxNDA5MiwxNDA5NSwxNDA5MywyMDM1NiwxODcxOCwxMzQ2NSxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -647,11 +649,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-4">
   <summary class="sol-row">
-    <span class="sol-label">#4</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#4</span><span></span>
     <span class="num fitness" data-label="Fitness">2,042.5</span><span class="num" data-label="Spell damage">2,042.5</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span>, Set de Noai Aludem <span class="muted">2/3</span>, Set de Torkelonia <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwyMTIzMCwxNDA5MSwxMzY0MiwyNDAzNSwxNTY5OSwxNDA5MywyMTIyOSwxODcxOCwxOTA0NCxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEyNzE2XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -773,11 +775,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-5">
   <summary class="sol-row">
-    <span class="sol-label">#5</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#5</span><span></span>
     <span class="num fitness" data-label="Fitness">2,042.5</span><span class="num" data-label="Spell damage">2,042.5</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span>, Set de Noai Aludem <span class="muted">2/3</span>, Set de Torkelonia <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwyMTIzMCwxNDA5MSwxMzY0MiwyNDAzNSwxNTY5OSwxNDA5MywyMTIyOSwxODcxOCw5NjE3LG51bGwsNjk0LDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MTZdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -899,11 +901,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-6">
   <summary class="sol-row">
-    <span class="sol-label">#6</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#6</span><span></span>
     <span class="num fitness" data-label="Fitness">2,036.7</span><span class="num" data-label="Spell damage">2,036.7</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span>, Set de Noai Aludem <span class="muted">2/3</span>, Set de Torkelonia <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwyMTIzMCwxNDA5MSwxMzY0MiwyNDAzNSwxNTY5OSwxNDA5MywyMTIyOSwxODcxOCw5NjE3LG51bGwsNjk0LDczOSw3MDQzLDc3NTQsMTgwNDMsMTI2ODddfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -1025,11 +1027,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-7">
   <summary class="sol-row">
-    <span class="sol-label">#7</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#7</span><span></span>
     <span class="num fitness" data-label="Fitness">2,026.2</span><span class="num" data-label="Spell damage">2,026.2</span>
     <span data-label="Weapon">Arco de dantartánico</span>
     <span class="small" data-label="Sets">Set de estrígido <span class="muted">3/3</span>, Set de Cocuzko <span class="muted">2/2</span>, Set de Noai Aludem <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwxODU5MSwxNDA5NCwxMzY0MiwyMTIyMywxNDA5NSwxNDA5NiwzMzYwNywyMTIyNSw5NjE3LG51bGwsNzM5LDc3NTQsMTgwNDMsMTI3MTQsMTI3MTksMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -1151,11 +1153,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-8">
   <summary class="sol-row">
-    <span class="sol-label">#8</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#8</span><span></span>
     <span class="num fitness" data-label="Fitness">2,026.2</span><span class="num" data-label="Spell damage">2,026.2</span>
     <span data-label="Weapon">Arco de dantartánico</span>
     <span class="small" data-label="Sets">Set de estrígido <span class="muted">3/3</span>, Set de Cocuzko <span class="muted">2/2</span>, Set de Noai Aludem <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwxODU5MSwxNDA5NCwxMzY0MiwyMTIyMywxNDA5NSwxNDA5NiwzMzYwNywyMTIyNSw5NjE3LG51bGwsNzM5LDc3NTQsMTgwNDMsMTI3MTQsMTI3MjQsMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -1277,11 +1279,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-9">
   <summary class="sol-row">
-    <span class="sol-label">#9</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#9</span><span></span>
     <span class="num fitness" data-label="Fitness">2,024.7</span><span class="num" data-label="Spell damage">2,024.7</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span>, Set de Noai Aludem <span class="muted">2/3</span>, Set de Torkelonia <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwyMTIzMCwxNDA5MSwxMzY0MiwyNDAzNSwxNTY5OSwxNDA5MywyMTIyOSwxODcxOCw5NjE3LG51bGwsNjk0LDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MDhdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -1403,11 +1405,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-10">
   <summary class="sol-row">
-    <span class="sol-label">#10</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#10</span><span></span>
     <span class="num fitness" data-label="Fitness">2,020.4</span><span class="num" data-label="Spell damage">2,020.4</span>
     <span data-label="Weapon">Arco de dantartánico</span>
     <span class="small" data-label="Sets">Set de estrígido <span class="muted">3/3</span>, Set de Cocuzko <span class="muted">2/2</span>, Set de Noai Aludem <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwxODU5MSwxNDA5NCwxMzY0MiwyMTIyMywxNDA5NSwxNDA5NiwzMzYwNywyMTIyNSw5NjE3LG51bGwsNzM5LDc3NTQsMTgwNDMsMTI3MjQsMTI3NDcsMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -1529,11 +1531,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-11">
   <summary class="sol-row">
-    <span class="sol-label">#11</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#11</span><span></span>
     <span class="num fitness" data-label="Fitness">2,020.4</span><span class="num" data-label="Spell damage">2,020.4</span>
     <span data-label="Weapon">Arco de dantartánico</span>
     <span class="small" data-label="Sets">Set de estrígido <span class="muted">3/3</span>, Set de Cocuzko <span class="muted">2/2</span>, Set de Noai Aludem <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwxODU5MSwxNDA5NCwxMzY0MiwyMTIyMywxNDA5NSwxNDA5NiwzMzYwNywyMTIyNSw5NjE3LG51bGwsNzM5LDc3NTQsMTgwNDMsMTI3MTQsMTI3NDcsMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -1655,11 +1657,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-12">
   <summary class="sol-row">
-    <span class="sol-label">#12</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#12</span><span></span>
     <span class="num fitness" data-label="Fitness">2,013.7</span><span class="num" data-label="Spell damage">2,013.7</span>
     <span data-label="Weapon">Arco de dantartánico</span>
     <span class="small" data-label="Sets">Set de estrígido <span class="muted">3/3</span>, Set de Cocuzko <span class="muted">2/2</span>, Set de Noai Aludem <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">10</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwxNzU3NywxNDA5NCwxMzY0MiwyMTIyMywxNDA5NSwxNDA5NiwzMzYwNywyMTIyNSw5NjE3LG51bGwsNzM5LDc3NTQsMTgwNDMsMTI3MTksMTI3NDcsMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -1781,11 +1783,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-13">
   <summary class="sol-row">
-    <span class="sol-label">#13</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#13</span><span></span>
     <span class="num fitness" data-label="Fitness">2,013.7</span><span class="num" data-label="Spell damage">2,013.7</span>
     <span data-label="Weapon">Arco de dantartánico</span>
     <span class="small" data-label="Sets">Set de estrígido <span class="muted">3/3</span>, Set de Cocuzko <span class="muted">2/2</span>, Set de Noai Aludem <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">10</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwxNzU3NywxNDA5NCwxMzY0MiwyMTIyMywxNDA5NSwxNDA5NiwzMzYwNywyMTIyNSw5NjE3LG51bGwsNzM5LDc3NTQsMTgwNDMsMTI3MTQsMTI3NDcsMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -1907,11 +1909,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-14">
   <summary class="sol-row">
-    <span class="sol-label">#14</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#14</span><span></span>
     <span class="num fitness" data-label="Fitness">1,996.4</span><span class="num" data-label="Spell damage">1,996.4</span>
     <span data-label="Weapon">Arco de vueloceronte</span>
     <span class="small" data-label="Sets">Set de vueloceronte <span class="muted">3/5</span>, Set de Miseria <span class="muted">2/3</span>, Set de kukoloide <span class="muted">2/4</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsyMDM1OSwzMjIzNywxOTk4NCwxNDA5MiwyMjE4NiwxOTk4MywyMjE4NywxOTk4NiwxODcxOCwzMTg4NSxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -2033,11 +2035,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-15">
   <summary class="sol-row">
-    <span class="sol-label">#15</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#15</span><span></span>
     <span class="num fitness" data-label="Fitness">1,996.3</span><span class="num" data-label="Spell damage">1,996.3</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de Miauvizor <span class="muted">3/3</span>, Set de Corrupción <span class="muted">2/3</span>, Set de Tentenhuevo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxNDA5NCwyMjIwNSwzMjIzNCwyMjIwOSwxNzU3OCwyMTIyOSwzMjIzNiwxMzQ2NSxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MjQsMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -2159,11 +2161,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-16">
   <summary class="sol-row">
-    <span class="sol-label">#16</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#16</span><span></span>
     <span class="num fitness" data-label="Fitness">1,994.6</span><span class="num" data-label="Spell damage">1,994.6</span>
     <span data-label="Weapon">Pluma de Buhorado</span>
     <span class="small" data-label="Sets">Set de Miauvizor <span class="muted">3/3</span>, Set de estrígido <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxNDA5NCwxMTczOCwyNDAzNSwxNDA5NSwxNzU3OCwyMDM1NiwxODY5MiwxMzY3MyxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MTksMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -2285,11 +2287,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-17">
   <summary class="sol-row">
-    <span class="sol-label">#17</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#17</span><span></span>
     <span class="num fitness" data-label="Fitness">1,991.4</span><span class="num" data-label="Spell damage">1,991.4</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span>, Set de Noai Aludem <span class="muted">2/3</span>, Set de Torkelonia <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwyMTIzMCwxNDA5MSwxMzY0MiwyNDAzNSwxNTY5OSwxNDA5MywyMTIyOSwxODcxOCwxMTAxNCxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEyNjg3XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -2411,11 +2413,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-18">
   <summary class="sol-row">
-    <span class="sol-label">#18</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#18</span><span></span>
     <span class="num fitness" data-label="Fitness">1,979.4</span><span class="num" data-label="Spell damage">1,979.4</span>
     <span data-label="Weapon">Pluma de Buhorado</span>
     <span class="small" data-label="Sets">Set de Miauvizor <span class="muted">3/3</span>, Set de estrígido <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxNDA5NCwyMTIyMywyNDAzNSwxNDA5NSwxNzU3OCwyMDM1NiwxODY5MiwxMzY3MyxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MTYsMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -2537,11 +2539,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-19">
   <summary class="sol-row">
-    <span class="sol-label">#19</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#19</span><span></span>
     <span class="num fitness" data-label="Fitness">1,979.4</span><span class="num" data-label="Spell damage">1,979.4</span>
     <span data-label="Weapon">Pluma de Buhorado</span>
     <span class="small" data-label="Sets">Set de Miauvizor <span class="muted">3/3</span>, Set de estrígido <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxNDA5NCwyMTIyMywyNDAzNSwxNDA5NSwxNzU3OCwyMDM1NiwxODY5MiwxMzY3MyxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MTksMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -2663,11 +2665,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-20">
   <summary class="sol-row">
-    <span class="sol-label">#20</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#20</span><span></span>
     <span class="num fitness" data-label="Fitness">1,979.4</span><span class="num" data-label="Spell damage">1,979.4</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span>, Set de Noai Aludem <span class="muted">2/3</span>, Set de Torkelonia <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwyMTIzMCwxNDA5MSwxMzY0MiwyNDAzNSwxNTY5OSwxNDA5MywyMTIyOSwxODcxOCwxMTAxNCxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEyNzA4XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -2789,11 +2791,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-21">
   <summary class="sol-row">
-    <span class="sol-label">#21</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#21</span><span></span>
     <span class="num fitness" data-label="Fitness">1,968.4</span><span class="num" data-label="Spell damage">1,968.4</span>
     <span data-label="Weapon">Arco de dantartánico</span>
     <span class="small" data-label="Sets">Set de estrígido <span class="muted">3/3</span>, Set de Cocuzko <span class="muted">2/2</span>, Set de Noai Aludem <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">10</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwxNzU3NywxNDA5NCwxMzY0MiwyMTIyMywxNDA5NSwxNDA5NiwzMzYwNywyMTIyNSwxMTAxNCxudWxsLDczOSw3NzU0LDE4MDQzLDEyNzE0LDEyNzQ3LDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -2915,11 +2917,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-22">
   <summary class="sol-row">
-    <span class="sol-label">#22</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#22</span><span></span>
     <span class="num fitness" data-label="Fitness">1,967.8</span><span class="num" data-label="Spell damage">1,967.8</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span>, Set de Noai Aludem <span class="muted">2/3</span>, Set de Torkelonia <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwyMTIzMCwxNDA5MSwxMzY0MiwyNDAzNSwxNTY5OSwxNDA5MywyMTIyOSwxODcxOCwxMTAxNCxudWxsLDY5NCw3MzksNzc1NCwxODA0MywxMjcwOCwxMzgyNV19" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -3041,11 +3043,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-23">
   <summary class="sol-row">
-    <span class="sol-label">#23</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#23</span><span></span>
     <span class="num fitness" data-label="Fitness">1,966.8</span><span class="num" data-label="Spell damage">1,966.8</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set criocrono <span class="muted">2/3</span>, Set de Cocuzko <span class="muted">2/2</span>, Set de Noai Aludem <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwzMjIzNywxNDA5MCwxNDA4OSwyMTIyMywxNTY5OSwxMzY0MywyMTIyOSwyMTIyNSwxMzY3MyxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -3167,11 +3169,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-24">
   <summary class="sol-row">
-    <span class="sol-label">#24</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#24</span><span></span>
     <span class="num fitness" data-label="Fitness">1,966.8</span><span class="num" data-label="Spell damage">1,966.8</span>
     <span data-label="Weapon">Arco de vueloceronte</span>
     <span class="small" data-label="Sets">Set de vueloceronte <span class="muted">3/5</span>, Set de Miseria <span class="muted">2/3</span>, Set de kukoloide <span class="muted">2/4</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsyMDM1OSwzMjIzNywxOTk4NCwxNDA5MiwyMjE4NiwxOTk4MywyMjE4NywxOTk4NiwxODcxOCwzMTg4NSxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEyNzE5XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -3293,11 +3295,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-25">
   <summary class="sol-row">
-    <span class="sol-label">#25</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#25</span><span></span>
     <span class="num fitness" data-label="Fitness">1,966.6</span><span class="num" data-label="Spell damage">1,966.6</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de Miauvizor <span class="muted">3/3</span>, Set de Corrupción <span class="muted">2/3</span>, Set de Tentenhuevo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">10</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxNDA5NCwyMjIwNSwzMjIzNCwyMjIwOSwxNzU3OCwyMTIyOSwzMjIzNiwxMzQ2NSxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MTksMTI3MjRdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -3419,11 +3421,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-26">
   <summary class="sol-row">
-    <span class="sol-label">#26</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#26</span><span></span>
     <span class="num fitness" data-label="Fitness">1,966.5</span><span class="num" data-label="Spell damage">1,966.5</span>
     <span data-label="Weapon">Arco de Wulán</span>
     <span class="small" data-label="Sets">Set de Miauvizor <span class="muted">3/3</span>, Set de Corrupción <span class="muted">2/3</span>, Set de Tentenhuevo <span class="muted">2/3</span>, Set de Wulán <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">11</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwyNDAyOSwyMjIwNSwzMjIzNCwyMjIwOSwxNzU3OCwyNDAzMSwzMjIzNiwxMzQ2NSxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MTYsMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -3545,11 +3547,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-27">
   <summary class="sol-row">
-    <span class="sol-label">#27</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#27</span><span></span>
     <span class="num fitness" data-label="Fitness">1,966.5</span><span class="num" data-label="Spell damage">1,966.5</span>
     <span data-label="Weapon">Arco de Wulán</span>
     <span class="small" data-label="Sets">Set de Miauvizor <span class="muted">3/3</span>, Set de Corrupción <span class="muted">2/3</span>, Set de Tentenhuevo <span class="muted">2/3</span>, Set de Wulán <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">11</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwyNDAyOSwyMjIwNSwzMjIzNCwyMjIwOSwxNzU3OCwyNDAzMSwzMjIzNiwxMzQ2NSxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MTksMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -3671,11 +3673,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-28">
   <summary class="sol-row">
-    <span class="sol-label">#28</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#28</span><span></span>
     <span class="num fitness" data-label="Fitness">1,966.5</span><span class="num" data-label="Spell damage">1,966.5</span>
     <span data-label="Weapon">Arco de Wulán</span>
     <span class="small" data-label="Sets">Set de Miauvizor <span class="muted">3/3</span>, Set de Corrupción <span class="muted">2/3</span>, Set de Tentenhuevo <span class="muted">2/3</span>, Set de Wulán <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">11</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwyNDAyOSwyMjIwNSwzMjIzNCwyMjIwOSwxNzU3OCwyNDAzMSwzMjIzNiwxMzQ2NSxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MjQsMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -3797,11 +3799,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-29">
   <summary class="sol-row">
-    <span class="sol-label">#29</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#29</span><span></span>
     <span class="num fitness" data-label="Fitness">1,960.7</span><span class="num" data-label="Spell damage">1,960.7</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de Miauvizor <span class="muted">3/3</span>, Set de Corrupción <span class="muted">2/3</span>, Set de Tentenhuevo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">10</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxNDA5NCwyMjIwNSwzMjIzNCwyMjIwOSwxNzU3OCwyMTIyOSwzMjIzNiwxMzQ2NSxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MjQsMTI3NDddfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -3923,11 +3925,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-30">
   <summary class="sol-row">
-    <span class="sol-label">#30</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#30</span><span></span>
     <span class="num fitness" data-label="Fitness">1,960.7</span><span class="num" data-label="Spell damage">1,960.7</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de Miauvizor <span class="muted">3/3</span>, Set de Corrupción <span class="muted">2/3</span>, Set de Tentenhuevo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">10</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxNDA5NCwyMjIwNSwzMjIzNCwyMjIwOSwxNzU3OCwyMTIyOSwzMjIzNiwxMzQ2NSxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MTYsMTI3NDddfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -4049,11 +4051,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-31">
   <summary class="sol-row">
-    <span class="sol-label">#31</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#31</span><span></span>
     <span class="num fitness" data-label="Fitness">1,959.6</span><span class="num" data-label="Spell damage">1,959.6</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de estrígido <span class="muted">3/3</span>, Set de maligilante <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">6</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNTQzOCwxNTQzOSwxNDA5NCwxNTE5MCwyNDAzNSwxNDA5NSwxNDA5NiwyMTIyOSwxODcwMCwzMTg4NSxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEyNzE5XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -4175,11 +4177,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-32">
   <summary class="sol-row">
-    <span class="sol-label">#32</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#32</span><span></span>
     <span class="num fitness" data-label="Fitness">1,955.8</span><span class="num" data-label="Spell damage">1,955.8</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de Miauvizor <span class="muted">3/3</span>, Set de Corrupción <span class="muted">2/3</span>, Set de Tentenhuevo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">10</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxNDA5NCwyMjIwNSwzMjIzNCwyMjIwOSwxNzU3OCwyMTIyOSwzMjIzNiwxMzQ2NSxudWxsLDY5NCw3MzksNzc1NCwxODA0MywxMjcxNiwxMjc0N119" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -4301,11 +4303,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-33">
   <summary class="sol-row">
-    <span class="sol-label">#33</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#33</span><span></span>
     <span class="num fitness" data-label="Fitness">1,952.0</span><span class="num" data-label="Spell damage">1,952.0</span>
     <span data-label="Weapon">Arco de vueloceronte</span>
     <span class="small" data-label="Sets">Set de vueloceronte <span class="muted">3/5</span>, Set de Miseria <span class="muted">2/3</span>, Set de kukoloide <span class="muted">2/4</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsyMDM1OSwzMjIzNywxOTk4NCwxNDA5MiwyMjE4NiwxOTk4MywyMjE4NywxOTk4NiwxODcxOCwzMTg4NSxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MTksMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -4427,11 +4429,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-34">
   <summary class="sol-row">
-    <span class="sol-label">#34</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#34</span><span></span>
     <span class="num fitness" data-label="Fitness">1,950.5</span><span class="num" data-label="Spell damage">1,950.5</span>
     <span data-label="Weapon">Arco de dantartánico</span>
     <span class="small" data-label="Sets">Set de estrígido <span class="muted">3/3</span>, Set de Cocuzko <span class="muted">2/2</span>, Set de Noai Aludem <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">10</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwxNzU3NywxNDA5NCwxMzY0MiwyMTIyMywxNDA5NSwxNDA5NiwzMzYwNywyMTIyNSwxMTAxNCxudWxsLDczOSw3NzU0LDE4MDQzLDEyNzA4LDEyNzQ3LDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -4553,11 +4555,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-35">
   <summary class="sol-row">
-    <span class="sol-label">#35</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#35</span><span></span>
     <span class="num fitness" data-label="Fitness">1,948.8</span><span class="num" data-label="Spell damage">1,948.8</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set traicionero <span class="muted">3/3</span>, Set de la reina del azar <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNDA1MywxNzU3NywxNzU3NiwxMzY0MiwxNDA1NCwxNTY5OSwxNDA1NiwyMTIyOSwxODcwMCwxMzY3MyxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -4679,11 +4681,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-36">
   <summary class="sol-row">
-    <span class="sol-label">#36</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#36</span><span></span>
     <span class="num fitness" data-label="Fitness">1,946.1</span><span class="num" data-label="Spell damage">1,946.1</span>
     <span data-label="Weapon">Arco de dantartánico</span>
     <span class="small" data-label="Sets">Set de Noai Aludem <span class="muted">3/3</span>, Set de Cocuzko <span class="muted">2/2</span>, Set de estrígido <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">10</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwxNzU3NywxNDA5NCwxMzY0MiwyMTIyMywxNDA5NSwxMzY0MywzMzYwNywyMTIyNSwxMTAxNCxudWxsLDczOSw3NzU0LDE4MDQzLDEyNzA4LDEyNzQ3LDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -4805,11 +4807,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-37">
   <summary class="sol-row">
-    <span class="sol-label">#37</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#37</span><span></span>
     <span class="num fitness" data-label="Fitness">1,943.0</span><span class="num" data-label="Spell damage">1,943.0</span>
     <span data-label="Weapon">Arco de vueloceronte</span>
     <span class="small" data-label="Sets">Set de vueloceronte <span class="muted">3/5</span>, Set de Miseria <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsyMDM1OSwzMjIzNywxOTk4NCwyMjE4NiwyNDAzNSwxOTk4MywyMjE4NywxOTk4NiwxODcxOCwzMTg4NSxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MTksMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -4931,11 +4933,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-38">
   <summary class="sol-row">
-    <span class="sol-label">#38</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#38</span><span></span>
     <span class="num fitness" data-label="Fitness">1,941.8</span><span class="num" data-label="Spell damage">1,941.8</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de estrígido <span class="muted">3/3</span>, Set de maligilante <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">6</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNTQzOCwxNTQzOSwxNDA5NCwxNTE5MCwyNDAzNSwxNDA5NSwxNDA5NiwyMTIyOSwxODcwMCwzMTg4NSxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MTksMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -5057,11 +5059,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-39">
   <summary class="sol-row">
-    <span class="sol-label">#39</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#39</span><span></span>
     <span class="num fitness" data-label="Fitness">1,939.9</span><span class="num" data-label="Spell damage">1,939.9</span>
     <span data-label="Weapon">Pluma de Buhorado</span>
     <span class="small" data-label="Sets">Set de Miauvizor <span class="muted">2/3</span>, Set de estrígido <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxODQzOSwxNzU4MCwxNDA5NCwyMTIyMywyNDAzNSwxNDA5NSwxNzU3OCwyMDM1NiwxOTI2MCwxMzY3MyxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MTksMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -5183,11 +5185,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-40">
   <summary class="sol-row">
-    <span class="sol-label">#40</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#40</span><span></span>
     <span class="num fitness" data-label="Fitness">1,937.8</span><span class="num" data-label="Spell damage">1,937.8</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de estrígido <span class="muted">3/3</span>, Set de maligilante <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">6</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNTQzOCwxNTQzOSwxNDA5NCwxNTE5MCwyNDAzNSwxNDA5NSwxNDA5NiwyMTIyOSwxODcwMCwzMTg4NSxudWxsLDY5NCw3MzksNzc1NCwxODA0MywxMjcxNCwxMzgyNV19" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -5309,11 +5311,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-41">
   <summary class="sol-row">
-    <span class="sol-label">#41</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#41</span><span></span>
     <span class="num fitness" data-label="Fitness">1,937.8</span><span class="num" data-label="Spell damage">1,937.8</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de estrígido <span class="muted">3/3</span>, Set de maligilante <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">6</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNTQzOCwxNTQzOSwxNDA5NCwxNTE5MCwyNDAzNSwxNDA5NSwxNDA5NiwyMTIyOSwxODcwMCwzMTg4NSxudWxsLDY5NCw3MzksNzc1NCwxODA0MywxMjcxOSwxMzgyNV19" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -5435,11 +5437,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-42">
   <summary class="sol-row">
-    <span class="sol-label">#42</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#42</span><span></span>
     <span class="num fitness" data-label="Fitness">1,934.6</span><span class="num" data-label="Spell damage">1,934.6</span>
     <span data-label="Weapon">Arco de vueloceronte</span>
     <span class="small" data-label="Sets">Set de vueloceronte <span class="muted">3/5</span>, Set de Miseria <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsyMDM1OSwxODU5MSwxOTk4NCwxNTE5MCwyMjE4NiwxOTk4MywyMjE4NywxOTk4NiwxODcxOCwzMTg4NSxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MTksMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -5561,11 +5563,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-43">
   <summary class="sol-row">
-    <span class="sol-label">#43</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#43</span><span></span>
     <span class="num fitness" data-label="Fitness">1,929.7</span><span class="num" data-label="Spell damage">1,929.7</span>
     <span data-label="Weapon">Arco de Wulán</span>
     <span class="small" data-label="Sets">Set de Miauvizor <span class="muted">3/3</span>, Set de Corrupción <span class="muted">2/3</span>, Set de Tentenhuevo <span class="muted">2/3</span>, Set de Wulán <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">12</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwyNDAyOSwyMjIwNSwzMjIzNCwyMjIwOSwxNzU3OCwyNDAzMSwzMjIzNiwxMzQ2NSxudWxsLDczOSw3NzU0LDE4MDQzLDEyNzE5LDEyNzI0LDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -5687,11 +5689,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-44">
   <summary class="sol-row">
-    <span class="sol-label">#44</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#44</span><span></span>
     <span class="num fitness" data-label="Fitness">1,927.0</span><span class="num" data-label="Spell damage">1,927.0</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span>, Set de Noai Aludem <span class="muted">2/3</span>, Set de Torkelonia <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwyMTIzMCwxNDA5MSwxMzY0MiwyNDAzNSwxNTY5OSwxNDA5MywyMTIyOSwxODcxOCwxMTAxNCxudWxsLDY5NCw3MzksNzc1NCwxODA0MywxMzgyNSwzNDYxNV19" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -5813,11 +5815,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-45">
   <summary class="sol-row">
-    <span class="sol-label">#45</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#45</span><span></span>
     <span class="num fitness" data-label="Fitness">1,925.4</span><span class="num" data-label="Spell damage">1,925.4</span>
     <span data-label="Weapon">Pluma de Buhorado</span>
     <span class="small" data-label="Sets">Set de Noai Aludem <span class="muted">2/3</span>, Set de estrígido <span class="muted">2/3</span>, Set de kukoloide <span class="muted">2/4</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">6</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwxOTA3NiwxNDA5NCwxMzY0MiwxNDA5MiwxNDA5NSwxOTYxMCwyMDM1NiwxODcxOCwxMzQ2NSxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -5939,11 +5941,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-46">
   <summary class="sol-row">
-    <span class="sol-label">#46</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#46</span><span></span>
     <span class="num fitness" data-label="Fitness">1,922.8</span><span class="num" data-label="Spell damage">1,922.8</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de Miauvizor <span class="muted">3/3</span>, Set de Corrupción <span class="muted">2/3</span>, Set de Tentenhuevo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">11</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxNDA5NCwyMjIwNSwzMjIzNCwyMjIwOSwxNzU3OCwyMTIyOSwzMjIzNiwxMzQ2NSxudWxsLDczOSw3NzU0LDE4MDQzLDEyNzE0LDEyNzE2LDEyNzQ3XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -6065,11 +6067,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-47">
   <summary class="sol-row">
-    <span class="sol-label">#47</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#47</span><span></span>
     <span class="num fitness" data-label="Fitness">1,920.8</span><span class="num" data-label="Spell damage">1,920.8</span>
     <span data-label="Weapon">Arco de dantartánico</span>
     <span class="small" data-label="Sets">Set de estrígido <span class="muted">3/3</span>, Set de Cocuzko <span class="muted">2/2</span>, Set de Noai Aludem <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">11</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwxNzU3NywxNDA5NCwxMzY0MiwyMTIyMywxNDA5NSwxNDA5NiwzMzYwNywyMTIyNSwxMTAxNCxudWxsLDczOSw3NzU0LDE4MDQzLDEyNzA4LDEyNzE5LDEyNzQ3XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -6191,11 +6193,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-48">
   <summary class="sol-row">
-    <span class="sol-label">#48</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#48</span><span></span>
     <span class="num fitness" data-label="Fitness">1,916.8</span><span class="num" data-label="Spell damage">1,916.8</span>
     <span data-label="Weapon">Arco de vueloceronte</span>
     <span class="small" data-label="Sets">Set de vueloceronte <span class="muted">3/5</span>, Set de Miseria <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsyMDM1OSwxODU5MSwxOTk4NCwxNTE5MCwyMjE4NiwxOTk4MywyMjE4NywxOTk4NiwxODcxOCwzMTg4NSxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI2NDIsMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -6317,11 +6319,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-49">
   <summary class="sol-row">
-    <span class="sol-label">#49</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#49</span><span></span>
     <span class="num fitness" data-label="Fitness">1,916.8</span><span class="num" data-label="Spell damage">1,916.8</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de Miauvizor <span class="muted">3/3</span>, Set de Corrupción <span class="muted">2/3</span>, Set de Tentenhuevo <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">11</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxNDA5NCwyMjIwNSwzMjIzNCwyMjIwOSwxNzU3OCwyMTIyOSwzMjIzNiwxMzQ2NSxudWxsLDczOSw3NzU0LDE4MDQzLDEyNjkzLDEyNzE2LDEyNzQ3XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -6443,11 +6445,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-50">
   <summary class="sol-row">
-    <span class="sol-label">#50</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#50</span><span></span>
     <span class="num fitness" data-label="Fitness">1,915.7</span><span class="num" data-label="Spell damage">1,915.7</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de estrígido <span class="muted">3/3</span>, Set de maligilante <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNTQzOCwxNTQzOSwxNDA5NCwxNTE5MCwyNDAzNSwxNDA5NSwxNDA5NiwyMTIyOSwxODcwMCwzMzE2OSxudWxsLDY5NCw3MzksNzc1NCwxODA0MywxMjcxOSwxMzgyNV19" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -6569,11 +6571,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-51">
   <summary class="sol-row">
-    <span class="sol-label">#51</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#51</span><span></span>
     <span class="num fitness" data-label="Fitness">1,915.2</span><span class="num" data-label="Spell damage">1,915.2</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span>, Set de Tal Kasha <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">1</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxODU5MCwxODU5MSwxNDA5NCwxNDA5MiwxNTE5MCwyMDM2NSwxNDA5MywyMTIyOSwxODcxOCwzMTg4NSxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -6695,11 +6697,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-52">
   <summary class="sol-row">
-    <span class="sol-label">#52</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#52</span><span></span>
     <span class="num fitness" data-label="Fitness">1,907.8</span><span class="num" data-label="Spell damage">1,907.8</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span>, Set de Noai Aludem <span class="muted">2/3</span>, Set de Torkelonia <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwyMTIzMCwxNDA5MSwxMzY0MiwyNDAzNSwxNTY5OSwxNDA5MywyMTIyOSwxODcxOCwxMTAxNCxudWxsLDczOSw3NzU0LDE4MDQzLDEyNzE5LDEyNzI0LDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -6821,11 +6823,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-53">
   <summary class="sol-row">
-    <span class="sol-label">#53</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#53</span><span></span>
     <span class="num fitness" data-label="Fitness">1,902.8</span><span class="num" data-label="Spell damage">1,902.8</span>
     <span data-label="Weapon">Arco de vueloceronte</span>
     <span class="small" data-label="Sets">Set de vueloceronte <span class="muted">3/5</span>, Set de Miseria <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsyMDM1OSwzMjIzNywxOTk4NCwxNTE5MCwyMjE4NiwxOTk4MywyMjE4NywxOTk4NiwxODcxOCwzMTg4NSxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTM4MjQsMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -6947,11 +6949,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-54">
   <summary class="sol-row">
-    <span class="sol-label">#54</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#54</span><span></span>
     <span class="num fitness" data-label="Fitness">1,902.8</span><span class="num" data-label="Spell damage">1,902.8</span>
     <span data-label="Weapon">Pluma de Buhorado</span>
     <span class="small" data-label="Sets">Set criocrono <span class="muted">2/3</span>, Set de Cocuzko <span class="muted">2/2</span>, Set de Noai Aludem <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwxODU5MSwxNDA5MCwxNDA4OSwyMTIyMywxNTY5OSwxMzY0MywyMDM1NiwyMTIyNSwxMzY3MyxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -7073,11 +7075,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-55">
   <summary class="sol-row">
-    <span class="sol-label">#55</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#55</span><span></span>
     <span class="num fitness" data-label="Fitness">1,895.8</span><span class="num" data-label="Spell damage">1,895.8</span>
     <span data-label="Weapon">Pluma de Buhorado</span>
     <span class="small" data-label="Sets">Set de Noai Aludem <span class="muted">2/3</span>, Set de estrígido <span class="muted">2/3</span>, Set de kukoloide <span class="muted">2/4</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwxOTA3NiwxNDA5NCwxMzY0MiwxNDA5MiwxNDA5NSwxOTYxMCwyMDM1NiwxODcxOCwxMzQ2NSxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEyNzE0XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -7199,11 +7201,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-56">
   <summary class="sol-row">
-    <span class="sol-label">#56</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#56</span><span></span>
     <span class="num fitness" data-label="Fitness">1,895.8</span><span class="num" data-label="Spell damage">1,895.8</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span>, Set de Noai Aludem <span class="muted">2/3</span>, Set de Torkelonia <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwyMTIzMCwxNDA5MSwxMzY0MiwyNDAzNSwxNTY5OSwxNDA5MywyMTIyOSwxODcxOCwxMTAxNCxudWxsLDczOSw3NzU0LDE4MDQzLDEyNjk4LDEyNzI0LDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -7325,11 +7327,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-57">
   <summary class="sol-row">
-    <span class="sol-label">#57</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#57</span><span></span>
     <span class="num fitness" data-label="Fitness">1,894.5</span><span class="num" data-label="Spell damage">1,894.5</span>
     <span data-label="Weapon">Pluma de Buhorado</span>
     <span class="small" data-label="Sets">Set de Noai Aludem <span class="muted">2/3</span>, Set de estrígido <span class="muted">2/3</span>, Set de kukoloide <span class="muted">2/4</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">7</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwxOTA3NiwxNDA5NCwxMzY0MiwxNDA5MiwxNDA5NSwxOTYxMCwyMDM1NiwxODcxOCwxMzQ2NSxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MTQsMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -7451,11 +7453,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-58">
   <summary class="sol-row">
-    <span class="sol-label">#58</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#58</span><span></span>
     <span class="num fitness" data-label="Fitness">1,889.8</span><span class="num" data-label="Spell damage">1,889.8</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de kukoloide <span class="muted">3/4</span>, Set de Noai Aludem <span class="muted">2/3</span>, Set de Torkelonia <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwyMTIzMCwxNDA5MSwxMzY0MiwyNDAzNSwxNTY5OSwxNDA5MywyMTIyOSwxODcxOCwxMTAxNCxudWxsLDczOSw3NzU0LDE4MDQzLDEyNjk3LDEyNzI0LDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -7577,11 +7579,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-59">
   <summary class="sol-row">
-    <span class="sol-label">#59</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#59</span><span></span>
     <span class="num fitness" data-label="Fitness">1,888.0</span><span class="num" data-label="Spell damage">1,888.0</span>
     <span data-label="Weapon">Arco de vueloceronte</span>
     <span class="small" data-label="Sets">Set de vueloceronte <span class="muted">3/5</span>, Set de Miseria <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsyMDM1OSwzMjIzNywxOTk4NCwxNTE5MCwyMjE4NiwxOTk4MywyMjE4NywxOTk4NiwxODcxOCwzMTg4NSxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MjMsMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -7703,11 +7705,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-60">
   <summary class="sol-row">
-    <span class="sol-label">#60</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#60</span><span></span>
     <span class="num fitness" data-label="Fitness">1,887.4</span><span class="num" data-label="Spell damage">1,887.4</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set traicionero <span class="muted">3/3</span>, Set de Torkelonia <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNDA1MywyMTIzMCwxNTc0OSwxMzY0MiwxNDA1NCwxNDA5NSwxNDA1NiwyMTIyOSwxODcwMCwxMzQ2NSxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -7829,11 +7831,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-61">
   <summary class="sol-row">
-    <span class="sol-label">#61</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#61</span><span></span>
     <span class="num fitness" data-label="Fitness">1,886.0</span><span class="num" data-label="Spell damage">1,886.0</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de estrígido <span class="muted">3/3</span>, Set de maligilante <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNTQzOCwxNTQzOSwxNDA5NCwxNTE5MCwyNDAzNSwxNDA5NSwxNDA5NiwyMTIyOSwxODcwMCwzMzE2OSxudWxsLDY5NCw3MzksNzc1NCwxODA0MywxMjcxNCwxMjcxOV19" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -7955,11 +7957,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-62">
   <summary class="sol-row">
-    <span class="sol-label">#62</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#62</span><span></span>
     <span class="num fitness" data-label="Fitness">1,884.8</span><span class="num" data-label="Spell damage">1,884.8</span>
     <span data-label="Weapon">Arco de Tentenhuevo</span>
     <span class="small" data-label="Sets">Set de Tentenhuevo <span class="muted">3/3</span>, Set de Corrupción <span class="muted">2/3</span>, Set de Miauvizor <span class="muted">2/3</span>, Set de Wulán <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">12</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsyNDAzMCwxNzU4MCwyNDAyOSwyMjIwNSwzMjIzNCwyMjIwOSwxNzU3OCwzMjIzNSwzMjIzNiwxMzQ2NSxudWxsLDczOSw3NzU0LDE4MDQzLDEyNzE5LDEyNzI0LDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -8081,11 +8083,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-63">
   <summary class="sol-row">
-    <span class="sol-label">#63</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#63</span><span></span>
     <span class="num fitness" data-label="Fitness">1,883.0</span><span class="num" data-label="Spell damage">1,883.0</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set traicionero <span class="muted">3/3</span>, Set de la reina del azar <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">9</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNDA1MywxNzU3NywxNzU3NiwxMzY0MiwxNDA1NCwxNTY5OSwxNDA1NiwyMTIyOSwxODcwMCwzMDk1NyxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -8207,11 +8209,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-64">
   <summary class="sol-row">
-    <span class="sol-label">#64</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#64</span><span></span>
     <span class="num fitness" data-label="Fitness">1,878.7</span><span class="num" data-label="Spell damage">1,878.7</span>
     <span data-label="Weapon">Pluma de Buhorado</span>
     <span class="small" data-label="Sets">Set de Noai Aludem <span class="muted">2/3</span>, Set de estrígido <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwxOTA3NiwxNDA5NCwxMzY0MiwyNDAzNSwxNDA5NSwxOTYxMCwyMDM1NiwxODcxOCwxMzQ2NSxudWxsLDczOSw3MDQzLDc3NTQsMTgwNDMsMTI3MTQsMTM4MjVdfQ" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -8333,11 +8335,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-65">
   <summary class="sol-row">
-    <span class="sol-label">#65</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#65</span><span></span>
     <span class="num fitness" data-label="Fitness">1,877.4</span><span class="num" data-label="Spell damage">1,877.4</span>
     <span data-label="Weapon">Varita de Torkelonia</span>
     <span class="small" data-label="Sets">Set de estrígido <span class="muted">3/3</span>, Set de maligilante <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNTQzOCwxNTQzOSwxNDA5NCwxNTE5MCwyNDAzNSwxNDA5NSwxNDA5NiwyMTIyOSwxODcwMCwzMzE2NyxudWxsLDY5NCw3MzksNzc1NCwxODA0MywxMjcxNCwxMjcxOV19" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -8459,11 +8461,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-66">
   <summary class="sol-row">
-    <span class="sol-label">#66</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#66</span><span></span>
     <span class="num fitness" data-label="Fitness">1,874.8</span><span class="num" data-label="Spell damage">1,874.8</span>
     <span data-label="Weapon">Arco de vueloceronte</span>
     <span class="small" data-label="Sets">Set de vueloceronte <span class="muted">3/5</span>, Set de Miseria <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">8</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsyMDM1OSwxODU5MSwxOTk4NCwxNTE5MCwyMjE4NiwxOTk4MywyMjE4NywxOTk4NiwxODcxOCwzMTg4NSxudWxsLDczOSw3NzU0LDE4MDQzLDEyNzE2LDEzODI0LDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>
@@ -8585,11 +8587,11 @@ a.ext { float: right; font-size: 13px; font-weight: 500; }
 </details>
 <details class="solution" id="sol-67">
   <summary class="sol-row">
-    <span class="sol-label">#67</span><span><span class="badge ok">All targets met</span></span>
+    <span class="sol-label">#67</span><span></span>
     <span class="num fitness" data-label="Fitness">1,874.4</span><span class="num" data-label="Spell damage">1,874.4</span>
     <span data-label="Weapon">Yaularco</span>
     <span class="small" data-label="Sets">Set de Cocuzko <span class="muted">2/2</span>, Set de Miauvizor <span class="muted">2/3</span>, Set de Noai Aludem <span class="muted">2/3</span></span>
-    <span class="num" data-label="Targets met">10/10</span>
+    <span class="num met-ok" data-label="Targets met">10/10</span>
     <span class="num" data-label="Items ≠ best">10</span>
     <span><a href="https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiY3JhIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwzMTc4OSwxMzY0MiwyMTIyMywxNDA4MSwxMzY0MywyNzY0NCwyMTIyNSwzMzA3NSxudWxsLDY5NCw3MzksNzA0Myw3NzU0LDE4MDQzLDEzODI1XX0" target="_blank" rel="noopener">Open ↗</a></span>
   </summary>

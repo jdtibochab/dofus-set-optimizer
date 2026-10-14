@@ -40,9 +40,8 @@ _key_to_id = {
 steal_damages = [224, 203, 193, 221, 223, 257]
 
 heals_mapper = {
-    278: 45, # Neutral
+    278: -1, # Neutral can be maged to any element
     261: 13, # Fire
-    
 }
 
 damage_mapper = {

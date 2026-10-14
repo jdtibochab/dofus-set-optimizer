@@ -1,4 +1,4 @@
-from utils import damage_mapper, bonus_damage_mapper, elements, steal_damages
+from utils import damage_mapper, heals_mapper, bonus_damage_mapper, elements, steal_damages
 from utils import get_item_contribution, get_set_contribution, get_item_set
 import pandas as pd
 
@@ -144,6 +144,12 @@ class Chromosome(object):
             return self.are_nested_conditions_met(conditions)
     
     def _implement_element_effects(self, totals):
+        """
+        Implement the effects of various elements on the character's totals.
+
+        Args:
+            totals (dict): The current totals of the character's stats.
+        """
         # Prospecting adds 1 point per 10 chance
         prospecting = totals.get(25,0) + totals.get(22,0)//10
         totals[25] = prospecting
@@ -174,25 +180,48 @@ class Chromosome(object):
                 self.set_contributions]).sum(axis=0).to_dict()
         self._implement_element_effects(totals)
         return totals
+
+    def _get_best_characteristic(self, pick_from=None):
+        """
+        Determine the best characteristic based on the character's stats.
+
+        Returns:
+            int: The characteristic ID with the highest corresponding stat.
+        """
+        if pick_from is None:
+            pick_from = elements
+        return max(pick_from, key=lambda s: self.totals.get(s, 0))
+
     
-    def get_weapon_damage(self, weapon, type):
+    def get_weapon_hits(self, weapon, type):
+        """
+        Get the weapon damage contributions based on the weapon's effects and the specified type.
+
+        Args:
+            weapon (dict): The weapon data containing its effects.
+            type (str): The type of damage to consider ("steal" or other types).
+
+        Returns:
+            dict: A dictionary mapping element IDs to their corresponding damage values.
+        """
         if not weapon["effects"]:
-            return {}
+            return []
         damage_effects = [d for d in weapon["effects"] if d["active"]]
         if not damage_effects:
-            return {}
-        contributions = {}
+            return []
+        contributions = []
         for d in damage_effects:
             field = "max" if d["min_max_irrelevant"] == 0 else "min"
             element_id = d["element_id"]
             if type == "steal" and element_id not in steal_damages:
                 continue
+            if type == "heals" and element_id not in heals_mapper:
+                continue
             if element_id == 248 or element_id == 257: # Best element flag
-                stats = {i:v for i,v in self.totals.items() if i in damage_mapper.values()}
-                best_stat = sorted(stats,key=lambda x: stats[x])[-1]
-                # Get the element with highest stat
-                element_id = next(d for d,s in damage_mapper.items() if s == best_stat)
-            contributions[element_id] = d[field]
+                # Determine the best element based on the character's stats
+                best_characteristic = self._get_best_characteristic(pick_from=elements)
+                element_id = next(d for d,s in damage_mapper.items() if s == best_characteristic)
+            contributions.append((element_id, d[field]))
         return contributions
 
     def get_final_damage(self, type):
@@ -214,7 +243,7 @@ class Chromosome(object):
         if type == "weapon" or type == "steal":
             if self.weapon is None:
                 return 0
-            dct_damage = self.get_weapon_damage(self.weapon, type=type)
+            dct_damage = self.get_weapon_hits(self.weapon, type=type)
             crit_bonus = self.weapon["criticalHitBonus"] \
                 if not pd.isna(self.weapon["criticalHitBonus"]) else 0
             crit_chance = self.weapon["criticalHitProbability"] \
@@ -227,7 +256,7 @@ class Chromosome(object):
             crit_bonus = 20 / number_of_elements # Default crit bonus
             crit_chance = 5 # Default spell crit chance
 
-            dct_damage = {}
+            dct_damage = []
             seen_stats = []
             for element_id, stat in damage_mapper.items():
                 if stat in seen_stats:
@@ -236,7 +265,7 @@ class Chromosome(object):
                 seen_stats.append(stat)
                 if stat not in self.elements:
                     continue
-                dct_damage[element_id] = spell_damage
+                dct_damage.append((element_id, spell_damage))
 
         # Critical hit logic
         if 29 in self.optimizer.config.get("preferences",{}).get("lower"):
@@ -251,7 +280,8 @@ class Chromosome(object):
 
         # Calculate total damage
         damage = 0
-        for element_id,weapon_base_damage in dct_damage.items():
+        for hit in dct_damage:
+            element_id, weapon_base_damage = hit
             # Get the stat and base damage
             if element_id not in damage_mapper:
                 continue
@@ -389,10 +419,31 @@ class Chromosome(object):
         Get the total healing for the chromosome.
         The healing is calculated as the sum of all healing-related stats.
         """
-        heals_base = 15
-        heals_bonus = self.totals.get(121, 0)
-        inteligence = self.totals.get(13, 0)
-        return heals_base * (inteligence + 100) / 100 + heals_bonus
+        dct_heals = self.get_weapon_hits(self.weapon, type="heals")
+
+        # Calculate total healing
+        healing = 0
+        for hit in dct_heals:
+            element_id, weapon_base_healing = hit
+            if element_id not in self.elements:
+                # Skip elements that are not part of the chromosome's elements
+                continue
+            char = heals_mapper[element_id]
+            if char == -1: # Neutral healing, which can be maged to any element
+                if len(self.elements) != 1:
+                    # Select the best element when multiple elements are present
+                    char = self._get_best_characteristic(pick_from=self.elements)
+                else:
+                    char = self.elements[0]
+
+            # Get the base stat for the healing calculation
+            char_base = self.totals.get(char,0)
+
+            # Get the added bonus healing from the stat
+            added_bonus = self.totals.get(121, 0)
+            heal = (weapon_base_healing) * (1+(char_base)/100) + added_bonus
+            healing += heal
+        return healing
     
     def get_fitness(self):
         """

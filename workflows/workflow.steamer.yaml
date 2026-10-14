@@ -22,7 +22,7 @@ env:
     INCLUSIONS: "7754 6980 25222 32118" # Dofus inclusions
 
     # Damage elements to optimize for (agi, str, cha, int); characteristic points are split evenly across them
-    ELEMENTS: "int"
+    ELEMENTS: $(ELEMENTS)
     # "true" allows melee weapons
     MELEE: $(MELEE)
     # "true" allows ranged weapons

@@ -2,11 +2,7 @@
 
 **Goal**: Provide an open-source Dofus set optimizer.
 
-**Value**: Compared to other optimizers, this repo allows you to run optimization parameter sweeps, and the reports allow you to consider sets that might be slightly suboptimal but greatly improve non-objective values.
-
-This is a fun project I developed in my free time that I used to learn Genetic Algorithm optimization in large phase spaces. I spent some extra time updating it with new code, but this is not a fully-fledged user-friendly codebase. That said, a programming-savvy Dofus enthusiast should be able to optimize their set using this code. You can use the python script in `scripts/main.py` to run it (see usage below), or the Maestro workflows in `worklows/`. If using Maestro, be sure to check their documentation first.
-
-Feel free to contribute!
+**Value**: Compared to other optimizers, this repo allows you to run optimization parameter sweeps, for example: you want to maximize either weapon or spell damage with a minimum of either 5 or 6 MP (this gives 2x2 = 4 combinations of optimization parameters). Also, the reports allow you to consider sets that might be slightly suboptimal but greatly improve non-objective values.
 
 ## Description of this repo
 This repo contains a genetic-algorithm optimizer that searches the full Dofus 3 item database for the equipment set that maximizes one or more objectives (weapon damage, spell damage, steal damage, push damage or healing, summed when combined) for a given character, while softly enforcing stat targets such as AP, MP, vitality, resistances, crit, lock, initiative, push damage or a minimum heal bonus.

@@ -96,20 +96,40 @@ th.stat-name, td.stat-name { white-space: nowrap; position: sticky; left: 0; bac
 th.stat-name { background: var(--surface-2); }
 td.ok { color: var(--ok); background: var(--ok-bg); }
 td.bad { color: var(--bad); background: var(--bad-bg); font-weight: 600; }
-tr.is-best td { font-weight: 600; }
+td.top { font-weight: 700; }
+tr.objective td.stat-name, tr.objective td.top { color: var(--accent); }
+tr.objective td.stat-name { font-weight: 600; }
+tr.group-end td { border-bottom: 2px solid var(--muted); }
 .icon { width: 32px; height: 32px; object-fit: contain; display: block; }
-details.solution { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; margin: 0 0 12px; }
-details.solution > summary {
-  list-style: none; cursor: pointer; padding: 14px 16px; display: flex;
-  flex-wrap: wrap; align-items: center; gap: 8px 14px;
+.sol-list { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.sol-row {
+  display: grid; grid-template-columns: var(--sol-cols); gap: 12px; align-items: center;
+  padding: 8px 14px; border-bottom: 1px solid var(--border);
 }
+.sol-row > .num { text-align: right; font-variant-numeric: tabular-nums; }
+.sol-head { font-size: 12px; color: var(--muted); font-weight: 600; background: var(--surface-2); }
+details.solution:last-child > summary { border-bottom: none; }
+details.solution > summary { list-style: none; cursor: pointer; }
+details.solution > summary:hover { background: var(--surface-2); }
 details.solution > summary::-webkit-details-marker { display: none; }
-details.solution > summary::before { content: "▸"; color: var(--muted); }
-details.solution[open] > summary::before { content: "▾"; }
-details.solution[open] > summary { border-bottom: 1px solid var(--border); }
-.sol-body { padding: 16px; display: grid; gap: 16px; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); }
-@media (max-width: 860px) { .sol-body { grid-template-columns: minmax(0, 1fr); } }
-.fitness { font-size: 18px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.sol-label { font-weight: 600; white-space: nowrap; }
+.sol-label::before { content: "▸"; color: var(--muted); display: inline-block; width: 1.1em; }
+details.solution[open] .sol-label::before { content: "▾"; }
+details.solution.is-best > summary { font-weight: 600; }
+details.solution[open] { box-shadow: inset 3px 0 0 var(--accent); }
+details.solution[open] > summary { background: var(--accent-bg); }
+.sol-body { padding: 16px; display: grid; gap: 16px; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+  border-bottom: 1px solid var(--border); background: var(--bg); }
+details.solution:last-child .sol-body { border-bottom: none; }
+@media (max-width: 860px) {
+  .sol-body { grid-template-columns: minmax(0, 1fr); }
+  .sol-row { display: flex; flex-wrap: wrap; gap: 4px 14px; }
+  .sol-row.sol-head { display: none; }
+  .sol-row > .num { text-align: left; }
+  .sol-row [data-label]::before { content: attr(data-label) ": "; color: var(--muted); font-size: 12px; font-weight: 400; }
+}
+@media (max-width: 600px) { .wide-only { display: none; } }
+.fitness { font-weight: 700; font-variant-numeric: tabular-nums; }
 .stat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 8px; }
 .stat { background: var(--surface-2); border-radius: 6px; padding: 6px 10px; }
 .stat .label { font-size: 11px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -324,45 +344,61 @@ def _label(index, has_reference):
     return f"#{index + 1}"
 
 
-def _render_overview(data, ctx, has_reference, best):
-    score_heads = "".join(f'<th class="num">{_esc(ctx.objective_label(o))}</th>' for o in ctx.objectives)
-    rows = []
-    for idx, d in enumerate(data):
-        cls, text = d["status"]
-        badges = f'<span class="badge {cls}">{_esc(text)}</span>'
-        if has_reference and idx == 0:
-            badges += ' <span class="badge ref">Reference</span>'
-        if idx == best:
-            badges += ' <span class="badge best">Best</span>'
-        scores = "".join(f'<td class="num">{_fmt(d["scores"].get(o))}</td>' for o in ctx.objectives)
-        met = sum(r["met"] for r in d["requirements"])
-        sets = ", ".join(f'{_esc(s["name"])} <span class="muted">{s["worn"]}/{s["total"]}</span>'
-                         for s in d["sets"] if s["worn"] >= 2)
-        weapon = _esc(ctx.name(d["weapon"])) if d["weapon"] else '<span class="muted">none</span>'
-        diff = len(set(d["ids"]) ^ set(data[best]["ids"])) // 2 if best is not None else 0
-        rows.append(f"""
-<tr class="{'is-best' if idx == best else ''}">
-  <td><a href="#sol-{idx}">{_label(idx, has_reference)}</a></td><td>{badges}</td>
-  <td class="num">{_fmt(d["fitness"])}</td>{scores}
-  <td>{weapon}</td><td class="small">{sets or '<span class="muted">—</span>'}</td>
-  <td class="num">{met}/{len(d["requirements"])}</td>
-  <td class="num">{'—' if idx == best else diff}</td>
-  <td><a href="{_esc(d["dofus_forge"])}" target="_blank" rel="noopener">Open ↗</a></td>
-</tr>""")
+def _badges(idx, d, has_reference, best):
+    cls, text = d["status"]
+    badges = f'<span class="badge {cls}">{_esc(text)}</span>'
+    if has_reference and idx == 0:
+        badges += ' <span class="badge ref">Reference</span>'
+    if idx == best:
+        badges += ' <span class="badge best">Best</span>'
+    return badges
+
+
+def _render_solutions(data, ctx, has_reference, best):
+    """One expandable row per set: the summary line holds the comparison columns, the body the details."""
+    best_ids = set(data[best]["ids"]) if best is not None else None
+    columns = ["5.5rem", "minmax(9rem, auto)", "5.5rem"] + ["6.5rem"] * len(ctx.objectives) + \
+        ["minmax(8rem, 1fr)", "minmax(10rem, 1.6fr)", "4.5rem", "4.5rem", "4.5rem"]
+    score_heads = "".join(f'<span class="num">{_esc(ctx.objective_label(o))}</span>' for o in ctx.objectives)
+    rows = "".join(_render_solution(i, d, ctx, has_reference, best,
+                                    None if i == best else best_ids, data)
+                   for i, d in enumerate(data))
     return f"""
 <h2>Solutions</h2>
-<div class="scroll"><table>
-  <thead><tr><th>Set</th><th>Status</th><th class="num">Fitness</th>{score_heads}
-  <th>Weapon</th><th>Set bonuses (≥ 2 pieces)</th><th class="num">Targets met</th><th class="num">Items ≠ best</th><th>Dofus Forge</th></tr></thead>
-  <tbody>{"".join(rows)}</tbody>
-</table></div>"""
+<p class="muted small">Click a set to see its items, set bonuses and stats.</p>
+<div class="sol-list" style="--sol-cols: {' '.join(columns)}">
+  <div class="sol-row sol-head"><span>Set</span><span>Status</span><span class="num">Fitness</span>{score_heads}
+    <span>Weapon</span><span>Set bonuses (≥ 2 pieces)</span><span class="num">Targets met</span>
+    <span class="num">Items ≠ best</span><span>Dofus Forge</span></div>
+  {rows}
+</div>
+<script>
+function openTarget() {{
+  var el = document.getElementById(location.hash.slice(1));
+  if (el && el.tagName === "DETAILS") el.open = true;
+}}
+addEventListener("hashchange", openTarget);
+openTarget();
+</script>"""
 
 
 def _render_requirements_matrix(data, ctx, has_reference):
-    if not ctx.requirements:
-        return ""
     heads = "".join(f'<th class="num"><a href="#sol-{i}">{_label(i, has_reference)}</a></th>' for i in range(len(data)))
     rows = []
+
+    # Damage and healing: no target, so the highest value of each row is bolded instead
+    for m_idx, (label, _, key) in enumerate(data[0]["metrics"]):
+        values = [d["metrics"][m_idx][1] for d in data]
+        top = max(values)
+        cells = "".join(f'<td class="num{" top" if v == top and top else ""}">{_fmt(v)}</td>' for v in values)
+        objective = " objective" if key in ctx.objectives else ""
+        rows.append(f'<tr class="metric{objective}"><td class="stat-name">{_esc(label)}</td>'
+                    f'<td class="num muted">—</td>{cells}</tr>')
+    cells = "".join(f'<td class="num">{d["weapon"]["apCost"]} / {d["weapon"]["maxCastPerTurn"]}</td>' if d["weapon"]
+                    else '<td class="num muted">—</td>' for d in data)
+    rows.append(f'<tr class="metric group-end"><td class="stat-name">Weapon AP / casts</td>'
+                f'<td class="num muted">—</td>{cells}</tr>')
+
     for r_idx, (bound, stat, target) in enumerate(ctx.requirements):
         cells = []
         for d in data:
@@ -373,22 +409,23 @@ def _render_requirements_matrix(data, ctx, has_reference):
         rows.append(f"<tr><td class=\"stat-name\">{_esc(ctx.stat_label(stat))}</td>"
                     f"<td class=\"num muted\">{'≥' if bound == 'lower' else '≤'} {_fmt(target)}</td>{''.join(cells)}</tr>")
     return f"""
-<h2>Requirements by solution</h2>
+<h2 id="by-solution">Damage and requirements by solution</h2>
 <div class="scroll"><table>
   <thead><tr><th class="stat-name">Stat</th><th class="num">Target</th>{heads}</tr></thead>
   <tbody>{"".join(rows)}</tbody>
 </table></div>"""
 
 
-def _render_solution(idx, d, ctx, has_reference, best, best_ids):
+def _render_solution(idx, d, ctx, has_reference, best, best_ids, data):
     chromosome = d["chromosome"]
-    cls, text = d["status"]
-    badges = f'<span class="badge {cls}">{_esc(text)}</span>'
-    if has_reference and idx == 0:
-        badges += ' <span class="badge ref">Reference</span>'
-    if idx == best:
-        badges += ' <span class="badge best">Best</span>'
-    weapon = _esc(ctx.name(d["weapon"])) if d["weapon"] else "no weapon"
+    badges = _badges(idx, d, has_reference, best)
+    weapon = _esc(ctx.name(d["weapon"])) if d["weapon"] else '<span class="muted">none</span>'
+    scores = "".join(f'<span class="num" data-label="{_esc(ctx.objective_label(o))}">{_fmt(d["scores"].get(o))}</span>'
+                     for o in ctx.objectives)
+    met = sum(r["met"] for r in d["requirements"])
+    bonus_sets = ", ".join(f'{_esc(s["name"])} <span class="muted">{s["worn"]}/{s["total"]}</span>'
+                           for s in d["sets"] if s["worn"] >= 2)
+    diff = len(set(d["ids"]) ^ set(data[best]["ids"])) // 2 if best is not None else 0
 
     # Items in slot order
     item_rows = []
@@ -405,8 +442,8 @@ def _render_solution(idx, d, ctx, has_reference, best, best_ids):
 <tr class="{'diff' if differs else ''}">
   <td>{icon}</td><td class="small muted">{_esc(item["type"]["name"].get(ctx.language, ""))}</td>
   <td>{_esc(ctx.name(item))} {" ".join(tags)}</td>
-  <td class="small muted">{_esc(ctx.name(item_set)) if item_set else ""}</td>
-  <td class="num small">{item["level"]}</td><td class="num small muted">{item["ankama_id"]}</td>
+  <td class="small muted wide-only">{_esc(ctx.name(item_set)) if item_set else ""}</td>
+  <td class="num small">{item["level"]}</td><td class="num small muted wide-only">{item["ankama_id"]}</td>
 </tr>""")
 
     # Objectives and other damage numbers
@@ -448,9 +485,16 @@ def _render_solution(idx, d, ctx, has_reference, best, best_ids):
         if k not in _HIDDEN_STATS and v)
 
     return f"""
-<details class="solution" id="sol-{idx}"{" open" if idx == best else ""}>
-  <summary><strong>{_label(idx, has_reference)}</strong> {badges}
-    <span class="fitness">{_fmt(d["fitness"])}</span><span class="muted">fitness · {weapon}</span></summary>
+<details class="solution{" is-best" if idx == best else ""}" id="sol-{idx}"{" open" if idx == best else ""}>
+  <summary class="sol-row">
+    <span class="sol-label">{_label(idx, has_reference)}</span><span>{badges}</span>
+    <span class="num fitness" data-label="Fitness">{_fmt(d["fitness"])}</span>{scores}
+    <span data-label="Weapon">{weapon}</span>
+    <span class="small" data-label="Sets">{bonus_sets or '<span class="muted">—</span>'}</span>
+    <span class="num" data-label="Targets met">{met}/{len(d["requirements"])}</span>
+    <span class="num" data-label="Items ≠ best">{'—' if idx == best else diff}</span>
+    <span><a href="{_esc(d["dofus_forge"])}" target="_blank" rel="noopener">Open ↗</a></span>
+  </summary>
   <div class="sol-body">
     <div class="stack">
       <div class="card"><h3>Items <a class="ext" href="{_esc(d["dofus_forge"])}" target="_blank" rel="noopener">Open in Dofus Forge ↗</a></h3>
@@ -507,15 +551,11 @@ def build_report(optimizer, solutions, has_reference=False, title=None):
 
     candidates = [i for i in range(len(data)) if not (has_reference and i == 0)]
     best = max(candidates, key=lambda i: data[i]["fitness"]) if candidates else None
-    best_ids = set(data[best]["ids"]) if best is not None else None
 
     if data:
         body = (_render_header(ctx, title, solutions, has_reference) + _render_setup(ctx)
-                + _render_overview(data, ctx, has_reference, best)
+                + _render_solutions(data, ctx, has_reference, best)
                 + _render_requirements_matrix(data, ctx, has_reference)
-                + "<h2>Set details</h2>"
-                + "".join(_render_solution(i, d, ctx, has_reference, best, None if i == best else best_ids)
-                          for i, d in enumerate(data))
                 + _render_plots(path))
     else:
         body = _render_header(ctx, title, solutions, has_reference) + _render_setup(ctx) + \

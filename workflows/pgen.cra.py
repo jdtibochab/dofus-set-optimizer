@@ -1,7 +1,7 @@
 from maestrowf.datastructures.core import ParameterGenerator
 
-MP = [5]
-OBJECTIVE = ["elements"]
+MP = [5, 6]
+OBJECTIVE = ["elements", "weapon"]
 # ELEMENTS = ["agi int", "str cha", "agi str", "str int", "agi int str cha"]
 ELEMENTS = ["agi int str cha"]
 

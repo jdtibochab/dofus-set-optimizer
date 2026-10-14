@@ -164,7 +164,7 @@ Each run writes to `--path`:
 | `pca.png` | PCA of the candidates' stat totals, colored by fitness, with the top stat loadings drawn as arrows. Shows how different the good sets are from each other. |
 | `generations.png` | Best fitness per generation for each island, to check convergence. |
 
-To build `report.html` for runs made before this existed, or to compare a whole Maestro study, pass run directories or a study directory. A study gets an extra `index.html` listing every run's best set:
+To build `report.html` for runs made before this existed, or to compare a whole Maestro study, pass run directories or a study directory. A study gets an extra `index.html` listing every run's best set. For a Maestro parameter sweep, each run is shown by its parameter values (one column per swept parameter, read from the study's `meta/parameters.yaml`) instead of its folder name:
 
 ```bash
 python scripts/html_report.py workflows/report-cra_20261008-175406

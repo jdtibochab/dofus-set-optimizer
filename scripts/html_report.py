@@ -15,6 +15,8 @@ import os
 import re
 from datetime import datetime
 
+import yaml
+
 from dofus_forge import CLASSES as DOFUS_FORGE_CLASSES, chromosome_url
 from utils import get_set_contribution
 
@@ -99,6 +101,8 @@ th.stat-name { background: var(--surface-2); }
 td.ok { color: var(--ok); background: var(--ok-bg); }
 td.bad { color: var(--bad); background: var(--bad-bg); font-weight: 600; }
 td.top { font-weight: 700; }
+td.met-ok { color: var(--ok); font-weight: 600; }
+td.met-bad { color: var(--bad); font-weight: 600; }
 td.z-hi-1 { background: color-mix(in srgb, var(--z-hi) 14%, transparent); }
 td.z-hi-2 { background: color-mix(in srgb, var(--z-hi) 30%, transparent); }
 td.z-hi-3 { background: color-mix(in srgb, var(--z-hi) 50%, transparent); }
@@ -692,30 +696,96 @@ def _find_runs(root):
     return sorted(runs)
 
 
+class _MaestroLoader(yaml.SafeLoader):
+    """Safe YAML loader that also reads the OrderedDicts Maestro writes into meta/parameters.yaml."""
+
+
+_MaestroLoader.add_constructor("tag:yaml.org,2002:python/object/apply:collections.OrderedDict",
+                               lambda loader, node: loader.construct_sequence(node, deep=True))
+
+
+def _sweep_parameters(root):
+    """Map each run folder of a Maestro study to its swept parameters ({name: value}), or {} if unavailable."""
+    path = os.path.join(root, "meta", "parameters.yaml")
+    if not os.path.exists(path):
+        return {}
+    try:
+        with open(path) as file:
+            combos = yaml.load(file, Loader=_MaestroLoader) or {}
+    except yaml.YAMLError:
+        return {}
+    runs = {}
+    for combo in combos.values():
+        # Maestro names a run's folder after its sorted labels, with spaces replaced by underscores
+        labels = [str(label).replace(" ", "_") for _, label in combo["labels"][0]]
+        params = {name.strip("$()"): value for name, value in combo["params"].items()}
+        runs[".".join(sorted(labels))] = (labels, params)
+    return runs
+
+
+def _run_parameters(run_dir, sweep):
+    folder = os.path.basename(os.path.normpath(run_dir))
+    if folder in sweep:
+        return sweep[folder][1]
+    # Fall back to the run whose labels all appear in the folder name
+    for labels, params in sweep.values():
+        if all(label in folder for label in labels):
+            return params
+    return None
+
+
 def write_index(root, entries):
     """Write index.html in root, comparing the best set of every run below it."""
+    sweep = _sweep_parameters(root)
+    run_params = [_run_parameters(run_dir, sweep) for run_dir, _ in entries]
+    # A Maestro sweep gets one column per parameter instead of the run folder name
+    param_names = list(dict.fromkeys(k for p in run_params if p for k in p)) if all(run_params) else []
+    show_objective = "OBJECTIVE" not in param_names
+    show_elements = "ELEMENTS" not in param_names
+
     rows = []
-    for run_dir, summary in entries:
+    for (run_dir, summary), params in zip(entries, run_params):
         best = summary["best"]
         rel = os.path.relpath(run_dir, root)
+        link = _esc(os.path.join(rel, "report.html"))
+        if param_names:
+            run_cells = "".join(
+                f'<td class="{"num" if isinstance(params.get(k), (int, float)) else ""}">{_esc(params.get(k, "—"))}</td>'
+                for k in param_names)
+            run_cells += f'<td><a href="{link}" title="{_esc(rel)}">Open ↗</a></td>'
+        else:
+            run_cells = f'<td><a href="{link}">{_esc(rel)}</a></td>'
+        if show_objective:
+            run_cells += f'<td>{_esc(summary["objectives"])}</td>'
+        if show_elements:
+            run_cells += f'<td class="small">{_esc(summary["elements"])}</td>'
+
         if best:
             cls, text = best["status"]
-            weapon = _esc(summary["best_weapon"])
-            best_cells = f'<td class="num">{_fmt(best["fitness"])}</td><td><span class="badge {cls}">{_esc(text)}</span></td><td>{weapon}</td>'
+            met = sum(r["met"] for r in best["requirements"])
+            total = len(best["requirements"])
+            met_cls = ("ok" if met == total else "bad") if total else ""
+            status = f'<span class="badge bad">{_esc(text)}</span>' if cls == "bad" else ""
+            best_cells = (f'<td class="num">{_fmt(best["fitness"])}</td>'
+                          f'<td class="num met-{met_cls}">{met}/{total}</td><td>{status}</td>'
+                          f'<td>{_esc(summary["best_weapon"])}</td>')
         else:
-            best_cells = '<td class="num">—</td><td><span class="badge bad">No candidates</span></td><td></td>'
+            best_cells = '<td class="num">—</td><td class="num muted">—</td><td><span class="badge bad">No candidates</span></td><td></td>'
         ref = summary["reference"]
         ref_cell = f'<td class="num">{_fmt(ref["fitness"])}</td>' if ref else '<td class="num muted">—</td>'
-        rows.append(f"""
-<tr><td><a href="{_esc(os.path.join(rel, 'report.html'))}">{_esc(rel)}</a></td>
-<td>{_esc(summary["objectives"])}</td><td class="small">{_esc(summary["elements"])}</td>
-{best_cells}{ref_cell}<td class="num">{summary["candidates"]}</td></tr>""")
+        rows.append(f"<tr>{run_cells}{best_cells}{ref_cell}<td class=\"num\">{summary['candidates']}</td></tr>")
+
+    if param_names:
+        heads = "".join(f"<th>{_esc(k)}</th>" for k in param_names) + "<th>Report</th>"
+    else:
+        heads = "<th>Run</th>"
+    heads += ("<th>Objective</th>" if show_objective else "") + ("<th>Elements</th>" if show_elements else "")
     title = os.path.basename(os.path.normpath(root))
     body = f"""
 <header><h1>{_esc(title)}</h1><div class="muted small">{len(entries)} run{"s" if len(entries) != 1 else ""} · generated {datetime.now().strftime("%Y-%m-%d %H:%M")}</div></header>
 <h2>Runs</h2>
 <div class="scroll"><table>
-<thead><tr><th>Run</th><th>Objective</th><th>Elements</th><th class="num">Best fitness</th><th>Best status</th>
+<thead><tr>{heads}<th class="num">Best fitness</th><th class="num">Targets met</th><th>Problems</th>
 <th>Best weapon</th><th class="num">Reference fitness</th><th class="num">Candidates</th></tr></thead>
 <tbody>{"".join(rows)}</tbody></table></div>"""
     with open(os.path.join(root, "index.html"), "w", encoding="utf-8") as file:

@@ -14,7 +14,9 @@ maestro status report-steamer_*                      # check progress
 
 `workflow.cra.yaml` and `workflow.steamer.yaml` take some variables (`$(OBJECTIVE)`, `$(MP)`, `$(HEALS)`, ...) from their `pgen.<build>.py` parameter generator, which runs one study step per combination of the lists defined at its top. Edit those lists to sweep settings; the launch command is also in each spec's `description`.
 
-Each run creates `workflows/report-<name>_<YYYYMMDD-HHMMSS>/`; the optimizer outputs (`report.txt`, `summary.csv`, `pca.png`, `generations.png`, `config.json`) are in its `run_training/` subdirectory, alongside the step's stdout/stderr (`run_training.<pid>.out/.err`).
+Each run creates `workflows/report-<name>_<YYYYMMDD-HHMMSS>/`. The optimizer outputs (`report.html`, `report.txt`, `summary.csv`, `pca.png`, `generations.png`, `config.json`) are in its `run_optimization/` subdirectory, alongside the step's stdout/stderr (`run_optimization.<pid>.out/.err`). With a parameter generator there is one `run_optimization/<params>/` folder per combination.
+
+Once every optimization has finished, an `html_report` step writes `index.html` at the top of the study folder: one row per run with its parameter values, best fitness, targets met, best weapon and a link to the run's `report.html`. Open it to compare the runs of a sweep. It also rebuilds each run's `report.html`, so the reports always match the current report code.
 
 ### Included builds
 
@@ -74,4 +76,4 @@ env:
     LANGUAGE: "en"              # en, es, fr, de or pt
 ```
 
-Keep the `batch` and `study` sections unchanged: the single `run_training` step `cd`s to `REPO_ROOT`, turns these variables into CLI flags (boolean variables add their flag when `"true"`, list variables are skipped when `"none"`), and calls `scripts/main.py` with `--path $(WORKSPACE)`. Every variable referenced in the step must be defined in the spec. The specs use `batch: type: local`; switching to a scheduler such as SLURM is a matter of changing the `batch` block per the Maestro docs.
+Keep the `batch` and `study` sections unchanged. The `run_optimization` step `cd`s to `REPO_ROOT`, turns these variables into CLI flags (boolean variables add their flag when `"true"`, list variables are skipped when `"none"`), and calls `scripts/main.py` with `--path $(WORKSPACE)`. The `html_report` step depends on `run_optimization_*`, so it runs once after every parameter combination has finished, and calls `scripts/html_report.py $(OUTPUT_PATH)` on the whole study. Every variable referenced in the step must be defined in the spec. The specs use `batch: type: local`; switching to a scheduler such as SLURM is a matter of changing the `batch` block per the Maestro docs.

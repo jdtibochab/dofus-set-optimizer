@@ -14,7 +14,7 @@ All three are level 200, fully scrolled characters at 12 AP with 16 islands × 3
 
 | Path | Content |
 | --- | --- |
-| `workflow.<name>.yaml` | The exact Maestro spec used for the run (identical to the one in [workflows/](../workflows/)). |
+| `workflow.<name>.yaml` | The exact Maestro spec used for the run. The copy in [workflows/](../workflows/) has since gained an `html_report` step that builds the reports and study index automatically. |
 | `pgen.<name>.py` | Parameter generator that fills `$(OBJECTIVE)`, `$(MP)`, etc. (not used by tank-agi). |
 | `run_optimization/<params>/` | The optimizer outputs. With a pgen, the subfolder name encodes its parameters (e.g. `HEALS.200.MELEE.true.MP.6.OBJ.elements`); tank-agi has no pgen, so its outputs sit directly in `run_optimization/`. |
 | `.../report.html` | The report to start with: setup, a list of all candidate sets with the best one marked (click a row to see its items and stats), and a table comparing every set's damage, healing and targets. Each set has an "Open in Dofus Forge" link. Open it in a browser. |

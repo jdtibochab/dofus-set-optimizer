@@ -18,7 +18,7 @@ from datetime import datetime
 import yaml
 
 from dofus_forge import CLASSES as DOFUS_FORGE_CLASSES, chromosome_url
-from utils import get_set_contribution
+from utils import get_set_contribution, normalize_objectives
 
 # Stats shown in the key stats grid, in display order
 _KEY_STATS = [12, 8, 31, 9, 10, 32, 29, 24, 26, 59]
@@ -37,7 +37,8 @@ _OBJECTIVE_LABELS = {
     "elements": "Spell damage",
     "steal": "Steal damage",
     "push": "Push damage",
-    "heals": "Healing",
+    "spell-heals": "Spell healing",
+    "weapon-heals": "Weapon healing",
 }
 
 _CSS = """
@@ -190,9 +191,7 @@ class _Context:
         self.config = optimizer.config
         self.language = self.config.get("language", "en")
         self.descriptions = optimizer.effect_descriptions
-        self.objectives = self.config["objective"]
-        if not isinstance(self.objectives, list):
-            self.objectives = [self.objectives]
+        self.objectives = normalize_objectives(self.config["objective"])
         self.requirements = []
         for bound_type, preferences in self.config.get("preferences", {}).items():
             for stat, preference in preferences.items():
@@ -208,7 +207,7 @@ class _Context:
 
     def objective_label(self, objective):
         label = _OBJECTIVE_LABELS.get(objective, self.stat_label(objective) if isinstance(objective, int) else str(objective))
-        if objective in ("weapon", "steal") and self.config.get("normalize_by_apcost", True):
+        if objective in ("weapon", "steal", "weapon-heals") and self.config.get("normalize_by_apcost", True):
             label += " / AP"
         return label
 
@@ -270,7 +269,8 @@ def _solution_data(chromosome, ctx):
             ("Weapon damage", chromosome.get_final_damage(type="weapon"), "weapon"),
             ("Spell damage", chromosome.get_final_damage(type="elements"), "elements"),
             ("Push damage", chromosome.get_push_damage(), "push"),
-            ("Healing", chromosome.get_healing(), "heals"),
+            ("Spell healing", chromosome.get_spell_healing(), "spell-heals"),
+            ("Weapon healing", chromosome.get_weapon_healing(), "weapon-heals"),
         ],
         "weapon": weapon,
         "requirements": requirements,

@@ -30,10 +30,13 @@ Once every optimization has finished, an `html_report` step writes `index.html` 
 
 ### Heal optimization
 
-Two ways to bring healing into a workflow:
+Three ways to bring healing into a workflow:
 
-- **Maximize healing:** set `OBJECTIVE: "heals"` (alone, or combined such as `"elements heals"`) and `ELEMENTS: "int"`. The score is `15 × (1 + Intelligence / 100) + Heals bonus`.
-- **Require a minimum heal bonus:** keep your damage objective and set `HEALS` to the minimum flat Heals bonus; sets below it are penalized like any other stat target. `pgen.steamer.py` does this, zipping each entry of `OBJECTIVE` with the matching entry of `HEALS` (e.g. `OBJECTIVE = ["elements", "heals"]`, `HEALS = [200, 0]` runs a damage build with ≥ 200 Heals and a pure healer).
+- **Maximize spell healing:** set `OBJECTIVE: "spell-heals"` (alone, or combined such as `"elements spell-heals"`). It is the healing counterpart of `elements`: 15 base healing split across `ELEMENTS`, each part scaled by its characteristic plus the Heals bonus. With `ELEMENTS: "int"` the score is `15 × (1 + Intelligence / 100) + Heals`.
+- **Maximize weapon healing:** set `OBJECTIVE: "weapon-heals"`, the healing counterpart of `weapon`. Every heal line of the weapon scales with its element's characteristic and gets the Heals bonus; neutral heals are assumed converted with a forgemagic éclat to the best element in `ELEMENTS`. With `NORMALIZE_BY_APCOST: "true"` it is divided by the weapon's AP cost. Force a heal weapon with `INCLUSIONS` (e.g. the Possessed Hammer, 25222) or let the optimizer pick one.
+- **Require a minimum heal bonus:** keep your damage objective and set `HEALS` to the minimum flat Heals bonus; sets below it are penalized like any other stat target. `pgen.steamer.py` does this, zipping each entry of `OBJECTIVE` with the matching entry of `HEALS` (e.g. `OBJECTIVE = ["elements", "spell-heals"]`, `HEALS = [200, 0]` runs a damage build with ≥ 200 Heals and a pure spell healer).
+
+`OBJECTIVE: "heals"`, the old name of `"spell-heals"`, still works.
 
 ### Writing your own
 

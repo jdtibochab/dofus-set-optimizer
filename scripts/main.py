@@ -40,9 +40,7 @@ def main():
 
     if os.getenv('TERM_PROGRAM') == 'vscode' and 'debugpy' in sys.modules:
         config["optimizer"]["path"] = f"debug/{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}"
-        config["optimizer"]["objective"] = ["heals"]
-        config["optimizer"]["inclusions"]["items"] = [25222]
-        config["character"]["elements"] = [22]
+        config["optimizer"]["objective"] = ["push"]
 
     # Save configs
     if not os.path.exists(config["optimizer"]["path"]):

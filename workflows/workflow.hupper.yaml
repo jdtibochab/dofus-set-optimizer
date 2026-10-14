@@ -8,9 +8,9 @@ env:
     # Repository root (one level above this spec); main.py is run from here
     REPO_ROOT: $(SPECROOT)/..
     
-    # Space-separated objectives whose scores are summed: weapon (weapon hit damage), elements (generic spell damage), steal (weapon life-steal damage), push (push damage)
+    # Space-separated objectives whose scores are summed: weapon (weapon hit damage), elements (generic spell damage), steal (weapon life-steal damage), push (push damage), spell-heals (generic spell healing), weapon-heals (weapon hit healing)
     OBJECTIVE: "elements"
-    # "true" divides weapon damage by the weapon's AP cost (weapon objective only)
+    # "true" divides the weapon, steal and weapon-heals scores by the weapon's AP cost
     NORMALIZE_BY_APCOST: "true"
     # Space-separated Ankama item IDs that are never used, or "none"
     EXCLUSIONS: "32121 13344" # Meriana

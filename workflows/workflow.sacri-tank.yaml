@@ -15,7 +15,7 @@ env:
     # Space-separated Ankama item IDs that are never used, or "none"
     EXCLUSIONS: "32121 20354 13344" # Meriana
     # Space-separated Ankama item IDs forced into the set, or "none"
-    INCLUSIONS: "7754 7115 18043 20366" # Dofus inclusions, Belt
+    INCLUSIONS: "7754 7115 18043 737 20366" # Dofus inclusions, Belt
 
     # Damage elements to optimize for (agi, str, cha, int); characteristic points are split evenly across them
     ELEMENTS: "agi"

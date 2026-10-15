@@ -1,12 +1,12 @@
 from maestrowf.datastructures.core import ParameterGenerator
 
-ELEMENTS = ["int", "cha"]
+ELEMENTS = ["cha", "int"]
 MP = [6]
 MELEE = ["true"]
 
 # These two are zipped together in the generator loop
-HEALS = [200]
-OBJECTIVE = ["elements"]
+HEALS = [200, 200]
+OBJECTIVE = ["elements", "elements weapon-heals"]
 
 def get_custom_generator(env, **kwargs):
     rows = []

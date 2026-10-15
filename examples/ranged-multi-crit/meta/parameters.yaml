@@ -1,12 +1,48 @@
-MP.5.OBJ.elements.ELE.agi int str cha:
+MP.5.OBJ.elements weapon.ELE.agi int str cha:
   labels: !!python/object/apply:collections.OrderedDict
   - - - $(MP.label)
       - MP.5
     - - $(OBJECTIVE.label)
-      - OBJ.elements
+      - OBJ.elements weapon
     - - $(ELEMENTS.label)
       - ELE.agi int str cha
   params:
     $(ELEMENTS): agi int str cha
     $(MP): 5
-    $(OBJECTIVE): elements
+    $(OBJECTIVE): elements weapon
+MP.5.OBJ.weapon.ELE.agi int str cha:
+  labels: !!python/object/apply:collections.OrderedDict
+  - - - $(MP.label)
+      - MP.5
+    - - $(OBJECTIVE.label)
+      - OBJ.weapon
+    - - $(ELEMENTS.label)
+      - ELE.agi int str cha
+  params:
+    $(ELEMENTS): agi int str cha
+    $(MP): 5
+    $(OBJECTIVE): weapon
+MP.6.OBJ.elements weapon.ELE.agi int str cha:
+  labels: !!python/object/apply:collections.OrderedDict
+  - - - $(MP.label)
+      - MP.6
+    - - $(OBJECTIVE.label)
+      - OBJ.elements weapon
+    - - $(ELEMENTS.label)
+      - ELE.agi int str cha
+  params:
+    $(ELEMENTS): agi int str cha
+    $(MP): 6
+    $(OBJECTIVE): elements weapon
+MP.6.OBJ.weapon.ELE.agi int str cha:
+  labels: !!python/object/apply:collections.OrderedDict
+  - - - $(MP.label)
+      - MP.6
+    - - $(OBJECTIVE.label)
+      - OBJ.weapon
+    - - $(ELEMENTS.label)
+      - ELE.agi int str cha
+  params:
+    $(ELEMENTS): agi int str cha
+    $(MP): 6
+    $(OBJECTIVE): weapon

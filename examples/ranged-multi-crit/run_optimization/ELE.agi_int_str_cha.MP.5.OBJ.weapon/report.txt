@@ -1,0 +1,2693 @@
+Solution 0:
+	Fitness: 308.49384
+	Weapon damage: 1542.4692
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:2049.4120000000003
+	Push damage: 264.0
+	Spell healing: 125.85000000000001
+	Weapon healing: 0
+	Preferences:
+		% crítico : 89.0
+		% resistencia a la tierra : 39.0
+		% resistencia al agua : 29.0
+		% resistencia al aire : 19.0
+		% resistencia al fuego : 29.0
+		% resistencia neutral : 34.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 81.0
+		iniciativa : 2956.0
+		placaje : 64.0
+		potencia (daños generales) : 270.0
+		vitalidad : 4150.0
+	Characteristics:
+		agilidad: 644.0
+		inteligencia: 744.0
+		fuerza: 744.0
+		suerte: 824.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo de vueloceronte	200	19985
+		Anillo	Brazalete de melenutrof	200	15190
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Marfil	180	7115
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus abisal	180	18043
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus Púrpura	110	694
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Casco de Miauvizor	200	17579
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			19985, # Anillo de vueloceronte
+			15190, # Brazalete de melenutrof
+			19986, # Arco de vueloceronte
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			19983, # Cinturón de vueloceronte
+			7115, # Dofus Marfil
+			7043, # Dofus de los hielos
+			18043, # Dofus abisal
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			694, # Dofus Púrpura
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			17579, # Casco de Miauvizor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxOTk4NCwxOTk4NSwxNTE5MCwxOTk4MywxNzU3OCwxOTk4NiwxODcwMCwxMzY3MyxudWxsLDczOSwxMzgyNSwxODA0Myw3NzU0LDcwNDMsNjk0XX0
+Solution 1:
+	Fitness: 316.57599999999996
+	Weapon damage: 1582.8799999999999
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1939.1100000000001
+	Push damage: 294.0
+	Spell healing: 271.35
+	Weapon healing: 0
+	Preferences:
+		% crítico : 90.0
+		% resistencia a la tierra : 21.0
+		% resistencia al agua : 29.0
+		% resistencia al aire : 18.0
+		% resistencia al fuego : 32.0
+		% resistencia neutral : 12.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 84.0
+		iniciativa : 3536.0
+		placaje : 55.0
+		potencia (daños generales) : 220.0
+		vitalidad : 3950.0
+	Characteristics:
+		agilidad: 644.0
+		inteligencia: 604.0
+		fuerza: 394.0
+		suerte: 394.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collar rhoarim	200	31761
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Anillo de Noai Aludem	197	13642
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capa de Golosorak	200	32237
+		Cinturón	Taparrabos rhoarim	200	31762
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Dofus	Dofus plateado centelleante	180	20286
+		Escudo	Botón de Psikopomzopato	200	32245
+		Mascota	Lokulto	20	13673
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			31761, # Collar rhoarim
+			11738, # Anillo Chanicomo
+			13642, # Anillo de Noai Aludem
+			19986, # Arco de vueloceronte
+			13643, # Getas de Noai Aludem
+			32237, # Capa de Golosorak
+			31762, # Taparrabos rhoarim
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			20286, # Dofus plateado centelleante
+			32245, # Botón de Psikopomzopato
+			13673, # Lokulto
+			13641, # Gorro de Noai Aludem
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwzMjIzNywzMTc2MSwxMzY0MiwxMTczOCwzMTc2MiwxMzY0MywxOTk4NiwzMjI0NSwxMzY3MyxudWxsLDc3NTQsMTgwNDMsNzM5LDEzODI1LDIwMjg2LDcwNDNdfQ
+Solution 2:
+	Fitness: 311.09602000000007
+	Weapon damage: 1555.4801000000002
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1960.696
+	Push damage: 264.0
+	Spell healing: 103.1625
+	Weapon healing: 0
+	Preferences:
+		% crítico : 87.0
+		% resistencia a la tierra : 16.0
+		% resistencia al agua : 33.0
+		% resistencia al aire : 19.0
+		% resistencia al fuego : 24.0
+		% resistencia neutral : 22.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 105.0
+		iniciativa : 3051.0
+		placaje : 89.0
+		potencia (daños generales) : 240.0
+		vitalidad : 4300.0
+	Characteristics:
+		agilidad: 734.0
+		inteligencia: 604.0
+		fuerza: 599.0
+		suerte: 414.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo traicionero	199	14054
+		Anillo	Anillo de kukoloide	200	14092
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas traicioneras	198	14056
+		Capa	Melena de Tal Kasha	200	18591
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Lokulto	20	13673
+		Sombrero	Sombrero traicionero	197	14053
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			14054, # Anillo traicionero
+			14092, # Anillo de kukoloide
+			19986, # Arco de vueloceronte
+			14056, # Botas traicioneras
+			18591, # Melena de Tal Kasha
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18718, # Escudo de kukoloide
+			13673, # Lokulto
+			14053, # Sombrero traicionero
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNDA1MywxODU5MSwxOTk4NCwxNDA1NCwxNDA5MiwxNTY5OSwxNDA1NiwxOTk4NiwxODcxOCwxMzY3MyxudWxsLDc3NTQsMTgwNDMsNzM5LDcwNDMsNjk0LDEzODI1XX0
+Solution 3:
+	Fitness: 310.98422
+	Weapon damage: 1554.9211
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1947.216
+	Push damage: 264.0
+	Spell healing: 99.7875
+	Weapon healing: 0
+	Preferences:
+		% crítico : 87.0
+		% resistencia a la tierra : 16.0
+		% resistencia al agua : 33.0
+		% resistencia al aire : 19.0
+		% resistencia al fuego : 24.0
+		% resistencia neutral : 22.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 104.0
+		iniciativa : 2661.0
+		placaje : 78.0
+		potencia (daños generales) : 240.0
+		vitalidad : 4100.0
+	Characteristics:
+		agilidad: 724.0
+		inteligencia: 594.0
+		fuerza: 529.0
+		suerte: 414.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo traicionero	199	14054
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas traicioneras	198	14056
+		Capa	Melena de Tal Kasha	200	18591
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Lokulto	20	13673
+		Sombrero	Sombrero traicionero	197	14053
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			13642, # Anillo de Noai Aludem
+			14054, # Anillo traicionero
+			19986, # Arco de vueloceronte
+			14056, # Botas traicioneras
+			18591, # Melena de Tal Kasha
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18718, # Escudo de kukoloide
+			13673, # Lokulto
+			14053, # Sombrero traicionero
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNDA1MywxODU5MSwxOTk4NCwxNDA1NCwxMzY0MiwxNTY5OSwxNDA1NiwxOTk4NiwxODcxOCwxMzY3MyxudWxsLDc3NTQsMTgwNDMsNzM5LDcwNDMsNjk0LDEzODI1XX0
+Solution 4:
+	Fitness: 304.916
+	Weapon damage: 1524.58
+		Weapon: Arco de Tentenhuevo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1944.696
+	Push damage: 444.0
+	Spell healing: 95.1
+	Weapon healing: 0
+	Preferences:
+		% crítico : 87.0
+		% resistencia a la tierra : 40.0
+		% resistencia al agua : 27.0
+		% resistencia al aire : 25.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 51.0
+		iniciativa : 2136.0
+		placaje : 58.0
+		potencia (daños generales) : 260.0
+		vitalidad : 4250.0
+	Characteristics:
+		agilidad: 584.0
+		inteligencia: 274.0
+		fuerza: 694.0
+		suerte: 584.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Anillo de Tentenhuevo	200	32234
+		Arco	Arco de Tentenhuevo	200	32235
+		Bota	Escarpes de Miseria	200	22187
+		Capa	Melena de Tal Kasha	200	18591
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Disco de Tentenhuevo	200	32236
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Nemes de Tal Kasha	200	18590
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			22205, # Anillo de Corrupción
+			32234, # Anillo de Tentenhuevo
+			32235, # Arco de Tentenhuevo
+			22187, # Escarpes de Miseria
+			18591, # Melena de Tal Kasha
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			32236, # Disco de Tentenhuevo
+			31885, # Microsmoglob
+			18590, # Nemes de Tal Kasha
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxODU5MCwxODU5MSwxNDA5NCwzMjIzNCwyMjIwNSwyMjIwOSwyMjE4NywzMjIzNSwzMjIzNiwzMTg4NSxudWxsLDc3NTQsMTgwNDMsNzM5LDY5NCwxMzgyNSw3MDQzXX0
+Solution 5:
+	Fitness: 303.416
+	Weapon damage: 1517.08
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1920.26
+	Push damage: 294.0
+	Spell healing: 241.10000000000002
+	Weapon healing: 0
+	Preferences:
+		% crítico : 90.0
+		% resistencia a la tierra : 15.0
+		% resistencia al agua : 20.0
+		% resistencia al aire : 18.0
+		% resistencia al fuego : 24.0
+		% resistencia neutral : 22.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 52.0
+		iniciativa : 2796.0
+		placaje : 54.0
+		potencia (daños generales) : 240.0
+		vitalidad : 3850.0
+	Characteristics:
+		agilidad: 524.0
+		inteligencia: 784.0
+		fuerza: 454.0
+		suerte: 534.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Rosca de Mecanimut	200	32240
+		Anillo	Tuerca de Mecanimut	200	32241
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capa de diondino	200	18002
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			32240, # Rosca de Mecanimut
+			32241, # Tuerca de Mecanimut
+			19986, # Arco de vueloceronte
+			13643, # Getas de Noai Aludem
+			18002, # Capa de diondino
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			13641, # Gorro de Noai Aludem
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwxODAwMiwxOTk4NCwzMjI0MCwzMjI0MSwxNTY5OSwxMzY0MywxOTk4NiwxODcwMCwxMzY3MyxudWxsLDc3NTQsMTgwNDMsNzM5LDY5NCw3MDQzLDEzODI1XX0
+Solution 6:
+	Fitness: 303.216
+	Weapon damage: 1516.08
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1934.076
+	Push damage: 294.0
+	Spell healing: 290.1
+	Weapon healing: 0
+	Preferences:
+		% crítico : 92.0
+		% resistencia a la tierra : 21.0
+		% resistencia al agua : 39.0
+		% resistencia al aire : 18.0
+		% resistencia al fuego : 32.0
+		% resistencia neutral : 12.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 94.0
+		iniciativa : 4036.0
+		placaje : 65.0
+		potencia (daños generales) : 180.0
+		vitalidad : 3950.0
+	Characteristics:
+		agilidad: 744.0
+		inteligencia: 704.0
+		fuerza: 494.0
+		suerte: 594.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collar rhoarim	200	31761
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de vueloceronte	200	19985
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capa de Golosorak	200	32237
+		Cinturón	Taparrabos rhoarim	200	31762
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Dofus	Dofus plateado centelleante	180	20286
+		Escudo	Botón de Psikopomzopato	200	32245
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			31761, # Collar rhoarim
+			13642, # Anillo de Noai Aludem
+			19985, # Anillo de vueloceronte
+			19986, # Arco de vueloceronte
+			13643, # Getas de Noai Aludem
+			32237, # Capa de Golosorak
+			31762, # Taparrabos rhoarim
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			20286, # Dofus plateado centelleante
+			32245, # Botón de Psikopomzopato
+			31885, # Microsmoglob
+			13641, # Gorro de Noai Aludem
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwzMjIzNywzMTc2MSwxMzY0MiwxOTk4NSwzMTc2MiwxMzY0MywxOTk4NiwzMjI0NSwzMTg4NSxudWxsLDc3NTQsMTgwNDMsNzM5LDEzODI1LDIwMjg2LDcwNDNdfQ
+Solution 7:
+	Fitness: 302.316
+	Weapon damage: 1511.58
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1926.6135
+	Push damage: 294.0
+	Spell healing: 229.91250000000002
+	Weapon healing: 0
+	Preferences:
+		% crítico : 92.0
+		% resistencia a la tierra : 18.0
+		% resistencia al agua : 39.0
+		% resistencia al aire : 25.0
+		% resistencia al fuego : 22.0
+		% resistencia neutral : 12.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 102.0
+		iniciativa : 4031.0
+		placaje : 61.0
+		potencia (daños generales) : 175.0
+		vitalidad : 3900.0
+	Characteristics:
+		agilidad: 704.0
+		inteligencia: 739.0
+		fuerza: 494.0
+		suerte: 594.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collar rhoarim	200	31761
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de vueloceronte	200	19985
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capa de Golosorak	200	32237
+		Cinturón	Taparrabos rhoarim	200	31762
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Dofus	Dofus plateado centelleante	180	20286
+		Escudo	Escudámpago de Tejash	192	32224
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			31761, # Collar rhoarim
+			13642, # Anillo de Noai Aludem
+			19985, # Anillo de vueloceronte
+			19986, # Arco de vueloceronte
+			13643, # Getas de Noai Aludem
+			32237, # Capa de Golosorak
+			31762, # Taparrabos rhoarim
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			20286, # Dofus plateado centelleante
+			32224, # Escudámpago de Tejash
+			31885, # Microsmoglob
+			13641, # Gorro de Noai Aludem
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwzMjIzNywzMTc2MSwxMzY0MiwxOTk4NSwzMTc2MiwxMzY0MywxOTk4NiwzMjIyNCwzMTg4NSxudWxsLDc3NTQsMTgwNDMsNzM5LDEzODI1LDIwMjg2LDcwNDNdfQ
+Solution 8:
+	Fitness: 301.15600000000006
+	Weapon damage: 1505.7800000000002
+		Weapon: Arco de Tentenhuevo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1909.336
+	Push damage: 444.0
+	Spell healing: 95.1
+	Weapon healing: 0
+	Preferences:
+		% crítico : 87.0
+		% resistencia a la tierra : 40.0
+		% resistencia al agua : 27.0
+		% resistencia al aire : 25.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 51.0
+		iniciativa : 2136.0
+		placaje : 58.0
+		potencia (daños generales) : 220.0
+		vitalidad : 4250.0
+	Characteristics:
+		agilidad: 584.0
+		inteligencia: 274.0
+		fuerza: 694.0
+		suerte: 584.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Anillo de Tentenhuevo	200	32234
+		Arco	Arco de Tentenhuevo	200	32235
+		Bota	Escarpes de Miseria	200	22187
+		Capa	Melena de Tal Kasha	200	18591
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Disco de Tentenhuevo	200	32236
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Nemes de Tal Kasha	200	18590
+		Trofeo	Destructor de agua mayor	150	12690
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			22205, # Anillo de Corrupción
+			32234, # Anillo de Tentenhuevo
+			32235, # Arco de Tentenhuevo
+			22187, # Escarpes de Miseria
+			18591, # Melena de Tal Kasha
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			32236, # Disco de Tentenhuevo
+			31885, # Microsmoglob
+			18590, # Nemes de Tal Kasha
+			12690, # Destructor de agua mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxODU5MCwxODU5MSwxNDA5NCwzMjIzNCwyMjIwNSwyMjIwOSwyMjE4NywzMjIzNSwzMjIzNiwzMTg4NSxudWxsLDc3NTQsMTgwNDMsNzM5LDY5NCwxMjY5MCw3MDQzXX0
+Solution 9:
+	Fitness: 301.15600000000006
+	Weapon damage: 1505.7800000000002
+		Weapon: Arco de Tentenhuevo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1897.336
+	Push damage: 444.0
+	Spell healing: 95.1
+	Weapon healing: 0
+	Preferences:
+		% crítico : 87.0
+		% resistencia a la tierra : 40.0
+		% resistencia al agua : 27.0
+		% resistencia al aire : 25.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 51.0
+		iniciativa : 2136.0
+		placaje : 58.0
+		potencia (daños generales) : 220.0
+		vitalidad : 4250.0
+	Characteristics:
+		agilidad: 584.0
+		inteligencia: 274.0
+		fuerza: 694.0
+		suerte: 584.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Anillo de Tentenhuevo	200	32234
+		Arco	Arco de Tentenhuevo	200	32235
+		Bota	Escarpes de Miseria	200	22187
+		Capa	Melena de Tal Kasha	200	18591
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Disco de Tentenhuevo	200	32236
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Nemes de Tal Kasha	200	18590
+		Trofeo	Destructor neutral mayor	150	12697
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			22205, # Anillo de Corrupción
+			32234, # Anillo de Tentenhuevo
+			32235, # Arco de Tentenhuevo
+			22187, # Escarpes de Miseria
+			18591, # Melena de Tal Kasha
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			32236, # Disco de Tentenhuevo
+			31885, # Microsmoglob
+			18590, # Nemes de Tal Kasha
+			12697, # Destructor neutral mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxODU5MCwxODU5MSwxNDA5NCwzMjIzNCwyMjIwNSwyMjIwOSwyMjE4NywzMjIzNSwzMjIzNiwzMTg4NSxudWxsLDc3NTQsMTgwNDMsNzM5LDY5NCwxMjY5Nyw3MDQzXX0
+Solution 10:
+	Fitness: 301.15600000000006
+	Weapon damage: 1505.7800000000002
+		Weapon: Arco de Tentenhuevo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1909.336
+	Push damage: 444.0
+	Spell healing: 95.1
+	Weapon healing: 0
+	Preferences:
+		% crítico : 87.0
+		% resistencia a la tierra : 40.0
+		% resistencia al agua : 27.0
+		% resistencia al aire : 25.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 51.0
+		iniciativa : 2136.0
+		placaje : 58.0
+		potencia (daños generales) : 220.0
+		vitalidad : 4250.0
+	Characteristics:
+		agilidad: 584.0
+		inteligencia: 274.0
+		fuerza: 694.0
+		suerte: 584.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Anillo de Tentenhuevo	200	32234
+		Arco	Arco de Tentenhuevo	200	32235
+		Bota	Escarpes de Miseria	200	22187
+		Capa	Melena de Tal Kasha	200	18591
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Disco de Tentenhuevo	200	32236
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Nemes de Tal Kasha	200	18590
+		Trofeo	Destructor de aire mayor	150	12687
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			22205, # Anillo de Corrupción
+			32234, # Anillo de Tentenhuevo
+			32235, # Arco de Tentenhuevo
+			22187, # Escarpes de Miseria
+			18591, # Melena de Tal Kasha
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			32236, # Disco de Tentenhuevo
+			31885, # Microsmoglob
+			18590, # Nemes de Tal Kasha
+			12687, # Destructor de aire mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxODU5MCwxODU5MSwxNDA5NCwzMjIzNCwyMjIwNSwyMjIwOSwyMjE4NywzMjIzNSwzMjIzNiwzMTg4NSxudWxsLDc3NTQsMTgwNDMsNzM5LDY5NCwxMjY4Nyw3MDQzXX0
+Solution 11:
+	Fitness: 300.98168
+	Weapon damage: 1504.9084
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1886.919
+	Push damage: 264.0
+	Spell healing: 111.225
+	Weapon healing: 0
+	Preferences:
+		% crítico : 88.0
+		% resistencia a la tierra : 17.0
+		% resistencia al agua : 23.0
+		% resistencia al aire : 13.0
+		% resistencia al fuego : 23.0
+		% resistencia neutral : 25.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 84.0
+		iniciativa : 2566.0
+		placaje : 56.0
+		potencia (daños generales) : 130.0
+		vitalidad : 4200.0
+	Characteristics:
+		agilidad: 564.0
+		inteligencia: 664.0
+		fuerza: 694.0
+		suerte: 644.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Anillo Rtografiko	200	24035
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Cuadrifolio	193	18700
+		Mascotura	Sakóquero	60	13465
+		Sombrero	Casco Tilleo	199	13194
+		Trofeo	Destructor de fuego mayor	150	12693
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			22205, # Anillo de Corrupción
+			24035, # Anillo Rtografiko
+			19986, # Arco de vueloceronte
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			22209, # Zarcinturón de Corrupción
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18700, # Cuadrifolio
+			13465, # Sakóquero
+			13194, # Casco Tilleo
+			12693, # Destructor de fuego mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzE5NCwxNzU4MCwxOTk4NCwyNDAzNSwyMjIwNSwyMjIwOSwxNzU3OCwxOTk4NiwxODcwMCwxMzQ2NSxudWxsLDc3NTQsMTgwNDMsNzM5LDEzODI1LDEyNjkzLDcwNDNdfQ
+Solution 12:
+	Fitness: 300.98168
+	Weapon damage: 1504.9084
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1886.919
+	Push damage: 264.0
+	Spell healing: 111.225
+	Weapon healing: 0
+	Preferences:
+		% crítico : 88.0
+		% resistencia a la tierra : 17.0
+		% resistencia al agua : 23.0
+		% resistencia al aire : 13.0
+		% resistencia al fuego : 23.0
+		% resistencia neutral : 25.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 84.0
+		iniciativa : 2566.0
+		placaje : 56.0
+		potencia (daños generales) : 130.0
+		vitalidad : 4200.0
+	Characteristics:
+		agilidad: 564.0
+		inteligencia: 664.0
+		fuerza: 694.0
+		suerte: 644.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Anillo Rtografiko	200	24035
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Cuadrifolio	193	18700
+		Mascotura	Sakóquero	60	13465
+		Sombrero	Casco Tilleo	199	13194
+		Trofeo	Destructor de agua mayor	150	12690
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			22205, # Anillo de Corrupción
+			24035, # Anillo Rtografiko
+			19986, # Arco de vueloceronte
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			22209, # Zarcinturón de Corrupción
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18700, # Cuadrifolio
+			13465, # Sakóquero
+			13194, # Casco Tilleo
+			12690, # Destructor de agua mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzE5NCwxNzU4MCwxOTk4NCwyNDAzNSwyMjIwNSwyMjIwOSwxNzU3OCwxOTk4NiwxODcwMCwxMzQ2NSxudWxsLDc3NTQsMTgwNDMsNzM5LDEzODI1LDEyNjkwLDcwNDNdfQ
+Solution 13:
+	Fitness: 300.0559999999999
+	Weapon damage: 1500.2799999999997
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1884.6600000000003
+	Push damage: 294.0
+	Spell healing: 241.10000000000002
+	Weapon healing: 0
+	Preferences:
+		% crítico : 90.0
+		% resistencia a la tierra : 15.0
+		% resistencia al agua : 20.0
+		% resistencia al aire : 18.0
+		% resistencia al fuego : 24.0
+		% resistencia neutral : 22.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 52.0
+		iniciativa : 2796.0
+		placaje : 54.0
+		potencia (daños generales) : 200.0
+		vitalidad : 3850.0
+	Characteristics:
+		agilidad: 524.0
+		inteligencia: 784.0
+		fuerza: 454.0
+		suerte: 534.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Rosca de Mecanimut	200	32240
+		Anillo	Tuerca de Mecanimut	200	32241
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capa de diondino	200	18002
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Destructor de agua mayor	150	12690
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			32240, # Rosca de Mecanimut
+			32241, # Tuerca de Mecanimut
+			19986, # Arco de vueloceronte
+			13643, # Getas de Noai Aludem
+			18002, # Capa de diondino
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			13641, # Gorro de Noai Aludem
+			12690, # Destructor de agua mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwxODAwMiwxOTk4NCwzMjI0MCwzMjI0MSwxNTY5OSwxMzY0MywxOTk4NiwxODcwMCwxMzY3MyxudWxsLDc3NTQsMTgwNDMsNzM5LDY5NCw3MDQzLDEyNjkwXX0
+Solution 14:
+	Fitness: 300.0559999999999
+	Weapon damage: 1500.2799999999997
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1884.6600000000003
+	Push damage: 294.0
+	Spell healing: 241.10000000000002
+	Weapon healing: 0
+	Preferences:
+		% crítico : 90.0
+		% resistencia a la tierra : 15.0
+		% resistencia al agua : 20.0
+		% resistencia al aire : 18.0
+		% resistencia al fuego : 24.0
+		% resistencia neutral : 22.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 52.0
+		iniciativa : 2796.0
+		placaje : 54.0
+		potencia (daños generales) : 200.0
+		vitalidad : 3850.0
+	Characteristics:
+		agilidad: 524.0
+		inteligencia: 784.0
+		fuerza: 454.0
+		suerte: 534.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Rosca de Mecanimut	200	32240
+		Anillo	Tuerca de Mecanimut	200	32241
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capa de diondino	200	18002
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Destructor de tierra mayor	150	12747
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			32240, # Rosca de Mecanimut
+			32241, # Tuerca de Mecanimut
+			19986, # Arco de vueloceronte
+			13643, # Getas de Noai Aludem
+			18002, # Capa de diondino
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			13641, # Gorro de Noai Aludem
+			12747, # Destructor de tierra mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwxODAwMiwxOTk4NCwzMjI0MCwzMjI0MSwxNTY5OSwxMzY0MywxOTk4NiwxODcwMCwxMzY3MyxudWxsLDc3NTQsMTgwNDMsNzM5LDY5NCw3MDQzLDEyNzQ3XX0
+Solution 15:
+	Fitness: 297.17333333333335
+	Weapon damage: 891.52
+		Weapon: Arc aico
+		AP Cost: 3
+		Casts per turn: 1
+	Spell damage:1713.7960000000003
+	Push damage: 384.0
+	Spell healing: 93.6
+	Weapon healing: 0
+	Preferences:
+		% crítico : 92.0
+		% resistencia a la tierra : 40.0
+		% resistencia al agua : 17.0
+		% resistencia al aire : 25.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 41.0
+		iniciativa : 2096.0
+		placaje : 68.0
+		potencia (daños generales) : 110.0
+		vitalidad : 4200.0
+	Characteristics:
+		agilidad: 534.0
+		inteligencia: 324.0
+		fuerza: 654.0
+		suerte: 584.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Anillo de Tentenhuevo	200	32234
+		Arco	Arc aico	196	11756
+		Bota	Zapautonimias	200	19610
+		Capa	Melena de Tal Kasha	200	18591
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Disco de Tentenhuevo	200	32236
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Nemes de Tal Kasha	200	18590
+		Trofeo	Destructor de aire mayor	150	12687
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			22205, # Anillo de Corrupción
+			32234, # Anillo de Tentenhuevo
+			11756, # Arc aico
+			19610, # Zapautonimias
+			18591, # Melena de Tal Kasha
+			22209, # Zarcinturón de Corrupción
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			32236, # Disco de Tentenhuevo
+			31885, # Microsmoglob
+			18590, # Nemes de Tal Kasha
+			12687, # Destructor de aire mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxODU5MCwxODU5MSwxNDA5NCwzMjIzNCwyMjIwNSwyMjIwOSwxOTYxMCwxMTc1NiwzMjIzNiwzMTg4NSxudWxsLDc3NTQsMTgwNDMsNzM5LDcwNDMsMTI2ODcsMTM4MjVdfQ
+Solution 16:
+	Fitness: 296.5725
+	Weapon damage: 1186.29
+		Weapon: Arco de dantartánico
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1990.3185
+	Push damage: 304.0
+	Spell healing: 98.5375
+	Weapon healing: 0
+	Preferences:
+		% crítico : 92.0
+		% resistencia a la tierra : 16.0
+		% resistencia al agua : 23.0
+		% resistencia al aire : 16.0
+		% resistencia al fuego : 20.0
+		% resistencia neutral : 20.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 7.0
+		huida : 88.0
+		iniciativa : 3481.0
+		placaje : 136.0
+		potencia (daños generales) : 600.0
+		vitalidad : 3899.0
+	Characteristics:
+		agilidad: 564.0
+		inteligencia: 274.0
+		fuerza: 369.0
+		suerte: 274.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo traicionero	199	14054
+		Anillo	Coconillo	200	21223
+		Arco	Arco de dantartánico	200	33607
+		Bota	Botas traicioneras	198	14056
+		Capa	Capa Brigada	198	13197
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Cocoscudo	200	21225
+		Mascota	Lokulto	20	13673
+		Sombrero	Sombrero traicionero	197	14053
+		Trofeo	Acróbata mayor	150	12714
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			14054, # Anillo traicionero
+			21223, # Coconillo
+			33607, # Arco de dantartánico
+			14056, # Botas traicioneras
+			13197, # Capa Brigada
+			14095, # Cinturón de estrígido
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			21225, # Cocoscudo
+			13673, # Lokulto
+			14053, # Sombrero traicionero
+			12714, # Acróbata mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNDA1MywxMzE5NywxNDA5NCwxNDA1NCwyMTIyMywxNDA5NSwxNDA1NiwzMzYwNywyMTIyNSwxMzY3MyxudWxsLDc3NTQsMTgwNDMsNzM5LDEzODI1LDY5NCwxMjcxNF19
+Solution 17:
+	Fitness: 295.37600000000003
+	Weapon damage: 1476.88
+		Weapon: Arco de Tentenhuevo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1864.9599999999998
+	Push damage: 504.0
+	Spell healing: 95.1
+	Weapon healing: 0
+	Preferences:
+		% crítico : 90.0
+		% resistencia a la tierra : 40.0
+		% resistencia al agua : 27.0
+		% resistencia al aire : 25.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 51.0
+		iniciativa : 2136.0
+		placaje : 83.0
+		potencia (daños generales) : 150.0
+		vitalidad : 4400.0
+	Characteristics:
+		agilidad: 584.0
+		inteligencia: 274.0
+		fuerza: 694.0
+		suerte: 584.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Anillo de Tentenhuevo	200	32234
+		Arco	Arco de Tentenhuevo	200	32235
+		Bota	Botas trithonas	200	18030
+		Capa	Melena de Tal Kasha	200	18591
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Disco de Tentenhuevo	200	32236
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Nemes de Tal Kasha	200	18590
+		Trofeo	Destructor de aire mayor	150	12687
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			22205, # Anillo de Corrupción
+			32234, # Anillo de Tentenhuevo
+			32235, # Arco de Tentenhuevo
+			18030, # Botas trithonas
+			18591, # Melena de Tal Kasha
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			32236, # Disco de Tentenhuevo
+			31885, # Microsmoglob
+			18590, # Nemes de Tal Kasha
+			12687, # Destructor de aire mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxODU5MCwxODU5MSwxNDA5NCwzMjIzNCwyMjIwNSwyMjIwOSwxODAzMCwzMjIzNSwzMjIzNiwzMTg4NSxudWxsLDc3NTQsMTgwNDMsNzM5LDcwNDMsMTI2ODcsNjk0XX0
+Solution 18:
+	Fitness: 295.37600000000003
+	Weapon damage: 1476.88
+		Weapon: Arco de Tentenhuevo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1864.9599999999998
+	Push damage: 504.0
+	Spell healing: 95.1
+	Weapon healing: 0
+	Preferences:
+		% crítico : 90.0
+		% resistencia a la tierra : 40.0
+		% resistencia al agua : 27.0
+		% resistencia al aire : 25.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 51.0
+		iniciativa : 2136.0
+		placaje : 83.0
+		potencia (daños generales) : 150.0
+		vitalidad : 4400.0
+	Characteristics:
+		agilidad: 584.0
+		inteligencia: 274.0
+		fuerza: 694.0
+		suerte: 584.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Anillo de Tentenhuevo	200	32234
+		Arco	Arco de Tentenhuevo	200	32235
+		Bota	Botas trithonas	200	18030
+		Capa	Melena de Tal Kasha	200	18591
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Disco de Tentenhuevo	200	32236
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Nemes de Tal Kasha	200	18590
+		Trofeo	Destructor de aire mayor	150	12687
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			22205, # Anillo de Corrupción
+			32234, # Anillo de Tentenhuevo
+			32235, # Arco de Tentenhuevo
+			18030, # Botas trithonas
+			18591, # Melena de Tal Kasha
+			22209, # Zarcinturón de Corrupción
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			32236, # Disco de Tentenhuevo
+			31885, # Microsmoglob
+			18590, # Nemes de Tal Kasha
+			12687, # Destructor de aire mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxODU5MCwxODU5MSwxNDA5NCwzMjIzNCwyMjIwNSwyMjIwOSwxODAzMCwzMjIzNSwzMjIzNiwzMTg4NSxudWxsLDc3NTQsMTgwNDMsNzM5LDY5NCwxMjY4Nyw3MDQzXX0
+Solution 19:
+	Fitness: 294.95988
+	Weapon damage: 1474.7994
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1830.3464999999999
+	Push damage: 264.0
+	Spell healing: 87.7875
+	Weapon healing: 0
+	Preferences:
+		% crítico : 88.0
+		% resistencia a la tierra : 16.0
+		% resistencia al agua : 33.0
+		% resistencia al aire : 19.0
+		% resistencia al fuego : 29.0
+		% resistencia neutral : 22.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 100.0
+		iniciativa : 2641.0
+		placaje : 82.0
+		potencia (daños generales) : 240.0
+		vitalidad : 4050.0
+	Characteristics:
+		agilidad: 684.0
+		inteligencia: 394.0
+		fuerza: 489.0
+		suerte: 374.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collar rhoarim	200	31761
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo traicionero	199	14054
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas traicioneras	198	14056
+		Capa	Melena de Tal Kasha	200	18591
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Lokulto	20	13673
+		Sombrero	Sombrero traicionero	197	14053
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			31761, # Collar rhoarim
+			13642, # Anillo de Noai Aludem
+			14054, # Anillo traicionero
+			19986, # Arco de vueloceronte
+			14056, # Botas traicioneras
+			18591, # Melena de Tal Kasha
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18718, # Escudo de kukoloide
+			13673, # Lokulto
+			14053, # Sombrero traicionero
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNDA1MywxODU5MSwzMTc2MSwxNDA1NCwxMzY0MiwxNTY5OSwxNDA1NiwxOTk4NiwxODcxOCwxMzY3MyxudWxsLDc3NTQsMTgwNDMsNzM5LDcwNDMsNjk0LDEzODI1XX0
+Solution 20:
+	Fitness: 294.93600000000004
+	Weapon damage: 1474.68
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1819.8600000000001
+	Push damage: 294.0
+	Spell healing: 241.10000000000002
+	Weapon healing: 0
+	Preferences:
+		% crítico : 90.0
+		% resistencia a la tierra : 15.0
+		% resistencia al agua : 20.0
+		% resistencia al aire : 18.0
+		% resistencia al fuego : 24.0
+		% resistencia neutral : 22.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 52.0
+		iniciativa : 3396.0
+		placaje : 54.0
+		potencia (daños generales) : 120.0
+		vitalidad : 3850.0
+	Characteristics:
+		agilidad: 524.0
+		inteligencia: 784.0
+		fuerza: 454.0
+		suerte: 534.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Rosca de Mecanimut	200	32240
+		Anillo	Tuerca de Mecanimut	200	32241
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capa de diondino	200	18002
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Iniciador mayor	150	12703
+		Trofeo	Destructor de tierra mayor	150	12747
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			32240, # Rosca de Mecanimut
+			32241, # Tuerca de Mecanimut
+			19986, # Arco de vueloceronte
+			13643, # Getas de Noai Aludem
+			18002, # Capa de diondino
+			15699, # Cintáceo
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			13641, # Gorro de Noai Aludem
+			12703, # Iniciador mayor
+			12747, # Destructor de tierra mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwxODAwMiwxOTk4NCwzMjI0MCwzMjI0MSwxNTY5OSwxMzY0MywxOTk4NiwxODcwMCwxMzY3MyxudWxsLDc3NTQsMTgwNDMsNzM5LDEyNzAzLDcwNDMsMTI3NDddfQ
+Solution 21:
+	Fitness: 293.7725
+	Weapon damage: 1175.09
+		Weapon: Arco de dantartánico
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1829.7865000000002
+	Push damage: 264.0
+	Spell healing: 109.7875
+	Weapon healing: 0
+	Preferences:
+		% crítico : 88.0
+		% resistencia a la tierra : 16.0
+		% resistencia al agua : 23.0
+		% resistencia al aire : 26.0
+		% resistencia al fuego : 30.0
+		% resistencia neutral : 20.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 112.0
+		iniciativa : 3381.0
+		placaje : 140.0
+		potencia (daños generales) : 420.0
+		vitalidad : 4500.0
+	Characteristics:
+		agilidad: 754.0
+		inteligencia: 274.0
+		fuerza: 479.0
+		suerte: 274.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo traicionero	199	14054
+		Anillo	Coconillo	200	21223
+		Arco	Arco de dantartánico	200	33607
+		Bota	Botas traicioneras	198	14056
+		Capa	Caparazón de Torkelonia	200	21230
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Cocoscudo	200	21225
+		Mascota	Piotín amarillo	20	7709
+		Sombrero	Sombrero traicionero	197	14053
+		Trofeo	Acróbata mayor	150	12714
+		Trofeo	Furibundo mayor	150	12724
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			14054, # Anillo traicionero
+			21223, # Coconillo
+			33607, # Arco de dantartánico
+			14056, # Botas traicioneras
+			21230, # Caparazón de Torkelonia
+			14095, # Cinturón de estrígido
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			21225, # Cocoscudo
+			7709, # Piotín amarillo
+			14053, # Sombrero traicionero
+			12714, # Acróbata mayor
+			12724, # Furibundo mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNDA1MywyMTIzMCwxNDA5NCwxNDA1NCwyMTIyMywxNDA5NSwxNDA1NiwzMzYwNywyMTIyNSw3NzA5LG51bGwsNzc1NCwxODA0Myw3MzksMTM4MjUsMTI3MjQsMTI3MTRdfQ
+Solution 22:
+	Fitness: 293.6225
+	Weapon damage: 1174.49
+		Weapon: Arco de dantartánico
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1811.9965000000002
+	Push damage: 264.0
+	Spell healing: 107.5375
+	Weapon healing: 0
+	Preferences:
+		% crítico : 88.0
+		% resistencia a la tierra : 16.0
+		% resistencia al agua : 23.0
+		% resistencia al aire : 26.0
+		% resistencia al fuego : 30.0
+		% resistencia neutral : 20.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 112.0
+		iniciativa : 3321.0
+		placaje : 140.0
+		potencia (daños generales) : 420.0
+		vitalidad : 4500.0
+	Characteristics:
+		agilidad: 754.0
+		inteligencia: 274.0
+		fuerza: 419.0
+		suerte: 274.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo traicionero	199	14054
+		Anillo	Coconillo	200	21223
+		Arco	Arco de dantartánico	200	33607
+		Bota	Botas traicioneras	198	14056
+		Capa	Caparazón de Torkelonia	200	21230
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Cocoscudo	200	21225
+		Mascota	Piotín amarillo	20	7709
+		Sombrero	Sombrero traicionero	197	14053
+		Trofeo	Destructor neutral mayor	150	12697
+		Trofeo	Acróbata mayor	150	12714
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			14054, # Anillo traicionero
+			21223, # Coconillo
+			33607, # Arco de dantartánico
+			14056, # Botas traicioneras
+			21230, # Caparazón de Torkelonia
+			14095, # Cinturón de estrígido
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			21225, # Cocoscudo
+			7709, # Piotín amarillo
+			14053, # Sombrero traicionero
+			12697, # Destructor neutral mayor
+			12714, # Acróbata mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNDA1MywyMTIzMCwxNDA5NCwxNDA1NCwyMTIyMywxNDA5NSwxNDA1NiwzMzYwNywyMTIyNSw3NzA5LG51bGwsNzc1NCwxODA0Myw3MzksMTM4MjUsMTI2OTcsMTI3MTRdfQ
+Solution 23:
+	Fitness: 293.416
+	Weapon damage: 1467.08
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1835.428
+	Push damage: 264.0
+	Spell healing: 102.975
+	Weapon healing: 0
+	Preferences:
+		% crítico : 91.0
+		% resistencia a la tierra : 27.0
+		% resistencia al agua : 30.0
+		% resistencia al aire : 20.0
+		% resistencia al fuego : 13.0
+		% resistencia neutral : 15.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 58.0
+		iniciativa : 2346.0
+		placaje : 50.0
+		potencia (daños generales) : 140.0
+		vitalidad : 4000.0
+	Characteristics:
+		agilidad: 504.0
+		inteligencia: 504.0
+		fuerza: 694.0
+		suerte: 644.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Anillo Rtografiko	200	24035
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Cuadrifolio	193	18700
+		Mascotura	Sakóquero	60	13465
+		Sombrero	Casco de Miauvizor	200	17579
+		Trofeo	Destructor de aire mayor	150	12687
+		Trofeo	Destructor de agua mayor	150	12690
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			22205, # Anillo de Corrupción
+			24035, # Anillo Rtografiko
+			19986, # Arco de vueloceronte
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			22209, # Zarcinturón de Corrupción
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18700, # Cuadrifolio
+			13465, # Sakóquero
+			17579, # Casco de Miauvizor
+			12687, # Destructor de aire mayor
+			12690, # Destructor de agua mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwyNDAyOSwyNDAzNSwyMjIwNSwyMjIwOSwxNzU3OCwxOTk4NiwxODcwMCwxMzQ2NSxudWxsLDc3NTQsMTgwNDMsNzM5LDEzODI1LDEyNjkwLDEyNjg3XX0
+Solution 24:
+	Fitness: 291.88712
+	Weapon damage: 1459.4356
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1799.2959999999998
+	Push damage: 294.0
+	Spell healing: 222.35000000000002
+	Weapon healing: 0
+	Preferences:
+		% crítico : 87.0
+		% resistencia a la tierra : 33.0
+		% resistencia al agua : 18.0
+		% resistencia al aire : 22.0
+		% resistencia al fuego : 13.0
+		% resistencia neutral : 12.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 112.0
+		iniciativa : 2316.0
+		placaje : 65.0
+		potencia (daños generales) : 150.0
+		vitalidad : 4050.0
+	Characteristics:
+		agilidad: 624.0
+		inteligencia: 624.0
+		fuerza: 414.0
+		suerte: 454.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de lo indecible	200	18025
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Anillo de Noai Aludem	197	13642
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Dorsal de Willorca	200	34332
+		Cinturón	Cinturón de lo indecible	200	18026
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Tofuma	20	12177
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Destructor de fuego mayor	150	12693
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			18025, # Amuleto de lo indecible
+			11738, # Anillo Chanicomo
+			13642, # Anillo de Noai Aludem
+			19986, # Arco de vueloceronte
+			13643, # Getas de Noai Aludem
+			34332, # Dorsal de Willorca
+			18026, # Cinturón de lo indecible
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18718, # Escudo de kukoloide
+			12177, # Tofuma
+			13641, # Gorro de Noai Aludem
+			12693, # Destructor de fuego mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwzNDMzMiwxODAyNSwxMzY0MiwxMTczOCwxODAyNiwxMzY0MywxOTk4NiwxODcxOCwxMjE3NyxudWxsLDc3NTQsMTgwNDMsNzM5LDcwNDMsMTM4MjUsMTI2OTNdfQ
+Solution 25:
+	Fitness: 291.17600000000004
+	Weapon damage: 1455.88
+		Weapon: Arco de Tentenhuevo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1814.16
+	Push damage: 444.0
+	Spell healing: 98.1
+	Weapon healing: 0
+	Preferences:
+		% crítico : 90.0
+		% resistencia a la tierra : 40.0
+		% resistencia al agua : 17.0
+		% resistencia al aire : 25.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 24.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 46.0
+		iniciativa : 2716.0
+		placaje : 73.0
+		potencia (daños generales) : 110.0
+		vitalidad : 4150.0
+	Characteristics:
+		agilidad: 584.0
+		inteligencia: 274.0
+		fuerza: 734.0
+		suerte: 624.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Anillo de Tentenhuevo	200	32234
+		Arco	Arco de Tentenhuevo	200	32235
+		Bota	Pikotas	198	14881
+		Capa	Melena de Tal Kasha	200	18591
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Disco de Tentenhuevo	200	32236
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Nemes de Tal Kasha	200	18590
+		Trofeo	Destructor de aire mayor	150	12687
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			22205, # Anillo de Corrupción
+			32234, # Anillo de Tentenhuevo
+			32235, # Arco de Tentenhuevo
+			14881, # Pikotas
+			18591, # Melena de Tal Kasha
+			22209, # Zarcinturón de Corrupción
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			32236, # Disco de Tentenhuevo
+			31885, # Microsmoglob
+			18590, # Nemes de Tal Kasha
+			12687, # Destructor de aire mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxODU5MCwxODU5MSwxNDA5NCwzMjIzNCwyMjIwNSwyMjIwOSwxNDg4MSwzMjIzNSwzMjIzNiwzMTg4NSxudWxsLDc3NTQsMTgwNDMsNzM5LDcwNDMsMTI2ODcsMTM4MjVdfQ
+Solution 26:
+	Fitness: 290.18512
+	Weapon damage: 1450.9256
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1778.096
+	Push damage: 294.0
+	Spell healing: 210.60000000000002
+	Weapon healing: 0
+	Preferences:
+		% crítico : 87.0
+		% resistencia a la tierra : 29.0
+		% resistencia al agua : 14.0
+		% resistencia al aire : 32.0
+		% resistencia al fuego : 13.0
+		% resistencia neutral : 12.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 8.0
+		huida : 122.0
+		iniciativa : 2516.0
+		placaje : 55.0
+		potencia (daños generales) : 150.0
+		vitalidad : 3950.0
+	Characteristics:
+		agilidad: 624.0
+		inteligencia: 624.0
+		fuerza: 414.0
+		suerte: 354.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de lo indecible	200	18025
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Anillo de Noai Aludem	197	13642
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capa de Golosorak	200	32237
+		Cinturón	Cinturón de lo indecible	200	18026
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Tofuma	20	12177
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Destructor de fuego mayor	150	12693
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			18025, # Amuleto de lo indecible
+			11738, # Anillo Chanicomo
+			13642, # Anillo de Noai Aludem
+			19986, # Arco de vueloceronte
+			13643, # Getas de Noai Aludem
+			32237, # Capa de Golosorak
+			18026, # Cinturón de lo indecible
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18718, # Escudo de kukoloide
+			12177, # Tofuma
+			13641, # Gorro de Noai Aludem
+			12693, # Destructor de fuego mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwzMjIzNywxODAyNSwxMzY0MiwxMTczOCwxODAyNiwxMzY0MywxOTk4NiwxODcxOCwxMjE3NyxudWxsLDc3NTQsMTgwNDMsNzM5LDcwNDMsMTM4MjUsMTI2OTNdfQ
+Solution 27:
+	Fitness: 290.0725
+	Weapon damage: 1160.29
+		Weapon: Arco de dantartánico
+		AP Cost: 4
+		Casts per turn: 1
+	Spell damage:1870.9385
+	Push damage: 304.0
+	Spell healing: 103.0375
+	Weapon healing: 0
+	Preferences:
+		% crítico : 92.0
+		% resistencia a la tierra : 16.0
+		% resistencia al agua : 23.0
+		% resistencia al aire : 16.0
+		% resistencia al fuego : 20.0
+		% resistencia neutral : 20.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 7.0
+		huida : 100.0
+		iniciativa : 3601.0
+		placaje : 148.0
+		potencia (daños generales) : 600.0
+		vitalidad : 3899.0
+	Characteristics:
+		agilidad: 684.0
+		inteligencia: 274.0
+		fuerza: 369.0
+		suerte: 274.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo traicionero	199	14054
+		Anillo	Coconillo	200	21223
+		Arco	Arco de dantartánico	200	33607
+		Bota	Botas traicioneras	198	14056
+		Capa	Capa Brigada	198	13197
+		Cinturón	Cinturón de estrígido	200	14095
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Cocoscudo	200	21225
+		Mascotura	Kolifante de Kartago	60	29432
+		Sombrero	Sombrero traicionero	197	14053
+		Trofeo	Acróbata mayor	150	12714
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			14054, # Anillo traicionero
+			21223, # Coconillo
+			33607, # Arco de dantartánico
+			14056, # Botas traicioneras
+			13197, # Capa Brigada
+			14095, # Cinturón de estrígido
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			21225, # Cocoscudo
+			29432, # Kolifante de Kartago
+			14053, # Sombrero traicionero
+			12714, # Acróbata mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNDA1MywxMzE5NywxNDA5NCwxNDA1NCwyMTIyMywxNDA5NSwxNDA1NiwzMzYwNywyMTIyNSwyOTQzMixudWxsLDc3NTQsMTgwNDMsNzM5LDEzODI1LDY5NCwxMjcxNF19
+Solution 28:
+	Fitness: 289.216
+	Weapon damage: 1446.08
+		Weapon: Arco de Tentenhuevo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1855.8000000000002
+	Push damage: 504.0
+	Spell healing: 95.1
+	Weapon healing: 0
+	Preferences:
+		% crítico : 96.0
+		% resistencia a la tierra : 40.0
+		% resistencia al agua : 27.0
+		% resistencia al aire : 25.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 51.0
+		iniciativa : 2136.0
+		placaje : 83.0
+		potencia (daños generales) : 110.0
+		vitalidad : 4400.0
+	Characteristics:
+		agilidad: 584.0
+		inteligencia: 274.0
+		fuerza: 694.0
+		suerte: 584.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Anillo de Tentenhuevo	200	32234
+		Arco	Arco de Tentenhuevo	200	32235
+		Bota	Botas trithonas	200	18030
+		Capa	Melena de Tal Kasha	200	18591
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Disco de Tentenhuevo	200	32236
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Nemes de Tal Kasha	200	18590
+		Trofeo	Destructor de aire mayor	150	12687
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			22205, # Anillo de Corrupción
+			32234, # Anillo de Tentenhuevo
+			32235, # Arco de Tentenhuevo
+			18030, # Botas trithonas
+			18591, # Melena de Tal Kasha
+			22209, # Zarcinturón de Corrupción
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			32236, # Disco de Tentenhuevo
+			31885, # Microsmoglob
+			18590, # Nemes de Tal Kasha
+			12687, # Destructor de aire mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxODU5MCwxODU5MSwxNDA5NCwzMjIzNCwyMjIwNSwyMjIwOSwxODAzMCwzMjIzNSwzMjIzNiwzMTg4NSxudWxsLDc3NTQsMTgwNDMsNzM5LDcwNDMsMTI2ODcsMTM4MjVdfQ
+Solution 29:
+	Fitness: 287.75600000000003
+	Weapon damage: 1438.7800000000002
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1854.7395000000001
+	Push damage: 264.0
+	Spell healing: 99.03750000000001
+	Weapon healing: 0
+	Preferences:
+		% crítico : 94.0
+		% resistencia a la tierra : 16.0
+		% resistencia al agua : 38.0
+		% resistencia al aire : 19.0
+		% resistencia al fuego : 29.0
+		% resistencia neutral : 12.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 116.0
+		iniciativa : 3641.0
+		placaje : 88.0
+		potencia (daños generales) : 220.0
+		vitalidad : 4100.0
+	Characteristics:
+		agilidad: 744.0
+		inteligencia: 514.0
+		fuerza: 549.0
+		suerte: 434.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Collar rhoarim	200	31761
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo traicionero	199	14054
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas traicioneras	198	14056
+		Capa	Melena de Tal Kasha	200	18591
+		Cinturón	Taparrabos rhoarim	200	31762
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Sombrero traicionero	197	14053
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			31761, # Collar rhoarim
+			13642, # Anillo de Noai Aludem
+			14054, # Anillo traicionero
+			19986, # Arco de vueloceronte
+			14056, # Botas traicioneras
+			18591, # Melena de Tal Kasha
+			31762, # Taparrabos rhoarim
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18718, # Escudo de kukoloide
+			31885, # Microsmoglob
+			14053, # Sombrero traicionero
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNDA1MywxODU5MSwzMTc2MSwxNDA1NCwxMzY0MiwzMTc2MiwxNDA1NiwxOTk4NiwxODcxOCwzMTg4NSxudWxsLDc3NTQsMTgwNDMsNzM5LDcwNDMsNjk0LDEzODI1XX0
+Solution 30:
+	Fitness: 286.97904000000005
+	Weapon damage: 1434.8952000000002
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1763.272
+	Push damage: 294.0
+	Spell healing: 210.60000000000002
+	Weapon healing: 0
+	Preferences:
+		% crítico : 89.0
+		% resistencia a la tierra : 29.0
+		% resistencia al agua : 14.0
+		% resistencia al aire : 32.0
+		% resistencia al fuego : 13.0
+		% resistencia neutral : 12.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 8.0
+		huida : 122.0
+		iniciativa : 2516.0
+		placaje : 55.0
+		potencia (daños generales) : 150.0
+		vitalidad : 4000.0
+	Characteristics:
+		agilidad: 624.0
+		inteligencia: 624.0
+		fuerza: 414.0
+		suerte: 354.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de lo indecible	200	18025
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Coconillo	200	21223
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capa de Golosorak	200	32237
+		Cinturón	Cinturón de lo indecible	200	18026
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Tofuma	20	12177
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Destructor de fuego mayor	150	12693
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			18025, # Amuleto de lo indecible
+			13642, # Anillo de Noai Aludem
+			21223, # Coconillo
+			19986, # Arco de vueloceronte
+			13643, # Getas de Noai Aludem
+			32237, # Capa de Golosorak
+			18026, # Cinturón de lo indecible
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18718, # Escudo de kukoloide
+			12177, # Tofuma
+			13641, # Gorro de Noai Aludem
+			12693, # Destructor de fuego mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwzMjIzNywxODAyNSwxMzY0MiwyMTIyMywxODAyNiwxMzY0MywxOTk4NiwxODcxOCwxMjE3NyxudWxsLDc3NTQsMTgwNDMsNzM5LDcwNDMsMTM4MjUsMTI2OTNdfQ
+Solution 31:
+	Fitness: 286.85392
+	Weapon damage: 1434.2696
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1742.7359999999999
+	Push damage: 294.0
+	Spell healing: 210.60000000000002
+	Weapon healing: 0
+	Preferences:
+		% crítico : 87.0
+		% resistencia a la tierra : 29.0
+		% resistencia al agua : 14.0
+		% resistencia al aire : 32.0
+		% resistencia al fuego : 13.0
+		% resistencia neutral : 12.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 8.0
+		huida : 122.0
+		iniciativa : 2516.0
+		placaje : 55.0
+		potencia (daños generales) : 110.0
+		vitalidad : 3950.0
+	Characteristics:
+		agilidad: 624.0
+		inteligencia: 624.0
+		fuerza: 414.0
+		suerte: 354.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de lo indecible	200	18025
+		Anillo	Anillo Chanicomo	194	11738
+		Anillo	Anillo de Noai Aludem	197	13642
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capa de Golosorak	200	32237
+		Cinturón	Cinturón de lo indecible	200	18026
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de kukoloide	200	18718
+		Mascota	Tofuma	20	12177
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Destructor de agua mayor	150	12690
+		Trofeo	Destructor de fuego mayor	150	12693
+	Penalized: False
+	Chromosome: [
+			18025, # Amuleto de lo indecible
+			11738, # Anillo Chanicomo
+			13642, # Anillo de Noai Aludem
+			19986, # Arco de vueloceronte
+			13643, # Getas de Noai Aludem
+			32237, # Capa de Golosorak
+			18026, # Cinturón de lo indecible
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18718, # Escudo de kukoloide
+			12177, # Tofuma
+			13641, # Gorro de Noai Aludem
+			12690, # Destructor de agua mayor
+			12693, # Destructor de fuego mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwzMjIzNywxODAyNSwxMzY0MiwxMTczOCwxODAyNiwxMzY0MywxOTk4NiwxODcxOCwxMjE3NyxudWxsLDc3NTQsMTgwNDMsNzM5LDcwNDMsMTI2OTAsMTI2OTNdfQ
+Solution 32:
+	Fitness: 286.816
+	Weapon damage: 1434.08
+		Weapon: Arco de Tentenhuevo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1805.3600000000001
+	Push damage: 504.0
+	Spell healing: 95.1
+	Weapon healing: 0
+	Preferences:
+		% crítico : 90.0
+		% resistencia a la tierra : 40.0
+		% resistencia al agua : 27.0
+		% resistencia al aire : 25.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 51.0
+		iniciativa : 2136.0
+		placaje : 83.0
+		potencia (daños generales) : 110.0
+		vitalidad : 4400.0
+	Characteristics:
+		agilidad: 584.0
+		inteligencia: 274.0
+		fuerza: 694.0
+		suerte: 584.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de estrígido	200	14094
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Anillo de Tentenhuevo	200	32234
+		Arco	Arco de Tentenhuevo	200	32235
+		Bota	Botas trithonas	200	18030
+		Capa	Melena de Tal Kasha	200	18591
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Dofus	Dorigami	150	23408
+		Escudo	Disco de Tentenhuevo	200	32236
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Nemes de Tal Kasha	200	18590
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			14094, # Amuleto de estrígido
+			22205, # Anillo de Corrupción
+			32234, # Anillo de Tentenhuevo
+			32235, # Arco de Tentenhuevo
+			18030, # Botas trithonas
+			18591, # Melena de Tal Kasha
+			22209, # Zarcinturón de Corrupción
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			23408, # Dorigami
+			32236, # Disco de Tentenhuevo
+			31885, # Microsmoglob
+			18590, # Nemes de Tal Kasha
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxODU5MCwxODU5MSwxNDA5NCwzMjIzNCwyMjIwNSwyMjIwOSwxODAzMCwzMjIzNSwzMjIzNiwzMTg4NSxudWxsLDc3NTQsMTgwNDMsNzM5LDcwNDMsMjM0MDgsMTM4MjVdfQ
+Solution 33:
+	Fitness: 286.44204
+	Weapon damage: 1432.2102
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1875.022
+	Push damage: 264.0
+	Spell healing: 111.225
+	Weapon healing: 0
+	Preferences:
+		% crítico : 89.0
+		% resistencia a la tierra : 17.0
+		% resistencia al agua : 30.0
+		% resistencia al aire : 17.0
+		% resistencia al fuego : 20.0
+		% resistencia neutral : 15.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 55.0
+		iniciativa : 2566.0
+		placaje : 65.0
+		potencia (daños generales) : 250.0
+		vitalidad : 4150.0
+	Characteristics:
+		agilidad: 554.0
+		inteligencia: 654.0
+		fuerza: 724.0
+		suerte: 634.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Alianza de Corrupción	200	22206
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Miaumiau de Angora	20	9617
+		Sombrero	El Dorado	200	18439
+		Trofeo	Destructor de agua mayor	150	12690
+		Trofeo	Destructor de fuego mayor	150	12693
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			22205, # Anillo de Corrupción
+			22206, # Alianza de Corrupción
+			19986, # Arco de vueloceronte
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			15699, # Cintáceo
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18700, # Cuadrifolio
+			9617, # Miaumiau de Angora
+			18439, # El Dorado
+			12690, # Destructor de agua mayor
+			12693, # Destructor de fuego mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxODQzOSwxNzU4MCwxOTk4NCwyMjIwNSwyMjIwNiwxNTY5OSwxNzU3OCwxOTk4NiwxODcwMCw5NjE3LG51bGwsNzc1NCwxODA0Myw3MzksMTM4MjUsMTI2OTAsMTI2OTNdfQ
+Solution 34:
+	Fitness: 286.21963999999997
+	Weapon damage: 1431.0982
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1805.822
+	Push damage: 264.0
+	Spell healing: 106.725
+	Weapon healing: 0
+	Preferences:
+		% crítico : 89.0
+		% resistencia a la tierra : 35.0
+		% resistencia al agua : 30.0
+		% resistencia al aire : 24.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 15.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 64.0
+		iniciativa : 2446.0
+		placaje : 66.0
+		potencia (daños generales) : 140.0
+		vitalidad : 4050.0
+	Characteristics:
+		agilidad: 564.0
+		inteligencia: 564.0
+		fuerza: 754.0
+		suerte: 564.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Anillo Rtografiko	200	24035
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de kukoloide	200	18718
+		Mascotura	Sakóquero	60	13465
+		Sombrero	Casco de Miauvizor	200	17579
+		Trofeo	Destructor de aire mayor	150	12687
+		Trofeo	Destructor de fuego mayor	150	12693
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			22205, # Anillo de Corrupción
+			24035, # Anillo Rtografiko
+			19986, # Arco de vueloceronte
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			22209, # Zarcinturón de Corrupción
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18718, # Escudo de kukoloide
+			13465, # Sakóquero
+			17579, # Casco de Miauvizor
+			12687, # Destructor de aire mayor
+			12693, # Destructor de fuego mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwyNDAyOSwyNDAzNSwyMjIwNSwyMjIwOSwxNzU3OCwxOTk4NiwxODcxOCwxMzQ2NSxudWxsLDc3NTQsMTgwNDMsNzM5LDEzODI1LDEyNjkzLDEyNjg3XX0
+Solution 35:
+	Fitness: 286.21963999999997
+	Weapon damage: 1431.0982
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1805.822
+	Push damage: 264.0
+	Spell healing: 106.725
+	Weapon healing: 0
+	Preferences:
+		% crítico : 89.0
+		% resistencia a la tierra : 35.0
+		% resistencia al agua : 30.0
+		% resistencia al aire : 24.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 15.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 64.0
+		iniciativa : 2446.0
+		placaje : 66.0
+		potencia (daños generales) : 140.0
+		vitalidad : 4050.0
+	Characteristics:
+		agilidad: 564.0
+		inteligencia: 564.0
+		fuerza: 754.0
+		suerte: 564.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Anillo Rtografiko	200	24035
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de kukoloide	200	18718
+		Mascotura	Sakóquero	60	13465
+		Sombrero	Casco de Miauvizor	200	17579
+		Trofeo	Destructor de aire mayor	150	12687
+		Trofeo	Destructor de agua mayor	150	12690
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			22205, # Anillo de Corrupción
+			24035, # Anillo Rtografiko
+			19986, # Arco de vueloceronte
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			22209, # Zarcinturón de Corrupción
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18718, # Escudo de kukoloide
+			13465, # Sakóquero
+			17579, # Casco de Miauvizor
+			12687, # Destructor de aire mayor
+			12690, # Destructor de agua mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwyNDAyOSwyNDAzNSwyMjIwNSwyMjIwOSwxNzU3OCwxOTk4NiwxODcxOCwxMzQ2NSxudWxsLDc3NTQsMTgwNDMsNzM5LDEzODI1LDEyNjkwLDEyNjg3XX0
+Solution 36:
+	Fitness: 285.97604
+	Weapon damage: 1429.8802
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1811.6419999999998
+	Push damage: 264.0
+	Spell healing: 108.975
+	Weapon healing: 0
+	Preferences:
+		% crítico : 89.0
+		% resistencia a la tierra : 35.0
+		% resistencia al agua : 30.0
+		% resistencia al aire : 24.0
+		% resistencia al fuego : 19.0
+		% resistencia neutral : 15.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 64.0
+		iniciativa : 2506.0
+		placaje : 66.0
+		potencia (daños generales) : 140.0
+		vitalidad : 4050.0
+	Characteristics:
+		agilidad: 564.0
+		inteligencia: 564.0
+		fuerza: 814.0
+		suerte: 564.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Anillo de Corrupción	200	22205
+		Anillo	Anillo Rtografiko	200	24035
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de kukoloide	200	18718
+		Mascotura	Sakóquero	60	13465
+		Sombrero	Casco de Miauvizor	200	17579
+		Trofeo	Destructor de agua mayor	150	12690
+		Trofeo	Furibundo mayor	150	12724
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			22205, # Anillo de Corrupción
+			24035, # Anillo Rtografiko
+			19986, # Arco de vueloceronte
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			22209, # Zarcinturón de Corrupción
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18718, # Escudo de kukoloide
+			13465, # Sakóquero
+			17579, # Casco de Miauvizor
+			12690, # Destructor de agua mayor
+			12724, # Furibundo mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwyNDAyOSwyNDAzNSwyMjIwNSwyMjIwOSwxNzU3OCwxOTk4NiwxODcxOCwxMzQ2NSxudWxsLDc3NTQsMTgwNDMsNzM5LDEzODI1LDEyNjkwLDEyNzI0XX0
+Solution 37:
+	Fitness: 285.816
+	Weapon damage: 1429.08
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1867.8000000000002
+	Push damage: 294.0
+	Spell healing: 241.10000000000002
+	Weapon healing: 0
+	Preferences:
+		% crítico : 96.0
+		% resistencia a la tierra : 15.0
+		% resistencia al agua : 20.0
+		% resistencia al aire : 18.0
+		% resistencia al fuego : 24.0
+		% resistencia neutral : 22.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 52.0
+		iniciativa : 2796.0
+		placaje : 54.0
+		potencia (daños generales) : 240.0
+		vitalidad : 3850.0
+	Characteristics:
+		agilidad: 524.0
+		inteligencia: 784.0
+		fuerza: 454.0
+		suerte: 534.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Rosca de Mecanimut	200	32240
+		Anillo	Tuerca de Mecanimut	200	32241
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capa de diondino	200	18002
+		Cinturón	Cintáceo	200	15699
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Destructor de tierra mayor	150	12747
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			32240, # Rosca de Mecanimut
+			32241, # Tuerca de Mecanimut
+			19986, # Arco de vueloceronte
+			13643, # Getas de Noai Aludem
+			18002, # Capa de diondino
+			15699, # Cintáceo
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			13641, # Gorro de Noai Aludem
+			12747, # Destructor de tierra mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwxODAwMiwxOTk4NCwzMjI0MCwzMjI0MSwxNTY5OSwxMzY0MywxOTk4NiwxODcwMCwxMzY3MyxudWxsLDc3NTQsMTgwNDMsNzM5LDEzODI1LDY5NCwxMjc0N119
+Solution 38:
+	Fitness: 285.056
+	Weapon damage: 1425.28
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1806.5409999999997
+	Push damage: 264.0
+	Spell healing: 104.475
+	Weapon healing: 0
+	Preferences:
+		% crítico : 92.0
+		% resistencia a la tierra : 35.0
+		% resistencia al agua : 35.0
+		% resistencia al aire : 21.0
+		% resistencia al fuego : 16.0
+		% resistencia neutral : 15.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 58.0
+		iniciativa : 2386.0
+		placaje : 62.0
+		potencia (daños generales) : 140.0
+		vitalidad : 3850.0
+	Characteristics:
+		agilidad: 564.0
+		inteligencia: 564.0
+		fuerza: 754.0
+		suerte: 504.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Wulán	200	24029
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de Corrupción	200	22205
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Zarcinturón de Corrupción	200	22209
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de kukoloide	200	18718
+		Mascotura	Sakóquero	60	13465
+		Sombrero	Casco de Miauvizor	200	17579
+		Trofeo	Destructor de aire mayor	150	12687
+		Trofeo	Destructor de agua mayor	150	12690
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			24029, # Amuleto de Wulán
+			13642, # Anillo de Noai Aludem
+			22205, # Anillo de Corrupción
+			19986, # Arco de vueloceronte
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			22209, # Zarcinturón de Corrupción
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18718, # Escudo de kukoloide
+			13465, # Sakóquero
+			17579, # Casco de Miauvizor
+			12687, # Destructor de aire mayor
+			12690, # Destructor de agua mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwyNDAyOSwxMzY0MiwyMjIwNSwyMjIwOSwxNzU3OCwxOTk4NiwxODcxOCwxMzQ2NSxudWxsLDc3NTQsMTgwNDMsNzM5LDEzODI1LDEyNjkwLDEyNjg3XX0

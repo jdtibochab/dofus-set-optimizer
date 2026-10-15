@@ -1,2 +1,3 @@
 Step Name,Job ID,Workspace,State,Run Time,Elapsed Time,Start Time,Submit Time,End Time,Number Restarts,Params
-run_optimization,93077,run_optimization,FINISHED,0d:00h:03m:36s,0d:00h:03m:36s,2026-10-13 17:00:23,2026-10-13 17:00:23,2026-10-13 17:03:59,0,
+run_optimization,53096,run_optimization,FINISHED,0d:00h:03m:26s,0d:00h:03m:26s,2026-10-14 17:21:22,2026-10-14 17:21:22,2026-10-14 17:24:48,0,
+html_report,55247,html_report,FINISHED,0d:00h:00m:02s,0d:00h:00m:02s,2026-10-14 17:25:48,2026-10-14 17:25:48,2026-10-14 17:25:50,0,

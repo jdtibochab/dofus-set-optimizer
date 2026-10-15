@@ -1,19 +1,32 @@
 dependencies:
   _source: !!set {}
+  html_report: !!set {}
   run_optimization: !!set {}
 hub_dependencies:
   _source: !!set {}
+  html_report: !!set
+    run_optimization: null
   run_optimization: !!set {}
 step_combinations:
-  _source: /Users/jdtibochab/other/dofus-set-optimizer/main/workflows/report-cra_20261011-164728
+  _source: /Users/jdtibochab/other/dofus-set-optimizer/implement-elemental-heals/workflows/report-cra_20261014-164217
+  html_report:
+    html_report: html_report
   run_optimization:
-    run_optimization_ELE.agi int str cha.MP.5.OBJ.elements: run_optimization/ELE.agi_int_str_cha.MP.5.OBJ.elements
+    run_optimization_ELE.agi int str cha.MP.5.OBJ.elements weapon: run_optimization/ELE.agi_int_str_cha.MP.5.OBJ.elements_weapon
+    run_optimization_ELE.agi int str cha.MP.5.OBJ.weapon: run_optimization/ELE.agi_int_str_cha.MP.5.OBJ.weapon
+    run_optimization_ELE.agi int str cha.MP.6.OBJ.elements weapon: run_optimization/ELE.agi_int_str_cha.MP.6.OBJ.elements_weapon
+    run_optimization_ELE.agi int str cha.MP.6.OBJ.weapon: run_optimization/ELE.agi_int_str_cha.MP.6.OBJ.weapon
 used_parameters:
   _source: !!set {}
+  html_report: !!set {}
   run_optimization: !!set
     ELEMENTS: null
     MP: null
     OBJECTIVE: null
 workspaces:
-  _source: /Users/jdtibochab/other/dofus-set-optimizer/main/workflows/report-cra_20261011-164728
-  run_optimization_ELE.agi int str cha.MP.5.OBJ.elements: run_optimization/ELE.agi_int_str_cha.MP.5.OBJ.elements
+  _source: /Users/jdtibochab/other/dofus-set-optimizer/implement-elemental-heals/workflows/report-cra_20261014-164217
+  html_report: html_report
+  run_optimization_ELE.agi int str cha.MP.5.OBJ.elements weapon: run_optimization/ELE.agi_int_str_cha.MP.5.OBJ.elements_weapon
+  run_optimization_ELE.agi int str cha.MP.5.OBJ.weapon: run_optimization/ELE.agi_int_str_cha.MP.5.OBJ.weapon
+  run_optimization_ELE.agi int str cha.MP.6.OBJ.elements weapon: run_optimization/ELE.agi_int_str_cha.MP.6.OBJ.elements_weapon
+  run_optimization_ELE.agi int str cha.MP.6.OBJ.weapon: run_optimization/ELE.agi_int_str_cha.MP.6.OBJ.weapon

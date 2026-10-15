@@ -1,0 +1,1452 @@
+Solution 0:
+	Fitness: 1948.8353475472281
+	Weapon damage: 1542.4692
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:2049.4120000000003
+	Push damage: 264.0
+	Spell healing: 125.85000000000001
+	Weapon healing: 0
+	Preferences:
+		% crítico : 89.0
+		% resistencia a la tierra : 39.0
+		% resistencia al agua : 29.0
+		% resistencia al aire : 19.0
+		% resistencia al fuego : 29.0
+		% resistencia neutral : 34.0
+		PA : 12.0
+		PM : 5.0
+		alcance : 6.0
+		huida : 81.0
+		iniciativa : 2956.0
+		placaje : 64.0
+		potencia (daños generales) : 270.0
+		vitalidad : 4150.0
+	Characteristics:
+		agilidad: 644.0
+		inteligencia: 744.0
+		fuerza: 744.0
+		suerte: 824.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo de vueloceronte	200	19985
+		Anillo	Brazalete de melenutrof	200	15190
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Marfil	180	7115
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus abisal	180	18043
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus Púrpura	110	694
+		Escudo	Cuadrifolio	193	18700
+		Mascota	Lokulto	20	13673
+		Sombrero	Casco de Miauvizor	200	17579
+		Trofeo	Potente mayor	150	13825
+	Penalized: True
+		Penalized: 8 (lower) with offset 0.16514030387319964 and strength 0.01
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			19985, # Anillo de vueloceronte
+			15190, # Brazalete de melenutrof
+			19986, # Arco de vueloceronte
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			19983, # Cinturón de vueloceronte
+			7115, # Dofus Marfil
+			7043, # Dofus de los hielos
+			18043, # Dofus abisal
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			694, # Dofus Púrpura
+			18700, # Cuadrifolio
+			13673, # Lokulto
+			17579, # Casco de Miauvizor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxOTk4NCwxOTk4NSwxNTE5MCwxOTk4MywxNzU3OCwxOTk4NiwxODcwMCwxMzY3MyxudWxsLDczOSwxMzgyNSwxODA0Myw3NzU0LDcwNDMsNjk0XX0
+Solution 1:
+	Fitness: 2321.45984
+	Weapon damage: 1616.7392
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1998.112
+	Push damage: 394.0
+	Spell healing: 344.1
+	Weapon healing: 0
+	Preferences:
+		% crítico : 89.0
+		% resistencia a la tierra : 38.0
+		% resistencia al agua : 20.0
+		% resistencia al aire : 28.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 22.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		huida : 83.0
+		iniciativa : 3876.0
+		placaje : 46.0
+		potencia (daños generales) : 190.0
+		vitalidad : 3800.0
+	Characteristics:
+		agilidad: 634.0
+		inteligencia: 794.0
+		fuerza: 524.0
+		suerte: 424.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Lanza de Guerra	200	22192
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capa de Golosorak	200	32237
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de Golosorak	200	32239
+		Mulagua	Mulagua ciruela y esmeralda	60	33109
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			13642, # Anillo de Noai Aludem
+			22192, # Lanza de Guerra
+			19986, # Arco de vueloceronte
+			13643, # Getas de Noai Aludem
+			32237, # Capa de Golosorak
+			19983, # Cinturón de vueloceronte
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			32239, # Escudo de Golosorak
+			33109, # Mulagua ciruela y esmeralda
+			13641, # Gorro de Noai Aludem
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwzMjIzNywxOTk4NCwxMzY0MiwyMjE5MiwxOTk4MywxMzY0MywxOTk4NiwzMjIzOSwzMzEwOSxudWxsLDc3NTQsMTgwNDMsNzM5LDY5NCwxMzgyNSw3MDQzXX0
+Solution 2:
+	Fitness: 2288.16584
+	Weapon damage: 1598.7692
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1968.412
+	Push damage: 394.0
+	Spell healing: 346.35
+	Weapon healing: 0
+	Preferences:
+		% crítico : 89.0
+		% resistencia a la tierra : 38.0
+		% resistencia al agua : 20.0
+		% resistencia al aire : 28.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 22.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		huida : 83.0
+		iniciativa : 3936.0
+		placaje : 46.0
+		potencia (daños generales) : 150.0
+		vitalidad : 3800.0
+	Characteristics:
+		agilidad: 634.0
+		inteligencia: 794.0
+		fuerza: 524.0
+		suerte: 484.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Lanza de Guerra	200	22192
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capa de Golosorak	200	32237
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de Golosorak	200	32239
+		Mulagua	Mulagua ciruela y esmeralda	60	33109
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Jugador mayor	150	12716
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			13642, # Anillo de Noai Aludem
+			22192, # Lanza de Guerra
+			19986, # Arco de vueloceronte
+			13643, # Getas de Noai Aludem
+			32237, # Capa de Golosorak
+			19983, # Cinturón de vueloceronte
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			32239, # Escudo de Golosorak
+			33109, # Mulagua ciruela y esmeralda
+			13641, # Gorro de Noai Aludem
+			12716, # Jugador mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwzMjIzNywxOTk4NCwxMzY0MiwyMjE5MiwxOTk4MywxMzY0MywxOTk4NiwzMjIzOSwzMzEwOSxudWxsLDc3NTQsMTgwNDMsNzM5LDY5NCwxMjcxNiw3MDQzXX0
+Solution 3:
+	Fitness: 2286.3360000000002
+	Weapon damage: 1577.68
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1970.8000000000002
+	Push damage: 394.0
+	Spell healing: 346.35
+	Weapon healing: 0
+	Preferences:
+		% crítico : 95.0
+		% resistencia a la tierra : 38.0
+		% resistencia al agua : 20.0
+		% resistencia al aire : 28.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 22.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		huida : 83.0
+		iniciativa : 3936.0
+		placaje : 46.0
+		potencia (daños generales) : 110.0
+		vitalidad : 3800.0
+	Characteristics:
+		agilidad: 634.0
+		inteligencia: 794.0
+		fuerza: 524.0
+		suerte: 484.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Lanza de Guerra	200	22192
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capa de Golosorak	200	32237
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de Golosorak	200	32239
+		Mulagua	Mulagua ciruela y esmeralda	60	33109
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			13642, # Anillo de Noai Aludem
+			22192, # Lanza de Guerra
+			19986, # Arco de vueloceronte
+			13643, # Getas de Noai Aludem
+			32237, # Capa de Golosorak
+			19983, # Cinturón de vueloceronte
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			32239, # Escudo de Golosorak
+			33109, # Mulagua ciruela y esmeralda
+			13641, # Gorro de Noai Aludem
+			12716, # Jugador mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwzMjIzNywxOTk4NCwxMzY0MiwyMjE5MiwxOTk4MywxMzY0MywxOTk4NiwzMjIzOSwzMzEwOSxudWxsLDc3NTQsMTgwNDMsNzM5LDEzODI1LDEyNzE2LDcwNDNdfQ
+Solution 4:
+	Fitness: 2246.976
+	Weapon damage: 1560.88
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1934.8
+	Push damage: 394.0
+	Spell healing: 346.35
+	Weapon healing: 0
+	Preferences:
+		% crítico : 95.0
+		% resistencia a la tierra : 38.0
+		% resistencia al agua : 20.0
+		% resistencia al aire : 28.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 22.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		huida : 83.0
+		iniciativa : 3936.0
+		placaje : 46.0
+		potencia (daños generales) : 70.0
+		vitalidad : 3800.0
+	Characteristics:
+		agilidad: 634.0
+		inteligencia: 794.0
+		fuerza: 524.0
+		suerte: 484.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Lanza de Guerra	200	22192
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capa de Golosorak	200	32237
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de Golosorak	200	32239
+		Mulagua	Mulagua ciruela y esmeralda	60	33109
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Destructor de fuego mayor	150	12693
+		Trofeo	Jugador mayor	150	12716
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			13642, # Anillo de Noai Aludem
+			22192, # Lanza de Guerra
+			19986, # Arco de vueloceronte
+			13643, # Getas de Noai Aludem
+			32237, # Capa de Golosorak
+			19983, # Cinturón de vueloceronte
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			32239, # Escudo de Golosorak
+			33109, # Mulagua ciruela y esmeralda
+			13641, # Gorro de Noai Aludem
+			12693, # Destructor de fuego mayor
+			12716, # Jugador mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwzMjIzNywxOTk4NCwxMzY0MiwyMjE5MiwxOTk4MywxMzY0MywxOTk4NiwzMjIzOSwzMzEwOSxudWxsLDc3NTQsMTgwNDMsNzM5LDEyNjkzLDEyNzE2LDcwNDNdfQ
+Solution 5:
+	Fitness: 2226.0548799999997
+	Weapon damage: 1480.0544
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1930.0439999999999
+	Push damage: 264.0
+	Spell healing: 128.1
+	Weapon healing: 0
+	Preferences:
+		% crítico : 88.0
+		% resistencia a la tierra : 30.0
+		% resistencia al agua : 21.0
+		% resistencia al aire : 13.0
+		% resistencia al fuego : 23.0
+		% resistencia neutral : 15.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		huida : 94.0
+		iniciativa : 3016.0
+		placaje : 67.0
+		potencia (daños generales) : 140.0
+		vitalidad : 4000.0
+	Characteristics:
+		agilidad: 714.0
+		inteligencia: 874.0
+		fuerza: 694.0
+		suerte: 734.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo Rtografiko	200	24035
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Cuadrifolio	193	18700
+		Mulagua	Mulagua ciruela y esmeralda	60	33109
+		Sombrero	Casco de Miauvizor	200	17579
+		Trofeo	Sabio mayor	150	12719
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			13642, # Anillo de Noai Aludem
+			24035, # Anillo Rtografiko
+			19986, # Arco de vueloceronte
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			19983, # Cinturón de vueloceronte
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18700, # Cuadrifolio
+			33109, # Mulagua ciruela y esmeralda
+			17579, # Casco de Miauvizor
+			12719, # Sabio mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxOTk4NCwyNDAzNSwxMzY0MiwxOTk4MywxNzU3OCwxOTk4NiwxODcwMCwzMzEwOSxudWxsLDc3NTQsMTgwNDMsNzM5LDEzODI1LDEyNzE5LDcwNDNdfQ
+Solution 6:
+	Fitness: 2226.0548799999997
+	Weapon damage: 1480.0544
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1930.0439999999999
+	Push damage: 264.0
+	Spell healing: 128.1
+	Weapon healing: 0
+	Preferences:
+		% crítico : 88.0
+		% resistencia a la tierra : 30.0
+		% resistencia al agua : 21.0
+		% resistencia al aire : 13.0
+		% resistencia al fuego : 23.0
+		% resistencia neutral : 15.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		huida : 94.0
+		iniciativa : 3016.0
+		placaje : 67.0
+		potencia (daños generales) : 140.0
+		vitalidad : 4000.0
+	Characteristics:
+		agilidad: 714.0
+		inteligencia: 814.0
+		fuerza: 754.0
+		suerte: 734.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo Rtografiko	200	24035
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Cuadrifolio	193	18700
+		Mulagua	Mulagua ciruela y esmeralda	60	33109
+		Sombrero	Casco de Miauvizor	200	17579
+		Trofeo	Furibundo mayor	150	12724
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			13642, # Anillo de Noai Aludem
+			24035, # Anillo Rtografiko
+			19986, # Arco de vueloceronte
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			19983, # Cinturón de vueloceronte
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18700, # Cuadrifolio
+			33109, # Mulagua ciruela y esmeralda
+			17579, # Casco de Miauvizor
+			12724, # Furibundo mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxOTk4NCwyNDAzNSwxMzY0MiwxOTk4MywxNzU3OCwxOTk4NiwxODcwMCwzMzEwOSxudWxsLDc3NTQsMTgwNDMsNzM5LDEzODI1LDEyNzI0LDcwNDNdfQ
+Solution 7:
+	Fitness: 2226.0548799999997
+	Weapon damage: 1480.0544
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1930.0439999999999
+	Push damage: 264.0
+	Spell healing: 128.10000000000002
+	Weapon healing: 0
+	Preferences:
+		% crítico : 88.0
+		% resistencia a la tierra : 30.0
+		% resistencia al agua : 21.0
+		% resistencia al aire : 13.0
+		% resistencia al fuego : 23.0
+		% resistencia neutral : 15.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		huida : 94.0
+		iniciativa : 3016.0
+		placaje : 67.0
+		potencia (daños generales) : 140.0
+		vitalidad : 4000.0
+	Characteristics:
+		agilidad: 714.0
+		inteligencia: 814.0
+		fuerza: 694.0
+		suerte: 794.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo Rtografiko	200	24035
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Cuadrifolio	193	18700
+		Mulagua	Mulagua ciruela y esmeralda	60	33109
+		Sombrero	Casco de Miauvizor	200	17579
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			13642, # Anillo de Noai Aludem
+			24035, # Anillo Rtografiko
+			19986, # Arco de vueloceronte
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			19983, # Cinturón de vueloceronte
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18700, # Cuadrifolio
+			33109, # Mulagua ciruela y esmeralda
+			17579, # Casco de Miauvizor
+			12716, # Jugador mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxOTk4NCwyNDAzNSwxMzY0MiwxOTk4MywxNzU3OCwxOTk4NiwxODcwMCwzMzEwOSxudWxsLDc3NTQsMTgwNDMsNzM5LDEzODI1LDEyNzE2LDcwNDNdfQ
+Solution 8:
+	Fitness: 2198.1436666666664
+	Weapon damage: 1456.6060000000002
+		Weapon: Varita de Torkelonia
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:1955.3759999999997
+	Push damage: 222.0
+	Spell healing: 112.35000000000001
+	Weapon healing: 0
+	Preferences:
+		% crítico : 87.0
+		% resistencia a la tierra : 18.0
+		% resistencia al agua : 26.0
+		% resistencia al aire : 24.0
+		% resistencia al fuego : 31.0
+		% resistencia neutral : 10.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		huida : 115.0
+		iniciativa : 2896.0
+		placaje : 91.0
+		potencia (daños generales) : 70.0
+		vitalidad : 4000.0
+	Characteristics:
+		agilidad: 794.0
+		inteligencia: 684.0
+		fuerza: 844.0
+		suerte: 274.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Lonyon	200	15433
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de kukoloide	200	14092
+		Bota	Botas de kukoloide	200	14093
+		Capa	Caparazón de Torkelonia	200	21230
+		Cinturón	Cinturón de Lonyon	200	15432
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de kukoloide	200	18718
+		Mulagua	Mulagua ciruela y esmeralda	60	33109
+		Sombrero	Cuerno de Torkelonia	200	21235
+		Trofeo	Acróbata mayor	150	12714
+		Trofeo	Potente mayor	150	13825
+		Varita	Varita de Torkelonia	200	21229
+	Penalized: False
+	Chromosome: [
+			15433, # Amuleto de Lonyon
+			13642, # Anillo de Noai Aludem
+			14092, # Anillo de kukoloide
+			14093, # Botas de kukoloide
+			21230, # Caparazón de Torkelonia
+			15432, # Cinturón de Lonyon
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18718, # Escudo de kukoloide
+			33109, # Mulagua ciruela y esmeralda
+			21235, # Cuerno de Torkelonia
+			12714, # Acróbata mayor
+			13825, # Potente mayor
+			21229, # Varita de Torkelonia
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsyMTIzNSwyMTIzMCwxNTQzMywxNDA5MiwxMzY0MiwxNTQzMiwxNDA5MywyMTIyOSwxODcxOCwzMzEwOSxudWxsLDc3NTQsMTgwNDMsNzM5LDcwNDMsMTM4MjUsMTI3MTRdfQ
+Solution 9:
+	Fitness: 2185.1839999999997
+	Weapon damage: 1500.0800000000002
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1885.168
+	Push damage: 424.0
+	Spell healing: 384.1
+	Weapon healing: 0
+	Preferences:
+		% crítico : 91.0
+		% resistencia a la tierra : 38.0
+		% resistencia al agua : 27.0
+		% resistencia al aire : 21.0
+		% resistencia al fuego : 17.0
+		% resistencia neutral : 22.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		huida : 83.0
+		iniciativa : 3876.0
+		placaje : 56.0
+		potencia (daños generales) : 170.0
+		vitalidad : 3850.0
+	Characteristics:
+		agilidad: 634.0
+		inteligencia: 734.0
+		fuerza: 524.0
+		suerte: 484.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo trithón	200	18029
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capa de Golosorak	200	32237
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de Golosorak	200	32239
+		Mulagua	Mulagua ciruela y dorada	60	33107
+		Sombrero	Gorro de Noai Aludem	198	13641
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			13642, # Anillo de Noai Aludem
+			18029, # Anillo trithón
+			19986, # Arco de vueloceronte
+			13643, # Getas de Noai Aludem
+			32237, # Capa de Golosorak
+			19983, # Cinturón de vueloceronte
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			32239, # Escudo de Golosorak
+			33107, # Mulagua ciruela y dorada
+			13641, # Gorro de Noai Aludem
+			12716, # Jugador mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMzY0MSwzMjIzNywxOTk4NCwxMzY0MiwxODAyOSwxOTk4MywxMzY0MywxOTk4NiwzMjIzOSwzMzEwNyxudWxsLDc3NTQsMTgwNDMsNzM5LDEzODI1LDEyNzE2LDcwNDNdfQ
+Solution 10:
+	Fitness: 2162.567333333333
+	Weapon damage: 1423.1
+		Weapon: Varita de Torkelonia
+		AP Cost: 6
+		Casts per turn: 1
+	Spell damage:1925.3839999999998
+	Push damage: 222.0
+	Spell healing: 114.60000000000001
+	Weapon healing: 0
+	Preferences:
+		% crítico : 93.0
+		% resistencia a la tierra : 18.0
+		% resistencia al agua : 26.0
+		% resistencia al aire : 24.0
+		% resistencia al fuego : 31.0
+		% resistencia neutral : 10.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		huida : 115.0
+		iniciativa : 2956.0
+		placaje : 91.0
+		potencia (daños generales) : 70.0
+		vitalidad : 4000.0
+	Characteristics:
+		agilidad: 794.0
+		inteligencia: 744.0
+		fuerza: 844.0
+		suerte: 274.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de Lonyon	200	15433
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de kukoloide	200	14092
+		Bota	Botas de kukoloide	200	14093
+		Capa	Caparazón de Torkelonia	200	21230
+		Cinturón	Cinturón de Lonyon	200	15432
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de kukoloide	200	18718
+		Mulagua	Mulagua ciruela y esmeralda	60	33109
+		Sombrero	Cuerno de Torkelonia	200	21235
+		Trofeo	Acróbata mayor	150	12714
+		Trofeo	Sabio mayor	150	12719
+		Trofeo	Potente mayor	150	13825
+		Varita	Varita de Torkelonia	200	21229
+	Penalized: False
+	Chromosome: [
+			15433, # Amuleto de Lonyon
+			13642, # Anillo de Noai Aludem
+			14092, # Anillo de kukoloide
+			14093, # Botas de kukoloide
+			21230, # Caparazón de Torkelonia
+			15432, # Cinturón de Lonyon
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18718, # Escudo de kukoloide
+			33109, # Mulagua ciruela y esmeralda
+			21235, # Cuerno de Torkelonia
+			12714, # Acróbata mayor
+			12719, # Sabio mayor
+			13825, # Potente mayor
+			21229, # Varita de Torkelonia
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsyMTIzNSwyMTIzMCwxNTQzMywxNDA5MiwxMzY0MiwxNTQzMiwxNDA5MywyMTIyOSwxODcxOCwzMzEwOSxudWxsLDc3NTQsMTgwNDMsNzM5LDEyNzE5LDEzODI1LDEyNzE0XX0
+Solution 11:
+	Fitness: 2126.7848799999997
+	Weapon damage: 1364.5544
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1853.8739999999998
+	Push damage: 264.0
+	Spell healing: 193.35
+	Weapon healing: 0
+	Preferences:
+		% crítico : 88.0
+		% resistencia a la tierra : 45.0
+		% resistencia al agua : 33.0
+		% resistencia al aire : 15.0
+		% resistencia al fuego : 35.0
+		% resistencia neutral : 20.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		huida : 97.0
+		iniciativa : 3156.0
+		placaje : 76.0
+		potencia (daños generales) : 180.0
+		vitalidad : 4000.0
+	Characteristics:
+		agilidad: 804.0
+		inteligencia: 804.0
+		fuerza: 804.0
+		suerte: 744.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de vueloceronte	200	19985
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Botón de Psikopomzopato	200	32245
+		Mulagua	Mulagua ciruela y esmeralda	60	33109
+		Sombrero	Casco de Miauvizor	200	17579
+		Trofeo	Acróbata mayor	150	12714
+		Trofeo	Furibundo mayor	150	12724
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			13642, # Anillo de Noai Aludem
+			19985, # Anillo de vueloceronte
+			19986, # Arco de vueloceronte
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			19983, # Cinturón de vueloceronte
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			32245, # Botón de Psikopomzopato
+			33109, # Mulagua ciruela y esmeralda
+			17579, # Casco de Miauvizor
+			12714, # Acróbata mayor
+			12724, # Furibundo mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxOTk4NCwxOTk4NSwxMzY0MiwxOTk4MywxNzU3OCwxOTk4NiwzMjI0NSwzMzEwOSxudWxsLDc3NTQsMTgwNDMsNzM5LDEzODI1LDEyNzE0LDEyNzI0XX0
+Solution 12:
+	Fitness: 2126.7848799999997
+	Weapon damage: 1364.5544
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1853.8739999999998
+	Push damage: 264.0
+	Spell healing: 131.85000000000002
+	Weapon healing: 0
+	Preferences:
+		% crítico : 88.0
+		% resistencia a la tierra : 35.0
+		% resistencia al agua : 33.0
+		% resistencia al aire : 15.0
+		% resistencia al fuego : 25.0
+		% resistencia neutral : 20.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		huida : 93.0
+		iniciativa : 3116.0
+		placaje : 42.0
+		potencia (daños generales) : 190.0
+		vitalidad : 4050.0
+	Characteristics:
+		agilidad: 764.0
+		inteligencia: 804.0
+		fuerza: 804.0
+		suerte: 744.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de vueloceronte	200	19985
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo espejo	200	32115
+		Mulagua	Mulagua ciruela y esmeralda	60	33109
+		Sombrero	Casco de Miauvizor	200	17579
+		Trofeo	Acróbata mayor	150	12714
+		Trofeo	Furibundo mayor	150	12724
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			13642, # Anillo de Noai Aludem
+			19985, # Anillo de vueloceronte
+			19986, # Arco de vueloceronte
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			19983, # Cinturón de vueloceronte
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			32115, # Escudo espejo
+			33109, # Mulagua ciruela y esmeralda
+			17579, # Casco de Miauvizor
+			12714, # Acróbata mayor
+			12724, # Furibundo mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxOTk4NCwxOTk4NSwxMzY0MiwxOTk4MywxNzU3OCwxOTk4NiwzMjExNSwzMzEwOSxudWxsLDc3NTQsMTgwNDMsNzM5LDEzODI1LDEyNzE0LDEyNzI0XX0
+Solution 13:
+	Fitness: 2126.7848799999997
+	Weapon damage: 1364.5544
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1853.8739999999998
+	Push damage: 344.0
+	Spell healing: 131.85000000000002
+	Weapon healing: 0
+	Preferences:
+		% crítico : 88.0
+		% resistencia a la tierra : 35.0
+		% resistencia al agua : 33.0
+		% resistencia al aire : 15.0
+		% resistencia al fuego : 25.0
+		% resistencia neutral : 25.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		huida : 93.0
+		iniciativa : 3116.0
+		placaje : 87.0
+		potencia (daños generales) : 190.0
+		vitalidad : 4000.0
+	Characteristics:
+		agilidad: 764.0
+		inteligencia: 804.0
+		fuerza: 804.0
+		suerte: 744.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo de vueloceronte	200	19985
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudístiko	200	18692
+		Mulagua	Mulagua ciruela y esmeralda	60	33109
+		Sombrero	Casco de Miauvizor	200	17579
+		Trofeo	Acróbata mayor	150	12714
+		Trofeo	Furibundo mayor	150	12724
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			13642, # Anillo de Noai Aludem
+			19985, # Anillo de vueloceronte
+			19986, # Arco de vueloceronte
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			19983, # Cinturón de vueloceronte
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18692, # Escudístiko
+			33109, # Mulagua ciruela y esmeralda
+			17579, # Casco de Miauvizor
+			12714, # Acróbata mayor
+			12724, # Furibundo mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxOTk4NCwxOTk4NSwxMzY0MiwxOTk4MywxNzU3OCwxOTk4NiwxODY5MiwzMzEwOSxudWxsLDc3NTQsMTgwNDMsNzM5LDEzODI1LDEyNzE0LDEyNzI0XX0
+Solution 14:
+	Fitness: 2121.12662
+	Weapon damage: 1442.1531
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1832.696
+	Push damage: 264.0
+	Spell healing: 164.28750000000002
+	Weapon healing: 0
+	Preferences:
+		% crítico : 87.0
+		% resistencia a la tierra : 33.0
+		% resistencia al agua : 21.0
+		% resistencia al aire : 15.0
+		% resistencia al fuego : 27.0
+		% resistencia neutral : 15.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		huida : 121.0
+		iniciativa : 2801.0
+		placaje : 93.0
+		potencia (daños generales) : 110.0
+		vitalidad : 4450.0
+	Characteristics:
+		agilidad: 734.0
+		inteligencia: 644.0
+		fuerza: 739.0
+		suerte: 584.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo traicionero	199	14054
+		Anillo	Anillo Rtografiko	200	24035
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas traicioneras	198	14056
+		Capa	Dorsal de Willorca	200	34332
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de kukoloide	200	18718
+		Mulagua	Mulagua ciruela y esmeralda	60	33109
+		Sombrero	Sombrero traicionero	197	14053
+		Trofeo	Furibundo mayor	150	12724
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			14054, # Anillo traicionero
+			24035, # Anillo Rtografiko
+			19986, # Arco de vueloceronte
+			14056, # Botas traicioneras
+			34332, # Dorsal de Willorca
+			19983, # Cinturón de vueloceronte
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18718, # Escudo de kukoloide
+			33109, # Mulagua ciruela y esmeralda
+			14053, # Sombrero traicionero
+			12724, # Furibundo mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNDA1MywzNDMzMiwxOTk4NCwxNDA1NCwyNDAzNSwxOTk4MywxNDA1NiwxOTk4NiwxODcxOCwzMzEwOSxudWxsLDc3NTQsMTgwNDMsNzM5LDcwNDMsMTI3MjQsMTM4MjVdfQ
+Solution 15:
+	Fitness: 2121.12662
+	Weapon damage: 1442.1531
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1832.696
+	Push damage: 264.0
+	Spell healing: 164.2875
+	Weapon healing: 0
+	Preferences:
+		% crítico : 87.0
+		% resistencia a la tierra : 33.0
+		% resistencia al agua : 21.0
+		% resistencia al aire : 15.0
+		% resistencia al fuego : 27.0
+		% resistencia neutral : 15.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		huida : 121.0
+		iniciativa : 2801.0
+		placaje : 93.0
+		potencia (daños generales) : 110.0
+		vitalidad : 4450.0
+	Characteristics:
+		agilidad: 734.0
+		inteligencia: 704.0
+		fuerza: 679.0
+		suerte: 584.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo traicionero	199	14054
+		Anillo	Anillo Rtografiko	200	24035
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas traicioneras	198	14056
+		Capa	Dorsal de Willorca	200	34332
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de kukoloide	200	18718
+		Mulagua	Mulagua ciruela y esmeralda	60	33109
+		Sombrero	Sombrero traicionero	197	14053
+		Trofeo	Sabio mayor	150	12719
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			14054, # Anillo traicionero
+			24035, # Anillo Rtografiko
+			19986, # Arco de vueloceronte
+			14056, # Botas traicioneras
+			34332, # Dorsal de Willorca
+			19983, # Cinturón de vueloceronte
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18718, # Escudo de kukoloide
+			33109, # Mulagua ciruela y esmeralda
+			14053, # Sombrero traicionero
+			12719, # Sabio mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNDA1MywzNDMzMiwxOTk4NCwxNDA1NCwyNDAzNSwxOTk4MywxNDA1NiwxOTk4NiwxODcxOCwzMzEwOSxudWxsLDc3NTQsMTgwNDMsNzM5LDcwNDMsMTI3MTksMTM4MjVdfQ
+Solution 16:
+	Fitness: 2107.3090199999997
+	Weapon damage: 1399.4651
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1827.416
+	Push damage: 264.0
+	Spell healing: 164.2875
+	Weapon healing: 0
+	Preferences:
+		% crítico : 87.0
+		% resistencia a la tierra : 33.0
+		% resistencia al agua : 21.0
+		% resistencia al aire : 15.0
+		% resistencia al fuego : 27.0
+		% resistencia neutral : 15.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		huida : 121.0
+		iniciativa : 2801.0
+		placaje : 93.0
+		potencia (daños generales) : 190.0
+		vitalidad : 4450.0
+	Characteristics:
+		agilidad: 734.0
+		inteligencia: 704.0
+		fuerza: 679.0
+		suerte: 584.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo traicionero	199	14054
+		Anillo	Anillo Rtografiko	200	24035
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas traicioneras	198	14056
+		Capa	Dorsal de Willorca	200	34332
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo de kukoloide	200	18718
+		Mulagua	Mulagua ciruela y esmeralda	60	33109
+		Sombrero	Sombrero traicionero	197	14053
+		Trofeo	Sabio mayor	150	12719
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			14054, # Anillo traicionero
+			24035, # Anillo Rtografiko
+			19986, # Arco de vueloceronte
+			14056, # Botas traicioneras
+			34332, # Dorsal de Willorca
+			19983, # Cinturón de vueloceronte
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18718, # Escudo de kukoloide
+			33109, # Mulagua ciruela y esmeralda
+			14053, # Sombrero traicionero
+			12719, # Sabio mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNDA1MywzNDMzMiwxOTk4NCwxNDA1NCwyNDAzNSwxOTk4MywxNDA1NiwxOTk4NiwxODcxOCwzMzEwOSxudWxsLDc3NTQsMTgwNDMsNzM5LDY5NCwxMjcxOSwxMzgyNV19
+Solution 17:
+	Fitness: 2098.8285
+	Weapon damage: 1399.7799999999997
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1818.8725000000002
+	Push damage: 264.0
+	Spell healing: 160.91250000000002
+	Weapon healing: 0
+	Preferences:
+		% crítico : 90.0
+		% resistencia a la tierra : 25.0
+		% resistencia al agua : 26.0
+		% resistencia al aire : 15.0
+		% resistencia al fuego : 25.0
+		% resistencia neutral : 15.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		huida : 124.0
+		iniciativa : 2711.0
+		placaje : 78.0
+		potencia (daños generales) : 190.0
+		vitalidad : 4200.0
+	Characteristics:
+		agilidad: 724.0
+		inteligencia: 694.0
+		fuerza: 619.0
+		suerte: 574.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Anillo traicionero	199	14054
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas traicioneras	198	14056
+		Capa	Dorsal de Willorca	200	34332
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo alveolado	199	18712
+		Mulagua	Mulagua ciruela y esmeralda	60	33109
+		Sombrero	Sombrero traicionero	197	14053
+		Trofeo	Sabio mayor	150	12719
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			13642, # Anillo de Noai Aludem
+			14054, # Anillo traicionero
+			19986, # Arco de vueloceronte
+			14056, # Botas traicioneras
+			34332, # Dorsal de Willorca
+			19983, # Cinturón de vueloceronte
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18712, # Escudo alveolado
+			33109, # Mulagua ciruela y esmeralda
+			14053, # Sombrero traicionero
+			12719, # Sabio mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNDA1MywzNDMzMiwxOTk4NCwxNDA1NCwxMzY0MiwxOTk4MywxNDA1NiwxOTk4NiwxODcxMiwzMzEwOSxudWxsLDc3NTQsMTgwNDMsNzM5LDY5NCwxMjcxOSwxMzgyNV19
+Solution 18:
+	Fitness: 2097.3544199999997
+	Weapon damage: 1394.0921
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1818.5359999999998
+	Push damage: 264.0
+	Spell healing: 163.16250000000002
+	Weapon healing: 0
+	Preferences:
+		% crítico : 87.0
+		% resistencia a la tierra : 25.0
+		% resistencia al agua : 21.0
+		% resistencia al aire : 18.0
+		% resistencia al fuego : 28.0
+		% resistencia neutral : 15.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		huida : 130.0
+		iniciativa : 2771.0
+		placaje : 82.0
+		potencia (daños generales) : 190.0
+		vitalidad : 4400.0
+	Characteristics:
+		agilidad: 724.0
+		inteligencia: 694.0
+		fuerza: 619.0
+		suerte: 634.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Anillo traicionero	199	14054
+		Anillo	Anillo Rtografiko	200	24035
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas traicioneras	198	14056
+		Capa	Dorsal de Willorca	200	34332
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Escudo alveolado	199	18712
+		Mulagua	Mulagua ciruela y esmeralda	60	33109
+		Sombrero	Sombrero traicionero	197	14053
+		Trofeo	Sabio mayor	150	12719
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			14054, # Anillo traicionero
+			24035, # Anillo Rtografiko
+			19986, # Arco de vueloceronte
+			14056, # Botas traicioneras
+			34332, # Dorsal de Willorca
+			19983, # Cinturón de vueloceronte
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18712, # Escudo alveolado
+			33109, # Mulagua ciruela y esmeralda
+			14053, # Sombrero traicionero
+			12719, # Sabio mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNDA1MywzNDMzMiwxOTk4NCwxNDA1NCwyNDAzNSwxOTk4MywxNDA1NiwxOTk4NiwxODcxMiwzMzEwOSxudWxsLDc3NTQsMTgwNDMsNzM5LDY5NCwxMjcxOSwxMzgyNV19
+Solution 19:
+	Fitness: 2096.252
+	Weapon damage: 1271.13
+		Weapon: Arco de Tentenhuevo
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1842.0259999999998
+	Push damage: 524.0
+	Spell healing: 162.60000000000002
+	Weapon healing: 0
+	Preferences:
+		% crítico : 92.0
+		% resistencia a la tierra : 14.0
+		% resistencia al agua : 28.0
+		% resistencia al aire : 28.0
+		% resistencia al fuego : 36.0
+		% resistencia neutral : 17.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		huida : 58.0
+		iniciativa : 3055.0
+		placaje : 77.0
+		potencia (daños generales) : 225.0
+		vitalidad : 3850.0
+	Characteristics:
+		agilidad: 584.0
+		inteligencia: 684.0
+		fuerza: 694.0
+		suerte: 694.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Talismán Tira	200	14169
+		Anillo	Anillo de Noai Aludem	197	13642
+		Anillo	Rosca de Mecanimut	200	32240
+		Arco	Arco de Tentenhuevo	200	32235
+		Bota	Getas de Noai Aludem	196	13643
+		Capa	Capa Ordiosera	200	14161
+		Cinturón	Cinto Dovencible	200	14162
+		Dofus	Dofus Púrpura	110	694
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus de los hielos	180	7043
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Disco de Tentenhuevo	200	32236
+		Mascota	Microsmoglob	20	31885
+		Sombrero	Corona de Golosotrón Real	195	12116
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			14169, # Talismán Tira
+			13642, # Anillo de Noai Aludem
+			32240, # Rosca de Mecanimut
+			32235, # Arco de Tentenhuevo
+			13643, # Getas de Noai Aludem
+			14161, # Capa Ordiosera
+			14162, # Cinto Dovencible
+			694, # Dofus Púrpura
+			739, # Dofus Turquesa
+			7043, # Dofus de los hielos
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			32236, # Disco de Tentenhuevo
+			31885, # Microsmoglob
+			12116, # Corona de Golosotrón Real
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxMjExNiwxNDE2MSwxNDE2OSwxMzY0MiwzMjI0MCwxNDE2MiwxMzY0MywzMjIzNSwzMjIzNiwzMTg4NSxudWxsLDc3NTQsMTgwNDMsNzM5LDY5NCw3MDQzLDEzODI1XX0
+Solution 20:
+	Fitness: 2092.784
+	Weapon damage: 1357.8799999999999
+		Weapon: Arco de vueloceronte
+		AP Cost: 5
+		Casts per turn: 1
+	Spell damage:1821.208
+	Push damage: 264.0
+	Spell healing: 129.60000000000002
+	Weapon healing: 0
+	Preferences:
+		% crítico : 91.0
+		% resistencia a la tierra : 30.0
+		% resistencia al agua : 13.0
+		% resistencia al aire : 13.0
+		% resistencia al fuego : 33.0
+		% resistencia neutral : 15.0
+		PA : 12.0
+		PM : 6.0
+		alcance : 6.0
+		huida : 83.0
+		iniciativa : 3056.0
+		placaje : 65.0
+		potencia (daños generales) : 140.0
+		vitalidad : 4150.0
+	Characteristics:
+		agilidad: 654.0
+		inteligencia: 864.0
+		fuerza: 744.0
+		suerte: 794.0
+	Items:
+		Type	Description	Level	ID
+		Amuleto	Amuleto de vueloceronte	200	19984
+		Anillo	Sello del rey jugador	200	17574
+		Anillo	Anillo Rtografiko	200	24035
+		Arco	Arco de vueloceronte	200	19986
+		Bota	Botas de Miauvizor	200	17578
+		Capa	Capa de Miauvizor	200	17580
+		Cinturón	Cinturón de vueloceronte	200	19983
+		Dofus	Dofus Turquesa	160	739
+		Dofus	Dofus Ocre	160	7754
+		Dofus	Dofus abisal	180	18043
+		Escudo	Cuadrifolio	193	18700
+		Mulagua	Mulagua ciruela y esmeralda	60	33109
+		Sombrero	Casco de Miauvizor	200	17579
+		Trofeo	Jugador mayor	150	12716
+		Trofeo	Sabio mayor	150	12719
+		Trofeo	Potente mayor	150	13825
+	Penalized: False
+	Chromosome: [
+			19984, # Amuleto de vueloceronte
+			17574, # Sello del rey jugador
+			24035, # Anillo Rtografiko
+			19986, # Arco de vueloceronte
+			17578, # Botas de Miauvizor
+			17580, # Capa de Miauvizor
+			19983, # Cinturón de vueloceronte
+			739, # Dofus Turquesa
+			7754, # Dofus Ocre
+			18043, # Dofus abisal
+			18700, # Cuadrifolio
+			33109, # Mulagua ciruela y esmeralda
+			17579, # Casco de Miauvizor
+			12716, # Jugador mayor
+			12719, # Sabio mayor
+			13825, # Potente mayor
+			]
+
+Dofus Forge: https://wembie.github.io/dofus-forge/es/?b=v1:eyJ2IjoxLCJjIjoiIiwibCI6MjAwLCJnIjoibSIsImEiOlswLDAsMTc0LDE3NCwxNzQsMTc0XSwicyI6NjAsImUiOlsxNzU3OSwxNzU4MCwxOTk4NCwyNDAzNSwxNzU3NCwxOTk4MywxNzU3OCwxOTk4NiwxODcwMCwzMzEwOSxudWxsLDc3NTQsMTgwNDMsNzM5LDEzODI1LDEyNzE2LDEyNzE5XX0

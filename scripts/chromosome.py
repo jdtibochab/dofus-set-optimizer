@@ -1,5 +1,5 @@
-from utils import damage_mapper, bonus_damage_mapper, elements, steal_damages
-from utils import get_item_contribution, get_set_contribution, get_item_set
+from utils import damage_mapper, heals_mapper, bonus_damage_mapper, elements, steal_damages
+from utils import get_item_contribution, get_set_contribution, get_item_set, normalize_objectives
 import pandas as pd
 
 # TODO: Implement ranged/melee damage bonus
@@ -22,10 +22,7 @@ class Chromosome(object):
         self.character = optimizer.character
         self.preferences = optimizer.config["preferences"]
         self.elements = optimizer.character.config["elements"]
-        self.objective = optimizer.config["objective"]
-        if not isinstance(self.objective, list):
-            # Configs saved before multi-objective support store a single objective
-            self.objective = [self.objective]
+        self.objective = normalize_objectives(optimizer.config["objective"])
         self.viable = True
         self.penalized = False
         self.penalties = []
@@ -144,6 +141,12 @@ class Chromosome(object):
             return self.are_nested_conditions_met(conditions)
     
     def _implement_element_effects(self, totals):
+        """
+        Implement the effects of various elements on the character's totals.
+
+        Args:
+            totals (dict): The current totals of the character's stats.
+        """
         # Prospecting adds 1 point per 10 chance
         prospecting = totals.get(25,0) + totals.get(22,0)//10
         totals[25] = prospecting
@@ -174,25 +177,49 @@ class Chromosome(object):
                 self.set_contributions]).sum(axis=0).to_dict()
         self._implement_element_effects(totals)
         return totals
+
+    def _get_best_characteristic(self, pick_from=None):
+        """
+        Determine the best characteristic based on the character's stats.
+
+        Returns:
+            int: The characteristic ID with the highest corresponding stat.
+        """
+        if pick_from is None:
+            pick_from = elements
+        return max(pick_from, key=lambda s: self.totals.get(s, 0))
+
     
-    def get_weapon_damage(self, weapon, type):
+    def get_weapon_hits(self, weapon, type):
+        """
+        Get the weapon's active damage or heal lines.
+
+        Args:
+            weapon (dict): The weapon data containing its effects.
+            type (str): "weapon" for every damage line, "steal" for life-steal lines only,
+                or "heals" for heal lines only.
+
+        Returns:
+            list: One (effect ID, base value) pair per line, so repeated lines count once each.
+        """
         if not weapon["effects"]:
-            return {}
+            return []
         damage_effects = [d for d in weapon["effects"] if d["active"]]
         if not damage_effects:
-            return {}
-        contributions = {}
+            return []
+        contributions = []
         for d in damage_effects:
             field = "max" if d["min_max_irrelevant"] == 0 else "min"
             element_id = d["element_id"]
             if type == "steal" and element_id not in steal_damages:
                 continue
+            if type == "heals" and element_id not in heals_mapper:
+                continue
             if element_id == 248 or element_id == 257: # Best element flag
-                stats = {i:v for i,v in self.totals.items() if i in damage_mapper.values()}
-                best_stat = sorted(stats,key=lambda x: stats[x])[-1]
-                # Get the element with highest stat
-                element_id = next(d for d,s in damage_mapper.items() if s == best_stat)
-            contributions[element_id] = d[field]
+                # Determine the best element based on the character's stats
+                best_characteristic = self._get_best_characteristic(pick_from=elements)
+                element_id = next(d for d,s in damage_mapper.items() if s == best_characteristic)
+            contributions.append((element_id, d[field]))
         return contributions
 
     def get_final_damage(self, type):
@@ -214,7 +241,7 @@ class Chromosome(object):
         if type == "weapon" or type == "steal":
             if self.weapon is None:
                 return 0
-            dct_damage = self.get_weapon_damage(self.weapon, type=type)
+            dct_damage = self.get_weapon_hits(self.weapon, type=type)
             crit_bonus = self.weapon["criticalHitBonus"] \
                 if not pd.isna(self.weapon["criticalHitBonus"]) else 0
             crit_chance = self.weapon["criticalHitProbability"] \
@@ -227,7 +254,7 @@ class Chromosome(object):
             crit_bonus = 20 / number_of_elements # Default crit bonus
             crit_chance = 5 # Default spell crit chance
 
-            dct_damage = {}
+            dct_damage = []
             seen_stats = []
             for element_id, stat in damage_mapper.items():
                 if stat in seen_stats:
@@ -236,7 +263,7 @@ class Chromosome(object):
                 seen_stats.append(stat)
                 if stat not in self.elements:
                     continue
-                dct_damage[element_id] = spell_damage
+                dct_damage.append((element_id, spell_damage))
 
         # Critical hit logic
         if 29 in self.optimizer.config.get("preferences",{}).get("lower"):
@@ -251,7 +278,8 @@ class Chromosome(object):
 
         # Calculate total damage
         damage = 0
-        for element_id,weapon_base_damage in dct_damage.items():
+        for hit in dct_damage:
+            element_id, weapon_base_damage = hit
             # Get the stat and base damage
             if element_id not in damage_mapper:
                 continue
@@ -384,21 +412,46 @@ class Chromosome(object):
         distance = 2
         return (level/2 + bonus + 32) * distance
 
-    def get_healing(self):
+    def get_spell_healing(self):
         """
-        Get the total healing for the chromosome.
-        The healing is calculated as the sum of all healing-related stats.
+        Get the healing of a reference spell, the healing counterpart of the "elements" objective.
+
+        A 15-base heal is split evenly across the selected elements; each part scales with its
+        characteristic and gets the flat Heals bonus, like one spell line per element.
+        Power does not affect heals.
         """
-        heals_base = 15
+        heals_base = 15 / len(self.elements)
         heals_bonus = self.totals.get(121, 0)
-        inteligence = self.totals.get(13, 0)
-        return heals_base * (inteligence + 100) / 100 + heals_bonus
-    
+        return sum(heals_base * (1 + self.totals.get(char, 0) / 100) + heals_bonus
+                   for char in self.elements)
+
+    def get_weapon_healing(self):
+        """
+        Get the healing of one weapon hit, the healing counterpart of the "weapon" objective.
+
+        Every heal line scales with its element's characteristic and gets the flat Heals bonus.
+        Neutral heals are assumed converted (with a 3.7 forgemagic éclat) to the best selected
+        element. Lines in elements that are not selected are skipped, as for weapon damage.
+        """
+        if self.weapon is None:
+            return 0
+        heals_bonus = self.totals.get(121, 0)
+        healing = 0
+        for element_id, base_healing in self.get_weapon_hits(self.weapon, type="heals"):
+            char = heals_mapper[element_id]
+            if char == -1:
+                char = self._get_best_characteristic(pick_from=self.elements)
+            if char not in self.elements:
+                continue
+            healing += base_healing * (1 + self.totals.get(char, 0) / 100) + heals_bonus
+        return healing
+
     def get_fitness(self):
         """
         Get the fitness of the chromosome based on the objectives.
         The fitness is the sum of the scores of every objective in the list
-        ("weapon", "elements", "steal", "push", "heals"), penalized once at the end.
+        ("weapon", "elements", "steal", "push", "spell-heals", "weapon-heals"),
+        penalized once at the end.
         """
         scores = self.get_objective_scores()
         if scores is NotImplemented:
@@ -420,8 +473,13 @@ class Chromosome(object):
                     _fitness /= ap_cost
             elif objective == "push":
                 _fitness = self.get_push_damage()
-            elif objective == "heals":
-                _fitness = self.get_healing()
+            elif objective == "spell-heals":
+                _fitness = self.get_spell_healing()
+            elif objective == "weapon-heals":
+                _fitness = self.get_weapon_healing()
+                if self.optimizer.config.get("normalize_by_apcost", True) and self.weapon:
+                    # Normalize by AP cost, like weapon damage
+                    _fitness /= self.weapon["apCost"]
             elif isinstance(objective, int):
                 # User provided a integer flag for optimizing an element
                 _fitness = self.totals.get(objective, 0)

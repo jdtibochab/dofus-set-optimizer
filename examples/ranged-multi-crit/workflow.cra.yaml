@@ -12,9 +12,9 @@ env:
     # Repository root (one level above this spec); main.py is run from here
     REPO_ROOT: $(SPECROOT)/..
     
-    # Space-separated objectives whose scores are summed: weapon (weapon hit damage), elements (generic spell damage), steal (weapon life-steal damage), push (push damage)
+    # Space-separated objectives whose scores are summed: weapon (weapon hit damage), elements (generic spell damage), steal (weapon life-steal damage), push (push damage), spell-heals (generic spell healing), weapon-heals (weapon hit healing)
     OBJECTIVE: $(OBJECTIVE)
-    # "true" divides weapon damage by the weapon's AP cost (weapon objective only)
+    # "true" divides the weapon, steal and weapon-heals scores by the weapon's AP cost
     NORMALIZE_BY_APCOST: "true"
     # Space-separated Ankama item IDs that are never used, or "none"
     EXCLUSIONS: "32121 13344" # Meriana
@@ -153,3 +153,11 @@ study:
         echo "Running with flags: ${flags[@]}"
 
         python "${flags[@]}"
+
+  - name: html_report
+    description: Rebuild every run's report.html and write index.html comparing the runs
+    run:
+      cmd: |
+        cd $(REPO_ROOT)
+        python $(REPO_ROOT)/scripts/html_report.py $(OUTPUT_PATH)
+      depends: [run_optimization_*]

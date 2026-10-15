@@ -1,2 +1,0 @@
-Step Name,Job ID,Workspace,State,Run Time,Elapsed Time,Start Time,Submit Time,End Time,Number Restarts,Params
-run_optimization_HEALS.200.MELEE.true.MP.6.OBJ.elements,11790,run_optimization/HEALS.200.MELEE.true.MP.6.OBJ.elements,FINISHED,0d:00h:03m:22s,0d:00h:03m:22s,2026-10-11 17:01:28,2026-10-11 17:01:28,2026-10-11 17:04:50,0,OBJECTIVE:elements;MELEE:true;MP:6;HEALS:200

@@ -40,10 +40,20 @@ _key_to_id = {
 steal_damages = [224, 203, 193, 221, 223, 257]
 
 heals_mapper = {
-    278: 45, # Neutral
+    278: -1, # Neutral, assumed forgemagic-converted (3.7 éclat) to the best selected element
     261: 13, # Fire
-    
 }
+
+OBJECTIVES = ["weapon", "elements", "steal", "push", "spell-heals", "weapon-heals"]
+# Objective names kept so older configs and specs still load
+OBJECTIVE_ALIASES = {"heals": "spell-heals"}
+
+def normalize_objectives(objectives):
+    """Return the objectives as a list, with deprecated names replaced by their current ones."""
+    if not isinstance(objectives, list):
+        # Configs saved before multi-objective support store a single objective
+        objectives = [objectives]
+    return [OBJECTIVE_ALIASES.get(o, o) for o in objectives]
 
 damage_mapper = {
         # Damage
@@ -130,7 +140,7 @@ def parse_args(configure_parser=None):
 
     # Optimizer
     parser.add_argument('--normalize-by-apcost', action='store_true', help='Whether to normalize damage by AP cost', default=False)
-    parser.add_argument('--objective', type=str, nargs='+', help='Objective(s) to optimize; scores of multiple objectives are summed', default=["weapon"], choices=["weapon", "elements", "steal", "push", "heals"])
+    parser.add_argument('--objective', type=str, nargs='+', help='Objective(s) to optimize; scores of multiple objectives are summed', default=["weapon"], choices=OBJECTIVES + list(OBJECTIVE_ALIASES))
 
     parser.add_argument('--reference', type=str, nargs='+', help='Reference items', default=[])
     parser.add_argument('--population-size', type=int, help='Population size for the optimizer', default=100)
@@ -247,7 +257,7 @@ def get_config_from_args(args):
 
             "path": args.path,
             "level_offset": args.level_offset,  # Level offset for items
-            "objective": args.objective,  # Objectives to optimize, their scores are summed
+            "objective": normalize_objectives(args.objective),  # Objectives to optimize, their scores are summed
             "normalize_by_apcost" : args.normalize_by_apcost, # If False, only care about absolute damage regardless of AP costst
             "reference": args.reference,  # Reference items
         },

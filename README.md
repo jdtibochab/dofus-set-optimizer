@@ -5,7 +5,7 @@
 **Value**: Compared to other optimizers, this repo allows you to run optimization parameter sweeps, for example: you want to maximize either weapon or spell damage with a minimum of either 5 or 6 MP (this gives 2x2 = 4 combinations of optimization parameters). Also, the reports allow you to consider sets that might be slightly suboptimal but greatly improve non-objective values.
 
 ## Description of this repo
-This repo contains a genetic-algorithm optimizer that searches the full Dofus 3 item database for the equipment set that maximizes one or more objectives (weapon damage, spell damage, steal damage, push damage or healing, summed when combined) for a given character, while softly enforcing stat targets such as AP, MP, vitality, resistances, crit, lock, initiative, push damage or a minimum heal bonus.
+This repo contains a genetic-algorithm optimizer that searches the full Dofus 3 item database for the equipment set that maximizes one or more objectives (weapon damage, spell damage, steal damage, push damage, spell healing or weapon healing, summed when combined) for a given character, while softly enforcing stat targets such as AP, MP, vitality, resistances, crit, lock, initiative, push damage or a minimum heal bonus.
 
 The optimizer runs several independent "islands" Genetic Algorithm ([PyGAD](https://pygad.readthedocs.io/)) optimizations in parallel, collects the best unique, unpenalized sets found across them, and writes a human-readable report, a CSV comparison table and diagnostic plots. The data is obtained from [dofusdude](https://github.com/dofusdude/dofus3-main).
 
@@ -45,10 +45,19 @@ python scripts/main.py --objective weapon --normalize-by-apcost \
     --islands 8 --max-workers 8
 ```
 
-A healer, maximizing healing with all characteristic points in Intelligence:
+A spell healer, maximizing spell healing with all characteristic points in Intelligence:
 
 ```bash
-python scripts/main.py --objective heals \
+python scripts/main.py --objective spell-heals \
+    --elements int --melee --ranged \
+    --level 200 --scrolled --ap 12 --mp 6 --vit 4000 \
+    --islands 8 --max-workers 8
+```
+
+A weapon healer, maximizing healing per AP of a heal weapon such as the Possessed Hammer (25222):
+
+```bash
+python scripts/main.py --objective weapon-heals --normalize-by-apcost \
     --elements int --melee --ranged \
     --level 200 --scrolled --ap 12 --mp 6 --vit 4000 \
     --islands 8 --max-workers 8
@@ -86,18 +95,19 @@ python scripts/main.py \
 
 | Flag | Default | Description |
 | --- | --- | --- |
-| `--objective` | `weapon` | One or more of `weapon`, `elements`, `steal`, `push`, `heals`. With several (e.g. `--objective elements push`), their scores are added together before penalties are applied. Scores are not rescaled, so damage objectives (typically 1000+) outweigh push and heals (typically a few hundred). |
-| `--normalize-by-apcost` | off | Divide the `weapon` and `steal` scores by the weapon's AP cost. |
+| `--objective` | `weapon` | One or more of `weapon`, `elements`, `steal`, `push`, `spell-heals`, `weapon-heals`. With several (e.g. `--objective elements push` or `--objective spell-heals weapon-heals`), their scores are added together before penalties are applied. Scores are not rescaled, so damage objectives (typically 1000+) outweigh push and spell healing (typically a few hundred). `heals`, the old name of `spell-heals`, is still accepted. |
+| `--normalize-by-apcost` | off | Divide the `weapon`, `steal` and `weapon-heals` scores by the weapon's AP cost. |
 
 What each objective scores:
 
 | Objective | Score |
 | --- | --- |
 | `weapon` | Expected weapon hit damage across the selected elements (crit-weighted when `--crit` is set); divided by AP cost with `--normalize-by-apcost`. |
-| `elements` | Expected damage of a generic 20-base-damage spell in each selected element. |
+| `elements` | Expected damage of a generic spell: 100 base damage split evenly across the selected elements, each part scaled by its characteristic and power plus its flat elemental damage. |
 | `steal` | Like `weapon`, counting only the weapon's life-steal lines; also divided by AP cost with `--normalize-by-apcost`. |
 | `push` | Push damage of a 2-cell push: `(level / 2 + push damage bonus + 32) × 2`. |
-| `heals` | Healing of a reference 15-base heal: `15 × (1 + Intelligence / 100) + Heals bonus`. Use `--elements int` so characteristic points go to Intelligence. |
+| `spell-heals` | Healing of a reference spell, the healing counterpart of `elements`: 15 base healing split evenly across the selected elements, each part scaled by its characteristic plus the flat Heals bonus. With `--elements int` this is `15 × (1 + Intelligence / 100) + Heals`. Power doesn't affect heals. |
+| `weapon-heals` | Healing of one weapon hit, the healing counterpart of `weapon`: every heal line of the weapon scaled by its element's characteristic plus the flat Heals bonus. Neutral heals (most heal weapons since 3.7) are assumed converted with a forgemagic éclat to the best selected element; lines in an element you didn't select are skipped. Divided by AP cost with `--normalize-by-apcost`. Weapons without heal lines score 0. |
 
 **Character**
 
@@ -156,8 +166,8 @@ Each run writes to `--path`:
 | File | Content |
 | --- | --- |
 | `config.json` | Full resolved configuration. |
-| `report.html` | Self-contained page summarizing the run: objective and requirements, a list of all candidate sets with one row each (status, fitness, objective scores, weapon, set bonuses, targets met, items that differ from the best set, Dofus Forge link) that expands to show the set's details (items with icons, set bonuses, damage and healing, characteristics, key stats, any problems), and a table comparing every set's damage, healing and met/missed targets side by side, with each cell colored by how far it sits above or below the other sets in its row (z-score). Open it in a browser. |
-| `report.txt` | One block per candidate set: fitness, weapon, spell and push damage, healing, targeted stats, characteristics, item list (type, name, level, ID), any penalties, the chromosome as a list of IDs, and a Dofus Forge link. |
+| `report.html` | Self-contained page summarizing the run: objective and requirements, a list of all candidate sets with one row each (status, fitness, objective scores, weapon, set bonuses, targets met, items that differ from the best set, Dofus Forge link) that expands to show the set's details (items with icons, set bonuses, damage and healing, characteristics, key stats, any problems), and a table comparing every set's damage, spell and weapon healing, and met/missed targets side by side, with each cell colored by how far it sits above or below the other sets in its row (z-score). Open it in a browser. |
+| `report.txt` | One block per candidate set: fitness, weapon, spell and push damage, spell and weapon healing, targeted stats, characteristics, item list (type, name, level, ID), any penalties, the chromosome as a list of IDs, and a Dofus Forge link. |
 | `summary.csv` | All stat totals side by side, one column per candidate — handy for comparing sets in a spreadsheet. |
 | `pca.png` | PCA of the candidates' stat totals, colored by fitness, with the top stat loadings drawn as arrows. Shows how different the good sets are from each other. |
 | `generations.png` | Best fitness per generation for each island, to check convergence. |

@@ -1,9 +1,9 @@
 #!/bin/bash
 
-cd /Users/jdtibochab/other/dofus-set-optimizer/main/workflows/..
+cd /Users/jdtibochab/other/dofus-set-optimizer/implement-elemental-heals/workflows/..
 
 flags=(
-  "/Users/jdtibochab/other/dofus-set-optimizer/main/workflows/../scripts/main.py"
+  "/Users/jdtibochab/other/dofus-set-optimizer/implement-elemental-heals/workflows/../scripts/main.py"
   "--objective" steal
   "--elements" agi
   "--level" "200"
@@ -18,7 +18,7 @@ flags=(
   "--res-earth" "20"
   "--crit" "0"
   "--range" "0"
-  "--path" "/Users/jdtibochab/other/dofus-set-optimizer/main/workflows/report-sacri-tank_20261013-170018/run_optimization"
+  "--path" "/Users/jdtibochab/other/dofus-set-optimizer/implement-elemental-heals/workflows/report-sacri-tank_20261014-172120/run_optimization"
   "--islands" "16"
   "--max-workers" "8"
   "--language" "es"
@@ -35,8 +35,8 @@ fi
 if [ "32121 20354 13344" != "none" ]; then
   flags+=("--exclusions" 32121 20354 13344)
 fi
-if [ "7754 7115 18043 24034 20366" != "none" ]; then
-  flags+=("--inclusions" 7754 7115 18043 24034 20366)
+if [ "7754 7115 18043 20366" != "none" ]; then
+  flags+=("--inclusions" 7754 7115 18043 20366)
 fi
 if [ "true" = "true" ]; then
   flags+=("--scrolled")
@@ -63,3 +63,4 @@ fi
 echo "Running with flags: ${flags[@]}"
 
 python "${flags[@]}"
+

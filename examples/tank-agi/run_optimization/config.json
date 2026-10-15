@@ -32,7 +32,6 @@
                 7754,
                 7115,
                 18043,
-                24034,
                 20366
             ]
         },
@@ -85,7 +84,7 @@
             },
             "upper": {}
         },
-        "path": "/Users/jdtibochab/other/dofus-set-optimizer/main/workflows/report-sacri-tank_20261013-170018/run_optimization",
+        "path": "/Users/jdtibochab/other/dofus-set-optimizer/implement-elemental-heals/workflows/report-sacri-tank_20261014-172120/run_optimization",
         "level_offset": 10,
         "objective": [
             "steal"

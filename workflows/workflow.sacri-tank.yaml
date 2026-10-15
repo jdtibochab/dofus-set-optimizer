@@ -8,14 +8,14 @@ env:
     # Repository root (one level above this spec); main.py is run from here
     REPO_ROOT: $(SPECROOT)/..
     
-    # Space-separated objectives whose scores are summed: weapon (weapon hit damage), elements (generic spell damage), steal (weapon life-steal damage), push (push damage)
+    # Space-separated objectives whose scores are summed: weapon (weapon hit damage), elements (generic spell damage), steal (weapon life-steal damage), push (push damage), spell-heals (generic spell healing), weapon-heals (weapon hit healing)
     OBJECTIVE: "steal"
-    # "true" divides weapon damage by the weapon's AP cost (weapon objective only)
+    # "true" divides the weapon, steal and weapon-heals scores by the weapon's AP cost
     NORMALIZE_BY_APCOST: "true"
     # Space-separated Ankama item IDs that are never used, or "none"
     EXCLUSIONS: "32121 20354 13344" # Meriana
     # Space-separated Ankama item IDs forced into the set, or "none"
-    INCLUSIONS: "7754 7115 18043 24034 20366" # Dofus inclusions, Axe, Belt
+    INCLUSIONS: "7754 7115 18043 737 20366" # Dofus inclusions, Belt
 
     # Damage elements to optimize for (agi, str, cha, int); characteristic points are split evenly across them
     ELEMENTS: "agi"

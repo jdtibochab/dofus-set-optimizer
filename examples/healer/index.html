@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>report-steamer_20261014-162431</title>
+<style>
+:root {
+  --bg: #f6f6f3; --surface: #ffffff; --surface-2: #f0f0ec; --text: #1d1d1b;
+  --muted: #68685f; --border: #e2e2dc; --accent: #3451b2; --accent-bg: #e8ecfa;
+  --ok: #217a3c; --ok-bg: #e3f3e8; --warn: #9a5800; --warn-bg: #fdf0dc;
+  --bad: #b42323; --bad-bg: #fbe7e7;
+  --z-hi: #2a78d6; --z-lo: #e34948;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141413; --surface: #1d1d1b; --surface-2: #262623; --text: #ecece6;
+    --muted: #a0a097; --border: #34342f; --accent: #8fa6ff; --accent-bg: #232a45;
+    --ok: #6fcf8d; --ok-bg: #18301f; --warn: #f0b45c; --warn-bg: #352812;
+    --bad: #f28b8b; --bad-bg: #3a1c1c;
+    --z-hi: #3987e5; --z-lo: #e66767;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font: 14px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+main { max-width: 1200px; margin: 0 auto; padding: 24px 16px 64px; }
+h1 { font-size: 24px; margin: 0 0 4px; letter-spacing: -0.01em; }
+h2 { font-size: 17px; margin: 32px 0 12px; }
+h3 { font-size: 13px; margin: 0 0 8px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.muted { color: var(--muted); }
+.num { font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+.small { font-size: 12px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 0; }
+.chip {
+  display: inline-flex; align-items: center; gap: 4px; padding: 2px 10px;
+  border-radius: 999px; background: var(--surface-2); border: 1px solid var(--border);
+  font-size: 12px; white-space: nowrap;
+}
+.chip.accent { background: var(--accent-bg); border-color: transparent; color: var(--accent); font-weight: 600; }
+.badge {
+  display: inline-block; padding: 1px 8px; border-radius: 4px; font-size: 12px;
+  font-weight: 600; white-space: nowrap;
+}
+.badge.ok { background: var(--ok-bg); color: var(--ok); }
+.badge.warn { background: var(--warn-bg); color: var(--warn); }
+.badge.bad { background: var(--bad-bg); color: var(--bad); }
+.badge.ref { background: var(--accent-bg); color: var(--accent); }
+.badge.best { background: var(--text); color: var(--bg); }
+.grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+.scroll { overflow-x: auto; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; }
+table { border-collapse: collapse; width: 100%; }
+th, td { padding: 6px 10px; border-bottom: 1px solid var(--border); text-align: left; vertical-align: middle; }
+th { font-size: 12px; color: var(--muted); font-weight: 600; background: var(--surface-2); white-space: nowrap; }
+tr:last-child td { border-bottom: none; }
+.card table th { background: none; padding-left: 0; }
+.card table td { padding-left: 0; }
+th.stat-name, td.stat-name { white-space: nowrap; position: sticky; left: 0; background: var(--surface); z-index: 1; }
+th.stat-name { background: var(--surface-2); }
+td.ok { color: var(--ok); background: var(--ok-bg); }
+td.bad { color: var(--bad); background: var(--bad-bg); font-weight: 600; }
+td.top { font-weight: 700; }
+td.met-ok { color: var(--ok); font-weight: 600; }
+td.met-bad { color: var(--bad); font-weight: 600; }
+td.z-hi-1 { background: color-mix(in srgb, var(--z-hi) 14%, transparent); }
+td.z-hi-2 { background: color-mix(in srgb, var(--z-hi) 30%, transparent); }
+td.z-hi-3 { background: color-mix(in srgb, var(--z-hi) 50%, transparent); }
+td.z-lo-1 { background: color-mix(in srgb, var(--z-lo) 14%, transparent); }
+td.z-lo-2 { background: color-mix(in srgb, var(--z-lo) 30%, transparent); }
+td.z-lo-3 { background: color-mix(in srgb, var(--z-lo) 50%, transparent); }
+.miss { color: var(--bad); font-weight: 700; }
+.pass { color: var(--muted); }
+.z-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; margin: 0 0 10px; }
+.z-legend .swatch { display: inline-block; width: 22px; height: 14px; border-radius: 3px; vertical-align: -2px; margin-right: 4px; border: 1px solid var(--border); }
+tr.objective td.stat-name, tr.objective td.top { color: var(--accent); }
+tr.objective td.stat-name { font-weight: 600; }
+tr.group-end td { border-bottom: 2px solid var(--muted); }
+.icon { width: 32px; height: 32px; object-fit: contain; display: block; }
+.sol-list { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.sol-row {
+  display: grid; grid-template-columns: var(--sol-cols); gap: 12px; align-items: center;
+  padding: 8px 14px; border-bottom: 1px solid var(--border);
+}
+.sol-row > .num { text-align: right; font-variant-numeric: tabular-nums; }
+.sol-row > .met-ok { color: var(--ok); font-weight: 600; }
+.sol-row > .met-bad { color: var(--bad); font-weight: 600; }
+.sol-head { font-size: 12px; color: var(--muted); font-weight: 600; background: var(--surface-2); }
+details.solution:last-child > summary { border-bottom: none; }
+details.solution > summary { list-style: none; cursor: pointer; }
+details.solution > summary:hover { background: var(--surface-2); }
+details.solution > summary::-webkit-details-marker { display: none; }
+.sol-label { font-weight: 600; white-space: nowrap; }
+.sol-label::before { content: "▸"; color: var(--muted); display: inline-block; width: 1.1em; }
+details.solution[open] .sol-label::before { content: "▾"; }
+details.solution.is-best > summary { font-weight: 600; }
+details.solution[open] { box-shadow: inset 3px 0 0 var(--accent); }
+details.solution[open] > summary { background: var(--accent-bg); }
+.sol-body { padding: 16px; display: grid; gap: 16px; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+  border-bottom: 1px solid var(--border); background: var(--bg); }
+details.solution:last-child .sol-body { border-bottom: none; }
+@media (max-width: 860px) {
+  .sol-body { grid-template-columns: minmax(0, 1fr); }
+  .sol-row { display: flex; flex-wrap: wrap; gap: 4px 14px; }
+  .sol-row.sol-head { display: none; }
+  .sol-row > .num { text-align: left; }
+  .sol-row [data-label]::before { content: attr(data-label) ": "; color: var(--muted); font-size: 12px; font-weight: 400; }
+}
+@media (max-width: 600px) { .wide-only { display: none; } }
+.fitness { font-weight: 700; font-variant-numeric: tabular-nums; }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 8px; }
+.stat { background: var(--surface-2); border-radius: 6px; padding: 6px 10px; }
+.stat .label { font-size: 11px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.stat .value { font-size: 16px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.stat.highlight { background: var(--accent-bg); }
+.stat.highlight .value { color: var(--accent); }
+.diff td:first-child { box-shadow: inset 3px 0 0 var(--warn); }
+.issues { margin: 0; padding-left: 18px; color: var(--bad); }
+details.more summary { cursor: pointer; color: var(--accent); font-size: 13px; margin-top: 4px; }
+code.ids { display: block; white-space: pre-wrap; word-break: break-word; background: var(--surface-2); padding: 8px; border-radius: 6px; font-size: 12px; }
+.plots { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+.plots img { width: 100%; height: auto; background: #fff; border-radius: 6px; }
+.stack > * + * { margin-top: 16px; }
+a.ext { float: right; font-size: 13px; font-weight: 500; }
+</style>
+</head>
+<body><main>
+<header><h1>report-steamer_20261014-162431</h1><div class="muted small">4 runs · generated 2026-10-14 16:40</div></header>
+<h2>Runs</h2>
+<div class="scroll"><table>
+<thead><tr><th>ELEMENTS</th><th>HEALS</th><th>MELEE</th><th>MP</th><th>OBJECTIVE</th><th>Report</th><th class="num">Best fitness</th><th class="num">Targets met</th><th>Problems</th>
+<th>Best weapon</th><th class="num">Reference fitness</th><th class="num">Candidates</th></tr></thead>
+<tbody><tr><td class="">cha</td><td class="num">200</td><td class="">true</td><td class="num">6</td><td class="">elements</td><td><a href="run_optimization/ELEMENTS.cha.HEALS.200.MELEE.true.MP.6.OBJ.elements/report.html" title="run_optimization/ELEMENTS.cha.HEALS.200.MELEE.true.MP.6.OBJ.elements">Open ↗</a></td><td class="num">1,832.0</td><td class="num met-ok">10/10</td><td></td><td>Piramvarita</td><td class="num muted">—</td><td class="num">122</td></tr><tr><td class="">cha</td><td class="num">200</td><td class="">true</td><td class="num">6</td><td class="">elements weapon-heals</td><td><a href="run_optimization/ELEMENTS.cha.HEALS.200.MELEE.true.MP.6.OBJ.elements_weapon-heals/report.html" title="run_optimization/ELEMENTS.cha.HEALS.200.MELEE.true.MP.6.OBJ.elements_weapon-heals">Open ↗</a></td><td class="num">2,054.8</td><td class="num met-ok">10/10</td><td></td><td>Martillo poseído</td><td class="num muted">—</td><td class="num">112</td></tr><tr><td class="">int</td><td class="num">200</td><td class="">true</td><td class="num">6</td><td class="">elements</td><td><a href="run_optimization/ELEMENTS.int.HEALS.200.MELEE.true.MP.6.OBJ.elements/report.html" title="run_optimization/ELEMENTS.int.HEALS.200.MELEE.true.MP.6.OBJ.elements">Open ↗</a></td><td class="num">1,892</td><td class="num met-ok">10/10</td><td></td><td>Arco Honte</td><td class="num muted">—</td><td class="num">124</td></tr><tr><td class="">int</td><td class="num">200</td><td class="">true</td><td class="num">6</td><td class="">elements weapon-heals</td><td><a href="run_optimization/ELEMENTS.int.HEALS.200.MELEE.true.MP.6.OBJ.elements_weapon-heals/report.html" title="run_optimization/ELEMENTS.int.HEALS.200.MELEE.true.MP.6.OBJ.elements_weapon-heals">Open ↗</a></td><td class="num">2,211.3</td><td class="num met-ok">10/10</td><td></td><td>Varita de Malefíscof</td><td class="num muted">—</td><td class="num">173</td></tr></tbody></table></div></main></body>
+</html>

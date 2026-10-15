@@ -1,0 +1,34 @@
+dependencies:
+  _source: !!set {}
+  html_report: !!set {}
+  run_optimization: !!set {}
+hub_dependencies:
+  _source: !!set {}
+  html_report: !!set
+    run_optimization: null
+  run_optimization: !!set {}
+step_combinations:
+  _source: /Users/jdtibochab/other/dofus-set-optimizer/implement-elemental-heals/workflows/report-steamer_20261014-162431
+  html_report:
+    html_report: html_report
+  run_optimization:
+    run_optimization_ELEMENTS.cha.HEALS.200.MELEE.true.MP.6.OBJ.elements: run_optimization/ELEMENTS.cha.HEALS.200.MELEE.true.MP.6.OBJ.elements
+    run_optimization_ELEMENTS.cha.HEALS.200.MELEE.true.MP.6.OBJ.elements weapon-heals: run_optimization/ELEMENTS.cha.HEALS.200.MELEE.true.MP.6.OBJ.elements_weapon-heals
+    run_optimization_ELEMENTS.int.HEALS.200.MELEE.true.MP.6.OBJ.elements: run_optimization/ELEMENTS.int.HEALS.200.MELEE.true.MP.6.OBJ.elements
+    run_optimization_ELEMENTS.int.HEALS.200.MELEE.true.MP.6.OBJ.elements weapon-heals: run_optimization/ELEMENTS.int.HEALS.200.MELEE.true.MP.6.OBJ.elements_weapon-heals
+used_parameters:
+  _source: !!set {}
+  html_report: !!set {}
+  run_optimization: !!set
+    ELEMENTS: null
+    HEALS: null
+    MELEE: null
+    MP: null
+    OBJECTIVE: null
+workspaces:
+  _source: /Users/jdtibochab/other/dofus-set-optimizer/implement-elemental-heals/workflows/report-steamer_20261014-162431
+  html_report: html_report
+  run_optimization_ELEMENTS.cha.HEALS.200.MELEE.true.MP.6.OBJ.elements: run_optimization/ELEMENTS.cha.HEALS.200.MELEE.true.MP.6.OBJ.elements
+  run_optimization_ELEMENTS.cha.HEALS.200.MELEE.true.MP.6.OBJ.elements weapon-heals: run_optimization/ELEMENTS.cha.HEALS.200.MELEE.true.MP.6.OBJ.elements_weapon-heals
+  run_optimization_ELEMENTS.int.HEALS.200.MELEE.true.MP.6.OBJ.elements: run_optimization/ELEMENTS.int.HEALS.200.MELEE.true.MP.6.OBJ.elements
+  run_optimization_ELEMENTS.int.HEALS.200.MELEE.true.MP.6.OBJ.elements weapon-heals: run_optimization/ELEMENTS.int.HEALS.200.MELEE.true.MP.6.OBJ.elements_weapon-heals

@@ -17,9 +17,9 @@ env:
     # "true" divides the weapon, steal and weapon-heals scores by the weapon's AP cost
     NORMALIZE_BY_APCOST: "true"
     # Space-separated Ankama item IDs that are never used, or "none"
-    EXCLUSIONS: "32121 13344" # Meriana
+    EXCLUSIONS: "13344" # Dolmanax
     # Space-separated Ankama item IDs forced into the set, or "none"
-    INCLUSIONS: "7754 6980 32118" # Dofus inclusions
+    INCLUSIONS: $(INCLUSIONS) # Dofus inclusions
 
     # Damage elements to optimize for (agi, str, cha, int); characteristic points are split evenly across them
     ELEMENTS: $(ELEMENTS)
@@ -67,7 +67,7 @@ env:
     # Target % critical chance (lower bound; 0 = ignore); when set, crits are also weighted into damage
     CRIT: 0
     # Exo bonuses as key:value pairs (e.g. ap:1 mp:1 vit:200), or "none"
-    EXO: "ap:1 mp:1 vit:200 range:1"
+    EXO: $(EXO)
     # Characteristic points invested per stat as key:value pairs (e.g. vit:995), or "none" to split evenly across ELEMENTS
     DISTRIBUTED_POINTS: "none"
     # "true" adds +100 to every characteristic (fully scrolled)

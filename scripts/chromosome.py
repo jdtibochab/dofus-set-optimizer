@@ -96,7 +96,11 @@ class Chromosome(object):
         """
         Check if a condition is met based on the character's totals.
         """
+        from utils import _key_to_id
         total_value = self.totals.get(condition["element_id"], 0)
+        if condition["element_id"] == _key_to_id['vit']:
+            # Only base vitality is considered, subtract the base vitality from the total value
+            total_value -= (55 + (self.character.level - 1) * 5)
         condition_value = condition["value"]
         operator = condition["operator"]
         if operator == "<":

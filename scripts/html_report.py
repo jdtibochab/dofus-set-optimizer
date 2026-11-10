@@ -273,6 +273,7 @@ def _solution_data(chromosome, ctx):
             ("Weapon healing", chromosome.get_weapon_healing(), "weapon-heals"),
         ],
         "weapon": weapon,
+        "maged": chromosome.get_maged_characteristics(),
         "requirements": requirements,
         "issues": issues,
         "status": status,
@@ -442,8 +443,18 @@ def _render_requirements_matrix(data, ctx, has_reference):
                     f'<td class="num muted">—</td>{cells}</tr>')
     cells = "".join(f'<td class="num">{d["weapon"]["apCost"]} / {d["weapon"]["maxCastPerTurn"]}</td>' if d["weapon"]
                     else '<td class="num muted">—</td>' for d in data)
-    rows.append(f'<tr class="metric group-end"><td class="stat-name">Weapon AP / casts</td>'
+    rows.append(f'<tr class="metric"><td class="stat-name">Weapon AP / casts</td>'
                 f'<td class="num muted">—</td>{cells}</tr>')
+
+    # Neutral and best-element weapon lines scale with the best characteristic of each set
+    for kind in ("damage", "heals"):
+        if not any(kind in d["maged"] for d in data):
+            continue
+        cells = "".join(f'<td class="num">{_esc(ctx.stat_label(d["maged"][kind]))}</td>' if kind in d["maged"]
+                        else '<td class="num muted">—</td>' for d in data)
+        rows.append(f'<tr class="metric"><td class="stat-name">Best element ({kind})</td>'
+                    f'<td class="num muted">—</td>{cells}</tr>')
+    rows[-1] = rows[-1].replace('class="metric"', 'class="metric group-end"', 1)
 
     # Requirements: colored by z-score in the direction of the bound, with ✓/✗ for the target
     for r_idx, (bound, stat, target) in enumerate(ctx.requirements):
@@ -513,6 +524,9 @@ def _render_solution(idx, d, ctx, has_reference, best, best_ids, data):
     if d["weapon"]:
         w = d["weapon"]
         metric_cells.append(f'<div class="stat"><div class="label">Weapon AP / casts</div><div class="value">{w["apCost"]} / {w["maxCastPerTurn"]}</div></div>')
+    for kind, char in d["maged"].items():
+        metric_cells.append(f'<div class="stat" title="The weapon\'s neutral and best-element {kind} lines scale with this characteristic">'
+                            f'<div class="label">Best element ({kind})</div><div class="value">{_esc(ctx.stat_label(char))}</div></div>')
 
     req_rows = "".join(
         f'<tr><td>{_esc(ctx.stat_label(r["stat"]))}</td>'

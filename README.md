@@ -167,10 +167,12 @@ Each run writes to `--path`:
 | --- | --- |
 | `config.json` | Full resolved configuration. |
 | `report.html` | Self-contained page summarizing the run: objective and requirements, a list of all candidate sets with one row each (status, fitness, objective scores, weapon, set bonuses, targets met, items that differ from the best set, Dofus Forge link) that expands to show the set's details (items with icons, set bonuses, damage and healing, characteristics, key stats, any problems), and a table comparing every set's damage, spell and weapon healing, and met/missed targets side by side, with each cell colored by how far it sits above or below the other sets in its row (z-score). Open it in a browser. |
-| `report.txt` | One block per candidate set: fitness, weapon, spell and push damage, spell and weapon healing, targeted stats, characteristics, item list (type, name, level, ID), any penalties, the chromosome as a list of IDs, and a Dofus Forge link. |
-| `summary.csv` | All stat totals side by side, one column per candidate — handy for comparing sets in a spreadsheet. |
+| `report.txt` | One block per candidate set: fitness, weapon, the best element of its neutral and best-element weapon lines (see below), spell and push damage, spell and weapon healing, targeted stats, characteristics, item list (type, name, level, ID), any penalties, the chromosome as a list of IDs, and a Dofus Forge link. |
+| `summary.csv` | All stat totals side by side (plus the best element), one column per candidate — handy for comparing sets in a spreadsheet. |
 | `pca.png` | PCA of the candidates' stat totals, colored by fitness, with the top stat loadings drawn as arrows. Shows how different the good sets are from each other. |
 | `generations.png` | Best fitness per generation for each island, to check convergence. |
+
+**Best element.** Many weapons have neutral damage lines (and a few neutral heal lines), and some have a "best element" flag; the optimizer calculates those lines with whichever of your characteristics is highest for that particular set. Each set therefore lists a `Best element (damage)` and, for neutral heals, a `Best element (heals)` in `report.txt`, `summary.csv` and `report.html` (in the set's "Damage and healing" card and as rows of the comparison table). They are left out for weapons without such lines, such as steal-only weapons. Only your `--elements` are considered, so a characteristic you didn't select never becomes the best element.
 
 To build `report.html` for runs made before this existed, or to compare a whole Maestro study, pass run directories or a study directory. A study gets an extra `index.html` listing every run's best set. For a Maestro parameter sweep, each run is shown by its parameter values (one column per swept parameter, read from the study's `meta/parameters.yaml`) instead of its folder name:
 

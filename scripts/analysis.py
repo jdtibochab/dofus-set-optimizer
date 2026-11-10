@@ -11,14 +11,24 @@ from dofus_forge import chromosome_url
 # on-hit weapon effects that share their label with the character's AP/MP
 _EXCLUDED_STATS = [179, 225, 238]
 
+def _element_names(chromosome, df=None):
+    """Localized name of the characteristic each kind of neutral or best-element weapon line scales with."""
+    if df is None:
+        df = chromosome.totals_summary()
+    return {kind: df.loc[char]['description'] for kind, char in chromosome.get_maged_characteristics().items()}
+
 def construct_report_str(chromosome):
     report_lines = []
+    df = chromosome.totals_summary()
     report_lines.append(f"\tFitness: {chromosome.fitness}")
     report_lines.append(f"\tWeapon damage: {chromosome.get_final_damage(type='weapon')}")
     wpn = chromosome.weapon['name'][chromosome.optimizer.config.get('language', 'en')]
     report_lines.append(f"\t\tWeapon: {wpn}")
     report_lines.append(f"\t\tAP Cost: {chromosome.weapon['apCost']}")
     report_lines.append(f"\t\tCasts per turn: {chromosome.weapon['maxCastPerTurn']}")
+    # Neutral and best-element lines scale with whichever characteristic is best for this set
+    for kind, name in _element_names(chromosome, df).items():
+        report_lines.append(f"\t\tBest element ({kind}): {name}")
     dmg = chromosome.get_final_damage(type="elements")
     report_lines.append(f"\tSpell damage:{dmg}")
     push = chromosome.get_push_damage()
@@ -29,7 +39,6 @@ def construct_report_str(chromosome):
     # file.write("\tWas the solution penalized?", solution.penalized)
 
     report_lines.append("\tPreferences:")
-    df = chromosome.totals_summary()
 
     # Include all preferences from the chromosome in the report
     _report_preferences = {
@@ -225,6 +234,8 @@ class Analyzer:
                 _series['Weapon AP cost'] = solution.weapon['apCost']
                 _series['Weapon casts per turn'] = solution.weapon['maxCastPerTurn']
                 _series['Spell damage'] = solution.get_final_damage(type='elements')
+                for kind, name in _element_names(solution).items():
+                    _series[f'Best element ({kind})'] = name
                 # Remove duplicate labels
                 _series = _series[~_series.index.duplicated(keep='first')]
                 _sol_columns.append(_series)

@@ -190,10 +190,39 @@ class Chromosome(object):
             int: The characteristic ID with the highest corresponding stat.
         """
         if pick_from is None:
-            pick_from = elements
+            pick_from = self.elements
         return max(pick_from, key=lambda s: self.totals.get(s, 0))
 
-    
+    def _best_damage_characteristic(self):
+        """Characteristic that neutral and best-element weapon damage lines scale with (best of the selected elements)."""
+        return self._get_best_characteristic(pick_from=self.elements)
+
+    def _best_heal_characteristic(self):
+        """Characteristic that neutral weapon heal lines scale with (best of the selected elements)."""
+        return self._get_best_characteristic(pick_from=self.elements)
+
+    def _is_best_damage_line(self, element_id):
+        """Whether a weapon damage line is a best-element flag or neutral damage maged to the best characteristic."""
+        return element_id == 248 or element_id == 257 or damage_mapper.get(element_id, -2) == -1
+
+    def get_maged_characteristics(self):
+        """
+        Get the characteristic the weapon's neutral and best-element lines were calculated with.
+
+        Returns:
+            dict: "damage" and/or "heals" mapped to a characteristic ID, only for the kinds of
+                line the weapon actually has. Empty when the weapon has none.
+        """
+        if self.weapon is None or not self.weapon["effects"]:
+            return {}
+        lines = [d["element_id"] for d in self.weapon["effects"] if d["active"]]
+        maged = {}
+        if any(self._is_best_damage_line(i) for i in lines):
+            maged["damage"] = self._best_damage_characteristic()
+        if any(heals_mapper.get(i) == -1 for i in lines):
+            maged["heals"] = self._best_heal_characteristic()
+        return maged
+
     def get_weapon_hits(self, weapon, type):
         """
         Get the weapon's active damage or heal lines.
@@ -219,9 +248,9 @@ class Chromosome(object):
                 continue
             if type == "heals" and element_id not in heals_mapper:
                 continue
-            if element_id == 248 or element_id == 257 or damage_mapper.get(element_id, -2) == -1: # Best element flag or neutral maged to best element
+            if self._is_best_damage_line(element_id):
                 # Determine the best element based on the character's stats
-                best_characteristic = self._get_best_characteristic(pick_from=elements)
+                best_characteristic = self._best_damage_characteristic()
                 element_id = next(d for d,s in damage_mapper.items() if s == best_characteristic)
             contributions.append((element_id, d[field]))
         return contributions
@@ -444,7 +473,7 @@ class Chromosome(object):
         for element_id, base_healing in self.get_weapon_hits(self.weapon, type="heals"):
             char = heals_mapper[element_id]
             if char == -1:
-                char = self._get_best_characteristic(pick_from=self.elements)
+                char = self._best_heal_characteristic()
             if char not in self.elements:
                 continue
             healing += base_healing * (1 + self.totals.get(char, 0) / 100) + heals_bonus

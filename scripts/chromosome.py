@@ -219,7 +219,7 @@ class Chromosome(object):
                 continue
             if type == "heals" and element_id not in heals_mapper:
                 continue
-            if element_id == 248 or element_id == 257: # Best element flag
+            if element_id == 248 or element_id == 257 or damage_mapper.get(element_id, -2) == -1: # Best element flag or neutral maged to best element
                 # Determine the best element based on the character's stats
                 best_characteristic = self._get_best_characteristic(pick_from=elements)
                 element_id = next(d for d,s in damage_mapper.items() if s == best_characteristic)

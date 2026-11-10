@@ -61,13 +61,13 @@ damage_mapper = {
             214 : 22, # Water
             198 : 13, # Fire
             194 : 45, # Earth
-            195 : 45, # Neutral (by earth)
+            195 : -1, # Neutral (by earth)
         # Steal
             224 : 36, # Air,
             203 : 22, # Water
             193 : 13, # Fire
             221 : 45, # Earth
-            223 : 45, # Neutral
+            223 : -1, # Neutral
         }
 bonus_damage_mapper = {
         # Damage
